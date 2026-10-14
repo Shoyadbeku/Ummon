@@ -10,6 +10,7 @@ const defaultProps: PalovVideoProps = {
 };
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id="PalovVideo"
     component={PalovVideo}
@@ -21,4 +22,16 @@ export const RemotionRoot: React.FC = () => (
     // Davomiylik ovoz fayllaridan (yoki matndan) avtomatik hisoblanadi
     calculateMetadata={calculatePalovMetadata}
   />
+  {/* Vertikal versiya: YouTube Shorts / Instagram Reels / TikTok (1080×1920) */}
+  <Composition
+    id="PalovShorts"
+    component={PalovVideo}
+    width={1080}
+    height={1920}
+    fps={FPS}
+    durationInFrames={FPS * 60}
+    defaultProps={defaultProps}
+    calculateMetadata={calculatePalovMetadata}
+  />
+  </>
 );

@@ -120,6 +120,24 @@ const synthesize = async (text: string, style: string) => {
   return pcmToWav(Buffer.from(inline.data, 'base64'), rate);
 };
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** Bepul tarif limiti (daqiqasiga bir necha so'rov) — kutib qayta urinadi */
+const synthesizeWithRetry = async (text: string, style: string, attempts = 6) => {
+  for (let i = 1; ; i++) {
+    try {
+      return await synthesize(text, style);
+    } catch (err) {
+      const msg = (err as Error).message;
+      const quota = /quota|rate|429|RESOURCE_EXHAUSTED/i.test(msg);
+      if (!quota || i >= attempts || /per day|PerDay/i.test(msg)) throw err;
+      const wait = Math.max(20, Number(/retry in ([\d.]+)s/i.exec(msg)?.[1] ?? 0) + 2);
+      process.stdout.write(`(limit, ${Math.round(wait)}s kutilmoqda) `);
+      await sleep(wait * 1000);
+    }
+  }
+};
+
 mkdirSync(OUT_DIR, {recursive: true});
 
 for (const scene of SCENES) {
@@ -132,7 +150,7 @@ for (const scene of SCENES) {
   const text = narrationOf(scene);
   process.stdout.write(`🎙  ${scene.id}: "${text}" … `);
   try {
-    const wav = await synthesize(text, scene.ttsStyle);
+    const wav = await synthesizeWithRetry(text, scene.ttsStyle);
     writeFileSync(out, wav);
     if (!RAW) master(out);
     console.log('✓');

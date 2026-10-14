@@ -11,6 +11,7 @@ Tayyor video: [`out/palov-video-github.mp4`](out/palov-video-github.mp4) (CRF 20
 npm install
 npm run dev        # Remotion Studio — jonli ko‘rish va tahrirlash
 npm run render     # out/palov-video.mp4 (1080p, 60fps, CRF 16, x264 slow)
+npm run render:shorts  # out/palov-shorts.mp4 — vertikal 1080×1920 (Shorts / Reels / TikTok)
 npm run assets     # qaysi ovoz/rasm bor, qaysi yo‘q + taymlayn hisob-kitobi
 ```
 

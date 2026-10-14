@@ -2,12 +2,8 @@ import React from 'react';
 import {AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {clamp} from '../../lib/anim';
 import {useScene} from '../../lib/scene-context';
+import {useCard} from '../../lib/layout';
 
-/** Rasm kartasining ekran koordinatalari (1920×1080) */
-export const CARD = {x: 310, y: 96, w: 1300, h: 726};
-
-/** Rasm ichidagi nisbiy nuqta (0..1) → ekran koordinatasi */
-export const cardPoint = (px: number, py: number) => ({x: CARD.x + px * CARD.w, y: CARD.y + py * CARD.h});
 
 export type StageCamera = {scale: number; originX: number; originY: number};
 
@@ -31,6 +27,7 @@ export const PhotoStage: React.FC<{
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const {timing} = useScene();
+  const CARD = useCard();
   const images = timing.images;
   if (images.length === 0) return null;
 

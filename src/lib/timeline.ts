@@ -124,8 +124,6 @@ export const calculatePalovMetadata: CalculateMetadataFunction<PalovVideoProps> 
   return {
     durationInFrames: totalDuration(timeline),
     fps: FPS,
-    width: WIDTH,
-    height: HEIGHT,
     props: {...props, timeline, music},
   };
 };

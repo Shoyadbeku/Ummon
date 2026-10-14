@@ -3,3 +3,4 @@ node_modules/
 *.log
 out/*
 !out/palov-video-github.mp4
+!out/palov-shorts-github.mp4

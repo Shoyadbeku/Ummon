@@ -3,6 +3,7 @@ import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {clamp} from '../../lib/anim';
 import {useScene, useSegmentWindows} from '../../lib/scene-context';
 import {COLORS} from '../../lib/theme';
+import {useCard, useVertical} from '../../lib/layout';
 import {KineticText, type KineticMode} from './KineticText';
 
 export type CaptionSegmentStyle = {
@@ -25,6 +26,8 @@ export const Caption: React.FC<{
   const {fps} = useVideoConfig();
   const {scene} = useScene();
   const windows = useSegmentWindows();
+  const vertical = useVertical();
+  const card = useCard();
 
   let cur = 0;
   windows.forEach((w, i) => {
@@ -38,10 +41,9 @@ export const Caption: React.FC<{
     <div
       style={{
         position: 'absolute',
-        left: 180,
-        right: 180,
-        bottom: 42,
-        minHeight: 210,
+        ...(vertical
+          ? {left: 40, right: 40, top: card.y + card.h + 40, minHeight: 250}
+          : {left: 180, right: 180, bottom: 42, minHeight: 210}),
         padding: '26px 48px 30px 56px',
         borderRadius: 34,
         background: 'linear-gradient(135deg, rgba(10,14,28,0.88), rgba(10,14,28,0.72))',
@@ -50,10 +52,11 @@ export const Caption: React.FC<{
         backdropFilter: 'blur(14px)',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'flex-end',
+        justifyContent: vertical ? 'flex-start' : 'flex-end',
         gap: 6,
         opacity: enter * exit,
         transform: `translateY(${(1 - enter) * 80 + (1 - exit) * 40}px)`,
+        boxSizing: 'border-box',
         overflow: 'hidden',
       }}
     >
@@ -73,8 +76,8 @@ export const Caption: React.FC<{
         const st = styles[i] ?? {};
         const next = windows[i + 1];
         const shrink = next ? spring({frame: frame - next.start + 4, fps, config: {damping: 200, stiffness: 140}}) : 0;
-        const big = st.size ?? 64;
-        const size = interpolate(shrink, [0, 1], [big, 34]);
+        const big = (st.size ?? 64) * (vertical ? 1.08 : 1);
+        const size = interpolate(shrink, [0, 1], [big, vertical ? 38 : 34]);
         const w = windows[i];
         return (
           <div key={i} style={{opacity: interpolate(shrink, [0, 1], [1, 0.55])}}>

@@ -1,6 +1,7 @@
 import React, {useMemo} from 'react';
 import {AbsoluteFill, interpolate, random, spring} from 'remotion';
-import {CARD, cardPoint, PhotoStage} from '../../components/media/PhotoStage';
+import {PhotoStage} from '../../components/media/PhotoStage';
+import {pointOn, useCard, useVertical} from '../../lib/layout';
 import {CHARACTERS, type CharacterId} from '../../components/media/characters';
 import {Caption} from '../../components/text/Caption';
 import {KineticText} from '../../components/text/KineticText';
@@ -16,8 +17,9 @@ import {useSceneBasics} from '../shared';
 
 const Tag: React.FC = () => {
   const {scene, index} = useSceneBasics();
+  const v = useVertical();
   return (
-    <div style={{position: 'absolute', left: 64, top: 60}}>
+    <div style={{position: 'absolute', left: v ? 44 : 64, top: v ? 170 : 60}}>
       <SceneTag index={index} total={SCENES.length} label={scene.title} color={scene.accent} />
     </div>
   );
@@ -94,7 +96,9 @@ const Sticker: React.FC<{emoji: string; at: number; x: number; y: number; size?:
 };
 
 /** Rasm ichidagi nuqtadan ko'tariladigan bug' (karta koordinatalarida) */
-const SteamAt: React.FC<{px: number; py: number; w?: number; h?: number; heat?: number}> = ({px, py, w = 360, h = 420, heat = 1}) => (
+const SteamAt: React.FC<{px: number; py: number; w?: number; h?: number; heat?: number}> = ({px, py, w = 360, h = 420, heat = 1}) => {
+  const CARD = useCard();
+  return (
   <Steam
     heat={heat}
     width={w}
@@ -102,21 +106,24 @@ const SteamAt: React.FC<{px: number; py: number; w?: number; h?: number; heat?: 
     wisps={6}
     style={{position: 'absolute', left: px * (CARD.w - 20) - w / 2, top: py * (CARD.h - 20) - h}}
   />
-);
+  );
+};
 
 /* ───────────── 01 — Hook ───────────── */
 
 export const Photo01Hook: React.FC = () => {
   const {frame, windows, scene} = useSceneBasics();
+  const v = useVertical();
+  const CARD = useCard();
   const [w0, w1] = windows;
   const sh = shake(frame, w0.start + 4, 22, 12);
   return (
     <AbsoluteFill style={{transform: `translate(${sh.x}px, ${sh.y}px)`}}>
       <PhotoStage accent={scene.accent} inCard={<Viewfinder label="FOTO • 148-KADR" color={scene.accent} />} />
       <Tag />
-      <Sticker emoji="😂" at={w1.start + 10} x={CARD.x + CARD.w - 70} y={CARD.y + 90} />
-      <Sticker emoji="📸" at={w1.end - 4} x={CARD.x - 90} y={CARD.y + 330} rot={14} />
-      <div style={{position: 'absolute', right: 80, top: 360}}>
+      <Sticker emoji="😂" at={w1.start + 10} x={v ? 900 : CARD.x + CARD.w - 70} y={v ? CARD.y - 70 : CARD.y + 90} />
+      <Sticker emoji="📸" at={w1.end - 4} x={v ? 10 : CARD.x - 90} y={v ? CARD.y + CARD.h - 120 : CARD.y + 330} rot={14} />
+      <div style={{position: 'absolute', right: v ? 50 : 80, top: v ? 1550 : 360}}>
         <Chip icon="🌡️" label="31°C ↓" color={COLORS.cold} delay={w1.start} size={36} />
       </div>
       <Caption
@@ -134,18 +141,20 @@ export const Photo01Hook: React.FC = () => {
 
 export const Photo02Intro: React.FC = () => {
   const {windows, scene} = useSceneBasics();
+  const v = useVertical();
+  const CARD = useCard();
   const [w0, w1] = windows;
   return (
     <AbsoluteFill>
       <PhotoStage accent={scene.accent} camera={(f) => ({scale: interpolate(f, [0, 500], [1.02, 1.16], clamp), originX: 50, originY: 70})} />
       <Tag />
-      <div style={{position: 'absolute', left: 120, top: 250}}>
+      <div style={{position: 'absolute', left: v ? 50 : 120, top: v ? 1550 : 250}}>
         <Chip icon="🍽️" label="Restoran • 13:05" color={COLORS.amber} delay={w0.start + 10} size={34} />
       </div>
-      <div style={{position: 'absolute', right: 110, top: 420}}>
+      <div style={{position: 'absolute', right: v ? 50 : 110, top: v ? 1660 : 420}}>
         <Chip icon="📸" label="Fotosessiya" color={scene.accent} delay={w1.start + 20} size={40} />
       </div>
-      <CharacterPop id="fotograf" at={w1.start + Math.round(w1.duration * 0.55)} x={CARD.x + CARD.w - 80} y={CARD.y + 40} size={140} />
+      <CharacterPop id="fotograf" at={w1.start + Math.round(w1.duration * 0.55)} x={v ? 900 : CARD.x + CARD.w - 80} y={v ? CARD.y - 80 : CARD.y + 40} size={140} />
       <Caption />
     </AbsoluteFill>
   );
@@ -155,6 +164,7 @@ export const Photo02Intro: React.FC = () => {
 
 export const Photo03HotPlov: React.FC = () => {
   const {frame, windows, scene} = useSceneBasics();
+  const v = useVertical();
   const [w0, w1, w2] = windows;
   const temp = Math.round(interpolate(frame, [w0.start, w1.end], [40, 92], clamp));
   return (
@@ -170,17 +180,17 @@ export const Photo03HotPlov: React.FC = () => {
         }
       />
       <Tag />
-      <CharacterPop id="ofitsiant" at={w0.start + 6} x={60} y={250} size={140}>
+      <CharacterPop id="ofitsiant" at={w0.start + 6} x={v ? 40 : 60} y={v ? 1470 : 250} size={140}>
         Marhamat! 🍽️
       </CharacterPop>
-      <div style={{position: 'absolute', right: 90, top: 300}}>
+      <div style={{position: 'absolute', right: v ? 50 : 90, top: v ? 1730 : 300}}>
         <Chip icon="🌡️" label={`${temp}°C`} color={COLORS.saffron} delay={w0.start} size={46} />
       </div>
-      <div style={{position: 'absolute', right: 90, top: 420}}>
+      <div style={{position: 'absolute', right: v ? 330 : 90, top: v ? 1735 : 420}}>
         <Chip icon="♨️" label="Bug‘ chiqyapti" color={scene.accent} delay={w1.start} size={32} />
       </div>
       {[0, 1, 2, 3].map((i) => (
-        <Sticker key={i} emoji="🥄" at={w2.start + i * 6} x={[260, 1560, 330, 1500][i]} y={[620, 600, 420, 780][i]} size={90} rot={[-30, 30, -50, 45][i]} />
+        <Sticker key={i} emoji="🥄" at={w2.start + i * 6} x={(v ? [10, 950, 20, 940] : [260, 1560, 330, 1500])[i]} y={(v ? [300, 330, 900, 940] : [620, 600, 420, 780])[i]} size={90} rot={[-30, 30, -50, 45][i]} />
       ))}
       <Caption />
     </AbsoluteFill>
@@ -191,6 +201,7 @@ export const Photo03HotPlov: React.FC = () => {
 
 export const Photo04Stop: React.FC = () => {
   const {frame, fps, windows, scene} = useSceneBasics();
+  const v = useVertical();
   const [, w1, w2] = windows;
   const sh = shake(frame, w1.start, 34, 24);
   const pulse = interpolate(frame - w1.start, [0, 4, 30], [0, 0.5, 0], clamp);
@@ -209,12 +220,12 @@ export const Photo04Stop: React.FC = () => {
           position: 'absolute',
           left: 0,
           right: 0,
-          top: 420,
+          top: v ? 600 : 420,
           textAlign: 'center',
           fontFamily: FONT_DISPLAY,
           fontWeight: 900,
-          fontSize: 200,
-          letterSpacing: -6,
+          fontSize: v ? 100 : 200,
+          letterSpacing: v ? -3 : -6,
           color: '#FFFFFF',
           WebkitTextStroke: `10px ${COLORS.red}`,
           paintOrder: 'stroke fill',
@@ -225,8 +236,8 @@ export const Photo04Stop: React.FC = () => {
       >
         TO‘XTANGLAR!
       </div>
-      <Sticker emoji="✋" at={w1.start - 2} x={1640} y={520} size={170} rot={18} />
-      <CharacterPop id="fotograf" at={w2.start - 4} x={60} y={150} size={150} bubbleSide="right">
+      <Sticker emoji="✋" at={w1.start - 2} x={v ? 840 : 1640} y={v ? 190 : 520} size={170} rot={18} />
+      <CharacterPop id="fotograf" at={w2.start - 4} x={v ? 40 : 60} y={v ? 1480 : 150} size={150} bubbleSide="right">
         Hali suratga olmadim! 📵
       </CharacterPop>
       <Caption styles={[{size: 56}, {mode: 'slam', uppercase: true, size: 84, accent: COLORS.red, accent2: '#FECACA'}, {size: 64}]} />
@@ -238,6 +249,7 @@ export const Photo04Stop: React.FC = () => {
 
 export const Photo05Photoshoot: React.FC = () => {
   const {frame, fps, windows, scene} = useSceneBasics();
+  const v = useVertical();
   const [w0, w1, w2] = windows;
   const tSide = w0.start + Math.round(w0.duration * 0.5);
   const tZoom = w1.start;
@@ -258,7 +270,7 @@ export const Photo05Photoshoot: React.FC = () => {
       />
       <Flash at={[tSide, tZoom, tSelfie, w2.start + Math.round(w2.duration * 0.45), w2.start + Math.round(w2.duration * 0.75)]} strength={0.5} />
       <Tag />
-      <div style={{position: 'absolute', right: 70, top: 200, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 22}}>
+      <div style={{position: 'absolute', right: v ? 50 : 70, top: v ? 1540 : 200, display: 'flex', flexDirection: v ? 'row' : 'column', flexWrap: 'wrap', justifyContent: 'flex-end', alignItems: 'flex-end', gap: 22, width: v ? 980 : undefined}}>
         <Chip icon="🤳" label="Selfi" color={COLORS.pink} delay={w2.start + Math.round(w2.duration * 0.2)} size={40} />
         <Chip icon="🎵" label="Musiqa" color={COLORS.violet} delay={w2.start + Math.round(w2.duration * 0.45)} size={40} />
         <Chip icon="📍" label="Joylashuv" color={COLORS.green} delay={w2.start + Math.round(w2.duration * 0.72)} size={40} />
@@ -272,6 +284,7 @@ export const Photo05Photoshoot: React.FC = () => {
 
 export const Photo06Waiting: React.FC = () => {
   const {frame, windows, scene, timing} = useSceneBasics();
+  const v = useVertical();
   const [w0, w1] = windows;
   const heat = interpolate(frame, [w0.start, w1.end], [1, 0.05], clamp);
   const temp = Math.round(interpolate(heat, [0, 1], [24, 92]));
@@ -288,15 +301,15 @@ export const Photo06Waiting: React.FC = () => {
         inCard={<AbsoluteFill style={{background: COLORS.cold, opacity: (1 - heat) * 0.18, mixBlendMode: 'color'}} />}
       />
       <Tag />
-      <div style={{position: 'absolute', right: 70, top: 170, transform: 'scale(0.8)', transformOrigin: 'top right'}}>
+      <div style={{position: 'absolute', right: v ? 60 : 70, top: v ? 1500 : 170, transform: `scale(${v ? 0.5 : 0.8})`, transformOrigin: 'top right'}}>
         <Thermometer value={heat} height={460} label={`${temp}°C`} />
       </div>
-      <div style={{position: 'absolute', left: 50, top: 190, display: 'flex', flexDirection: 'column', gap: 18}}>
+      <div style={{position: 'absolute', left: v ? 40 : 50, top: v ? 1530 : 190, display: 'flex', flexDirection: 'column', gap: 18}}>
         {(['yashil', 'qizil', 'kok'] as CharacterId[]).map((id, i) => (
-          <CharacterPop key={id} id={id} at={8 + i * 8} x={0} y={i * 150} size={120} />
+          <CharacterPop key={id} id={id} at={8 + i * 8} x={v ? i * 140 : 0} y={v ? 0 : i * 150} size={120} />
         ))}
       </div>
-      <div style={{position: 'absolute', left: 60, top: 660}}>
+      <div style={{position: 'absolute', left: v ? 40 : 60, top: v ? 1690 : 660}}>
         <GlassCard style={{padding: '20px 30px'}} radius={24}>
           <div style={{fontFamily: FONT_BODY, color: COLORS.muted, fontSize: 20, fontWeight: 600, letterSpacing: 3}}>KUTISH</div>
           <div style={{fontFamily: FONT_DISPLAY, color: COLORS.text, fontSize: 48, fontWeight: 900, fontVariantNumeric: 'tabular-nums'}}>
@@ -309,8 +322,8 @@ export const Photo06Waiting: React.FC = () => {
           key={i}
           style={{
             position: 'absolute',
-            left: p.x + Math.sin(frame * 0.03 + i) * 30,
-            top: ((frame * 2.2 * p.s + p.d * 6) % 1200) - 100,
+            left: (v ? p.x * 0.5625 : p.x) + Math.sin(frame * 0.03 + i) * 30,
+            top: ((frame * 2.2 * p.s + p.d * 6) % (v ? 2000 : 1200)) - 100,
             fontSize: 22 * p.s,
             opacity: interpolate(frame, [w1.start, w1.start + 40], [0, 0.6], clamp),
           }}
@@ -327,6 +340,7 @@ export const Photo06Waiting: React.FC = () => {
 
 export const Photo07Passport: React.FC = () => {
   const {frame, windows, scene} = useSceneBasics();
+  const v = useVertical();
   const [w0, w1] = windows;
   const tPassport = w1.start + Math.round(w1.duration * 0.72);
   const sh = shake(frame, tPassport + 44, 16, 10);
@@ -336,15 +350,15 @@ export const Photo07Passport: React.FC = () => {
       <PhotoStage accent={scene.accent} camera={(f) => ({scale: interpolate(f, [0, 450], [1.02, 1.14], clamp), originX: 80, originY: 45})} />
       <AbsoluteFill style={{background: '#000', opacity: dim}} />
       <Tag />
-      <CharacterPop id="kok" at={w0.start + 4} x={1500} y={160} size={150} bubbleSide="left">
+      <CharacterPop id="kok" at={w0.start + 4} x={v ? 40 : 1500} y={v ? 1640 : 160} size={150} bubbleSide={v ? 'right' : 'left'}>
         🤨
       </CharacterPop>
       <div
         style={{
           position: 'absolute',
-          left: 600,
-          top: 90,
-          transform: `translate(${sh.x}px, ${sh.y}px) scale(0.86)`,
+          left: v ? 160 : 600,
+          top: v ? 280 : 90,
+          transform: `translate(${sh.x}px, ${sh.y}px) scale(${v ? 1 : 0.86})`,
           transformOrigin: 'top center',
           perspective: 1800,
         }}
@@ -360,10 +374,12 @@ export const Photo07Passport: React.FC = () => {
 
 export const Photo08Posted: React.FC = () => {
   const {frame, windows, scene} = useSceneBasics();
+  const v = useVertical();
+  const CARD = useCard();
   const [w0, w1] = windows;
   const upload = interpolate(frame, [w0.start, w0.end - 6], [0, 1], clamp);
   const likes = Math.round(interpolate(frame, [w0.end - 6, w1.end], [0, 1248], {...clamp, easing: (t) => 1 - Math.pow(1 - t, 3)}));
-  const phone = cardPoint(0.66, 0.72);
+  const phone = pointOn(CARD, 0.66, 0.72);
   return (
     <AbsoluteFill>
       <PhotoStage
@@ -383,10 +399,10 @@ export const Photo08Posted: React.FC = () => {
           </div>
         </GlassCard>
       </div>
-      <div style={{position: 'absolute', right: 70, top: 260}}>
+      <div style={{position: 'absolute', right: v ? undefined : 70, left: v ? 50 : undefined, top: v ? 1550 : 260}}>
         <Chip icon="❤️" label={likes.toLocaleString('en-US')} color={COLORS.pink} delay={w0.end - 10} size={44} />
       </div>
-      <div style={{position: 'absolute', right: 70, top: 380}}>
+      <div style={{position: 'absolute', right: v ? 50 : 70, top: v ? 1550 : 380}}>
         <Chip icon="🥶" label="16°C" color={COLORS.cold} delay={w1.start + Math.round(w1.duration * 0.5)} size={44} />
       </div>
       {new Array(12).fill(0).map((_, i) => {
@@ -424,6 +440,8 @@ const FILTERS = [
 
 export const Photo09Moral: React.FC = () => {
   const {frame, fps, windows, scene} = useSceneBasics();
+  const v = useVertical();
+  const CARD = useCard();
   const [w0, w1, w2] = windows;
   const sel = interpolate(frame, [w0.start, w0.end, w1.start + 6], [0, 2, 3], {...clamp, easing: (t) => t * t * (3 - 2 * t)});
   const glow = 0.5 + 0.5 * Math.sin(frame * 0.08);
@@ -452,10 +470,10 @@ export const Photo09Moral: React.FC = () => {
         }
       />
       <Tag />
-      <div style={{position: 'absolute', right: 60, top: 420}}>
+      <div style={{position: 'absolute', right: v ? 50 : 60, top: v ? 1730 : 420}}>
         <Chip icon="✨" label="Eng yaxshi filtr" color={scene.accent} delay={w1.start} size={32} />
       </div>
-      <div style={{position: 'absolute', left: 60, top: 200, display: 'flex', flexDirection: 'column', gap: 18}}>
+      <div style={{position: 'absolute', left: v ? 50 : 60, top: v ? 1530 : 200, display: 'flex', flexDirection: v ? 'row' : 'column', gap: v ? 26 : 18}}>
         {FILTERS.map((f, i) => {
           const s = spring({frame: frame - 10 - i * 5, fps, config: {damping: 14}});
           const active = Math.max(0, 1 - Math.abs(sel - i));
@@ -482,7 +500,7 @@ export const Photo09Moral: React.FC = () => {
           );
         })}
       </div>
-      <div style={{position: 'absolute', right: 60, top: 540}}>
+      <div style={{position: 'absolute', right: v ? undefined : 60, left: v ? 50 : undefined, top: v ? 1730 : 540}}>
         <Chip icon="🔥" label="Issiq = Mazali" color={COLORS.red} delay={w2.start + Math.round(w2.duration * 0.6)} size={34} />
       </div>
       <Caption styles={[{size: 60}, {mode: 'slam', uppercase: true, size: 88}, {size: 64, accent: COLORS.red, accent2: '#FED7AA'}]} />
@@ -523,6 +541,7 @@ const PollOption: React.FC<{id: CharacterId; title: string; icon: string; color:
 
 export const Photo10Question: React.FC = () => {
   const {frame, fps, windows, scene} = useSceneBasics();
+  const v = useVertical();
   const [, , w2] = windows;
   const pollAt = w2.end - 10;
   const dim = interpolate(frame, [pollAt - 10, pollAt + 10], [0, 0.55], clamp);
@@ -535,7 +554,7 @@ export const Photo10Question: React.FC = () => {
       <PhotoStage accent={scene.accent} camera={(f) => ({scale: interpolate(f, [0, 420], [1.02, 1.12], clamp), originX: 50, originY: 50})} />
       <AbsoluteFill style={{background: '#05070D', opacity: dim}} />
       <Tag />
-      <div style={{position: 'absolute', left: 0, right: 0, top: 110, textAlign: 'center', opacity: base}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: v ? 290 : 110, textAlign: 'center', opacity: base}}>
         <KineticText
           text="Siz qaysi birisiz?"
           start={pollAt}
@@ -550,7 +569,7 @@ export const Photo10Question: React.FC = () => {
         />
       </div>
       {frame > pollAt - 10 && (
-        <div style={{position: 'absolute', top: 300, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 110}}>
+        <div style={{position: 'absolute', top: v ? 470 : 300, left: 0, right: 0, display: 'flex', flexDirection: v ? 'column' : 'row', alignItems: 'center', justifyContent: 'center', gap: v ? 120 : 110}}>
           <PollOption id="yashil" title="Avval ovqat" icon="🍽️" color={COLORS.amber} delay={pollAt} percent={a * base} side={-1} />
           <PollOption id="fotograf" title="Avval surat" icon="📸" color={COLORS.cyan} delay={pollAt + 8} percent={(100 - a) * base} side={1} />
         </div>
@@ -558,8 +577,8 @@ export const Photo10Question: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          left: 960 - 70,
-          top: 400,
+          left: (v ? 540 : 960) - 70,
+          top: v ? 755 : 400,
           width: 140,
           height: 140,
           borderRadius: '50%',
@@ -582,7 +601,7 @@ export const Photo10Question: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          bottom: 90,
+          bottom: v ? 300 : 90,
           left: 0,
           right: 0,
           display: 'flex',
@@ -598,7 +617,7 @@ export const Photo10Question: React.FC = () => {
             background: `linear-gradient(90deg, ${scene.accent}, ${COLORS.pink})`,
             fontFamily: FONT_DISPLAY,
             fontWeight: 900,
-            fontSize: 48,
+            fontSize: v ? 38 : 48,
             color: '#fff',
             border: '5px solid #fff',
             boxShadow: `0 20px 60px ${scene.accent}88`,

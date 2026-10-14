@@ -8,6 +8,7 @@
     "dev": "remotion studio src/index.ts",
     "studio": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts PalovVideo out/palov-video.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k --x264-preset=slow",
+    "render:shorts": "remotion render src/index.ts PalovShorts out/palov-shorts.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --x264-preset=slow",
     "render:fast": "remotion render src/index.ts PalovVideo out/palov-video-preview.mp4 --codec=h264 --crf=26 --scale=0.5",
     "still": "remotion still src/index.ts PalovVideo out/still.png --frame=120",
     "voiceover": "tsx scripts/generate-voiceover.ts",
