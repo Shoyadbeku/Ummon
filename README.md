@@ -3,7 +3,7 @@
 Remotion (React + TypeScript) bilan yaratilgan, ovozga sinxronlanadigan kinetik tipografiyali
 tushuntirish videosi. **1920×1080, 60 fps, H.264 MP4.**
 
-Tayyor video: [`out/palov-video.mp4`](out/palov-video.mp4)
+Tayyor video: [`out/palov-video-github.mp4`](out/palov-video-github.mp4) (CRF 20, 55 MB; to‘liq sifat CRF 16 uchun `npm run render`)
 
 ## Tez boshlash
 
