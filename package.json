@@ -11,6 +11,7 @@
     "render:fast": "remotion render src/index.ts PalovVideo out/palov-video-preview.mp4 --codec=h264 --crf=26 --scale=0.5",
     "still": "remotion still src/index.ts PalovVideo out/still.png --frame=120",
     "voiceover": "tsx scripts/generate-voiceover.ts",
+    "voiceover:eleven": "tsx scripts/generate-voiceover-elevenlabs.ts",
     "assets": "tsx scripts/assets-status.ts",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit"

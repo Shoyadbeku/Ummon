@@ -32,6 +32,8 @@ export type SceneTiming = {
   image: string | null;
   /** Sahnaning barcha rasmlari: <id>.jpg, <id>-2.jpg, <id>-3.jpg ... */
   images: string[];
+  /** Har bir segmentning ovozdagi aniq [boshlanish, tugash] vaqti (soniya), ElevenLabs alignment */
+  segmentTimes: [number, number][] | null;
 };
 
 export type PalovVideoProps = {
@@ -80,12 +82,23 @@ export const buildTimeline = async (): Promise<{timeline: SceneTiming[]; music: 
       }
     }
 
+    let segmentTimes: [number, number][] | null = null;
+    const alignFile = `voiceover/${scene.id}.json`;
+    if (audio && names.includes(alignFile)) {
+      try {
+        const data = (await (await fetch(staticFile(alignFile))).json()) as {segments?: [number, number][]};
+        if (data.segments?.length === scene.segments.length) segmentTimes = data.segments;
+      } catch (err) {
+        console.warn(`[timeline] ${alignFile} o'qilmadi`, err);
+      }
+    }
+
     const speechStart = Math.round(LEAD_IN_SEC * FPS);
     const speechFrames = Math.round(speechSec * FPS);
     const natural = speechStart + speechFrames + Math.round(TAIL_SEC * FPS) + TRANSITION_FRAMES;
     const durationInFrames = Math.max(natural, Math.round(scene.minSeconds * FPS) + TRANSITION_FRAMES);
 
-    timeline.push({id: scene.id, durationInFrames, speechStart, speechFrames, audio, image, images});
+    timeline.push({id: scene.id, durationInFrames, speechStart, speechFrames, audio, image, images, segmentTimes});
   }
 
   const music = findAsset(names, 'music/background', AUDIO_EXT);

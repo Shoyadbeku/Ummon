@@ -1,6 +1,6 @@
 import React, {createContext, useContext} from 'react';
 import type {SceneConfig} from '../data/script';
-import type {SceneTiming} from './timeline';
+import {FPS, type SceneTiming} from './timeline';
 
 type SceneCtx = {scene: SceneConfig; timing: SceneTiming};
 
@@ -25,6 +25,14 @@ export type Window = {start: number; end: number; duration: number};
  */
 export const useSegmentWindows = (): Window[] => {
   const {scene, timing} = useScene();
+  if (timing.segmentTimes) {
+    // Aniq vaqtlar (ElevenLabs alignment) — kadrlarga aylantiramiz
+    return timing.segmentTimes.map(([a, b]) => {
+      const start = timing.speechStart + Math.round(a * FPS);
+      const end = timing.speechStart + Math.round(b * FPS);
+      return {start, end, duration: Math.max(6, end - start)};
+    });
+  }
   const lengths = scene.segments.map((s) => s.text.length + 1);
   const total = lengths.reduce((a, b) => a + b, 0);
   let acc = 0;

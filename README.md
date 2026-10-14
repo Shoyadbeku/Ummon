@@ -21,6 +21,9 @@ npm run assets     # qaysi ovoz/rasm bor, qaysi yo‘q + taymlayn hisob-kitobi
 2. **Ovoz (voiceover)**
    - Gemini TTS: `.env` ga `GEMINI_API_KEY` yozing → `npm run voiceover`
      (`--force` — qayta yaratish, `--only=04-stop` — bitta sahna).
+   - ElevenLabs: `.env` ga `ELEVENLABS_API_KEY` va `ELEVENLABS_VOICE_ID` → `npm run voiceover:eleven`.
+     Har bir gapning ovozdagi aniq vaqti (`public/voiceover/<id>.json`) ham saqlanadi —
+     kinetik matn ovozga kadrma-kadr sinxron chiqadi.
    - Yoki o‘z yozuvingiz / boshqa TTS: `public/voiceover/<sahna-id>.mp3|wav` qilib qo‘ying.
 3. **AI rasmlar** — `public/images/<sahna-id>.jpg` (qo‘shimcha kadrlar: `<sahna-id>-2.jpg`, `-3.jpg` …).
    Rasm topilgan sahna avtomatik **rasmli rejimga** o‘tadi (`src/scenes/photo/PhotoScenes.tsx`):
