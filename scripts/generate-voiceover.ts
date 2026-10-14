@@ -5,16 +5,22 @@
  *   npm run voiceover -- --force                      # hammasini qayta yaratadi
  *   npm run voiceover -- --only=04-stop               # bitta sahna
  *
- * Natija: public/voiceover/<sahna-id>.wav
+ * Natija: public/voiceover/<sahna-id>.wav — ffmpeg bilan "jarangdor" qilib ishlangan:
+ * boshi/oxiridagi jimlik kesiladi, past shovqin olib tashlanadi, 3–5 kHz "presence"
+ * kuchaytiriladi, kompressor + -14 LUFS balandlik normalizatsiyasi, 48 kHz.
  * Video taymlayni (calculateMetadata) bu fayllarning davomiyligini o'qiydi va
  * sahnalar, kinetik matn hamda o'tishlarni avtomatik moslashtiradi.
  *
  * Sozlamalar (.env yoki muhit o'zgaruvchilari):
  *   GEMINI_API_KEY      — majburiy
  *   GEMINI_TTS_MODEL    — standart: gemini-2.5-flash-preview-tts
- *   GEMINI_TTS_VOICE    — standart: Puck (boshqalar: Kore, Charon, Fenrir, Aoede, ...)
+ *   GEMINI_TTS_VOICE    — standart: Puck (jarangdor, quvnoq). Boshqalar: Zephyr (yorqin),
+ *                         Fenrir (hayajonli), Charon (ma'lumotli), Kore (qat'iy), Sadachbia (jonli)
+ *   --voice=Zephyr      — bir martalik ovozni tanlash
+ *   --raw               — ffmpeg ishlovisiz xom WAV
  */
-import {existsSync, mkdirSync, writeFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {existsSync, mkdirSync, renameSync, rmSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {narrationOf, SCENES} from '../src/data/script';
 
@@ -26,10 +32,11 @@ try {
 
 const API_KEY = process.env.GEMINI_API_KEY;
 const MODEL = process.env.GEMINI_TTS_MODEL ?? 'gemini-2.5-flash-preview-tts';
-const VOICE = process.env.GEMINI_TTS_VOICE ?? 'Puck';
+const args = process.argv.slice(2);
+const VOICE = args.find((a) => a.startsWith('--voice='))?.split('=')[1] ?? process.env.GEMINI_TTS_VOICE ?? 'Puck';
+const RAW = args.includes('--raw');
 const OUT_DIR = path.resolve('public/voiceover');
 
-const args = process.argv.slice(2);
 const force = args.includes('--force');
 const only = args.find((a) => a.startsWith('--only='))?.split('=')[1];
 
@@ -37,6 +44,32 @@ if (!API_KEY) {
   console.error('❌ GEMINI_API_KEY topilmadi. .env fayliga GEMINI_API_KEY=... yozing.');
   process.exit(1);
 }
+
+/** "Jarangdor" ovoz uchun ffmpeg mastering zanjiri */
+const MASTER_FILTER = [
+  'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05',
+  'areverse',
+  'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.12',
+  'areverse',
+  'highpass=f=80',
+  'equalizer=f=250:t=q:w=1.2:g=-2',
+  'equalizer=f=3500:t=q:w=1.0:g=3.5',
+  'equalizer=f=10000:t=h:w=0.7:g=2',
+  'acompressor=threshold=-18dB:ratio=3:attack=5:release=80:makeup=2',
+  'loudnorm=I=-14:TP=-1.5:LRA=7',
+].join(',');
+
+const master = (file: string) => {
+  const tmp = file.replace(/\.wav$/, '.raw.wav');
+  renameSync(file, tmp);
+  try {
+    execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', tmp, '-af', MASTER_FILTER, '-ar', '48000', '-ac', '1', file]);
+    rmSync(tmp);
+  } catch (err) {
+    renameSync(tmp, file);
+    console.warn(`   ffmpeg ishlovi o'tkazib yuborildi: ${(err as Error).message}`);
+  }
+};
 
 /** Gemini TTS 16-bit PCM qaytaradi — unga WAV sarlavhasini qo'shamiz */
 const pcmToWav = (pcm: Buffer, sampleRate: number, channels = 1, bits = 16) => {
@@ -64,7 +97,10 @@ type GeminiResponse = {
 };
 
 const synthesize = async (text: string, style: string) => {
-  const prompt = `${style}. Speak in natural Uzbek (O'zbek tili), clear pronunciation:\n${text}`;
+  const prompt =
+    `Voice direction: ${style}. Bright, resonant and clear voice with crisp diction, confident projection, ` +
+    `energetic social-media narrator, natural Uzbek (O'zbek tili) pronunciation, no long pauses.\n` +
+    `Read exactly this Uzbek text:\n${text}`;
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
     method: 'POST',
     headers: {'Content-Type': 'application/json', 'x-goog-api-key': API_KEY},
@@ -98,6 +134,7 @@ for (const scene of SCENES) {
   try {
     const wav = await synthesize(text, scene.ttsStyle);
     writeFileSync(out, wav);
+    if (!RAW) master(out);
     console.log('✓');
   } catch (err) {
     console.log('✗');
@@ -105,4 +142,4 @@ for (const scene of SCENES) {
   }
 }
 
-console.log('\nTayyor. Taymlaynni tekshirish: npm run assets');
+console.log(`\nTayyor (ovoz: ${VOICE}). Taymlaynni tekshirish: npm run assets`);
