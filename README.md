@@ -22,9 +22,12 @@ npm run assets     # qaysi ovoz/rasm bor, qaysi yo‘q + taymlayn hisob-kitobi
    - Gemini TTS: `.env` ga `GEMINI_API_KEY` yozing → `npm run voiceover`
      (`--force` — qayta yaratish, `--only=04-stop` — bitta sahna).
    - Yoki o‘z yozuvingiz / boshqa TTS: `public/voiceover/<sahna-id>.mp3|wav` qilib qo‘ying.
-3. **AI rasmlar (ixtiyoriy)** — Gemini yoki Microsoft Designer’da `npm run assets -- --prompts`
-   chiqargan promptlar bilan yarating va `public/images/<sahna-id>.png` sifatida saqlang.
-   Rasm bo‘lmasa, o‘rniga kod bilan chizilgan vektor illyustratsiya (lagan, palov, bug‘) chiqadi.
+3. **AI rasmlar** — `public/images/<sahna-id>.jpg` (qo‘shimcha kadrlar: `<sahna-id>-2.jpg`, `-3.jpg` …).
+   Rasm topilgan sahna avtomatik **rasmli rejimga** o‘tadi (`src/scenes/photo/PhotoScenes.tsx`):
+   oq stiker chegarali karta, Ken Burns/zoom kamera, xiralashgan parallaks fon, kinetik subtitr paneli,
+   personaj avatarlari, bug‘, flash, chiplar. Rasm bo‘lmasa — vektor illyustratsiyali sahna chiqadi.
+   Yangi rasmlar uchun promptlar (2D cartoon cutout, sticker outline uslubi): `npm run assets -- --prompts`.
+   Personaj avatarlari `public/avatars/` da (rasmlardan kesib olingan), ro‘yxat: `src/components/media/characters.ts`.
 4. **Fon musiqasi (ixtiyoriy)** — `public/music/background.mp3`.
 5. `npm run render`.
 
@@ -57,15 +60,21 @@ src/
 ├── components/
 │   ├── background/AnimatedBackground.tsx   gradient bloblar, texno-to‘r, parallaks shakllar, grain
 │   ├── text/KineticText.tsx                so‘zma-so‘z kinetik tipografiya (rise/pop/slam)
+│   ├── media/PhotoStage.tsx                rasm kartasi: Ken Burns, kamera zoom, rasm almashuvi, parallaks
+│   ├── media/characters.ts                 personaj avatarlari
+│   ├── text/Caption.tsx                    kinetik subtitr paneli
 │   ├── media/HeroVisual.tsx                AI rasm (Ken Burns) yoki vektor zaxira
 │   └── visuals/                            PlovPlate, Steam, Phone, Viewfinder, Chip, Thermometer...
-└── scenes/Scene01Hook.tsx … Scene10Question.tsx
+├── scenes/Scene01Hook.tsx … Scene10Question.tsx   vektor rejim
+└── scenes/photo/PhotoScenes.tsx                  rasmli rejim (10 sahna)
 scripts/
 ├── generate-voiceover.ts       Gemini TTS → public/voiceover/*.wav
 └── assets-status.ts            aktivlar holati va taymlayn jadvali
 public/
 ├── fonts/                      Montserrat, Inter (SIL OFL)
-├── voiceover/  images/  music/
+├── images/                     AI rasmlar (sahna-id bo‘yicha)
+├── avatars/                    personaj avatarlari
+├── voiceover/  music/
 ```
 
 ## Sahnalar

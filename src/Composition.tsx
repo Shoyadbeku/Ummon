@@ -23,6 +23,7 @@ import {Scene07Passport} from './scenes/Scene07Passport';
 import {Scene08Posted} from './scenes/Scene08Posted';
 import {Scene09Moral} from './scenes/Scene09Moral';
 import {Scene10Question} from './scenes/Scene10Question';
+import {PHOTO_SCENES} from './scenes/photo/PhotoScenes';
 
 const SCENE_COMPONENTS: Record<string, React.FC> = {
   '01-hook': Scene01Hook,
@@ -83,7 +84,8 @@ export const PalovVideo: React.FC<PalovVideoProps> = ({timeline, music, musicVol
       <TransitionSeries>
         {timeline.map((t, i) => {
           const scene = SCENES.find((s) => s.id === t.id)!;
-          const Comp = SCENE_COMPONENTS[t.id];
+          // AI rasm bo'lsa — rasmli sahna, aks holda vektor illyustratsiyali sahna
+          const Comp = t.images.length > 0 ? PHOTO_SCENES[t.id] : SCENE_COMPONENTS[t.id];
           const elements = [
             <TransitionSeries.Sequence key={t.id} durationInFrames={t.durationInFrames} name={`${t.id} ${scene.title}`}>
               <SceneProvider scene={scene} timing={t}>
@@ -141,8 +143,8 @@ const Hud: React.FC<{accent: string}> = ({accent}) => {
       <div
         style={{
           position: 'absolute',
-          top: 58,
-          right: 130,
+          top: 22,
+          right: 64,
           display: 'flex',
           alignItems: 'center',
           gap: 14,

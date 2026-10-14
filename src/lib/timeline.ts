@@ -30,6 +30,8 @@ export type SceneTiming = {
   audio: string | null;
   /** public/ ichidagi AI rasm (yoki null) */
   image: string | null;
+  /** Sahnaning barcha rasmlari: <id>.jpg, <id>-2.jpg, <id>-3.jpg ... */
+  images: string[];
 };
 
 export type PalovVideoProps = {
@@ -62,6 +64,12 @@ export const buildTimeline = async (): Promise<{timeline: SceneTiming[]; music: 
   for (const scene of SCENES) {
     const audio = findAsset(names, `voiceover/${scene.id}`, AUDIO_EXT);
     const image = findAsset(names, `images/${scene.id}`, IMAGE_EXT);
+    const images = image ? [image] : [];
+    for (let n = 2; n <= 6; n++) {
+      const extra = findAsset(names, `images/${scene.id}-${n}`, IMAGE_EXT);
+      if (!extra) break;
+      images.push(extra);
+    }
 
     let speechSec = estimateSpeechSeconds(scene);
     if (audio) {
@@ -77,7 +85,7 @@ export const buildTimeline = async (): Promise<{timeline: SceneTiming[]; music: 
     const natural = speechStart + speechFrames + Math.round(TAIL_SEC * FPS) + TRANSITION_FRAMES;
     const durationInFrames = Math.max(natural, Math.round(scene.minSeconds * FPS) + TRANSITION_FRAMES);
 
-    timeline.push({id: scene.id, durationInFrames, speechStart, speechFrames, audio, image});
+    timeline.push({id: scene.id, durationInFrames, speechStart, speechFrames, audio, image, images});
   }
 
   const music = findAsset(names, 'music/background', AUDIO_EXT);

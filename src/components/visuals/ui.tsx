@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {clamp} from '../../lib/anim';
 import {COLORS, FONT_BODY, FONT_DISPLAY} from '../../lib/theme';
 
@@ -102,13 +102,14 @@ export const SceneTag: React.FC<{index: number; total: number; label: string; co
   );
 };
 
-/** Emoji avatar — do'stlar personajlari */
-export const Avatar: React.FC<{emoji: string; color: string; size?: number; style?: React.CSSProperties}> = ({
-  emoji,
-  color,
-  size = 160,
-  style,
-}) => (
+/** Avatar — rasm (stiker uslubida oq chegarali) yoki emoji */
+export const Avatar: React.FC<{
+  emoji?: string;
+  src?: string;
+  color: string;
+  size?: number;
+  style?: React.CSSProperties;
+}> = ({emoji, src, color, size = 160, style}) => (
   <div
     style={{
       width: size,
@@ -118,13 +119,17 @@ export const Avatar: React.FC<{emoji: string; color: string; size?: number; styl
       alignItems: 'center',
       justifyContent: 'center',
       fontSize: size * 0.58,
-      background: `radial-gradient(circle at 35% 30%, ${color}66, ${color}22 60%, rgba(255,255,255,0.04))`,
-      border: `4px solid ${color}`,
-      boxShadow: `0 20px 50px rgba(0,0,0,0.4), 0 0 50px ${color}55`,
+      overflow: 'hidden',
+      flexShrink: 0,
+      background: src
+        ? '#FFFFFF'
+        : `radial-gradient(circle at 35% 30%, ${color}66, ${color}22 60%, rgba(255,255,255,0.04))`,
+      border: src ? `${Math.max(4, size * 0.05)}px solid #FFFFFF` : `4px solid ${color}`,
+      boxShadow: `0 0 0 ${Math.max(3, size * 0.03)}px ${color}, 0 20px 50px rgba(0,0,0,0.45), 0 0 50px ${color}55`,
       ...style,
     }}
   >
-    {emoji}
+    {src ? <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover'}} /> : emoji}
   </div>
 );
 
