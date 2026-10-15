@@ -53,9 +53,19 @@ def latin_to_cyrillic(text: str) -> str:
     return "".join(out)
 
 
+def ordinal_uz(n: int) -> str:
+    words = num_to_uz(n)
+    return words + ("nchi" if words[-1] in "aeiou" else "inchi")
+
+
+def expand_numbers(text: str) -> str:
+    # "1986-yil", "21-oktyabr" are read as ordinals; plain numbers as cardinals
+    text = re.sub(r"(\d+)-(?=[^\W\d_])", lambda m: " " + ordinal_uz(int(m.group(1))) + " ", text)
+    return re.sub(r"\d+", lambda m: " " + num_to_uz(int(m.group())) + " ", text)
+
+
 def normalize_cyr(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"\d+", lambda m: " " + num_to_uz(int(m.group())) + " ", text)
+    text = expand_numbers(text.lower())
     text = latin_to_cyrillic(text)
     text = re.sub(r"[^а-яёўғқҳ ]", " ", text)
     return re.sub(r"\s+", " ", text).strip()

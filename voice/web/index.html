@@ -122,7 +122,10 @@ function toCyrillic(t) {
   return out.join("");
 }
 function normalize(t) {
-  t = t.toLowerCase().replace(/[‘’ʻʼ`´]/g, "'").replace(/\d+/g, m => " " + numUz(Math.min(+m, 999999999999)) + " ");
+  const ord = n => { const w = numUz(n); return w + ("aeiou".includes(w[w.length - 1]) ? "nchi" : "inchi"); };
+  t = t.toLowerCase().replace(/[‘’ʻʼ`´]/g, "'")
+       .replace(/(\d+)-(?=\p{L})/gu, (_, d) => " " + ord(Math.min(+d, 999999999999)) + " ")
+       .replace(/\d+/g, m => " " + numUz(Math.min(+m, 999999999999)) + " ");
   return toCyrillic(t).replace(/[^а-яёўғқҳ .!?;]/g, " ").replace(/\s+/g, " ").trim();
 }
 function toIds(t) {
