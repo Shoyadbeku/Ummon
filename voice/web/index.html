@@ -188,7 +188,7 @@ async function speak() {
   $("go").disabled = true; $("go").textContent = "Tayyorlanmoqda…"; $("status").hidden = false; $("bar").style.width = "0";
   try {
     const sentences = text.split(/(?<=[.!?;])\s+/).filter(Boolean), pieces = [];
-    const scales = new ort.Tensor("float32", new Float32Array([0.667, 1 / +$("speed").value, 0.8]), [3]);
+    const scales = new ort.Tensor("float32", new Float32Array([0.4, 1 / +$("speed").value, 0.4]), [3]);
     for (let i = 0; i < sentences.length; i++) {
       status(`Ovoz yaratilmoqda: ${i + 1} / ${sentences.length} gap`);
       const ids = toIds(sentences[i]);
