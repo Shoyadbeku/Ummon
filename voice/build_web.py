@@ -10,7 +10,7 @@ data = open(onnx_path, "rb").read()
 CH = 14 * 1024 * 1024
 parts = []
 for i in range(0, len(data), CH):
-    name = f"model/voice.part{len(parts):02d}.bin"
+    name = f"model/voice.part{len(parts):02d}.wasm"
     os.makedirs(os.path.join(out, "model"), exist_ok=True)
     open(os.path.join(out, name), "wb").write(data[i:i + CH])
     parts.append(name)
