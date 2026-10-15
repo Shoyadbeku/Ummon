@@ -6,35 +6,14 @@ import torch
 from TTS.tts.configs.vits_config import VitsConfig
 from TTS.tts.models.vits import Vits
 
+from uzbek_text import num_to_uz
+
 LANG = "pt-br"  # closest phonetic spelling to Uzbek Latin among the base model's languages
 
 CYR = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюяўқғҳ",
                ["a", "b", "v", "g", "d", "e", "yo", "j", "z", "i", "y", "k", "l", "m", "n", "o", "p", "r",
                 "s", "t", "u", "f", "x", "ts", "ch", "sh", "sh", "'", "i", "", "e", "yu", "ya", "o'", "q",
                 "g'", "h"]))
-
-ONES = ["", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"]
-TENS = ["", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"]
-
-
-def num_to_uz(n: int) -> str:
-    if n == 0:
-        return "nol"
-    parts = []
-    for value, name in ((10 ** 9, "milliard"), (10 ** 6, "million"), (1000, "ming")):
-        if n >= value:
-            parts.append(f"{num_to_uz(n // value)} {name}")
-            n %= value
-    if n >= 100:
-        parts.append(f"{ONES[n // 100]} yuz")
-        n %= 100
-    if n >= 10:
-        parts.append(TENS[n // 10])
-        n %= 10
-    if n:
-        parts.append(ONES[n])
-    return " ".join(parts)
-
 
 def normalize_uz(text: str) -> str:
     text = text.lower()

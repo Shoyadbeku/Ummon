@@ -1,7 +1,28 @@
 """Uzbek text normalization for the MMS-TTS (Cyrillic) model: Latin -> Cyrillic, numbers -> words."""
 import re
 
-from common import num_to_uz
+ONES = ["", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"]
+TENS = ["", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"]
+
+
+def num_to_uz(n: int) -> str:
+    if n == 0:
+        return "nol"
+    parts = []
+    for value, name in ((10 ** 9, "milliard"), (10 ** 6, "million"), (1000, "ming")):
+        if n >= value:
+            parts.append(f"{num_to_uz(n // value)} {name}")
+            n %= value
+    if n >= 100:
+        parts.append(f"{ONES[n // 100]} yuz")
+        n %= 100
+    if n >= 10:
+        parts.append(TENS[n // 10])
+        n %= 10
+    if n:
+        parts.append(ONES[n])
+    return " ".join(parts)
+
 
 VOWELS = set("aeiouаеиоуўэюяё")
 DIGRAPHS = [("o'", "ў"), ("g'", "ғ"), ("sh", "ш"), ("ch", "ч"), ("yo", "ё"), ("yu", "ю"), ("ya", "я"), ("ye", "е")]

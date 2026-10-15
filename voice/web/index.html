@@ -56,7 +56,7 @@
 
 <main>
   <header>
-    <span class="eyebrow">LoRA · YourTTS · 16 kHz</span>
+    <span class="eyebrow">MMS-TTS · o'zbekcha · 16 kHz</span>
     <h1>Mening ovozim</h1>
     <p class="lede">O'zbekcha matn yozing va uni mening ovozimda eshiting. Model brauzeringizning o'zida ishlaydi, matn hech qayerga yuborilmaydi.</p>
   </header>
@@ -73,14 +73,14 @@
     </div>
     <div class="status" id="status">
       <div class="bar"><i id="bar"></i></div>
-      <div class="msg" id="msg">Model yuklanmoqda (taxminan 125 MB, faqat birinchi marta).</div>
+      <div class="msg" id="msg">Model yuklanmoqda (taxminan 115 MB, faqat birinchi marta).</div>
     </div>
     <audio id="player" controls hidden></audio>
   </section>
 
   <footer>
-    <span>Ovoz ~4 daqiqalik yozuvdan LoRA adapter bilan o'qitilgan. Kirill yozuvi va raqamlar avtomatik lotinga o'giriladi.</span>
-    <span>Talaffuz hali mukammal emas: o'qitish ma'lumotlari kam bo'lgan.</span>
+    <span>Meta'ning o'zbekcha MMS-TTS modeli ~9 daqiqalik yozuvim asosida mening ovozimga moslab o'qitilgan.</span>
+    <span>Lotin va kirill yozuvi ham ishlaydi, raqamlar so'z bilan o'qiladi.</span>
   </footer>
 </main>
 
@@ -91,10 +91,8 @@ const VOCAB = __VOCAB__;
 const SR = 16000;
 const $ = id => document.getElementById(id);
 
-// tokenizer: same as Coqui (last duplicate wins, blank interleaved)
-const ID = {}; VOCAB.forEach((c, i) => { ID[c] = i; });
-const BLANK = VOCAB.indexOf("<BLNK>");
-const CYR = {"а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"yo","ж":"j","з":"z","и":"i","й":"y","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t","у":"u","ф":"f","х":"x","ц":"ts","ч":"ch","ш":"sh","щ":"sh","ъ":"'","ы":"i","ь":"","э":"e","ю":"yu","я":"ya","ў":"o'","қ":"q","ғ":"g'","ҳ":"h"};
+// tokenizer: same as transformers VitsTokenizer (lowercase, drop unknown chars, blank interleaved)
+const ID = VOCAB.vocab, BLANK = VOCAB.pad;
 const ONES = ["","bir","ikki","uch","to'rt","besh","olti","yetti","sakkiz","to'qqiz"];
 const TENS = ["","o'n","yigirma","o'ttiz","qirq","ellik","oltmish","yetmish","sakson","to'qson"];
 function numUz(n) {
@@ -107,10 +105,25 @@ function numUz(n) {
   if (n) p.push(ONES[n]);
   return p.join(" ");
 }
+// Uzbek Latin -> Cyrillic (mirrors voice/uzbek_text.py)
+const DIGRAPHS = [["o'","ў"],["g'","ғ"],["sh","ш"],["ch","ч"],["yo","ё"],["yu","ю"],["ya","я"],["ye","е"]];
+const SINGLE = {a:"а",b:"б",d:"д",f:"ф",g:"г",h:"ҳ",i:"и",j:"ж",k:"к",l:"л",m:"м",n:"н",p:"п",q:"қ",r:"р",s:"с",t:"т",u:"у",v:"в",x:"х",y:"й",z:"з",c:"с",w:"в",o:"о"};
+const VOWELS = new Set("aeiouаеиоуўэюяё");
+function toCyrillic(t) {
+  const out = [];
+  for (let i = 0; i < t.length;) {
+    const d = DIGRAPHS.find(([k]) => t.startsWith(k, i));
+    if (d) { out.push(d[1]); i += 2; continue; }
+    const c = t[i++];
+    if (c === "e") { const p = out.length ? out[out.length - 1] : " "; out.push(p === " " || VOWELS.has(p) ? "э" : "е"); }
+    else if (c === "'") out.push("ъ");
+    else out.push(SINGLE[c] ?? c);
+  }
+  return out.join("");
+}
 function normalize(t) {
-  t = t.toLowerCase().split("").map(c => CYR[c] ?? c).join("");
-  t = t.replace(/[‘’ʻʼ`´]/g, "'").replace(/\d+/g, m => " " + numUz(Math.min(+m, 999999999999)) + " ");
-  return t.replace(/[^a-z' .,!?;:\-]/g, " ").replace(/\s+/g, " ").trim();
+  t = t.toLowerCase().replace(/[‘’ʻʼ`´]/g, "'").replace(/\d+/g, m => " " + numUz(Math.min(+m, 999999999999)) + " ");
+  return toCyrillic(t).replace(/[^а-яёўғқҳ .!?;]/g, " ").replace(/\s+/g, " ").trim();
 }
 function toIds(t) {
   const ids = [BLANK];
@@ -159,7 +172,7 @@ function wavBlob(f32) {
 const examples = ["Assalomu alaykum, xush kelibsiz!", "Bugun 15-oktabr, havo juda yaxshi.", "Kelajakda insonlar Marsga uchib boradi.", "Kitob o'qish insonni dono qiladi."];
 examples.forEach(t => { const b = document.createElement("button"); b.className = "chip"; b.textContent = t; b.onclick = () => { $("text").value = t; upd(); }; $("chips").append(b); });
 const upd = () => { $("count").textContent = $("text").value.length + " / 1500"; $("sv").textContent = (+$("speed").value).toFixed(2) + "×"; };
-$("text").oninput = upd; $("speed").oninput = upd; upd();
+$("text").oninput = upd; $("speed").oninput = () => { upd(); player.playbackRate = +$("speed").value; }; upd();
 function status(text, err = false) { $("msg").textContent = text; $("msg").classList.toggle("err", err); }
 
 let session = null;
@@ -188,13 +201,12 @@ async function speak() {
   $("go").disabled = true; $("go").textContent = "Tayyorlanmoqda…"; $("status").hidden = false; $("bar").style.width = "0";
   try {
     const sentences = text.split(/(?<=[.!?;])\s+/).filter(Boolean), pieces = [];
-    const scales = new ort.Tensor("float32", new Float32Array([0.4, 1 / +$("speed").value, 0.4]), [3]);
     for (let i = 0; i < sentences.length; i++) {
       status(`Ovoz yaratilmoqda: ${i + 1} / ${sentences.length} gap`);
       const ids = toIds(sentences[i]);
       const input = new ort.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, ids.length]);
-      const out = await session.run({ input, scales });
-      pieces.push(out.output.data, new Float32Array(SR / 4));
+      const out = await session.run({ input_ids: input });
+      pieces.push(out.waveform.data, new Float32Array(SR / 4));
       $("bar").style.width = (100 * (i + 1) / sentences.length) + "%";
     }
     const len = pieces.reduce((s, p) => s + p.length, 0), wav = new Float32Array(len);
@@ -202,7 +214,8 @@ async function speak() {
     for (const x of wav) peak = Math.max(peak, Math.abs(x));
     for (let i = 0; i < len; i++) wav[i] *= 0.9 / peak;
     current = wav; draw(wav, 0);
-    player.src = URL.createObjectURL(wavBlob(wav)); player.hidden = false; player.play().catch(() => {});
+    player.src = URL.createObjectURL(wavBlob(wav)); player.hidden = false;
+    player.preservesPitch = true; player.playbackRate = +$("speed").value; player.play().catch(() => {});
     $("status").hidden = true;
   } catch (e) { status("Ovoz yaratib bo'lmadi: " + e.message, true); }
   finally { $("go").disabled = false; $("go").textContent = "Ovozga aylantirish"; }
