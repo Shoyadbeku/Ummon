@@ -36,3 +36,30 @@ jobs:
           gh release view hf-models >/dev/null 2>&1 || \
             gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
           gh release upload hf-models dist/*.tar.gz --clobber
+
+  mms-train-checkpoint:
+    # MMS generator + original discriminator (facebook/mms-tts full_models) in the
+    # finetune-hf-vits training format, needed to fine-tune MMS-TTS on a new voice.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Convert checkpoint
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "transformers==4.46.3" "huggingface_hub<1" Cython numpy accelerate
+          git clone -q --depth 1 https://github.com/ylacombe/finetune-hf-vits.git fhv
+          cd fhv/monotonic_align && mkdir -p monotonic_align && python setup.py build_ext --inplace -q && cd ../..
+          cd fhv && python convert_original_discriminator_checkpoint.py \
+            --language_code uzb-script_cyrillic --pytorch_dump_folder_path ../mms-tts-uzb-train && cd ..
+          ls -la mms-tts-uzb-train
+          mkdir -p dist && tar -czf dist/mms-tts-uzb-train.tar.gz mms-tts-uzb-train
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/*.tar.gz --clobber
