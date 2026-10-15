@@ -1,0 +1,25 @@
+{
+  "title": "Bitta kichkina narsa oldim",
+  "subtitle": "Er-xotin va onlayn xarid dardi",
+  "segments": [
+    { "id": "intro",    "type": "pause", "duration": 3.2 },
+    { "id": "knock",    "type": "sfx",   "sfx": "knock" },
+    { "id": "er1",      "type": "speech", "speaker": "er",
+      "text": "Xotiiin, eshikni och! Kim u?" },
+    { "id": "gap1",     "type": "pause", "duration": 0.5 },
+    { "id": "xotin1",   "type": "speech", "speaker": "xotin", "effect": "kitchen",
+      "text": "Dadasi, kuryer kelibdi. Uzumdan o'zimga bitta kichkina soch qistiradigan rezinka zakaz qilgandim, shuni olib kiring!" },
+    { "id": "gap2",     "type": "pause", "duration": 0.4 },
+    { "id": "er2",      "type": "speech", "speaker": "er", "text": "Xo'p." },
+    { "id": "walk",     "type": "pause", "duration": 2.6 },
+    { "id": "truck",    "type": "sfx",   "sfx": "horn" },
+    { "id": "avalanche","type": "sfx",   "sfx": "crash" },
+    { "id": "gap3",     "type": "pause", "duration": 0.6 },
+    { "id": "kuryer1",  "type": "speech", "speaker": "kuryer",
+      "text": "Aka, bu birinchi qism edi! Yana ikkita fura karobka kelyapti. Xolodilniklarni qayerga tushiraylik?",
+      "subtitle": "Aka, bu 1-qism edi! Yana ikkita fura karobka kelyapti. Xolodilniklarni qayerga tushiraylik?" },
+    { "id": "wallet",   "type": "pause", "duration": 4.2 },
+    { "id": "er3",      "type": "speech", "speaker": "er", "text": "Niyeeeeet!", "effect": "muffled" },
+    { "id": "outro",    "type": "pause", "duration": 3.0 }
+  ]
+}

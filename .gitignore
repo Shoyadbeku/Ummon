@@ -1,0 +1,4 @@
+node_modules
+output
+*.meta
+__pycache__
