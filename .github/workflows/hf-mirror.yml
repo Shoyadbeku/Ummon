@@ -1,0 +1,38 @@
+name: Mirror HuggingFace models to release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/voice-lora-tts]
+    paths:
+      - voice/hf_models.txt
+      - .github/workflows/hf-mirror.yml
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download models from HuggingFace
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          mkdir -p dist
+          grep -v '^\s*#' voice/hf_models.txt | grep -v '^\s*$' | while read -r repo; do
+            name="${repo//\//--}"
+            python -c "from huggingface_hub import snapshot_download as s; s('$repo', local_dir='m/$name', allow_patterns=['*.json','*.txt','*.md','*.safetensors','*.model'])"
+            tar -C m -czf "dist/$name.tar.gz" "$name"
+            ls -la "dist/$name.tar.gz"
+          done
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/*.tar.gz --clobber

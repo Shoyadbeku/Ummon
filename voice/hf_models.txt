@@ -1,0 +1,2 @@
+# HuggingFace repos mirrored into the "hf-models" GitHub release by .github/workflows/hf-mirror.yml
+facebook/mms-tts-uzb-script_cyrillic
