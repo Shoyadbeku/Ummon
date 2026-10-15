@@ -49,7 +49,7 @@ jobs:
       - name: Convert checkpoint
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q "transformers==4.46.3" "huggingface_hub<1" Cython numpy accelerate
+          pip install -q "transformers==4.46.3" "huggingface_hub<1" Cython numpy accelerate matplotlib tensorboard datasets
           git clone -q --depth 1 https://github.com/ylacombe/finetune-hf-vits.git fhv
           cd fhv/monotonic_align && mkdir -p monotonic_align && python setup.py build_ext --inplace -q && cd ../..
           cd fhv && python convert_original_discriminator_checkpoint.py \
