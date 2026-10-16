@@ -113,6 +113,7 @@ const VOWELS = new Set("aeiouаеиоуўэюяё");
 function toCyrillic(t) {
   const out = [];
   for (let i = 0; i < t.length;) {
+    if (t[i] === "y" && (t.startsWith("o'", i + 1) || t.startsWith("g'", i + 1))) { out.push("й"); i += 1; continue; }
     const d = DIGRAPHS.find(([k]) => t.startsWith(k, i));
     if (d) { out.push(d[1]); i += 2; continue; }
     const c = t[i++];

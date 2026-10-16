@@ -33,6 +33,10 @@ def latin_to_cyrillic(text: str) -> str:
     text = re.sub(r"[‘’ʻʼ`´]", "'", text.lower())
     out, i = [], 0
     while i < len(text):
+        if text[i] == "y" and text[i + 1:i + 3] in ("o'", "g'"):
+            out.append("й")  # "yo'l" -> "йўл", not "ёъл"
+            i += 1
+            continue
         two = text[i:i + 2]
         hit = next((c for d, c in DIGRAPHS if two == d), None)
         if hit:
