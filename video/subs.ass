@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,3,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:01.23,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}ULAR{\c&HFFFFFF&} YERGA OQ
+Dialogue: 0,0:00:01.23,0:00:02.41,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}CHIZIQLAR{\c&HFFFFFF&} CHIZIB,
+Dialogue: 0,0:00:02.41,0:00:03.78,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}YON{\c&HFFFFFF&} TOMONLARIGA TO'Q
+Dialogue: 0,0:00:03.78,0:00:05.20,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}SOYALAR{\c&HFFFFFF&} QO'SHISHDI VA
+Dialogue: 0,0:00:05.20,0:00:06.75,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}YANGI{\c&HFFFFFF&} TURDAGI PIYODALAR
+Dialogue: 0,0:00:06.75,0:00:08.43,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}O'TISH{\c&HFFFFFF&} JOYINI YARATISHDI.
+Dialogue: 0,0:00:08.70,0:00:10.29,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}YAQINLASHIB{\c&HFFFFFF&} KELAYOTGAN
+Dialogue: 0,0:00:10.29,0:00:12.16,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}AVTOMOBIL{\c&HFFFFFF&} NUQTAI NAZARIDAN
+Dialogue: 0,0:00:12.16,0:00:12.55,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}ESA,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.55,0:00:13.68,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}U{\c&HFFFFFF&} YERDAN TEPADA
+Dialogue: 0,0:00:13.68,0:00:15.28,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}SUZIB{\c&HFFFFFF&} YURUVCHI HAQIQIY
+Dialogue: 0,0:00:15.28,0:00:16.74,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}BLOKLARGA{\c&HFFFFFF&} O'XSHAYDI.
+Dialogue: 0,0:00:17.00,0:00:18.53,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}KO'RIB{\c&HFFFFFF&} TURGANINGIZDEK,
+Dialogue: 0,0:00:18.53,0:00:19.87,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}BU{\c&HFFFFFF&} IXTIRO PIYODALAR
+Dialogue: 0,0:00:19.87,0:00:21.15,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}YO'LAGIDA{\c&HFFFFFF&} HECH KIM
+Dialogue: 0,0:00:21.15,0:00:23.19,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}TO'XTAMAGANI{\c&HFFFFFF&} UCHUN YARATILGAN.
+Dialogue: 0,0:00:23.40,0:00:24.57,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}SHUNDAY{\c&HFFFFFF&} QILIB,
+Dialogue: 0,0:00:24.57,0:00:26.82,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}ODAM{\c&HFFFFFF&} CHIZMAGA YAQINLASHGANDA,
+Dialogue: 0,0:00:26.82,0:00:28.28,Cap,,0,0,0,,{\fad(40,40)}{\c&H00D7FF&}ALBATTA{\c&HFFFFFF&} TO'XTAYDI.

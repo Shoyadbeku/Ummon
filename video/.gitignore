@@ -1,0 +1,7 @@
+frames/
+test/
+*.blend
+*.blend1
+render.log
+audio/mix.wav
+final.mp4
