@@ -81,6 +81,7 @@
   <footer>
     <span>Meta'ning o'zbekcha MMS-TTS modeli ~9 daqiqalik yozuvim asosida mening ovozimga moslab o'qitilgan.</span>
     <span>Lotin va kirill yozuvi ham ishlaydi, raqamlar so'z bilan o'qiladi.</span>
+    <span class="mono">Model versiyasi: __VERSION__</span>
   </footer>
 </main>
 
@@ -126,7 +127,7 @@ function normalize(t) {
   t = t.toLowerCase().replace(/[‘’ʻʼ`´]/g, "'")
        .replace(/(\d+)-(?=\p{L})/gu, (_, d) => " " + ord(Math.min(+d, 999999999999)) + " ")
        .replace(/\d+/g, m => " " + numUz(Math.min(+m, 999999999999)) + " ");
-  return toCyrillic(t).replace(/[^а-яёўғқҳ .!?;]/g, " ").replace(/\s+/g, " ").trim();
+  return toCyrillic(t).replace(/[^а-яёўғқҳ .,!?;:]/g, " ").replace(/\s+/g, " ").trim();
 }
 function toIds(t) {
   const ids = [BLANK];
@@ -203,13 +204,19 @@ async function speak() {
   if (!text) { $("status").hidden = false; status("Avval matn yozing.", true); return; }
   $("go").disabled = true; $("go").textContent = "Tayyorlanmoqda…"; $("status").hidden = false; $("bar").style.width = "0";
   try {
-    const sentences = text.split(/(?<=[.!?;])\s+/).filter(Boolean), pieces = [];
+    // split at sentence ends (long pause) and commas/colons (short pause): the model itself has no punctuation
+    const chunks = [];
+    for (const s of text.split(/(?<=[.!?;])\s+/).filter(Boolean)) {
+      const parts = s.split(/(?<=[,:])\s*/).filter(p => /[а-яёўғқҳ]/.test(p));
+      parts.forEach((p, i) => chunks.push([p, i === parts.length - 1 ? SR * 0.35 : SR * 0.15]));
+    }
+    const sentences = chunks.map(c => c[0]), pieces = [];
     for (let i = 0; i < sentences.length; i++) {
-      status(`Ovoz yaratilmoqda: ${i + 1} / ${sentences.length} gap`);
+      status(`Ovoz yaratilmoqda: ${i + 1} / ${sentences.length} bo'lak`);
       const ids = toIds(sentences[i]);
       const input = new ort.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, ids.length]);
       const out = await session.run({ input_ids: input });
-      pieces.push(out.waveform.data, new Float32Array(SR / 4));
+      pieces.push(out.waveform.data, new Float32Array(Math.round(chunks[i][1])));
       $("bar").style.width = (100 * (i + 1) / sentences.length) + "%";
     }
     const len = pieces.reduce((s, p) => s + p.length, 0), wav = new Float32Array(len);
