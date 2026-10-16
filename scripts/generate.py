@@ -10,6 +10,9 @@ MODELS = [m.strip() for m in os.environ.get(
 OUT = Path("images")
 OUT.mkdir(exist_ok=True)
 
+if not os.environ.get("HF_TOKEN"):
+    sys.exit("HF_TOKEN secret is not set: add it in Settings > Secrets and variables > Actions")
+
 prompts = [p.strip() for p in Path("scripts/prompts.txt").read_text().splitlines() if p.strip()]
 client = InferenceClient(provider=os.environ.get("HF_PROVIDER", "auto"), api_key=os.environ["HF_TOKEN"])
 
