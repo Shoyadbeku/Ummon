@@ -44,7 +44,7 @@ ok = 0
 for i, seed in enumerate((11, 42, 777), 1):
     for space, api, args in SPACES:
         try:
-            client = Client(space, hf_token=TOKEN)
+            client = Client(space, token=TOKEN) if TOKEN else Client(space)
             res = client.predict(**args(handle_file(SRC), seed), api_name=api)
             path = first_image(res)
             if not path:
