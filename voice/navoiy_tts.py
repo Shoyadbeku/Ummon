@@ -22,6 +22,7 @@ ap.add_argument("--text_file", required=True)
 ap.add_argument("--out", required=True)
 ap.add_argument("--ref_text", help="exact transcript of --ref; enables zero-shot cloning (much closer to the reference voice)")
 ap.add_argument("--emotion", default="xotirjam", help="used only without --ref_text (instruct mode)")
+ap.add_argument("--flow", help="fine-tuned flow state dict from navoiy_train_flow.py (user's timbre)")
 ap.add_argument("--speed", type=float, default=1.0)
 ap.add_argument("--seed", type=int, default=1986)
 a = ap.parse_args()
@@ -36,6 +37,9 @@ torch.set_num_threads(4)
 emotions = {e["uz"]: e for e in json.loads(Path(a.navoiy, "emotions_40h.json").read_text())}
 instruction = emotions[a.emotion]["instruct"].strip() + "<|endofprompt|>"
 model = CosyVoice2(a.cv2, load_jit=False, load_trt=False, fp16=False)
+if a.flow:
+    model.model.flow.load_state_dict(torch.load(a.flow, map_location="cpu", weights_only=True), strict=True)
+    model.model.flow.eval()
 
 pieces = []
 paragraphs = [p for p in re.split(r"\n\s*\n", open(a.text_file).read()) if p.strip()]
