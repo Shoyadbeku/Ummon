@@ -63,3 +63,38 @@ jobs:
           gh release view hf-models >/dev/null 2>&1 || \
             gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
           gh release upload hf-models dist/*.tar.gz --clobber
+
+  chatterbox-uzbek:
+    # Uzbek Chatterbox fine-tune (natural prosody, zero-shot voice cloning) + base Chatterbox
+    # vocoder/voice-encoder. Files >1.9 GB are split because release assets are capped at 2 GiB.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          python - <<'PY'
+          from huggingface_hub import hf_hub_download as d
+          for f in ["t3_finetuned_merged.safetensors", "tokenizer.json", "reference_voice.wav"]:
+              d("Abduqayum/uzbek-tts-natural-speech-chatterbox", f, local_dir="cb")
+          for f in ["s3gen.safetensors", "ve.safetensors", "conds.pt"]:
+              d("ResembleAI/chatterbox", f, local_dir="cb")
+          PY
+          mkdir -p dist
+          split -b 1900M -d cb/t3_finetuned_merged.safetensors dist/chatterbox-uz-t3.safetensors.part
+          split -b 1900M -d cb/s3gen.safetensors dist/chatterbox-s3gen.safetensors.part
+          cp cb/ve.safetensors dist/chatterbox-ve.safetensors
+          cp cb/conds.pt dist/chatterbox-conds.pt
+          cp cb/tokenizer.json dist/chatterbox-uz-tokenizer.json
+          cp cb/reference_voice.wav dist/chatterbox-uz-reference_voice.wav
+          ls -la dist
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/* --clobber
