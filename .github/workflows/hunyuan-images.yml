@@ -1,0 +1,37 @@
+name: Hunyuan images
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/prompts.txt
+      - scripts/generate.py
+      - .github/workflows/hunyuan-images.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "huggingface_hub>=0.34" pillow
+      - name: Generate images
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/generate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hunyuan-images
+          path: images/
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add images
+          git diff --cached --quiet || git commit -m "Add generated Hunyuan images [skip ci]"
+          git push
