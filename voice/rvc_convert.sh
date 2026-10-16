@@ -5,5 +5,5 @@ set -e
 APPLIO=$1; PY=$2; PTH=$3; INDEX=$4; IN=$5; OUT=$6; PITCH=${7:-1}
 cd "$APPLIO"
 "$PY" core.py infer --input-path "$IN" --output-path "$OUT" --pth-path "$PTH" --index-path "$INDEX" \
-  --pitch "$PITCH" --index-rate 0.5 --protect 0.4 --volume-envelope 1.0 --f0-method rmvpe \
+  --pitch "$PITCH" --index-rate "${INDEX_RATE:-0.5}" --protect 0.4 --volume-envelope 1.0 --f0-method rmvpe \
   --embedder-model contentvec --export-format WAV
