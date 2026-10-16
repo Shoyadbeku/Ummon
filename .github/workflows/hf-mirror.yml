@@ -131,3 +131,32 @@ jobs:
           gh release view hf-models >/dev/null 2>&1 || \
             gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
           gh release upload hf-models dist/* --clobber
+
+  applio-rvc-assets:
+    # RVC (Applio) pretrained assets for voice-conversion training: ContentVec embedder, RMVPE pitch
+    # predictor and the v2 40 kHz pretrained generator/discriminator.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          python - <<'PY'
+          from huggingface_hub import snapshot_download as s
+          s("IAHispano/Applio", local_dir="applio", allow_patterns=[
+              "Resources/embedders/contentvec/*", "Resources/predictors/rmvpe.pt",
+              "Resources/pretrained_v2/f0G40k.pth", "Resources/pretrained_v2/f0D40k.pth"])
+          PY
+          rm -rf applio/.cache
+          mkdir -p dist && tar -cf dist/applio-rvc-assets.tar -C applio/Resources .
+          ls -la dist
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/* --clobber
