@@ -20,7 +20,8 @@ ap.add_argument("--navoiy", required=True, help="navoiy-tts repo dir (uztts/norm
 ap.add_argument("--ref", required=True, help="clean 5-15 s clip of the voice to clone")
 ap.add_argument("--text_file", required=True)
 ap.add_argument("--out", required=True)
-ap.add_argument("--emotion", default="xotirjam")
+ap.add_argument("--ref_text", help="exact transcript of --ref; enables zero-shot cloning (much closer to the reference voice)")
+ap.add_argument("--emotion", default="xotirjam", help="used only without --ref_text (instruct mode)")
 ap.add_argument("--speed", type=float, default=1.0)
 ap.add_argument("--seed", type=int, default=1986)
 a = ap.parse_args()
@@ -43,7 +44,9 @@ for n, para in enumerate(paragraphs):
     torch.manual_seed(a.seed + n)
     text = normalize(" ".join(para.split()), mode="infer")
     with torch.inference_mode():
-        for r in model.inference_instruct2(text, instruction, a.ref, stream=False, speed=a.speed):
+        gen = (model.inference_zero_shot(text, normalize(a.ref_text, mode="infer"), a.ref, stream=False, speed=a.speed)
+               if a.ref_text else model.inference_instruct2(text, instruction, a.ref, stream=False, speed=a.speed))
+        for r in gen:
             pieces.append(r["tts_speech"].squeeze(0).cpu().numpy())
     pieces.append(np.zeros(int(model.sample_rate * 0.45), np.float32))
     print("done paragraph", n + 1, "/", len(paragraphs), flush=True)
