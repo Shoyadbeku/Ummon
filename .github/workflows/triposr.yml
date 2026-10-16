@@ -23,7 +23,10 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/VAST-AI-Research/TripoSR.git ../TripoSR
           pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-          pip install -r ../TripoSR/requirements.txt onnxruntime
+          pip install scikit-build-core cmake ninja pybind11 setuptools wheel
+          pip install --no-build-isolation git+https://github.com/tatsy/torchmcubes.git
+          grep -v torchmcubes ../TripoSR/requirements.txt > ../req.txt
+          pip install -r ../req.txt onnxruntime
       - name: Image to 3D
         run: |
           python ../TripoSR/run.py inputs/crosswalk.jpg --device cpu \
