@@ -1,0 +1,65 @@
+name: Uzbek voice-over (Chatterbox)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/uzbek-voiceover]
+    paths:
+      - tts/chatterbox_voiceover.py
+      - tts/source.mp4
+      - .github/workflows/uzbek-voiceover.yml
+
+permissions:
+  contents: write
+
+jobs:
+  voiceover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Get chatterbox-finetuning toolkit
+        run: |
+          git clone https://github.com/gokhaneraslan/chatterbox-finetuning.git cbft
+          git -C cbft checkout fac31c46ec96b37283a363a1a96c2a0e56640e03
+
+      - name: Install Python packages (CPU)
+        working-directory: cbft
+        run: |
+          pip install torch==2.6.0 torchaudio==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install "setuptools<81" huggingface_hub
+          pip install -r requirements.txt
+
+      - name: Download models from Hugging Face
+        working-directory: cbft
+        run: |
+          python setup.py
+          python -c "from huggingface_hub import snapshot_download; snapshot_download('Abduqayum/uzbek-tts-natural-speech-chatterbox', local_dir='uzbek_chatterbox', allow_patterns=['*.safetensors', '*.json', '*.py', 'reference_voice.wav'])"
+          cp uzbek_chatterbox/inference.py .
+
+      - name: Generate voice-over
+        working-directory: cbft
+        run: python ../tts/chatterbox_voiceover.py ../tts/source.mp4 ../Kambagal_ovozli_uz_chatterbox.mp4
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voiceover
+          path: |
+            Kambagal_ovozli_uz_chatterbox.mp4
+            cbft/voiceover_work/*_clean.wav
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Kambagal_ovozli_uz_chatterbox.mp4
+          git commit -m "Generate Uzbek voice-over with Chatterbox model"
+          git push
