@@ -38,18 +38,20 @@ function status(el, msg, kind = '') {
 const fmtSec = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
 /* ================= audio: istalgan formatdan 24 kHz mono WAV ================= */
-async function toWav(blob) {
+// Video fayllardan ham ovoz olinadi; maxSec dan uzun bo'lsa, boshidan qirqiladi.
+async function toWav(blob, maxSec = Infinity) {
   const buf = await blob.arrayBuffer();
-  const ctx = new AudioContext();
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
   let decoded;
   try { decoded = await ctx.decodeAudioData(buf); } finally { ctx.close(); }
-  const off = new OfflineAudioContext(1, Math.ceil(decoded.duration * RATE), RATE);
+  const dur = Math.min(decoded.duration, maxSec);
+  const off = new OfflineAudioContext(1, Math.ceil(dur * RATE), RATE);
   const src = off.createBufferSource();
   src.buffer = decoded;
   src.connect(off.destination);
   src.start();
   const out = await off.startRendering();
-  return { wav: pcmToWav(out.getChannelData(0), RATE), dur: decoded.duration };
+  return { wav: pcmToWav(out.getChannelData(0), RATE), dur, trimmed: decoded.duration > maxSec };
 }
 
 function wavHeader(dataLen, rate) {
@@ -101,20 +103,20 @@ function setupSlot(slot) {
   async function accept(blob) {
     status(info, 'Audio tayyorlanmoqda…');
     try {
-      clips[slot] = await toWav(blob);
+      clips[slot] = await toWav(blob, LIMITS[slot][1]);
     } catch {
       clips[slot] = null;
       audio.hidden = true;
-      status(info, 'Bu audioni o‘qib bo‘lmadi. WAV, MP3 yoki M4A tanlang.', 'err');
+      status(info, 'Bu fayldan ovoz olib bo‘lmadi. WAV, MP3, M4A yoki MP4/MOV video tanlang.', 'err');
       return;
     }
-    const { wav, dur } = clips[slot];
+    const { wav, dur, trimmed } = clips[slot];
     URL.revokeObjectURL(audio.src);
     audio.src = URL.createObjectURL(wav);
     audio.hidden = false;
     const [min, max] = LIMITS[slot];
     if (dur < min || dur > max) status(info, `${dur.toFixed(1)} soniya. Tavsiya: ${min}–${max} soniya, aks holda rad etilishi mumkin.`, 'warn');
-    else status(info, `${dur.toFixed(1)} soniya ✓`, 'ok');
+    else status(info, `${dur.toFixed(1)} soniya ✓${trimmed ? ' (fayl uzun edi, boshidan qirqildi)' : ''}`, 'ok');
   }
 
   fileIn.addEventListener('change', () => {
