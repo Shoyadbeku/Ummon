@@ -5,6 +5,10 @@ const API = 'https://generativelanguage.googleapis.com/v1beta';
 const RATE = 24000; // API tavsiyasi: 24 kHz, mono, 16-bit WAV
 
 const CONSENT = {
+  'uz-UZ': {
+    text: 'Men ushbu ovozning egasiman va Google’ga ushbu ovozdan sintetik ovoz modelini yaratish uchun foydalanishga roziman.',
+    hint: 'Sinov: Google o‘zbekcha rozilikni hali rasman qo‘llamasligi mumkin. Rad etilsa, inglizcha variantni tanlang.',
+  },
   'en-US': {
     text: 'I am the owner of this voice and I consent to Google using this voice to create a synthetic voice model.',
     hint: 'Talaffuz: «Ay em di ouner ov dis voys end ay kensent tu Gugl yuzing dis voys tu kriyeyt e sintetik voys model.»',
@@ -184,7 +188,7 @@ function friendlyError(code, msg) {
   if (code === 401 || code === 403 || m.includes('api key')) return `API kalit noto‘g‘ri yoki ruxsati yo‘q. (${msg})`;
   if (code === 429 || m.includes('quota') || m.includes('exhausted')) return `Limit tugadi (bepul tarifda kuniga ~10 so‘rov). Keyinroq urinib ko‘ring yoki Lite modelni tanlang. (${msg})`;
   if (m.includes('location') || m.includes('region') || m.includes('not available')) return `Bu xizmat sizning hududingizda mavjud emas. (${msg})`;
-  if (m.includes('consent')) return `Rozilik yozuvi tasdiqlanmadi: matn so‘zma-so‘z va namunadagi odamning o‘zi tomonidan o‘qilishi kerak. (${msg})`;
+  if (m.includes('consent')) return `Rozilik yozuvi tasdiqlanmadi: matn so‘zma-so‘z va namunadagi odamning o‘zi tomonidan o‘qilishi kerak. O‘zbekcha rozilik rad etilsa, inglizchasini sinang. (${msg})`;
   if (code === 400) return `So‘rov rad etildi: audio uzunligi va sifatini tekshiring. (${msg})`;
   return `Gemini API xatosi ${code}: ${msg}`;
 }
@@ -205,18 +209,23 @@ async function createVoice() {
   status(st, 'Ovoz klonlanmoqda…');
   try {
     const [source, consent] = await Promise.all([blobToB64(clips.source.wav), blobToB64(clips.consent.wav)]);
-    const v = await call(`voices?store=${stored}`, key, {
-      model,
-      type: 'replicated',
-      displayName: name,
-      replicated: {
-        sourceAudio: { mimeType: 'audio/wav', data: source },
-        consentAudio: { mimeType: 'audio/wav', data: consent },
+    // Voices API so'rovi: { voice, store }, maydonlar snake_case (rasmiy google-genai SDK bo'yicha).
+    const res = await call('voices', key, {
+      voice: {
+        model,
+        type: 'replicated',
+        display_name: name,
+        replicated: {
+          source_audio: { mime_type: 'audio/wav', data: source },
+          consent_audio: { mime_type: 'audio/wav', data: consent },
+        },
       },
+      store: stored,
     });
+    const v = res.voice || res;
     const ref = v.id || v.key || (v.name || '').split('/').pop();
     if (!ref) throw new Error('Ovoz yaratildi, lekin API ID qaytarmadi.');
-    voices.unshift({ name: v.displayName || name, ref, model, stored, created: Date.now() });
+    voices.unshift({ name: v.display_name || v.displayName || name, ref, model, stored, created: Date.now() });
     store.set('ummon-voices', voices);
     renderVoices(ref);
     status(st, `Tayyor! «${name}» ovozi yaratildi. Endi 5-qadamda matnni o‘qiting.`, 'ok');
