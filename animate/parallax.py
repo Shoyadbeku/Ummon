@@ -119,6 +119,7 @@ def render_scene(sess, name, cfg, out_path):
             b = 0.006 * np.sin(2 * np.pi * t / 2.6)
             w = np.clip((depth - 0.5) * 2, 0, 1)
             my += (by - my) * b * w
+        mx, my = mx.astype(np.float32), my.astype(np.float32)
         frame = cv2.remap(src, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
         # Alanga lipillashi (bir nechta sinus = tartibsiz shovqin)
