@@ -84,6 +84,19 @@ function render() {
   }));
 }
 
+// Minimal ZIP writer (stored, no compression): the download service accepts .zip but not .pth.
+const CRC_TABLE = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(b) { let c = 0xFFFFFFFF; for (let i = 0; i < b.length; i++) c = CRC_TABLE[(c ^ b[i]) & 0xFF] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+function makeZip(name, bytes) {
+  const nm = new TextEncoder().encode(name), crc = crc32(bytes), n = bytes.length;
+  const lh = new DataView(new ArrayBuffer(30)), cd = new DataView(new ArrayBuffer(46)), end = new DataView(new ArrayBuffer(22));
+  lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true); lh.setUint32(14, crc, true); lh.setUint32(18, n, true); lh.setUint32(22, n, true); lh.setUint16(26, nm.length, true);
+  cd.setUint32(0, 0x02014b50, true); cd.setUint16(4, 20, true); cd.setUint16(6, 20, true); cd.setUint32(16, crc, true); cd.setUint32(20, n, true); cd.setUint32(24, n, true); cd.setUint16(28, nm.length, true);
+  const cdOffset = 30 + nm.length + n;
+  end.setUint32(0, 0x06054b50, true); end.setUint16(8, 1, true); end.setUint16(10, 1, true); end.setUint32(12, 46 + nm.length, true); end.setUint32(16, cdOffset, true);
+  return new Blob([lh, nm, bytes, cd, nm, end], { type: "application/zip" });
+}
+
 async function fetchBytes(url) { const r = await fetch(url); if (!r.ok) throw new Error("fayl topilmadi (" + r.status + ")"); return r; }
 
 async function save(it, btn, st) {
@@ -98,13 +111,15 @@ async function save(it, btn, st) {
       for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
       const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), b => b.toString(16).padStart(2, "0")).join("");
       if (hash !== it.sha256) throw new Error("fayl buzilgan (nazorat summasi mos kelmadi)");
-      data = new Blob([bytes], { type: "application/octet-stream" });
+      st.textContent = "Arxivga joylanmoqda…";
+      data = makeZip(it.filename, bytes);
     } else {
       data = await (await fetchBytes(it.parts[0])).blob();
     }
     st.textContent = "Saqlash oynasida tasdiqlang…";
-    await downloads.save({ filename: it.filename, data });
-    st.className = "state ok"; st.textContent = "Saqlandi: " + it.filename;
+    const outName = it.kind === "b64parts" ? it.filename + ".zip" : it.filename;
+    await downloads.save({ filename: outName, data });
+    st.className = "state ok"; st.textContent = "Saqlandi: " + outName + (it.kind === "b64parts" ? " (ochganda ichidan " + it.filename + " chiqadi)" : "");
   } catch (e) {
     st.className = "state err"; st.textContent = e && e.code === "cancelled" ? "Bekor qilindi." : "Saqlab bo'lmadi: " + (e.message || e.code || e);
   } finally { btn.disabled = false; }
