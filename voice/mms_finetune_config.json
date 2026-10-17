@@ -1,0 +1,49 @@
+{
+    "project_name": "mms_uzb_my_voice",
+    "push_to_hub": false,
+    "report_to": [],
+    "overwrite_output_dir": true,
+    "output_dir": "/tmp/claude-0/-home-user-Ummon/f0acb166-f246-510b-9b0b-793bb35cd6b5/scratchpad/mms_out",
+
+    "dataset_name": "/tmp/claude-0/-home-user-Ummon/f0acb166-f246-510b-9b0b-793bb35cd6b5/scratchpad/data/mms_ds",
+    "audio_column_name": "audio",
+    "text_column_name": "text",
+    "train_split_name": "train",
+    "eval_split_name": "train",
+
+    "full_generation_sample_text": "ассалому алайкум бугун ҳаво жуда яхши",
+    "max_duration_in_seconds": 14,
+    "min_duration_in_seconds": 1.0,
+    "max_tokens_length": 500,
+
+    "model_name_or_path": "/tmp/claude-0/-home-user-Ummon/f0acb166-f246-510b-9b0b-793bb35cd6b5/scratchpad/models/mms-tts-uzb-train",
+    "preprocessing_num_workers": 2,
+
+    "do_train": true,
+    "num_train_epochs": 100,
+    "gradient_accumulation_steps": 1,
+    "gradient_checkpointing": false,
+    "per_device_train_batch_size": 8,
+    "learning_rate": 3e-5,
+    "adam_beta1": 0.8,
+    "adam_beta2": 0.99,
+    "warmup_ratio": 0.01,
+    "group_by_length": false,
+    "do_eval": false,
+    "do_step_schedule_per_epoch": true,
+    "save_steps": 300,
+    "save_total_limit": 4,
+    "logging_steps": 10,
+
+    "weight_disc": 3,
+    "weight_fmaps": 1,
+    "weight_gen": 1,
+    "weight_kl": 1.5,
+    "weight_duration": 1,
+    "weight_mel": 35,
+
+    "fp16": false,
+    "use_cpu": true,
+    "dataloader_num_workers": 0,
+    "seed": 456
+}

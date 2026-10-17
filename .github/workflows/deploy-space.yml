@@ -1,0 +1,42 @@
+name: Deploy voice app to Hugging Face Space
+
+# Uploads voice/space (Gradio app + the owner's RVC model and reference clip) to a PRIVATE Space
+# <hf-user>/mening-ovozim. Needs the repository secret HF_TOKEN (a Hugging Face "Write" token).
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/voice-lora-tts]
+    paths:
+      - voice/space/**
+      - voice/trained/rvc_myvoice_30e.pth
+      - .github/workflows/deploy-space.yml
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Upload to private Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::error::HF_TOKEN secret is missing (Settings > Secrets and variables > Actions)."; exit 1
+          fi
+          pip install -q "huggingface_hub>=0.26"
+          cp voice/trained/rvc_myvoice_30e.pth voice/space/
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          user = api.whoami()["name"]
+          repo = f"{user}/mening-ovozim"
+          api.create_repo(repo, repo_type="space", space_sdk="gradio", private=True, exist_ok=True)
+          api.update_repo_settings(repo, repo_type="space", private=True)
+          api.upload_folder(repo_id=repo, repo_type="space", folder_path="voice/space",
+                            commit_message="Deploy from GitHub Actions")
+          print(f"Deployed: https://huggingface.co/spaces/{repo}")
+          PY

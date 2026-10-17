@@ -1,0 +1,137 @@
+<title>Mening ovozim</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+  /* Layout: one narrow column; the waveform strip is the hero, the text box is the instrument. */
+  :root {
+    --bg: #eef1f0; --surface: #ffffff; --fg: #15201d; --muted: #5d6b67; --line: #d5dcda;
+    --accent: #1f6b5a; --accent-fg: #ffffff; --wave: #1f6b5a; --wave-dim: #b9cbc6; --danger: #b3412e;
+    --display: "Unbounded", "Manrope", system-ui, sans-serif;
+    --body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #101614; --surface: #18201e; --fg: #e6ecea; --muted: #94a39f; --line: #2a3532;
+    --accent: #59b89f; --accent-fg: #0c1311; --wave: #6fcbb2; --wave-dim: #2e4540; --danger: #e07a66; color-scheme: dark; } }
+  :root[data-theme="dark"] {
+    --bg: #101614; --surface: #18201e; --fg: #e6ecea; --muted: #94a39f; --line: #2a3532;
+    --accent: #59b89f; --accent-fg: #0c1311; --wave: #6fcbb2; --wave-dim: #2e4540; --danger: #e07a66; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.55 var(--body); }
+  main { max-width: 720px; margin: 0 auto; padding-block: 40px 56px;
+         padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+         display: grid; gap: 24px; }
+  header { display: grid; gap: 6px; }
+  .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font: 700 clamp(30px, 6vw, 44px)/1.1 var(--display); margin: 0; text-wrap: balance; letter-spacing: -.01em; }
+  .lede { margin: 0; color: var(--muted); max-width: 60ch; }
+  .wave { width: 100%; height: 96px; display: block; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: grid; gap: 16px; }
+  textarea { width: 100%; min-height: 150px; resize: vertical; padding: 14px; border-radius: 12px; border: 1px solid var(--line);
+             background: var(--bg); color: var(--fg); font: 17px/1.5 var(--body); }
+  textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 999px; padding: 6px 12px;
+          font: 500 13px/1.2 var(--body); cursor: pointer; }
+  .chip:hover { border-color: var(--accent); }
+  .controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+  .speed { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 14px; }
+  .speed input { accent-color: var(--accent); width: 140px; }
+  .mono { font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .go { margin-left: auto; background: var(--accent); color: var(--accent-fg); border: 0; border-radius: 12px; padding: 12px 22px;
+        font: 700 15px/1 var(--body); cursor: pointer; }
+  .go:disabled { opacity: .55; cursor: progress; }
+  audio { width: 100%; }
+  .status { display: grid; gap: 8px; }
+  .bar { height: 6px; background: var(--wave-dim); border-radius: 3px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .msg { font-size: 14px; color: var(--muted); }
+  .msg.err { color: var(--danger); }
+  footer { color: var(--muted); font-size: 13px; display: grid; gap: 4px; }
+  h2 { font: 700 18px/1.3 var(--display); margin: 0; text-wrap: balance; }
+  .hq-head { display: grid; gap: 4px; }
+  .hq-list { display: grid; gap: 12px; }
+  .hq-item { border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 8px; min-width: 0; }
+  .hq-item p { margin: 0; overflow-wrap: anywhere; }
+  .pill { justify-self: start; font: 500 12px/1 var(--mono); padding: 5px 9px; border-radius: 999px; background: var(--wave-dim); color: var(--fg); }
+  .pill.done { background: var(--accent); color: var(--accent-fg); }
+  .pill.error { background: var(--danger); color: var(--accent-fg); }
+  @media (max-width: 480px) { .go { margin-left: 0; width: 100%; } }
+  @media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<main>
+  <header>
+    <span class="eyebrow">Navoiy TTS · RVC · o'zbekcha</span>
+    <h1>Mening ovozim</h1>
+    <p class="lede">O'zbekcha matn yozing: u ravon o'qiladi va mening ovozimga aylantiriladi.</p>
+  </header>
+
+  <section class="panel" id="hq">
+    <div class="hq-head">
+      <h2>Yuqori sifat: ravon o'qish + mening ovozim</h2>
+      <p class="msg">Navoiy TTS matnni ravon o'qiydi, RVC uni mening ovozimga aylantiradi. Ovoz serverda yaratiladi, bir necha daqiqa oladi.</p>
+    </div>
+    <textarea id="hqText" maxlength="1200" aria-label="Yuqori sifat uchun matn">Assalomu alaykum! Bu mening ovozimda ravon o'qilgan matn.</textarea>
+    <div class="controls">
+      <span class="msg" id="hqState">Tekshirilmoqda…</span>
+      <button class="go" id="hqGo" disabled>Yuqori sifatda yaratish</button>
+    </div>
+    <div class="hq-list" id="hqList"></div>
+  </section>
+
+  <footer>
+    <span>Navoiy TTS (aisha-org) matnni o'qiydi, RVC modeli ~9,5 daqiqalik yozuvim asosida uni mening ovozimga aylantiradi.</span>
+    <span>Ovoz serverdagi Claude sessiyasida yaratiladi, shuning uchun bir necha daqiqa oladi.</span>
+  </footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+
+// High-quality mode: the request goes to the shared db, a "Send to Claude" comment wakes the Claude
+// session that runs Navoiy TTS + RVC on the server; it uploads the audio and marks the request done.
+(async () => {
+  const hqState = $("hqState"), hqGo = $("hqGo"), hqList = $("hqList");
+  const off = msg => { hqState.textContent = msg; hqGo.disabled = true; };
+  if (!window.claude?.use) return off("Bu rejim faqat claude.ai sahifasida ishlaydi.");
+  const [db, comments] = await Promise.all([claude.use("db"), claude.use("comments")]);
+  if (!db) return off("Yuqori sifat rejimi uchun claude.ai'ga kiring.");
+  const LABEL = { pending: "Navbatda", working: "Yaratilmoqda", done: "Tayyor", error: "Xato" };
+  db.collection("tts_requests").orderBy("created", "desc").limit(10).onSnapshot(snap => {
+    hqList.replaceChildren(...snap.docs.map(d => {
+      const r = d.data() || {}, item = document.createElement("div"), p = document.createElement("p"), pill = document.createElement("span");
+      item.className = "hq-item"; p.textContent = String(r.text || "");
+      pill.className = "pill " + (r.status || ""); pill.textContent = LABEL[r.status] || "Navbatda";
+      item.append(pill, p);
+      if (r.status === "done" && typeof r.audio === "string" && /^(\/|https:\/\/)/.test(r.audio)) {
+        const a = document.createElement("audio"); a.controls = true; a.preload = "none"; a.src = r.audio; item.append(a);
+      }
+      if (r.status === "error" && r.note) { const n = document.createElement("p"); n.className = "msg err"; n.textContent = String(r.note); item.append(n); }
+      return item;
+    }));
+  }, () => off("So'rovlar ro'yxatini o'qib bo'lmadi."));
+  const refresh = async () => {
+    let s = "off";
+    try { s = comments ? await comments.canSendToClaude() : "off"; } catch {}
+    if (s === "available") { hqState.textContent = "Tayyor. Matn yozing va tugmani bosing."; hqGo.disabled = false; }
+    else off(s === "no_session" ? "Hozir server (Claude sessiyasi) ulanmagan, keyinroq urinib ko'ring."
+           : s === "writers_only" ? "Bu rejim faqat sahifa egasi uchun." : "Bu ko'rinishda yuqori sifat rejimi mavjud emas.");
+  };
+  await refresh();
+  hqGo.onclick = async () => {
+    const text = $("hqText").value.trim(); if (!text) return;
+    hqGo.disabled = true; hqState.textContent = "Yuborilmoqda…";
+    try {
+      const ref = db.collection("tts_requests").doc();
+      await ref.set({ text, status: "pending", created: Date.now() });
+      const anchor = await comments.anchorFor($("hq"));
+      await comments.sendToClaude({ anchor, text: "TTS so'rovi " + ref.id + ": shu matnni Navoiy+RVC bilan ovozga aylantir." });
+      hqState.textContent = "Yuborildi. Audio bir necha daqiqada shu yerda paydo bo'ladi.";
+    } catch (e) { hqState.textContent = "Yuborib bo'lmadi: " + (e.message || e.code || e); }
+    finally { setTimeout(refresh, 1500); }
+  };
+})();
+</script>

@@ -1,0 +1,162 @@
+name: Mirror HuggingFace models to release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/voice-lora-tts]
+    paths:
+      - voice/hf_models.txt
+      - .github/workflows/hf-mirror.yml
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download models from HuggingFace
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          mkdir -p dist
+          grep -v '^\s*#' voice/hf_models.txt | grep -v '^\s*$' | while read -r repo; do
+            name="${repo//\//--}"
+            python -c "from huggingface_hub import snapshot_download as s; s('$repo', local_dir='m/$name', allow_patterns=['*.json','*.txt','*.md','*.safetensors','*.model'])"
+            tar -C m -czf "dist/$name.tar.gz" "$name"
+            ls -la "dist/$name.tar.gz"
+          done
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/*.tar.gz --clobber
+
+  mms-train-checkpoint:
+    # MMS generator + original discriminator (facebook/mms-tts full_models) in the
+    # finetune-hf-vits training format, needed to fine-tune MMS-TTS on a new voice.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Convert checkpoint
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "transformers==4.46.3" "huggingface_hub<1" Cython numpy accelerate matplotlib tensorboard datasets
+          git clone -q --depth 1 https://github.com/ylacombe/finetune-hf-vits.git fhv
+          cd fhv/monotonic_align && mkdir -p monotonic_align && python setup.py build_ext --inplace -q && cd ../..
+          cd fhv && python convert_original_discriminator_checkpoint.py \
+            --language_code uzb-script_cyrillic --pytorch_dump_folder_path ../mms-tts-uzb-train && cd ..
+          ls -la mms-tts-uzb-train
+          mkdir -p dist && tar -czf dist/mms-tts-uzb-train.tar.gz mms-tts-uzb-train
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/*.tar.gz --clobber
+
+  chatterbox-uzbek:
+    # Uzbek Chatterbox fine-tune (natural prosody, zero-shot voice cloning) + base Chatterbox
+    # vocoder/voice-encoder. Files >1.9 GB are split because release assets are capped at 2 GiB.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          python - <<'PY'
+          from huggingface_hub import hf_hub_download as d
+          for f in ["t3_finetuned_merged.safetensors", "tokenizer.json", "reference_voice.wav"]:
+              d("Abduqayum/uzbek-tts-natural-speech-chatterbox", f, local_dir="cb")
+          for f in ["s3gen.safetensors", "ve.safetensors", "conds.pt"]:
+              d("ResembleAI/chatterbox", f, local_dir="cb")
+          PY
+          mkdir -p dist
+          split -b 1900M -d cb/t3_finetuned_merged.safetensors dist/chatterbox-uz-t3.safetensors.part
+          split -b 1900M -d cb/s3gen.safetensors dist/chatterbox-s3gen.safetensors.part
+          cp cb/ve.safetensors dist/chatterbox-ve.safetensors
+          cp cb/conds.pt dist/chatterbox-conds.pt
+          cp cb/tokenizer.json dist/chatterbox-uz-tokenizer.json
+          cp cb/reference_voice.wav dist/chatterbox-uz-reference_voice.wav
+          ls -la dist
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/* --clobber
+
+  navoiy-tts:
+    # Aisha "Lison Navoiy TTS" (CosyVoice2-0.5B fine-tuned on ~600 h of Uzbek, Apache-2.0) and the
+    # CosyVoice2-0.5B runtime assets it needs (its own llm.pt is replaced by the Navoiy checkpoint).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          python - <<'PY'
+          from huggingface_hub import snapshot_download as s
+          s("aisha-org/navoiy-tts", local_dir="navoiy")
+          s("FunAudioLLM/CosyVoice2-0.5B", local_dir="cv2",
+            allow_patterns=["CosyVoice-BlankEN/*", "campplus.onnx", "cosyvoice2.yaml", "flow.pt", "hift.pt",
+                            "speech_tokenizer_v2.onnx", "config.json", "configuration.json"])
+          PY
+          mkdir -p dist
+          split -b 1900M -d navoiy/emotion_600h_joint.pt dist/navoiy-llm.pt.part
+          rm -rf navoiy/.cache cv2/.cache navoiy/emotion_600h_joint.pt
+          tar -czf dist/navoiy-code.tar.gz -C navoiy .
+          tar -cf - -C cv2 . | split -b 1900M -d - dist/cosyvoice2-assets.tar.part
+          ls -la dist
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/* --clobber
+
+  applio-rvc-assets:
+    # RVC (Applio) pretrained assets for voice-conversion training: ContentVec embedder, RMVPE pitch
+    # predictor and the v2 40 kHz pretrained generator/discriminator.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: |
+          pip install -q "huggingface_hub>=0.24"
+          python - <<'PY'
+          from huggingface_hub import snapshot_download as s
+          s("IAHispano/Applio", local_dir="applio", allow_patterns=[
+              "Resources/embedders/contentvec/*", "Resources/predictors/rmvpe.pt",
+              "Resources/pretrained_v2/f0G40k.pth", "Resources/pretrained_v2/f0D40k.pth"])
+          PY
+          rm -rf applio/.cache
+          mkdir -p dist && tar -cf dist/applio-rvc-assets.tar -C applio/Resources .
+          ls -la dist
+      - name: Upload to release hf-models
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view hf-models >/dev/null 2>&1 || \
+            gh release create hf-models --title "HuggingFace model mirror" --notes "Mirrored by hf-mirror.yml" --target "$GITHUB_SHA"
+          gh release upload hf-models dist/* --clobber

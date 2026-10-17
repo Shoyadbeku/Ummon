@@ -1,0 +1,10 @@
+torch
+torchaudio
+torchcodec
+coqui-tts==0.27.5
+transformers<4.57
+soundfile
+numpy
+fastapi
+uvicorn
+sherpa-onnx
