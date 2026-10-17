@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ummon Shorts</title>
+<meta name="description" content="O‘zbekcha AI subtitrlar, shablonlar va qisqa videolar muharriri — to‘liq brauzerda ishlaydi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Manrope:wght@400;600;800&family=Montserrat:ital,wght@0,600;0,800;0,900;1,800&family=Playfair+Display:ital,wght@1,700&family=Unbounded:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="#bosh" aria-label="Ummon Shorts bosh sahifa">
+      <span class="logo-mark">U</span><span class="logo-word">Ummon<b>Shorts</b></span>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="#bosh" data-nav="bosh">Bosh sahifa</a>
+      <a href="#muharrir" data-nav="muharrir">Muharrir</a>
+      <a href="#shablonlar" data-nav="shablonlar">Shablonlar</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ BOSH SAHIFA ============ -->
+<main id="view-bosh" class="view">
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow">AI subtitrlar · O‘zbek tilida</p>
+      <h1>Gapiruvchi videolarni <span class="hl">tez</span> yarating</h1>
+      <p class="lead">Videoni yuklang yoki kamerada yozing. Ummon nutqni o‘zbekcha subtitrga aylantiradi, siz shablonni tanlaysiz va tayyor videoni yuklab olasiz. Hammasi brauzeringizda, fayllar hech qayerga yuborilmaydi.</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" data-go="muharrir" data-action="upload">Video yuklash</button>
+        <button class="btn btn-ghost" data-go="muharrir" data-action="camera">Kamerada yozish</button>
+      </div>
+      <ul class="hero-facts">
+        <li><b>12</b> subtitr uslubi</li>
+        <li><b>8</b> video shabloni</li>
+        <li><b>Lotin ⇄ Kirill</b></li>
+      </ul>
+    </div>
+    <div class="phone">
+      <canvas id="heroCanvas" width="360" height="640" aria-label="Subtitr uslublari namoyishi"></canvas>
+      <span class="phone-tag" id="heroTag">Karaoke</span>
+    </div>
+  </section>
+
+  <section class="features wrap" aria-label="Imkoniyatlar">
+    <article class="feature">
+      <span class="chip">Subtitrlar</span>
+      <h2>Eng yaxshi AI subtitrlar</h2>
+      <p>Whisper modeli o‘zbek nutqini so‘zma-so‘z vaqt bilan matnga aylantiradi. Har bir qatorni qo‘lda tahrirlash mumkin.</p>
+      <canvas class="mini" data-mini="pop" width="270" height="300"></canvas>
+    </article>
+    <article class="feature">
+      <span class="chip">Video yaratish</span>
+      <h2>Matndan video</h2>
+      <p>Ssenariyni yozing, fon tanlang: subtitrlar o‘qish tezligiga qarab avtomatik joylashadi.</p>
+      <canvas class="mini" data-mini="headline" width="270" height="300"></canvas>
+    </article>
+    <article class="feature">
+      <span class="chip">Shablonlar</span>
+      <h2>Reels, Shorts, podkast</h2>
+      <p>Tayyor shablon format, uslub va sarlavhani bir bosishda o‘rnatadi.</p>
+      <canvas class="mini" data-mini="box" width="270" height="300"></canvas>
+    </article>
+  </section>
+
+  <section class="how wrap">
+    <h2 class="section-h">Uch qadamda tayyor</h2>
+    <ol class="steps">
+      <li><b>Yuklang yoki yozing.</b> MP4, MOV, WEBM yoki to‘g‘ridan-to‘g‘ri kamera.</li>
+      <li><b>Subtitr yarating.</b> “AI subtitr” tugmasi o‘zbekcha matnni vaqtlari bilan chiqaradi.</li>
+      <li><b>Shablon va eksport.</b> Uslubni tanlang, videoni subtitrlar bilan yoki SRT faylini yuklab oling.</li>
+    </ol>
+  </section>
+  <footer class="foot wrap">Ummon Shorts · Barcha ishlov brauzerda bajariladi.</footer>
+</main>
+
+<!-- ============ SHABLONLAR ============ -->
+<main id="view-shablonlar" class="view" hidden>
+  <section class="wrap tpl-page">
+    <h1 class="page-h">Video shablonlari</h1>
+    <p class="muted">Shablon format, subtitr uslubi va sarlavhani o‘rnatadi. Videongiz va subtitrlaringiz saqlanib qoladi.</p>
+    <div class="tpl-grid" id="videoTplGrid"></div>
+    <h2 class="page-h2">Subtitr uslublari</h2>
+    <div class="style-grid" id="styleGridBig"></div>
+  </section>
+</main>
+
+<!-- ============ MUHARRIR ============ -->
+<main id="view-muharrir" class="view" hidden>
+  <div class="editor wrap">
+    <section class="stage-col">
+      <div class="toolbar">
+        <label class="btn btn-primary btn-sm" for="fileInput">Video yuklash</label>
+        <input id="fileInput" type="file" accept="video/*,audio/*" hidden>
+        <button class="btn btn-ghost btn-sm" id="cameraBtn">Kamera</button>
+        <span class="media-name" id="mediaName">Namuna (video yuklanmagan)</span>
+      </div>
+      <div class="stage" id="stage">
+        <canvas id="mainCanvas" width="720" height="1280"></canvas>
+        <div class="drop-hint" id="dropHint">Videoni shu yerga tashlang</div>
+        <span class="sample-badge" id="sampleBadge">Namuna</span>
+      </div>
+      <div class="player">
+        <button class="icon-btn" id="playBtn" aria-label="Ijro etish">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path id="playIcon" d="M7 4l13 8-13 8z" fill="currentColor"/></svg>
+        </button>
+        <span class="time" id="timeLabel">0:00.0 / 0:08.0</span>
+        <div class="timeline" id="timeline">
+          <div class="tl-segs" id="tlSegs"></div>
+          <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Vaqt">
+        </div>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div class="tabs" role="tablist">
+        <button role="tab" data-tab="subtitr" class="active">Subtitrlar</button>
+        <button role="tab" data-tab="uslub">Uslub</button>
+        <button role="tab" data-tab="format">Format</button>
+        <button role="tab" data-tab="yaratish">Yaratish</button>
+        <button role="tab" data-tab="eksport">Eksport</button>
+      </div>
+
+      <!-- Subtitrlar -->
+      <div class="tab-body" data-body="subtitr">
+        <div class="card ai-card">
+          <div class="row between">
+            <div>
+              <h3>AI subtitr</h3>
+              <p class="muted sm">O‘zbek nutqini avtomatik matnga aylantiradi.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" id="aiBtn">Yaratish</button>
+          </div>
+          <div class="row">
+            <label class="sm" for="modelSel">Model</label>
+            <select id="modelSel">
+              <option value="onnx-community/whisper-base">Base · 80 MB · tez</option>
+              <option value="onnx-community/whisper-small">Small · 250 MB · aniqroq</option>
+              <option value="onnx-community/whisper-tiny">Tiny · 40 MB · eng tez</option>
+            </select>
+          </div>
+          <div class="progress" id="aiProgress" hidden><div class="bar" id="aiBar"></div><span id="aiStatus">Tayyorlanmoqda…</span></div>
+        </div>
+
+        <div class="row wrap-row">
+          <div class="seg-switch" role="group" aria-label="Yozuv">
+            <button id="toLatin" class="active">Lotin</button>
+            <button id="toCyr">Кирилл</button>
+          </div>
+          <label class="btn btn-ghost btn-sm" for="srtInput">SRT import</label>
+          <input id="srtInput" type="file" accept=".srt,.vtt,text/plain" hidden>
+          <button class="btn btn-ghost btn-sm" id="addSeg">+ Qator</button>
+          <button class="btn btn-ghost btn-sm danger" id="clearSegs">Tozalash</button>
+        </div>
+        <div class="confirm" id="clearConfirm" hidden>
+          <span>Barcha subtitrlar o‘chirilsinmi?</span>
+          <button class="btn btn-sm danger-fill" id="clearYes">Ha, o‘chirish</button>
+          <button class="btn btn-sm btn-ghost" id="clearNo">Bekor</button>
+        </div>
+        <ol class="seg-list" id="segList"></ol>
+      </div>
+
+      <!-- Uslub -->
+      <div class="tab-body" data-body="uslub" hidden>
+        <div class="style-grid" id="styleGrid"></div>
+        <div class="card">
+          <div class="field">
+            <label for="fontScale">Matn o‘lchami <output id="fontScaleOut">100%</output></label>
+            <input type="range" id="fontScale" min="60" max="160" value="100">
+          </div>
+          <div class="field">
+            <label for="posY">Joylashuv (balandlik) <output id="posYOut">72%</output></label>
+            <input type="range" id="posY" min="10" max="92" value="72">
+          </div>
+          <div class="field">
+            <label for="maxWords">Bir ekranda so‘zlar</label>
+            <select id="maxWords">
+              <option value="">Uslub bo‘yicha</option>
+              <option value="1">1 ta</option><option value="2">2 ta</option>
+              <option value="3">3 ta</option><option value="4">4 ta</option>
+              <option value="6">6 ta</option><option value="0">Butun qator</option>
+            </select>
+          </div>
+          <div class="field two">
+            <div><label for="colorMain">Matn rangi</label><input type="color" id="colorMain"></div>
+            <div><label for="colorActive">Faol so‘z</label><input type="color" id="colorActive"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Format -->
+      <div class="tab-body" data-body="format" hidden>
+        <div class="card">
+          <h3>O‘lcham</h3>
+          <div class="aspect-row" id="aspectRow">
+            <button data-aspect="9:16"><i style="aspect-ratio:9/16"></i>9:16<small>Reels, Shorts</small></button>
+            <button data-aspect="1:1"><i style="aspect-ratio:1"></i>1:1<small>Post</small></button>
+            <button data-aspect="4:5"><i style="aspect-ratio:4/5"></i>4:5<small>Lenta</small></button>
+            <button data-aspect="16:9"><i style="aspect-ratio:16/9"></i>16:9<small>YouTube</small></button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Joylash</h3>
+          <div class="seg-switch" role="group">
+            <button data-fit="cover">To‘ldirish</button>
+            <button data-fit="contain">Sig‘dirish</button>
+          </div>
+          <div class="field">
+            <label for="bgMode">Bo‘sh joy foni</label>
+            <select id="bgMode"><option value="blur">Xira video</option><option value="color">Rang</option></select>
+          </div>
+          <div class="field"><label for="bgColor">Fon rangi</label><input type="color" id="bgColor" value="#14121c"></div>
+        </div>
+        <div class="card">
+          <h3>Sarlavha (hook)</h3>
+          <input type="text" id="hookInput" placeholder="Masalan: 3 ta oddiy maslahat">
+          <div class="field">
+            <label for="hookStyle">Ko‘rinishi</label>
+            <select id="hookStyle">
+              <option value="pill">Oq quti</option>
+              <option value="accent">Rangli quti</option>
+              <option value="outline">Kontur</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Yaratish -->
+      <div class="tab-body" data-body="yaratish" hidden>
+        <div class="card">
+          <h3>Matndan video</h3>
+          <p class="muted sm">Har bir gap alohida subtitr bo‘ladi. Video bo‘lmasa, fon ustida chiqadi.</p>
+          <textarea id="scriptInput" rows="6">Assalomu alaykum! Bugun sizga uchta maslahat beraman. Birinchisi: har kuni ozgina bo‘lsa ham o‘qing. Ikkinchisi: telefonni uxlashdan oldin chetga qo‘ying. Uchinchisi: kichik g‘alabalarni nishonlang.</textarea>
+          <div class="field">
+            <label for="wps">O‘qish tezligi <output id="wpsOut">2.5 so‘z/soniya</output></label>
+            <input type="range" id="wps" min="12" max="40" value="25">
+          </div>
+          <button class="btn btn-primary btn-sm" id="scriptBtn">Subtitrlarni yaratish</button>
+        </div>
+        <div class="card">
+          <h3>Fon (video bo‘lmaganda)</h3>
+          <div class="bg-swatches" id="bgSwatches"></div>
+          <label class="btn btn-ghost btn-sm" for="bgImage">Rasm yuklash</label>
+          <input id="bgImage" type="file" accept="image/*" hidden>
+        </div>
+        <div class="card">
+          <h3>Gapiruvchi video</h3>
+          <p class="muted sm">Kamerada o‘zingizni yozing. Brauzer qo‘llasa, subtitrlar yozish paytida jonli chiqadi.</p>
+          <button class="btn btn-ghost btn-sm" id="cameraBtn2">Kamerani ochish</button>
+        </div>
+      </div>
+
+      <!-- Eksport -->
+      <div class="tab-body" data-body="eksport" hidden>
+        <div class="card">
+          <h3>Video</h3>
+          <p class="muted sm">Subtitrlar videoga “kuydiriladi”. Eksport video uzunligicha davom etadi, sahifani yopmang.</p>
+          <div class="field">
+            <label for="quality">Sifat</label>
+            <select id="quality"><option value="720">720p</option><option value="1080">1080p</option></select>
+          </div>
+          <button class="btn btn-primary" id="exportBtn">Videoni yuklab olish</button>
+          <div class="progress" id="exProgress" hidden><div class="bar" id="exBar"></div><span id="exStatus">0%</span></div>
+        </div>
+        <div class="card">
+          <h3>Subtitr fayllari</h3>
+          <div class="row wrap-row">
+            <button class="btn btn-ghost btn-sm" id="srtBtn">SRT</button>
+            <button class="btn btn-ghost btn-sm" id="vttBtn">VTT</button>
+            <button class="btn btn-ghost btn-sm" id="txtBtn">Matn (TXT)</button>
+            <button class="btn btn-ghost btn-sm" id="copyBtn">Matnni nusxalash</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- Kamera oynasi -->
+<div class="modal" id="camModal" hidden>
+  <div class="modal-box">
+    <div class="row between">
+      <h3>Kamerada yozish</h3>
+      <button class="icon-btn" id="camClose" aria-label="Yopish">✕</button>
+    </div>
+    <div class="cam-wrap">
+      <video id="camVideo" playsinline muted autoplay></video>
+      <div class="cam-caption" id="camCaption"></div>
+      <span class="rec-dot" id="recDot" hidden>● <span id="recTime">0:00</span></span>
+    </div>
+    <div class="row between wrap-row">
+      <label class="sm"><input type="checkbox" id="liveCaps" checked> Jonli o‘zbekcha subtitr</label>
+      <div class="row">
+        <button class="btn btn-ghost btn-sm" id="camFlip">Kamerani almashtirish</button>
+        <button class="btn btn-primary" id="recBtn">Yozishni boshlash</button>
+      </div>
+    </div>
+    <p class="muted sm" id="camNote"></p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<video id="srcVideo" class="offscreen" playsinline preload="auto"></video>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
