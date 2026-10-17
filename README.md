@@ -12,6 +12,7 @@ O‘zbek tilidagi AI subtitrlar, shablonlar va qisqa videolar uchun veb-muharrir
 - **8 ta video shabloni**: Reels hook, YouTube Shorts, Podkast klip, Instagram post, Dars, Mahsulot reklamasi, Kino iqtibos, Vlog.
 - **Format**: 9:16, 1:1, 4:5, 16:9; to‘ldirish yoki xira fon bilan sig‘dirish; sarlavha (hook).
 - **Lotin ⇄ Kirill** transliteratsiyasi.
+- **Ovoz klon** (`ovoz.html`): Gemini 3.8 Flash TTS bilan ovozni 10–30 soniyalik namunadan klonlash va o‘zbekcha matnni shu ovozda o‘qitish. O‘z Gemini API kalitingiz kerak; so‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google'ga boradi.
 - **Eksport**: subtitrlar kuydirilgan video (MP4 yoki WEBM, 720p/1080p), SRT, VTT, TXT. SRT import ham bor.
 
 ## Ishga tushirish
@@ -39,8 +40,21 @@ js/render.js          kadrni canvasga chizish (ko‘rish va eksport uchun bir xi
 js/templates.js       subtitr uslublari, video shablonlari, fonlar
 js/translit.js        lotin ⇄ kirill
 js/whisper-worker.js  Whisper (transformers.js) Web Worker'da
+ovoz.html             ovoz klonlash sahifasi
+css/ovoz.css          ovoz sahifasi dizayni
+js/ovoz.js            Gemini Voices API va TTS chaqiruvlari
 ```
 
 ## Brauzerlar
 
 Chrome, Edge va Safari (iOS/iPadOS 16.4+) ning so‘nggi versiyalari. Video eksport `MediaRecorder` orqali real vaqtda bajariladi, shuning uchun eksport video uzunligicha davom etadi.
+
+## Ovoz klon
+
+1. [aistudio.google.com/apikey](https://aistudio.google.com/apikey) dan Gemini API kalitini oling.
+2. 10–30 soniyalik ovoz namunasini yozing yoki yuklang.
+3. O‘sha odam rozilik matnini (inglizcha yoki xitoycha) so‘zma-so‘z o‘qiydi. Bu Google talabi.
+4. «Ovozni klonlash» tugmasini bosing. Ovoz ID si shu brauzerda saqlanadi.
+5. Matn yozing va «Ovozlashtirish»ni bosing, natijani WAV qilib yuklab oling.
+
+Ovoz klonlash Illinoys, Texas, Yevropa iqtisodiy hududi, Buyuk Britaniya, Shveytsariya va Hindistonda ishlamaydi.

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ummon Ovoz</title>
+<meta name="description" content="Gemini 3.8 Flash TTS bilan ovozni klonlash va o‘zbekcha matnni shu ovozda o‘qitish — brauzerda, o‘z API kalitingiz bilan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Unbounded:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ovoz.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="index.html#bosh" aria-label="Ummon bosh sahifa">
+      <span class="logo-mark">U</span><span class="logo-word">Ummon<b>Ovoz</b></span>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="index.html#bosh">Bosh sahifa</a>
+      <a href="index.html#muharrir">Muharrir</a>
+      <a href="ovoz.html" class="active">Ovoz klon</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap vc">
+  <section class="vc-head">
+    <p class="eyebrow">Gemini 3.8 Flash TTS · Ovoz klonlash</p>
+    <h1>Ovozingizni <span class="hl">30 soniyada</span> klonlang</h1>
+    <p class="lead">Ovoz namunasi va rozilik yozuvini yuboring, so‘ng istalgan o‘zbekcha matnni shu ovozda o‘qiting. So‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google Gemini API'ga sizning kalitingiz bilan boradi, bizning serverimiz yo‘q.</p>
+  </section>
+
+  <div class="vc-grid">
+    <!-- 1. API kalit -->
+    <section class="card vc-step" aria-labelledby="h-key">
+      <div class="vc-step-h"><span class="vc-num">1</span><h2 id="h-key">API kalit</h2></div>
+      <div class="field">
+        <label for="apiKey">Gemini API kaliti</label>
+        <div class="row">
+          <input type="password" id="apiKey" autocomplete="off" spellcheck="false" placeholder="AIza…">
+          <button class="btn btn-ghost btn-sm" id="keyToggle" type="button">Ko‘rsatish</button>
+        </div>
+      </div>
+      <label class="sm"><input type="checkbox" id="keyRemember"> Shu brauzerda eslab qolish</label>
+      <div class="field">
+        <label for="model">Model</label>
+        <select id="model">
+          <option value="gemini-3.8-flash-tts">Gemini 3.8 Flash TTS (sifatli)</option>
+          <option value="gemini-3.8-flash-lite-tts">Gemini 3.8 Flash-Lite TTS (arzon, tez)</option>
+        </select>
+      </div>
+      <p class="muted sm">Kalitni <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> sahifasidan oling.</p>
+    </section>
+
+    <!-- 2. Ovoz namunasi -->
+    <section class="card vc-step" aria-labelledby="h-src">
+      <div class="vc-step-h"><span class="vc-num">2</span><h2 id="h-src">Ovoz namunasi</h2></div>
+      <p class="muted sm">10–30 soniya, bitta odam, tabiiy gapirish, shovqinsiz xona. Istalgan tilda gapirish mumkin.</p>
+      <div class="vc-rec" data-slot="source">
+        <div class="row wrap-row">
+          <button class="btn btn-primary btn-sm" data-rec type="button">● Yozish</button>
+          <label class="btn btn-ghost btn-sm">Fayl tanlash<input type="file" accept="audio/*" data-file hidden></label>
+          <span class="vc-timer" data-timer hidden>0:00</span>
+        </div>
+        <audio controls data-audio hidden></audio>
+        <p class="sm" data-info></p>
+      </div>
+    </section>
+
+    <!-- 3. Rozilik -->
+    <section class="card vc-step" aria-labelledby="h-consent">
+      <div class="vc-step-h"><span class="vc-num">3</span><h2 id="h-consent">Rozilik yozuvi</h2></div>
+      <p class="muted sm">Google talabi: <b>o‘sha odam</b> quyidagi matnni so‘zma-so‘z o‘qishi kerak. Hozircha faqat ingliz va xitoy tillari qo‘llanadi.</p>
+      <div class="field">
+        <label for="consentLang">Rozilik tili</label>
+        <select id="consentLang">
+          <option value="en-US">Inglizcha (en-US)</option>
+          <option value="zh-CN">Xitoycha (zh-CN)</option>
+        </select>
+      </div>
+      <blockquote class="vc-quote" id="consentText"></blockquote>
+      <p class="muted sm" id="consentHint"></p>
+      <div class="vc-rec" data-slot="consent">
+        <div class="row wrap-row">
+          <button class="btn btn-primary btn-sm" data-rec type="button">● Yozish</button>
+          <label class="btn btn-ghost btn-sm">Fayl tanlash<input type="file" accept="audio/*" data-file hidden></label>
+          <span class="vc-timer" data-timer hidden>0:00</span>
+        </div>
+        <audio controls data-audio hidden></audio>
+        <p class="sm" data-info></p>
+      </div>
+    </section>
+
+    <!-- 4. Ovoz yaratish -->
+    <section class="card vc-step ai-card" aria-labelledby="h-create">
+      <div class="vc-step-h"><span class="vc-num">4</span><h2 id="h-create">Ovozni yaratish</h2></div>
+      <div class="field">
+        <label for="voiceName">Ovoz nomi</label>
+        <input type="text" id="voiceName" maxlength="60" placeholder="Masalan: Mening ovozim">
+      </div>
+      <label class="sm"><input type="checkbox" id="storeVoice" checked> Ovozni Google'da saqlash (keyin ID orqali qayta ishlatiladi)</label>
+      <label class="sm vc-consent-ok"><input type="checkbox" id="ownerOk"> Bu mening ovozim yoki ovoz egasi menga ruxsat bergan</label>
+      <button class="btn btn-primary" id="createBtn" type="button">Ovozni klonlash</button>
+      <p class="sm" id="createStatus" role="status" aria-live="polite"></p>
+      <p class="muted sm">Klonlash Illinoys, Texas, Yevropa iqtisodiy hududi, Buyuk Britaniya, Shveytsariya va Hindistonda ishlamaydi.</p>
+    </section>
+  </div>
+
+  <!-- 5. Matnni o‘qitish -->
+  <section class="card vc-step vc-tts" aria-labelledby="h-tts">
+    <div class="vc-step-h"><span class="vc-num">5</span><h2 id="h-tts">Matnni shu ovozda o‘qitish</h2></div>
+    <div class="vc-tts-grid">
+      <div class="vc-col">
+        <div class="field">
+          <label for="voiceSel">Ovoz</label>
+          <select id="voiceSel"></select>
+        </div>
+        <div class="field">
+          <label for="voiceRef">yoki ovoz ID / kalitini qo‘ying</label>
+          <input type="text" id="voiceRef" spellcheck="false" placeholder="voice_… yoki voicekey_…">
+        </div>
+        <ul class="vc-voices" id="voiceList"></ul>
+      </div>
+      <div class="vc-col">
+        <div class="field">
+          <label for="ttsText">Matn <output id="ttsCount">0</output></label>
+          <textarea id="ttsText" rows="6">Assalomu alaykum! Bu mening sun’iy intellekt yordamida klonlangan ovozim. Bugun sizga Ummon haqida qisqacha gapirib beraman.</textarea>
+        </div>
+        <div class="field">
+          <label for="ttsStyle">Uslub (ixtiyoriy)</label>
+          <input type="text" id="ttsStyle" value="Tabiiy o‘zbek tilida, iliq va samimiy ohangda, o‘rtacha tezlikda gapir.">
+        </div>
+        <div class="row wrap-row">
+          <button class="btn btn-primary" id="ttsBtn" type="button">Ovozlashtirish</button>
+          <a class="btn btn-ghost" id="dlBtn" download hidden>WAV yuklab olish</a>
+        </div>
+        <p class="sm" id="ttsStatus" role="status" aria-live="polite"></p>
+        <audio controls id="ttsAudio" hidden></audio>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">Ummon Ovoz · Kalit va ovoz ID'lari faqat shu brauzerda saqlanadi. Yaratilgan audioga Google SynthID suv belgisini qo‘shadi. Birovning ovozini uning ruxsatisiz klonlamang.</footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="js/ovoz.js"></script>
+</body>
+</html>
