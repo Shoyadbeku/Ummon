@@ -1,0 +1,30 @@
+name: Animate image
+on:
+  push:
+    branches: [media-input]
+    paths: [fox_funeral.jpg, tools/animate.py, .github/workflows/animate.yml]
+permissions:
+  contents: write
+jobs:
+  animate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q gradio_client
+      - run: python tools/animate.py
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: video, path: "out/\nfox_talking_10s.mp4", if-no-files-found: ignore }
+      - name: Commit video
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add fox_talking_10s.mp4
+          git commit -m "Add generated 10s talking video [skip ci]"
+          git push
