@@ -1,0 +1,130 @@
+name: Kdenlive 26.08 montage (4K, Real-ESRGAN)
+on:
+  push:
+    branches: [media-input]
+    paths: [montage/kdenlive4k_build.py, .github/workflows/montage4k.yml]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs: { hit: "${{ steps.c.outputs.cache-hit }}", key: "${{ steps.k.outputs.key }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - id: k   # the 4K clips are reused until the source videos change
+        run: echo "key=videos4k-v1-${{ hashFiles('videos/01.mp4', 'videos/02.mp4', 'videos/03.mp4', 'videos/04.mp4') }}" >> $GITHUB_OUTPUT
+      - id: c
+        uses: actions/cache/restore@v4
+        with: { path: videos4k, key: "${{ steps.k.outputs.key }}", lookup-only: true }
+  upscale:
+    needs: check
+    if: needs.check.outputs.hit != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ["01", "02", "03", "04"]
+        part: [0, 1, 2, 3, 4, 5]   # 6 x 40 frames per 240-frame clip; ncnn on CPU (lavapipe) is ~25 s/frame
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg mesa-vulkan-drivers libvulkan1 libgomp1 unzip
+      - name: Get Real-ESRGAN ncnn-vulkan
+        run: |
+          curl -sSL -o esr.zip https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-ubuntu.zip
+          mkdir esr && unzip -q esr.zip -d esr && chmod +x esr/realesrgan-ncnn-vulkan
+      - name: Upscale frames ${{ matrix.part }} of ${{ matrix.id }}
+        run: |
+          a=$(( ${{ matrix.part }} * 40 )); b=$(( a + 39 ))
+          mkdir in out
+          ffmpeg -v error -i videos/${{ matrix.id }}.mp4 -vf "select='between(n\,$a\,$b)'" -fps_mode passthrough in/%04d.png
+          ls in | wc -l
+          (cd esr && ./realesrgan-ncnn-vulkan -i ../in -o ../out -n realesr-animevideov3 -s 4 -f png -j 1:4:2) > /dev/null
+          ls out | wc -l
+          # 1920x3328 -> centre-crop to 9:16 -> 2160x3840 (4K UHD vertical)
+          ffmpeg -v error -framerate 24 -i out/%04d.png -vf "crop=1872:3328,scale=2160:3840:flags=lanczos" \
+            -c:v libx264 -preset slow -crf 12 -pix_fmt yuv420p chunk_${{ matrix.id }}_${{ matrix.part }}.mp4
+      - uses: actions/upload-artifact@v4
+        with: { name: "chunk-${{ matrix.id }}-${{ matrix.part }}", path: "chunk_*.mp4", retention-days: 3 }
+  join:
+    needs: [check, upscale]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "chunk-*", path: chunks, merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Join chunks into 4K clips
+        run: |
+          mkdir videos4k
+          for id in 01 02 03 04; do
+            for p in 0 1 2 3 4 5; do echo "file '$PWD/chunks/chunk_${id}_${p}.mp4'"; done > list.txt
+            ffmpeg -v error -f concat -safe 0 -i list.txt -c copy videos4k/$id.mp4
+            ffprobe -v error -show_entries stream=width,height,nb_frames -of compact videos4k/$id.mp4
+          done
+      - uses: actions/cache/save@v4
+        with: { path: videos4k, key: "${{ needs.check.outputs.key }}" }
+  montage:
+    needs: [check, join]
+    if: always() && (needs.join.result == 'success' || needs.check.outputs.hit == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: media-input }
+      - uses: actions/cache/restore@v4
+        with: { path: videos4k, key: "${{ needs.check.outputs.key }}", fail-on-cache-miss: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg xvfb xauth libfuse2 python3-numpy
+      - name: Get Kdenlive 26.08 AppImage
+        run: |
+          base=https://download.kde.org/stable/kdenlive/26.08/linux/
+          f=$(curl -sSL $base | grep -o 'kdenlive-26\.08[^"<]*x86_64\.AppImage' | sort -V | tail -1)
+          echo "Using $f"; test -n "$f"
+          curl -sSL -o kdenlive.AppImage "https://download.kde.org/stable/kdenlive/26.08/linux/$f"
+          chmod +x kdenlive.AppImage && ./kdenlive.AppImage --appimage-extract > /dev/null
+          find squashfs-root -name melt -type f | head; ls squashfs-root/usr/lib | grep -i mlt
+      - name: Bundled melt environment
+        run: |
+          R=$PWD/squashfs-root/usr
+          M=$(find $R -name melt -type f | head -1)
+          cat > melt-kdenlive <<EOF
+          #!/bin/sh
+          export LD_LIBRARY_PATH=$R/lib:$R/lib/x86_64-linux-gnu
+          export MLT_REPOSITORY=$(dirname $(find $R/lib -name libmltcore.so | head -1))
+          export MLT_DATA=$(dirname $(find $R/share -maxdepth 3 -type d -name profiles -path '*mlt*' | head -1))
+          export MLT_PROFILES_PATH=\$MLT_DATA/profiles
+          export QT_PLUGIN_PATH=$(dirname $(find $R -type d -name platforms -path '*plugins*' | head -1))
+          export FREI0R_PATH=$R/lib/frei0r-1
+          exec $M "\$@"
+          EOF
+          chmod +x melt-kdenlive; cat melt-kdenlive
+          ./melt-kdenlive -version
+          ./melt-kdenlive -query filters | grep -E "qtblend|lut3d|lift_gamma|vignette|grain|avfilter.eq$|unsharp" || true
+      - name: Build project and render 4K with Kdenlive's MLT
+        run: |
+          MELT=$PWD/melt-kdenlive python3 montage/kdenlive4k_build.py videos4k 2160 3840 render/montaj_4k_master.mp4
+          ffprobe -v error -show_entries format=duration,size:stream=width,height,nb_frames,codec_name -of compact render/montaj_4k_master.mp4
+      - name: Open the project in Kdenlive 26.08 itself (headless render check)
+        continue-on-error: true
+        run: |
+          ./squashfs-root/AppRun --version || true
+          timeout 1800 xvfb-run -a ./squashfs-root/AppRun --render montage/montaj_4k.kdenlive render/kdenlive_cli.mp4 2>&1 | tail -30
+          ffprobe -v error -show_entries format=duration:stream=width,height -of compact render/kdenlive_cli.mp4
+      - name: Fit for GitHub (< 100 MB) and commit
+        run: |
+          ffmpeg -v error -y -i render/montaj_4k_master.mp4 -c:v libx264 -preset slow -crf 18 -maxrate 18M -bufsize 36M \
+            -pix_fmt yuv420p -tag:v avc1 -an -movflags +faststart montage/montaj_4k.mp4
+          ls -la montage/montaj_4k.mp4
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add montage/montaj_4k.mp4 montage/montaj_4k.kdenlive montage/assets4k/*.cube montage/assets4k/*.pgm montage/assets4k/*.png
+          git commit -m "Add 4K Kdenlive montage [skip ci]" || exit 0
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kdenlive-loyiha-4k
+          path: |
+            montage/montaj_4k.kdenlive
+            montage/assets4k
+            videos4k
+            render/montaj_4k_master.mp4
+          retention-days: 30
