@@ -2,7 +2,7 @@ name: Kdenlive 26.08 montage (4K, Real-ESRGAN)
 on:
   push:
     branches: [media-input]
-    paths: [montage/kdenlive4k_build.py, tools/kdenlive_melt.c, .github/workflows/montage4k.yml]
+    paths: [montage/kdenlive4k_build.py, .github/workflows/montage4k.yml]
 permissions:
   contents: write
 jobs:
@@ -82,25 +82,15 @@ jobs:
           curl -sSL -o kdenlive.AppImage "https://download.kde.org/stable/kdenlive/26.08/linux/$f"
           chmod +x kdenlive.AppImage && ./kdenlive.AppImage --appimage-extract > /dev/null
           find squashfs-root -name melt -type f | head; ls squashfs-root/usr/lib | grep -i mlt
-      - name: Render tool linked to Kdenlive's bundled MLT
+      - name: Use the melt bundled in the Kdenlive AppImage
         run: |
-          # The AppImage ships libmlt but no melt CLI: build a minimal one against the bundled library.
-          sudo apt-get install -y -qq libmlt-dev > /dev/null
           R=$PWD/squashfs-root/usr
-          ls $R/bin
-          gcc -O2 -I/usr/include/mlt-7 tools/kdenlive_melt.c -o kdenlive_melt.bin -L$R/lib -lmlt-7 -Wl,-rpath,$R/lib
-          cat > melt-kdenlive <<EOF
-          #!/bin/sh
-          export LD_LIBRARY_PATH=$R/lib:$R/lib/x86_64-linux-gnu
-          export MLT_REPOSITORY=$R/lib/mlt-7
-          export MLT_DATA=$R/share/mlt-7
-          export MLT_PROFILES_PATH=$R/share/mlt-7/profiles
-          export QT_PLUGIN_PATH=$R/plugins
-          export FREI0R_PATH=$R/lib/frei0r-1
-          exec $PWD/kdenlive_melt.bin "\$@"
-          EOF
-          chmod +x melt-kdenlive
-          ldd kdenlive_melt.bin | grep mlt
+          ls -la $R/bin | grep -i melt
+          printf '#!/bin/sh\nexport LD_LIBRARY_PATH=%s/lib\nexec %s/bin/melt-7 "$@"\n' $R $R > melt-kdenlive
+          chmod +x melt-kdenlive && cat melt-kdenlive
+          ./melt-kdenlive -version
+          xvfb-run -a ./melt-kdenlive -query filters 2>/dev/null | grep -E "qtblend|lut3d|lift_gamma|vignette|grain|avfilter.eq$|unsharp"
+          xvfb-run -a ./melt-kdenlive -query transitions 2>/dev/null | grep -E "luma|qtblend|mix"
       - name: Build project and render 4K with Kdenlive's MLT
         run: |
           MELT=$PWD/melt-kdenlive python3 montage/kdenlive4k_build.py videos4k 2160 3840 render/montaj_4k_master.mp4
