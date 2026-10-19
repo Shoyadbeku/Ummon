@@ -18,3 +18,11 @@ noto'g'ri taniydi va natija buziladi.
 
 Foydalanuvchi namunani ochiq repoda saqlashga rozi bo'lgan. `ovoz-klon/` GitHub Pages'ga chiqmaydi
 (`pages.yml` uni o'chirib tashlaydi).
+
+### Telegram bot
+
+`ovoz-klon/bot.py` — botga yuborilgan matnni shu ovozda voice qilib qaytaradi.
+`BOT_TOKEN` (@BotFather) va `OVOZ_EGALAR` (ruxsat berilgan Telegram ID'lar, vergul bilan)
+muhit o'zgaruvchilari kerak; so'ng `~/.ovoz-venv/bin/python ovoz-klon/bot.py`.
+Ro'yxatda yo'q odamga bot faqat uning ID'sini aytadi. Doimiy ishlashi uchun
+kompyuter yoki VPS'da ishga tushiriladi (bulut sessiyasi vaqtinchalik).
