@@ -16,5 +16,5 @@ Namuna fayli yo'q bo'lsa, foydalanuvchidan 5-10 soniyalik toza yozuv va
 unda aytilgan gapning aniq matnini so'ra. Matnni Whisper'ga tanitma — o'zbekchada
 noto'g'ri taniydi va natija buziladi.
 
-Repo ochiq (public) bo'lsa, `namuna.wav`'ni commit qilma. `ovoz-klon/` GitHub Pages'ga chiqmaydi
+Foydalanuvchi namunani ochiq repoda saqlashga rozi bo'lgan. `ovoz-klon/` GitHub Pages'ga chiqmaydi
 (`pages.yml` uni o'chirib tashlaydi).
