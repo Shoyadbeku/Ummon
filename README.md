@@ -15,6 +15,12 @@ O‘zbek tilidagi AI subtitrlar, shablonlar va qisqa videolar uchun veb-muharrir
 - **Ovoz klon** (`ovoz.html`): Gemini 3.8 Flash TTS bilan ovozni 10–30 soniyalik namunadan klonlash va o‘zbekcha matnni shu ovozda o‘qitish. O‘z Gemini API kalitingiz kerak; so‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google'ga boradi.
 - **Eksport**: subtitrlar kuydirilgan video (MP4 yoki WEBM, 720p/1080p), SRT, VTT, TXT. SRT import ham bor.
 
+## Colab (GPU)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shoyadbeku/ummon/blob/main/colab.ipynb)
+
+Whisper Colab GPU’sida ishlaydi, subtitrlar ffmpeg bilan videoga kuydiriladi. **Runtime → Run all** ni bosing va chiqqan `gradio.live` havolasini oching. 12 ta uslub, shablonlar, formatlar, lotin ⇄ kirill, MP4/SRT/VTT/TXT/ASS eksport. Kod: `colab/ummon_colab.py`; daftarni qayta yig‘ish: `python3 colab/build_notebook.py`.
+
 ## Ishga tushirish
 
 ES modullar ishlatilgani uchun sahifani `file://` orqali emas, HTTP server orqali oching:
