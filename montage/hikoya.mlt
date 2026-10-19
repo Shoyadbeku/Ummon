@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="7.22.0" title="01.mp4">
+  <profile description="Vertical 1080x1920 24 fps" width="1080" height="1920" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="9" display_aspect_den="16" frame_rate_num="24" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="0" out="200">
+    <property name="length">240</property>
+    <property name="eof">pause</property>
+    <property name="resource">../videos/01.mp4</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">480</property>
+    <property name="meta.media.0.codec.height">832</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">1759824</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31.102 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat</property>
+    <filter id="filter0">
+      <property name="mlt_service">crop</property>
+      <property name="left">6</property>
+      <property name="right">6</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="0" out="223">
+    <property name="length">240</property>
+    <property name="eof">pause</property>
+    <property name="resource">../videos/02.mp4</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">480</property>
+    <property name="meta.media.0.codec.height">832</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2252491</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31.102 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat</property>
+    <filter id="filter1">
+      <property name="mlt_service">crop</property>
+      <property name="left">6</property>
+      <property name="right">6</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" in="0" out="14">
+    <track producer="producer0" in="186" out="200"/>
+    <track producer="producer1" in="0" out="14"/>
+    <transition id="transition0" out="14">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+  </tractor>
+  <producer id="producer2" in="0" out="279">
+    <property name="length">281</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.8536:../videos/03.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">480</property>
+    <property name="meta.media.0.codec.height">832</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">1885252</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31.102 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.8536</property>
+    <property name="warp_resource">../videos/03.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <filter id="filter2">
+      <property name="mlt_service">crop</property>
+      <property name="left">6</property>
+      <property name="right">6</property>
+    </filter>
+  </producer>
+  <tractor id="tractor1" in="0" out="14">
+    <track producer="producer1" in="209" out="223"/>
+    <track producer="producer2" in="0" out="14"/>
+    <transition id="transition1" out="14">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="0" out="241">
+    <property name="length">243</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.9876:../videos/04.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">480</property>
+    <property name="meta.media.0.codec.height">832</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2232702</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31.102 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.9876</property>
+    <property name="warp_resource">../videos/04.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <filter id="filter3">
+      <property name="mlt_service">crop</property>
+      <property name="left">6</property>
+      <property name="right">6</property>
+    </filter>
+  </producer>
+  <tractor id="tractor2" in="0" out="14">
+    <track producer="producer2" in="265" out="279"/>
+    <track producer="producer3" in="0" out="14"/>
+    <transition id="transition2" out="14">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" in="0" out="246">
+    <property name="length">248</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.9676:../videos/05.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">480</property>
+    <property name="meta.media.0.codec.height">832</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">1235952</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31.102 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.9676</property>
+    <property name="warp_resource">../videos/05.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <filter id="filter4">
+      <property name="mlt_service">crop</property>
+      <property name="left">6</property>
+      <property name="right">6</property>
+    </filter>
+  </producer>
+  <tractor id="tractor3" in="0" out="14">
+    <track producer="producer3" in="227" out="241"/>
+    <track producer="producer4" in="0" out="14"/>
+    <transition id="transition3" out="14">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <entry producer="producer0" in="0" out="185"/>
+    <entry producer="tractor0" in="0" out="14"/>
+    <entry producer="producer1" in="15" out="208"/>
+    <entry producer="tractor1" in="0" out="14"/>
+    <entry producer="producer2" in="15" out="264"/>
+    <entry producer="tractor2" in="0" out="14"/>
+    <entry producer="producer3" in="15" out="226"/>
+    <entry producer="tractor3" in="0" out="14"/>
+    <entry producer="producer4" in="15" out="246"/>
+  </playlist>
+  <producer id="producer5" in="0" out="1085">
+    <property name="length">1086</property>
+    <property name="eof">pause</property>
+    <property name="resource">ovoz_norm.wav</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1536000</property>
+    <property name="meta.attr.encoder.markup">Lavf60.16.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat</property>
+  </producer>
+  <playlist id="playlist1">
+    <blank length="12"/>
+    <entry producer="producer5" in="0" out="1085"/>
+  </playlist>
+  <tractor id="tractor4" title="01.mp4" in="0" out="1133">
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <filter id="filter5">
+      <property name="mlt_service">avfilter.unsharp</property>
+      <property name="track">0</property>
+      <property name="av.luma_msize_x">5</property>
+      <property name="av.luma_msize_y">5</property>
+      <property name="av.luma_amount">0.6</property>
+    </filter>
+    <filter id="filter6">
+      <property name="mlt_service">avfilter.eq</property>
+      <property name="track">0</property>
+      <property name="av.contrast">1.06</property>
+      <property name="av.saturation">1.08</property>
+      <property name="av.gamma">0.98</property>
+    </filter>
+    <filter id="filter7">
+      <property name="mlt_service">avfilter.colorbalance</property>
+      <property name="track">0</property>
+      <property name="av.rs">0.03</property>
+      <property name="av.bs">-0.03</property>
+      <property name="av.rh">0.02</property>
+      <property name="av.bh">-0.02</property>
+    </filter>
+    <filter id="filter8">
+      <property name="mlt_service">avfilter.vignette</property>
+      <property name="track">0</property>
+      <property name="av.angle">0.628</property>
+    </filter>
+    <filter id="filter9">
+      <property name="mlt_service">avfilter.noise</property>
+      <property name="track">0</property>
+      <property name="av.alls">5</property>
+      <property name="av.allf">t</property>
+    </filter>
+    <filter id="filter10" out="1133">
+      <property name="start">1</property>
+      <property name="level">0=0;19=1;1105=1;1133=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="track">0</property>
+      <property name="alpha">1</property>
+    </filter>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
