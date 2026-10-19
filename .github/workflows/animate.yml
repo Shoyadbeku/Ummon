@@ -2,7 +2,7 @@ name: Animate images
 on:
   push:
     branches: [media-input]
-    paths: [images/**, tools/**, .github/workflows/animate.yml]
+    paths: [images/**, tools/prompts.json, tools/animate.py, .github/workflows/animate.yml]
 permissions:
   contents: write
 jobs:
