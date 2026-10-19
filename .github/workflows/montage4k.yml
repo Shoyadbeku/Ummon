@@ -73,7 +73,7 @@ jobs:
         with: { ref: media-input }
       - uses: actions/cache/restore@v4
         with: { path: videos4k, key: "${{ needs.check.outputs.key }}", fail-on-cache-miss: true }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg xvfb xauth libfuse2 python3-numpy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg xvfb xauth libfuse2 python3-numpy libopengl0 libegl1 libgl1 libglx0 libxkbcommon-x11-0 libxcb-cursor0
       - name: Get Kdenlive 26.08 AppImage
         run: |
           base=https://download.kde.org/stable/kdenlive/26.08/linux/
@@ -89,17 +89,28 @@ jobs:
           printf '#!/bin/sh\nexport LD_LIBRARY_PATH=%s/lib\nexec %s/bin/melt-7 "$@"\n' $R $R > melt-kdenlive
           chmod +x melt-kdenlive && cat melt-kdenlive
           ./melt-kdenlive -version
-          xvfb-run -a ./melt-kdenlive -query filters 2>/dev/null | grep -E "qtblend|lut3d|lift_gamma|vignette|grain|avfilter.eq$|unsharp"
-          xvfb-run -a ./melt-kdenlive -query transitions 2>/dev/null | grep -E "luma|qtblend|mix"
+          xvfb-run -a ./melt-kdenlive -query filters > filters.txt 2>&1; xvfb-run -a ./melt-kdenlive -query transitions > transitions.txt 2>&1
+          grep -iE "error|cannot open|failed" filters.txt | head -20 || true
+          # Every service the project uses must load, or the render silently drops it.
+          for f in qtblend avfilter.lut3d lift_gamma_gain vignette grain avfilter.eq avfilter.unsharp avfilter.colorbalance brightness; do
+            grep -qE "^  - $f\$" filters.txt || { echo "missing filter $f"; exit 1; }; done
+          for t in qtblend luma mix; do grep -qE "^  - $t\$" transitions.txt || { echo "missing transition $t"; exit 1; }; done
+          grep -qE "^  - (avformat|avformat-novalidate)\$" <(xvfb-run -a ./melt-kdenlive -query producers 2>/dev/null) || { echo "missing avformat"; exit 1; }
+          echo "all MLT services present"
       - name: Build project and render 4K with Kdenlive's MLT
         run: |
           MELT=$PWD/melt-kdenlive python3 montage/kdenlive4k_build.py videos4k 2160 3840 render/montaj_4k_master.mp4
           ffprobe -v error -show_entries format=duration,size:stream=width,height,nb_frames,codec_name -of compact render/montaj_4k_master.mp4
+          # Refuse a black or empty render: mid-film frames must carry picture.
+          for t in 5 15 25 33; do
+            y=$(ffmpeg -hide_banner -ss $t -i render/montaj_4k_master.mp4 -frames:v 1 -vf "scale=64:-1,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -f null - 2>&1 | grep -o 'YAVG=[0-9.]*' | head -1 | cut -d= -f2)
+            echo "t=$t YAVG=$y"; awk "BEGIN{exit !($y > 40)}" || { echo "frame at $t s is too dark"; exit 1; }
+          done
       - name: Open the project in Kdenlive 26.08 itself (headless render check)
         continue-on-error: true
         run: |
           ./squashfs-root/AppRun --version || true
-          timeout 1800 xvfb-run -a ./squashfs-root/AppRun --render montage/montaj_4k.kdenlive render/kdenlive_cli.mp4 2>&1 | tail -30
+          timeout 900 xvfb-run -a ./squashfs-root/AppRun --render montage/montaj_4k.kdenlive render/kdenlive_cli.mp4 2>&1 | tail -30
           ffprobe -v error -show_entries format=duration:stream=width,height -of compact render/kdenlive_cli.mp4
       - name: Fit for GitHub (< 100 MB) and commit
         run: |

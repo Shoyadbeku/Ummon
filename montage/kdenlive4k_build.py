@@ -219,7 +219,7 @@ open(proj, "w").write("".join(x))
 os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
 # xvfb-run: the MLT Qt module (qtblend, qimage) needs an X server.
 if os.environ.get("NORENDER"): sys.exit()
-subprocess.run(["xvfb-run", "-a", os.environ.get("MELT", "melt"), "-quiet", R(proj), "-consumer", f"avformat:{os.path.abspath(out)}",
+subprocess.run(["xvfb-run", "-a", os.environ.get("MELT", "melt"), R(proj), "-consumer", f"avformat:{os.path.abspath(out)}",
                 "vcodec=libx264", "preset=slow", "crf=16", "vprofile=high", "pix_fmt=yuv420p", "an=1",
                 "movflags=+faststart", "real_time=-4", f"out={total - 1}"], check=True, cwd="montage")  # avfilter/luma paths resolve from here
 print("frames", total, "seconds", total / FPS)
