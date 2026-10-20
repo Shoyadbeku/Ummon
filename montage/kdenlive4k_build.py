@@ -1,8 +1,8 @@
-"""Build a Kdenlive project that cuts the 4 talking clips to the narration into one graded, moving film,
+"""Build a Kdenlive project that cuts the 5 talking clips to the narration into one graded, moving film,
 then render it with melt.
 
 Usage: python montage/kdenlive4k_build.py SRC_DIR WIDTH HEIGHT OUT.mp4
-SRC_DIR holds 01.mp4..04.mp4, already 9:16 (the Real-ESRGAN 4K clips in CI, small test clips locally).
+SRC_DIR holds 01.mp4..05.mp4, already 9:16 (the Real-ESRGAN 4K clips in CI, small test clips locally).
 The narration is montage/ovoz.mp3; it is loudness-normalised to montage/ovoz_norm.wav.
 Writes montage/montaj_4k.kdenlive (the editable project) plus its assets in montage/assets4k/.
 """
@@ -12,10 +12,11 @@ import numpy as np
 src, W, H, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 FPS, L, X = 24, 240, 20                 # clip length, mix length (frames)
 LEAD, TAIL = 0.5, 1.0                   # picture before the narration starts / after it ends (s)
-N = 4
+N = 5
 # Scene cuts sit in the middle of narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s), chosen by meaning:
-# trends and shopping | corporations sell fear | "your every choice of clothes" | "when will you admit it?"
-cuts, end = [10.69, 26.31, 36.47], 46.92
+# "they'll laugh at my mistake" | "nobody is watching you" | "everyone is busy with their own fears" |
+# "for an audience that doesn't exist" | "you sit alone in the hall, the show is yours"
+cuts, end = [7.70, 14.72, 28.82, 39.04], 45.95
 frames = lambda sec: round(sec * FPS)
 bounds = [0] + [frames(c + LEAD) for c in cuts] + [frames(end + LEAD + TAIL)]
 total = bounds[-1]
@@ -86,22 +87,24 @@ ffmpeg_raw([img], W, H, "rgba", ["-frames:v", "1", f"{A}/cinema_bars.png"])
 
 # --- Per-clip grade (matches the scenes to each other) and camera-like moves.
 eq = [  # contrast, brightness, saturation, gamma
-    (1.05, 0.00, 1.02, 1.00),   # 01 lamp-lit street: already bright
-    (1.06, 0.02, 1.04, 1.04),   # 02 dim smoky office: lift a little
-    (1.06, -0.02, 1.00, 0.98),  # 03 glowing shop window: hold the highlights
-    (1.06, 0.02, 1.03, 1.03),   # 04 dark close-up under the lamp
+    (1.06, 0.02, 1.02, 1.03),   # 01 dark backstage: lift a little
+    (1.06, 0.02, 1.03, 1.04),   # 02 dim empty auditorium
+    (1.05, -0.02, 1.00, 0.98),  # 03 lamp-lit wet street: hold the highlights
+    (1.07, 0.03, 1.02, 1.05),   # 04 candle-lit desk: open up the shadows
+    (1.05, 0.00, 1.03, 1.00),   # 05 glowing stage curtain
 ]
 def rect(z, fx, fy, dx=0.0):
     """Zoom z centred on (fx, fy) of the frame, shifted by dx frame widths."""
     w, h = W * z, H * z
     return f"{(-(w - W) * fx + dx * W):.1f} {(-(h - H) * fy):.1f} {w:.1f} {h:.1f} 1"
 moves = [  # (rect at start, rect at end, rotation start, rotation end)
-    (rect(1.02, .50, .70), rect(1.15, .50, .70), 0, 0),          # slow push-in on the rabbit and the fox
-    (rect(1.16, 0, .45), rect(1.16, 1, .45), -1.2, 0.8),         # pan from the chess table to the fox, slight roll
-    (rect(1.03, .65, .40), rect(1.18, .65, .40), 0, 0),          # push-in on the rabbit's longing face
-    (rect(1.20, .50, .40), rect(1.03, .50, .40), -1.0, 0),       # pull-out from the fox's eyes, roll settles
+    (rect(1.02, .45, .55), rect(1.16, .45, .55), 0, 0),          # slow push-in on the frightened rabbit
+    (rect(1.20, .55, .35), rect(1.04, .55, .35), -1.0, 0),       # pull-out from the fox's face, roll settles
+    (rect(1.15, 0, .60), rect(1.15, 1, .60), -0.8, 0.8),         # pan across the passers-by, slight roll
+    (rect(1.03, .30, .40), rect(1.18, .30, .40), 0, 0),          # push-in on the rabbit at the desk
+    (rect(1.18, .45, .60), rect(1.02, .50, .50), 0.8, 0),        # pull-out revealing the empty hall
 ]
-lumas = [None, R(f"{A}/iris.pgm"), R(f"{A}/diagonal.pgm")]
+lumas = [None, R(f"{A}/iris.pgm"), R(f"{A}/diagonal.pgm"), None]
 
 
 def tc(fr):
