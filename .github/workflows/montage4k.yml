@@ -115,8 +115,17 @@ jobs:
           ffprobe -v error -show_entries format=duration:stream=width,height -of compact render/kdenlive_cli.mp4
       - name: Fit for GitHub (< 100 MB) and commit
         run: |
-          ffmpeg -v error -y -i render/montaj_4k_master.mp4 -c:v libx264 -preset slow -crf 18 -maxrate 18M -bufsize 36M \
-            -pix_fmt yuv420p -tag:v avc1 -c:a copy -movflags +faststart montage/montaj_4k.mp4
+          # Two-pass to a ~90 MB budget: GitHub refuses files over 100 MB.
+          dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 render/montaj_4k_master.mp4)
+          vb=$(awk "BEGIN{printf \"%d\", 90*8*1024/$dur - 192}")
+          echo "video bitrate ${vb}k"
+          for pass in 1 2; do
+            out=/dev/null; [ $pass = 2 ] && out=montage/montaj_4k.mp4
+            ffmpeg -v error -y -i render/montaj_4k_master.mp4 -c:v libx264 -preset slow -b:v ${vb}k -maxrate $((vb * 3 / 2))k \
+              -bufsize $((vb * 3))k -pass $pass -passlogfile render/x264 -pix_fmt yuv420p -tag:v avc1 \
+              $([ $pass = 1 ] && echo "-an -f mp4" || echo "-c:a copy -movflags +faststart") $out
+          done
+          test $(stat -c %s montage/montaj_4k.mp4) -lt 99000000 || { echo "still over 99 MB"; exit 1; }
           ls -la montage/montaj_4k.mp4
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
@@ -124,6 +133,7 @@ jobs:
           git commit -m "Add 4K Kdenlive montage [skip ci]" || exit 0
           git push
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: kdenlive-loyiha-4k
           path: |
