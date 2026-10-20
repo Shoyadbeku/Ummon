@@ -1,7 +1,9 @@
-"""Build a Kdenlive project that cuts the 4 talking clips into one graded, moving film, then render it with melt.
+"""Build a Kdenlive project that cuts the 4 talking clips to the narration into one graded, moving film,
+then render it with melt.
 
 Usage: python montage/kdenlive4k_build.py SRC_DIR WIDTH HEIGHT OUT.mp4
 SRC_DIR holds 01.mp4..04.mp4, already 9:16 (the Real-ESRGAN 4K clips in CI, small test clips locally).
+The narration is montage/ovoz.mp3; it is loudness-normalised to montage/ovoz_norm.wav.
 Writes montage/montaj_4k.kdenlive (the editable project) plus its assets in montage/assets4k/.
 """
 import os, subprocess, sys
@@ -9,9 +11,18 @@ import numpy as np
 
 src, W, H, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 FPS, L, X = 24, 240, 20                 # clip length, mix length (frames)
+LEAD, TAIL = 0.5, 1.0                   # picture before the narration starts / after it ends (s)
 N = 4
-starts = [i * (L - X) for i in range(N)]
-total = starts[-1] + L                  # 900 frames = 37.5 s
+# Scene cuts sit in the middle of narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s), chosen by meaning:
+# trends and shopping | corporations sell fear | "your every choice of clothes" | "when will you admit it?"
+cuts, end = [10.69, 26.31, 36.47], 46.92
+frames = lambda sec: round(sec * FPS)
+bounds = [0] + [frames(c + LEAD) for c in cuts] + [frames(end + LEAD + TAIL)]
+total = bounds[-1]
+# Each scene spills half a mix into its neighbours; scenes longer than the clip are slowed (Kdenlive speed).
+starts = [bounds[i] - (X // 2 if i else 0) for i in range(N)]
+lens = [bounds[i + 1] + (X - X // 2 if i < N - 1 else 0) - starts[i] for i in range(N)]
+speeds = [min(1.0, (L - 1) / n) for n in lens]
 A = "montage/assets4k"
 os.makedirs(A, exist_ok=True)
 R = lambda path: os.path.relpath(path, "montage")  # project paths are relative to montage/
@@ -75,20 +86,20 @@ ffmpeg_raw([img], W, H, "rgba", ["-frames:v", "1", f"{A}/cinema_bars.png"])
 
 # --- Per-clip grade (matches the scenes to each other) and camera-like moves.
 eq = [  # contrast, brightness, saturation, gamma
-    (1.04, 0.02, 1.05, 1.04),   # 01 dark stormy dock: lift a little
-    (1.04, 0.02, 1.05, 1.04),   # 02 same light
-    (1.10, -0.04, 1.00, 0.96),  # 03 washed-out fog: more body
-    (1.05, 0.00, 1.02, 1.00),   # 04 sepia night
+    (1.05, 0.00, 1.02, 1.00),   # 01 lamp-lit street: already bright
+    (1.06, 0.02, 1.04, 1.04),   # 02 dim smoky office: lift a little
+    (1.06, -0.02, 1.00, 0.98),  # 03 glowing shop window: hold the highlights
+    (1.06, 0.02, 1.03, 1.03),   # 04 dark close-up under the lamp
 ]
 def rect(z, fx, fy, dx=0.0):
     """Zoom z centred on (fx, fy) of the frame, shifted by dx frame widths."""
     w, h = W * z, H * z
     return f"{(-(w - W) * fx + dx * W):.1f} {(-(h - H) * fy):.1f} {w:.1f} {h:.1f} 1"
 moves = [  # (rect at start, rect at end, rotation start, rotation end)
-    (rect(1.02, .40, .55), rect(1.14, .40, .55), 0, 0),          # slow push-in on the hedgehog
-    (rect(1.16, 0, .45), rect(1.16, 1, .45), -1.2, 0.8),         # lateral pan along the rail, slight roll
-    (rect(1.20, .45, .52), rect(1.03, .45, .52), 0, 0),          # pull-out into the fog
-    (rect(1.03, .45, .35), rect(1.16, .45, .35, 0.0), -1.0, 0),  # push-in on the fox, roll settles
+    (rect(1.02, .50, .70), rect(1.15, .50, .70), 0, 0),          # slow push-in on the rabbit and the fox
+    (rect(1.16, 0, .45), rect(1.16, 1, .45), -1.2, 0.8),         # pan from the chess table to the fox, slight roll
+    (rect(1.03, .65, .40), rect(1.18, .65, .40), 0, 0),          # push-in on the rabbit's longing face
+    (rect(1.20, .50, .40), rect(1.03, .50, .40), -1.0, 0),       # pull-out from the fox's eyes, roll settles
 ]
 lumas = [None, R(f"{A}/iris.pgm"), R(f"{A}/diagonal.pgm")]
 
@@ -120,6 +131,12 @@ def producer(pid, kid, res, name, length, extra=None):
     x.append(f' <producer id="{pid}" in="{tc(0)}" out="{tc(length - 1)}">\n{props(d, "  ")} </producer>\n')
 for i in range(N):
     producer(f"clip{i + 1}", i + 2, R(f"{src}/{i + 1:02d}.mp4"), f"Sahna {i + 1:02d}", L, {"kdenlive:clip_type": 1})
+wav = "montage/ovoz_norm.wav"
+subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", "montage/ovoz.mp3", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+                "-ar", "48000", "-ac", "2", wav], check=True)
+alen = frames(float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", wav],
+                              capture_output=True, text=True, check=True).stdout))
+producer("voice", 8, R(wav), "Ovoz", alen, {"audio_index": 0, "video_index": -1})
 producer("leak", 6, R(f"{A}/light_leak.mov"), "Light leak", total, {"kdenlive:clip_type": 1})
 producer("bars", 7, R(f"{A}/cinema_bars.png"), "Cinema bars", total,
          {"mlt_service": "qimage", "ttl": 25, "kdenlive:clip_type": 5, "eof": "pause"})
@@ -129,8 +146,16 @@ doc = {"activeTrack": 2, "audioChannels": 2, "audioTarget": -1, "compositing": 1
        "position": 0, "version": "1.04", "videoTarget": 2, "zonein": 0, "zoneout": total, "zoom": 8}
 x.append(' <playlist id="main_bin">\n' + props({f"kdenlive:docproperties.{k}": v for k, v in doc.items()}, "  ")
          + '  <property name="xml_retain">1</property>\n'
-         + "".join(f'  <entry producer="{p}" in="{tc(0)}" out="{tc((L if p.startswith("clip") else total) - 1)}"/>\n'
+         + "".join(f'  <entry producer="{p}" in="{tc(0)}" out="{tc({"voice": alen}.get(p, L if p.startswith("clip") else total) - 1)}"/>\n'
                    for p in bin_ids) + " </playlist>\n")
+# Slowed scenes play through timewarp producers, as Kdenlive writes its clip speed changes.
+for i in range(N):
+    if speeds[i] < 1:
+        res = R(f"{src}/{i + 1:02d}.mp4")
+        d = {"length": lens[i], "eof": "pause", "resource": f"{speeds[i]:.6f}:{res}", "mlt_service": "timewarp",
+             "warp_speed": f"{speeds[i]:.6f}", "warp_resource": res, "warp_pitch": 0, "audio_index": -1,
+             "seekable": 1, "kdenlive:id": i + 2, "kdenlive:clipname": f"Sahna {i + 1:02d}"}
+        x.append(f' <producer id="clip{i + 1}_tw" in="{tc(0)}" out="{tc(lens[i] - 1)}">\n{props(d, "  ")} </producer>\n')
 x.append(f' <producer id="black_track" in="{tc(0)}" out="{tc(total - 1)}">\n'
          + props({"length": 2147483647, "eof": "continue", "resource": "black", "aspect_ratio": 1,
                   "mlt_service": "color", "mlt_image_format": "rgba", "set.test_audio": 0}, "  ") + " </producer>\n")
@@ -142,15 +167,19 @@ def track(tid, pls, body="", audio=False, name=""):
             "kdenlive:collapsed": 0, **({"kdenlive:audio_track": 1} if audio else {})}
     x.append(f' <tractor id="{tid}" in="{tc(0)}" out="{tc(total - 1)}">\n{props(meta, "  ")}{tracks}{body} </tractor>\n')
 
-# Audio tracks stay empty (silent film), as Kdenlive expects at least one.
+# A1 carries the narration after the lead-in; A2 stays empty.
 for a in range(2):
     for k in range(2):
-        x.append(f' <playlist id="a{a}p{k}">\n  <property name="kdenlive:audio_track">1</property>\n </playlist>\n')
+        body = ""
+        if a == 1 and k == 0:
+            body = (f'  <blank length="{tc(frames(LEAD))}"/>\n  <entry producer="voice" in="{tc(0)}" out="{tc(alen - 1)}">\n'
+                    '   <property name="kdenlive:id">8</property>\n  </entry>\n')
+        x.append(f' <playlist id="a{a}p{k}">\n  <property name="kdenlive:audio_track">1</property>\n{body} </playlist>\n')
     track(f"audio{a}", [f"a{a}p0", f"a{a}p1"], audio=True, name=f"A{2 - a}")
 
 # V1: the four scenes, alternating between the track's two playlists so neighbours overlap for the mixes.
 def entry(i):
-    (r0, r1, a0, a1), e = moves[i], L - 1
+    (r0, r1, a0, a1), e = moves[i], lens[i] - 1
     c, b, s, gm = eq[i]
     f = filt(f"f{next(fid)}", "qtblend", {"rect": f"0~={r0};{e}~={r1}", "rotation": f"0~={a0};{e}~={a1}",
                                           "compositing": 0, "distort": 0, "rotate_center": 1}, ind="   ")
@@ -162,7 +191,7 @@ def entry(i):
     if i == N - 1:
         f += filt(f"f{next(fid)}", "brightness", {"level": "0=1;35=0", "alpha": 1}, "fade_to_black",
                   extra=f' in="{tc(e - 35)}" out="{tc(e)}"')
-    return (f'  <entry producer="clip{i + 1}" in="{tc(0)}" out="{tc(e)}">\n'
+    return (f'  <entry producer="clip{i + 1}{"_tw" if speeds[i] < 1 else ""}" in="{tc(0)}" out="{tc(e)}">\n'
             f'   <property name="kdenlive:id">{i + 2}</property>\n{f}  </entry>\n')
 for k in range(2):
     body, pos = "", 0
@@ -170,11 +199,11 @@ for k in range(2):
         if starts[i] > pos:
             body += f'  <blank length="{tc(starts[i] - pos)}"/>\n'
         body += entry(i)
-        pos = starts[i] + L
+        pos = starts[i] + lens[i]
     x.append(f' <playlist id="v1p{k}">\n{body} </playlist>\n')
 mixes = ""
 for j in range(1, N):
-    a, b = starts[j], starts[j - 1] + L - 1
+    a, b = starts[j], starts[j - 1] + lens[j - 1] - 1
     mixes += (f'  <transition id="mix{j}" in="{tc(a)}" out="{tc(b)}">\n'
               + props({"a_track": 0, "b_track": 1, "factory": "loader", "resource": lumas[j - 1] or "",
                        "mlt_service": "luma", "kdenlive_id": "luma", "kdenlive:mixcut": X // 2,
@@ -220,6 +249,6 @@ os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
 # xvfb-run: the MLT Qt module (qtblend, qimage) needs an X server.
 if os.environ.get("NORENDER"): sys.exit()
 subprocess.run(["xvfb-run", "-a", os.environ.get("MELT", "melt"), R(proj), "-consumer", f"avformat:{os.path.abspath(out)}",
-                "vcodec=libx264", "preset=slow", "crf=16", "vprofile=high", "pix_fmt=yuv420p", "an=1",
+                "vcodec=libx264", "preset=slow", "crf=16", "vprofile=high", "pix_fmt=yuv420p", "acodec=aac", "ab=192k", "ar=48000",
                 "movflags=+faststart", "real_time=-4", f"out={total - 1}"], check=True, cwd="montage")  # avfilter/luma paths resolve from here
-print("frames", total, "seconds", total / FPS)
+print("frames", total, "seconds", total / FPS, "scene lengths", lens, "speeds", [round(v, 3) for v in speeds])

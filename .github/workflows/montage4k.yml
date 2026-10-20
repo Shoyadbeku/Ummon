@@ -2,7 +2,7 @@ name: Kdenlive 26.08 montage (4K, Real-ESRGAN)
 on:
   push:
     branches: [media-input]
-    paths: [montage/kdenlive4k_build.py, .github/workflows/montage4k.yml]
+    paths: [montage/kdenlive4k_build.py, montage/ovoz.mp3, .github/workflows/montage4k.yml]
 permissions:
   contents: write
 jobs:
@@ -101,6 +101,7 @@ jobs:
         run: |
           MELT=$PWD/melt-kdenlive python3 montage/kdenlive4k_build.py videos4k 2160 3840 render/montaj_4k_master.mp4
           ffprobe -v error -show_entries format=duration,size:stream=width,height,nb_frames,codec_name -of compact render/montaj_4k_master.mp4
+          ffprobe -v error -select_streams a -show_entries stream=codec_name -of csv=p=0 render/montaj_4k_master.mp4 | grep -q aac || { echo "no narration in render"; exit 1; }
           # Refuse a black or empty render: mid-film frames must carry picture.
           for t in 5 15 25 33; do
             y=$(ffmpeg -hide_banner -ss $t -i render/montaj_4k_master.mp4 -frames:v 1 -vf "scale=64:-1,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -f null - 2>&1 | grep -o 'YAVG=[0-9.]*' | head -1 | cut -d= -f2)
@@ -115,11 +116,11 @@ jobs:
       - name: Fit for GitHub (< 100 MB) and commit
         run: |
           ffmpeg -v error -y -i render/montaj_4k_master.mp4 -c:v libx264 -preset slow -crf 18 -maxrate 18M -bufsize 36M \
-            -pix_fmt yuv420p -tag:v avc1 -an -movflags +faststart montage/montaj_4k.mp4
+            -pix_fmt yuv420p -tag:v avc1 -c:a copy -movflags +faststart montage/montaj_4k.mp4
           ls -la montage/montaj_4k.mp4
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add montage/montaj_4k.mp4 montage/montaj_4k.kdenlive montage/assets4k/*.cube montage/assets4k/*.pgm montage/assets4k/*.png
+          git add montage/montaj_4k.mp4 montage/montaj_4k.kdenlive montage/ovoz_norm.wav montage/assets4k/*.cube montage/assets4k/*.pgm montage/assets4k/*.png
           git commit -m "Add 4K Kdenlive montage [skip ci]" || exit 0
           git push
       - uses: actions/upload-artifact@v4
@@ -128,6 +129,7 @@ jobs:
           path: |
             montage/montaj_4k.kdenlive
             montage/assets4k
+            montage/ovoz_norm.wav
             videos4k
             render/montaj_4k_master.mp4
           retention-days: 30
