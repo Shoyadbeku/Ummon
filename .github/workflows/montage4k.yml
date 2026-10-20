@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: k   # the 4K clips are reused until the source videos change
-        run: echo "key=videos4k-v1-${{ hashFiles('videos/01.mp4', 'videos/02.mp4', 'videos/03.mp4', 'videos/04.mp4', 'videos/05.mp4') }}" >> $GITHUB_OUTPUT
+        run: echo "key=videos4k-v1-${{ hashFiles('videos/01.mp4', 'videos/02.mp4', 'videos/03.mp4', 'videos/04.mp4', 'videos/05.mp4', 'videos/06.mp4') }}" >> $GITHUB_OUTPUT
       - id: c
         uses: actions/cache/restore@v4
         with: { path: videos4k, key: "${{ steps.k.outputs.key }}", lookup-only: true }
@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        id: ["01", "02", "03", "04", "05"]
+        id: ["01", "02", "03", "04", "05", "06"]
         part: [0, 1, 2, 3, 4, 5]   # 6 x 40 frames per 240-frame clip; ncnn on CPU (lavapipe) is ~25 s/frame
     steps:
       - uses: actions/checkout@v4
@@ -56,7 +56,7 @@ jobs:
       - name: Join chunks into 4K clips
         run: |
           mkdir videos4k
-          for id in 01 02 03 04 05; do
+          for id in 01 02 03 04 05 06; do
             for p in 0 1 2 3 4 5; do echo "file '$PWD/chunks/chunk_${id}_${p}.mp4'"; done > list.txt
             ffmpeg -v error -f concat -safe 0 -i list.txt -c copy videos4k/$id.mp4
             ffprobe -v error -show_entries stream=width,height,nb_frames -of compact videos4k/$id.mp4
@@ -103,7 +103,7 @@ jobs:
           ffprobe -v error -show_entries format=duration,size:stream=width,height,nb_frames,codec_name -of compact render/montaj_4k_master.mp4
           ffprobe -v error -select_streams a -show_entries stream=codec_name -of csv=p=0 render/montaj_4k_master.mp4 | grep -q aac || { echo "no narration in render"; exit 1; }
           # Refuse a black or empty render: mid-film frames must carry picture.
-          for t in 5 15 25 33; do
+          for t in 5 15 25 35; do
             y=$(ffmpeg -hide_banner -ss $t -i render/montaj_4k_master.mp4 -frames:v 1 -vf "scale=64:-1,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -f null - 2>&1 | grep -o 'YAVG=[0-9.]*' | head -1 | cut -d= -f2)
             echo "t=$t YAVG=$y"; awk "BEGIN{exit !($y > 40)}" || { echo "frame at $t s is too dark"; exit 1; }
           done

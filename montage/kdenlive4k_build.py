@@ -1,8 +1,8 @@
-"""Build a Kdenlive project that cuts the 5 talking clips to the narration into one graded, moving film,
+"""Build a Kdenlive project that cuts the 6 talking clips to the narration into one graded, moving film,
 then render it with melt.
 
 Usage: python montage/kdenlive4k_build.py SRC_DIR WIDTH HEIGHT OUT.mp4
-SRC_DIR holds 01.mp4..05.mp4, already 9:16 (the Real-ESRGAN 4K clips in CI, small test clips locally).
+SRC_DIR holds 01.mp4..06.mp4, already 9:16 (the Real-ESRGAN 4K clips in CI, small test clips locally).
 The narration is montage/ovoz.mp3; it is loudness-normalised to montage/ovoz_norm.wav.
 Writes montage/montaj_4k.kdenlive (the editable project) plus its assets in montage/assets4k/.
 """
@@ -12,11 +12,20 @@ import numpy as np
 src, W, H, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 FPS, L, X = 24, 240, 20                 # clip length, mix length (frames)
 LEAD, TAIL = 0.5, 1.0                   # picture before the narration starts / after it ends (s)
-N = 5
-# Scene cuts sit in the middle of narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s), chosen by meaning:
-# "they'll laugh at my mistake" | "nobody is watching you" | "everyone is busy with their own fears" |
-# "for an audience that doesn't exist" | "you sit alone in the hall, the show is yours"
-cuts, end = [7.70, 14.72, 28.82, 39.04], 45.95
+N = 6
+# Scene cuts sit in the middle of the N-1 longest narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s).
+def pauses(path):
+    log = subprocess.run(["ffmpeg", "-i", path, "-af", "silencedetect=noise=-35dB:d=0.35", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    st = [float(v) for v in __import__("re").findall(r"silence_start: ([\d.]+)", log)]
+    en = [float(v) for v in __import__("re").findall(r"silence_end: ([\d.]+)", log)]
+    return [(a, b) for a, b in zip(st, en) if a > 0.5]
+end = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                            "montage/ovoz.mp3"], capture_output=True, text=True, check=True).stdout)
+gaps = sorted(pauses("montage/ovoz.mp3"), key=lambda g: g[1] - g[0])[-(N - 1):]
+cuts = sorted(round((a + b) / 2, 2) for a, b in gaps)
+assert len(cuts) == N - 1, f"narration has only {len(cuts)} pauses for {N} scenes"
+print("cuts", cuts, "end", end)
 frames = lambda sec: round(sec * FPS)
 bounds = [0] + [frames(c + LEAD) for c in cuts] + [frames(end + LEAD + TAIL)]
 total = bounds[-1]
@@ -87,24 +96,26 @@ ffmpeg_raw([img], W, H, "rgba", ["-frames:v", "1", f"{A}/cinema_bars.png"])
 
 # --- Per-clip grade (matches the scenes to each other) and camera-like moves.
 eq = [  # contrast, brightness, saturation, gamma
-    (1.06, 0.02, 1.02, 1.03),   # 01 dark backstage: lift a little
-    (1.06, 0.02, 1.03, 1.04),   # 02 dim empty auditorium
-    (1.05, -0.02, 1.00, 0.98),  # 03 lamp-lit wet street: hold the highlights
-    (1.07, 0.03, 1.02, 1.05),   # 04 candle-lit desk: open up the shadows
-    (1.05, 0.00, 1.03, 1.00),   # 05 glowing stage curtain
+    (1.05, -0.01, 0.98, 1.00),  # 01 golden sunset trail: hold the hot sky
+    (1.05, -0.01, 0.98, 1.00),  # 02 same trail
+    (1.06, 0.00, 0.98, 1.02),   # 03 kneeling by the bag: open the shadows a little
+    (1.08, 0.02, 1.06, 1.02),   # 04 sepia meadow: bring it towards the warm scenes
+    (1.06, 0.02, 1.00, 1.05),   # 05 dark close-up: lift the face
+    (1.05, -0.01, 0.98, 1.00),  # 06 cliff edge at sunset
 ]
 def rect(z, fx, fy, dx=0.0):
     """Zoom z centred on (fx, fy) of the frame, shifted by dx frame widths."""
     w, h = W * z, H * z
     return f"{(-(w - W) * fx + dx * W):.1f} {(-(h - H) * fy):.1f} {w:.1f} {h:.1f} 1"
 moves = [  # (rect at start, rect at end, rotation start, rotation end)
-    (rect(1.02, .45, .55), rect(1.16, .45, .55), 0, 0),          # slow push-in on the frightened rabbit
-    (rect(1.20, .55, .35), rect(1.04, .55, .35), -1.0, 0),       # pull-out from the fox's face, roll settles
-    (rect(1.15, 0, .60), rect(1.15, 1, .60), -0.8, 0.8),         # pan across the passers-by, slight roll
-    (rect(1.03, .30, .40), rect(1.18, .30, .40), 0, 0),          # push-in on the rabbit at the desk
-    (rect(1.18, .45, .60), rect(1.02, .50, .50), 0.8, 0),        # pull-out revealing the empty hall
+    (rect(1.20, .50, .15), rect(1.04, .55, .45), 0, 0),          # tilt down from the peak onto the climbing bear
+    (rect(1.04, .70, .50), rect(1.18, .65, .45), 0, 0),          # slow push-in on the weary bear's face
+    (rect(1.15, 0, .55), rect(1.15, .8, .45), -0.6, 0.6),        # drift across the bear loading stones, slight roll
+    (rect(1.18, .10, .20), rect(1.03, .60, .70), 0, 0),          # pull from the passing rabbit down to the sulking bear
+    (rect(1.02, .50, .40), rect(1.14, .55, .35), 0.8, 0),        # push-in on the close-up, roll settles
+    (rect(1.16, .30, .30), rect(1.02, .60, .60), 0, -0.6),       # pull-out over the cliff as the stones fall
 ]
-lumas = [None, R(f"{A}/iris.pgm"), R(f"{A}/diagonal.pgm"), None]
+lumas = [None, R(f"{A}/iris.pgm"), None, R(f"{A}/diagonal.pgm"), R(f"{A}/iris.pgm")]
 
 
 def tc(fr):
