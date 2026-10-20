@@ -13,19 +13,15 @@ src, W, H, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 FPS, L, X = 24, 240, 20                 # clip length, mix length (frames)
 LEAD, TAIL = 0.5, 1.0                   # picture before the narration starts / after it ends (s)
 N = 6
-# Scene cuts sit in the middle of the N-1 longest narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s).
-def pauses(path):
-    log = subprocess.run(["ffmpeg", "-i", path, "-af", "silencedetect=noise=-35dB:d=0.35", "-f", "null", "-"],
-                         capture_output=True, text=True).stderr
-    st = [float(v) for v in __import__("re").findall(r"silence_start: ([\d.]+)", log)]
-    en = [float(v) for v in __import__("re").findall(r"silence_end: ([\d.]+)", log)]
-    return [(a, b) for a, b in zip(st, en) if a > 0.5]
+# Scene cuts sit in the middle of narration pauses (ffmpeg silencedetect, -35 dB, 0.35 s), chosen by meaning:
+# "you set out on a long journey" | "every grievance goes into the backpack as a heavy stone" |
+# "those who hurt you forgot and walk on lightly" | "you can't forgive and carry it on your back" |
+# "it doesn't weigh on them, only on you" | "throw the stones off the cliff or never reach the top"
+# ORDER maps each scene to its clip: 02 is the same frame as 01, so it carries the "only on you" line.
+ORDER = [1, 3, 4, 5, 2, 6]
+cuts = [5.27, 15.01, 21.66, 26.03, 33.70]
 end = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                             "montage/ovoz.mp3"], capture_output=True, text=True, check=True).stdout)
-gaps = sorted(pauses("montage/ovoz.mp3"), key=lambda g: g[1] - g[0])[-(N - 1):]
-cuts = sorted(round((a + b) / 2, 2) for a, b in gaps)
-assert len(cuts) == N - 1, f"narration has only {len(cuts)} pauses for {N} scenes"
-print("cuts", cuts, "end", end)
 frames = lambda sec: round(sec * FPS)
 bounds = [0] + [frames(c + LEAD) for c in cuts] + [frames(end + LEAD + TAIL)]
 total = bounds[-1]
@@ -109,7 +105,7 @@ def rect(z, fx, fy, dx=0.0):
     return f"{(-(w - W) * fx + dx * W):.1f} {(-(h - H) * fy):.1f} {w:.1f} {h:.1f} 1"
 moves = [  # (rect at start, rect at end, rotation start, rotation end)
     (rect(1.20, .50, .15), rect(1.04, .55, .45), 0, 0),          # tilt down from the peak onto the climbing bear
-    (rect(1.04, .70, .50), rect(1.18, .65, .45), 0, 0),          # slow push-in on the weary bear's face
+    (rect(1.04, .20, .30), rect(1.20, .10, .20), 0, 0),          # slow push-in towards the fox as he answers
     (rect(1.15, 0, .55), rect(1.15, .8, .45), -0.6, 0.6),        # drift across the bear loading stones, slight roll
     (rect(1.18, .10, .20), rect(1.03, .60, .70), 0, 0),          # pull from the passing rabbit down to the sulking bear
     (rect(1.02, .50, .40), rect(1.14, .55, .35), 0.8, 0),        # push-in on the close-up, roll settles
@@ -165,11 +161,11 @@ x.append(' <playlist id="main_bin">\n' + props({f"kdenlive:docproperties.{k}": v
 # Slowed scenes play through timewarp producers, as Kdenlive writes its clip speed changes.
 for i in range(N):
     if speeds[i] < 1:
-        res = R(f"{src}/{i + 1:02d}.mp4")
+        res = R(f"{src}/{ORDER[i]:02d}.mp4")
         d = {"length": lens[i], "eof": "pause", "resource": f"{speeds[i]:.6f}:{res}", "mlt_service": "timewarp",
              "warp_speed": f"{speeds[i]:.6f}", "warp_resource": res, "warp_pitch": 0, "audio_index": -1,
-             "seekable": 1, "kdenlive:id": i + 2, "kdenlive:clipname": f"Sahna {i + 1:02d}"}
-        x.append(f' <producer id="clip{i + 1}_tw" in="{tc(0)}" out="{tc(lens[i] - 1)}">\n{props(d, "  ")} </producer>\n')
+             "seekable": 1, "kdenlive:id": ORDER[i] + 1, "kdenlive:clipname": f"Sahna {ORDER[i]:02d}"}
+        x.append(f' <producer id="scene{i + 1}_tw" in="{tc(0)}" out="{tc(lens[i] - 1)}">\n{props(d, "  ")} </producer>\n')
 x.append(f' <producer id="black_track" in="{tc(0)}" out="{tc(total - 1)}">\n'
          + props({"length": 2147483647, "eof": "continue", "resource": "black", "aspect_ratio": 1,
                   "mlt_service": "color", "mlt_image_format": "rgba", "set.test_audio": 0}, "  ") + " </producer>\n")
@@ -193,8 +189,9 @@ for a in range(2):
 
 # V1: the four scenes, alternating between the track's two playlists so neighbours overlap for the mixes.
 def entry(i):
-    (r0, r1, a0, a1), e = moves[i], lens[i] - 1
-    c, b, s, gm = eq[i]
+    k = ORDER[i] - 1
+    (r0, r1, a0, a1), e = moves[k], lens[i] - 1
+    c, b, s, gm = eq[k]
     f = filt(f"f{next(fid)}", "qtblend", {"rect": f"0~={r0};{e}~={r1}", "rotation": f"0~={a0};{e}~={a1}",
                                           "compositing": 0, "distort": 0, "rotate_center": 1}, ind="   ")
     f += filt(f"f{next(fid)}", "avfilter.eq", {"av.contrast": c, "av.brightness": b, "av.saturation": s,
@@ -205,8 +202,8 @@ def entry(i):
     if i == N - 1:
         f += filt(f"f{next(fid)}", "brightness", {"level": "0=1;35=0", "alpha": 1}, "fade_to_black",
                   extra=f' in="{tc(e - 35)}" out="{tc(e)}"')
-    return (f'  <entry producer="clip{i + 1}{"_tw" if speeds[i] < 1 else ""}" in="{tc(0)}" out="{tc(e)}">\n'
-            f'   <property name="kdenlive:id">{i + 2}</property>\n{f}  </entry>\n')
+    return (f'  <entry producer="{f"scene{i + 1}_tw" if speeds[i] < 1 else f"clip{k + 1}"}" in="{tc(0)}" out="{tc(e)}">\n'
+            f'   <property name="kdenlive:id">{k + 2}</property>\n{f}  </entry>\n')
 for k in range(2):
     body, pos = "", 0
     for i in range(k, N, 2):
