@@ -1,0 +1,87 @@
+Bing Image Creator uchun 42 ta prompt. Har birini alohida kiriting, 16:9 (landshaft) formatni tanlang.
+Saqlashda fayl nomi: 00.jpg, 01.jpg ... 41.jpg
+
+00. a lone japanese soldier in torn ww2 uniform standing in dense misty tropical jungle, holding old rifle, looking at camera, fog, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+01. 1970s family living room, people watching moon landing astronaut on vintage television, warm retro tones, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+02. aerial view of small remote tropical island covered with thick jungle, ocean, clouds, moody, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+03. close up hands of soldier cleaning an old bolt action rifle by a small campfire in the jungle at night, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+04. silhouette of a soldier standing on a cliff above jungle looking at the sea at sunset, epic, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+05. young japanese man in 1930s suit working in an old trading company office, sepia vintage photograph, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+06. rows of young japanese soldiers in 1940s uniforms marching, black and white vintage photograph, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+07. 1940s japanese army intelligence school, young asian japanese cadets in japanese uniforms studying maps at a table, dim light, vintage sepia, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+08. old military boat approaching a small tropical island at dawn, 1944, misty ocean, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+09. japanese officer giving orders to a young lieutenant inside a dim military tent, lantern light, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+10. older japanese commander with hand on shoulder of young soldier, serious faces, ww2, dramatic shadows, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+11. extreme close up of determined eyes of a young japanese soldier, jungle reflection, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+12. ww2 landing ships approaching tropical beach, smoke on horizon, 1945, vintage war photograph, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+13. four japanese soldiers hiding among giant ferns in mountain jungle, fog, tense, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+14. happy people celebrating victory day 1945 in city street, sailors and women waving hats, ticker tape, black and white vintage photograph, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+15. quiet dark jungle with rays of light, lone soldier sitting motionless, still, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+16. old paper leaflet lying on jungle floor among leaves, soldier boots nearby, close up, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+17. old propeller plane flying over jungle dropping hundreds of paper leaflets, sky, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+18. japanese soldier carefully reading a paper document by candlelight in a jungle hut, suspicious face, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+19. soldiers sheltering inside a dark cave entrance during heavy tropical rain, jungle, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+20. old vintage radio on a wooden crate in the jungle, soldier listening in background, warm light, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+21. reflection of a soldier in a jungle puddle, distorted, surreal, moody, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+22. filipino farmers working in rice field with water buffalo near jungle edge, 1950s, vintage, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+23. abandoned straw farmer hat lying in an empty rice field at dusk, somber, melancholic, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+24. empty jungle campsite with abandoned old military helmets and backpacks, cold ashes, fog, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+25. close up face of an old bearded japanese soldier in faded cap, deep wrinkles, tired eyes, jungle bokeh background, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+26. young smiling japanese backpacker with long hair in 1970s clothes, travel, retro photo, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+27. small camping tent in a jungle clearing at dusk, lantern glowing, mysterious, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+28. a man in old faded military uniform with rifle emerging from dense jungle shadows, dramatic backlight, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+29. campfire in a jungle clearing at night, an old rifle and a modern travel backpack lying on opposite sides of the fire, two tin cups, warm glow, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+30. elderly japanese man with glasses working in a small cozy old bookstore, 1970s, warm light, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+31. elderly man in suit reading an official paper aloud to a saluting old soldier in the jungle, emotional, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+32. close up of old japanese soldier face with tear in eye, frozen, emotional, shallow depth of field, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+33. hands presenting a japanese katana sword in its sheath during a formal ceremony, 1970s, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+34. busy 1970s tokyo street with neon signs and skyscrapers, lone man in crowd looking lost, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+35. old man on a horse at a cattle ranch in brazil at golden hour, wide landscape, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+36. old brass compass in a weathered hand, jungle background bokeh, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+37. man walking into thick fog in a forest, back view, mysterious, symbolic, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+38. modern man sitting alone on a tiny island in the middle of the ocean, surreal, symbolic, wide shot, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+39. person looking out of a rainy window waiting, contemplative, soft light, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+40. old rifle leaning against a tree with a white flower growing beside it, peaceful jungle sunrise, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
+41. sunrise over misty tropical jungle mountains, golden light, hopeful, epic wide landscape, cinematic film still, dramatic lighting, 35mm photo, muted colors, film grain, highly detailed, wide 16:9 landscape, no text
+
