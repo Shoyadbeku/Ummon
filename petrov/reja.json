@@ -1,0 +1,79 @@
+{
+  "soz_tezligi": 2.2,
+  "abzaslar": [
+    {"n": 1,  "mavzu": "Tun, uxlayotgan dunyo, yer osti bunkeri", "kliplar": [
+      {"id": "grOsSaW4YPw", "s": 0,   "izoh": "Kinolibrary: 1983 Moskva ko'chalari"},
+      {"id": "gaW4TFvqPSA", "s": 120, "izoh": "Thames TV: Rossiya yadro bunkeri ichida"},
+      {"id": "VaPXVJWHji4", "s": 8,   "izoh": "The Man Who Saved the World treyleri"}]},
+    {"n": 2,  "mavzu": "Petrov, ogohlantirish tizimi, sun'iy yo'ldoshlar", "kliplar": [
+      {"id": "VaPXVJWHji4", "s": 35,  "izoh": "Treyler: Petrov"},
+      {"id": "L7eKMMhp7Eo", "s": 60,  "izoh": "Oko tizimi tushuntirilishi"},
+      {"id": "5G7pn9GVbH4", "s": 90,  "izoh": "Sovet sun'iy yo'ldoshi"}]},
+    {"n": 3,  "mavzu": "Sovuq urush, minglab raketalar, KAL-007", "kliplar": [
+      {"id": "6etuXjA-ldY", "s": 300, "izoh": "PeriscopeFilm: Minuteman shaxtalari"},
+      {"id": "r2oO6LrliJg", "s": 30,  "izoh": "Sovet yadro sinovlari arxivi"},
+      {"id": "4ko2D0zkHKk", "s": 200, "izoh": "1983 KAL-007 yangiliklari"},
+      {"id": "GiDZ5mZAhuE", "s": 10,  "izoh": "Kinolibrary: 1983 Moskva, sovuq urush"}]},
+    {"n": 4,  "mavzu": "Sirena, ekranda UCHISH", "kliplar": [
+      {"id": "OJmz0RhwPhs", "s": 20,  "izoh": "HistoryPod: 1983 yolg'on signal"},
+      {"id": "VMNhW0JS6oQ", "s": 60,  "izoh": "PeriscopeFilm: ICBM sinov uchirilishi"}]},
+    {"n": 5,  "mavzu": "Ofitserlar, buyruq zanjiri", "kliplar": [
+      {"id": "gaW4TFvqPSA", "s": 400, "izoh": "Bunker, ofitserlar"},
+      {"id": "zEW_giefjWs", "s": 600, "izoh": "NOVA: Russia's Nuclear Warriors"},
+      {"id": "ZGsrO3klcAs", "s": 60,  "izoh": "House of History: 1983"}]},
+    {"n": 6,  "mavzu": "Ikkinchi, uchinchi... beshta raketa", "kliplar": [
+      {"id": "VMNhW0JS6oQ", "s": 150, "izoh": "Uchirish 2"},
+      {"id": "co7m6cu7oaA", "s": 3,   "izoh": "Minuteman II sekinlashtirilgan"},
+      {"id": "VMNhW0JS6oQ", "s": 260, "izoh": "Uchirish 3"},
+      {"id": "VMNhW0JS6oQ", "s": 350, "izoh": "Uchirish 4"}]},
+    {"n": 7,  "mavzu": "Petrov o'rindiqda, qo'lida telefon", "kliplar": [
+      {"id": "VaPXVJWHji4", "s": 55,  "izoh": "Treyler"},
+      {"id": "baJ8GhHGSog", "s": 30,  "izoh": "Hujjatli film treyleri"}]},
+    {"n": 8,  "mavzu": "Mantiq: nega beshta? yangi tizim, radarlar jim", "kliplar": [
+      {"id": "6etuXjA-ldY", "s": 900, "izoh": "Minuteman tizimi"},
+      {"id": "L7eKMMhp7Eo", "s": 200, "izoh": "Oko"},
+      {"id": "zEW_giefjWs", "s": 1500,"izoh": "Sovet radar/arsenal"},
+      {"id": "5G7pn9GVbH4", "s": 300, "izoh": "Yo'ldosh tizimi"}]},
+    {"n": 9,  "mavzu": "Agar xato qilsa? millionlab qurbon", "kliplar": [
+      {"id": "r2oO6LrliJg", "s": 100, "izoh": "Yadro portlashi"},
+      {"id": "YtCTzbh4mNQ", "s": 20,  "izoh": "Reuters: Tsar Bomba"}]},
+    {"n": 10, "mavzu": "Telefon: bu yolg'on signal", "kliplar": [
+      {"id": "VaPXVJWHji4", "s": 70,  "izoh": "Treyler"},
+      {"id": "ni6f48X8iyY", "s": 60,  "izoh": "Treyler 2014"}]},
+    {"n": 11, "mavzu": "Kutish, jimjitlik", "kliplar": [
+      {"id": "gaW4TFvqPSA", "s": 700, "izoh": "Bunker"},
+      {"id": "grOsSaW4YPw", "s": 14,  "izoh": "Tungi Moskva"},
+      {"id": "zEb9Yd5ON2E", "s": 200, "izoh": "History That Hits"}]},
+    {"n": 12, "mavzu": "Quyosh nuri bulutlardan aks etgan", "kliplar": [
+      {"id": "82jE-yvB8xU", "s": 20,  "izoh": "NASA Goddard: Quyosh va Yer"},
+      {"id": "5G7pn9GVbH4", "s": 250, "izoh": "Yo'ldosh va bulutlar"},
+      {"id": "82jE-yvB8xU", "s": 60,  "izoh": "NASA Goddard"}]},
+    {"n": 13, "mavzu": "Tekshiruv, navbatchilik jurnali", "kliplar": [
+      {"id": "6ehSuGNrowo", "s": 500, "izoh": "Declassified Files"},
+      {"id": "zEb9Yd5ON2E", "s": 400, "izoh": "History That Hits"},
+      {"id": "ZTcoixyRvXU", "s": 900, "izoh": "The Red Button hujjatli filmi"}]},
+    {"n": 14, "mavzu": "Yashirildi, oddiy hayot", "kliplar": [
+      {"id": "ZTcoixyRvXU", "s": 300, "izoh": "The Red Button: Petrovning kvartirasi"},
+      {"id": "VaPXVJWHji4", "s": 80,  "izoh": "Treyler"},
+      {"id": "ZTcoixyRvXU", "s": 1800,"izoh": "The Red Button"}]},
+    {"n": 15, "mavzu": "1998, mukofotlar, BMT, 'Men qahramon emasman'", "kliplar": [
+      {"id": "e4qgAiFZQlk", "s": 20,  "izoh": "Newsmakers: Petrov"},
+      {"id": "ni6f48X8iyY", "s": 120, "izoh": "Treyler: BMT"},
+      {"id": "baJ8GhHGSog", "s": 90,  "izoh": "Treyler"}]},
+    {"n": 16, "mavzu": "2017, vafoti", "kliplar": [
+      {"id": "L7EmLf4Xlq0", "s": 5,   "izoh": "BBC News: vafoti"},
+      {"id": "Qk0Mdi9wmDs", "s": 10,  "izoh": "TIME"}]},
+    {"n": 17, "mavzu": "Mashina emas, vijdon", "kliplar": [
+      {"id": "ZTcoixyRvXU", "s": 2500,"izoh": "The Red Button"},
+      {"id": "L7eKMMhp7Eo", "s": 330, "izoh": "Oko ekranlari"},
+      {"id": "VaPXVJWHji4", "s": 88,  "izoh": "Treyler"}]},
+    {"n": 18, "mavzu": "Bugun ekranlarga ishonamiz", "kliplar": [
+      {"id": "eYl5EGCXaIQ", "s": 120, "izoh": "WarGames va yolg'on signallar"},
+      {"id": "82jE-yvB8xU", "s": 75,  "izoh": "NASA: Yer"}]},
+    {"n": 19, "mavzu": "Ko'rinmas qahramonlar", "kliplar": [
+      {"id": "L7EmLf4Xlq0", "s": 40,  "izoh": "BBC"},
+      {"id": "grOsSaW4YPw", "s": 20,  "izoh": "Moskva"}]},
+    {"n": 20, "mavzu": "Savol va obuna", "kliplar": [
+      {"id": "VaPXVJWHji4", "s": 92,  "izoh": "Treyler yakuni"}]}
+  ]
+}
