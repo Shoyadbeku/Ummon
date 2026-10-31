@@ -13,6 +13,7 @@ O‘zbek tilidagi AI subtitrlar, shablonlar va qisqa videolar uchun veb-muharrir
 - **Format**: 9:16, 1:1, 4:5, 16:9; to‘ldirish yoki xira fon bilan sig‘dirish; sarlavha (hook).
 - **Lotin ⇄ Kirill** transliteratsiyasi.
 - **Ovoz klon** (`ovoz.html`): Gemini 3.8 Flash TTS bilan ovozni 10–30 soniyalik namunadan klonlash va o‘zbekcha matnni shu ovozda o‘qitish. O‘z Gemini API kalitingiz kerak; so‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google'ga boradi.
+- **Matn → Ovoz** (`matn.html`): o‘zbekcha matnni egasining RVC v2 modeli bilan klonlangan ovozda o‘qitadi. Server qismi `space/` papkasida (Hugging Face Space, Gradio).
 - **Eksport**: subtitrlar kuydirilgan video (MP4 yoki WEBM, 720p/1080p), SRT, VTT, TXT. SRT import ham bor.
 
 ## Ishga tushirish
@@ -41,6 +42,9 @@ js/templates.js       subtitr uslublari, video shablonlari, fonlar
 js/translit.js        lotin ⇄ kirill
 js/whisper-worker.js  Whisper (transformers.js) Web Worker'da
 ovoz.html             ovoz klonlash sahifasi
+matn.html             matn → klonlangan ovoz sahifasi
+js/matn.js            Hugging Face Space API chaqiruvi
+space/                Space: edge-tts + RVC (app.py, requirements.txt)
 css/ovoz.css          ovoz sahifasi dizayni
 js/ovoz.js            Gemini Voices API va TTS chaqiruvlari
 ```
@@ -58,3 +62,9 @@ Chrome, Edge va Safari (iOS/iPadOS 16.4+) ning so‘nggi versiyalari. Video eksp
 5. Matn yozing va «Ovozlashtirish»ni bosing, natijani WAV qilib yuklab oling.
 
 Ovoz klonlash Illinoys, Texas, Yevropa iqtisodiy hududi, Buyuk Britaniya, Shveytsariya va Hindistonda ishlamaydi.
+
+## Matn → Ovoz (RVC)
+
+1. `space/` papkasidagi fayllarni yangi Hugging Face Space'ga (Gradio, CPU basic) yuklang. Batafsil: `space/README.md`.
+2. Ovoz modelini (`.pth`) Space'ga `myvoice.pth` nomi bilan yoki yopiq model repozitoriyga yuklang. Model bu ochiq repozitoriyga qo‘yilmaydi (`.gitignore`).
+3. `matn.html` → «Sozlamalar» → Space manzilini kiriting (standart: `Baxtbek97/ummon-ovoz`).

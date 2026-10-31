@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ummon Matn → Ovoz</title>
+<meta name="description" content="O‘zbekcha matnni klonlangan ovozda o‘qitish: Hugging Face Space'dagi RVC modeli orqali.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Unbounded:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ovoz.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="index.html#bosh" aria-label="Ummon bosh sahifa">
+      <span class="logo-mark">U</span><span class="logo-word">Ummon<b>Ovoz</b></span>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="index.html#bosh">Bosh sahifa</a>
+      <a href="index.html#muharrir">Muharrir</a>
+      <a href="ovoz.html">Ovoz klon</a>
+      <a href="matn.html" class="active">Matn → Ovoz</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap vc">
+  <section class="vc-head">
+    <p class="eyebrow">RVC v2 · Hugging Face Space</p>
+    <h1>Matnni <span class="hl">mening ovozimda</span> o‘qit</h1>
+    <p class="lead">O‘zbekcha matn yozing, u klonlangan ovozda o‘qiladi. Nutq avval o‘zbekcha tayyor ovozda yaratiladi, so‘ng RVC modeli uni ovoz egasining ovoziga aylantiradi.</p>
+  </section>
+
+  <section class="card vc-step vc-tts" aria-labelledby="h-tts">
+    <div class="vc-step-h"><span class="vc-num">1</span><h2 id="h-tts">Matn</h2></div>
+    <div class="vc-tts-grid">
+      <div class="vc-col">
+        <div class="field">
+          <label for="baseVoice">Asosiy ovoz</label>
+          <select id="baseVoice">
+            <option value="Sardor (erkak)">Sardor (erkak) · tavsiya</option>
+            <option value="Madina (ayol)">Madina (ayol)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="rate">Tezlik <output id="rateOut">0%</output></label>
+          <input type="range" id="rate" min="-50" max="50" step="5" value="0">
+        </div>
+        <div class="field">
+          <label for="pitch">Ohang <output id="pitchOut">0</output></label>
+          <input type="range" id="pitch" min="-12" max="12" step="1" value="0">
+        </div>
+        <details>
+          <summary class="sm">Sozlamalar</summary>
+          <div class="field">
+            <label for="space">Hugging Face Space</label>
+            <input type="text" id="space" spellcheck="false" placeholder="egasi/space-nomi">
+          </div>
+          <div class="field">
+            <label for="protect">Undosh himoyasi <output id="protectOut">0.33</output></label>
+            <input type="range" id="protect" min="0" max="0.5" step="0.01" value="0.33">
+          </div>
+        </details>
+      </div>
+      <div class="vc-col">
+        <div class="field">
+          <label for="text">Matn <output id="count">0</output></label>
+          <textarea id="text" rows="7" maxlength="1500">Assalomu alaykum! Bu mening sun’iy intellekt yordamida klonlangan ovozim. Ummon loyihasiga xush kelibsiz.</textarea>
+        </div>
+        <div class="row wrap-row">
+          <button class="btn btn-primary" id="goBtn" type="button">Ovozlashtirish</button>
+          <a class="btn btn-ghost" id="dlBtn" download="ummon-ovoz.wav" hidden>WAV yuklab olish</a>
+        </div>
+        <p class="sm" id="status" role="status" aria-live="polite"></p>
+        <audio controls id="audio" hidden></audio>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">Ummon Matn → Ovoz · So‘rovlar Hugging Face Space'ga boradi. Bepul CPU'da 10 soniyalik nutq taxminan 30–60 soniyada tayyor bo‘ladi; Space uxlab qolgan bo‘lsa, birinchi so‘rov bir necha daqiqa olishi mumkin. Klonlangan ovozni faqat egasining roziligi bilan ishlating.</footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="js/matn.js"></script>
+</body>
+</html>
