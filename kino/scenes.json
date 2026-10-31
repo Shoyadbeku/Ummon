@@ -1,0 +1,64 @@
+{
+ "audio": "voice.mp3",
+ "tail": 0.8,
+ "fps": 24,
+ "negative_prompt": "static, frozen, still image, blurry, low quality, jpeg artifacts, distorted face, deformed hands, extra fingers, extra limbs, melting, morphing, flicker, text, subtitles, watermark, ugly",
+ "scenes": [
+  {
+   "id": 1,
+   "image": "s1.jpg",
+   "start": 0,
+   "end": 7.0,
+   "prompt": "The excited blond young man in striped shirt talks enthusiastically, lifting and showing the two yogurt cups toward the bearded fisherman, mouth moving as he speaks; the red-bearded fisherman strokes his beard skeptically, raises an eyebrow; the crow tilts its head; lantern flickers warmly, ocean waves move outside the porthole, slow cinematic camera push-in, 2D cartoon animation style"
+  },
+  {
+   "id": 2,
+   "image": "s2.jpg",
+   "start": 7.0,
+   "end": 13.1,
+   "prompt": "The red-bearded fisherman raises his finger and talks with a knowing expression, mouth moving, eyebrows lifting; the thought bubble glows and the earth globe slowly rotates with silhouettes; the crow blinks and shifts; the young man in the background scratches his chin, thinking; lantern light flickers, slow cinematic dolly in, 2D cartoon animation"
+  },
+  {
+   "id": 3,
+   "image": "s3.jpg",
+   "start": 13.1,
+   "end": 16.1,
+   "prompt": "The confused blond young man scratches his head and speaks in disbelief, mouth moving, holding the yogurt cup; the bearded fisherman rests his chin on his hand and looks at him with a tired smirk; the crow blinks; sunset sea waves outside the porthole, gentle handheld camera, 2D cartoon animation"
+  },
+  {
+   "id": 4,
+   "image": "s4.jpg",
+   "start": 16.1,
+   "end": 22.4,
+   "prompt": "The bearded fisherman leans in and whispers secretively to the young man, hand by his mouth, lips moving; the young man listens wide-eyed; the menacing shadow of the yogurt monster on the wall grows and its claws move slowly; lantern flickers casting moving shadows; the crow narrows its eyes; slow dramatic camera push-in, 2D cartoon animation"
+  },
+  {
+   "id": 5,
+   "image": "s5.jpg",
+   "start": 22.4,
+   "end": 30.3,
+   "prompt": "The young man writes quickly in his notebook with the pencil, looking surprised, mouth slightly moving; the bearded fisherman behind him smirks and talks slyly with folded arms; steam rises from the kettle; the crow turns its head; lantern glows, sea glitters outside porthole, slow cinematic camera drift, 2D cartoon animation"
+  },
+  {
+   "id": 6,
+   "image": "s6.jpg",
+   "start": 30.3,
+   "end": 38.2,
+   "prompt": "Inside a busy factory, workers pour huge sacks of white sugar and powdered starch into steaming copper tanks, colorful chemical liquid pours from a barrel, conveyor belt moves yogurt cups along, steam rises; the bearded fisherman points and talks angrily, the worried young man holds his notebook; camera slowly pans across the factory, 2D cartoon animation"
+  },
+  {
+   "id": 7,
+   "image": "s7.jpg",
+   "start": 38.2,
+   "end": 44.4,
+   "prompt": "The angry bearded fisherman points at the cup full of sugar cubes and speaks forcefully, mouth moving; the fuse on top of the sugar bomb sparks and fizzes brightly; the young man grabs his head in shock; the fatty liver in the thought bubble pulses and glows; the crow flaps; dramatic slow push-in, 2D cartoon animation"
+  },
+  {
+   "id": 8,
+   "image": "s8.jpg",
+   "start": 44.4,
+   "end": 48.04,
+   "prompt": "At sunset by the lighthouse, the bearded fisherman smiles warmly and talks, gesturing with his open hand, his other hand on the young man's shoulder; the young man smiles and writes in his notebook; ocean waves sparkle, clouds drift slowly, the lighthouse lamp glows, the crow ruffles its feathers; slow cinematic camera pull-back, 2D cartoon animation"
+  }
+ ]
+}
