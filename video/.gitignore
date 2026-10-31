@@ -6,3 +6,6 @@
 *.m4a
 *.mp3
 *.json
+build/
+sheets/
+src/**/*.part
