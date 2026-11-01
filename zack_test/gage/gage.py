@@ -486,9 +486,52 @@ key(c6a, F["s6a"], loc=tuple(S6G + Vector((0.78, -0.28, 1.48)))); key(c6a, F["s6
 t6 = empty("t6", tuple((S6G + S6C) / 2 + Vector((-0.1, 0, 1.15))))
 c6b = camera("cam6_two", tuple((S6G + S6C) / 2 + Vector((0.1, -2.5, 0.38))), t6, 18, 5.6, focus=gh)
 key(c6b, F["s6b"], loc=tuple((S6G + S6C) / 2 + Vector((0.15, -2.6, 0.36)))); key(c6b, F["end"], loc=tuple((S6G + S6C) / 2 + Vector((0.0, -2.2, 0.42))))
-for f, c in ((F["s1"], c1), (F["s2"], c2), (F["s3"], c3), (F["s4"], c4), (F["s5"], c5), (F["s6a"], c6a), (F["s6b"], c6b)):
+# ---- qo'shimcha burchaklar (Zack D. tezligi: har 1.5–3 s da kesish) ----
+# c1b: relslar bo'ylab yer sathidan, Gage orqada
+c1b = camera("cam1b_rails", (-0.9, -0.5, 0.28), t1, 24, 4.0, focus=gh)
+key(c1b, 71, loc=(-1.1, -0.55, 0.26)); key(c1b, 130, loc=(-0.3, -0.4, 0.32))
+# c2b: Gage yuzi pastdan, diqqat bilan ishlayapti
+c2b = camera("cam2b_face", tuple(G + Vector((0.75, -0.95, 0.75))), gh, 50, 2.0)
+key(c2b, 261, loc=tuple(G + Vector((0.78, -0.98, 0.72)))); key(c2b, 300, loc=tuple(G + Vector((0.68, -0.88, 0.78))))
+# c2c: portlash uzoqdan (keng)
+t2c = empty("t2c", tuple(HOLE + Vector((0, 0, 0.9))))
+c2c = camera("cam2c_boom", (0.6, -3.6, 1.1), t2c, 20, 8.0)
+key(c2c, BOOM, loc=(0.6, -3.6, 1.1)); shake(c2c, BOOM, F["s3"], 0.12)
+# c3b: tuynuk yonidan yuqoriga: tayoq tutun ichidan ko'tariladi
+c3b = camera("cam3b_low", tuple(HOLE + Vector((0.4, -0.55, 0.08))), t3, 18, 2.8, focus=rod_fly)
+key(c3b, F["s3"], loc=tuple(HOLE + Vector((0.4, -0.55, 0.08)))); key(c3b, 440, loc=tuple(HOLE + Vector((0.32, -0.5, 0.12))))
+# c4b: rentgen, miya ustuniga yaqin (chap pastdan)
+stem_t = empty("stem_t", (0, 0.05, 0.01), head)
+c4b = camera("cam4b_stem", (0, 0, 0), stem_t, 60, 4.0); c4b.parent = head
+c4b.data.lens = 50
+key(c4b, 701, loc=(0.58, -0.08, 0.26)); key(c4b, 770, loc=(0.5, -0.05, 0.3))
+# c5b: yurayotgan Gage oldidan, orqaga suriladigan kamera
+c5b = camera("cam5b_track", (0, 0, 0), gh, 40, 2.2); c5b.parent = groot
+c5b.location = (0.3, -1.7, 1.3)
+# c6c: ko'zlarga juda yaqin, qizil kontur yonadi
+eyes_t = empty("gage_eyes_t", (0, 0.105, 0.11), head)
+c6c = camera("cam6c_eyes", tuple(S6G + Vector((0.85, -0.15, 1.6))), eyes_t, 70, 2.8)
+key(c6c, 1111, loc=tuple(S6G + Vector((0.9, -0.16, 1.6)))); key(c6c, 1178, loc=tuple(S6G + Vector((0.75, -0.12, 1.61))))
+# c6d: jahldor Gage, pastdan yaqin plan
+c6d = camera("cam6d_angry", tuple(S6G + Vector((0.8, -0.6, 1.15))), gh, 35, 2.0)
+key(c6d, 1239, loc=tuple(S6G + Vector((0.85, -0.62, 1.12)))); key(c6d, 1280, loc=tuple(S6G + Vector((0.72, -0.5, 1.2))))
+# c6e: hamkasbning qo'rqqan yuzi, Gage yelkasi ortidan
+ch = empty("cow_head")
+cc = ch.constraints.new("CHILD_OF"); cc.target = cow; cc.subtarget = "mixamorig:Head"
+cc.use_scale_x = cc.use_scale_y = cc.use_scale_z = False; cc.inverse_matrix = Matrix.Identity(4)
+cht = empty("cow_face_t", (0, 0.1, 0.06), ch)
+c6e = camera("cam6e_cow", tuple(S6G + Vector((-0.2, -0.4, 1.62))), cht, 50, 2.2)
+key(c6e, 1281, loc=tuple(S6G + Vector((-0.2, -0.4, 1.62)))); key(c6e, 1300, loc=tuple(S6G + Vector((-0.1, -0.38, 1.6))))
+
+CUTS = [(1, c1), (71, c1b), (131, c1), (F["s2"], c2), (261, c2b), (301, c2), (BOOM, c2c),
+        (F["s3"], c3b), (441, c3), (F["s4"], c4), (701, c4b), (771, c4),
+        (F["s5"], c5), (931, c5b), (991, c5), (F["s6a"], c6a), (1111, c6c),
+        (F["s6b"], c6b), (1239, c6d), (1281, c6e), (1301, c6b)]
+for f, c in CUTS:
     sc.timeline_markers.new(c.name, frame=f).camera = c
 sc.camera = c1
+if os.environ.get("CUTS_OUT"):                  # qaysi kadrlar qayta render qilinishi kerakligini hisoblash uchun
+    open(os.environ["CUTS_OUT"], "w").write("\n".join(f"{f} {c.name}" for f, c in CUTS))
 
 # ================= YORUG'LIK =================
 w = bpy.data.worlds.new("hdri"); sc.world = w; w.use_nodes = True
@@ -522,6 +565,8 @@ area("xray_rim", tuple(XR + Vector((0.0, 1.2, 1.9))), (-60, 0, 0), 1.0, (0.4, 0.
 area("face_fill_s3", tuple(hpos + hfwd * 0.8 + hleft * 0.4 + Vector((0, 0, 0.3))), (0, 0, 0), 0.8, (1, 0.9, 0.8), [(1, 0), (F["s3"], 70), (F["s4"], 0)])
 f5 = area("fill_s5", (0.0, 3.0, 1.8), (0, 0, 0), 2.0, (1.0, 0.92, 0.82), [(1, 0), (F["s5"], 250), (F["s6a"], 0)])
 f5.constraints.new("TRACK_TO").target = t5
+f2b = area("fill_s2b", tuple(G + Vector((0.5, -1.3, 0.6))), (0, 0, 0), 1.2, (1.0, 0.9, 0.8), [(1, 0), (261, 120), (301, 0)])
+f2b.constraints.new("TRACK_TO").target = gh
 fl = area("face_fill_s6", tuple(S6G + Vector((0.9, -0.9, 1.9))), (0, 0, 0), 1.0, (1.0, 0.75, 0.55), [(1, 0), (F["s6a"], 50), (F["end"], 50)])
 fl.constraints.new("TRACK_TO").target = gh
 rim = area("rim_red_s6", tuple(S6G + Vector((-1.2, 1.0, 2.0))), (0, 0, 0), 0.8, (1.0, 0.15, 0.08),

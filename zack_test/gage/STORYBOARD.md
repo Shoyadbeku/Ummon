@@ -13,3 +13,32 @@ Ovoz: foydalanuvchi yuklagan `voice.wav` (fayl nomi "Neytron yulduzi..." bo'lsa 
 
 Uslub: Cycles, AgX Punchy, motion blur, DOF, Poly Haven HDRI (kloofendal), teksturalar (rocky_terrain_02, rock_face, dirt, weathered_planks), modellar (boulder_01, namaqualand_boulder_02, rock_moss_set_01, wooden_barrels_01, wooden_crate_01, sledgehammer_01, wooden_bucket_01, wooden_lantern_01).
 Subtitr yo'q. Render 540x960 (50%), ffmpeg bilan 1080x1920 ga kattalashtiriladi.
+
+## v2: Zack D. tezligi — 21 ta kesish (har 1.5–3 s da)
+
+| Kadrlar | Kamera |
+|---------|--------|
+| 1–70 | keng plan, past burchak |
+| 71–130 | relslar bo'ylab yer sathidan, Gage orqada |
+| 131–202 | keng plan (davomi) |
+| 203–260 | tayoq va tuynuk, DOF |
+| 261–300 | Gage yuzi pastdan |
+| 301–343 | tayoq: uchqun (313) |
+| 344–368 | portlash uzoqdan, kamera silkinadi, oq chaqnash |
+| 369–440 | tuynuk yonidan yuqoriga: tayoq tutun ichidan ko'tariladi |
+| 441–578 | sekinlashgan: yonoqdan kirib, tepadan chiqadi |
+| 579–700 | rentgen, bosh atrofida aylanish |
+| 701–770 | rentgen: miya ustuniga yaqin, yashil yonadi |
+| 771–845 | rentgen (davomi) |
+| 846–930 | shifokor yelkasi ortidan: Gage yerdan turadi |
+| 931–990 | yurayotgan Gage oldidan, orqaga suriladigan kamera |
+| 991–1046 | shifokor yelkasi ortidan (davomi) |
+| 1047–1110 | yuzga yaqin plan |
+| 1111–1178 | ko'zlarga juda yaqin, qizil kontur |
+| 1179–1238 | ikki kishilik, past burchak (muloyim) |
+| 1239–1280 | jahldor Gage, pastdan yaqin |
+| 1281–1300 | hamkasbning qo'rqqan yuzi |
+| 1301–1325 | ikki kishilik: Gage barmoq bilan ko'rsatadi |
+
+Tovush: `sfx.py` (sintez): shamol + past drone, zichlash zarblari, uchqun, portlash, "vush", kirish/chiqish zarbalari,
+rentgenda yurak urishi, kesishlarda vush, oxirida keskin zarba. Effektlar ovoz ostida avtomatik pasayadi.
