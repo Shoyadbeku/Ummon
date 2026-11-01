@@ -45,6 +45,7 @@ uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
 ```bash
 python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
+# (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
 zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
@@ -72,3 +73,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Entering_Car`: qahramon mashina yo'nalishiga qarab turadi, eshik uning **chap** tomonida bo'ladi.
 - BlenderKit glb fayllari Draco bilan siqilgan, bpy g'ildiragi ularni ocha olmaydi: avval `gltf-transform copy` qil.
 - Poly Haven API'da modellarda ham `Diffuse` kaliti bor, turini `/info/<id>` dagi `type` bilan aniqla.
+- Ovoz fayli nomi mazmunini aks ettirmasligi mumkin: avval Whisper bilan matnga o'gir
+  (`faster-whisper`, `medium`, `language="uz"`, `word_timestamps=True`) va kadrlarni so'z vaqtlariga bog'la.
+  faster-whisper'ning PyAV'si bilan wav ochilmasa, audioni ffmpeg orqali numpy massiv qilib ber.
+- Poly Haven API `User-Agent` sarlavhasisiz 403 qaytaradi (`ph_get.py` buni qo'yadi).
+- `rock_moss_set_01` kabi `*_set_*` modellari bitta tosh emas, 10 m+ ga yoyilgan to'plam: kadrni to'sib qo'yadi.
+- `primitive_*_add(rotation=...)` bilan yasalgan mesh'ni `join` qilgach `transform_apply` qil, aks holda
+  ob'ektning o'z burilishi qoladi va mesh kutilgan o'q bo'ylab yo'nalmaydi.
+- Mixamo `mixamorig:Head` suyagi o'qlari (dunyoda, masshtabsiz): X = qahramonning chapi, Y = tepa, Z = old.
+  Boshga narsa yopishtirish uchun bo'sh ob'ektga `CHILD_OF` (subtarget Head, `use_scale_*=False`, inverse = identity).
+- Baland qoyalar (≥ 10 m) o'yiqda quyoshni to'liq to'sadi: 5–6 m yetarli, quyosh balandligi ≥ 55°.
+- 4 yadroli muhitda 540x960, 10 sample: ~15 s/kadr. Uzoq render uchun `nohup setsid ... &` va
+  `use_overwrite=False` + `use_placeholder=True` (to'xtasa, qayta ishga tushirsa davom etadi).
