@@ -40,3 +40,11 @@ CLAUDE.md dagi tuzoqlarni hisobga ol.
 ```
 CLAUDE.md va zack_test/PROMPT.md bo'yicha Zack D. video: [voqea]. [10] soniya, [ovozsiz / mening ovozimda], subtitrsiz.
 ```
+
+## Ovoz orqali (diktovka) aytish uchun
+
+Uzun matn shart emas, tafsilotlar CLAUDE.md da. Shunchaki ayting:
+
+> "Zak di video qil. [voqea]. O'n soniya."
+
+Ovoz kerak bo'lsa oxiriga "ovozim bilan", subtitr kerak bo'lsa "subtitr bilan" deb qo'shing.

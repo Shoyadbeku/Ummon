@@ -2,6 +2,21 @@
 
 Foydalanuvchi o'zbek tilida yozadi, javob ham o'zbekcha bo'lsin.
 
+## Foydalanuvchi ovoz orqali yozadi (diktovka)
+
+Xabarlar ovozdan matnga o'girilgan bo'ladi: imlo xatolari, tinish belgisiz gaplar va noto'g'ri yozilgan
+nomlar bo'lishi tabiiy. "zack d", "zak di", "zakdi", "zack d filmsday", "zek di films" kabilarning
+hammasi **Zack D. Films** degani. Qisqa buyruqni to'liq vazifa deb tushun va savol bermasdan boshla.
+
+Masalan: "zak di video qil qiz onasi bilan urushib mashinada ketib qoldi o'n soniya ovozim bilan".
+
+Sukut bo'yicha (foydalanuvchi boshqacha aytmasa):
+- uzunlik 10 soniya, vertikal 9:16;
+- subtitr yo'q;
+- ovoz yo'q. Faqat "ovozim bilan", "mening ovozimda", "ovozlashtir" desa, klon ovoz qo'shiladi;
+- `zack_test/PROMPT.md` dagi manbalar va kinematika qo'llaniladi;
+- avval 3–5 ta sinov kadrini ko'rsatib, keyin to'liq render qilinadi.
+
 ## "Zack D. Films uslubida video" so'ralsa
 
 Foydalanuvchi qisqa voqea aytadi (masalan "qiz onasi bilan urushib, mashinada ketib qoldi") va
