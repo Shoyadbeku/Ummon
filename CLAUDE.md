@@ -46,6 +46,7 @@ uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
 python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
+# (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
 zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
@@ -85,3 +86,10 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Baland qoyalar (≥ 10 m) o'yiqda quyoshni to'liq to'sadi: 5–6 m yetarli, quyosh balandligi ≥ 55°.
 - 4 yadroli muhitda 540x960, 10 sample: ~15 s/kadr. Uzoq render uchun `nohup setsid ... &` va
   `use_overwrite=False` + `use_placeholder=True` (to'xtasa, qayta ishga tushirsa davom etadi).
+- Makro kadrlarda (ko'z, hasharot) kamera `clip_start` ni 0.001 qil: sukut bo'yicha 0.1 m, undan yaqin hamma narsa kesilib ketadi.
+- Blender 5'da `shape_key_add(from_mix=False)` yangi kalitning qiymatini 1.0 qiladi: darhol `kb.value = 0` qil.
+- Principled `Subsurface Scale` sukut bo'yicha 0.05 m: kichik ob'ektlarda (ko'z, chuvalchang) 0.0005 atrofida qo'y, aks holda tekstura yuvilib ketadi.
+- Mixamo qahramonlari root burilishi 0 da -Y tomonga qaraydi (+Y ga qaratish uchun 180°).
+- Kesishlarda (kamera markerlari) motion blur qo'shni kadrni aralashtirmasligi uchun `motion_blur_position = "START"`.
+- Petri idishidagi suyuqlik (transmission) ichiga botgan ob'ektlar qora chiqadi: suyuqliksiz qil yoki ob'ektni sirtdan chiqar.
+- Mixamo `Crying` harakatida qo'llar yuzga ~25-kadrda yetadi: strip'ni kadr boshidan ~25 kadr oldin boshla.
