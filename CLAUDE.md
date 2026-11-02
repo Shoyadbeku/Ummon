@@ -93,3 +93,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Kesishlarda (kamera markerlari) motion blur qo'shni kadrni aralashtirmasligi uchun `motion_blur_position = "START"`.
 - Petri idishidagi suyuqlik (transmission) ichiga botgan ob'ektlar qora chiqadi: suyuqliksiz qil yoki ob'ektni sirtdan chiqar.
 - Mixamo `Crying` harakatida qo'llar yuzga ~25-kadrda yetadi: strip'ni kadr boshidan ~25 kadr oldin boshla.
+- Blender 5.2'da Geometry Nodes modifier kirishlari `mod["Socket_1"]` emas: `getattr(mod.properties.inputs, "Socket_1").value`,
+  keyframe: `x.keyframe_insert("value", frame=f)` (`burish/parts.py: key_mod`).
+- Blender 5.2'da `Curve.use_uv_as_generated` yo'q: egri bo'ylab impuls uchun GN (Curve to Mesh + Spline Parameter -> "u" atributi),
+  shaderda Attribute "u" (`parts.tube_group`).
+- `o.parent = stansiya_empty` (masalan (20,0,0) da) qilinsa, bola dunyo koordinatasida ikki marta siljiydi: `matrix_parent_inverse` qo'y
+  (`burish.py: _par`).
+- Megan'ning `Body` meshi faqat bosh, qo'l, oyoq: kiyim ostida tana yo'q. Vannada futbolka materialini teri rangiga almashtir, shim/krossovkani yashir.
+- Qo'l pozasi: `RightForeArm` ga IK (`use_tail=True`, chain 2), `RightHand` ga DAMPED_TRACK (Y = barmoqlar) + LOCKED_TRACK (TRACK_Z = kaft);
+  barmoq bukish: TRANSFORM constraint, mahalliy X +65°.
+- Makro (1–10 sm) kadrlarda f/4–11 da fokus juda yupqa: f/22 qo'y, lens ≤ 50 mm.
+- Og'ir GN/Solidify modifikatorlarini `show_viewport=False` qil: skriptdagi `frame_set` sikllari 6 daqiqadan bir necha soniyaga tushadi.
+- Ovoz fayl nomi yana mos kelmadi ("Neytron yulduzi..." -> barmoqlar burishishi): har doim Whisper bilan tekshir.
