@@ -1,0 +1,195 @@
+{
+ "hook": 3.0,
+ "total": 62.0,
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 1.5,
+   "img": "03",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 1.5,
+   "end": 3.0,
+   "img": "02",
+   "motion": "zoomOut",
+   "tag": null
+  },
+  {
+   "start": 3.0,
+   "end": 5.4,
+   "img": "01",
+   "motion": "panRight",
+   "tag": "1920-yillar · AQSH"
+  },
+  {
+   "start": 5.4,
+   "end": 7.6,
+   "img": "06",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 7.6,
+   "end": 9.2,
+   "img": "04",
+   "motion": "panLeft",
+   "tag": null
+  },
+  {
+   "start": 9.2,
+   "end": 10.8,
+   "img": "05",
+   "motion": "zoomOut",
+   "tag": null
+  },
+  {
+   "start": 10.8,
+   "end": 13.1,
+   "img": "07",
+   "motion": "panUp",
+   "tag": null
+  },
+  {
+   "start": 13.1,
+   "end": 15.5,
+   "img": "08",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 15.5,
+   "end": 17.8,
+   "img": "03",
+   "motion": "zoomOut",
+   "tag": null
+  },
+  {
+   "start": 17.8,
+   "end": 20.6,
+   "img": "02",
+   "motion": "panLeft",
+   "tag": null
+  },
+  {
+   "start": 20.6,
+   "end": 22.7,
+   "img": "09",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 22.7,
+   "end": 26.6,
+   "img": "10",
+   "motion": "panRight",
+   "tag": null
+  },
+  {
+   "start": 26.6,
+   "end": 29.7,
+   "img": "11",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 29.7,
+   "end": 31.4,
+   "img": "12",
+   "motion": "panUp",
+   "tag": null
+  },
+  {
+   "start": 31.4,
+   "end": 33.4,
+   "img": "13",
+   "motion": "zoomOut",
+   "tag": "1922"
+  },
+  {
+   "start": 33.4,
+   "end": 36.6,
+   "img": "14",
+   "motion": "zoomIn",
+   "tag": "Greys Frayer"
+  },
+  {
+   "start": 36.6,
+   "end": 39.7,
+   "img": "15",
+   "motion": "panRight",
+   "tag": null
+  },
+  {
+   "start": 39.7,
+   "end": 41.0,
+   "img": "18",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 41.0,
+   "end": 42.2,
+   "img": "16",
+   "motion": "panLeft",
+   "tag": null
+  },
+  {
+   "start": 42.2,
+   "end": 44.0,
+   "img": "17",
+   "motion": "zoomOut",
+   "tag": null
+  },
+  {
+   "start": 44.0,
+   "end": 45.7,
+   "img": "20",
+   "motion": "zoomIn",
+   "tag": "1928"
+  },
+  {
+   "start": 45.7,
+   "end": 47.2,
+   "img": "19",
+   "motion": "panRight",
+   "tag": null
+  },
+  {
+   "start": 47.2,
+   "end": 48.7,
+   "img": "22",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 48.7,
+   "end": 50.4,
+   "img": "23",
+   "motion": "panLeft",
+   "tag": null
+  },
+  {
+   "start": 50.4,
+   "end": 53.6,
+   "img": "21",
+   "motion": "zoomOut",
+   "tag": null
+  },
+  {
+   "start": 53.6,
+   "end": 56.8,
+   "img": "24",
+   "motion": "zoomIn",
+   "tag": null
+  },
+  {
+   "start": 56.8,
+   "end": 62.0,
+   "img": "25",
+   "motion": "zoomOut",
+   "tag": null
+  }
+ ]
+}
