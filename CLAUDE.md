@@ -105,3 +105,12 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Makro (1–10 sm) kadrlarda f/4–11 da fokus juda yupqa: f/22 qo'y, lens ≤ 50 mm.
 - Og'ir GN/Solidify modifikatorlarini `show_viewport=False` qil: skriptdagi `frame_set` sikllari 6 daqiqadan bir necha soniyaga tushadi.
 - Ovoz fayl nomi yana mos kelmadi ("Neytron yulduzi..." -> barmoqlar burishishi): har doim Whisper bilan tekshir.
+- Whisper o'zbekcha ovozni qozoqcha deb aniqlashi mumkin: `language="uz"` ni doim aniq ber.
+- `pip install faster-whisper` osilib qolsa (CPU 0%), to'xtatib `--timeout 30` bilan qayta ishga tushir.
+- `Drinking` harakatida idish **chap** qo'lda (`LeftHand`). Narsani tik ushlatish uchun: kaftga `CHILD_OF` bo'sh ob'ekt,
+  narsaning o'ziga esa faqat `COPY_LOCATION` (`use_offset=True`), burilishini o'zing qo'y (`muzlash.py: coneR`).
+- `Agony` da qahramon qattiq egilib, yuzi yerga qaraydi: yaqin plan uchun `Focus` ning birinchi 2.5 s i (tik turib boshini ushlaydi).
+- Rentgen bosh ichiga organ qo'yish (tanglay, til, tishlar): qismlarni mahalliy koordinatada yasab, `Head` ga bog'langan
+  bo'sh ob'ekt ichiga `scale=0.1`, `rotation=(-90°,0,0)` bilan joylash (sahna o'qlari: -Y old, +Z tepa) — `muzlash.py: build_mouth`.
+  Kamerani boshga `COPY_LOCATION` qilingan rig'ga bog'la, shunda u bosh bilan birga yuradi.
+- 45% (486x864), 8 sample: ko'cha ~15 s, rentgen bosh ichidagi og'iz ~30 s/kadr (shaffof qatlamlar sekin).
