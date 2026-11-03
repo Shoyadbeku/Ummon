@@ -47,6 +47,7 @@ python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bp
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
+# (Samolyot derazalari misoli: zack_test/tools/get_samolyot.sh, sahna zack_test/samolyot/samolyot.py, montaj zack_test/samolyot/montaj.sh)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
 zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
@@ -114,3 +115,16 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   bo'sh ob'ekt ichiga `scale=0.1`, `rotation=(-90°,0,0)` bilan joylash (sahna o'qlari: -Y old, +Z tepa) — `muzlash.py: build_mouth`.
   Kamerani boshga `COPY_LOCATION` qilingan rig'ga bog'la, shunda u bosh bilan birga yuradi.
 - 45% (486x864), 8 sample: ko'cha ~15 s, rentgen bosh ichidagi og'iz ~30 s/kadr (shaffof qatlamlar sekin).
+- Uchinchi marta: prompt "qiz, ona, mashina" namunasi bilan keldi, ovoz esa "samolyot derazalari nega dumaloq" haqida edi.
+  Prompt'dagi qahramon/harakat ro'yxati faqat namuna: videoni doim **ovoz matniga** moslab yasa (`samolyot/`).
+- `Vector.to_4d()` w=1 qo'yadi: yo'nalish vektorlaridan `Matrix((...)).transposed()` qilib basis yasasang pastki qator (1,1,1,1)
+  bo'lib, transformatsiya buziladi. Ustunlarni qo'lda to'ldir (`samolyot.py: basis`).
+- BlenderKit `Airplane Window` (7250f009) Blender'da: X = en, Y = bo'y, Z = qalinlik (gltf-transform inspect glTF Y-up o'qlarini ko'rsatadi,
+  Blender o'qlari boshqa). Ichki oq qopqoq (`Circle.002`) ni o'chir, aks holda osmon ko'rinmaydi.
+- BlenderKit Airbus A320 (536fac67) 2x masshtabda (fyuzelyaj 75 m): `scale=0.5`; burun yo'nalishini `rodder` (rul) ob'ekti bo'yicha aniqla.
+- Bo'linadigan fyuzelyajda (ikki ob'ekt) chegara normallari sinadi: analitik custom normal qo'y
+  (`normals_split_custom_set_from_vertices`, `parts.build_fuselage`), Solidify ishlatma. `comet_profile` da x ni [0, L] ga qis (kasr daraja -> complex).
+- Ob'ektni `comet.location = SKY` qilib bo'lgach unga bola qo'shsang, bolaning joyini ham SKY + lokal qilib ber (yoriq boshqa sahnada qolib ketdi).
+- Procedural bulut qatlami: Noise `Scale` metrda (0.005–0.012 = 100–200 m bulutlar); 0.4 kabi qiymat "qor" ga o'xshaydi.
+- Chaqnash uchun shaffof emission shar soxta ko'rinadi: faqat nuqtali yorug'lik + ffmpeg'dagi oq kadr yetarli.
+- Bu sahnada 540x960, 12 sample: osmon/rentgen ~10 s, angar/salon ~15–20 s/kadr.
