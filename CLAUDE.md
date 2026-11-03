@@ -114,3 +114,11 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   bo'sh ob'ekt ichiga `scale=0.1`, `rotation=(-90°,0,0)` bilan joylash (sahna o'qlari: -Y old, +Z tepa) — `muzlash.py: build_mouth`.
   Kamerani boshga `COPY_LOCATION` qilingan rig'ga bog'la, shunda u bosh bilan birga yuradi.
 - 45% (486x864), 8 sample: ko'cha ~15 s, rentgen bosh ichidagi og'iz ~30 s/kadr (shaffof qatlamlar sekin).
+- Hiqichoq (hiccup) uchun Mixamo'da tayyor harakat bor: `Drunk_Idle_Variation` ("Drunk Idle Variation Hiccup"), silkinish
+  strip boshidan ~13 kadrdan keyin. Yetarlicha sezilmaydi: `root` ga 1–2 kadrlik qo'shimcha tepaga/orqaga silkinish kalitini qo'sh (`hiqichoq.py: JOLTS`).
+- `Drinking` da bankani `LeftHand` ga `CHILD_OF` qilib, banka o'qini qo'lning X o'qiga burish kifoya (`rotation=(0, 90°, 0)`), `speed=0.6` bilan
+  og'izda ~45 kadr turadi.
+- Shaffof bo'lmagan quvur (traxeya) ichidagi zarralar ko'rinmaydi: quvur materialiga `Alpha` 0.4 qo'y.
+- `bpy.data.objects.new` bilan yasalgan ob'ektga `matrix_parent_inverse = parent.matrix_world.inverted()` ni `view_layer.update()` siz
+  qo'yma (matritsa hali birlik bo'ladi, ob'ekt ikki marta siljiydi) — oddiy `o.parent = p` va mahalliy koordinata yetarli.
+- 45% (486x864), 8 sample: mehmonxona/studiya/rentgen ~12 s/kadr (960 kadr ≈ 3 soat).
