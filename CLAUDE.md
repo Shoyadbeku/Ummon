@@ -48,6 +48,7 @@ zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + h
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
 # (Samolyot derazalari misoli: zack_test/tools/get_samolyot.sh, sahna zack_test/samolyot/samolyot.py, montaj zack_test/samolyot/montaj.sh)
+# (G'oz terisi misoli: zack_test/tools/get_goz.sh, sahna zack_test/goz/goz.py (GN jun, qor, teri makro/kesim, rentgen, issiqlik kamerasi))
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
 zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
@@ -128,3 +129,16 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Procedural bulut qatlami: Noise `Scale` metrda (0.005–0.012 = 100–200 m bulutlar); 0.4 kabi qiymat "qor" ga o'xshaydi.
 - Chaqnash uchun shaffof emission shar soxta ko'rinadi: faqat nuqtali yorug'lik + ffmpeg'dagi oq kadr yetarli.
 - Bu sahnada 540x960, 12 sample: osmon/rentgen ~10 s, angar/salon ~15–20 s/kadr.
+- To'rtinchi marta ham shunday: prompt "qiz, ona, mashina" edi, ovoz esa "g'oz terisi" haqida (`goz/`). Har doim Whisper.
+- `parts.vis()` barcha bolalarga `hide_render` kalitini qo'yadi: qo'lda yashirilgan ob'ekt (Brute boltasi `Brute_GEO`) yana ko'rinib qoladi.
+  Keraksiz qismlarni `bpy.data.objects.remove` bilan o'chir.
+- Mixamo FBX meshlari mahalliy koordinatada **santimetr**, +Y tepa (armature 0.01 masshtab). GN'da zichlik/uzunlikni 100 ga moslab ber.
+- Skinlangan qahramonga jun: GN (`goz/parts.py: fur_gn`). `obj.add_rest_position_attribute = True`, nuqtalarni `rest_position`
+  ustida taqsimla (aks holda har kadrda jun "miltillaydi"), deformatsiyalangan joy/normalni nomli atribut qilib ko'chir.
+  Tikanak bo'lmasligi uchun Lift ≤ 0.7, tuk ingichka (r0 0.03) va egilgan.
+- Blender 5.2 `FunctionNodeRandomValue` kirishlari turga qarab o'zgaradi: `data_type` ni qo'yib, `inputs["Min"]/["Max"]` bilan ber.
+- `mat(..., emit=0)` emissiya rangini qo'ymaydi: keyin `Emission Strength` ni kalitlasang ob'ekt oq yonadi. `emit=0.0001, emit_col=...` ber.
+- `Look_Over_Shoulder` da yuz kameradan teskari buriladi; qo'rquv yaqin plani uchun `Terrified` (qo'l yuzda) yaxshi, kamera oldida ~1.3 m.
+- Issiqlik kamerasi: har materialga Mix Shader (`THERMAL`) + Layer Weight -> rang rampasi emissiya, faktorni CONSTANT kalitla (`parts.thermal`).
+- Cycles nuqta bulutini (GN `Points`) shar qilib chizadi: qor uchun arzon (`parts.snow_gn`, Scene Time + FLOORED_MODULO).
+- Bu sahnada 486x864, 8 sample: ~13–20 s/kadr (jun va makro teri eng sekini).
