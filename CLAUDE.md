@@ -122,3 +122,10 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `bpy.data.objects.new` bilan yasalgan ob'ektga `matrix_parent_inverse = parent.matrix_world.inverted()` ni `view_layer.update()` siz
   qo'yma (matritsa hali birlik bo'ladi, ob'ekt ikki marta siljiydi) — oddiy `o.parent = p` va mahalliy koordinata yetarli.
 - 45% (486x864), 8 sample: mehmonxona/studiya/rentgen ~12 s/kadr (960 kadr ≈ 3 soat).
+- Mixamo FBX importi sahnani **30 fps** ga o'zgartiradi: har `load_character`/`load_action` dan keyin `sc.render.fps = 24` qil,
+  aks holda NLA strip masshtabi 1.0 bo'lib qoladi va GN `Scene Time` (yomg'ir/qor) noto'g'ri vaqtni beradi (`qulf.py: A_`).
+- Yomg'ir/qor uchun GN zarralarini aylantirma (modulo): aylangan tomchi motion blur'da butun kadr bo'ylab chiziq beradi.
+  Har tomchi kadr davomida bir marta tushsin (ustun balandligi = H + tezlik × davomiylik) — `qulf.py: precip`.
+- Kesim (cutaway) uchun boolean kesuvchilarni ob'ektni ota-onaga (`parent`) bog'lashdan **oldin** qo'lla: kesuvchilar dunyo
+  koordinatasida bo'ladi.
+- 45% (486x864), 8 sample: hovli/makro/kesim studiyasi ~7.5 s/kadr (963 kadr ≈ 2 soat).
