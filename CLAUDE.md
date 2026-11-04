@@ -45,6 +45,7 @@ uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
 ```bash
 python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
+# (Illyuminator misoli: zack_test/tools/get_samolyot.sh + get_illyuminator.sh, sahna zack_test/illyuminator/illyuminator.py)
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
@@ -129,3 +130,14 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Kesim (cutaway) uchun boolean kesuvchilarni ob'ektni ota-onaga (`parent`) bog'lashdan **oldin** qo'lla: kesuvchilar dunyo
   koordinatasida bo'ladi.
 - 45% (486x864), 8 sample: hovli/makro/kesim studiyasi ~7.5 s/kadr (963 kadr ≈ 2 soat).
+- BlenderKit illyuminator (7250f009) ichki oq qopqog'ini **material nomi** (`Circle.002_Baked`) bo'yicha o'chir: har importda ob'ekt
+  qayta nomlanadi (Circle.008...), `name.startswith("Circle.002")` faqat birinchisini topadi va derazalar oq bo'lib qoladi.
+  Paketda 2 m lik `Cube` ham bor: `max(o.dimensions) > 1` ni ham o'chir (`illyuminator.py: is_cover`).
+- `Falling_Into_Pool_2`, `Edge_Slip` kabi "chetdan" harakatlarda Hips 0.5–1.3 m baland yozilgan: root z ni pasaytir yoki boshqa harakat tanla.
+- Salonda o'rindiq qadami 0.82 m: kamera oldingi qator suyanchig'i (x = qator − 0.5) ortida qolsa, kadrni to'sadi.
+  Yaqin plan uchun kamerani x ∈ [qator − 0.45, qator − 0.3] yoki z ≥ 1.4 ga qo'y.
+- Deraza yonidagi to'ldiruvchi AREA chiroq kameraga oq to'rtburchak bo'lib ko'rinadi: `visible_camera = False`.
+- `P.crack_strip` zigzagi 1.2 sm qat'iy: kichik oyna uchun yoriqni 3x yasab `scale = 1/3` qil.
+- Matnni kadrga qarab o'zgartirish (harorat ekrani): `frame_change_pre` handler ichida qiymatni animatsiyadan emas, kadr raqamidan hisobla.
+- Bu sahnada 30%, 6 sample: ~10 s/kadr (hajmli tuman bilan ham).
+
