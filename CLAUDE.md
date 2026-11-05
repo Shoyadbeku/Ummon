@@ -152,3 +152,6 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   ("kiçki inna", "nersi lar"): `magnit/subtitr.py` dagi FIX ro'yxatini tokenlarga 1:1 mosla ("+" = oldingiga qo'shish, "_" = bo'shliq).
   Shrift: Inter ExtraBold (`fontsdir=/usr/share/fonts/opentype/inter`).
 - 40% (432x768), 8 sample: mehmonxona ~9 s/kadr.
+- `use_persistent_data = True` bilan uzun renderda rentgen nusxalar (`slot.link="OBJECT"`) dan keyingi kadrlarda Megan tanasi
+  qop-qora chiqdi (kasalxona kadri), alohida render qilinganda to'g'ri. Montajdan oldin har kadrdan namuna ol; buzilgan oraliqni
+  o'chirib `RANGE=a,b` bilan yangi jarayonda qayta render qil.
