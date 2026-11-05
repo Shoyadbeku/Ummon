@@ -129,3 +129,8 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Kesim (cutaway) uchun boolean kesuvchilarni ob'ektni ota-onaga (`parent`) bog'lashdan **oldin** qo'lla: kesuvchilar dunyo
   koordinatasida bo'ladi.
 - 45% (486x864), 8 sample: hovli/makro/kesim studiyasi ~7.5 s/kadr (963 kadr ≈ 2 soat).
+- Mixamo `Remy` import qilinganda ~3.78 m bo'yli chiqadi: root masshtabini 0.47 qil (`chaqmoq.py`).
+- Lichtenberg naqshini qo'lga proyeksiya qilishda chiziqlar qalin bo'lsin (640 px tekstura, `lich.py`): 2048 px dagi ingichka chiziqlar bilak masshtabida ko'rinmaydi.
+- Shahar masshtabidagi kadrlar uchun kamera `clip_end` ni katta qil (6000), aks holda baland minora kesiladi.
+- Hajmli bug' (Principled Volume) kadrga yaqin bo'lsa render ~110 s/kadr (40%, 8 sample) gacha sekinlashadi: bunday kadrlarni qisqa tut.
+- Konteyner qayta ishga tushsa render jarayoni o'ladi, kadrlar qoladi: `find frames -size -1k -delete` (bo'sh placeholder) va renderni qayta boshla.
