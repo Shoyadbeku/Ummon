@@ -45,6 +45,7 @@ uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
 ```bash
 python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
+# (Magnit yutish misoli: zack_test/tools/get_magnit.sh, sahna zack_test/magnit/magnit.py, subtitr zack_test/magnit/subtitr.py)
 # (Illyuminator misoli: zack_test/tools/get_samolyot.sh + get_illyuminator.sh, sahna zack_test/illyuminator/illyuminator.py)
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
@@ -141,3 +142,13 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Matnni kadrga qarab o'zgartirish (harorat ekrani): `frame_change_pre` handler ichida qiymatni animatsiyadan emas, kadr raqamidan hisobla.
 - Bu sahnada 30%, 6 sample: ~10 s/kadr (hajmli tuman bilan ham).
 
+- `Sitting_Drinking` ("having a seat") da qahramon o'tirishdan oldin 180° buriladi: o'tirgan qismida root'ni 180° bur.
+  O'ng qo'l og'izga asl ~260–340-kadrda yetadi.
+- `Laying_Moaning` da Hips 1.08 m (karavot balandligi), `Laying_3` da 0.07 m; ikkalasida bosh +Y tomonda.
+- Harakatlanuvchi bo'sh ob'ektga (zambil) `_par` (matrix_parent_inverse) bilan bola qo'shishdan **oldin** location keyframe qo'yma:
+  bo'sh ob'ektni (0,0,0) da yasab, qismlarni qo'shib, keyin harakatni kalitla.
+- Rentgen organlar ichidagi magnit ko'rinishi uchun organ materialini 50% Transparent bilan aralashtir, magnitga emissiya ber.
+- Subtitr (so'ralsa): Whisper tokenlari ba'zan ikki so'zni birlashtiradi ("ikkhil", "shuyirda") yoki bitta so'zni bo'ladi
+  ("kiçki inna", "nersi lar"): `magnit/subtitr.py` dagi FIX ro'yxatini tokenlarga 1:1 mosla ("+" = oldingiga qo'shish, "_" = bo'shliq).
+  Shrift: Inter ExtraBold (`fontsdir=/usr/share/fonts/opentype/inter`).
+- 40% (432x768), 8 sample: mehmonxona ~9 s/kadr.
