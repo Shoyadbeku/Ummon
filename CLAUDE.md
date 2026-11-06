@@ -155,3 +155,16 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `use_persistent_data = True` bilan uzun renderda rentgen nusxalar (`slot.link="OBJECT"`) dan keyingi kadrlarda Megan tanasi
   qop-qora chiqdi (kasalxona kadri), alohida render qilinganda to'g'ri. Montajdan oldin har kadrdan namuna ol; buzilgan oraliqni
   o'chirib `RANGE=a,b` bilan yangi jarayonda qayta render qil.
+- Mixamo'da aksirish harakati yo'q: `aksirish.py: sneeze()` — Spine1/Spine2/Neck/Head ga qo'shimcha burilish kalitlari, alohida harakatga
+  yozib NLA track'ga `blend_type="COMBINE"` bilan qo'yiladi. Aktiv harakatni COMBINE qilma: constraint `influence` kalitlari ham o'sha
+  harakatga tushadi va qo'shilib ketadi.
+- Brian (Mixamo) Head fazosida (X chap, Y tepa, Z old; boshlanishi ~1.57 m): burun uchi (0, 0.052, 0.15), tepa y=0.19.
+  Yuz nuqtalarini taxmin qilma, mesh'dan o'lcha (`aksirish.py: HY/HZ`).
+- Qo'lni yuzga olib borish: IK nishoni bo'sh ob'ekt, uning bir nechta `COPY_LOCATION` (yuz/tomoq/tirsak) ta'siri kalitlanadi; qo'l
+  ko'tarilishidan oldin nishon allaqachon joyida bo'lsin, aks holda bilak (0,0,0) dan uchib keladi (`aksirish.py: drive`).
+- Tirsakka aksirish: o'ng bilak boshning chap-old tomonida (Head (0.16, 0.03, 0.12)), alohida IK + pole (Head (-0.25,-0.25,0.5)), `pole_angle=90°`.
+- `P.pulse_material` impulsdan keyin butun quvur bo'ylab "iz" (trail) qoldiradi: o'chirish uchun `glow` ni -1.5 ga kalitla va
+  materialni emissiyaga qarab Transparent bilan aralashtir (`aksirish.py: pulse_tube`).
+- `Laying_Idle` strip'ini `repeat` bilan kadrdan oshirib yuborma: keyingi kadrda qahramon tik turish o'rnida yotib qoladi.
+- Ko'chada trotuar 0.14 m baland: qahramon root z ni ham 0.14 qil.
+- 40% (432x768), 8 sample: mehmonxona/ko'cha/rentgen ~10 s/kadr (1340 kadr ≈ 3.7 soat).
