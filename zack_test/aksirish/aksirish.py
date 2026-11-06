@@ -849,18 +849,19 @@ for i in range(30):   # rentgendagi havo (qora dog'lar) — teri ostidagi havo
            mat("xab", (0.0, 0.0, 0.0), 0.5), scale=(1, 0.2, 1), parent=hosp)
 box("x_tear", (0.012, 0.012, 0.08), tuple(LB + Vector((0.095, -0.058, -0.06))), mat("xtear", (1, 0.1, 0.02), 0.5, emit=12.0), rot=(0, 20, 0), parent=hosp)
 # karavot
-bed = empty("bed", tuple(BED))
+bed = empty("bed", (0, 0, 0))   # _par dunyo koordinatasini saqlaydi: qismlar BED + mahalliy
+bl = lambda x, y, z: tuple(BED + Vector((x, y, z)))
 sheet_m = mat("sheet", (0.92, 0.94, 0.96), 0.7, sss=0.2)
 blanket_m = mat("blanket", (0.55, 0.72, 0.85), 0.85)
 rail_m = mat("rail", (0.6, 0.62, 0.65), 0.25, metal=0.9)
-box("mattress", (0.95, 2.05, 0.16), (0, 0, BED_Z - 0.08), sheet_m, parent=bed)
-box("bframe", (1.0, 2.1, 0.08), (0, 0, BED_Z - 0.2), rail_m, parent=bed)
-box("pillow", (0.6, 0.35, 0.12), (0, 0.8, BED_Z + 0.04), sheet_m, parent=bed)
-box("headboard", (1.0, 0.05, 0.6), (0, 1.05, BED_Z + 0.1), mat("hb_m", (0.4, 0.55, 0.6), 0.5), parent=bed)
+box("mattress", (0.95, 2.05, 0.16), bl(0, 0, BED_Z - 0.08), sheet_m, parent=bed)
+box("bframe", (1.0, 2.1, 0.08), bl(0, 0, BED_Z - 0.2), rail_m, parent=bed)
+box("pillow", (0.6, 0.35, 0.12), bl(0, 0.8, BED_Z + 0.04), sheet_m, parent=bed)
+box("headboard", (1.0, 0.05, 0.6), bl(0, 1.05, BED_Z + 0.1), mat("hb_m", (0.4, 0.55, 0.6), 0.5), parent=bed)
 for dx in (-0.45, 0.45):
     for dy in (-0.95, 0.95):
-        cyl("bleg", 0.02, BED_Z - 0.2, (dx, dy, (BED_Z - 0.2) / 2), rail_m, parent=bed)
-blanket = box("blanket", (1.0, 1.25, 0.2), (0, -0.42, BED_Z + 0.08), blanket_m, parent=bed)
+        cyl("bleg", 0.02, BED_Z - 0.2, bl(dx, dy, (BED_Z - 0.2) / 2), rail_m, parent=bed)
+blanket = box("blanket", (1.0, 1.25, 0.2), bl(0, -0.42, BED_Z + 0.08), blanket_m, parent=bed)
 # tomchilatgich ustuni + ovqat qopchasi
 IVP = BED + Vector((-0.75, 0.75, 0))
 cyl("iv_pole", 0.015, 1.9, tuple(IVP + Vector((0, 0, 0.95))), rail_m, parent=hosp)
