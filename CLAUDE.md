@@ -171,3 +171,14 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `_par` (matrix_parent_inverse) bilan bog'langan qismlar dunyo koordinatasida qoladi: bo'sh ob'ekt (BED) ga mahalliy (0,0,z) berilsa,
   ular (0,0,0) ga — boshqa xonaga — tushadi. Bo'sh ob'ektni (0,0,0) da yasab, joylashuvni `BED + (x,y,z)` qilib ber (`aksirish.py: bl`).
 - `Laying_Idle` da Hips root'dan ~1.07 m baland: karavotga yotqizish uchun root z = matras usti − 0.95.
+- Batut misoli: `zack_test/tools/get_trampolin.sh`, sahna `zack_test/trampolin/trampolin.py` (choyshab egilishi shape key "dip" = metr,
+  prujinalar kadrma-kadr `aim_spring`, sakrash fizikasi `hop_track`, tovush uchun tegish kadrlari `EVENTS=...json`).
+- Remy (Mixamo) 2.1x katta yozilgan: root `scale=0.47`; mocap Hips siljishi esa yarmiga qisqaradi (o'tirishda root'ni ~0.2 m qo'shimcha tushir).
+- `primitive_cube_add(location=...)` + `transform_apply(scale=True)` dan keyin mesh mahalliy z si joylashuvga siljigan chiqdi: "origin pastda"
+  qilish uchun `v.co.z -= min(z)` ishlat, `+= h/2` emas.
+- Devor ichiga yashiringan o'sadigan bo'lak (devorni "ko'tarish") devor bilan bir xil qalinlikda bo'lsa, yuzlar ustma-ust tushib devor qop-qora chiqadi:
+  bo'lakni 1–2 sm yupqaroq qil. Ob'ektni `scale` bilan o'stirma (BOX tekstura cho'ziladi / qora) — joylashuvini kalitla.
+- Basseyn: katta yer tekisligi suv sathidan baland bo'lsa suvni yopib qo'yadi — Boolean bilan teshik och. Kaustika o'chiq bo'lgani uchun
+  suv osti qop-qora: suv materialida `Is Shadow Ray` -> Transparent BSDF aralashmasi.
+- To'r (batut, futbol darvozasi): Wireframe modifikatori qop-qora devor bo'lib chiqdi; silindr koordinatasidan (atan2, z) PINGPONG chiziqlar bilan Alpha ber.
+- 40% (432x768), 8 sample: hovli (HDRI, shaffof suv) ~7 s/kadr (1332 kadr ≈ 2.6 soat).
