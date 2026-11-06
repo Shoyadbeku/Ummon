@@ -168,3 +168,6 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Laying_Idle` strip'ini `repeat` bilan kadrdan oshirib yuborma: keyingi kadrda qahramon tik turish o'rnida yotib qoladi.
 - Ko'chada trotuar 0.14 m baland: qahramon root z ni ham 0.14 qil.
 - 40% (432x768), 8 sample: mehmonxona/ko'cha/rentgen ~10 s/kadr (1340 kadr ≈ 3.7 soat).
+- `_par` (matrix_parent_inverse) bilan bog'langan qismlar dunyo koordinatasida qoladi: bo'sh ob'ekt (BED) ga mahalliy (0,0,z) berilsa,
+  ular (0,0,0) ga — boshqa xonaga — tushadi. Bo'sh ob'ektni (0,0,0) da yasab, joylashuvni `BED + (x,y,z)` qilib ber (`aksirish.py: bl`).
+- `Laying_Idle` da Hips root'dan ~1.07 m baland: karavotga yotqizish uchun root z = matras usti − 0.95.

@@ -420,7 +420,7 @@ place(broot, 1, ROOMP)
 place(broot, STR0, (WALK_X0, STR_Y, 0.14), rot=90)
 place(broot, STR1 - 6, (WALK_X1, STR_Y, 0.14), rot=90)
 place(broot, S["doctors"][0], ROOMP)                       # rentgen (havo) kadrlari uchun xonada
-place(broot, S["bed"][0], tuple(BED + Vector((0, 0, BED_Z))), rot=0)
+place(broot, S["bed"][0], tuple(BED + Vector((0, 0.2, BED_Z - 0.95))), rot=0)   # Laying_Idle: Hips root dan ~1.07 m baland
 place(broot, S["dont"][0], ROOMP)
 for fc in fcurves(broot):
     for k in fc.keyframe_points: k.interpolation = "LINEAR" if STR0 <= k.co.x < STR1 - 6 else "CONSTANT"
