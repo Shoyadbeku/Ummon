@@ -1,0 +1,214 @@
+# Ummon: Claude uchun ko'rsatma
+
+Foydalanuvchi o'zbek tilida yozadi, javob ham o'zbekcha bo'lsin.
+
+## Foydalanuvchi ovoz orqali yozadi (diktovka)
+
+Xabarlar ovozdan matnga o'girilgan bo'ladi: imlo xatolari, tinish belgisiz gaplar va noto'g'ri yozilgan
+nomlar bo'lishi tabiiy. "zack d", "zak di", "zakdi", "zack d filmsday", "zek di films" kabilarning
+hammasi **Zack D. Films** degani. Qisqa buyruqni to'liq vazifa deb tushun va savol bermasdan boshla.
+
+Masalan: "zak di video qil qiz onasi bilan urushib mashinada ketib qoldi o'n soniya ovozim bilan".
+
+Sukut bo'yicha (foydalanuvchi boshqacha aytmasa):
+- uzunlik 10 soniya, vertikal 9:16;
+- subtitr yo'q;
+- ovoz yo'q. Faqat "ovozim bilan", "mening ovozimda", "ovozlashtir" desa, klon ovoz qo'shiladi;
+- `zack_test/PROMPT.md` dagi manbalar va kinematika qo'llaniladi;
+- avval 3–5 ta sinov kadrini ko'rsatib, keyin to'liq render qilinadi.
+
+## "Zack D. Films uslubida video" so'ralsa
+
+Foydalanuvchi qisqa voqea aytadi (masalan "qiz onasi bilan urushib, mashinada ketib qoldi") va
+uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
+
+1. **Ssenariy.** Voqeani 3–6 ta kadrga bo'l (kadr ro'yxati + kamera burchagi). Ovozli izoh matni
+   o'zbekcha, qisqa, Zack D. ohangida bo'lsin ("Agar ... bo'lsa, nima bo'ladi?"). Uzunlik foydalanuvchi
+   aytganicha, aytilmasa 10–20 soniya.
+2. **Ovoz (foydalanuvchining klon ovozi).** Hugging Face Space `Baxtbek97/ummon-ovoz`, API `/ovozlashtirish`:
+   ```bash
+   B=https://baxtbek97-ummon-ovoz.hf.space/gradio_api/call/ovozlashtirish
+   ID=$(curl -sS -X POST $B -H 'Content-Type: application/json' \
+        -d '{"data": ["MATN", "Sardor (erkak)", 0, 0, 0.33]}' | python3 -c "import json,sys;print(json.load(sys.stdin)['event_id'])")
+   curl -sS -N $B/$ID   # oxirgi "data:" qatorida audio fayl URL'i bo'ladi -> curl bilan yuklab ol
+   ```
+   Parametrlar: matn, asosiy ovoz ("Sardor (erkak)" yoki "Madina (ayol)"), tezlik %, ohang (yarim ton), protect.
+   Space uxlab yotgan bo'lsa, birinchi so'rov 1–2 daqiqa olishi mumkin. Ishlamasa, foydalanuvchiga ayt,
+   o'rniga ovoz yasab qo'yma.
+3. **Sahna (Blender, `zack_test/scene3.py` asosida).** Kadrlar sonini ovoz uzunligiga moslab qo'y (24 fps).
+4. **Render va montaj.** `ffmpeg` bilan kadrlarni MP4 ga yig'ib, ovozni qo'sh.
+   Subtitr faqat so'ralsa qo'shiladi.
+5. Natijani `zack_test/` ga qo'y, commit qil, push qil va faylni foydalanuvchiga yubor.
+
+## Muhitni tayyorlash (har yangi sessiyada)
+
+```bash
+python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
+zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
+# (Barmoq qirsillashi misoli: zack_test/tools/get_qirs.sh, sahna zack_test/qirs/qirs.py — divan+Megan ikki qo'l IK, bo'g'im kesimi, rentgen qo'l suyaklari)
+# (Ko'zdagi suzuvchilar misoli: zack_test/tools/get_suzuvchi.sh, sahna zack_test/suzuvchi/suzuvchi.py — kesim ko'z, gel ichi, POV suzuvchilar)
+# (Magnit yutish misoli: zack_test/tools/get_magnit.sh, sahna zack_test/magnit/magnit.py, subtitr zack_test/magnit/subtitr.py)
+# (Illyuminator misoli: zack_test/tools/get_samolyot.sh + get_illyuminator.sh, sahna zack_test/illyuminator/illyuminator.py)
+# (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
+# (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
+python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
+  kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
+zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
+mkdir -p /tmp/claude-0/tools && (cd /tmp/claude-0/tools && npm i --silent @gltf-transform/cli@4.1.1)
+/tmp/claude-0/tools/node_modules/.bin/gltf-transform copy /tmp/claude-0/assets/bk/c3c28d91.glb /tmp/claude-0/assets/bk/c3c28d91_u.glb
+```
+Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I zack_test/scene3.py --render`
+(sinov uchun: `FRAMES=30,120,200 PCT=35`). 50% (540x960) da bir kadr taxminan 15–25 soniya.
+
+## Manbalar (login kerak emas)
+
+- **Qahramonlar va harakat:** HF dataset `Linzhan/Mixamo-Animations-Characters` (114 qahramon, 2317 mocap).
+  Ro'yxat: `characters.csv`, `metadata.csv`; ko'rish uchun `character_tpose/*.png`, `animation_motion_render/*/v000.mp4`.
+- **Muhit:** Poly Haven (CC0): HDRI, teksturalar, mebel.
+- **Mashina va boshqa modellar:** BlenderKit bepul assetlari (`is_free:true`, gltf).
+- **Ishlamaydi:** Mixamo saytining o'zi va Sketchfab (login kerak), Daz va Character Creator (Windows dasturi).
+  MPFB2 kodini ishga tushirishni xavfsizlik tizimi bloklaydi.
+
+## Ma'lum tuzoqlar
+
+- Skriptlarni `python -I` bilan ishga tushir (`inspect.py` kabi nomlar stdlib'ni to'sib qo'yadi).
+- Mixamo FBX import qilingach, `arm.animation_data.action = None` qil, aks holda T-poza NLA'ni bosib qo'yadi.
+  Blender 5'da NLA strip uchun `strip.action_slot = act.slots[0]` kerak (`mixchar.py` buni qiladi).
+- Mixamo 30 fps, sahna 24 fps: strip scale = 0.8 / speed.
+- `Entering_Car`: qahramon mashina yo'nalishiga qarab turadi, eshik uning **chap** tomonida bo'ladi.
+- BlenderKit glb fayllari Draco bilan siqilgan, bpy g'ildiragi ularni ocha olmaydi: avval `gltf-transform copy` qil.
+- Poly Haven API'da modellarda ham `Diffuse` kaliti bor, turini `/info/<id>` dagi `type` bilan aniqla.
+- Ovoz fayli nomi mazmunini aks ettirmasligi mumkin: avval Whisper bilan matnga o'gir
+  (`faster-whisper`, `medium`, `language="uz"`, `word_timestamps=True`) va kadrlarni so'z vaqtlariga bog'la.
+  faster-whisper'ning PyAV'si bilan wav ochilmasa, audioni ffmpeg orqali numpy massiv qilib ber.
+- Poly Haven API `User-Agent` sarlavhasisiz 403 qaytaradi (`ph_get.py` buni qo'yadi).
+- `rock_moss_set_01` kabi `*_set_*` modellari bitta tosh emas, 10 m+ ga yoyilgan to'plam: kadrni to'sib qo'yadi.
+- `primitive_*_add(rotation=...)` bilan yasalgan mesh'ni `join` qilgach `transform_apply` qil, aks holda
+  ob'ektning o'z burilishi qoladi va mesh kutilgan o'q bo'ylab yo'nalmaydi.
+- Mixamo `mixamorig:Head` suyagi o'qlari (dunyoda, masshtabsiz): X = qahramonning chapi, Y = tepa, Z = old.
+  Boshga narsa yopishtirish uchun bo'sh ob'ektga `CHILD_OF` (subtarget Head, `use_scale_*=False`, inverse = identity).
+- Baland qoyalar (≥ 10 m) o'yiqda quyoshni to'liq to'sadi: 5–6 m yetarli, quyosh balandligi ≥ 55°.
+- 4 yadroli muhitda 540x960, 10 sample: ~15 s/kadr. Uzoq render uchun `nohup setsid ... &` va
+  `use_overwrite=False` + `use_placeholder=True` (to'xtasa, qayta ishga tushirsa davom etadi).
+- Makro kadrlarda (ko'z, hasharot) kamera `clip_start` ni 0.001 qil: sukut bo'yicha 0.1 m, undan yaqin hamma narsa kesilib ketadi.
+- Blender 5'da `shape_key_add(from_mix=False)` yangi kalitning qiymatini 1.0 qiladi: darhol `kb.value = 0` qil.
+- Principled `Subsurface Scale` sukut bo'yicha 0.05 m: kichik ob'ektlarda (ko'z, chuvalchang) 0.0005 atrofida qo'y, aks holda tekstura yuvilib ketadi.
+- Mixamo qahramonlari root burilishi 0 da -Y tomonga qaraydi (+Y ga qaratish uchun 180°).
+- Kesishlarda (kamera markerlari) motion blur qo'shni kadrni aralashtirmasligi uchun `motion_blur_position = "START"`.
+- Petri idishidagi suyuqlik (transmission) ichiga botgan ob'ektlar qora chiqadi: suyuqliksiz qil yoki ob'ektni sirtdan chiqar.
+- Mixamo `Crying` harakatida qo'llar yuzga ~25-kadrda yetadi: strip'ni kadr boshidan ~25 kadr oldin boshla.
+- Blender 5.2'da Geometry Nodes modifier kirishlari `mod["Socket_1"]` emas: `getattr(mod.properties.inputs, "Socket_1").value`,
+  keyframe: `x.keyframe_insert("value", frame=f)` (`burish/parts.py: key_mod`).
+- Blender 5.2'da `Curve.use_uv_as_generated` yo'q: egri bo'ylab impuls uchun GN (Curve to Mesh + Spline Parameter -> "u" atributi),
+  shaderda Attribute "u" (`parts.tube_group`).
+- `o.parent = stansiya_empty` (masalan (20,0,0) da) qilinsa, bola dunyo koordinatasida ikki marta siljiydi: `matrix_parent_inverse` qo'y
+  (`burish.py: _par`).
+- Megan'ning `Body` meshi faqat bosh, qo'l, oyoq: kiyim ostida tana yo'q. Vannada futbolka materialini teri rangiga almashtir, shim/krossovkani yashir.
+- Qo'l pozasi: `RightForeArm` ga IK (`use_tail=True`, chain 2), `RightHand` ga DAMPED_TRACK (Y = barmoqlar) + LOCKED_TRACK (TRACK_Z = kaft);
+  barmoq bukish: TRANSFORM constraint, mahalliy X +65°.
+- Makro (1–10 sm) kadrlarda f/4–11 da fokus juda yupqa: f/22 qo'y, lens ≤ 50 mm.
+- Og'ir GN/Solidify modifikatorlarini `show_viewport=False` qil: skriptdagi `frame_set` sikllari 6 daqiqadan bir necha soniyaga tushadi.
+- Ovoz fayl nomi yana mos kelmadi ("Neytron yulduzi..." -> barmoqlar burishishi): har doim Whisper bilan tekshir.
+- Whisper o'zbekcha ovozni qozoqcha deb aniqlashi mumkin: `language="uz"` ni doim aniq ber.
+- `pip install faster-whisper` osilib qolsa (CPU 0%), to'xtatib `--timeout 30` bilan qayta ishga tushir.
+- `Drinking` harakatida idish **chap** qo'lda (`LeftHand`). Narsani tik ushlatish uchun: kaftga `CHILD_OF` bo'sh ob'ekt,
+  narsaning o'ziga esa faqat `COPY_LOCATION` (`use_offset=True`), burilishini o'zing qo'y (`muzlash.py: coneR`).
+- `Agony` da qahramon qattiq egilib, yuzi yerga qaraydi: yaqin plan uchun `Focus` ning birinchi 2.5 s i (tik turib boshini ushlaydi).
+- Rentgen bosh ichiga organ qo'yish (tanglay, til, tishlar): qismlarni mahalliy koordinatada yasab, `Head` ga bog'langan
+  bo'sh ob'ekt ichiga `scale=0.1`, `rotation=(-90°,0,0)` bilan joylash (sahna o'qlari: -Y old, +Z tepa) — `muzlash.py: build_mouth`.
+  Kamerani boshga `COPY_LOCATION` qilingan rig'ga bog'la, shunda u bosh bilan birga yuradi.
+- 45% (486x864), 8 sample: ko'cha ~15 s, rentgen bosh ichidagi og'iz ~30 s/kadr (shaffof qatlamlar sekin).
+- Hiqichoq (hiccup) uchun Mixamo'da tayyor harakat bor: `Drunk_Idle_Variation` ("Drunk Idle Variation Hiccup"), silkinish
+  strip boshidan ~13 kadrdan keyin. Yetarlicha sezilmaydi: `root` ga 1–2 kadrlik qo'shimcha tepaga/orqaga silkinish kalitini qo'sh (`hiqichoq.py: JOLTS`).
+- `Drinking` da bankani `LeftHand` ga `CHILD_OF` qilib, banka o'qini qo'lning X o'qiga burish kifoya (`rotation=(0, 90°, 0)`), `speed=0.6` bilan
+  og'izda ~45 kadr turadi.
+- Shaffof bo'lmagan quvur (traxeya) ichidagi zarralar ko'rinmaydi: quvur materialiga `Alpha` 0.4 qo'y.
+- `bpy.data.objects.new` bilan yasalgan ob'ektga `matrix_parent_inverse = parent.matrix_world.inverted()` ni `view_layer.update()` siz
+  qo'yma (matritsa hali birlik bo'ladi, ob'ekt ikki marta siljiydi) — oddiy `o.parent = p` va mahalliy koordinata yetarli.
+- 45% (486x864), 8 sample: mehmonxona/studiya/rentgen ~12 s/kadr (960 kadr ≈ 3 soat).
+- Mixamo FBX importi sahnani **30 fps** ga o'zgartiradi: har `load_character`/`load_action` dan keyin `sc.render.fps = 24` qil,
+  aks holda NLA strip masshtabi 1.0 bo'lib qoladi va GN `Scene Time` (yomg'ir/qor) noto'g'ri vaqtni beradi (`qulf.py: A_`).
+- Yomg'ir/qor uchun GN zarralarini aylantirma (modulo): aylangan tomchi motion blur'da butun kadr bo'ylab chiziq beradi.
+  Har tomchi kadr davomida bir marta tushsin (ustun balandligi = H + tezlik × davomiylik) — `qulf.py: precip`.
+- Kesim (cutaway) uchun boolean kesuvchilarni ob'ektni ota-onaga (`parent`) bog'lashdan **oldin** qo'lla: kesuvchilar dunyo
+  koordinatasida bo'ladi.
+- 45% (486x864), 8 sample: hovli/makro/kesim studiyasi ~7.5 s/kadr (963 kadr ≈ 2 soat).
+- BlenderKit illyuminator (7250f009) ichki oq qopqog'ini **material nomi** (`Circle.002_Baked`) bo'yicha o'chir: har importda ob'ekt
+  qayta nomlanadi (Circle.008...), `name.startswith("Circle.002")` faqat birinchisini topadi va derazalar oq bo'lib qoladi.
+  Paketda 2 m lik `Cube` ham bor: `max(o.dimensions) > 1` ni ham o'chir (`illyuminator.py: is_cover`).
+- `Falling_Into_Pool_2`, `Edge_Slip` kabi "chetdan" harakatlarda Hips 0.5–1.3 m baland yozilgan: root z ni pasaytir yoki boshqa harakat tanla.
+- Salonda o'rindiq qadami 0.82 m: kamera oldingi qator suyanchig'i (x = qator − 0.5) ortida qolsa, kadrni to'sadi.
+  Yaqin plan uchun kamerani x ∈ [qator − 0.45, qator − 0.3] yoki z ≥ 1.4 ga qo'y.
+- Deraza yonidagi to'ldiruvchi AREA chiroq kameraga oq to'rtburchak bo'lib ko'rinadi: `visible_camera = False`.
+- `P.crack_strip` zigzagi 1.2 sm qat'iy: kichik oyna uchun yoriqni 3x yasab `scale = 1/3` qil.
+- Matnni kadrga qarab o'zgartirish (harorat ekrani): `frame_change_pre` handler ichida qiymatni animatsiyadan emas, kadr raqamidan hisobla.
+- Bu sahnada 30%, 6 sample: ~10 s/kadr (hajmli tuman bilan ham).
+
+- `Sitting_Drinking` ("having a seat") da qahramon o'tirishdan oldin 180° buriladi: o'tirgan qismida root'ni 180° bur.
+  O'ng qo'l og'izga asl ~260–340-kadrda yetadi.
+- `Laying_Moaning` da Hips 1.08 m (karavot balandligi), `Laying_3` da 0.07 m; ikkalasida bosh +Y tomonda.
+- Harakatlanuvchi bo'sh ob'ektga (zambil) `_par` (matrix_parent_inverse) bilan bola qo'shishdan **oldin** location keyframe qo'yma:
+  bo'sh ob'ektni (0,0,0) da yasab, qismlarni qo'shib, keyin harakatni kalitla.
+- Rentgen organlar ichidagi magnit ko'rinishi uchun organ materialini 50% Transparent bilan aralashtir, magnitga emissiya ber.
+- Subtitr (so'ralsa): Whisper tokenlari ba'zan ikki so'zni birlashtiradi ("ikkhil", "shuyirda") yoki bitta so'zni bo'ladi
+  ("kiçki inna", "nersi lar"): `magnit/subtitr.py` dagi FIX ro'yxatini tokenlarga 1:1 mosla ("+" = oldingiga qo'shish, "_" = bo'shliq).
+  Shrift: Inter ExtraBold (`fontsdir=/usr/share/fonts/opentype/inter`).
+- 40% (432x768), 8 sample: mehmonxona ~9 s/kadr.
+- `use_persistent_data = True` bilan uzun renderda rentgen nusxalar (`slot.link="OBJECT"`) dan keyingi kadrlarda Megan tanasi
+  qop-qora chiqdi (kasalxona kadri), alohida render qilinganda to'g'ri. Montajdan oldin har kadrdan namuna ol; buzilgan oraliqni
+  o'chirib `RANGE=a,b` bilan yangi jarayonda qayta render qil.
+- Mixamo'da aksirish harakati yo'q: `aksirish.py: sneeze()` — Spine1/Spine2/Neck/Head ga qo'shimcha burilish kalitlari, alohida harakatga
+  yozib NLA track'ga `blend_type="COMBINE"` bilan qo'yiladi. Aktiv harakatni COMBINE qilma: constraint `influence` kalitlari ham o'sha
+  harakatga tushadi va qo'shilib ketadi.
+- Brian (Mixamo) Head fazosida (X chap, Y tepa, Z old; boshlanishi ~1.57 m): burun uchi (0, 0.052, 0.15), tepa y=0.19.
+  Yuz nuqtalarini taxmin qilma, mesh'dan o'lcha (`aksirish.py: HY/HZ`).
+- Qo'lni yuzga olib borish: IK nishoni bo'sh ob'ekt, uning bir nechta `COPY_LOCATION` (yuz/tomoq/tirsak) ta'siri kalitlanadi; qo'l
+  ko'tarilishidan oldin nishon allaqachon joyida bo'lsin, aks holda bilak (0,0,0) dan uchib keladi (`aksirish.py: drive`).
+- Tirsakka aksirish: o'ng bilak boshning chap-old tomonida (Head (0.16, 0.03, 0.12)), alohida IK + pole (Head (-0.25,-0.25,0.5)), `pole_angle=90°`.
+- `P.pulse_material` impulsdan keyin butun quvur bo'ylab "iz" (trail) qoldiradi: o'chirish uchun `glow` ni -1.5 ga kalitla va
+  materialni emissiyaga qarab Transparent bilan aralashtir (`aksirish.py: pulse_tube`).
+- `Laying_Idle` strip'ini `repeat` bilan kadrdan oshirib yuborma: keyingi kadrda qahramon tik turish o'rnida yotib qoladi.
+- Ko'chada trotuar 0.14 m baland: qahramon root z ni ham 0.14 qil.
+- 40% (432x768), 8 sample: mehmonxona/ko'cha/rentgen ~10 s/kadr (1340 kadr ≈ 3.7 soat).
+- `_par` (matrix_parent_inverse) bilan bog'langan qismlar dunyo koordinatasida qoladi: bo'sh ob'ekt (BED) ga mahalliy (0,0,z) berilsa,
+  ular (0,0,0) ga — boshqa xonaga — tushadi. Bo'sh ob'ektni (0,0,0) da yasab, joylashuvni `BED + (x,y,z)` qilib ber (`aksirish.py: bl`).
+- `Laying_Idle` da Hips root'dan ~1.07 m baland: karavotga yotqizish uchun root z = matras usti − 0.95.
+- Batut misoli: `zack_test/tools/get_trampolin.sh`, sahna `zack_test/trampolin/trampolin.py` (choyshab egilishi shape key "dip" = metr,
+  prujinalar kadrma-kadr `aim_spring`, sakrash fizikasi `hop_track`, tovush uchun tegish kadrlari `EVENTS=...json`).
+- Remy (Mixamo) 2.1x katta yozilgan: root `scale=0.47`; mocap Hips siljishi esa yarmiga qisqaradi (o'tirishda root'ni ~0.2 m qo'shimcha tushir).
+- `primitive_cube_add(location=...)` + `transform_apply(scale=True)` dan keyin mesh mahalliy z si joylashuvga siljigan chiqdi: "origin pastda"
+  qilish uchun `v.co.z -= min(z)` ishlat, `+= h/2` emas.
+- Devor ichiga yashiringan o'sadigan bo'lak (devorni "ko'tarish") devor bilan bir xil qalinlikda bo'lsa, yuzlar ustma-ust tushib devor qop-qora chiqadi:
+  bo'lakni 1–2 sm yupqaroq qil. Ob'ektni `scale` bilan o'stirma (BOX tekstura cho'ziladi / qora) — joylashuvini kalitla.
+- Basseyn: katta yer tekisligi suv sathidan baland bo'lsa suvni yopib qo'yadi — Boolean bilan teshik och. Kaustika o'chiq bo'lgani uchun
+  suv osti qop-qora: suv materialida `Is Shadow Ray` -> Transparent BSDF aralashmasi.
+- To'r (batut, futbol darvozasi): Wireframe modifikatori qop-qora devor bo'lib chiqdi; silindr koordinatasidan (atan2, z) PINGPONG chiziqlar bilan Alpha ber.
+- 40% (432x768), 8 sample: hovli (HDRI, shaffof suv) ~7 s/kadr (1332 kadr ≈ 2.6 soat).
+- Ovoz fayli nomi yana mos kelmadi ("Jeremy - Friendly Guy Next Door" -> ko'zdagi suzuvchi nuqtalar). Promptdagi namunaviy resurslar
+  (ona-qiz, Audi) shablon: voqeani **ovoz matnidan** ol, mos kelmaydigan assetni (mashina) ishlatma.
+- `vis()` ni ota ob'ektga bolasidan **keyin** chaqirsang, bolaning `hide_render` kalitlari ustiga yoziladi (nur/chang boshqa kadrlarda
+  chiqib qoldi). `suzuvchi.py: vis` avval eski `hide_render` fcurve'ni o'chiradi — shuni ishlat.
+- NLA: keyingi kadr uchun strip oldingi kadr tugamasidan boshlansa (oldindan "pre-roll"), ustki trek oldingi kadrni bosib qo'yadi.
+  Strip'ni kadr boshida boshlab, harakatning kerakli qismini `src=(a, b)` bilan ol.
+- `Crying` da qo'llar ko'zda, yuz oldinga qaragan bo'lak asl ~45–80-kadr; 90+ da bosh yon tomonga buriladi.
+- Kesim (cutaway) ko'z: UV sferani `bisect_plane(clear_outer=True)` bilan yarmiga bo'lib, Solidify qo'yilsa `use_even_offset` qutb
+  nuqtalarida uzun tikan chiqaradi — o'chiq qoldir. To'liq yarim jism uchun `holes_fill` + tekis yuzni `use_smooth=False`.
+- Sinuvchi (transmission) gel ortidagi emissiv nur `Is Camera Ray` bilan yashirilsa ko'rinmay qoladi (sinishdan keyin 0): oddiy
+  Transparent + Emission (Add Shader) yetarli.
+- Megan sochi quyoshda oq dog'lar beradi: soch materialining Roughness bog'lanishini uzib 0.6 qo'y.
+- Yorug'lik nuri qorachiqdan o'tishi uchun spot kesim tekisligidan uzoqroq bo'lsin (x=-0.1), iris ichki radiusi 0.2: aks holda iris to'sadi.
+- 40% (432x768), 8 sample: POV osmon ~3.5 s, kesim ko'z/gel ~6–10 s/kadr.
+
+- Ovoz fayli nomi yana mos kelmadi ("ElevenLabs ... Jeremy - Friendly Guy Next Door" -> barmoq qirsillashi): har doim Whisper.
+- Workbench render bu muhitda ishlamaydi (`libEGL.so.1` yo'q): poza sinovi uchun Cycles 4 sample, 400x400.
+- Ikki qo'l pozasi (`Sitting_Idle_4`, root burilishi 0, -Y ga qaraydi): o'ng `ForeArm` IK `pole_angle=180°`, chap 0°;
+  pole (±0.7, 0.1, 0.45). Musht kaftda: o'ng bilak (-0.06,-0.21,0.85) barmoqlar (0.15,-1,0.05) kaft (1,0.15,0) bukish 0.95;
+  chap bilak (0.065,-0.37,0.85) barmoqlar (-1,0.05,0.05) kaft (0,1,0) bukish 0.45 (`qirs.py: BASE`).
+- Poly Haven `Sofa_01`: o'rindiq ~0.31 m (ray_cast bilan o'lcha), suyanchiq y≈0.48, old tomoni -Y. Megan root z = o'rindiq + 0.1 − 0.602
+  (manfiy chiqadi): Megan'ga nisbatan kamera nuqtalarida (`W()`) z ni pol emas, root bo'yicha hisobla — aks holda kamera stol ostida qoladi.
+- Uzun gorizontal ob'ekt (suyak, bo'g'im) 9:16 kadrga sig'maydi: ota bo'sh ob'ektni Y atrofida -90° bur, kamera nuqtalarini `J + JR @ local` bilan ber.
+- Bo'g'im kesimida suyaklarni ham kes (`bisect_plane` + `holes_fill`, kesim yuziga alohida "ilik" materiali), aks holda bo'shliq
+  markazidagi pufakcha suyakning old yuzi orqasida qolib ko'rinmaydi.
+- Blender 5.2: `visible_camera` chiroq ob'ektida (`obj.visible_camera`), `light.data` da emas.
+- 4 yadroda 2 ta parallel jarayon (`THREADS=2`, `RANGE=1,570` va `571,1140`): 40%, 8 sample ~7.5 s/kadr (bitta jarayondan tezroq).
+
