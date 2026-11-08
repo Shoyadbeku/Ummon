@@ -204,11 +204,11 @@ def ML(x, y, z):
     return GM @ Vector((x, y, z))
 
 A = lambda f: mc.load_action(f, True)
-mc.add_strip(girl, A("Texting_While_Standing.fbx"), 1, src=(40, 400))
+mc.add_strip(girl, A("Texting_While_Standing.fbx"), 1, src=(110, 500))
 mc.add_strip(girl, A("Annoyed_Head_Shake.fbx"), 100, speed=1.0, blend=8)
 mc.add_strip(girl, A("Talking_2.fbx"), SH["s3"] - 4, repeat=3.0, speed=1.0, blend=5)
 mc.add_strip(girl, A("Talking_5.fbx"), SH["s10"], speed=1.0, blend=0)
-mc.add_strip(girl, A("Texting_While_Standing.fbx"), SH["s11"], blend=0, src=(40, 400))
+mc.add_strip(girl, A("Texting_While_Standing.fbx"), SH["s11"], blend=0, src=(110, 500))
 mc.add_strip(girl, A("Annoyed_Head_Shake.fbx"), SH["s12"] - 6, speed=0.9, blend=6)
 mc.add_strip(kate, A("Sitting_Talking.fbx"), 1, src=(200, 1300))
 mc.add_strip(remy, A("Sitting_Idle_5.fbx"), 1, repeat=3.0)
@@ -441,7 +441,7 @@ skc = tgt("t_skull", 0.02, -0.01, 1.56)
 camera("c08_orbit", SH["s8"], SH["s9"] - 1, ML(0.12, -0.45, 1.62), ML(0.45, 0.02, 1.62), skc, 35, 5.6, "SINE")
 camera("c09_bass", SH["s9"], SH["s10"] - 1, ML(-0.3, -0.36, 1.5), ML(-0.18, -0.24, 1.52), jaw, 30, 5.6, "QUART")
 camera("c10_warm", SH["s10"], SH["s11"] - 1, ML(-0.45, -1.0, 1.42), ML(0.3, -0.95, 1.52), face, 42, 2.2, "SINE")
-camera("c11_phone", SH["s11"], SH["s12"] - 1, ML(0.2, 0.0, 1.55), ML(0.06, -0.12, 1.37), phone, 35, 2.0, "EXPO")
+camera("c11_phone", SH["s11"], SH["s12"] - 1, ML(-0.1, -0.17, 1.34), ML(-0.3, -0.12, 1.52), phone, 32, 2.0, "SINE")
 camera("c12_push", SH["s12"], END, ML(0.05, -1.3, 1.55), ML(0.0, -0.58, 1.58), face, 50, 2.8, "CUBIC")
 for f, c in cams: sc.timeline_markers.new(c.name, frame=f).camera = c
 sc.camera = cams[0][1]
