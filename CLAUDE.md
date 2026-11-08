@@ -1,0 +1,74 @@
+# Ummon: Claude uchun ko'rsatma
+
+Foydalanuvchi o'zbek tilida yozadi, javob ham o'zbekcha bo'lsin.
+
+## Foydalanuvchi ovoz orqali yozadi (diktovka)
+
+Xabarlar ovozdan matnga o'girilgan bo'ladi: imlo xatolari, tinish belgisiz gaplar va noto'g'ri yozilgan
+nomlar bo'lishi tabiiy. "zack d", "zak di", "zakdi", "zack d filmsday", "zek di films" kabilarning
+hammasi **Zack D. Films** degani. Qisqa buyruqni to'liq vazifa deb tushun va savol bermasdan boshla.
+
+Masalan: "zak di video qil qiz onasi bilan urushib mashinada ketib qoldi o'n soniya ovozim bilan".
+
+Sukut bo'yicha (foydalanuvchi boshqacha aytmasa):
+- uzunlik 10 soniya, vertikal 9:16;
+- subtitr yo'q;
+- ovoz yo'q. Faqat "ovozim bilan", "mening ovozimda", "ovozlashtir" desa, klon ovoz qo'shiladi;
+- `zack_test/PROMPT.md` dagi manbalar va kinematika qo'llaniladi;
+- avval 3–5 ta sinov kadrini ko'rsatib, keyin to'liq render qilinadi.
+
+## "Zack D. Films uslubida video" so'ralsa
+
+Foydalanuvchi qisqa voqea aytadi (masalan "qiz onasi bilan urushib, mashinada ketib qoldi") va
+uni o'z ovozida ovozlashtirishni so'raydi. Ish tartibi:
+
+1. **Ssenariy.** Voqeani 3–6 ta kadrga bo'l (kadr ro'yxati + kamera burchagi). Ovozli izoh matni
+   o'zbekcha, qisqa, Zack D. ohangida bo'lsin ("Agar ... bo'lsa, nima bo'ladi?"). Uzunlik foydalanuvchi
+   aytganicha, aytilmasa 10–20 soniya.
+2. **Ovoz (foydalanuvchining klon ovozi).** Hugging Face Space `Baxtbek97/ummon-ovoz`, API `/ovozlashtirish`:
+   ```bash
+   B=https://baxtbek97-ummon-ovoz.hf.space/gradio_api/call/ovozlashtirish
+   ID=$(curl -sS -X POST $B -H 'Content-Type: application/json' \
+        -d '{"data": ["MATN", "Sardor (erkak)", 0, 0, 0.33]}' | python3 -c "import json,sys;print(json.load(sys.stdin)['event_id'])")
+   curl -sS -N $B/$ID   # oxirgi "data:" qatorida audio fayl URL'i bo'ladi -> curl bilan yuklab ol
+   ```
+   Parametrlar: matn, asosiy ovoz ("Sardor (erkak)" yoki "Madina (ayol)"), tezlik %, ohang (yarim ton), protect.
+   Space uxlab yotgan bo'lsa, birinchi so'rov 1–2 daqiqa olishi mumkin. Ishlamasa, foydalanuvchiga ayt,
+   o'rniga ovoz yasab qo'yma.
+3. **Sahna (Blender, `zack_test/scene3.py` asosida).** Kadrlar sonini ovoz uzunligiga moslab qo'y (24 fps).
+4. **Render va montaj.** `ffmpeg` bilan kadrlarni MP4 ga yig'ib, ovozni qo'sh.
+   Subtitr faqat so'ralsa qo'shiladi.
+5. Natijani `zack_test/` ga qo'y, commit qil, push qil va faylni foydalanuvchiga yubor.
+
+## Muhitni tayyorlash (har yangi sessiyada)
+
+```bash
+python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bpy==5.2.3
+zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
+python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
+  kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
+zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
+mkdir -p /tmp/claude-0/tools && (cd /tmp/claude-0/tools && npm i --silent @gltf-transform/cli@4.1.1)
+/tmp/claude-0/tools/node_modules/.bin/gltf-transform copy /tmp/claude-0/assets/bk/c3c28d91.glb /tmp/claude-0/assets/bk/c3c28d91_u.glb
+```
+Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I zack_test/scene3.py --render`
+(sinov uchun: `FRAMES=30,120,200 PCT=35`). 50% (540x960) da bir kadr taxminan 15–25 soniya.
+
+## Manbalar (login kerak emas)
+
+- **Qahramonlar va harakat:** HF dataset `Linzhan/Mixamo-Animations-Characters` (114 qahramon, 2317 mocap).
+  Ro'yxat: `characters.csv`, `metadata.csv`; ko'rish uchun `character_tpose/*.png`, `animation_motion_render/*/v000.mp4`.
+- **Muhit:** Poly Haven (CC0): HDRI, teksturalar, mebel.
+- **Mashina va boshqa modellar:** BlenderKit bepul assetlari (`is_free:true`, gltf).
+- **Ishlamaydi:** Mixamo saytining o'zi va Sketchfab (login kerak), Daz va Character Creator (Windows dasturi).
+  MPFB2 kodini ishga tushirishni xavfsizlik tizimi bloklaydi.
+
+## Ma'lum tuzoqlar
+
+- Skriptlarni `python -I` bilan ishga tushir (`inspect.py` kabi nomlar stdlib'ni to'sib qo'yadi).
+- Mixamo FBX import qilingach, `arm.animation_data.action = None` qil, aks holda T-poza NLA'ni bosib qo'yadi.
+  Blender 5'da NLA strip uchun `strip.action_slot = act.slots[0]` kerak (`mixchar.py` buni qiladi).
+- Mixamo 30 fps, sahna 24 fps: strip scale = 0.8 / speed.
+- `Entering_Car`: qahramon mashina yo'nalishiga qarab turadi, eshik uning **chap** tomonida bo'ladi.
+- BlenderKit glb fayllari Draco bilan siqilgan, bpy g'ildiragi ularni ocha olmaydi: avval `gltf-transform copy` qil.
+- Poly Haven API'da modellarda ham `Diffuse` kaliti bor, turini `/info/<id>` dagi `type` bilan aniqla.
