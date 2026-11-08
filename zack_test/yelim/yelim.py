@@ -826,7 +826,7 @@ c = rel_cam("hook", eyeE, 18, 2.8, [(H0, V(0.85, -0.55, 0.62)), (H1, V(0.42, -0.
 lens_keys(c, [(H0, 16), (H1, 22)])
 B0, B1 = S["bottles"]
 BM = (BOT_D + BOT_G) / 2 + V(0, 0, -0.035)
-c = abs_cam("bottles", [(B0, BM + V(0.12, 0.17, 0.0)), (B1, BM + V(-0.03, 0.14, 0.01))], [(B0, BM + V(0.02, 0, 0)), (B1, BM + V(0.0, 0, 0.01))], 38, 4.0)
+c = abs_cam("bottles", [(B0, BM + V(0.12, 0.17, 0.0)), (B1, BM + V(-0.03, 0.14, 0.01))], [(B0, BM + V(0.02, 0, 0)), (B0 + 16, BM + V(0.01, 0, 0.01)), (B1, BOT_D + V(0, 0, -0.03))], 38, 4.0)
 DR0, DR1 = S["drop"]
 c = abs_cam("drop", [(DR0, EL((0.062, -0.068, -0.006))), (DR1, EL((0.045, -0.058, -0.002)))],
             [(DR0, EL((0.0, -0.02, 0.005))), (F_DROP, EL((0.0, -0.017, 0.003))), (DR1, EL((0.0, -0.014, 0.001)))], 40, 11.0)
@@ -844,7 +844,9 @@ c = abs_cam("push", [(PU0, EL((0.005, -0.072, -0.022))), (PU1, EL((0.0, -0.06, -
 OP0, OP1 = S["open"]
 c = abs_cam("open", [(OP0, EL((0.0, -0.05, 0.004))), (F_OPEN + 30, EL((0.0, -0.07, 0.006))), (OP1, EL((0.0, -0.12, 0.012)))], [(OP0, EL((0, -0.012, 0)))], 55, 11.0)
 PA0, PA1 = S["panic"]
-c = rel_cam("panic", faceT, 16, 2.8, [(PA0, V(0.58, -0.22, -0.42)), (PA1, V(0.45, -0.32, -0.32))])
+sc.frame_set(PA0); bpy.context.view_layer.update(); FP = faceT.matrix_world.translation.copy()
+# boshga ergashuvchi kamera qo'l ichiga kirib qolib, kadr qop-qora chiqdi: sobit (dunyo) kamera
+c = abs_cam("panic", [(PA0, FP + V(0.62, -0.18, -0.4)), (PA1, FP + V(0.5, -0.28, -0.32))], [(PA0, FP + V(0, -0.03, -0.05)), (PA1, FP + V(0, -0.06, -0.08))], 16, 2.8)
 shake(c, PA0, PA1, 0.008, seed=8, decay=False)
 MI0, MI1 = S["mistake"]
 c = rel_cam("mistake", faceT, 30, 2.4, [(MI0, V(0.34, -0.3, -0.06)), (MI1, V(0.28, -0.26, -0.04))])
