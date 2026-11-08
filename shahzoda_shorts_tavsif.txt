@@ -8,9 +8,15 @@ Sizga Shahzodaning qaysi qo'shig'i yoqadi? Izohda yozib qoldiring! 👇
 
 Format: 1080x1920 (9:16), 30 fps, 63.7 s, H.264 + AAC. Subtitrlar videoga kuydirilgan; alohida SRT: shahzoda_shorts.srt
 
-Video lavhalar manbalari:
-- Mover.uz: "Shahzoda – Yurak sezar" (CouOQ7Zm), "Shahzoda – Keragimsan Mening" (7j6JAf5m), "Shahzoda – Keragimsan" (WgKOyDum), "Shahzoda – O'zbegim (concert version)" (xNXzswUm), "Shahzoda – Ursa (concert version)" (hYVBABCm), "Шахзода – Имей В Виду" (xDmyUxhj), "Шахзода – Давай До Свидания" (eB3MotFj), "Shahzoda – My Angel" (LORurMAm), "Shahzoda – Tilayman (OST Majruh)" (OU85I75m), "Концерт Шахзоды в Ташкенте 2012" (X4K9Zu1), "Nilufar Usmonova – Odamlar" (F30Vk4Am)
-- Rutube: "Шахзода - На востоке" (74488a24407ff5f557f5b9815038bc52), "Shahzoda Xasta" (d2259142c3c5ab9ac460bbb05a52bd1d)
-Suratlar: Yandex Images qidiruvi ("Шахзода певица", "Shahzoda xonanda" va h.k.) natijalaridan.
+Video lavhalar manbalari (faqat Shahzodaning yakka ijrolari; duet, raqqosa, aktyor yoki boshqa xonanda chiqqan kadrlar ishlatilmagan):
+- VK Video, Shahzodaning rasmiy "Shahzoda ★ Exclusive" klubi (vk.com/club16939955):
+  "Shahzoda - Ukinch (Kansert video) 2003", "Shahzoda - O'kinch (2005)", "Shahzoda O'kinch",
+  "Shahzoda Keragimsan (Kansert video)" — TARONA 2005, "Shahzoda Kechalari (Kansert video)" — TARONA,
+  "Shahzoda Sevgi (Kansert video)", "Shahzoda - Baxt bo'ladi (concert version)"
+- Rutube: "Шахзода - На востоке"
 
-Eslatma: lavha va suratlarning mualliflik huquqi ularning egalariga tegishli. "Kinoda" qismidagi lavha "Majruh" filmi saundtrek klipidan; "Sevinch" filmining o'zidan lavha topilmadi.
+Suratlar: Yandex Images qidiruvidan, faqat manba sahifasi aniq xonanda Shahzodaga tegishli bo'lganlari olindi
+(rasmiy albom muqovalari: "Faqat sen", "Unutmadim", "Aromat", "Yurakdan", "Baxtliman", "Shunchaki", "Мой золотой" va h.k.; Shazam/Zvuk/Yandex Музыка, YouTube "Erkala" rasmiy video, tophit.ru).
+Ismi bir xil bo'lgan boshqa shaxslar (Shahzoda Matchanova va b.) haqidagi sahifalardan olingan suratlar chiqarib tashlandi.
+
+Eslatma: lavha va suratlarning mualliflik huquqi ularning egalariga tegishli. "Yurak sezar", "Tarona 2003" va "Sevinch" qismlarida aynan o'sha qo'shiq/film emas, Shahzodaning o'sha davrdagi boshqa ijrolari va suratlari ko'rsatiladi; Nilufar Usmonova esa faqat subtitrda tilga olinadi.
