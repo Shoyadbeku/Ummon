@@ -223,3 +223,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `bpy==5.2.3` o'rnatish yana osilib qoldi: `--timeout 30` bilan qayta ishga tushirish yordam berdi.
 - 40% (432x768), 8 sample: mehmonxona/makro ko'z/kesim (yuzlab hujayra sferalari) ~5 s/kadr.
 
+- Ovoz fayli nomi yana mos kelmadi ("Koinotdagi ovoz: Quyosh..." -> tirnoq ostidagi qon): Whisper bilan tekshirib, sahnani matnga qur.
+  Tirnoq misoli: `zack_test/tools/get_tirnoq.sh`, sahna `zack_test/tirnoq/tirnoq.py` (procedural qo'l `build_hand`, tirnoq ostidagi qon /
+  teshik / cho'g' chekka materiali `nail_blood_material`, qizigan qisqich `clip_material` ("u" bo'ylab), Bunsen alangasi, hajmli tutun,
+  qon favvorasi (sekinlashtirilgan ballistika), 10x barmoq kesimi, rentgen yurak -> miya impulsi).
+- `o.copy()` bilan rentgen nusxasi asl ob'ekt **harakatini (action) ulashadi**: nusxaga `vis()` qilinsa asl ob'ektning `hide_render`
+  kalitlari o'chib ketadi (Megan butun video davomida yo'qolgan edi). Nusxadan keyin darhol `g.animation_data_clear()`.
+- `uvsphere(...)`/`o.scale = ...` dan keyin `o.matrix_world` darhol yangilanmaydi: matritsani o'qishdan oldin `view_layer.update()`
+  (kesim qismlari 10 m bo'lib ketgan edi).
+- Kesimda ichki qatlamlarning boolean yuzalari bir tekislikda bo'lsa qorayib ketadi: har qatlam kesuvchisini 1.5–6 mm oldinga sur.
+- Makro kamerani boshqa modellar (gorelka, quti) ichiga tushirib qo'yma: bir necha kadr qop-qora yoki xira chiqadi — montajdan oldin
+  har kadr yorqinligini o'lcha (PIL ImageStat).
+- Klinika/makro: 40% (432x768), 8 sample ~7.5 s/kadr; hajmli tutun + 80 tomchi ~17 s/kadr (987 kadr ≈ 2.5 soat).

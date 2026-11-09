@@ -519,8 +519,9 @@ key(toolM, F_TOUCH, loc=tuple(NC + V(0, 0, 0.0002)), rot=(-12, 8, 0))
 key(toolM, ME0, loc=tuple(NC + V(0, 0, 0.0001)), rot=(-12, 8, 0))
 key(toolM, F_PIERCE, loc=tuple(NC + V(0, 0, -0.0011)), rot=(-12, 8, 0))
 key(toolM, F_OUT - 3, loc=tuple(NC + V(0, 0, -0.0012)), rot=(-12, 8, 0))
-key(toolM, F_OUT + 5, loc=tuple(NC + V(-0.004, -0.012, 0.035)), rot=(-30, 8, 0))
-key(toolM, FO1, loc=tuple(NC + V(-0.01, -0.03, 0.08)), rot=(-40, 8, 0))
+# kamera -Y/+X tomonda: asbob orqaga (+Y) va yuqoriga chiqib ketadi, kamerani to'smasin
+key(toolM, F_OUT + 5, loc=tuple(NC + V(-0.008, 0.02, 0.045)), rot=(-12, 8, 0))
+key(toolM, FO1, loc=tuple(NC + V(-0.03, 0.06, 0.13)), rot=(-12, 8, 0))
 interp(toolM, "LINEAR")
 # qizish: isitishda 0 -> 1, keyin ozgina soviydi
 val_key(CLIP_M, "heat", 1, 0.0); val_key(CLIP_M, "heat", HE0 + 8, 0.05); val_key(CLIP_M, "heat", HE1 - 8, 1.0)
@@ -892,7 +893,8 @@ NCW = MCv + NC
 c = abs_cam("touch", [(TO0, NCW + V(0.05, -0.08, 0.08)), (TO1, NCW + V(0.035, -0.06, 0.045))], [(TO0, NCW + V(0, 0, 0.01)), (TO1, NCW + V(0, 0, 0.004))], 45, 14.0)
 c = abs_cam("melt", [(ME0, NCW + V(0.06, -0.05, 0.012)), (ME1, NCW + V(0.035, -0.03, 0.01))], [(ME0, NCW + V(0, 0, 0.006)), (ME1, NCW + V(0, 0, 0.003))], 50, 16.0)
 shake(c, F_PIERCE - 2, F_PIERCE + 6, 0.0008, seed=12)
-c = abs_cam("fountain", [(FO0, NCW + V(0.08, -0.09, 0.012)), (FO1, NCW + V(0.07, -0.1, 0.03))], [(FO0, NCW + V(0, 0, 0.012)), (FO1, NCW + V(0, 0, 0.02))], 40, 14.0)
+# +X tomonda Bunsen gorelkasi turibdi (kamera uning ichiga tushib qolgan edi): -X tomondan
+c = abs_cam("fountain", [(FO0, NCW + V(-0.08, -0.09, 0.014)), (FO1, NCW + V(-0.07, -0.1, 0.032))], [(FO0, NCW + V(0, 0, 0.012)), (FO1, NCW + V(0, 0, 0.02))], 40, 14.0)
 shake(c, F_JET, F_JET + 8, 0.0015, seed=13)
 # yuz (klinika)
 CA0, CA1 = S["calm"]
