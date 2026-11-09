@@ -3,7 +3,7 @@
 # Zack D. montaji: eshik/bolg'a zarbasida oq chaqnash, bosim/teshishda qizil chaqnash; vinyetka, kino donadorligi.
 # montaj.sh <kadrlar_papkasi> <ovoz.wav> <chiqish.mp4> [sfx.wav]
 D=$(dirname "$0")
-FR=${1:-/tmp/claude-0/frames}; VO=${2:-/tmp/claude-0/work/ovoz.wav}; OUT=${3:-$D/tirnoq_ostidagi_qon.mp4}
+FR=${1:-/tmp/claude-0/frames}; VO=${2:-$D/ovoz.wav}; OUT=${3:-$D/tirnoq_ostidagi_qon.mp4}
 SFX=${4:-/tmp/claude-0/audio/sfx_tirnoq.wav}
 [ -f "$SFX" ] || /tmp/claude-0/wvenv/bin/python -I "$D/sfx.py" "$SFX"
 ffmpeg -y -v error -framerate 24 -i "$FR/%04d.png" -i "$VO" -i "$SFX" -frames:v 987 \
