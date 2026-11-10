@@ -43,6 +43,10 @@ if args.only:
         bpy.ops.render.render(write_still=True)
         print(f"FRAME {f} {time.time() - t0:.1f}s", flush=True)
 else:
+    # qolgan joyidan davom etish: mavjud kadrlar o'tkazib yuboriladi,
+    # placeholder bir xil shotni parallel jarayonlarga bo'lib beradi
+    sc.render.use_overwrite = False
+    sc.render.use_placeholder = True
     sc.render.filepath = os.path.join(args.out, "####")
     bpy.ops.render.render(animation=True)
 print(f"DONE shot {args.shot} in {time.time() - t0:.1f}s", flush=True)
