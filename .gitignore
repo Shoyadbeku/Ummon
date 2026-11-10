@@ -1,3 +1,6 @@
 # Ovoz modellari ochiq repozitoriyga qo'yilmaydi
 *.pth
 *.index
+__pycache__/
+*.pyc
+zack_test/assets/
