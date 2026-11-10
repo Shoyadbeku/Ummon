@@ -105,3 +105,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Makro (1–10 sm) kadrlarda f/4–11 da fokus juda yupqa: f/22 qo'y, lens ≤ 50 mm.
 - Og'ir GN/Solidify modifikatorlarini `show_viewport=False` qil: skriptdagi `frame_set` sikllari 6 daqiqadan bir necha soniyaga tushadi.
 - Ovoz fayl nomi yana mos kelmadi ("Neytron yulduzi..." -> barmoqlar burishishi): har doim Whisper bilan tekshir.
+- Ovoz fayli nomi uchinchi marta mos kelmadi ("Koinotdagi ovoz: quyosh..." -> aql tishlari): Whisper bilan tekshirish shart.
+- Displace bilan ichkariga siqilgan mesh nusxasi (masalan dentin qatlami) o'zini kesib o'tadi va EXACT boolean jimgina ishlamay qoladi:
+  displace'dan keyin voxel remesh qil (`aql/teeth.py: tooth_shapes`).
+- Qatlamli kesim (emal/dentin/pulpa, suyak/milk): har qatlamni o'z kesuvchi qutisi bilan 0.5–1 mm oldinroq kes
+  (`aql/teeth.py: cutter`), shunda kesim yuzalari bir tekislikda to'qnashmaydi (z-fighting yo'q).
+- Kesimni boshqa kadrlarda o'chirish uchun boolean modifierning `show_render` ini keyframe qil (`teeth.key_show`).
+- Skan qilingan bosh suyagi (BlenderKit 49c13194) ko'p qatlamli: shaffof rentgen materiali transparent bounce chegarasiga urilib
+  qoraygan dog'lar beradi. Shaffofliksiz "fresnel emission" ishlat (`aql.py: xray_solid`).
+- Muhitda EGL yo'q: EEVEE render ishlamaydi, prevyu uchun ham Cycles (6–8 sample) ishlat.
+- `Sitting_Laughing` boshni orqaga keskin tashlaydi va strip tugagach ham davom etadi: `src=` bilan kesib, `hold=False` qil.
+- Ovqatni og'izga olib borish: IK + DAMPED_TRACK (barmoqlar yon-oldinga) + LOCKED_TRACK (kaft tepaga) + barmoq bukish;
+  ovqat qo'l suyagidan `fing*0.065 + palm*0.04` da, X o'qi og'izga qaratilgan (`aql.py`).
