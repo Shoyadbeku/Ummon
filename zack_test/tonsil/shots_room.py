@@ -75,7 +75,7 @@ def build(shot):
         ("Annoyed_Head_Shake", 194, 1.0, "HOLD_FORWARD", 6, 0),
         ("Taking_Item", 205, 1.0, "HOLD_FORWARD", 6, 0),
     ])
-    ball = R.stone_ball(r=BALL_R if shot != 1 else 0.016)
+    ball = R.stone_ball(r=0.016 if shot in (1, 3, 4) else BALL_R)
     animate_ball(ball, arm, shot)
     if shot in (3, 4):
         stink(ball, arm)
@@ -139,7 +139,7 @@ def animate_ball(ball, arm, shot):
             rot += math.hypot(vx, vy) * dt / BALL_R
     else:
         for f in range(a, b + 1):
-            ball.location = hand_pinch(arm, f) + Vector((0, -0.004, 0))
+            ball.location = hand_pinch(arm, f) + Vector((0, -0.014, 0.016))
             s0, s1 = SQUEEZE
             k = 0.0 if f < s0 else min(1.0, (f - s0) / (s1 - s0)) if shot >= 3 else 0
             ball.scale = (1 + 0.35 * k, 0.85 + 0.3 * k, 0.78 * (1 - 0.45 * k))
@@ -188,7 +188,7 @@ def stink(ball, arm):
     dens = nt.nodes.new("ShaderNodeMath")
     dens.operation = "MULTIPLY"
     nt.links.new(mul.outputs[0], dens.inputs[0])
-    for f, d in [(138, 0.0), (160, 10.0), (210, 14.0)]:
+    for f, d in [(138, 0.0), (160, 5.0), (210, 8.0)]:
         dens.inputs[1].default_value = d
         dens.inputs[1].keyframe_insert("default_value", frame=f)
     nt.links.new(dens.outputs[0], vol.inputs["Density"])
