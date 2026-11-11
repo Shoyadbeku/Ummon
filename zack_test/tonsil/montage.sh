@@ -20,13 +20,13 @@ ffmpeg -loglevel error -y -f lavfi -i "anoisesrc=d=0.9:c=pink:a=0.6" \
   -af "bandpass=f=900:width_type=o:w=2,afade=t=in:d=0.55:curve=exp,afade=t=out:st=0.55:d=0.35,volume=0.35" \
   -ar 48000 -ac 1 "$TMP/whoosh.wav"
 
-# 3) video: 576x1024 -> 1080x1920 (lanczos + yengil keskinlik), vinyetka, mayda donadorlik
+# 3) video: 576x1024 -> 1080x1920 (lanczos + yengil keskinlik), vinyetka, (donadorliksiz — fayl hajmi kichik bo'lsin)
 ffmpeg -loglevel error -y -framerate 24 -start_number 1 -i "$TMP/%04d.jpg" \
   -i "$AUD" -i "$TMP/whoosh.wav" -i "$TMP/whoosh.wav" \
   -filter_complex "\
-[0:v]scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,vignette=PI/5,noise=alls=4:allf=t,format=yuv420p[v];\
+[0:v]scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,vignette=PI/5,format=yuv420p[v];\
 [2:a]adelay=11000|11000[w1];[3:a]adelay=40100|40100[w2];\
 [1:a][w1][w2]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.95[a]" \
-  -map "[v]" -map "[a]" -c:v libx264 -preset slow -crf 18 -profile:v high -pix_fmt yuv420p \
+  -map "[v]" -map "[a]" -c:v libx264 -preset slow -crf 20 -profile:v high -pix_fmt yuv420p \
   -c:a aac -b:a 192k -movflags +faststart -shortest "$OUT"
 echo "tayyor: $OUT"
