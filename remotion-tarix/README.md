@@ -14,6 +14,22 @@
 - **Outro** — kanal nomi + «Obuna bo‘ling»
 - Pastda progress chizig‘i
 
+### Motion graphics elementlari (`src/data/overlays.ts`)
+Har bir element ovozdagi aniq gap/so‘zga bog‘langan — so‘z aytilgan zahoti chiqadi:
+
+| Turi | Nima qiladi | Misol |
+|---|---|---|
+| `lowerThird` | Ism plashkasi (ism + lavozim) | Jorj Vestingauz · Sanoatchi |
+| `location` | Xarita pini + koordinatalar yozuv mashinkasida | Smilyan, Xorvatiya |
+| `stat` | Raqam sanab chiqadi + aylana progress | 3327 XONA, 86 YOSH, 300+ PATENT |
+| `keyword` | Zarbali kalit so‘z, xromatik effekt, kamera silkinishi | «O‘LIM NURI», «NEGA?» |
+| `stamp` | Rezina muhr urilishi | MAXFIY, FBI, TASDIQLANMADI |
+| `versus` | Ikki tomonlama taqqoslash ekrani | Edison (DC) VS Tesla (AC) |
+| `question` | Yakuniy savol kartasi (A/B) — izohlarga chorlaydi | |
+
+Bob almashganda — **light leak** (iliq yorug‘lik chaqnashi). Har bir element o‘z **ovoz effekti** bilan
+(`public/sfx`: whoosh, impact, stamp, pop — `scripts/make_sfx.py` bilan sintez qilingan).
+
 ## Ishga tushirish
 ```bash
 npm install
