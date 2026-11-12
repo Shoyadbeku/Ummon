@@ -5,3 +5,4 @@ assets/
 renders/frames/
 renders/test/
 renders/log_*
+__pycache__/
