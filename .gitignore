@@ -6,3 +6,4 @@ renders/frames/
 renders/test/
 renders/log_*
 __pycache__/
+renders/render_all.log
