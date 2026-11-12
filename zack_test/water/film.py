@@ -115,7 +115,26 @@ def room(sc, table=True, table_loc=(0.1, -0.85, 0)):
     return tbl
 
 
-def brian(sc, acts, loc=(0, 0, 0), rotz=0.0, bottle_in_hand=True):
+def snap_to_grip(sc, arm, b, ref_frame):
+    """Move the hand bottle so its middle sits in the curled fingers at ref_frame."""
+    sc.frame_set(ref_frame); bpy.context.view_layer.update()
+    pb = arm.pose.bones
+    grip = sum((arm.matrix_world @ pb[f"mixamorig:LeftHand{n}"].head for n in ("Middle1", "Middle2", "Thumb2")), Vector()) / 3
+    shell = next(o for o in b.children_recursive if o.type == "MESH" and o.material_slots
+                 and o.material_slots[0].material and o.material_slots[0].material.name == "Plastic")
+    # aim the bottle's long axis (cap end) at the mouth, pivoting about the grip
+    hb = pb["mixamorig:Head"]; hm = arm.matrix_world @ hb.matrix
+    mouth = hm.translation + (hm.col[1].xyz.normalized() * 0.02) + (hm.col[2].xyz.normalized() * 0.13)
+    axis = (shell.matrix_world.col[2].xyz).normalized()
+    q = axis.rotation_difference((mouth - grip).normalized())
+    b.matrix_world = Matrix.Translation(grip) @ q.to_matrix().to_4x4() @ Matrix.Translation(-grip) @ b.matrix_world
+    bpy.context.view_layer.update()
+    mid = sum((shell.matrix_world @ Vector(c) for c in shell.bound_box), Vector()) / 8
+    b.matrix_world = Matrix.Translation(grip - mid) @ b.matrix_world
+    bpy.context.view_layer.update()
+
+
+def brian(sc, acts, loc=(0, 0, 0), rotz=0.0, bottle_in_hand=True, grip_frame=None):
     arm, meshes = load_character("Brian")
     fix_char_materials(meshes)
     arm.location = loc; arm.rotation_euler.z = rotz   # keep the FBX +90deg X rotation
@@ -129,6 +148,8 @@ def brian(sc, acts, loc=(0, 0, 0), rotz=0.0, bottle_in_hand=True):
         b.location = (2.5, 9.0, 4.5)
         b.rotation_euler = (math.radians(-10), math.radians(0), math.radians(-90))
         b.scale = (200,) * 3
+        if grip_frame is not None:
+            snap_to_grip(sc, arm, b, grip_frame)
     return arm, meshes, b
 
 
@@ -184,7 +205,7 @@ def shot3(sc):
     """Close up of the face while gulping, background blurred."""
     make_materials()
     room(sc, table=False)
-    arm, meshes, b = brian(sc, [("Drinking", -100, 1.0)])
+    arm, meshes, b = brian(sc, [("Drinking", -100, 1.0)], grip_frame=30)
     head = empty("HeadFocus", (0, 8, 0), arm, "mixamorig:Head")
     cam = camera(sc, (-0.5, -0.9, 1.6), (0, 0, 1.62), lens=70)
     cam_move(cam, [(1, (-0.62, -1.05, 1.55), (-0.02, 0.0, 1.62), 65), (74, (-0.45, -0.85, 1.58), (-0.02, 0.02, 1.64), 80)])
