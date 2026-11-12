@@ -263,3 +263,12 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Sitting_Laughing` boshni orqaga keskin tashlaydi va strip tugagach ham davom etadi: `src=` bilan kesib, `hold=False` qil.
 - Ovqatni og'izga olib borish: IK + DAMPED_TRACK (barmoqlar yon-oldinga) + LOCKED_TRACK (kaft tepaga) + barmoq bukish;
   ovqat qo'l suyagidan `fing*0.065 + palm*0.04` da, X o'qi og'izga qaratilgan (`aql.py`).
+
+- Oq sochni yulish misoli: `zack_test/tools/get_oqsoch.sh`, sahna `zack_test/oqsoch/oqsoch.py` (hammom + Kate oq sochni yulishi — IK + Head ga
+  `CHILD_OF` rig; bosh terisi makro GN sochlar "Bald" kirishi bilan kal dog'; follikula kesimi: qon tomchilari, chandiq, bakteriya, yiring).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_13" -> oq sochni yulish): Whisper bilan tekshir.
+- Ota-onaga `vis()` qilingach bolalarda ham `hide_render` kalitlari qoladi: bolani alohida ko'rsatish uchun avval uning fcurve'larini o'chir
+  (`oqsoch.py: vis_only`).
+- EXACT boolean kesuvchi o'zini kesib o'tsa (ustma-ust qutilar), qatlam jimgina yo'qoladi: `use_self=True`, `use_hole_tolerant=True`.
+- Yallig'lanish "nuri" uchun Mix shader (kuch 0 da qora markaz) emas, Transparent + Emission **Add** shader ishlat (`oqsoch.py: glow_mat`).
+- 40% (432x768), 8 sample: hammom ~6.5, makro soch ~4.5, kesim (qon/bakteriya/shaffof) 23–35 s/kadr (1063 kadr ≈ 6.3 soat).
