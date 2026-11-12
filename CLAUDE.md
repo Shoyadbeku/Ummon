@@ -272,3 +272,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - EXACT boolean kesuvchi o'zini kesib o'tsa (ustma-ust qutilar), qatlam jimgina yo'qoladi: `use_self=True`, `use_hole_tolerant=True`.
 - Yallig'lanish "nuri" uchun Mix shader (kuch 0 da qora markaz) emas, Transparent + Emission **Add** shader ishlat (`oqsoch.py: glow_mat`).
 - 40% (432x768), 8 sample: hammom ~6.5, makro soch ~4.5, kesim (qon/bakteriya/shaffof) 23–35 s/kadr (1063 kadr ≈ 6.3 soat).
+
+- Oyoq tirnog'i etga o'sib kirishi misoli: `zack_test/tools/get_tirnoq_osishi.sh`, sahna `zack_test/tirnoq_osishi/tirnoq_osishi.py` (procedural oyoq
+  `toe_mesh`, tirnoq holatlari shape key **zanjiri** — `relative_key` oldingi kalit: uzun -> chap burchak kesilgan -> ikkala burchak -> o'sgan -> etga kirgan;
+  tirnoq qaychisi, qopqon, ko'ndalang kesim `prism` (2D profil + shape key), rentgen krossovka, bakteriya/yiring, skalpel + forseps).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_17" -> oyoq tirnog'ining etga o'sishi): Whisper bilan tekshir.
+- Mixamo pozalari (`Female_Sitting_Pose_*`, 2 kadr) `animation_motion/` da emas, `animation/` papkasida (`animation_motion/` "Entry not found" qaytaradi).
+  `Female_Sitting_Pose_8` da qahramon diagonal qaraydi: root −45° bilan −Y ga buriladi.
+- Ikki bo'lakdan (asosiy + jarroh kesadigan bo'lak) yasalgan tirnoqda Solidify chegarasi qora "chok" bo'lib ko'rinadi: jarrohlikkacha butun nusxani ko'rsat.
+- Makro teri/tirnoqda kuchli Coat + SSS (scale 0.0012) AgX'da oppoq chiqadi: tirnoq Coat 0.35, SSS 0.15; teri SSS scale 0.0007, makro chiroqlar ~5 W.
+- Tirnoq qaychisi oldidan (kamera tomondan) kirsa kadrni to'sadi: tanasini yon tomonga (yaw ±62°) qarat — kesuvchi qirra burchakka diagonal tushadi.
+- `Female_Walk`/`Injured_Walk` (inplace) ~1.22 m/s (0.051 m/kadr): root'ni −Y bo'ylab shu tezlikda sur.
+- 30%, 8 sample: makro oyoq/kesim/xona/ko'cha ~12 s/kadr.
