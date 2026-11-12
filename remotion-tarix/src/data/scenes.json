@@ -1,0 +1,596 @@
+[
+ {
+  "n": 1,
+  "repeat": false,
+  "image": "images/01_1943_Nyu_York_qishki_tun.jpg",
+  "text": "Nikola Tesla vafot etganidan keyin uning hujjatlarini nega davlat olib qo‘ygan? 1943-yil, 7-yanvar. Amerika Qo‘shma Shtatlari, Nyu-York shahri.",
+  "start": 0.0,
+  "end": 14.99,
+  "words": []
+ },
+ {
+  "n": 2,
+  "repeat": false,
+  "image": "images/02_New_Yorker_mehmonxonasi_3327_xona.jpg",
+  "text": "Manxettendagi New Yorker mehmonxonasining 33-qavatida, 3327-raqamli xonada 86 yoshli bir odam hayotdan ko‘z yumdi.",
+  "start": 14.99,
+  "end": 26.65,
+  "words": []
+ },
+ {
+  "n": 3,
+  "repeat": false,
+  "image": "images/03_Tesla_yolgizlikda_so_nggi_yillar.jpg",
+  "text": "Uning yonida na oilasi, na shogirdlari bor edi. U umrining so‘nggi yillarini deyarli yolg‘izlikda o‘tkazgan edi.",
+  "start": 26.65,
+  "end": 36.23,
+  "words": []
+ },
+ {
+  "n": 4,
+  "repeat": false,
+  "image": "images/04_Nikola_Tesla_va_uning_patentlari.jpg",
+  "text": "Bu odam oddiy inson emas edi. U zamonaviy elektr tizimining rivojlanishiga ulkan hissa qo‘shgan, yuzlab patentlarga ega bo‘lgan va o‘z davrining eng mashhur ixtirochilaridan biri edi. Uning ismi Nikola Tesla edi.",
+  "start": 36.23,
+  "end": 53.81,
+  "words": []
+ },
+ {
+  "n": 5,
+  "repeat": false,
+  "image": "images/05_Hukumat_hujjatlarni_nazoratga_olishi.jpg",
+  "text": "Ammo bu hikoyaning eng g‘alati qismi uning o‘limi emas. Tesla vafot etganidan ko‘p o‘tmay, Amerika hukumati uning hujjatlari va shaxsiy buyumlarini nazoratga oldi.",
+  "start": 53.81,
+  "end": 67.21,
+  "words": []
+ },
+ {
+  "n": 6,
+  "repeat": false,
+  "image": "images/06_Ikkinchi_jahon_urushi_davri.jpg",
+  "text": "Nega? Chunki o‘sha paytda dunya Ikkinchi jahon urushi ichida edi.",
+  "start": 67.21,
+  "end": 73.21,
+  "words": []
+ },
+ {
+  "n": 7,
+  "repeat": false,
+  "image": "images/07_Olim_nuri_quroli_davo_qilinishi.jpg",
+  "text": "Tesla esa o‘limidan oldingi yillarda nihoyatda kuchli yangi qurol yaratish mumkinligini da’vo qilgan edi. Gazetalar uni «o‘lim nuri» deb atashardi.",
+  "start": 73.21,
+  "end": 84.57,
+  "words": []
+ },
+ {
+  "n": 8,
+  "repeat": false,
+  "image": "images/08_Xonadagi_sirli_seyf_va_qogozlar.jpg",
+  "text": "Ushbu qurol haqiqatan mavjud bo‘lganmi? Amerika hukumati Teslaning xonasidan nimani izlagan? Va nega uning hujjatlari haqida bugungacha turli mish-mishlar yuradi? Bu savollarga javob topish uchun Nikola Teslaning hayotini boshidan ko‘rib chiqamiz.",
+  "start": 84.57,
+  "end": 103.07,
+  "words": []
+ },
+ {
+  "n": 9,
+  "repeat": false,
+  "image": "images/09_1856_yil_Smilyan_qishlogi.jpg",
+  "text": "1856-yil, 10-iyul. Bugungi Xorvatiya hududidagi Smilyan qishlog‘ida bir bola dunyoga keldi.",
+  "start": 103.07,
+  "end": 112.29,
+  "words": []
+ },
+ {
+  "n": 10,
+  "repeat": false,
+  "image": "images/10_Teslaning_ota_onasi.jpg",
+  "text": "Uning otasi ruhoniy edi. Onasi esa rasmiy muhandislik ta’limini olmagan bo‘lsa-da, turli uy-ro‘zg‘or moslamalarini yasashga qobiliyatli ayol bo‘lgan.",
+  "start": 112.29,
+  "end": 123.09,
+  "words": []
+ },
+ {
+  "n": 11,
+  "repeat": false,
+  "image": "images/11_Bolalikdagi_tasavvur_va_xotira.jpg",
+  "text": "Nikola bolaligidan g‘ayrioddiy xotirasi va tasavvur qilish qobiliyati bilan ajralib turgan. Keyinchalik u ayrim mexanizmlarni avval xayolida tasavvur qilib, ularning qanday ishlashini fikran tekshirganini yozgan.",
+  "start": 123.09,
+  "end": 138.21,
+  "words": []
+ },
+ {
+  "n": 12,
+  "repeat": false,
+  "image": "images/12_19_asr_oxirida_elektr_davri.jpg",
+  "text": "Uning qiziqishi bir narsaga qaratilgan edi: elektr energiyasi. O‘n to‘qqizinchi asr oxirlarida elektr butun dunyoni o‘zgartirish arafasida turardi.",
+  "start": 138.21,
+  "end": 149.69,
+  "words": []
+ },
+ {
+  "n": 13,
+  "repeat": false,
+  "image": "images/13_Elektrni_uzoqqa_uzatish_muammosi.jpg",
+  "text": "Ammo katta muammo mavjud edi. Elektr energiyasini uzoq masofalarga qanday qilib samarali yetkazish mumkin?",
+  "start": 149.69,
+  "end": 157.93,
+  "words": []
+ },
+ {
+  "n": 14,
+  "repeat": false,
+  "image": "images/14_Tomas_Edison_va_ozgarmas_tok.jpg",
+  "text": "O‘sha davrda Tomas Edison o‘zgarmas tok tizimini rivojlantirayotgan edi.",
+  "start": 157.93,
+  "end": 162.61,
+  "words": []
+ },
+ {
+  "n": 15,
+  "repeat": false,
+  "image": "images/15_Tesla_va_ozgaruvchan_tok_chizmalari.jpg",
+  "text": "Tesla esa o‘zgaruvchan tokning imkoniyatlariga katta e’tibor qaratdi.",
+  "start": 162.61,
+  "end": 168.55,
+  "words": []
+ },
+ {
+  "n": 16,
+  "repeat": false,
+  "image": "images/16_1884_yil_Amerikaga_kelish.jpg",
+  "text": "1884-yilda u Amerikaga keldi va qisqa muddat Edison bilan bog‘liq korxonada ishladi.",
+  "start": 168.55,
+  "end": 175.95,
+  "words": []
+ },
+ {
+  "n": 17,
+  "repeat": false,
+  "image": "images/17_Tesla_va_Edison_yollarining_ajralishi.jpg",
+  "text": "Ammo ularning yo‘llari ajraldi.",
+  "start": 175.95,
+  "end": 178.87,
+  "words": []
+ },
+ {
+  "n": 18,
+  "repeat": false,
+  "image": "images/18_Ozgaruvchan_tok_motori_va_patentlar.jpg",
+  "text": "Keyinchalik Tesla o‘zgaruvchan tok motorlari va ko‘p fazali elektr tizimlariga oid muhim patentlar oldi.",
+  "start": 178.87,
+  "end": 186.07,
+  "words": []
+ },
+ {
+  "n": 19,
+  "repeat": false,
+  "image": "images/19_Jorj_Vestingauz_bilan_hamkorlik.jpg",
+  "text": "Sanoatchi Jorj Vestingauz bu texnologiyalarning imkoniyatini ko‘rib, Teslaning ishlanmalarini qo‘llab-quvvatladi.",
+  "start": 186.07,
+  "end": 193.51,
+  "words": []
+ },
+ {
+  "n": 20,
+  "repeat": false,
+  "image": "images/20_Niagara_elektr_stansiyasi_yangi_davr.jpg",
+  "text": "Shu tariqa elektr energiyasini ishlab chiqarish va uzoq masofalarga uzatishda yangi davr boshlandi.",
+  "start": 193.51,
+  "end": 200.59,
+  "words": []
+ },
+ {
+  "n": 21,
+  "repeat": false,
+  "image": "images/21_Teslaning_mashhurlikka_erishishi.jpg",
+  "text": "Tesla mashhurlikka erishdi. Uning laboratoriyadagi namoyishlari tomoshabinlarni hayratga solardi.",
+  "start": 200.59,
+  "end": 208.19,
+  "words": []
+ },
+ {
+  "n": 22,
+  "repeat": false,
+  "image": "images/22_Yuqori_kuchlanishli_elektr_tajribalari.jpg",
+  "text": "Yuqori kuchlanishli elektr razryadlari,",
+  "start": 208.19,
+  "end": 210.79,
+  "words": []
+ },
+ {
+  "n": 23,
+  "repeat": false,
+  "image": "images/23_Simsiz_yoruglik_lampasi_namoyishi.jpg",
+  "text": "yorug‘lik chiqaruvchi lampalar va g‘ayrioddiy tajribalar gazetalar e’tiborini tortardi.",
+  "start": 210.79,
+  "end": 216.53,
+  "words": []
+ },
+ {
+  "n": 24,
+  "repeat": false,
+  "image": "images/24_Simsiz_energiya_uzatish_orzusi.jpg",
+  "text": "Ammo Tesla faqat mavjud texnologiyalarni takomillashtirish bilan cheklanmadi. Uning bundan ham ulkan orzusi bor edi: elektr energiyasi va axborotni simsiz uzatish.",
+  "start": 216.53,
+  "end": 229.85,
+  "words": []
+ },
+ {
+  "n": 25,
+  "repeat": false,
+  "image": "images/25_1901_yil_Long_Aylend_qurilish_boshlanishi.jpg",
+  "text": "1901-yilda Nyu-York yaqinidagi Long-Aylend hududida ulkan loyiha boshlandi.",
+  "start": 229.85,
+  "end": 235.85,
+  "words": []
+ },
+ {
+  "n": 26,
+  "repeat": false,
+  "image": "images/26_Vordenklif_minorasi_va_Tesla.jpg",
+  "text": "Bu Vordenklif minorasi edi. Tesla ushbu inshoot orqali uzoq masofalarga simsiz aloqa va energiya uzatish imkoniyatlarini rivojlantirmoqchi bo‘ldi.",
+  "start": 235.85,
+  "end": 246.41,
+  "words": []
+ },
+ {
+  "n": 27,
+  "repeat": false,
+  "image": "images/27_Moliyachi_Jon_Pirpont_Morgan.jpg",
+  "text": "Loyihaga mashhur moliyachi Jon Pirpont Morgan dastlab mablag‘ ajratdi.",
+  "start": 246.41,
+  "end": 252.43,
+  "words": []
+ },
+ {
+  "n": 28,
+  "repeat": false,
+  "image": "images/28_Moliyaviy_muammolar_va_toxtagan_loyiha.jpg",
+  "text": "Ammo qurilish qimmatlashdi. Moliyaviy muammolar kuchaydi. Qo‘shimcha mablag‘ yetishmadi. Natijada loyiha to‘liq ishga tushmadi.",
+  "start": 252.43,
+  "end": 262.47,
+  "words": []
+ },
+ {
+  "n": 29,
+  "repeat": false,
+  "image": "images/29_1917_yil_Vordenklif_minorasining_buzilishi.jpg",
+  "text": "1917-yilda esa minora buzib tashlandi.",
+  "start": 262.47,
+  "end": 266.79,
+  "words": []
+ },
+ {
+  "n": 30,
+  "repeat": false,
+  "image": "images/30_Vayrona_oldida_Tesla_ogir_muvaffaqiyatsizlik.jpg",
+  "text": "Bu Tesla hayotidagi eng og‘ir muvaffaqiyatsizliklardan biri edi. U juda katta orzuga intilgan, ammo uni amaliy natijaga aylantira olmagan edi.",
+  "start": 266.79,
+  "end": 277.45,
+  "words": []
+ },
+ {
+  "n": 31,
+  "repeat": false,
+  "image": "images/31_Moliyaviy_qiyinchilik_va_mehmonxona_qarzlari.jpg",
+  "text": "Yillar o‘tgan sari Teslaning moliyaviy ahvoli yomonlashdi. U turli mehmonxonalarda yashadi, ba’zan qarzlarini to‘lashda qiynaldi.",
+  "start": 277.45,
+  "end": 287.81,
+  "words": []
+ },
+ {
+  "n": 32,
+  "repeat": false,
+  "image": "images/32_Yolgiz_Tesla_va_kaptarlar.jpg",
+  "text": "Shunga qaramay, yangi g‘oyalar haqida o‘ylashni to‘xtatmadi.",
+  "start": 287.81,
+  "end": 292.05,
+  "words": []
+ },
+ {
+  "n": 33,
+  "repeat": false,
+  "image": "images/33_Qogozdagi_hisob_kitoblar_va_chizmalar.jpg",
+  "text": "Uning ayrim loyihalari amaliy ixtirolarga aylandi. Boshqalari esa qog‘ozdagi hisob-kitob va taxminlar darajasida qoldi.",
+  "start": 292.05,
+  "end": 301.71,
+  "words": []
+ },
+ {
+  "n": 34,
+  "repeat": false,
+  "image": "images/34_1930_yillar_yangi_urush_xavfi.jpg",
+  "text": "Endi hikoyamizning eng sirli davriga kelamiz. 1930-yillar. Dunyo yangi urush xavfi ostida edi. Davlatlar yanada kuchli samolyotlar, tanklar va qurollar yaratishga harakat qilardi.",
+  "start": 301.71,
+  "end": 318.09,
+  "words": []
+ },
+ {
+  "n": 35,
+  "repeat": false,
+  "image": "images/35_Matbuot_anjumani_yangi_mudofaa_goyasi.jpg",
+  "text": "Tesla esa matbuot orqali mutlaqo yangi mudofaa texnologiyasi haqida gapira boshladi.",
+  "start": 318.09,
+  "end": 324.31,
+  "words": []
+ },
+ {
+  "n": 36,
+  "repeat": false,
+  "image": "images/36_Teleforce_zarrachalar_nuri_sxemasi.jpg",
+  "text": "U buni «teleforce» deb atagan. Tesla ta’riflagan tizimda elektr zaryadlangan zarrachalarni juda katta tezlikda yo‘naltirish orqali uzoqdagi harbiy nishonlarga ta’sir ko‘rsatish ko‘zda tutilgan edi.",
+  "start": 324.31,
+  "end": 337.65,
+  "words": []
+ },
+ {
+  "n": 37,
+  "repeat": false,
+  "image": "images/37_Chegaralarni_himoya_qiluvchi_olim_nuri.jpg",
+  "text": "Gazetalar buni yanada dahshatli nom bilan mashhur qildi: «O‘lim nuri». Teslaning fikricha, bunday qurol chegaralarni himoya qilishda ishlatilishi va dushman hujumini to‘xtatishi mumkin edi.",
+  "start": 337.65,
+  "end": 351.53,
+  "words": []
+ },
+ {
+  "n": 38,
+  "repeat": false,
+  "image": "images/38_Sinovdan_otgan_qurilma_yoqligi.jpg",
+  "text": "Ammo bitta muhim muammo bor edi. Uning ishlaydigan, to‘liq sinovdan o‘tgan qurolni yaratganini ko‘rsatuvchi ishonchli dalil mavjud emas. Tesla bu texnologiya haqida gapirgan, lekin gapirish bilan haqiqiy qurilmani yaratish bir xil narsa emas.",
+  "start": 351.53,
+  "end": 369.25,
+  "words": []
+ },
+ {
+  "n": 39,
+  "repeat": false,
+  "image": "images/39_Urush_davridagi_hukumat_ehtiyotkorligi.jpg",
+  "text": "Shunga qaramay, uning obro‘si va avvalgi ixtirolari sababli bu da’volarni butunlay e’tiborsiz qoldirish ham oson emas edi. Ayniqsa, urush davrida.",
+  "start": 369.25,
+  "end": 380.57,
+  "words": []
+ },
+ {
+  "n": 40,
+  "repeat": false,
+  "image": "images/40_1943_yil_86_yoshli_xasta_Tesla.jpg",
+  "text": "1943-yilga kelib Tesla 86 yoshga to‘lgan edi. Uning sog‘lig‘i yomonlashgan, hayotini esa ancha yolg‘iz kechirayotgan edi. U Nyu-Yorkdagi New Yorker mehmonxonasida yashardi.",
+  "start": 380.57,
+  "end": 394.77,
+  "words": []
+ },
+ {
+  "n": 41,
+  "repeat": false,
+  "image": "images/41_7_yanvar_Teslaning_vafoti.jpg",
+  "text": "7-yanvar kuni Tesla vafot etdi. Uning o‘limi tabiiy sabablar bilan bog‘liq deb qayd etildi.",
+  "start": 394.77,
+  "end": 403.05,
+  "words": []
+ },
+ {
+  "n": 42,
+  "repeat": false,
+  "image": "images/42_Buyumlar_va_xona_davlat_nazoratida.jpg",
+  "text": "Ammo oradan ko‘p vaqt o‘tmay uning buyumlari va hujjatlari davlat nazoratiga olindi.",
+  "start": 403.05,
+  "end": 409.83,
+  "words": []
+ },
+ {
+  "n": 43,
+  "repeat": false,
+  "image": "images/43_FBI_haqidagi_keng_tarqalgan_gaplar.jpg",
+  "text": "Bu yerda ko‘pchilik bilmaydigan muhim tafsilot bor. Teslaning hujjatlarini bevosita Federal qidiruv byurosi — FBI olib qo‘ygan, degan gap keng tarqalgan.",
+  "start": 409.83,
+  "end": 421.13,
+  "words": []
+ },
+ {
+  "n": 44,
+  "repeat": false,
+  "image": "images/44_Alien_Property_Custodian_idorasi.jpg",
+  "text": "Aslida esa hujjatlarni AQShning Alien Property Custodian deb atalgan davlat idorasi nazoratga olgan.",
+  "start": 421.13,
+  "end": 428.65,
+  "words": []
+ },
+ {
+  "n": 45,
+  "repeat": false,
+  "image": "images/45_FBI_yozishmalari_va_telegrammalar.jpg",
+  "text": "FBI esa bu masalaga oid xabarlar va yozishmalar bilan shug‘ullangan.",
+  "start": 428.65,
+  "end": 433.69,
+  "words": []
+ },
+ {
+  "n": 46,
+  "repeat": false,
+  "image": "images/46_Dushman_qoliga_tushish_xavfi.jpg",
+  "text": "Hukumatning asosiy xavotiri shunda edi: Teslaning hujjatlarida urush uchun muhim texnologiya bo‘lishi mumkinmi? Agar shunday bo‘lsa, u dushman davlatlar qo‘liga tushib qolmaydimi?",
+  "start": 433.69,
+  "end": 446.75,
+  "words": []
+ },
+ {
+  "n": 47,
+  "repeat": false,
+  "image": "images/47_1943_yanvar_oxiri_omborxonadagi_tekshiruv.jpg",
+  "text": "1943-yil yanvar oyining oxirida mutaxassislar uning qog‘ozlari va buyumlarini tekshirishga kirishdi.",
+  "start": 446.75,
+  "end": 453.95,
+  "words": []
+ },
+ {
+  "n": 48,
+  "repeat": false,
+  "image": "images/48_MIT_professori_Jon_Tramp_tekshiruvi.jpg",
+  "text": "Tekshiruvda Massachusets texnologiya institutidan elektrotexnika mutaxassisi Jon G. Tramp ham ishtirok etdi. U Teslaning so‘nggi yillardagi texnik yozuvlarini o‘rgandi.",
+  "start": 453.95,
+  "end": 466.65,
+  "words": []
+ },
+ {
+  "n": 49,
+  "repeat": false,
+  "image": "images/49_Generator_va_energiya_uzatish_chizmalari.jpg",
+  "text": "Hujjatlar orasida elektr generatorlari, energiyani uzatish va boshqa muhandislik g‘oyalariga oid materiallar mavjud edi.",
+  "start": 466.65,
+  "end": 473.91,
+  "words": []
+ },
+ {
+  "n": 50,
+  "repeat": false,
+  "image": "images/50_Rasmiy_xulosa_superqurol_topilmadi.jpg",
+  "text": "Ammo tekshiruv yakunida kutilmagan xulosa chiqarildi. Mutaxassislar ko‘rib chiqilgan materiallar orasida mamlakat uchun katta harbiy ahamiyatga ega bo‘ladigan, ilgari noma’lum va amalda ishlaydigan texnologiya topmaganini bildirdi. Jon Trampning baholashicha, Teslaning keyingi yillardagi ko‘plab g‘oyalari amaliy jihatdan isbotlangan qurilmalardan ko‘ra nazariy va taxminiy xarakterga ega edi. Demak, o‘lim nuri topilmaganmi? Rasmiy tekshiruv materiallaridan kelib chiqadigan xulosa shuki: mutaxassislar Teslaning qo‘lida tayyor, ishlaydigan superqurol mavjudligini tasdiqlamagan. Lekin hikoya shu bilan tugamaydi.",
+  "start": 473.91,
+  "end": 516.65,
+  "words": []
+ },
+ {
+  "n": 51,
+  "repeat": false,
+  "image": "images/51_Yoqolgan_qutilar_va_savollar.jpg",
+  "text": "Chunki Teslaning hujjatlari taqdiri haqida savollar paydo bo‘la boshladi. Uning qarindoshlari va tadqiqotchilari ayrim qog‘ozlarning qayerga ketgani bilan qiziqishdi. Turli yillarda hujjatlar soni, qutilar va saqlangan materiallar haqida bir-biridan farq qiladigan ma’lumotlar tarqaldi. Bu esa ko‘plab taxminlarga sabab bo‘ldi.",
+  "start": 516.65,
+  "end": 538.39,
+  "words": []
+ },
+ {
+  "n": 52,
+  "repeat": false,
+  "image": "images/52_Afsonalar_va_haqiqiy_ilmiy_meros.jpg",
+  "text": "Kimdir hukumat muhim ixtironi yashirgan deb o‘yladi. Boshqalar esa Teslaning hujjatlari atrofidagi shov-shuv uning haqiqiy ilmiy merosini soyada qoldirganini ta’kidladi. Bu ikki fikrni bir-biridan ajratish kerak. Davlat Teslaning hujjatlarini tekshirgan. Bu tarixiy fakt. Ammo hukumat ishlaydigan maxfiy superqurolni topib, uni insoniyatdan yashirgan degan da’vo ishonchli dalillar bilan tasdiqlanmagan.",
+  "start": 538.39,
+  "end": 566.71,
+  "words": []
+ },
+ {
+  "n": 53,
+  "repeat": false,
+  "image": "images/53_Belgraddagi_Nikola_Tesla_muzeyi.jpg",
+  "text": "Keyinchalik Teslaning ko‘plab hujjatlari va shaxsiy buyumlari Belgraddagi Nikola Tesla muzeyiga olib borildi. Uning ilmiy merosi tadqiqotchilar tomonidan o‘rganishda davom etdi.",
+  "start": 566.71,
+  "end": 577.93,
+  "words": []
+ },
+ {
+  "n": 54,
+  "repeat": false,
+  "image": "images/54_Ochilgan_FBI_arxiv_hujjatlari.jpg",
+  "text": "FBI bilan bog‘liq bir qator hujjatlar ham ommaga ochildi. Shu sababli bugun bu tarixning ayrim qismlarini taxminlar orqali emas, haqiqiy davlat yozishmalari orqali tekshirish mumkin.",
+  "start": 577.93,
+  "end": 590.03,
+  "words": []
+ },
+ {
+  "n": 55,
+  "repeat": false,
+  "image": "images/55_Tesla_hayotidagi_ulkan_paradoks.jpg",
+  "text": "Ammo Nikola Tesla hayotidagi eng katta paradoks boshqa joyda edi. U butun dunyoni elektr energiyasi bilan bog‘lashga yordam bergan insonlardan biri bo‘ldi. Lekin o‘zining ulkan orzularini amalga oshirish uchun yetarli mablag‘ topa olmadi. U kelajak texnologiyalari haqida o‘yladi. Ammo hayotining oxirida mehmonxona xonasida yolg‘iz yashadi.",
+  "start": 590.03,
+  "end": 613.09,
+  "words": []
+ },
+ {
+  "n": 56,
+  "repeat": false,
+  "image": "images/56_Zamonaviy_elektr_tizimlari_va_dunyo.jpg",
+  "text": "Uning ayrim ishlanmalari zamonaviy elektr tizimlarining muhim qismiga aylandi. Boshqa g‘oyalari esa hech qachon amaliy jihatdan tasdiqlanmadi.",
+  "start": 613.09,
+  "end": 622.75,
+  "words": []
+ },
+ {
+  "n": 57,
+  "repeat": false,
+  "image": "images/57_Insoniyat_tarixini_ozgartirgan_kashfiyotlar.jpg",
+  "text": "Bugun Nikola Teslaning nomini butun dunyo biladi. Ammo uning hayotini faqat sirli qurollar va yashirilgan ixtirolar bilan bog‘lash adolatdan bo‘lmaydi. Chunki uning haqiqiy kashfiyotlari ham insoniyat tarixini o‘zgartirish uchun yetarlicha buyuk edi.",
+  "start": 622.75,
+  "end": 639.21,
+  "words": []
+ },
+ {
+  "n": 8,
+  "repeat": true,
+  "image": "images/08_Xonadagi_sirli_seyf_va_qogozlar.jpg",
+  "text": "Endi hikoyamiz boshidagi savolga qaytamiz. Nega Amerika hukumati Tesla vafot etganidan keyin uning hujjatlarini olib qo‘ygan?",
+  "start": 639.21,
+  "end": 648.51,
+  "words": []
+ },
+ {
+  "n": 6,
+  "repeat": true,
+  "image": "images/06_Ikkinchi_jahon_urushi_davri.jpg",
+  "text": "Chunki dunyo urush ichida edi.",
+  "start": 648.51,
+  "end": 651.21,
+  "words": []
+ },
+ {
+  "n": 37,
+  "repeat": true,
+  "image": "images/37_Chegaralarni_himoya_qiluvchi_olim_nuri.jpg",
+  "text": "Chunki Tesla kuchli yangi qurol yaratish mumkinligini da’vo qilgan edi.",
+  "start": 651.21,
+  "end": 654.93,
+  "words": []
+ },
+ {
+  "n": 46,
+  "repeat": true,
+  "image": "images/46_Dushman_qoliga_tushish_xavfi.jpg",
+  "text": "Va chunki hukumat bunday texnologiya haqiqatan mavjud bo‘lsa, uning dushman qo‘liga tushishidan xavotirlangan edi.",
+  "start": 654.93,
+  "end": 663.13,
+  "words": []
+ },
+ {
+  "n": 50,
+  "repeat": true,
+  "image": "images/50_Rasmiy_xulosa_superqurol_topilmadi.jpg",
+  "text": "Tekshiruv esa tayyor superqurol mavjudligini tasdiqlamadi.",
+  "start": 663.13,
+  "end": 667.89,
+  "words": []
+ },
+ {
+  "n": 58,
+  "repeat": false,
+  "image": "images/58_Inson_tasavvurining_cheksiz_parvozi.jpg",
+  "text": "Shunday qilib, Tesla tarixining eng katta siri uning yashirilgan qurolida emas, balki bir insonning tasavvuri qanchalik uzoqqa bora olganida bo‘lishi mumkin.",
+  "start": 667.89,
+  "end": 678.69,
+  "words": []
+ },
+ {
+  "n": 59,
+  "repeat": false,
+  "image": "images/59_Chegaralardan_tashqariga_qaragan_daho.jpg",
+  "text": "U zamonasining chegaralaridan tashqariga qarashga urindi. Ba’zan muvaffaqiyat qozondi, ba’zan esa imkoniyatlardan ham uzoqqa ketdi. Lekin bir narsa aniq.",
+  "start": 678.69,
+  "end": 690.51,
+  "words": []
+ },
+ {
+  "n": 2,
+  "repeat": true,
+  "image": "images/02_New_Yorker_mehmonxonasi_3327_xona.jpg",
+  "text": "1943-yilda Nyu-Yorkdagi mehmonxona xonasida bir insonning hayoti tugagan bo‘lsa-da, uning nomi atrofidagi savollar hanuzgacha yashab kelmoqda.",
+  "start": 690.51,
+  "end": 704.21,
+  "words": []
+ },
+ {
+  "n": 60,
+  "repeat": false,
+  "image": "images/60_Teslaning_abadiy_merosi_ixtirolar_va_orzular.jpg",
+  "text": "Sizningcha, Teslaning eng buyuk merosi uning haqiqiy ixtirolarimi, yoki amalga oshmay qolgan ulkan orzularimi? Fikringizni izohlarda yozib qoldiring.",
+  "start": 704.21,
+  "end": 716.64,
+  "words": []
+ }
+]
