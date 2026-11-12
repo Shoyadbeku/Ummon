@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, random, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, random, staticFile, useCurrentFrame} from 'remotion';
 
 // Vinyetka + plyonka donadorligi + changlar + iliq rang
 export const FilmOverlay: React.FC = () => {
@@ -22,16 +22,8 @@ export const FilmOverlay: React.FC = () => {
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       {/* iliq rang tusi */}
       <AbsoluteFill style={{background: 'rgba(120, 80, 30, 0.10)', mixBlendMode: 'multiply'}} />
-      {/* donadorlik */}
-      <AbsoluteFill style={{opacity: 0.09, mixBlendMode: 'overlay'}}>
-        <svg width="100%" height="100%">
-          <filter id="grain">
-            <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed={frame % 30} />
-            <feColorMatrix type="saturate" values="0" />
-          </filter>
-          <rect width="100%" height="100%" filter="url(#grain)" />
-        </svg>
-      </AbsoluteFill>
+      {/* donadorlik (oldindan tayyorlangan shovqin rasmlari) */}
+      <Img src={staticFile(`grain/g${frame % 8}.png`)} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: 0.07, mixBlendMode: 'overlay'}} />
       {/* changlar */}
       {specks.map((sp, i) =>
         sp.show ? (

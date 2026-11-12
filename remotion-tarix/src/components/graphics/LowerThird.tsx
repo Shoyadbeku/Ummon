@@ -17,7 +17,7 @@ export const LowerThird: React.FC<{name: string; role: string}> = ({name, role})
     <div style={{position: 'absolute', left: 110, bottom: 250, opacity: out, transform: `translateX(${outX}px)`, display: 'flex', alignItems: 'stretch', gap: 22}}>
       <div style={{width: 6, background: VIDEO.accent, transform: `scaleY(${bar})`, transformOrigin: 'bottom', boxShadow: `0 0 18px ${VIDEO.accent}`}} />
       <div>
-        <div style={{clipPath: `inset(0 ${100 - reveal}% 0 0)`, background: 'rgba(10,8,6,0.78)', padding: '10px 26px 8px', backdropFilter: 'blur(6px)'}}>
+        <div style={{clipPath: `inset(0 ${100 - reveal}% 0 0)`, background: 'rgba(10,8,6,0.78)', padding: '10px 26px 8px'}}>
           <div style={{fontFamily: serif, fontWeight: 700, fontSize: 58, color: VIDEO.text, lineHeight: 1.1}}>{name}</div>
         </div>
         <div style={{clipPath: `inset(0 ${100 - role2}% 0 0)`, background: VIDEO.accent, padding: '8px 26px', display: 'inline-block'}}>
