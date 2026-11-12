@@ -1,0 +1,874 @@
+[
+ {
+  "id": "s000",
+  "start": 0.0,
+  "end": 4.5,
+  "frames": 73,
+  "seed": 100,
+  "prompt": "Extreme close-up of an ancient clay tablet covered with cuneiform writing, warm flickering oil lamp light, slow camera push in, dust particles in the air, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s001",
+  "start": 4.5,
+  "end": 8.7,
+  "frames": 73,
+  "seed": 101,
+  "prompt": "Aerial drone shot slowly flying over an ancient Mesopotamian mudbrick city at sunrise, flat roofs, narrow streets, a ziggurat rising in the center, river and palm groves, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s002",
+  "start": 8.7,
+  "end": 15.4,
+  "frames": 97,
+  "seed": 102,
+  "prompt": "An ancient Mesopotamian man in a linen robe sits alone in a dim mudbrick room lit by a small oil lamp, thoughtful face, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s003",
+  "start": 15.4,
+  "end": 18.2,
+  "frames": 73,
+  "seed": 103,
+  "prompt": "A worried ancient farmer looks into empty clay storage jars in a dark storeroom, only a few grains of barley left, dramatic side light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s004",
+  "start": 18.2,
+  "end": 25.5,
+  "frames": 97,
+  "seed": 104,
+  "prompt": "A stern ancient official in a fringed robe and a scribe holding a clay tablet arrive at the wooden door of a mudbrick house, dusty street, tense mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s005",
+  "start": 25.5,
+  "end": 35.5,
+  "frames": 121,
+  "seed": 105,
+  "prompt": "Ancient laborers carry heavy mudbricks under harsh sun at a construction site in Mesopotamia, an overseer watching, dust and sweat, slow tracking shot, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s006",
+  "start": 35.5,
+  "end": 44.6,
+  "frames": 121,
+  "seed": 106,
+  "prompt": "Slow cinematic pan across the ruins of an ancient ziggurat in the desert at dusk, purple and orange sky, wind blowing sand, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s007",
+  "start": 44.6,
+  "end": 48.6,
+  "frames": 73,
+  "seed": 107,
+  "prompt": "Modern glass bank building in a city at blue hour, people walking past, reflections, slow upward tilt, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s008",
+  "start": 48.6,
+  "end": 51.6,
+  "frames": 73,
+  "seed": 108,
+  "prompt": "Close-up of a hand tapping a plastic credit card on a payment terminal in a modern cafe, soft bokeh lights, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s009",
+  "start": 51.6,
+  "end": 57.6,
+  "frames": 97,
+  "seed": 109,
+  "prompt": "Close-up of ancient hands exchanging coiled silver rings and a basket of barley in a Mesopotamian market, warm sunlight, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s010",
+  "start": 57.6,
+  "end": 62.7,
+  "frames": 97,
+  "seed": 110,
+  "prompt": "A bustling ancient Mesopotamian marketplace, merchants with sacks of grain, clay pots and textiles, people bargaining, camera gliding through the crowd, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s011",
+  "start": 62.7,
+  "end": 66.5,
+  "frames": 73,
+  "seed": 111,
+  "prompt": "Inside a great Sumerian temple storehouse, priests in white robes count sacks of grain stacked high, shafts of light through high windows, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s012",
+  "start": 66.5,
+  "end": 69.6,
+  "frames": 73,
+  "seed": 112,
+  "prompt": "Close-up of an ancient scribe counting small clay tokens and pebbles on a wooden table, oil lamp light, careful hands, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s013",
+  "start": 69.6,
+  "end": 73.0,
+  "frames": 73,
+  "seed": 113,
+  "prompt": "A shadowy dark doorway of an ancient mudbrick building at night, a silhouette of a man standing in fear, torchlight flickering, mysterious atmosphere, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s014",
+  "start": 73.0,
+  "end": 76.8,
+  "frames": 73,
+  "seed": 114,
+  "prompt": "An ancient Mesopotamian king with a long curled beard sits on a stone throne in a grand hall, courtiers bowing, torches, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s015",
+  "start": 76.8,
+  "end": 82.4,
+  "frames": 97,
+  "seed": 115,
+  "prompt": "A large crowd of ancient Mesopotamian people gathers in front of a palace while a herald reads a proclamation from the steps, dramatic sky, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s016",
+  "start": 82.4,
+  "end": 88.1,
+  "frames": 97,
+  "seed": 116,
+  "prompt": "Epic aerial shot flying toward the massive mudbrick walls of an ancient city, gates, fields and canals around it, morning haze, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s017",
+  "start": 88.1,
+  "end": 92.0,
+  "frames": 73,
+  "seed": 117,
+  "prompt": "Sunrise over the wide Euphrates river valley, reed boats on the calm water, palm trees silhouetted, mist over the water, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s018",
+  "start": 92.0,
+  "end": 97.2,
+  "frames": 97,
+  "seed": 118,
+  "prompt": "Cinematic slow dolly shot through an ancient Sumerian city at golden hour, mudbrick houses and a massive ziggurat in the distance, people in linen robes walking with baskets of barley, dust floating in warm sunlight, palm trees, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s019",
+  "start": 97.2,
+  "end": 99.6,
+  "frames": 73,
+  "seed": 119,
+  "prompt": "Ancient farmers plow a field with a wooden plow pulled by oxen, irrigation canal beside, golden morning light, wide shot, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s020",
+  "start": 99.6,
+  "end": 103.0,
+  "frames": 73,
+  "seed": 120,
+  "prompt": "A shepherd guides a flock of sheep and goats along a river bank in ancient Mesopotamia, reed boats carrying goods in the background, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s021",
+  "start": 103.0,
+  "end": 109.6,
+  "frames": 97,
+  "seed": 121,
+  "prompt": "Golden barley field swaying in the wind under a warm sunset, slow camera movement through the stalks, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s022",
+  "start": 109.6,
+  "end": 117.0,
+  "frames": 97,
+  "seed": 122,
+  "prompt": "A poor ancient family shares a small piece of flatbread around a simple meal in a mudbrick house, warm lamp light, quiet mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s023",
+  "start": 117.0,
+  "end": 121.4,
+  "frames": 73,
+  "seed": 123,
+  "prompt": "Close-up of a farmer's hand scooping the last handful of barley from the bottom of a large empty clay storage jar, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s024",
+  "start": 121.4,
+  "end": 125.7,
+  "frames": 73,
+  "seed": 124,
+  "prompt": "Young green barley sprouts in a field under a moving cloudy sky, time-lapse feeling, ancient village in the background, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s025",
+  "start": 125.7,
+  "end": 127.2,
+  "frames": 73,
+  "seed": 125,
+  "prompt": "An anxious ancient farmer stands at the edge of his field, looking at the horizon, wind in his robe, overcast light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s026",
+  "start": 127.2,
+  "end": 131.4,
+  "frames": 73,
+  "seed": 126,
+  "prompt": "At a large estate granary, a worker pours barley from a big basket into a farmer's sack while a scribe watches, sunlight and dust, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s027",
+  "start": 131.4,
+  "end": 136.2,
+  "frames": 97,
+  "seed": 127,
+  "prompt": "Harvest season in ancient Mesopotamia, farmers cut ripe barley with bronze sickles and bind sheaves, golden light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s028",
+  "start": 136.2,
+  "end": 140.4,
+  "frames": 73,
+  "seed": 128,
+  "prompt": "Barley being measured with wooden measuring baskets into a pile, one extra basket poured on top, close-up, warm light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s029",
+  "start": 140.4,
+  "end": 145.0,
+  "frames": 97,
+  "seed": 129,
+  "prompt": "Close-up of an ancient balance scale weighing barley and coiled silver, a scribe's hand adjusting it, shallow depth of field, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s030",
+  "start": 145.0,
+  "end": 150.4,
+  "frames": 97,
+  "seed": 130,
+  "prompt": "Slow push in on stacks of grain sacks and silver rings on a table in an ancient storeroom, rays of light through a doorway, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s031",
+  "start": 150.4,
+  "end": 155.0,
+  "frames": 97,
+  "seed": 131,
+  "prompt": "Close-up of a hand signing a loan contract with a pen on a desk in a modern bank office, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s032",
+  "start": 155.0,
+  "end": 160.3,
+  "frames": 97,
+  "seed": 132,
+  "prompt": "Close-up of coiled silver rings and pieces of silver being placed on a bronze balance scale in an ancient Babylonian market, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s033",
+  "start": 160.3,
+  "end": 167.1,
+  "frames": 97,
+  "seed": 133,
+  "prompt": "An ancient scribe sits thinking in a dim room full of clay tablets on shelves, lamp light on his face, contemplative mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s034",
+  "start": 167.1,
+  "end": 172.2,
+  "frames": 97,
+  "seed": 134,
+  "prompt": "Close-up of hands kneading and shaping wet river clay into a flat tablet, water glistening, warm light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s035",
+  "start": 172.2,
+  "end": 178.0,
+  "frames": 97,
+  "seed": 135,
+  "prompt": "Macro shot of a reed stylus pressing wedge-shaped cuneiform signs into a wet clay tablet, slow motion, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s036",
+  "start": 178.0,
+  "end": 186.1,
+  "frames": 121,
+  "seed": 136,
+  "prompt": "An ancient scribe writes on a clay tablet while two men in robes stand as witnesses in a courtyard, sunlight, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s037",
+  "start": 186.1,
+  "end": 187.6,
+  "frames": 73,
+  "seed": 137,
+  "prompt": "Rows of fresh clay tablets drying in the sun on a mudbrick rooftop, shadows moving, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s038",
+  "start": 187.6,
+  "end": 192.7,
+  "frames": 97,
+  "seed": 138,
+  "prompt": "Close-up of a stone cylinder seal being rolled across a wet clay tablet leaving a detailed impression, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s039",
+  "start": 192.7,
+  "end": 197.8,
+  "frames": 97,
+  "seed": 139,
+  "prompt": "Ancient clay tablet and a modern paper bank contract lying side by side on a wooden desk, soft light, slow camera slide, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s040",
+  "start": 197.8,
+  "end": 204.7,
+  "frames": 97,
+  "seed": 140,
+  "prompt": "Ancient cuneiform clay tablets displayed in a dark museum glass case with spotlights, slow tracking shot, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s041",
+  "start": 204.7,
+  "end": 210.5,
+  "frames": 97,
+  "seed": 141,
+  "prompt": "An archaeologist carefully brushes dust off a clay tablet at an excavation site in the desert, bright sun, close-up of hands, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s042",
+  "start": 210.5,
+  "end": 219.3,
+  "frames": 121,
+  "seed": 142,
+  "prompt": "A gloved hand holds an ancient cuneiform tablet up to the light, camera slowly orbiting, dust particles, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s043",
+  "start": 219.3,
+  "end": 224.7,
+  "frames": 97,
+  "seed": 143,
+  "prompt": "Epic aerial shot of ancient Babylon at sunset, a great ziggurat, temples and city walls beside the Euphrates river, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s044",
+  "start": 224.7,
+  "end": 228.6,
+  "frames": 73,
+  "seed": 144,
+  "prompt": "King Hammurabi, a regal Babylonian king with a long curled beard and royal headdress, stands in a palace hall lit by torches, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s045",
+  "start": 228.6,
+  "end": 234.0,
+  "frames": 97,
+  "seed": 145,
+  "prompt": "A tall black basalt stele carved with dense cuneiform law inscriptions and a relief of a king before a god, dramatic museum lighting, slow tilt up, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s046",
+  "start": 234.0,
+  "end": 241.8,
+  "frames": 97,
+  "seed": 146,
+  "prompt": "A busy Babylonian marketplace with merchants trading textiles, pottery, grain and livestock, camera moving through the crowd, warm light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s047",
+  "start": 241.8,
+  "end": 250.4,
+  "frames": 121,
+  "seed": 147,
+  "prompt": "Royal Babylonian scribes sit in rows copying laws onto clay tablets in a palace hall, an official walking between them, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s048",
+  "start": 250.4,
+  "end": 258.7,
+  "frames": 121,
+  "seed": 148,
+  "prompt": "A Babylonian merchant weighs silver on a balance scale and a scribe records it on a clay tablet, close-up, warm light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s049",
+  "start": 258.7,
+  "end": 266.2,
+  "frames": 97,
+  "seed": 149,
+  "prompt": "Large heaps of grain in a Babylonian granary being measured with baskets, workers and a scribe counting, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s050",
+  "start": 266.2,
+  "end": 272.6,
+  "frames": 97,
+  "seed": 150,
+  "prompt": "Slow camera pan across carved cuneiform inscriptions on a black stone stele, raking light revealing texture, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s051",
+  "start": 272.6,
+  "end": 278.3,
+  "frames": 97,
+  "seed": 151,
+  "prompt": "A Babylonian royal palace courtyard with officials discussing, tall columns and blue glazed brick walls, golden hour, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s052",
+  "start": 278.3,
+  "end": 285.3,
+  "frames": 97,
+  "seed": 152,
+  "prompt": "An ancient Babylonian farmer scatters seeds by hand across a plowed field at sunrise, wide shot, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s053",
+  "start": 285.3,
+  "end": 291.3,
+  "frames": 97,
+  "seed": 153,
+  "prompt": "Cracked dry earth and withered barley stalks under a scorching sun, drought, heat haze, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s054",
+  "start": 291.3,
+  "end": 297.3,
+  "frames": 97,
+  "seed": 154,
+  "prompt": "A desperate ancient farmer sits on the ground beside his empty granary at dusk, head in his hands, red sky, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s055",
+  "start": 297.3,
+  "end": 305.3,
+  "frames": 97,
+  "seed": 155,
+  "prompt": "A man and a bank advisor talk across a desk in a modern bright office, looking at documents, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s056",
+  "start": 305.3,
+  "end": 310.3,
+  "frames": 97,
+  "seed": 156,
+  "prompt": "An ancient family is led away from their mudbrick home by an official, the mother holding a child, dusty road, somber mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s057",
+  "start": 310.3,
+  "end": 317.3,
+  "frames": 97,
+  "seed": 157,
+  "prompt": "Bonded laborers work in a field under the watch of an overseer in ancient Babylon, harsh sunlight, dust, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s058",
+  "start": 317.3,
+  "end": 323.3,
+  "frames": 97,
+  "seed": 158,
+  "prompt": "Close-up of cuneiform law text carved in black basalt, camera slowly sliding sideways, dramatic side light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s059",
+  "start": 323.3,
+  "end": 329.3,
+  "frames": 97,
+  "seed": 159,
+  "prompt": "A young ancient Mesopotamian man walks free out through a large city gate toward the sunrise, hopeful mood, backlit, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s060",
+  "start": 329.3,
+  "end": 342.3,
+  "frames": 121,
+  "seed": 160,
+  "prompt": "Broken bronze shackles lying in the dust in a beam of sunlight, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s061",
+  "start": 342.3,
+  "end": 350.3,
+  "frames": 97,
+  "seed": 161,
+  "prompt": "An ancient Mesopotamian king on a balcony raises his hand to a cheering crowd below, banners, golden light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s062",
+  "start": 350.3,
+  "end": 354.3,
+  "frames": 73,
+  "seed": 162,
+  "prompt": "Ancient soldiers with spears and shields march across a dusty plain, smoke on the horizon, war atmosphere, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s063",
+  "start": 354.3,
+  "end": 362.3,
+  "frames": 97,
+  "seed": 163,
+  "prompt": "An ancient village in drought, empty dry canals, thin livestock, people carrying water jars, heat haze, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s064",
+  "start": 362.3,
+  "end": 369.3,
+  "frames": 97,
+  "seed": 164,
+  "prompt": "Ancient families leaving their village with belongings on donkeys, walking away along a dusty road at sunset, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s065",
+  "start": 369.3,
+  "end": 374.3,
+  "frames": 97,
+  "seed": 165,
+  "prompt": "A worried council of ancient Mesopotamian elders and officials talking in a dim palace room, torchlight, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s066",
+  "start": 374.3,
+  "end": 382.3,
+  "frames": 97,
+  "seed": 166,
+  "prompt": "Coronation of an ancient Mesopotamian king, a crown placed on his head, priests and nobles around him, torches and incense smoke, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s067",
+  "start": 382.3,
+  "end": 385.3,
+  "frames": 73,
+  "seed": 167,
+  "prompt": "Scribes break old clay debt tablets on the ground before a crowd in an ancient city square, fragments flying, slow motion, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s068",
+  "start": 385.3,
+  "end": 390.3,
+  "frames": 97,
+  "seed": 168,
+  "prompt": "Freed ancient people embrace their families in joy at a city gate, warm sunlight, emotional moment, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s069",
+  "start": 390.3,
+  "end": 399.3,
+  "frames": 121,
+  "seed": 169,
+  "prompt": "Ancient merchants making a deal in a caravanserai courtyard, a scribe writing a contract on clay, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s070",
+  "start": 399.3,
+  "end": 409.3,
+  "frames": 121,
+  "seed": 170,
+  "prompt": "Exterior of a grand ancient Mesopotamian palace with blue glazed brick walls at sunset, slow aerial pull back, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s071",
+  "start": 409.3,
+  "end": 420.3,
+  "frames": 121,
+  "seed": 171,
+  "prompt": "Slow aerial shot over ancient Athens with the Acropolis hill and temples, olive groves, Mediterranean light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s072",
+  "start": 420.3,
+  "end": 429.3,
+  "frames": 121,
+  "seed": 172,
+  "prompt": "Poor ancient Greek farmers working rocky terraced fields with olive trees on a hillside, tired faces, harsh sun, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s073",
+  "start": 429.3,
+  "end": 434.3,
+  "frames": 97,
+  "seed": 173,
+  "prompt": "Stone boundary markers standing in an ancient Greek farmer's field, a sad farmer looking at them, overcast sky, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s074",
+  "start": 434.3,
+  "end": 440.3,
+  "frames": 97,
+  "seed": 174,
+  "prompt": "A heated crowd of ancient Greek citizens arguing in the agora, raised hands, marble columns, tense atmosphere, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s075",
+  "start": 440.3,
+  "end": 449.3,
+  "frames": 121,
+  "seed": 175,
+  "prompt": "Solon, a wise bearded ancient Greek statesman in a himation, addresses citizens in the agora from a stone platform, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s076",
+  "start": 449.3,
+  "end": 456.3,
+  "frames": 97,
+  "seed": 176,
+  "prompt": "Ancient Greek citizens watching as boundary stones are pulled out of fields, celebration, golden light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s077",
+  "start": 456.3,
+  "end": 466.3,
+  "frames": 121,
+  "seed": 177,
+  "prompt": "Freed ancient Greek men and women walking together through Athens streets at sunrise, joyful mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s078",
+  "start": 466.3,
+  "end": 474.3,
+  "frames": 97,
+  "seed": 178,
+  "prompt": "A collection of ancient clay tablets, silver rings and early coins arranged on dark cloth, slow overhead camera move, dramatic light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s079",
+  "start": 474.3,
+  "end": 483.3,
+  "frames": 121,
+  "seed": 179,
+  "prompt": "Close-up of ancient silver coins falling slowly onto a wooden table, shallow depth of field, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s080",
+  "start": 483.3,
+  "end": 487.3,
+  "frames": 73,
+  "seed": 180,
+  "prompt": "Time-lapse of clouds over an ancient city that grows over the centuries, sweeping view, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s081",
+  "start": 487.3,
+  "end": 491.3,
+  "frames": 73,
+  "seed": 181,
+  "prompt": "A long camel caravan crosses golden sand dunes at sunset, silhouettes against the sun, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s082",
+  "start": 491.3,
+  "end": 499.3,
+  "frames": 97,
+  "seed": 182,
+  "prompt": "A medieval merchant counts gold coins and writes in a leather ledger by candlelight in a wooden counting house, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s083",
+  "start": 499.3,
+  "end": 508.3,
+  "frames": 121,
+  "seed": 183,
+  "prompt": "Silk Road caravan of camels loaded with silk and spices arriving at the turquoise domes of medieval Samarkand, golden hour, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s084",
+  "start": 508.3,
+  "end": 517.3,
+  "frames": 121,
+  "seed": 184,
+  "prompt": "Inside a busy caravanserai courtyard in Central Asia, merchants shake hands and sign a paper agreement, camels resting, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s085",
+  "start": 517.3,
+  "end": 523.3,
+  "frames": 97,
+  "seed": 185,
+  "prompt": "Registan square in Samarkand with three majestic madrasas covered in turquoise and blue mosaic tiles, warm afternoon light, slow aerial, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s086",
+  "start": 523.3,
+  "end": 535.3,
+  "frames": 121,
+  "seed": 186,
+  "prompt": "A medieval Islamic scholar writes with a reed pen in a calligraphic manuscript in a madrasa courtyard, soft light, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s087",
+  "start": 535.3,
+  "end": 541.3,
+  "frames": 97,
+  "seed": 187,
+  "prompt": "A colorful medieval Samarkand bazaar with silk, spices and ceramics, merchants and buyers, camera gliding, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s088",
+  "start": 541.3,
+  "end": 548.3,
+  "frames": 97,
+  "seed": 188,
+  "prompt": "Close-up of an old man with a wise face looking into the distance, warm light, thoughtful mood, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s089",
+  "start": 548.3,
+  "end": 557.3,
+  "frames": 121,
+  "seed": 189,
+  "prompt": "A modern young man looks out of a high-rise window over a city at sunset, thoughtful, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s090",
+  "start": 557.3,
+  "end": 561.3,
+  "frames": 73,
+  "seed": 190,
+  "prompt": "Close-up of a farmer's open palm full of barley seeds, sunlight, field in the background, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s091",
+  "start": 561.3,
+  "end": 564.3,
+  "frames": 73,
+  "seed": 191,
+  "prompt": "A merchant loads bales of goods onto camels at dawn in an ancient trading town, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s092",
+  "start": 564.3,
+  "end": 569.3,
+  "frames": 97,
+  "seed": 192,
+  "prompt": "A young family stands in front of a new modern house, holding keys, sunny day, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s093",
+  "start": 569.3,
+  "end": 574.3,
+  "frames": 97,
+  "seed": 193,
+  "prompt": "A new car in a bright showroom, a man touching the hood, reflections, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s094",
+  "start": 574.3,
+  "end": 584.3,
+  "frames": 121,
+  "seed": 194,
+  "prompt": "Ancient silver coins, paper banknotes and a smartphone with a banking app lying on a table, slow camera slide, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s095",
+  "start": 584.3,
+  "end": 590.3,
+  "frames": 97,
+  "seed": 195,
+  "prompt": "A clay tablet with cuneiform on a stone table in an ancient room, lamp light, slow push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s096",
+  "start": 590.3,
+  "end": 593.3,
+  "frames": 73,
+  "seed": 196,
+  "prompt": "Rows of glowing servers in a modern data center, blue light, slow tracking shot, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s097",
+  "start": 593.3,
+  "end": 597.3,
+  "frames": 73,
+  "seed": 197,
+  "prompt": "An ancient farmer carries a heavy sack of harvested barley to a granary at sunset, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s098",
+  "start": 597.3,
+  "end": 600.3,
+  "frames": 73,
+  "seed": 198,
+  "prompt": "An office worker looks at a salary notification on a smartphone at a desk in the evening, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s099",
+  "start": 600.3,
+  "end": 605.3,
+  "frames": 97,
+  "seed": 199,
+  "prompt": "An ancient king's herald unrolls a decree before people in a city square, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s100",
+  "start": 605.3,
+  "end": 614.3,
+  "frames": 121,
+  "seed": 200,
+  "prompt": "Exterior of a modern courthouse with tall columns, people walking up the steps, morning light, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s101",
+  "start": 614.3,
+  "end": 623.3,
+  "frames": 121,
+  "seed": 201,
+  "prompt": "Modern city skyline at night with glowing skyscrapers, slow aerial movement, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s102",
+  "start": 623.3,
+  "end": 631.3,
+  "frames": 97,
+  "seed": 202,
+  "prompt": "An ancient cuneiform clay tablet in darkness lit by a single beam of light, slow orbit, dust particles, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s103",
+  "start": 631.3,
+  "end": 636.3,
+  "frames": 97,
+  "seed": 203,
+  "prompt": "An ancient farmer stands at the edge of a green field at sunrise, looking at the horizon with hope, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ },
+ {
+  "id": "s104",
+  "start": 636.3,
+  "end": 641.3,
+  "frames": 97,
+  "seed": 204,
+  "prompt": "A modern person stands at a window of an apartment at sunrise looking at the city, hopeful mood, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s105",
+  "start": 641.3,
+  "end": 648.3,
+  "frames": 97,
+  "seed": 205,
+  "prompt": "Split feeling: an ancient clay tablet beside a modern smartphone on a wooden table, slow camera movement, soft light, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s106",
+  "start": 648.3,
+  "end": 659.3,
+  "frames": 121,
+  "seed": 206,
+  "prompt": "Close-up of an old wrinkled hand and a young hand clasping each other, warm light, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s107",
+  "start": 659.3,
+  "end": 669.3,
+  "frames": 121,
+  "seed": 207,
+  "prompt": "A futuristic city with green towers and flying vehicles at dawn, wide establishing shot, cinematic documentary, shallow depth of field, realistic, highly detailed"
+ },
+ {
+  "id": "s108",
+  "start": 669.3,
+  "end": 677.96,
+  "frames": 121,
+  "seed": 208,
+  "prompt": "Registan square in Samarkand at night under a vast starry sky with the Milky Way, turquoise tiled domes softly lit in warm golden light, slow camera push in, cinematic historical documentary, 35mm film look, natural light, realistic, highly detailed"
+ }
+]
