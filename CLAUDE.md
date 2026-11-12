@@ -237,3 +237,20 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Laying_Idle` (inplace=False): Hips 1.08, bosh +Y da 0.55; operatsiya stoli 0.88 da root z = -0.1.
 - Shaffof (transmission ≥ 0.7) yupqa shox parda qora fonda ko'rinmay qoladi: 0.4 + emissiya.
 - 40% (432x768), 8 sample: xona/rentgen/kesim ~10 s/kadr (1056 kadr ≈ 3 soat).
+
+- Kuyikka tish pastasi misoli: `zack_test/tools/get_kuyik.sh`, sahna `zack_test/kuyik/kuyik.py` (xona + Megan dazmollaydi, qo'llar IK;
+  makro qo'l: kaft/bilak/barmoqlar `parts.build_finger`, kuyik/chandiq materiali `hand_skin` — "burn"/"scar" qiymatlari;
+  teri kesimi `parts.build_section` + kuyik zonasi (ellipsoid, blok bilan Boolean INTERSECT, chuqurlik = scale.z);
+  issiqlik zarralari `bake_path` (foreach_set bilan tez kalitlash); asab uchlari impuls poyezdi; "pishgan" hujayralar).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz ... studio_11" -> kuyikka tish pastasi): Whisper bilan tekshir.
+- Dazmol taxtasida Megan: root (−0.02, −0.05, 0), taxta usti 0.88 m; `Breathing_Idle` + ikki qo'lga IK (`ik_arm`), o'ng kaft TRACK_Z,
+  chap kaft TRACK_NEGATIVE_Z (pastga) to'g'ri chiqdi. Boshga DAMPED_TRACK (TRACK_Z, 0.55) — qo'llarga qaraydi.
+- Kesimda zarralar blok ichida ko'rinmaydi: ularni old (kesim) yuzadan 1–3 sm oldinga qo'y (y = FY − 0.01..0.03).
+- `puffs` (bug') kabi `bake_path` bilan kalitlangan ob'ektlar oxirgi kalit qiymatida qoladi: oraliqdan tashqarida `vis` bilan yashir.
+- Ingichka plyonkani scale x/y = 0.001 bilan "yashirma": z o'lchami qoladi va kesimda tik tayoqcha bo'lib ko'rinadi — `vis` ishlat.
+- Bug' materiali `LayerWeight Facing` bilan qalinlik bersa halqa bo'lib chiqadi: zichlik = (1 − Facing)^2.5 × noise.
+- Kesim studiyasida (qora fon) 140 W AREA + AgX Punchy hamma narsani pushti-oq qilib yuvib yubordi: ~55/18/35 W yetarli;
+  to'q sariq emissiya 2.5 dan oshsa oqarib ketadi.
+- Makro qo'l kadrida kamera barmoqlar tomonida (−Y) past tursa barmoqlar kadrni to'sadi: tepadan-old (z ≥ 0.17, masofa ~0.35 m, 24–36 mm).
+- `iron_outline` uchi +X da: qo'lga −X tomondan yaqinlashsa dazmolni 180° bur.
+- 40% (432x768), 8 sample: xona/makro/kesim ~7.5 s/kadr (948 kadr ≈ 2 soat).
