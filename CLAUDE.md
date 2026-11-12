@@ -287,4 +287,4 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Rentgen qobiq (kiyim + tana ustma-ust) sutdek oqarib ketadi: fresnel darajasi 3.2, `inner` 0, kuch ~0.85 (`pichoq.py: xray_mat`).
 - Makro yog' qatlami (sariq) va asab tolalari bir xil ko'rinadi: yog'ni to'q to'q sariq (0.82, 0.5, 0.14), asabni limon sariq + kuchsiz emissiya qil;
   kesim yuzasidagi tolani tig' (qalinligi ±0.9 mm) **orqasiga** qo'y (y = 1.25), aks holda tig' "bo'lingan" ko'rinadi.
-- 40% (432x768), 8 sample: ko'cha (Leonard) ~11, xona ~8, makro/rentgen ~5 s/kadr.
+- 40% (432x768), 8 sample: ko'cha (Leonard) ~11, xona ~8, makro/rentgen ~5 s/kadr (949 kadr ≈ 2.5 soat).
