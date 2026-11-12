@@ -272,3 +272,19 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - EXACT boolean kesuvchi o'zini kesib o'tsa (ustma-ust qutilar), qatlam jimgina yo'qoladi: `use_self=True`, `use_hole_tolerant=True`.
 - Yallig'lanish "nuri" uchun Mix shader (kuch 0 da qora markaz) emas, Transparent + Emission **Add** shader ishlat (`oqsoch.py: glow_mat`).
 - 40% (432x768), 8 sample: hammom ~6.5, makro soch ~4.5, kesim (qon/bakteriya/shaffof) 23–35 s/kadr (1063 kadr ≈ 6.3 soat).
+
+- Pichoq misoli: `zack_test/tools/get_pichoq.sh`, sahna `zack_test/pichoq/pichoq.py` (kino ko'chasi + Leonard pichoqni sug'uradi — 2 ta IK
+  (dasta / ko'tarish) va qo'ldagi nusxa `RightHand` ga `CHILD_OF`; mehmonxona + Megan; rentgen tana: aorta, yurak "DRAIN", ichak, qorin
+  bo'shlig'idagi qon; makro kesim: tig' uchi atrofida buriladi, asab/mushak tolalari qirra yetganda uziladi `edge_x_at`, qon tanachalari
+  aylanmasdan chiziqli oqadi; shisha tiqini taqqoslash).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_14" -> tanaga sanchilgan pichoqni sug'urish): Whisper bilan tekshir.
+- `character_tpose/*.png` da har qahramon **ikki** ustun (old/orqa): rasmlarni yonma-yon qo'yganda nomlarni ustun juftligi bilan mosla
+  (Jones — qizil zirhli ayol, qora kiyimli erkak — Leonard).
+- Qahramon tanasiga narsa sanchish nuqtasini `sc.ray_cast` bilan topma (qo'l/bilak to'sadi): faqat tana/ko'ylak mesh'lariga
+  `ob.ray_cast(Mi @ o, dir, depsgraph=dg)` (`pichoq.py: knife_pose`). Megan: Spine (0, -0.02, 1.03), chap biqin (0.09, -0.12, 1.02).
+- AREA chiroq o'z -Z o'qi bo'ylab nur sochadi: `rotation=(0, -90°, 0)` uni **+X** ga qaratadi. +X devordagi derazadan xonaga (−X) nur uchun +90°.
+- Deraza teshigiga qo'yilgan emissiv panel tashqi chiroqning nurini to'sadi: panelga `visible_shadow = False`.
+- Rentgen qobiq (kiyim + tana ustma-ust) sutdek oqarib ketadi: fresnel darajasi 3.2, `inner` 0, kuch ~0.85 (`pichoq.py: xray_mat`).
+- Makro yog' qatlami (sariq) va asab tolalari bir xil ko'rinadi: yog'ni to'q to'q sariq (0.82, 0.5, 0.14), asabni limon sariq + kuchsiz emissiya qil;
+  kesim yuzasidagi tolani tig' (qalinligi ±0.9 mm) **orqasiga** qo'y (y = 1.25), aks holda tig' "bo'lingan" ko'rinadi.
+- 40% (432x768), 8 sample: ko'cha (Leonard) ~11, xona ~8, makro/rentgen ~5 s/kadr.
