@@ -1,3 +1,7 @@
 # Ovoz modellari ochiq repozitoriyga qo'yilmaydi
 *.pth
 *.index
+assets/
+renders/frames/
+renders/test/
+renders/log_*
