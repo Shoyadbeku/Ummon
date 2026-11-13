@@ -1,15 +1,10 @@
-import { continueRender, delayRender, staticFile } from "remotion";
+import { continueRender, delayRender } from "remotion";
+import { Cinzel, Playfair, SpecialElite } from "./fontData";
 
-const fonts: [string, string][] = [
-  ["Cinzel", "fonts/Cinzel.ttf"],
-  ["Playfair", "fonts/Playfair.ttf"],
-  ["SpecialElite", "fonts/SpecialElite.ttf"],
-];
-
-const handle = delayRender("fonts", { timeoutInMilliseconds: 120000 });
+const handle = delayRender("fonts", { timeoutInMilliseconds: 60000 });
 Promise.all(
-  fonts.map(([name, file]) => {
-    const f = new FontFace(name, `url(${staticFile(file)})`, { weight: "100 900" });
+  ([["Cinzel", Cinzel], ["Playfair", Playfair], ["SpecialElite", SpecialElite]] as const).map(([name, url]) => {
+    const f = new FontFace(name, `url(${url})`, { weight: "100 900" });
     return f.load().then(() => document.fonts.add(f));
   }),
 )

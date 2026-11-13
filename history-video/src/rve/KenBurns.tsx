@@ -1,6 +1,7 @@
 // Adapted from the free Remotion templates by React Video Editor
 // https://github.com/reactvideoeditor/remotion-templates (reactvideoeditor.com) — ken-burns.tsx
-// (rewritten with useCurrentFrame/interpolate so it renders deterministically)
+// (rewritten with useCurrentFrame/interpolate so it renders deterministically;
+// the sepia colour grade is baked into the images in public/img)
 import React from "react";
 import { Img, interpolate, staticFile, useCurrentFrame, Easing } from "remotion";
 
@@ -37,7 +38,6 @@ export const KenBurns: React.FC<{
           height: "100%",
           objectFit: "cover",
           transform: `scale(${scale}) translate(${tx}%, ${ty}%)`,
-          filter: "sepia(0.18) contrast(1.08) saturate(0.9) brightness(0.92)",
         }}
       />
     </div>

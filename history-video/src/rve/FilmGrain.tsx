@@ -1,9 +1,9 @@
 // Adapted from the free Remotion templates by React Video Editor
 // https://github.com/reactvideoeditor/remotion-templates (reactvideoeditor.com) — noise-grain.tsx + vignette-pulse.tsx
-// Grain uses an SVG turbulence filter (re-seeded every frame) instead of
-// thousands of <rect>s so 12-minute renders stay fast.
+// Grain cycles 8 pre-generated noise tiles instead of thousands of <rect>s
+// so 12-minute renders stay fast.
 import React from "react";
-import { useCurrentFrame, useVideoConfig } from "remotion";
+import { Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
 export const FilmGrain: React.FC = () => {
   const frame = useCurrentFrame();
@@ -20,13 +20,10 @@ export const FilmGrain: React.FC = () => {
         }}
       />
       <div style={{ position: "absolute", inset: 0, backgroundColor: "rgba(255,240,210,1)", opacity: 0.03 + flicker, mixBlendMode: "overlay" }} />
-      <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: 0.14, mixBlendMode: "overlay" }}>
-        <filter id="grain">
-          <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={2} seed={frame % 97} stitchTiles="stitch" />
-          <feColorMatrix type="saturate" values="0" />
-        </filter>
-        <rect width="100%" height="100%" filter="url(#grain)" />
-      </svg>
+      <Img
+        src={staticFile(`grain/g${frame % 8}.png`)}
+        style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: 0.1, mixBlendMode: "overlay", transform: `translate(${(frame * 37) % 7}px, ${(frame * 53) % 5}px) scale(1.02)` }}
+      />
     </>
   );
 };
