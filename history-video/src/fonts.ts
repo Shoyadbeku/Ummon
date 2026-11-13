@@ -6,13 +6,15 @@ const fonts: [string, string][] = [
   ["SpecialElite", "fonts/SpecialElite.ttf"],
 ];
 
-const handle = delayRender("fonts");
+const handle = delayRender("fonts", { timeoutInMilliseconds: 120000 });
 Promise.all(
   fonts.map(([name, file]) => {
     const f = new FontFace(name, `url(${staticFile(file)})`, { weight: "100 900" });
     return f.load().then(() => document.fonts.add(f));
   }),
-).then(() => continueRender(handle));
+)
+  .catch((e) => console.error("font load failed", e))
+  .finally(() => continueRender(handle));
 
 export const TITLE = "Cinzel, serif";
 export const SERIF = "Playfair, serif";
