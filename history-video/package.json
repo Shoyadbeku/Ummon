@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "studio": "remotion studio",
-    "render": "remotion render HistoryVideo out/meri_selest.mp4 --timeout=120000"
+    "render": "remotion render HistoryVideo out/meri_selest.mp4"
   },
   "dependencies": {
     "@remotion/cli": "4.0.290",

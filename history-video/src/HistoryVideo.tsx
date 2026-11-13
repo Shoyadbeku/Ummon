@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame } from "remotion";
-import "./fonts";
+import { fontCss } from "./fonts";
 import data from "./data/scenes.json";
 import { overlays, CHANNEL, Overlay } from "./overlays";
 import { buildChunks, Subtitles, Word } from "./Subtitles";
@@ -63,6 +63,7 @@ export const HistoryVideo: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
+      <style>{fontCss}</style>
       {scenes.map((sc, i) => {
         const from = i === 0 ? 0 : f(sc.start);
         const to = i === scenes.length - 1 ? totalFrames : f(sc.end) + XF;
