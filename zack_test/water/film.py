@@ -13,7 +13,7 @@ from common import *
 # shot -> frames (24 fps), sums to 1020 = 42.5 s of narration
 # Cycles samples per shot (OIDN denoised) - tuned for CPU render time
 SAMPLES = {1: 16, 2: 16, 3: 16, 4: 12, 5: 8, 6: 8, 7: 10, 8: 12, 9: 12, 10: 12, 11: 12, 12: 16}
-NO_PERSIST = {12}
+NO_PERSIST = {1, 2, 3, 12}   # every shot with the skinned character
 SHOTS = {1: 53, 2: 58, 3: 74, 4: 98, 5: 91, 6: 94, 7: 118, 8: 89, 9: 88, 10: 94, 11: 91, 12: 72}
 PH = os.path.join(ASSETS, "ph")
 BK = os.path.join(ASSETS, "bk")
