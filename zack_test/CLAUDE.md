@@ -30,3 +30,9 @@
 11. `pip install bpy` proksi orqali juda sekin (≈100 KB/s). Wheel'ni `curl -r` bilan 24 bo'lakda parallel yuklab, keyin
     lokal fayldan o'rnating (1 daqiqa).
 12. faster-whisper `av.open(metadata_errors=...)` xatosi: audioni ffmpeg bilan 16 kHz float32 raw ga o'tkazib, numpy massiv bering.
+13. **`use_persistent_data` + tez deformatsiyalanuvchi qahramon (yiqilish) animatsiya renderida tanani butunlay qora qildi**,
+    yakka kadr renderida esa hammasi joyida edi. Bunday kadrlar uchun persistent data ni o'chiring (`film.NO_PERSIST`).
+    Renderdan keyin kadrlarni qora piksel ulushi bo'yicha tekshiring.
+14. Bo'sh (EMPTY) ota obyektga `hide_render=True` berish bolalarini yashirmaydi — `children_recursive` ni ham yashiring.
+15. Konteyner qayta ishga tushishi mumkin: uzoq renderni `setsid nohup` bilan yuriting, `render_all.sh` mavjud kadrlarni
+    o'tkazib yuboradi (`use_overwrite=False`), shuning uchun shunchaki qayta ishga tushirish kifoya.

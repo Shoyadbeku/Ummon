@@ -6,7 +6,7 @@
 set -e
 HERE=$(cd "$(dirname "$0")" && pwd); ROOT=$(cd "$HERE/../.." && pwd)
 VOICE=${1:?voice wav}; OUT=${2:-$ROOT/renders/suv_zaharlanishi_zackd.mp4}
-FR="$ROOT/renders/frames"; SEQ="$ROOT/renders/frames/_seq"; rm -rf "$SEQ"; mkdir -p "$SEQ"
+FR=${FR:-$ROOT/renders/frames}; SEQ="$FR/_seq"; rm -rf "$SEQ"; mkdir -p "$SEQ"
 SHOTS="53 58 74 98 91 94 118 89 88 94 91 72"
 i=0; n=1; cuts=()
 for len in $SHOTS; do

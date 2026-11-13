@@ -13,6 +13,7 @@ from common import *
 # shot -> frames (24 fps), sums to 1020 = 42.5 s of narration
 # Cycles samples per shot (OIDN denoised) - tuned for CPU render time
 SAMPLES = {1: 16, 2: 16, 3: 16, 4: 12, 5: 8, 6: 8, 7: 10, 8: 12, 9: 12, 10: 12, 11: 12, 12: 16}
+NO_PERSIST = {12}
 SHOTS = {1: 53, 2: 58, 3: 74, 4: 98, 5: 91, 6: 94, 7: 118, 8: 89, 9: 88, 10: 94, 11: 91, 12: 72}
 PH = os.path.join(ASSETS, "ph")
 BK = os.path.join(ASSETS, "bk")
@@ -635,7 +636,8 @@ def shot12(sc):
     make_materials()
     room(sc, table_loc=(1.15, -0.2, 0))
     arm, meshes, b = brian(sc, [("Dizzy_Idle", -20, 1.25), ("Falling_Forward_Death", 14, 1.25)], loc=(0, 0.4, 0), rotz=math.radians(-20))
-    b.hide_render = True
+    for o in [b] + list(b.children_recursive):   # hiding the empty alone does not hide its children
+        o.hide_render = True
     rb = bottle("Roll", water=0.0)
     key(rb, 1, loc=(-0.35, -1.6, 0.045), rot=(math.radians(90), 0, math.radians(30)))
     key(rb, 72, loc=(-0.05, -2.05, 0.045), rot=(math.radians(90), math.radians(-260), math.radians(30)))
@@ -671,6 +673,8 @@ if __name__ == "__main__":
     sc = build(a.shot)
     print(f"[film] built shot {a.shot} in {time.time() - T0:.1f}s", flush=True)
     setup_render(sc, pct=a.pct, samples=a.samples or SAMPLES[a.shot])
+    if a.shot in NO_PERSIST:   # persistent data + fast deforming fall rendered the body pitch black
+        sc.render.use_persistent_data = False
     if a.save:
         bpy.ops.wm.save_as_mainfile(filepath=a.save)
     if a.test is not None:
