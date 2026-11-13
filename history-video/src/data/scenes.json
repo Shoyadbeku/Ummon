@@ -1,0 +1,5850 @@
+{
+ "duration": 724.5,
+ "scenes": [
+  {
+   "id": 1,
+   "img": "01_1872_4_dekabr_Dei_Gratsiya_ufqdagi_kema.jpg",
+   "text": "1872-yil 4-dekabr. Atlantika okeani, Azor orollari va Portugaliya oralig'i. 'Dei Gratsiya' nomli kemaning dengizchilari ufqda bir yelkanli kemani ko'rib qolishdi.",
+   "words": [
+    {
+     "w": "1872-yil",
+     "s": 0.84,
+     "e": 1.76
+    },
+    {
+     "w": "4-dekabr.",
+     "s": 2.84,
+     "e": 3.6
+    },
+    {
+     "w": "Atlantika",
+     "s": 4.3,
+     "e": 4.9
+    },
+    {
+     "w": "okeani,",
+     "s": 4.9,
+     "e": 5.46
+    },
+    {
+     "w": "Azor",
+     "s": 5.46,
+     "e": 6.2
+    },
+    {
+     "w": "orollari",
+     "s": 6.2,
+     "e": 6.82
+    },
+    {
+     "w": "va",
+     "s": 6.82,
+     "e": 6.9
+    },
+    {
+     "w": "Portugaliya",
+     "s": 6.9,
+     "e": 7.46
+    },
+    {
+     "w": "oralig'i.",
+     "s": 7.46,
+     "e": 7.92
+    },
+    {
+     "w": "'Dei",
+     "s": 9.0,
+     "e": 9.54
+    },
+    {
+     "w": "Gratsiya'",
+     "s": 9.54,
+     "e": 9.96
+    },
+    {
+     "w": "nomli",
+     "s": 9.96,
+     "e": 10.28
+    },
+    {
+     "w": "kemaning",
+     "s": 10.28,
+     "e": 10.66
+    },
+    {
+     "w": "dengizchilari",
+     "s": 10.66,
+     "e": 10.96
+    },
+    {
+     "w": "ufqda",
+     "s": 11.32,
+     "e": 12.12
+    },
+    {
+     "w": "bir",
+     "s": 12.12,
+     "e": 12.28
+    },
+    {
+     "w": "yelkanli",
+     "s": 12.28,
+     "e": 12.82
+    },
+    {
+     "w": "kemani",
+     "s": 12.82,
+     "e": 13.2
+    },
+    {
+     "w": "ko'rib",
+     "s": 13.2,
+     "e": 13.46
+    },
+    {
+     "w": "qolishdi.",
+     "s": 13.46,
+     "e": 13.86
+    }
+   ],
+   "start": 0.0,
+   "end": 14.35
+  },
+  {
+   "id": 2,
+   "img": "02_G_alati_suzayotgan_boshqaruvsiz_kema.jpg",
+   "text": "Kema g'alati suzayotgan edi. U bir tomonga borar, keyin to'xtab, yana boshqa tomonga burilardi. Xuddi uni hech kim boshqarmayotgandek.",
+   "words": [
+    {
+     "w": "Kema",
+     "s": 14.6,
+     "e": 15.08
+    },
+    {
+     "w": "g'alati",
+     "s": 15.08,
+     "e": 15.5
+    },
+    {
+     "w": "suzayotgan",
+     "s": 15.5,
+     "e": 16.707
+    },
+    {
+     "w": "edi.",
+     "s": 16.707,
+     "e": 17.069
+    },
+    {
+     "w": "U",
+     "s": 17.069,
+     "e": 17.19
+    },
+    {
+     "w": "bir",
+     "s": 17.19,
+     "e": 17.552
+    },
+    {
+     "w": "tomonga",
+     "s": 17.552,
+     "e": 18.397
+    },
+    {
+     "w": "borar,",
+     "s": 18.397,
+     "e": 19.0
+    },
+    {
+     "w": "keyin",
+     "s": 19.0,
+     "e": 19.4
+    },
+    {
+     "w": "to'xtab,",
+     "s": 19.4,
+     "e": 19.84
+    },
+    {
+     "w": "yana",
+     "s": 19.84,
+     "e": 20.06
+    },
+    {
+     "w": "boshqa",
+     "s": 20.06,
+     "e": 20.38
+    },
+    {
+     "w": "tomonga",
+     "s": 20.38,
+     "e": 21.062
+    },
+    {
+     "w": "burilardi.",
+     "s": 21.062,
+     "e": 21.94
+    },
+    {
+     "w": "Xuddi",
+     "s": 21.94,
+     "e": 22.34
+    },
+    {
+     "w": "uni",
+     "s": 22.34,
+     "e": 22.72
+    },
+    {
+     "w": "hech",
+     "s": 22.72,
+     "e": 23.26
+    },
+    {
+     "w": "kim",
+     "s": 23.26,
+     "e": 23.527
+    },
+    {
+     "w": "boshqarmayotgandek.",
+     "s": 23.527,
+     "e": 25.04
+    }
+   ],
+   "start": 14.35,
+   "end": 24.79
+  },
+  {
+   "id": 3,
+   "img": "03_Kapitan_durbin_orqali_kuzatmoqda.jpg",
+   "text": "Kapitan uni durbin orqali kuzatdi.",
+   "words": [
+    {
+     "w": "Kapitan",
+     "s": 25.04,
+     "e": 25.68
+    },
+    {
+     "w": "uni",
+     "s": 25.68,
+     "e": 26.12
+    },
+    {
+     "w": "durbin",
+     "s": 26.12,
+     "e": 26.62
+    },
+    {
+     "w": "orqali",
+     "s": 26.62,
+     "e": 27.06
+    },
+    {
+     "w": "kuzatdi.",
+     "s": 27.06,
+     "e": 27.56
+    }
+   ],
+   "start": 24.79,
+   "end": 28.01
+  },
+  {
+   "id": 4,
+   "img": "04_Bosh_paluba_va_rulda_hech_kim_yoq.jpg",
+   "text": "Palubada hech kim ko'rinmasdi. Rulda ham hech kim yo'q edi.",
+   "words": [
+    {
+     "w": "Palubada",
+     "s": 28.26,
+     "e": 28.9
+    },
+    {
+     "w": "hech",
+     "s": 28.9,
+     "e": 29.26
+    },
+    {
+     "w": "kim",
+     "s": 29.26,
+     "e": 29.31
+    },
+    {
+     "w": "ko'rinmasdi.",
+     "s": 29.26,
+     "e": 29.9
+    },
+    {
+     "w": "Rulda",
+     "s": 30.36,
+     "e": 30.88
+    },
+    {
+     "w": "ham",
+     "s": 30.88,
+     "e": 31.0
+    },
+    {
+     "w": "hech",
+     "s": 31.0,
+     "e": 31.05
+    },
+    {
+     "w": "kim",
+     "s": 31.0,
+     "e": 31.4
+    },
+    {
+     "w": "yo'q",
+     "s": 31.4,
+     "e": 31.58
+    },
+    {
+     "w": "edi.",
+     "s": 31.58,
+     "e": 31.8
+    }
+   ],
+   "start": 28.01,
+   "end": 32.49
+  },
+  {
+   "id": 5,
+   "img": "05_Dengizchilar_qayiqda_kemaga_yaqinlashmoqda.jpg",
+   "text": "Dengizchilar qayiqqa tushib, kemaga yaqinlashishdi.",
+   "words": [
+    {
+     "w": "Dengizchilar",
+     "s": 32.74,
+     "e": 33.06
+    },
+    {
+     "w": "qayiqqa",
+     "s": 33.32,
+     "e": 33.74
+    },
+    {
+     "w": "tushib,",
+     "s": 33.74,
+     "e": 33.96
+    },
+    {
+     "w": "kemaga",
+     "s": 33.96,
+     "e": 34.58
+    },
+    {
+     "w": "yaqinlashishdi.",
+     "s": 34.58,
+     "e": 35.28
+    }
+   ],
+   "start": 32.49,
+   "end": 35.03
+  },
+  {
+   "id": 6,
+   "img": "06_Dengizchilar_bortga_chiqishdi.jpg",
+   "text": "Va bortga chiqishdi. Ular kemani boshdan-oyoq qidirib chiqishdi.",
+   "words": [
+    {
+     "w": "Va",
+     "s": 35.28,
+     "e": 35.44
+    },
+    {
+     "w": "bortga",
+     "s": 35.44,
+     "e": 36.18
+    },
+    {
+     "w": "chiqishdi.",
+     "s": 36.18,
+     "e": 36.48
+    },
+    {
+     "w": "Ular",
+     "s": 37.24,
+     "e": 37.48
+    },
+    {
+     "w": "kemani",
+     "s": 37.48,
+     "e": 37.86
+    },
+    {
+     "w": "boshdan-oyoq",
+     "s": 37.86,
+     "e": 38.24
+    },
+    {
+     "w": "qidirib",
+     "s": 38.46,
+     "e": 38.8
+    },
+    {
+     "w": "chiqishdi.",
+     "s": 38.8,
+     "e": 39.08
+    }
+   ],
+   "start": 35.03,
+   "end": 39.29
+  },
+  {
+   "id": 7,
+   "img": "07_Kayutalar_oshxona_va_yuk_bolimini_qidirish.jpg",
+   "text": "Kayutalar, oshxona, yuk bo'limi. Hamma joy jim edi.",
+   "words": [
+    {
+     "w": "Kayutalar,",
+     "s": 39.54,
+     "e": 40.18
+    },
+    {
+     "w": "oshxona,",
+     "s": 40.18,
+     "e": 41.14
+    },
+    {
+     "w": "yuk",
+     "s": 41.14,
+     "e": 41.7
+    },
+    {
+     "w": "bo'limi.",
+     "s": 41.7,
+     "e": 42.02
+    },
+    {
+     "w": "Hamma",
+     "s": 42.76,
+     "e": 43.3
+    },
+    {
+     "w": "joy",
+     "s": 43.3,
+     "e": 43.64
+    },
+    {
+     "w": "jim",
+     "s": 43.64,
+     "e": 43.84
+    },
+    {
+     "w": "edi.",
+     "s": 43.84,
+     "e": 44.04
+    }
+   ],
+   "start": 39.29,
+   "end": 44.65
+  },
+  {
+   "id": 8,
+   "img": "08_Kemada_birorta_ham_tirik_jon_yoq.jpg",
+   "text": "Kemada birorta ham tirik jon yo'q edi. Na kapitan, na dengizchilar, na ularning jasadlari.",
+   "words": [
+    {
+     "w": "Kemada",
+     "s": 44.9,
+     "e": 45.22
+    },
+    {
+     "w": "birorta",
+     "s": 45.3,
+     "e": 45.64
+    },
+    {
+     "w": "ham",
+     "s": 45.64,
+     "e": 45.88
+    },
+    {
+     "w": "tirik",
+     "s": 45.88,
+     "e": 46.2
+    },
+    {
+     "w": "jon",
+     "s": 46.2,
+     "e": 46.46
+    },
+    {
+     "w": "yo'q",
+     "s": 46.46,
+     "e": 46.62
+    },
+    {
+     "w": "edi.",
+     "s": 46.62,
+     "e": 46.84
+    },
+    {
+     "w": "Na",
+     "s": 47.42,
+     "e": 47.56
+    },
+    {
+     "w": "kapitan,",
+     "s": 47.56,
+     "e": 47.98
+    },
+    {
+     "w": "na",
+     "s": 48.28,
+     "e": 48.46
+    },
+    {
+     "w": "dengizchilar,",
+     "s": 48.46,
+     "e": 48.8
+    },
+    {
+     "w": "na",
+     "s": 49.56,
+     "e": 49.68
+    },
+    {
+     "w": "ularning",
+     "s": 49.68,
+     "e": 49.92
+    },
+    {
+     "w": "jasadlari.",
+     "s": 50.16,
+     "e": 50.62
+    }
+   ],
+   "start": 44.65,
+   "end": 51.31
+  },
+  {
+   "id": 9,
+   "img": "09_Hamma_narsa_joyida_xuddi_bir_daqiqaga_chiqib_ketgandek.jpg",
+   "text": "Ammo eng qo'rqinchlisi boshqa narsa edi. Kemada hamma narsa joyida turardi. Xuddi odamlar bir daqiqaga chiqib ketgan-u, hech qachon qaytib kelmagandek.",
+   "words": [
+    {
+     "w": "Ammo",
+     "s": 51.56,
+     "e": 51.86
+    },
+    {
+     "w": "eng",
+     "s": 51.86,
+     "e": 52.7
+    },
+    {
+     "w": "qo'rqinchlisi",
+     "s": 52.7,
+     "e": 53.28
+    },
+    {
+     "w": "boshqa",
+     "s": 53.28,
+     "e": 53.68
+    },
+    {
+     "w": "narsa",
+     "s": 53.68,
+     "e": 53.94
+    },
+    {
+     "w": "edi.",
+     "s": 53.94,
+     "e": 54.08
+    },
+    {
+     "w": "Kemada",
+     "s": 54.84,
+     "e": 55.14
+    },
+    {
+     "w": "hamma",
+     "s": 55.24,
+     "e": 55.52
+    },
+    {
+     "w": "narsa",
+     "s": 55.7,
+     "e": 55.94
+    },
+    {
+     "w": "joyida",
+     "s": 55.94,
+     "e": 56.32
+    },
+    {
+     "w": "turardi.",
+     "s": 56.32,
+     "e": 56.68
+    },
+    {
+     "w": "Xuddi",
+     "s": 56.68,
+     "e": 57.3
+    },
+    {
+     "w": "odamlar",
+     "s": 57.3,
+     "e": 58.02
+    },
+    {
+     "w": "bir",
+     "s": 58.02,
+     "e": 58.07
+    },
+    {
+     "w": "daqiqaga",
+     "s": 58.02,
+     "e": 58.66
+    },
+    {
+     "w": "chiqib",
+     "s": 58.66,
+     "e": 59.0
+    },
+    {
+     "w": "ketgan-u,",
+     "s": 59.0,
+     "e": 59.46
+    },
+    {
+     "w": "hech",
+     "s": 59.46,
+     "e": 60.1
+    },
+    {
+     "w": "qachon",
+     "s": 60.1,
+     "e": 60.28
+    },
+    {
+     "w": "qaytib",
+     "s": 60.42,
+     "e": 60.8
+    },
+    {
+     "w": "kelmagandek.",
+     "s": 61.08,
+     "e": 61.48
+    }
+   ],
+   "start": 51.31,
+   "end": 61.85
+  },
+  {
+   "id": 10,
+   "img": "10_Meri_Selest_150_yillik_sir.jpg",
+   "text": "Bu kemaning nomi 'Meri Selest' edi. Va oradan yuz ellik yildan ortiq vaqt o'tdi, ammo u kemada nima sodir bo'lganini hali hech kim aniq bilmaydi.",
+   "words": [
+    {
+     "w": "Bu",
+     "s": 62.1,
+     "e": 62.66
+    },
+    {
+     "w": "kemaning",
+     "s": 62.66,
+     "e": 63.06
+    },
+    {
+     "w": "nomi",
+     "s": 63.06,
+     "e": 63.42
+    },
+    {
+     "w": "'Meri",
+     "s": 63.42,
+     "e": 63.78
+    },
+    {
+     "w": "Selest'",
+     "s": 64.18,
+     "e": 64.64
+    },
+    {
+     "w": "edi.",
+     "s": 64.64,
+     "e": 64.9
+    },
+    {
+     "w": "Va",
+     "s": 64.9,
+     "e": 65.11
+    },
+    {
+     "w": "oradan",
+     "s": 65.64,
+     "e": 65.96
+    },
+    {
+     "w": "yuz",
+     "s": 65.96,
+     "e": 66.23
+    },
+    {
+     "w": "ellik",
+     "s": 66.23,
+     "e": 66.68
+    },
+    {
+     "w": "yildan",
+     "s": 66.68,
+     "e": 67.44
+    },
+    {
+     "w": "ortiq",
+     "s": 67.44,
+     "e": 67.72
+    },
+    {
+     "w": "vaqt",
+     "s": 67.72,
+     "e": 68.26
+    },
+    {
+     "w": "o'tdi,",
+     "s": 68.26,
+     "e": 68.8
+    },
+    {
+     "w": "ammo",
+     "s": 68.8,
+     "e": 69.08
+    },
+    {
+     "w": "u",
+     "s": 69.08,
+     "e": 69.28
+    },
+    {
+     "w": "kemada",
+     "s": 69.28,
+     "e": 69.92
+    },
+    {
+     "w": "nima",
+     "s": 70.02,
+     "e": 70.3
+    },
+    {
+     "w": "sodir",
+     "s": 70.3,
+     "e": 70.62
+    },
+    {
+     "w": "bo'lganini",
+     "s": 70.62,
+     "e": 71.12
+    },
+    {
+     "w": "hali",
+     "s": 71.12,
+     "e": 71.76
+    },
+    {
+     "w": "hech",
+     "s": 71.76,
+     "e": 72.22
+    },
+    {
+     "w": "kim",
+     "s": 72.22,
+     "e": 72.27
+    },
+    {
+     "w": "aniq",
+     "s": 72.22,
+     "e": 72.6
+    },
+    {
+     "w": "bilmaydi.",
+     "s": 72.6,
+     "e": 73.0
+    }
+   ],
+   "start": 61.85,
+   "end": 73.43
+  },
+  {
+   "id": 11,
+   "img": "11_1872_noyabr_Nyu_York_porti_tayyorgarlik.jpg",
+   "text": "Bu hikoya bir oy oldin, 1872-yil noyabr oyida Nyu-York portidan boshlangan edi. 'Meri Selest' Italiyaning Genuya shahriga yo'l olishga tayyorlanardi.",
+   "words": [
+    {
+     "w": "Bu",
+     "s": 73.68,
+     "e": 73.98
+    },
+    {
+     "w": "hikoya",
+     "s": 73.98,
+     "e": 74.48
+    },
+    {
+     "w": "bir",
+     "s": 74.48,
+     "e": 75.0
+    },
+    {
+     "w": "oy",
+     "s": 75.0,
+     "e": 75.14
+    },
+    {
+     "w": "oldin,",
+     "s": 75.14,
+     "e": 75.48
+    },
+    {
+     "w": "1872-yil",
+     "s": 76.28,
+     "e": 77.22
+    },
+    {
+     "w": "noyabr",
+     "s": 77.52,
+     "e": 77.76
+    },
+    {
+     "w": "oyida",
+     "s": 77.96,
+     "e": 78.22
+    },
+    {
+     "w": "Nyu-York",
+     "s": 78.78,
+     "e": 78.96
+    },
+    {
+     "w": "portidan",
+     "s": 78.96,
+     "e": 79.3
+    },
+    {
+     "w": "boshlangan",
+     "s": 79.42,
+     "e": 79.92
+    },
+    {
+     "w": "edi.",
+     "s": 79.92,
+     "e": 80.1
+    },
+    {
+     "w": "'Meri",
+     "s": 80.1,
+     "e": 80.46
+    },
+    {
+     "w": "Selest'",
+     "s": 80.9,
+     "e": 81.34
+    },
+    {
+     "w": "Italiyaning",
+     "s": 81.34,
+     "e": 82.16
+    },
+    {
+     "w": "Genuya",
+     "s": 82.46,
+     "e": 82.6
+    },
+    {
+     "w": "shahriga",
+     "s": 82.6,
+     "e": 82.98
+    },
+    {
+     "w": "yo'l",
+     "s": 82.98,
+     "e": 83.16
+    },
+    {
+     "w": "olishga",
+     "s": 83.16,
+     "e": 83.46
+    },
+    {
+     "w": "tayyorlanardi.",
+     "s": 83.46,
+     "e": 84.14
+    }
+   ],
+   "start": 73.43,
+   "end": 83.89
+  },
+  {
+   "id": 12,
+   "img": "12_Yuk_bolimida_1700_bochka_sanoat_spirti.jpg",
+   "text": "Uning yuk bo'limida bir ming yetti yuzdan ortiq bochka spirt bor edi. Bu ichimlik emas, sanoat uchun mo'ljallangan, juda kuchli, oson yonadigan spirt edi.",
+   "words": [
+    {
+     "w": "Uning",
+     "s": 84.14,
+     "e": 85.08
+    },
+    {
+     "w": "yuk",
+     "s": 85.08,
+     "e": 85.28
+    },
+    {
+     "w": "bo'limida",
+     "s": 85.28,
+     "e": 85.76
+    },
+    {
+     "w": "bir",
+     "s": 85.76,
+     "e": 86.14
+    },
+    {
+     "w": "ming",
+     "s": 86.14,
+     "e": 86.52
+    },
+    {
+     "w": "yetti",
+     "s": 86.52,
+     "e": 86.847
+    },
+    {
+     "w": "yuzdan",
+     "s": 86.847,
+     "e": 87.24
+    },
+    {
+     "w": "ortiq",
+     "s": 87.24,
+     "e": 87.48
+    },
+    {
+     "w": "bochka",
+     "s": 87.48,
+     "e": 87.84
+    },
+    {
+     "w": "spirt",
+     "s": 87.84,
+     "e": 88.04
+    },
+    {
+     "w": "bor",
+     "s": 88.04,
+     "e": 88.3
+    },
+    {
+     "w": "edi.",
+     "s": 88.3,
+     "e": 88.585
+    },
+    {
+     "w": "Bu",
+     "s": 89.08,
+     "e": 89.44
+    },
+    {
+     "w": "ichimlik",
+     "s": 89.44,
+     "e": 89.86
+    },
+    {
+     "w": "emas,",
+     "s": 89.86,
+     "e": 90.2
+    },
+    {
+     "w": "sanoat",
+     "s": 90.62,
+     "e": 91.02
+    },
+    {
+     "w": "uchun",
+     "s": 91.02,
+     "e": 91.24
+    },
+    {
+     "w": "mo'ljallangan,",
+     "s": 91.24,
+     "e": 91.64
+    },
+    {
+     "w": "juda",
+     "s": 92.22,
+     "e": 92.36
+    },
+    {
+     "w": "kuchli,",
+     "s": 92.36,
+     "e": 92.74
+    },
+    {
+     "w": "oson",
+     "s": 92.74,
+     "e": 93.1
+    },
+    {
+     "w": "yonadigan",
+     "s": 93.68,
+     "e": 93.94
+    },
+    {
+     "w": "spirt",
+     "s": 93.94,
+     "e": 94.16
+    },
+    {
+     "w": "edi.",
+     "s": 94.16,
+     "e": 94.445
+    }
+   ],
+   "start": 83.89,
+   "end": 94.85
+  },
+  {
+   "id": 13,
+   "img": "13_Kapitan_Bendjamin_Briggs_portreti.jpg",
+   "text": "Kemaning kapitani Bendjamin Briggs edi. U o'ttiz yetti yoshda, tajribali, hurmatga sazovor dengizchi edi. U spirtli ichimlik ichmas, juda dindor va intizomli odam edi.",
+   "words": [
+    {
+     "w": "Kemaning",
+     "s": 95.1,
+     "e": 95.44
+    },
+    {
+     "w": "kapitani",
+     "s": 95.56,
+     "e": 96.12
+    },
+    {
+     "w": "Bendjamin",
+     "s": 96.12,
+     "e": 96.82
+    },
+    {
+     "w": "Briggs",
+     "s": 96.82,
+     "e": 97.12
+    },
+    {
+     "w": "edi.",
+     "s": 97.12,
+     "e": 97.38
+    },
+    {
+     "w": "U",
+     "s": 97.38,
+     "e": 97.515
+    },
+    {
+     "w": "o'ttiz",
+     "s": 97.515,
+     "e": 97.95
+    },
+    {
+     "w": "yetti",
+     "s": 97.95,
+     "e": 98.385
+    },
+    {
+     "w": "yoshda,",
+     "s": 98.385,
+     "e": 98.82
+    },
+    {
+     "w": "tajribali,",
+     "s": 99.86,
+     "e": 100.08
+    },
+    {
+     "w": "hurmatga",
+     "s": 100.74,
+     "e": 101.06
+    },
+    {
+     "w": "sazovor",
+     "s": 101.18,
+     "e": 101.66
+    },
+    {
+     "w": "dengizchi",
+     "s": 101.66,
+     "e": 101.98
+    },
+    {
+     "w": "edi.",
+     "s": 102.2,
+     "e": 102.32
+    },
+    {
+     "w": "U",
+     "s": 102.32,
+     "e": 102.455
+    },
+    {
+     "w": "spirtli",
+     "s": 103.12,
+     "e": 103.56
+    },
+    {
+     "w": "ichimlik",
+     "s": 103.56,
+     "e": 103.88
+    },
+    {
+     "w": "ichmas,",
+     "s": 103.88,
+     "e": 104.26
+    },
+    {
+     "w": "juda",
+     "s": 104.66,
+     "e": 104.82
+    },
+    {
+     "w": "dindor",
+     "s": 104.82,
+     "e": 105.22
+    },
+    {
+     "w": "va",
+     "s": 105.22,
+     "e": 105.36
+    },
+    {
+     "w": "intizomli",
+     "s": 105.36,
+     "e": 105.92
+    },
+    {
+     "w": "odam",
+     "s": 105.92,
+     "e": 106.12
+    },
+    {
+     "w": "edi.",
+     "s": 106.12,
+     "e": 106.38
+    }
+   ],
+   "start": 94.85,
+   "end": 106.85
+  },
+  {
+   "id": 14,
+   "img": "14_Briggs_xotini_Sara_va_qizchasi_Sofiya.jpg",
+   "text": "Bu safar u yolg'iz emas edi. U bilan birga xotini Sara va ikki yoshli qizchasi Sofiya ham sayohatga chiqqan edi.",
+   "words": [
+    {
+     "w": "Bu",
+     "s": 107.1,
+     "e": 107.26
+    },
+    {
+     "w": "safar",
+     "s": 107.26,
+     "e": 107.52
+    },
+    {
+     "w": "u",
+     "s": 107.52,
+     "e": 107.64
+    },
+    {
+     "w": "yolg'iz",
+     "s": 107.64,
+     "e": 108.36
+    },
+    {
+     "w": "emas",
+     "s": 108.36,
+     "e": 108.62
+    },
+    {
+     "w": "edi.",
+     "s": 108.62,
+     "e": 108.78
+    },
+    {
+     "w": "U",
+     "s": 108.78,
+     "e": 108.904
+    },
+    {
+     "w": "bilan",
+     "s": 108.904,
+     "e": 109.522
+    },
+    {
+     "w": "birga",
+     "s": 109.522,
+     "e": 110.14
+    },
+    {
+     "w": "xotini",
+     "s": 110.14,
+     "e": 110.56
+    },
+    {
+     "w": "Sara",
+     "s": 110.56,
+     "e": 111.06
+    },
+    {
+     "w": "va",
+     "s": 111.06,
+     "e": 111.34
+    },
+    {
+     "w": "ikki",
+     "s": 111.34,
+     "e": 111.58
+    },
+    {
+     "w": "yoshli",
+     "s": 111.58,
+     "e": 111.63
+    },
+    {
+     "w": "qizchasi",
+     "s": 111.58,
+     "e": 111.94
+    },
+    {
+     "w": "Sofiya",
+     "s": 111.94,
+     "e": 112.64
+    },
+    {
+     "w": "ham",
+     "s": 112.64,
+     "e": 112.96
+    },
+    {
+     "w": "sayohatga",
+     "s": 112.96,
+     "e": 113.64
+    },
+    {
+     "w": "chiqqan",
+     "s": 113.78,
+     "e": 114.04
+    },
+    {
+     "w": "edi.",
+     "s": 114.04,
+     "e": 114.2
+    }
+   ],
+   "start": 106.85,
+   "end": 114.59
+  },
+  {
+   "id": 15,
+   "img": "15_Yetti_nafar_ishonchli_ekipaj_azolari.jpg",
+   "text": "Kemada yana yetti nafar ekipaj a'zosi bor edi. Kapitanning o'zi ularni yaxshi, ishonchli odamlar deb ta'riflagan edi. Jami o'n kishi.",
+   "words": [
+    {
+     "w": "Kemada",
+     "s": 114.84,
+     "e": 115.16
+    },
+    {
+     "w": "yana",
+     "s": 115.26,
+     "e": 115.46
+    },
+    {
+     "w": "yetti",
+     "s": 115.46,
+     "e": 116.12
+    },
+    {
+     "w": "nafar",
+     "s": 116.12,
+     "e": 116.34
+    },
+    {
+     "w": "ekipaj",
+     "s": 116.34,
+     "e": 116.78
+    },
+    {
+     "w": "a'zosi",
+     "s": 116.78,
+     "e": 117.3
+    },
+    {
+     "w": "bor",
+     "s": 117.3,
+     "e": 117.65
+    },
+    {
+     "w": "edi.",
+     "s": 117.65,
+     "e": 118.0
+    },
+    {
+     "w": "Kapitanning",
+     "s": 118.0,
+     "e": 118.4
+    },
+    {
+     "w": "o'zi",
+     "s": 118.58,
+     "e": 118.8
+    },
+    {
+     "w": "ularni",
+     "s": 119.14,
+     "e": 119.4
+    },
+    {
+     "w": "yaxshi,",
+     "s": 119.4,
+     "e": 119.82
+    },
+    {
+     "w": "ishonchli",
+     "s": 120.18,
+     "e": 120.6
+    },
+    {
+     "w": "odamlar",
+     "s": 120.72,
+     "e": 121.08
+    },
+    {
+     "w": "deb",
+     "s": 121.08,
+     "e": 121.26
+    },
+    {
+     "w": "ta'riflagan",
+     "s": 121.26,
+     "e": 121.68
+    },
+    {
+     "w": "edi.",
+     "s": 121.68,
+     "e": 121.9
+    },
+    {
+     "w": "Jami",
+     "s": 121.9,
+     "e": 122.26
+    },
+    {
+     "w": "o'n",
+     "s": 122.26,
+     "e": 122.47
+    },
+    {
+     "w": "kishi.",
+     "s": 123.56,
+     "e": 124.0
+    }
+   ],
+   "start": 114.59,
+   "end": 123.75
+  },
+  {
+   "id": 16,
+   "img": "16_Saraning_onasiga_yozgan_oxirgi_maktubi.jpg",
+   "text": "Jo'nashdan bir kun oldin Sara onasiga maktub yozgan. Unda u kemaning qulayligi, qizchasi qanchalik xursand ekanligi va oldindagi sayohatni intiqlik bilan kutayotgani haqida yozgan edi.",
+   "words": [
+    {
+     "w": "Jo'nashdan",
+     "s": 124.0,
+     "e": 124.88
+    },
+    {
+     "w": "bir",
+     "s": 124.88,
+     "e": 125.21
+    },
+    {
+     "w": "kun",
+     "s": 125.21,
+     "e": 125.54
+    },
+    {
+     "w": "oldin",
+     "s": 125.54,
+     "e": 125.9
+    },
+    {
+     "w": "Sara",
+     "s": 125.9,
+     "e": 126.24
+    },
+    {
+     "w": "onasiga",
+     "s": 126.24,
+     "e": 126.6
+    },
+    {
+     "w": "maktub",
+     "s": 126.6,
+     "e": 127.04
+    },
+    {
+     "w": "yozgan.",
+     "s": 127.04,
+     "e": 127.24
+    },
+    {
+     "w": "Unda",
+     "s": 127.82,
+     "e": 128.1
+    },
+    {
+     "w": "u",
+     "s": 128.1,
+     "e": 128.22
+    },
+    {
+     "w": "kemaning",
+     "s": 128.22,
+     "e": 128.82
+    },
+    {
+     "w": "qulayligi,",
+     "s": 128.94,
+     "e": 129.42
+    },
+    {
+     "w": "qizchasi",
+     "s": 129.94,
+     "e": 130.36
+    },
+    {
+     "w": "qanchalik",
+     "s": 130.56,
+     "e": 130.88
+    },
+    {
+     "w": "xursand",
+     "s": 130.88,
+     "e": 131.32
+    },
+    {
+     "w": "ekanligi",
+     "s": 131.32,
+     "e": 131.64
+    },
+    {
+     "w": "va",
+     "s": 131.8,
+     "e": 131.92
+    },
+    {
+     "w": "oldindagi",
+     "s": 132.3,
+     "e": 132.68
+    },
+    {
+     "w": "sayohatni",
+     "s": 132.68,
+     "e": 133.26
+    },
+    {
+     "w": "intiqlik",
+     "s": 133.26,
+     "e": 133.78
+    },
+    {
+     "w": "bilan",
+     "s": 133.78,
+     "e": 134.02
+    },
+    {
+     "w": "kutayotgani",
+     "s": 134.02,
+     "e": 134.54
+    },
+    {
+     "w": "haqida",
+     "s": 134.54,
+     "e": 134.84
+    },
+    {
+     "w": "yozgan",
+     "s": 134.84,
+     "e": 135.16
+    },
+    {
+     "w": "edi.",
+     "s": 135.16,
+     "e": 135.34
+    }
+   ],
+   "start": 123.75,
+   "end": 135.09
+  },
+  {
+   "id": 17,
+   "img": "17_7_noyabr_Meri_Selest_Nyu_Yorkdan_suzib_chiqdi.jpg",
+   "text": "7-noyabr kuni 'Meri Selest' Nyu-Yorkdan suzib chiqdi.",
+   "words": [
+    {
+     "w": "7-noyabr",
+     "s": 135.34,
+     "e": 135.925
+    },
+    {
+     "w": "kuni",
+     "s": 135.925,
+     "e": 136.285
+    },
+    {
+     "w": "'Meri",
+     "s": 141.12,
+     "e": 141.42
+    },
+    {
+     "w": "Selest'",
+     "s": 141.42,
+     "e": 141.92
+    },
+    {
+     "w": "Nyu-Yorkdan",
+     "s": 142.24,
+     "e": 142.44
+    },
+    {
+     "w": "suzib",
+     "s": 142.6,
+     "e": 142.92
+    },
+    {
+     "w": "chiqdi.",
+     "s": 142.92,
+     "e": 143.355
+    }
+   ],
+   "start": 135.09,
+   "end": 143.45
+  },
+  {
+   "id": 18,
+   "img": "18_Kapitan_Morxaus_va_Briggs_kechki_ovqat.jpg",
+   "text": "Qiziq tomoni shundaki, bir necha kun keyin xuddi shu portdan 'Dei Gratsiya' kemasi ham yo'lga chiqdi. Uning kapitani Devid Morxaus Briggsni tanirdi. Hatto ular jo'nashdan oldin birga kechki ovqat qilishgan.",
+   "words": [
+    {
+     "w": "Qiziq",
+     "s": 143.7,
+     "e": 144.24
+    },
+    {
+     "w": "tomoni",
+     "s": 144.24,
+     "e": 144.72
+    },
+    {
+     "w": "shundaki,",
+     "s": 144.72,
+     "e": 145.28
+    },
+    {
+     "w": "bir",
+     "s": 145.28,
+     "e": 145.52
+    },
+    {
+     "w": "necha",
+     "s": 145.52,
+     "e": 145.84
+    },
+    {
+     "w": "kun",
+     "s": 145.84,
+     "e": 146.1
+    },
+    {
+     "w": "keyin",
+     "s": 146.1,
+     "e": 146.46
+    },
+    {
+     "w": "xuddi",
+     "s": 146.46,
+     "e": 146.895
+    },
+    {
+     "w": "shu",
+     "s": 147.14,
+     "e": 147.36
+    },
+    {
+     "w": "portdan",
+     "s": 147.36,
+     "e": 147.94
+    },
+    {
+     "w": "'Dei",
+     "s": 147.94,
+     "e": 148.64
+    },
+    {
+     "w": "Gratsiya'",
+     "s": 148.64,
+     "e": 149.18
+    },
+    {
+     "w": "kemasi",
+     "s": 149.46,
+     "e": 149.72
+    },
+    {
+     "w": "ham",
+     "s": 149.72,
+     "e": 149.82
+    },
+    {
+     "w": "yo'lga",
+     "s": 149.82,
+     "e": 150.14
+    },
+    {
+     "w": "chiqdi.",
+     "s": 150.14,
+     "e": 150.76
+    },
+    {
+     "w": "Uning",
+     "s": 150.76,
+     "e": 151.36
+    },
+    {
+     "w": "kapitani",
+     "s": 151.36,
+     "e": 152.06
+    },
+    {
+     "w": "Devid",
+     "s": 152.06,
+     "e": 152.54
+    },
+    {
+     "w": "Morxaus",
+     "s": 152.54,
+     "e": 153.22
+    },
+    {
+     "w": "Briggsni",
+     "s": 153.22,
+     "e": 153.8
+    },
+    {
+     "w": "tanirdi.",
+     "s": 153.96,
+     "e": 154.42
+    },
+    {
+     "w": "Hatto",
+     "s": 154.98,
+     "e": 155.34
+    },
+    {
+     "w": "ular",
+     "s": 155.34,
+     "e": 155.6
+    },
+    {
+     "w": "jo'nashdan",
+     "s": 155.6,
+     "e": 156.08
+    },
+    {
+     "w": "oldin",
+     "s": 156.08,
+     "e": 156.52
+    },
+    {
+     "w": "birga",
+     "s": 156.52,
+     "e": 157.02
+    },
+    {
+     "w": "kechki",
+     "s": 157.02,
+     "e": 157.42
+    },
+    {
+     "w": "ovqat",
+     "s": 157.42,
+     "e": 157.7
+    },
+    {
+     "w": "qilishgan.",
+     "s": 157.7,
+     "e": 158.22
+    }
+   ],
+   "start": 143.45,
+   "end": 163.71
+  },
+  {
+   "id": 19,
+   "img": "19_4_dekabr_Butun_korpus_va_yirtilgan_yelkanlar.jpg",
+   "text": "Endi 4-dekabr kuniga qaytaylik. Kema suzishga yaroqli edi. Uning korpusi butun edi. Yelkanlarning bir qismi yig'ilgan, bir qismi ochiq qolgan, ba'zilari yirtilgan edi.",
+   "words": [
+    {
+     "w": "Endi",
+     "s": 163.96,
+     "e": 164.38
+    },
+    {
+     "w": "4-dekabr",
+     "s": 165.46,
+     "e": 165.66
+    },
+    {
+     "w": "kuniga",
+     "s": 165.66,
+     "e": 166.26
+    },
+    {
+     "w": "qaytaylik.",
+     "s": 166.26,
+     "e": 166.995
+    },
+    {
+     "w": "Kema",
+     "s": 171.9,
+     "e": 172.52
+    },
+    {
+     "w": "suzishga",
+     "s": 172.72,
+     "e": 173.5
+    },
+    {
+     "w": "yaroqli",
+     "s": 173.5,
+     "e": 174.298
+    },
+    {
+     "w": "edi.",
+     "s": 174.298,
+     "e": 174.64
+    },
+    {
+     "w": "Uning",
+     "s": 174.64,
+     "e": 174.84
+    },
+    {
+     "w": "korpusi",
+     "s": 174.84,
+     "e": 175.4
+    },
+    {
+     "w": "butun",
+     "s": 175.4,
+     "e": 175.76
+    },
+    {
+     "w": "edi.",
+     "s": 175.76,
+     "e": 176.045
+    },
+    {
+     "w": "Yelkanlarning",
+     "s": 176.48,
+     "e": 177.0
+    },
+    {
+     "w": "bir",
+     "s": 177.0,
+     "e": 177.24
+    },
+    {
+     "w": "qismi",
+     "s": 177.24,
+     "e": 177.68
+    },
+    {
+     "w": "yig'ilgan,",
+     "s": 177.68,
+     "e": 178.22
+    },
+    {
+     "w": "bir",
+     "s": 178.22,
+     "e": 178.52
+    },
+    {
+     "w": "qismi",
+     "s": 178.52,
+     "e": 179.04
+    },
+    {
+     "w": "ochiq",
+     "s": 179.04,
+     "e": 179.09
+    },
+    {
+     "w": "qolgan,",
+     "s": 179.04,
+     "e": 179.88
+    },
+    {
+     "w": "ba'zilari",
+     "s": 179.88,
+     "e": 180.54
+    },
+    {
+     "w": "yirtilgan",
+     "s": 180.54,
+     "e": 180.98
+    },
+    {
+     "w": "edi.",
+     "s": 180.98,
+     "e": 181.265
+    }
+   ],
+   "start": 163.71,
+   "end": 181.83
+  },
+  {
+   "id": 20,
+   "img": "20_Yuk_bolimidagi_bir_metrcha_xavfsiz_suv.jpg",
+   "text": "Kemaning yuk bo'limida bir metrdan sal ko'proq suv bor edi. Bu ko'p tuyulishi mumkin, ammo bunday kema uchun xavfli emas edi. Kema cho'kayotgan emas edi.",
+   "words": [
+    {
+     "w": "Kemaning",
+     "s": 182.08,
+     "e": 182.34
+    },
+    {
+     "w": "yuk",
+     "s": 182.34,
+     "e": 182.56
+    },
+    {
+     "w": "bo'limida",
+     "s": 182.56,
+     "e": 182.86
+    },
+    {
+     "w": "bir",
+     "s": 182.86,
+     "e": 183.12
+    },
+    {
+     "w": "metrdan",
+     "s": 183.12,
+     "e": 184.0
+    },
+    {
+     "w": "sal",
+     "s": 184.0,
+     "e": 184.28
+    },
+    {
+     "w": "ko'proq",
+     "s": 184.28,
+     "e": 184.76
+    },
+    {
+     "w": "suv",
+     "s": 184.76,
+     "e": 184.92
+    },
+    {
+     "w": "bor",
+     "s": 184.92,
+     "e": 185.12
+    },
+    {
+     "w": "edi.",
+     "s": 185.12,
+     "e": 185.405
+    },
+    {
+     "w": "Bu",
+     "s": 185.94,
+     "e": 186.12
+    },
+    {
+     "w": "ko'p",
+     "s": 186.12,
+     "e": 186.56
+    },
+    {
+     "w": "tuyulishi",
+     "s": 186.56,
+     "e": 186.7
+    },
+    {
+     "w": "mumkin,",
+     "s": 186.9,
+     "e": 187.2
+    },
+    {
+     "w": "ammo",
+     "s": 187.2,
+     "e": 187.68
+    },
+    {
+     "w": "bunday",
+     "s": 187.68,
+     "e": 188.2
+    },
+    {
+     "w": "kema",
+     "s": 188.2,
+     "e": 188.58
+    },
+    {
+     "w": "uchun",
+     "s": 188.58,
+     "e": 188.82
+    },
+    {
+     "w": "xavfli",
+     "s": 188.82,
+     "e": 189.3
+    },
+    {
+     "w": "emas",
+     "s": 189.5,
+     "e": 189.66
+    },
+    {
+     "w": "edi.",
+     "s": 189.66,
+     "e": 189.945
+    },
+    {
+     "w": "Kema",
+     "s": 190.42,
+     "e": 190.64
+    },
+    {
+     "w": "cho'kayotgan",
+     "s": 190.86,
+     "e": 191.72
+    },
+    {
+     "w": "emas",
+     "s": 191.98,
+     "e": 192.1
+    },
+    {
+     "w": "edi.",
+     "s": 192.1,
+     "e": 192.385
+    }
+   ],
+   "start": 181.83,
+   "end": 192.135
+  },
+  {
+   "id": 21,
+   "img": "21_Oshxonada_olti_oylik_oziq_ovqat_va_suv.jpg",
+   "text": "Oshxonada olti oyga yetadigan oziq-ovqat va toza ichimlik suvi bor edi.",
+   "words": [
+    {
+     "w": "Oshxonada",
+     "s": 192.385,
+     "e": 193.045
+    },
+    {
+     "w": "olti",
+     "s": 194.04,
+     "e": 194.5
+    },
+    {
+     "w": "oyga",
+     "s": 194.66,
+     "e": 194.8
+    },
+    {
+     "w": "yetadigan",
+     "s": 194.8,
+     "e": 195.08
+    },
+    {
+     "w": "oziq-ovqat",
+     "s": 195.42,
+     "e": 195.84
+    },
+    {
+     "w": "va",
+     "s": 195.84,
+     "e": 195.98
+    },
+    {
+     "w": "toza",
+     "s": 195.98,
+     "e": 196.26
+    },
+    {
+     "w": "ichimlik",
+     "s": 196.26,
+     "e": 196.7
+    },
+    {
+     "w": "suvi",
+     "s": 196.7,
+     "e": 197.0
+    },
+    {
+     "w": "bor",
+     "s": 197.0,
+     "e": 197.2
+    },
+    {
+     "w": "edi.",
+     "s": 197.2,
+     "e": 197.457
+    }
+   ],
+   "start": 192.135,
+   "end": 197.207
+  },
+  {
+   "id": 22,
+   "img": "22_Dengizchilarning_buyumlari_kiyimlari_va_trubkalari.jpg",
+   "text": "Dengizchilarning shaxsiy buyumlari, kiyimlari, hatto ular deyarli hech qachon tashlab ketmaydigan trubkalari ham joyida edi.",
+   "words": [
+    {
+     "w": "Dengizchilarning",
+     "s": 197.457,
+     "e": 198.74
+    },
+    {
+     "w": "shaxsiy",
+     "s": 198.74,
+     "e": 199.1
+    },
+    {
+     "w": "buyumlari,",
+     "s": 199.1,
+     "e": 199.6
+    },
+    {
+     "w": "kiyimlari,",
+     "s": 200.0,
+     "e": 200.5
+    },
+    {
+     "w": "hatto",
+     "s": 200.5,
+     "e": 200.9
+    },
+    {
+     "w": "ular",
+     "s": 200.9,
+     "e": 201.16
+    },
+    {
+     "w": "deyarli",
+     "s": 201.16,
+     "e": 201.58
+    },
+    {
+     "w": "hech",
+     "s": 201.58,
+     "e": 202.08
+    },
+    {
+     "w": "qachon",
+     "s": 202.08,
+     "e": 202.26
+    },
+    {
+     "w": "tashlab",
+     "s": 202.26,
+     "e": 202.66
+    },
+    {
+     "w": "ketmaydigan",
+     "s": 202.66,
+     "e": 203.04
+    },
+    {
+     "w": "trubkalari",
+     "s": 203.04,
+     "e": 203.85
+    },
+    {
+     "w": "ham",
+     "s": 204.26,
+     "e": 204.44
+    },
+    {
+     "w": "joyida",
+     "s": 204.44,
+     "e": 204.68
+    },
+    {
+     "w": "edi.",
+     "s": 204.68,
+     "e": 204.94
+    }
+   ],
+   "start": 197.207,
+   "end": 205.59
+  },
+  {
+   "id": 23,
+   "img": "23_Kayutada_tikuv_mashinasi_va_qizchaning_oyinchoqlari.jpg",
+   "text": "Kapitanning kayutasida xotinining tikuv mashinasi, qizchasining o'yinchoqlari turardi.",
+   "words": [
+    {
+     "w": "Kapitanning",
+     "s": 205.84,
+     "e": 206.38
+    },
+    {
+     "w": "kayutasida",
+     "s": 206.68,
+     "e": 207.06
+    },
+    {
+     "w": "xotinining",
+     "s": 207.38,
+     "e": 207.8
+    },
+    {
+     "w": "tikuv",
+     "s": 207.96,
+     "e": 208.2
+    },
+    {
+     "w": "mashinasi,",
+     "s": 208.2,
+     "e": 208.52
+    },
+    {
+     "w": "qizchasining",
+     "s": 209.14,
+     "e": 209.68
+    },
+    {
+     "w": "o'yinchoqlari",
+     "s": 209.68,
+     "e": 210.54
+    },
+    {
+     "w": "turardi.",
+     "s": 210.54,
+     "e": 210.8
+    }
+   ],
+   "start": 205.59,
+   "end": 210.55
+  },
+  {
+   "id": 24,
+   "img": "24_Kurash_izlari_yoq_spirt_yuklari_joyida.jpg",
+   "text": "Kemada hech qanday kurash izlari yo'q edi. Hech qanday talonchilik belgisi yo'q edi. Qimmatbaho spirt yuklari ham deyarli to'liq joyida edi.",
+   "words": [
+    {
+     "w": "Kemada",
+     "s": 210.8,
+     "e": 211.568
+    },
+    {
+     "w": "hech",
+     "s": 211.568,
+     "e": 211.952
+    },
+    {
+     "w": "qanday",
+     "s": 211.952,
+     "e": 212.72
+    },
+    {
+     "w": "kurash",
+     "s": 212.72,
+     "e": 213.06
+    },
+    {
+     "w": "izlari",
+     "s": 213.06,
+     "e": 213.52
+    },
+    {
+     "w": "yo'q",
+     "s": 213.52,
+     "e": 213.68
+    },
+    {
+     "w": "edi.",
+     "s": 213.68,
+     "e": 213.84
+    },
+    {
+     "w": "Hech",
+     "s": 214.16,
+     "e": 214.6
+    },
+    {
+     "w": "qanday",
+     "s": 214.6,
+     "e": 214.78
+    },
+    {
+     "w": "talonchilik",
+     "s": 214.78,
+     "e": 215.28
+    },
+    {
+     "w": "belgisi",
+     "s": 215.28,
+     "e": 215.78
+    },
+    {
+     "w": "yo'q",
+     "s": 215.78,
+     "e": 215.9
+    },
+    {
+     "w": "edi.",
+     "s": 215.9,
+     "e": 216.08
+    },
+    {
+     "w": "Qimmatbaho",
+     "s": 216.58,
+     "e": 216.96
+    },
+    {
+     "w": "spirt",
+     "s": 217.26,
+     "e": 217.5
+    },
+    {
+     "w": "yuklari",
+     "s": 217.5,
+     "e": 218.02
+    },
+    {
+     "w": "ham",
+     "s": 218.02,
+     "e": 218.22
+    },
+    {
+     "w": "deyarli",
+     "s": 218.22,
+     "e": 218.76
+    },
+    {
+     "w": "to'liq",
+     "s": 218.76,
+     "e": 219.22
+    },
+    {
+     "w": "joyida",
+     "s": 219.22,
+     "e": 219.5
+    },
+    {
+     "w": "edi.",
+     "s": 219.5,
+     "e": 219.68
+    }
+   ],
+   "start": 210.55,
+   "end": 220.49
+  },
+  {
+   "id": 25,
+   "img": "25_Yagona_qutqaruv_qayig_i_yoq.jpg",
+   "text": "Ammo ba'zi narsalar yo'q edi. Kemaning yagona qutqaruv qayig'i yo'q edi.",
+   "words": [
+    {
+     "w": "Ammo",
+     "s": 220.74,
+     "e": 221.36
+    },
+    {
+     "w": "ba'zi",
+     "s": 221.36,
+     "e": 221.98
+    },
+    {
+     "w": "narsalar",
+     "s": 221.98,
+     "e": 222.42
+    },
+    {
+     "w": "yo'q",
+     "s": 222.42,
+     "e": 222.66
+    },
+    {
+     "w": "edi.",
+     "s": 222.66,
+     "e": 222.88
+    },
+    {
+     "w": "Kemaning",
+     "s": 222.88,
+     "e": 223.54
+    },
+    {
+     "w": "yagona",
+     "s": 224.04,
+     "e": 224.48
+    },
+    {
+     "w": "qutqaruv",
+     "s": 224.48,
+     "e": 224.92
+    },
+    {
+     "w": "qayig'i",
+     "s": 225.02,
+     "e": 225.42
+    },
+    {
+     "w": "yo'q",
+     "s": 225.54,
+     "e": 225.76
+    },
+    {
+     "w": "edi.",
+     "s": 225.76,
+     "e": 226.0
+    }
+   ],
+   "start": 220.49,
+   "end": 226.11
+  },
+  {
+   "id": 26,
+   "img": "26_Sekstant_xronometr_yoq_faqat_kema_jurnali_qolgan.jpg",
+   "text": "Kema yo'nalishini aniqlaydigan navigatsiya asboblari, sekstant va xronometr yo'q edi. Kema hujjatlarining ko'pchiligi yo'q edi, faqat kema jurnali qolgan edi.",
+   "words": [
+    {
+     "w": "Kema",
+     "s": 226.36,
+     "e": 226.74
+    },
+    {
+     "w": "yo'nalishini",
+     "s": 227.06,
+     "e": 227.36
+    },
+    {
+     "w": "aniqlaydigan",
+     "s": 227.36,
+     "e": 227.8
+    },
+    {
+     "w": "navigatsiya",
+     "s": 228.02,
+     "e": 228.64
+    },
+    {
+     "w": "asboblari,",
+     "s": 228.64,
+     "e": 229.2
+    },
+    {
+     "w": "sekstant",
+     "s": 229.88,
+     "e": 230.26
+    },
+    {
+     "w": "va",
+     "s": 230.26,
+     "e": 230.5
+    },
+    {
+     "w": "xronometr",
+     "s": 230.5,
+     "e": 231.1
+    },
+    {
+     "w": "yo'q",
+     "s": 231.1,
+     "e": 231.44
+    },
+    {
+     "w": "edi.",
+     "s": 231.44,
+     "e": 231.66
+    },
+    {
+     "w": "Kema",
+     "s": 232.2,
+     "e": 232.4
+    },
+    {
+     "w": "hujjatlarining",
+     "s": 232.54,
+     "e": 233.0
+    },
+    {
+     "w": "ko'pchiligi",
+     "s": 233.4,
+     "e": 233.66
+    },
+    {
+     "w": "yo'q",
+     "s": 233.66,
+     "e": 233.86
+    },
+    {
+     "w": "edi,",
+     "s": 233.86,
+     "e": 234.16
+    },
+    {
+     "w": "faqat",
+     "s": 234.32,
+     "e": 234.58
+    },
+    {
+     "w": "kema",
+     "s": 234.58,
+     "e": 235.16
+    },
+    {
+     "w": "jurnali",
+     "s": 235.3,
+     "e": 235.72
+    },
+    {
+     "w": "qolgan",
+     "s": 235.72,
+     "e": 236.16
+    },
+    {
+     "w": "edi.",
+     "s": 236.16,
+     "e": 236.445
+    }
+   ],
+   "start": 226.11,
+   "end": 236.79
+  },
+  {
+   "id": 27,
+   "img": "27_Shoshilinch_ravishda_qayiqqa_tushib_tark_etish.jpg",
+   "text": "Bu degani, odamlar kemani o'z ixtiyorlari bilan, shoshilinch ravishda, qayiqqa tushib tark etishgan.",
+   "words": [
+    {
+     "w": "Bu",
+     "s": 237.04,
+     "e": 237.66
+    },
+    {
+     "w": "degani,",
+     "s": 237.66,
+     "e": 238.14
+    },
+    {
+     "w": "odamlar",
+     "s": 238.58,
+     "e": 239.1
+    },
+    {
+     "w": "kemani",
+     "s": 239.1,
+     "e": 239.86
+    },
+    {
+     "w": "o'z",
+     "s": 239.86,
+     "e": 240.06
+    },
+    {
+     "w": "ixtiyorlari",
+     "s": 240.06,
+     "e": 240.86
+    },
+    {
+     "w": "bilan,",
+     "s": 240.86,
+     "e": 241.14
+    },
+    {
+     "w": "shoshilinch",
+     "s": 241.58,
+     "e": 242.02
+    },
+    {
+     "w": "ravishda,",
+     "s": 242.02,
+     "e": 242.58
+    },
+    {
+     "w": "qayiqqa",
+     "s": 242.58,
+     "e": 243.163
+    },
+    {
+     "w": "tushib",
+     "s": 243.163,
+     "e": 243.58
+    },
+    {
+     "w": "tark",
+     "s": 243.58,
+     "e": 244.18
+    },
+    {
+     "w": "etishgan.",
+     "s": 244.18,
+     "e": 244.52
+    }
+   ],
+   "start": 236.79,
+   "end": 245.05
+  },
+  {
+   "id": 28,
+   "img": "28_Kema_jurnalidagi_25_noyabr_oxirgi_yozuv.jpg",
+   "text": "Kema jurnalidagi oxirgi yozuv 25-noyabr, ertalab soat sakkizda qilingan edi.",
+   "words": [
+    {
+     "w": "Kema",
+     "s": 245.3,
+     "e": 245.62
+    },
+    {
+     "w": "jurnalidagi",
+     "s": 245.74,
+     "e": 246.24
+    },
+    {
+     "w": "oxirgi",
+     "s": 246.24,
+     "e": 246.84
+    },
+    {
+     "w": "yozuv",
+     "s": 246.84,
+     "e": 247.08
+    },
+    {
+     "w": "25-noyabr,",
+     "s": 248.36,
+     "e": 248.68
+    },
+    {
+     "w": "ertalab",
+     "s": 248.68,
+     "e": 249.12
+    },
+    {
+     "w": "soat",
+     "s": 249.12,
+     "e": 249.26
+    },
+    {
+     "w": "sakkizda",
+     "s": 249.26,
+     "e": 249.8
+    },
+    {
+     "w": "qilingan",
+     "s": 249.92,
+     "e": 250.28
+    },
+    {
+     "w": "edi.",
+     "s": 250.28,
+     "e": 250.52
+    }
+   ],
+   "start": 245.05,
+   "end": 250.65
+  },
+  {
+   "id": 29,
+   "img": "29_Santa_Mariya_orolidan_tinch_tongda_otish.jpg",
+   "text": "Unda kema Azor orollaridan biri, Santa-Mariya orolidan o'tib ketayotgani qayd etilgan edi. Hech qanday muammo, hech qanday xavotir haqida yozilmagan edi. Ya'ni oddiy, tinch tong.",
+   "words": [
+    {
+     "w": "Unda",
+     "s": 250.9,
+     "e": 251.26
+    },
+    {
+     "w": "kema",
+     "s": 251.26,
+     "e": 251.44
+    },
+    {
+     "w": "Azor",
+     "s": 251.62,
+     "e": 252.3
+    },
+    {
+     "w": "orollaridan",
+     "s": 252.3,
+     "e": 252.9
+    },
+    {
+     "w": "biri,",
+     "s": 252.9,
+     "e": 253.14
+    },
+    {
+     "w": "Santa-Mariya",
+     "s": 253.14,
+     "e": 253.68
+    },
+    {
+     "w": "orolidan",
+     "s": 254.18,
+     "e": 254.72
+    },
+    {
+     "w": "o'tib",
+     "s": 254.72,
+     "e": 254.912
+    },
+    {
+     "w": "ketayotgani",
+     "s": 254.912,
+     "e": 255.44
+    },
+    {
+     "w": "qayd",
+     "s": 255.44,
+     "e": 255.82
+    },
+    {
+     "w": "etilgan",
+     "s": 255.82,
+     "e": 256.16
+    },
+    {
+     "w": "edi.",
+     "s": 256.16,
+     "e": 256.38
+    },
+    {
+     "w": "Hech",
+     "s": 256.92,
+     "e": 257.34
+    },
+    {
+     "w": "qanday",
+     "s": 257.34,
+     "e": 257.54
+    },
+    {
+     "w": "muammo,",
+     "s": 257.54,
+     "e": 257.8
+    },
+    {
+     "w": "hech",
+     "s": 258.4,
+     "e": 258.76
+    },
+    {
+     "w": "qanday",
+     "s": 258.76,
+     "e": 258.94
+    },
+    {
+     "w": "xavotir",
+     "s": 258.94,
+     "e": 259.46
+    },
+    {
+     "w": "haqida",
+     "s": 259.46,
+     "e": 259.82
+    },
+    {
+     "w": "yozilmagan",
+     "s": 260.06,
+     "e": 260.3
+    },
+    {
+     "w": "edi.",
+     "s": 260.44,
+     "e": 260.7
+    },
+    {
+     "w": "Ya'ni",
+     "s": 261.08,
+     "e": 261.46
+    },
+    {
+     "w": "oddiy,",
+     "s": 261.46,
+     "e": 261.895
+    },
+    {
+     "w": "tinch",
+     "s": 262.58,
+     "e": 263.3
+    },
+    {
+     "w": "tong.",
+     "s": 263.3,
+     "e": 263.58
+    }
+   ],
+   "start": 250.65,
+   "end": 264.67
+  },
+  {
+   "id": 30,
+   "img": "30_On_kun_davomida_boshqaruvsiz_suzgan_kema.jpg",
+   "text": "Kema topilgan joy, oxirgi yozuv qilingan joydan bir necha yuz kilometr uzoqda edi. Demak, 'Meri Selest' kamida o'n kun davomida, hech kim boshqarmagan holda, o'zicha okeanda suzib yurgan.",
+   "words": [
+    {
+     "w": "Kema",
+     "s": 264.92,
+     "e": 265.1
+    },
+    {
+     "w": "topilgan",
+     "s": 266.82,
+     "e": 267.12
+    },
+    {
+     "w": "joy,",
+     "s": 267.12,
+     "e": 267.405
+    },
+    {
+     "w": "oxirgi",
+     "s": 267.405,
+     "e": 267.915
+    },
+    {
+     "w": "yozuv",
+     "s": 268.44,
+     "e": 268.66
+    },
+    {
+     "w": "qilingan",
+     "s": 268.66,
+     "e": 269.14
+    },
+    {
+     "w": "joydan",
+     "s": 269.38,
+     "e": 269.5
+    },
+    {
+     "w": "bir",
+     "s": 269.5,
+     "e": 269.8
+    },
+    {
+     "w": "necha",
+     "s": 269.8,
+     "e": 269.98
+    },
+    {
+     "w": "yuz",
+     "s": 269.98,
+     "e": 270.14
+    },
+    {
+     "w": "kilometr",
+     "s": 270.14,
+     "e": 270.52
+    },
+    {
+     "w": "uzoqda",
+     "s": 270.52,
+     "e": 271.08
+    },
+    {
+     "w": "edi.",
+     "s": 271.08,
+     "e": 271.3
+    },
+    {
+     "w": "Demak,",
+     "s": 271.76,
+     "e": 272.28
+    },
+    {
+     "w": "'Meri",
+     "s": 272.7,
+     "e": 273.06
+    },
+    {
+     "w": "Selest'",
+     "s": 273.06,
+     "e": 273.56
+    },
+    {
+     "w": "kamida",
+     "s": 273.56,
+     "e": 274.04
+    },
+    {
+     "w": "o'n",
+     "s": 274.04,
+     "e": 274.2
+    },
+    {
+     "w": "kun",
+     "s": 274.2,
+     "e": 274.8
+    },
+    {
+     "w": "davomida,",
+     "s": 274.8,
+     "e": 275.16
+    },
+    {
+     "w": "hech",
+     "s": 275.16,
+     "e": 276.22
+    },
+    {
+     "w": "kim",
+     "s": 276.22,
+     "e": 276.27
+    },
+    {
+     "w": "boshqarmagan",
+     "s": 276.22,
+     "e": 276.78
+    },
+    {
+     "w": "holda,",
+     "s": 276.94,
+     "e": 277.18
+    },
+    {
+     "w": "o'zicha",
+     "s": 277.58,
+     "e": 278.0
+    },
+    {
+     "w": "okeanda",
+     "s": 278.0,
+     "e": 278.585
+    },
+    {
+     "w": "suzib",
+     "s": 278.94,
+     "e": 279.18
+    },
+    {
+     "w": "yurgan.",
+     "s": 279.18,
+     "e": 279.56
+    }
+   ],
+   "start": 264.67,
+   "end": 282.79
+  },
+  {
+   "id": 31,
+   "img": "31_Mustahkam_kema_va_okeandagi_kichkina_qayiq_jumboq.jpg",
+   "text": "Tajribali kapitan nega o'z xotini va ikki yoshli qizchasi bilan mustahkam, suzishga yaroqli kemani tashlab, okeanning o'rtasida kichkina qayiqqa tushdi?",
+   "words": [
+    {
+     "w": "Tajribali",
+     "s": 283.04,
+     "e": 283.68
+    },
+    {
+     "w": "kapitan",
+     "s": 283.68,
+     "e": 284.2
+    },
+    {
+     "w": "nega",
+     "s": 284.68,
+     "e": 284.92
+    },
+    {
+     "w": "o'z",
+     "s": 284.92,
+     "e": 285.22
+    },
+    {
+     "w": "xotini",
+     "s": 285.22,
+     "e": 285.74
+    },
+    {
+     "w": "va",
+     "s": 285.74,
+     "e": 285.907
+    },
+    {
+     "w": "ikki",
+     "s": 285.907,
+     "e": 286.24
+    },
+    {
+     "w": "yoshli",
+     "s": 286.24,
+     "e": 286.58
+    },
+    {
+     "w": "qizchasi",
+     "s": 286.58,
+     "e": 287.02
+    },
+    {
+     "w": "bilan",
+     "s": 287.14,
+     "e": 287.36
+    },
+    {
+     "w": "mustahkam,",
+     "s": 287.36,
+     "e": 288.14
+    },
+    {
+     "w": "suzishga",
+     "s": 288.52,
+     "e": 288.84
+    },
+    {
+     "w": "yaroqli",
+     "s": 289.06,
+     "e": 289.56
+    },
+    {
+     "w": "kemani",
+     "s": 289.56,
+     "e": 290.12
+    },
+    {
+     "w": "tashlab,",
+     "s": 290.12,
+     "e": 290.42
+    },
+    {
+     "w": "okeanning",
+     "s": 290.42,
+     "e": 291.34
+    },
+    {
+     "w": "o'rtasida",
+     "s": 291.34,
+     "e": 292.12
+    },
+    {
+     "w": "kichkina",
+     "s": 292.12,
+     "e": 292.54
+    },
+    {
+     "w": "qayiqqa",
+     "s": 292.54,
+     "e": 293.125
+    },
+    {
+     "w": "tushdi?",
+     "s": 293.125,
+     "e": 293.56
+    }
+   ],
+   "start": 282.79,
+   "end": 299.57
+  },
+  {
+   "id": 32,
+   "img": "32_Meri_Selestni_Gibraltarga_olib_kelish.jpg",
+   "text": "'Dei Gratsiya' dengizchilari 'Meri Selest'ni Gibraltarga olib kelishdi.",
+   "words": [
+    {
+     "w": "'Dei",
+     "s": 299.82,
+     "e": 300.24
+    },
+    {
+     "w": "Gratsiya'",
+     "s": 300.24,
+     "e": 300.68
+    },
+    {
+     "w": "dengizchilari",
+     "s": 300.68,
+     "e": 301.38
+    },
+    {
+     "w": "'Meri",
+     "s": 301.38,
+     "e": 302.18
+    },
+    {
+     "w": "Selest'ni",
+     "s": 302.18,
+     "e": 302.66
+    },
+    {
+     "w": "Gibraltarga",
+     "s": 302.66,
+     "e": 303.16
+    },
+    {
+     "w": "olib",
+     "s": 303.16,
+     "e": 303.48
+    },
+    {
+     "w": "kelishdi.",
+     "s": 303.48,
+     "e": 303.92
+    }
+   ],
+   "start": 299.57,
+   "end": 313.09
+  },
+  {
+   "id": 33,
+   "img": "33_Bosh_prokuror_Frederik_Solli_Flad_tergovi.jpg",
+   "text": "Tergovni Frederik Solli-Flad ismli bosh prokuror olib bordi. U hammaga shubha bilan qaradi. Uning fikricha, bu yerda jinoyat bo'lgan.",
+   "words": [
+    {
+     "w": "Tergovni",
+     "s": 313.34,
+     "e": 313.72
+    },
+    {
+     "w": "Frederik",
+     "s": 317.96,
+     "e": 318.48
+    },
+    {
+     "w": "Solli-Flad",
+     "s": 318.48,
+     "e": 319.26
+    },
+    {
+     "w": "ismli",
+     "s": 319.26,
+     "e": 319.72
+    },
+    {
+     "w": "bosh",
+     "s": 319.72,
+     "e": 319.908
+    },
+    {
+     "w": "prokuror",
+     "s": 319.908,
+     "e": 320.409
+    },
+    {
+     "w": "olib",
+     "s": 320.409,
+     "e": 320.66
+    },
+    {
+     "w": "bordi.",
+     "s": 320.66,
+     "e": 320.84
+    },
+    {
+     "w": "U",
+     "s": 320.84,
+     "e": 320.975
+    },
+    {
+     "w": "hammaga",
+     "s": 321.72,
+     "e": 322.26
+    },
+    {
+     "w": "shubha",
+     "s": 322.54,
+     "e": 322.9
+    },
+    {
+     "w": "bilan",
+     "s": 322.9,
+     "e": 322.95
+    },
+    {
+     "w": "qaradi.",
+     "s": 322.9,
+     "e": 323.38
+    },
+    {
+     "w": "Uning",
+     "s": 323.9,
+     "e": 324.12
+    },
+    {
+     "w": "fikricha,",
+     "s": 324.12,
+     "e": 324.34
+    },
+    {
+     "w": "bu",
+     "s": 324.34,
+     "e": 324.55
+    },
+    {
+     "w": "yerda",
+     "s": 325.02,
+     "e": 325.38
+    },
+    {
+     "w": "jinoyat",
+     "s": 325.38,
+     "e": 325.96
+    },
+    {
+     "w": "bo'lgan.",
+     "s": 325.96,
+     "e": 326.3
+    }
+   ],
+   "start": 313.09,
+   "end": 326.63
+  },
+  {
+   "id": 34,
+   "img": "34_Kapitan_qilichidagi_doglar_va_bortdagi_izlar.jpg",
+   "text": "Uning tergovchilari kapitanning qilichida qonga o'xshash dog'lar topishdi. Kema bortida ham shubhali izlar topildi.",
+   "words": [
+    {
+     "w": "Uning",
+     "s": 326.88,
+     "e": 327.26
+    },
+    {
+     "w": "tergovchilari",
+     "s": 327.26,
+     "e": 327.56
+    },
+    {
+     "w": "kapitanning",
+     "s": 327.88,
+     "e": 328.72
+    },
+    {
+     "w": "qilichida",
+     "s": 328.72,
+     "e": 329.286
+    },
+    {
+     "w": "qonga",
+     "s": 329.286,
+     "e": 329.64
+    },
+    {
+     "w": "o'xshash",
+     "s": 329.64,
+     "e": 329.9
+    },
+    {
+     "w": "dog'lar",
+     "s": 329.9,
+     "e": 330.34
+    },
+    {
+     "w": "topishdi.",
+     "s": 330.34,
+     "e": 330.74
+    },
+    {
+     "w": "Kema",
+     "s": 330.74,
+     "e": 331.74
+    },
+    {
+     "w": "bortida",
+     "s": 331.74,
+     "e": 332.06
+    },
+    {
+     "w": "ham",
+     "s": 332.06,
+     "e": 332.36
+    },
+    {
+     "w": "shubhali",
+     "s": 332.36,
+     "e": 332.96
+    },
+    {
+     "w": "izlar",
+     "s": 332.96,
+     "e": 333.36
+    },
+    {
+     "w": "topildi.",
+     "s": 333.36,
+     "e": 333.8
+    }
+   ],
+   "start": 326.63,
+   "end": 334.07
+  },
+  {
+   "id": 35,
+   "img": "35_Prokurorning_isyon_va_jinoyat_taxmini.jpg",
+   "text": "Prokuror bir necha taxminni ilgari surdi. Ehtimol, dengizchilar spirt ichib mast bo'lib, kapitan va uning oilasini o'ldirib, qochib ketgandir?",
+   "words": [
+    {
+     "w": "Prokuror",
+     "s": 334.32,
+     "e": 334.92
+    },
+    {
+     "w": "bir",
+     "s": 334.92,
+     "e": 335.186
+    },
+    {
+     "w": "necha",
+     "s": 335.186,
+     "e": 335.54
+    },
+    {
+     "w": "taxminni",
+     "s": 335.54,
+     "e": 335.92
+    },
+    {
+     "w": "ilgari",
+     "s": 335.92,
+     "e": 336.14
+    },
+    {
+     "w": "surdi.",
+     "s": 336.14,
+     "e": 336.66
+    },
+    {
+     "w": "Ehtimol,",
+     "s": 337.4,
+     "e": 337.92
+    },
+    {
+     "w": "dengizchilar",
+     "s": 337.92,
+     "e": 338.74
+    },
+    {
+     "w": "spirt",
+     "s": 338.74,
+     "e": 339.06
+    },
+    {
+     "w": "ichib",
+     "s": 339.06,
+     "e": 339.46
+    },
+    {
+     "w": "mast",
+     "s": 339.46,
+     "e": 339.86
+    },
+    {
+     "w": "bo'lib,",
+     "s": 339.86,
+     "e": 340.16
+    },
+    {
+     "w": "kapitan",
+     "s": 340.16,
+     "e": 340.76
+    },
+    {
+     "w": "va",
+     "s": 340.76,
+     "e": 340.92
+    },
+    {
+     "w": "uning",
+     "s": 340.92,
+     "e": 341.16
+    },
+    {
+     "w": "oilasini",
+     "s": 341.16,
+     "e": 341.7
+    },
+    {
+     "w": "o'ldirib,",
+     "s": 341.7,
+     "e": 342.1
+    },
+    {
+     "w": "qochib",
+     "s": 343.72,
+     "e": 343.92
+    },
+    {
+     "w": "ketgandir?",
+     "s": 350.02,
+     "e": 350.34
+    }
+   ],
+   "start": 334.07,
+   "end": 350.87
+  },
+  {
+   "id": 36,
+   "img": "36_Ekspertiza_qon_emas_zang_va_zaharli_spirt.jpg",
+   "text": "Ammo keyingi tekshiruvlar bu dog'lar qon emasligini ko'rsatdi. Bundan tashqari, kemadagi spirt ichib bo'lmaydigan darajada zaharli edi.",
+   "words": [
+    {
+     "w": "Ammo",
+     "s": 351.12,
+     "e": 351.52
+    },
+    {
+     "w": "keyingi",
+     "s": 351.52,
+     "e": 352.38
+    },
+    {
+     "w": "tekshiruvlar",
+     "s": 352.38,
+     "e": 352.82
+    },
+    {
+     "w": "bu",
+     "s": 352.98,
+     "e": 353.44
+    },
+    {
+     "w": "dog'lar",
+     "s": 353.44,
+     "e": 353.88
+    },
+    {
+     "w": "qon",
+     "s": 353.88,
+     "e": 354.2
+    },
+    {
+     "w": "emasligini",
+     "s": 354.38,
+     "e": 354.72
+    },
+    {
+     "w": "ko'rsatdi.",
+     "s": 354.92,
+     "e": 355.44
+    },
+    {
+     "w": "Bundan",
+     "s": 355.88,
+     "e": 356.2
+    },
+    {
+     "w": "tashqari,",
+     "s": 356.2,
+     "e": 356.56
+    },
+    {
+     "w": "kemadagi",
+     "s": 357.08,
+     "e": 357.36
+    },
+    {
+     "w": "spirt",
+     "s": 357.36,
+     "e": 357.62
+    },
+    {
+     "w": "ichib",
+     "s": 357.62,
+     "e": 357.98
+    },
+    {
+     "w": "bo'lmaydigan",
+     "s": 357.98,
+     "e": 358.66
+    },
+    {
+     "w": "darajada",
+     "s": 358.66,
+     "e": 359.08
+    },
+    {
+     "w": "zaharli",
+     "s": 359.08,
+     "e": 359.58
+    },
+    {
+     "w": "edi.",
+     "s": 362.22,
+     "e": 362.42
+    }
+   ],
+   "start": 350.87,
+   "end": 363.67
+  },
+  {
+   "id": 37,
+   "img": "37_Sud_qarori_va_kam_mukofot.jpg",
+   "text": "Sud oxir-oqibat 'Dei Gratsiya' ekipajini ayblamadi, ammo ularga kutilganidan ancha kam mukofot berdi. Sir esa hal bo'lmay qoldi.",
+   "words": [
+    {
+     "w": "Sud",
+     "s": 363.92,
+     "e": 364.16
+    },
+    {
+     "w": "oxir-oqibat",
+     "s": 364.16,
+     "e": 364.8
+    },
+    {
+     "w": "'Dei",
+     "s": 364.8,
+     "e": 365.36
+    },
+    {
+     "w": "Gratsiya'",
+     "s": 365.36,
+     "e": 365.74
+    },
+    {
+     "w": "ekipajini",
+     "s": 365.74,
+     "e": 366.32
+    },
+    {
+     "w": "ayblamadi,",
+     "s": 366.32,
+     "e": 366.9
+    },
+    {
+     "w": "ammo",
+     "s": 367.32,
+     "e": 367.66
+    },
+    {
+     "w": "ularga",
+     "s": 367.66,
+     "e": 368.06
+    },
+    {
+     "w": "kutilganidan",
+     "s": 368.06,
+     "e": 368.7
+    },
+    {
+     "w": "ancha",
+     "s": 368.7,
+     "e": 369.24
+    },
+    {
+     "w": "kam",
+     "s": 369.24,
+     "e": 369.64
+    },
+    {
+     "w": "mukofot",
+     "s": 369.64,
+     "e": 370.12
+    },
+    {
+     "w": "berdi.",
+     "s": 370.12,
+     "e": 370.5
+    },
+    {
+     "w": "Sir",
+     "s": 370.5,
+     "e": 370.785
+    },
+    {
+     "w": "esa",
+     "s": 375.48,
+     "e": 376.14
+    },
+    {
+     "w": "hal",
+     "s": 376.14,
+     "e": 376.86
+    },
+    {
+     "w": "bo'lmay",
+     "s": 376.86,
+     "e": 377.34
+    },
+    {
+     "w": "qoldi.",
+     "s": 377.34,
+     "e": 377.72
+    }
+   ],
+   "start": 363.67,
+   "end": 377.47
+  },
+  {
+   "id": 38,
+   "img": "38_1884_yil_Artur_Konan_Doyl_hikoyasi.jpg",
+   "text": "O'n bir yildan keyin, 1884-yilda, bu hikoya yangi hayot topdi. Yosh yozuvchi Artur Konan Doyl bu kema haqida qo'rqinchli hikoya yozdi.",
+   "words": [
+    {
+     "w": "O'n",
+     "s": 377.72,
+     "e": 377.93
+    },
+    {
+     "w": "bir",
+     "s": 377.93,
+     "e": 378.215
+    },
+    {
+     "w": "yildan",
+     "s": 379.22,
+     "e": 379.58
+    },
+    {
+     "w": "keyin,",
+     "s": 379.58,
+     "e": 379.96
+    },
+    {
+     "w": "1884-yilda,",
+     "s": 381.74,
+     "e": 382.04
+    },
+    {
+     "w": "bu",
+     "s": 382.34,
+     "e": 382.74
+    },
+    {
+     "w": "hikoya",
+     "s": 382.74,
+     "e": 383.12
+    },
+    {
+     "w": "yangi",
+     "s": 383.12,
+     "e": 383.86
+    },
+    {
+     "w": "hayot",
+     "s": 383.86,
+     "e": 384.18
+    },
+    {
+     "w": "topdi.",
+     "s": 384.18,
+     "e": 384.52
+    },
+    {
+     "w": "Yosh",
+     "s": 384.52,
+     "e": 385.84
+    },
+    {
+     "w": "yozuvchi",
+     "s": 387.06,
+     "e": 387.56
+    },
+    {
+     "w": "Artur",
+     "s": 392.14,
+     "e": 392.94
+    },
+    {
+     "w": "Konan",
+     "s": 392.94,
+     "e": 393.36
+    },
+    {
+     "w": "Doyl",
+     "s": 393.36,
+     "e": 393.76
+    },
+    {
+     "w": "bu",
+     "s": 395.44,
+     "e": 395.6
+    },
+    {
+     "w": "kema",
+     "s": 395.6,
+     "e": 395.96
+    },
+    {
+     "w": "haqida",
+     "s": 395.96,
+     "e": 396.47
+    },
+    {
+     "w": "qo'rqinchli",
+     "s": 396.47,
+     "e": 397.205
+    },
+    {
+     "w": "hikoya",
+     "s": 397.205,
+     "e": 397.715
+    },
+    {
+     "w": "yozdi.",
+     "s": 399.58,
+     "e": 399.92
+    }
+   ],
+   "start": 377.47,
+   "end": 400.33
+  },
+  {
+   "id": 39,
+   "img": "39_Stol_ustida_iliq_choy_va_nonushta_afsonasi.jpg",
+   "text": "Uning hikoyasida ko'p tafsilotlar o'ylab topilgan edi. Masalan, kemada stol ustida hali iliq choy, yarim yeyilgan nonushta qolgan, degan gaplar. 'Meri Selest' afsonaga aylandi.",
+   "words": [
+    {
+     "w": "Uning",
+     "s": 400.58,
+     "e": 400.86
+    },
+    {
+     "w": "hikoyasida",
+     "s": 400.86,
+     "e": 401.28
+    },
+    {
+     "w": "ko'p",
+     "s": 401.48,
+     "e": 401.86
+    },
+    {
+     "w": "tafsilotlar",
+     "s": 401.86,
+     "e": 402.58
+    },
+    {
+     "w": "o'ylab",
+     "s": 402.58,
+     "e": 402.94
+    },
+    {
+     "w": "topilgan",
+     "s": 402.94,
+     "e": 403.24
+    },
+    {
+     "w": "edi.",
+     "s": 403.4,
+     "e": 403.58
+    },
+    {
+     "w": "Masalan,",
+     "s": 404.14,
+     "e": 404.5
+    },
+    {
+     "w": "kemada",
+     "s": 404.5,
+     "e": 405.28
+    },
+    {
+     "w": "stol",
+     "s": 405.28,
+     "e": 405.82
+    },
+    {
+     "w": "ustida",
+     "s": 405.82,
+     "e": 405.88
+    },
+    {
+     "w": "hali",
+     "s": 405.88,
+     "e": 406.36
+    },
+    {
+     "w": "iliq",
+     "s": 406.36,
+     "e": 406.41
+    },
+    {
+     "w": "choy,",
+     "s": 406.36,
+     "e": 406.8
+    },
+    {
+     "w": "yarim",
+     "s": 407.22,
+     "e": 407.46
+    },
+    {
+     "w": "yeyilgan",
+     "s": 407.46,
+     "e": 407.74
+    },
+    {
+     "w": "nonushta",
+     "s": 407.88,
+     "e": 408.38
+    },
+    {
+     "w": "qolgan,",
+     "s": 408.38,
+     "e": 408.86
+    },
+    {
+     "w": "degan",
+     "s": 408.86,
+     "e": 409.295
+    },
+    {
+     "w": "gaplar.",
+     "s": 409.295,
+     "e": 409.805
+    },
+    {
+     "w": "'Meri",
+     "s": 411.42,
+     "e": 411.56
+    },
+    {
+     "w": "Selest'",
+     "s": 419.18,
+     "e": 419.62
+    },
+    {
+     "w": "afsonaga",
+     "s": 419.62,
+     "e": 420.46
+    },
+    {
+     "w": "aylandi.",
+     "s": 420.46,
+     "e": 420.92
+    }
+   ],
+   "start": 400.33,
+   "end": 421.75
+  },
+  {
+   "id": 40,
+   "img": "40_Dengiz_qaroqchilari_hujumi_taxmini.jpg",
+   "text": "Shundan beri yuzlab taxminlar paydo bo'ldi. Ba'zilar dengiz qaroqchilari hujum qilgan, deyishdi. Ammo qaroqchilar qimmatbaho yukni nega qoldirib ketishgan?",
+   "words": [
+    {
+     "w": "Shundan",
+     "s": 422.0,
+     "e": 422.34
+    },
+    {
+     "w": "beri",
+     "s": 422.34,
+     "e": 422.54
+    },
+    {
+     "w": "yuzlab",
+     "s": 422.54,
+     "e": 423.42
+    },
+    {
+     "w": "taxminlar",
+     "s": 423.42,
+     "e": 423.94
+    },
+    {
+     "w": "paydo",
+     "s": 423.94,
+     "e": 424.24
+    },
+    {
+     "w": "bo'ldi.",
+     "s": 424.24,
+     "e": 424.62
+    },
+    {
+     "w": "Ba'zilar",
+     "s": 425.24,
+     "e": 425.82
+    },
+    {
+     "w": "dengiz",
+     "s": 425.82,
+     "e": 426.46
+    },
+    {
+     "w": "qaroqchilari",
+     "s": 426.46,
+     "e": 427.14
+    },
+    {
+     "w": "hujum",
+     "s": 427.14,
+     "e": 427.52
+    },
+    {
+     "w": "qilgan,",
+     "s": 427.52,
+     "e": 427.9
+    },
+    {
+     "w": "deyishdi.",
+     "s": 427.9,
+     "e": 428.485
+    },
+    {
+     "w": "Ammo",
+     "s": 428.88,
+     "e": 429.38
+    },
+    {
+     "w": "qaroqchilar",
+     "s": 429.38,
+     "e": 430.36
+    },
+    {
+     "w": "qimmatbaho",
+     "s": 430.36,
+     "e": 431.04
+    },
+    {
+     "w": "yukni",
+     "s": 431.04,
+     "e": 431.32
+    },
+    {
+     "w": "nega",
+     "s": 431.32,
+     "e": 431.52
+    },
+    {
+     "w": "qoldirib",
+     "s": 431.64,
+     "e": 431.94
+    },
+    {
+     "w": "ketishgan?",
+     "s": 431.94,
+     "e": 432.6
+    }
+   ],
+   "start": 421.75,
+   "end": 432.97
+  },
+  {
+   "id": 41,
+   "img": "41_Ulkan_dengiz_maxluqi_gigant_kalmar_taxmini.jpg",
+   "text": "Boshqalar kemaga ulkan dengiz maxluqi, masalan gigant kalmar hujum qilgan, deb ishonishdi.",
+   "words": [
+    {
+     "w": "Boshqalar",
+     "s": 433.22,
+     "e": 433.74
+    },
+    {
+     "w": "kemaga",
+     "s": 433.74,
+     "e": 434.5
+    },
+    {
+     "w": "ulkan",
+     "s": 434.5,
+     "e": 434.96
+    },
+    {
+     "w": "dengiz",
+     "s": 434.96,
+     "e": 435.54
+    },
+    {
+     "w": "maxluqi,",
+     "s": 435.54,
+     "e": 436.2
+    },
+    {
+     "w": "masalan",
+     "s": 436.5,
+     "e": 436.82
+    },
+    {
+     "w": "gigant",
+     "s": 436.82,
+     "e": 437.6
+    },
+    {
+     "w": "kalmar",
+     "s": 437.6,
+     "e": 438.08
+    },
+    {
+     "w": "hujum",
+     "s": 438.08,
+     "e": 438.48
+    },
+    {
+     "w": "qilgan,",
+     "s": 438.48,
+     "e": 438.8
+    },
+    {
+     "w": "deb",
+     "s": 438.8,
+     "e": 438.96
+    },
+    {
+     "w": "ishonishdi.",
+     "s": 438.96,
+     "e": 439.5
+    }
+   ],
+   "start": 432.97,
+   "end": 439.25
+  },
+  {
+   "id": 42,
+   "img": "42_Bermuda_uchburchagi_va_ozga_sayyoraliklar_nazariyasi.jpg",
+   "text": "Uchinchilar Bermuda uchburchagi bilan bog'lashdi, hatto o'zga sayyoraliklar ekipajni olib ketgan, degan nazariyalar ham bor.",
+   "words": [
+    {
+     "w": "Uchinchilar",
+     "s": 439.5,
+     "e": 440.74
+    },
+    {
+     "w": "Bermuda",
+     "s": 440.74,
+     "e": 441.54
+    },
+    {
+     "w": "uchburchagi",
+     "s": 441.54,
+     "e": 442.16
+    },
+    {
+     "w": "bilan",
+     "s": 442.16,
+     "e": 442.38
+    },
+    {
+     "w": "bog'lashdi,",
+     "s": 442.38,
+     "e": 442.88
+    },
+    {
+     "w": "hatto",
+     "s": 446.22,
+     "e": 446.66
+    },
+    {
+     "w": "o'zga",
+     "s": 446.66,
+     "e": 447.36
+    },
+    {
+     "w": "sayyoraliklar",
+     "s": 447.36,
+     "e": 448.18
+    },
+    {
+     "w": "ekipajni",
+     "s": 448.18,
+     "e": 448.82
+    },
+    {
+     "w": "olib",
+     "s": 448.82,
+     "e": 449.02
+    },
+    {
+     "w": "ketgan,",
+     "s": 449.02,
+     "e": 449.38
+    },
+    {
+     "w": "degan",
+     "s": 449.76,
+     "e": 449.98
+    },
+    {
+     "w": "nazariyalar",
+     "s": 449.98,
+     "e": 450.58
+    },
+    {
+     "w": "ham",
+     "s": 450.58,
+     "e": 450.84
+    },
+    {
+     "w": "bor.",
+     "s": 450.84,
+     "e": 451.0
+    }
+   ],
+   "start": 439.25,
+   "end": 451.75
+  },
+  {
+   "id": 43,
+   "img": "43_Olimlar_va_tarixchilarning_real_tadqiqotlari.jpg",
+   "text": "Ammo olimlar va tarixchilar ko'proq real taxminlarni ko'rib chiqishadi.",
+   "words": [
+    {
+     "w": "Ammo",
+     "s": 452.0,
+     "e": 452.46
+    },
+    {
+     "w": "olimlar",
+     "s": 452.46,
+     "e": 453.04
+    },
+    {
+     "w": "va",
+     "s": 453.04,
+     "e": 453.22
+    },
+    {
+     "w": "tarixchilar",
+     "s": 453.22,
+     "e": 453.84
+    },
+    {
+     "w": "ko'proq",
+     "s": 454.24,
+     "e": 454.64
+    },
+    {
+     "w": "real",
+     "s": 454.64,
+     "e": 454.86
+    },
+    {
+     "w": "taxminlarni",
+     "s": 454.86,
+     "e": 455.44
+    },
+    {
+     "w": "ko'rib",
+     "s": 455.58,
+     "e": 455.84
+    },
+    {
+     "w": "chiqishadi.",
+     "s": 455.84,
+     "e": 456.5
+    }
+   ],
+   "start": 451.75,
+   "end": 456.65
+  },
+  {
+   "id": 44,
+   "img": "44_Toqqizta_sizgan_bochka_va_spirt_buglari.jpg",
+   "text": "Eng mashhur nazariyalardan biri spirt bilan bog'liq. Yuk bo'limida topilgan bochkalardan to'qqiztasi bo'm-bo'sh edi. Ular boshqa turdagi yog'ochdan yasalgan bo'lib, sizib ketishi va spirt bug'lari to'planishi mumkin edi.",
+   "words": [
+    {
+     "w": "Eng",
+     "s": 456.9,
+     "e": 457.34
+    },
+    {
+     "w": "mashhur",
+     "s": 457.34,
+     "e": 457.72
+    },
+    {
+     "w": "nazariyalardan",
+     "s": 457.72,
+     "e": 458.28
+    },
+    {
+     "w": "biri",
+     "s": 458.28,
+     "e": 458.64
+    },
+    {
+     "w": "spirt",
+     "s": 458.82,
+     "e": 459.42
+    },
+    {
+     "w": "bilan",
+     "s": 459.42,
+     "e": 459.78
+    },
+    {
+     "w": "bog'liq.",
+     "s": 459.78,
+     "e": 460.29
+    },
+    {
+     "w": "Yuk",
+     "s": 460.62,
+     "e": 460.9
+    },
+    {
+     "w": "bo'limida",
+     "s": 460.9,
+     "e": 461.28
+    },
+    {
+     "w": "topilgan",
+     "s": 461.28,
+     "e": 461.72
+    },
+    {
+     "w": "bochkalardan",
+     "s": 461.72,
+     "e": 462.78
+    },
+    {
+     "w": "to'qqiztasi",
+     "s": 462.78,
+     "e": 463.48
+    },
+    {
+     "w": "bo'm-bo'sh",
+     "s": 463.48,
+     "e": 463.74
+    },
+    {
+     "w": "edi.",
+     "s": 463.74,
+     "e": 464.16
+    },
+    {
+     "w": "Ular",
+     "s": 464.92,
+     "e": 465.24
+    },
+    {
+     "w": "boshqa",
+     "s": 465.24,
+     "e": 466.04
+    },
+    {
+     "w": "turdagi",
+     "s": 466.04,
+     "e": 466.4
+    },
+    {
+     "w": "yog'ochdan",
+     "s": 466.4,
+     "e": 466.84
+    },
+    {
+     "w": "yasalgan",
+     "s": 466.84,
+     "e": 467.26
+    },
+    {
+     "w": "bo'lib,",
+     "s": 467.26,
+     "e": 467.6
+    },
+    {
+     "w": "sizib",
+     "s": 467.6,
+     "e": 468.16
+    },
+    {
+     "w": "ketishi",
+     "s": 468.16,
+     "e": 468.48
+    },
+    {
+     "w": "va",
+     "s": 468.48,
+     "e": 468.69
+    },
+    {
+     "w": "spirt",
+     "s": 471.68,
+     "e": 471.98
+    },
+    {
+     "w": "bug'lari",
+     "s": 471.98,
+     "e": 472.54
+    },
+    {
+     "w": "to'planishi",
+     "s": 472.54,
+     "e": 472.96
+    },
+    {
+     "w": "mumkin",
+     "s": 472.96,
+     "e": 473.36
+    },
+    {
+     "w": "edi.",
+     "s": 473.36,
+     "e": 473.56
+    }
+   ],
+   "start": 456.65,
+   "end": 473.31
+  },
+  {
+   "id": 45,
+   "img": "45_Spirt_buglari_chaqnashi_va_kemani_tark_etish_buyrugi.jpg",
+   "text": "Kapitan bu hidni sezadi yoki kichik bir portlash bo'ladi. U butun kema portlab ketishidan qo'rqadi. Xotini va qizchasini qutqarish uchun u hammaga qayiqqa tushishni buyuradi.",
+   "words": [
+    {
+     "w": "Kapitan",
+     "s": 473.56,
+     "e": 474.08
+    },
+    {
+     "w": "bu",
+     "s": 474.08,
+     "e": 474.58
+    },
+    {
+     "w": "hidni",
+     "s": 474.58,
+     "e": 475.08
+    },
+    {
+     "w": "sezadi",
+     "s": 475.08,
+     "e": 475.48
+    },
+    {
+     "w": "yoki",
+     "s": 475.48,
+     "e": 475.62
+    },
+    {
+     "w": "kichik",
+     "s": 475.62,
+     "e": 476.22
+    },
+    {
+     "w": "bir",
+     "s": 476.22,
+     "e": 476.32
+    },
+    {
+     "w": "portlash",
+     "s": 476.32,
+     "e": 476.8
+    },
+    {
+     "w": "bo'ladi.",
+     "s": 476.8,
+     "e": 477.08
+    },
+    {
+     "w": "U",
+     "s": 477.98,
+     "e": 478.22
+    },
+    {
+     "w": "butun",
+     "s": 478.38,
+     "e": 478.88
+    },
+    {
+     "w": "kema",
+     "s": 478.88,
+     "e": 479.16
+    },
+    {
+     "w": "portlab",
+     "s": 479.16,
+     "e": 479.56
+    },
+    {
+     "w": "ketishidan",
+     "s": 479.56,
+     "e": 479.88
+    },
+    {
+     "w": "qo'rqadi.",
+     "s": 480.08,
+     "e": 480.38
+    },
+    {
+     "w": "Xotini",
+     "s": 480.38,
+     "e": 480.89
+    },
+    {
+     "w": "va",
+     "s": 480.89,
+     "e": 481.1
+    },
+    {
+     "w": "qizchasini",
+     "s": 481.56,
+     "e": 482.14
+    },
+    {
+     "w": "qutqarish",
+     "s": 482.14,
+     "e": 482.68
+    },
+    {
+     "w": "uchun",
+     "s": 482.68,
+     "e": 483.12
+    },
+    {
+     "w": "u",
+     "s": 483.12,
+     "e": 483.26
+    },
+    {
+     "w": "hammaga",
+     "s": 483.26,
+     "e": 483.64
+    },
+    {
+     "w": "qayiqqa",
+     "s": 483.64,
+     "e": 484.26
+    },
+    {
+     "w": "tushishni",
+     "s": 484.26,
+     "e": 484.62
+    },
+    {
+     "w": "buyuradi.",
+     "s": 484.62,
+     "e": 485.08
+    }
+   ],
+   "start": 473.31,
+   "end": 491.31
+  },
+  {
+   "id": 46,
+   "img": "46_2006_yil_London_universiteti_kimyogarlari_tajribasi.jpg",
+   "text": "2006-yilda London universiteti kimyogarlari bu nazariyani sinab ko'rishdi. Ular yuk bo'limining kichik nusxasini yasab, ichida spirt bug'larini yondirishdi — olov iz qoldirmadi.",
+   "words": [
+    {
+     "w": "2006-yilda",
+     "s": 491.56,
+     "e": 492.08
+    },
+    {
+     "w": "London",
+     "s": 492.86,
+     "e": 493.44
+    },
+    {
+     "w": "universiteti",
+     "s": 493.44,
+     "e": 494.0
+    },
+    {
+     "w": "kimyogarlari",
+     "s": 494.32,
+     "e": 494.96
+    },
+    {
+     "w": "bu",
+     "s": 494.96,
+     "e": 495.34
+    },
+    {
+     "w": "nazariyani",
+     "s": 495.34,
+     "e": 495.84
+    },
+    {
+     "w": "sinab",
+     "s": 495.84,
+     "e": 496.132
+    },
+    {
+     "w": "ko'rishdi.",
+     "s": 496.132,
+     "e": 496.54
+    },
+    {
+     "w": "Ular",
+     "s": 496.54,
+     "e": 497.58
+    },
+    {
+     "w": "yuk",
+     "s": 497.58,
+     "e": 498.12
+    },
+    {
+     "w": "bo'limining",
+     "s": 498.12,
+     "e": 498.56
+    },
+    {
+     "w": "kichik",
+     "s": 498.56,
+     "e": 498.88
+    },
+    {
+     "w": "nusxasini",
+     "s": 498.88,
+     "e": 499.36
+    },
+    {
+     "w": "yasab,",
+     "s": 499.42,
+     "e": 499.74
+    },
+    {
+     "w": "ichida",
+     "s": 499.74,
+     "e": 500.16
+    },
+    {
+     "w": "spirt",
+     "s": 500.3,
+     "e": 500.56
+    },
+    {
+     "w": "bug'larini",
+     "s": 500.56,
+     "e": 500.94
+    },
+    {
+     "w": "yondirishdi",
+     "s": 500.94,
+     "e": 501.75
+    },
+    {
+     "w": "—",
+     "s": 501.75,
+     "e": 501.885
+    },
+    {
+     "w": "olov",
+     "s": 501.885,
+     "e": 502.245
+    },
+    {
+     "w": "iz",
+     "s": 502.245,
+     "e": 502.455
+    },
+    {
+     "w": "qoldirmadi.",
+     "s": 511.44,
+     "e": 512.64
+    }
+   ],
+   "start": 491.31,
+   "end": 518.79
+  },
+  {
+   "id": 47,
+   "img": "47_Buzilgan_nasos_va_suv_olchash_asbobi_xatosi.jpg",
+   "text": "Boshqa nazariyaga ko'ra, kemadagi nasos buzilgan va palubada suv chuqurligini o'lchaydigan asbob topilgan edi. Kapitan kema tez cho'kayotgan deb noto'g'ri xulosaga kelgan bo'lishi mumkin.",
+   "words": [
+    {
+     "w": "Boshqa",
+     "s": 519.04,
+     "e": 519.48
+    },
+    {
+     "w": "nazariyaga",
+     "s": 519.48,
+     "e": 519.86
+    },
+    {
+     "w": "ko'ra,",
+     "s": 519.86,
+     "e": 520.28
+    },
+    {
+     "w": "kemadagi",
+     "s": 520.28,
+     "e": 520.82
+    },
+    {
+     "w": "nasos",
+     "s": 521.08,
+     "e": 521.34
+    },
+    {
+     "w": "buzilgan",
+     "s": 521.34,
+     "e": 521.84
+    },
+    {
+     "w": "va",
+     "s": 521.84,
+     "e": 522.05
+    },
+    {
+     "w": "palubada",
+     "s": 523.92,
+     "e": 524.66
+    },
+    {
+     "w": "suv",
+     "s": 525.46,
+     "e": 525.7
+    },
+    {
+     "w": "chuqurligini",
+     "s": 525.7,
+     "e": 526.16
+    },
+    {
+     "w": "o'lchaydigan",
+     "s": 526.6,
+     "e": 526.84
+    },
+    {
+     "w": "asbob",
+     "s": 526.84,
+     "e": 527.078
+    },
+    {
+     "w": "topilgan",
+     "s": 527.078,
+     "e": 527.46
+    },
+    {
+     "w": "edi.",
+     "s": 527.46,
+     "e": 527.74
+    },
+    {
+     "w": "Kapitan",
+     "s": 529.24,
+     "e": 529.84
+    },
+    {
+     "w": "kema",
+     "s": 530.72,
+     "e": 531.14
+    },
+    {
+     "w": "tez",
+     "s": 531.14,
+     "e": 531.52
+    },
+    {
+     "w": "cho'kayotgan",
+     "s": 531.52,
+     "e": 532.08
+    },
+    {
+     "w": "deb",
+     "s": 532.08,
+     "e": 532.22
+    },
+    {
+     "w": "noto'g'ri",
+     "s": 532.22,
+     "e": 532.74
+    },
+    {
+     "w": "xulosaga",
+     "s": 532.74,
+     "e": 533.04
+    },
+    {
+     "w": "kelgan",
+     "s": 533.24,
+     "e": 533.42
+    },
+    {
+     "w": "bo'lishi",
+     "s": 539.42,
+     "e": 539.84
+    },
+    {
+     "w": "mumkin.",
+     "s": 542.88,
+     "e": 543.72
+    }
+   ],
+   "start": 518.79,
+   "end": 545.95
+  },
+  {
+   "id": 48,
+   "img": "48_Kuchli_shamol_va_tolqinda_arqonning_uzilishi.jpg",
+   "text": "Agar ular qayiqni kemaga arqon bilan bog'lagan bo'lsa, kutilmagan kuchli shamol yoki to'lqin arqonni uzib yuborgan bo'lishi mumkin.",
+   "words": [
+    {
+     "w": "Agar",
+     "s": 546.2,
+     "e": 546.48
+    },
+    {
+     "w": "ular",
+     "s": 546.48,
+     "e": 546.68
+    },
+    {
+     "w": "qayiqni",
+     "s": 546.68,
+     "e": 547.08
+    },
+    {
+     "w": "kemaga",
+     "s": 547.08,
+     "e": 547.48
+    },
+    {
+     "w": "arqon",
+     "s": 547.48,
+     "e": 547.8
+    },
+    {
+     "w": "bilan",
+     "s": 547.8,
+     "e": 548.0
+    },
+    {
+     "w": "bog'lagan",
+     "s": 548.0,
+     "e": 548.5
+    },
+    {
+     "w": "bo'lsa,",
+     "s": 548.5,
+     "e": 548.78
+    },
+    {
+     "w": "kutilmagan",
+     "s": 549.22,
+     "e": 549.64
+    },
+    {
+     "w": "kuchli",
+     "s": 549.9,
+     "e": 550.18
+    },
+    {
+     "w": "shamol",
+     "s": 550.18,
+     "e": 550.66
+    },
+    {
+     "w": "yoki",
+     "s": 550.8,
+     "e": 550.98
+    },
+    {
+     "w": "to'lqin",
+     "s": 550.98,
+     "e": 551.46
+    },
+    {
+     "w": "arqonni",
+     "s": 551.46,
+     "e": 552.2
+    },
+    {
+     "w": "uzib",
+     "s": 552.34,
+     "e": 552.56
+    },
+    {
+     "w": "yuborgan",
+     "s": 552.56,
+     "e": 552.82
+    },
+    {
+     "w": "bo'lishi",
+     "s": 553.04,
+     "e": 553.32
+    },
+    {
+     "w": "mumkin.",
+     "s": 553.32,
+     "e": 553.58
+    }
+   ],
+   "start": 545.95,
+   "end": 553.33
+  },
+  {
+   "id": 49,
+   "img": "49_Uzoqlashayotgan_Meri_Selest_va_eshkak_eshayotgan_ekipaj.jpg",
+   "text": "'Meri Selest' yelkanlari ochiq holda shamol bilan suzib ketgan. Kichkina qayiqdagi o'n kishi esa ochiq okeanda yolg'iz qolgan. Ular qanchalik eshkak eshishmasin, kemaga yetib ololmagan.",
+   "words": [
+    {
+     "w": "'Meri",
+     "s": 553.58,
+     "e": 554.86
+    },
+    {
+     "w": "Selest'",
+     "s": 554.86,
+     "e": 555.16
+    },
+    {
+     "w": "yelkanlari",
+     "s": 555.16,
+     "e": 555.74
+    },
+    {
+     "w": "ochiq",
+     "s": 556.1,
+     "e": 556.4
+    },
+    {
+     "w": "holda",
+     "s": 556.58,
+     "e": 556.7
+    },
+    {
+     "w": "shamol",
+     "s": 556.7,
+     "e": 557.16
+    },
+    {
+     "w": "bilan",
+     "s": 557.16,
+     "e": 557.4
+    },
+    {
+     "w": "suzib",
+     "s": 557.4,
+     "e": 557.68
+    },
+    {
+     "w": "ketgan.",
+     "s": 557.68,
+     "e": 558.19
+    },
+    {
+     "w": "Kichkina",
+     "s": 558.6,
+     "e": 559.02
+    },
+    {
+     "w": "qayiqdagi",
+     "s": 559.02,
+     "e": 559.42
+    },
+    {
+     "w": "o'n",
+     "s": 559.42,
+     "e": 559.54
+    },
+    {
+     "w": "kishi",
+     "s": 559.54,
+     "e": 560.08
+    },
+    {
+     "w": "esa",
+     "s": 560.08,
+     "e": 560.32
+    },
+    {
+     "w": "ochiq",
+     "s": 560.32,
+     "e": 561.1
+    },
+    {
+     "w": "okeanda",
+     "s": 561.1,
+     "e": 561.977
+    },
+    {
+     "w": "yolg'iz",
+     "s": 561.977,
+     "e": 562.728
+    },
+    {
+     "w": "qolgan.",
+     "s": 562.728,
+     "e": 563.48
+    },
+    {
+     "w": "Ular",
+     "s": 563.48,
+     "e": 563.8
+    },
+    {
+     "w": "qanchalik",
+     "s": 563.8,
+     "e": 564.82
+    },
+    {
+     "w": "eshkak",
+     "s": 564.82,
+     "e": 565.3
+    },
+    {
+     "w": "eshishmasin,",
+     "s": 565.3,
+     "e": 565.72
+    },
+    {
+     "w": "kemaga",
+     "s": 566.14,
+     "e": 566.9
+    },
+    {
+     "w": "yetib",
+     "s": 566.9,
+     "e": 567.16
+    },
+    {
+     "w": "ololmagan.",
+     "s": 567.16,
+     "e": 567.56
+    }
+   ],
+   "start": 553.33,
+   "end": 568.05
+  },
+  {
+   "id": 50,
+   "img": "50_Boron_va_ochiq_okean_fojiasi.jpg",
+   "text": "Keyin bo'ron, ochlik yoki okean ularni yutib yuborgan.",
+   "words": [
+    {
+     "w": "Keyin",
+     "s": 568.3,
+     "e": 568.74
+    },
+    {
+     "w": "bo'ron,",
+     "s": 568.74,
+     "e": 569.46
+    },
+    {
+     "w": "ochlik",
+     "s": 570.22,
+     "e": 570.64
+    },
+    {
+     "w": "yoki",
+     "s": 571.04,
+     "e": 571.28
+    },
+    {
+     "w": "okean",
+     "s": 571.28,
+     "e": 571.715
+    },
+    {
+     "w": "ularni",
+     "s": 572.26,
+     "e": 572.8
+    },
+    {
+     "w": "yutib",
+     "s": 572.8,
+     "e": 573.12
+    },
+    {
+     "w": "yuborgan.",
+     "s": 573.12,
+     "e": 573.38
+    }
+   ],
+   "start": 568.05,
+   "end": 573.97
+  },
+  {
+   "id": 51,
+   "img": "51_Fojiali_ironiya_hech_qachon_chokmagan_kema.jpg",
+   "text": "Kapitan xavfdan qutulish uchun kemani tark etgan. Va aynan shu qaror ularni halok qilgan. Kema esa o'zicha suzib, hech qachon cho'kmagan.",
+   "words": [
+    {
+     "w": "Kapitan",
+     "s": 574.22,
+     "e": 574.68
+    },
+    {
+     "w": "xavfdan",
+     "s": 574.68,
+     "e": 575.18
+    },
+    {
+     "w": "qutulish",
+     "s": 575.18,
+     "e": 575.82
+    },
+    {
+     "w": "uchun",
+     "s": 575.82,
+     "e": 575.87
+    },
+    {
+     "w": "kemani",
+     "s": 575.82,
+     "e": 576.18
+    },
+    {
+     "w": "tark",
+     "s": 576.34,
+     "e": 576.6
+    },
+    {
+     "w": "etgan.",
+     "s": 576.6,
+     "e": 577.035
+    },
+    {
+     "w": "Va",
+     "s": 577.42,
+     "e": 577.66
+    },
+    {
+     "w": "aynan",
+     "s": 577.66,
+     "e": 578.12
+    },
+    {
+     "w": "shu",
+     "s": 578.12,
+     "e": 578.4
+    },
+    {
+     "w": "qaror",
+     "s": 578.4,
+     "e": 578.84
+    },
+    {
+     "w": "ularni",
+     "s": 578.84,
+     "e": 579.76
+    },
+    {
+     "w": "halok",
+     "s": 579.76,
+     "e": 580.3
+    },
+    {
+     "w": "qilgan.",
+     "s": 580.3,
+     "e": 580.6
+    },
+    {
+     "w": "Kema",
+     "s": 580.6,
+     "e": 581.64
+    },
+    {
+     "w": "esa",
+     "s": 581.64,
+     "e": 582.0
+    },
+    {
+     "w": "o'zicha",
+     "s": 584.12,
+     "e": 584.82
+    },
+    {
+     "w": "suzib,",
+     "s": 584.82,
+     "e": 585.36
+    },
+    {
+     "w": "hech",
+     "s": 585.36,
+     "e": 586.0
+    },
+    {
+     "w": "qachon",
+     "s": 586.0,
+     "e": 586.32
+    },
+    {
+     "w": "cho'kmagan.",
+     "s": 590.44,
+     "e": 590.74
+    }
+   ],
+   "start": 573.97,
+   "end": 590.49
+  },
+  {
+   "id": 52,
+   "img": "52_1885_yil_Gaiti_qirgogidagi_rifda_choktirilishi.jpg",
+   "text": "1885-yilda uning so'nggi kapitani sug'urta pulini olish uchun kemani ataylab Gaiti qirg'oqlaridagi rif ustiga chiqarib, cho'ktirib yubordi.",
+   "words": [
+    {
+     "w": "1885-yilda",
+     "s": 590.74,
+     "e": 591.475
+    },
+    {
+     "w": "uning",
+     "s": 600.34,
+     "e": 600.96
+    },
+    {
+     "w": "so'nggi",
+     "s": 600.96,
+     "e": 601.38
+    },
+    {
+     "w": "kapitani",
+     "s": 601.38,
+     "e": 601.9
+    },
+    {
+     "w": "sug'urta",
+     "s": 601.9,
+     "e": 602.34
+    },
+    {
+     "w": "pulini",
+     "s": 602.34,
+     "e": 602.66
+    },
+    {
+     "w": "olish",
+     "s": 602.66,
+     "e": 602.91
+    },
+    {
+     "w": "uchun",
+     "s": 602.91,
+     "e": 603.16
+    },
+    {
+     "w": "kemani",
+     "s": 603.16,
+     "e": 603.98
+    },
+    {
+     "w": "ataylab",
+     "s": 603.98,
+     "e": 604.48
+    },
+    {
+     "w": "Gaiti",
+     "s": 604.48,
+     "e": 604.92
+    },
+    {
+     "w": "qirg'oqlaridagi",
+     "s": 604.92,
+     "e": 605.5
+    },
+    {
+     "w": "rif",
+     "s": 605.76,
+     "e": 606.24
+    },
+    {
+     "w": "ustiga",
+     "s": 606.24,
+     "e": 606.32
+    },
+    {
+     "w": "chiqarib,",
+     "s": 606.32,
+     "e": 606.76
+    },
+    {
+     "w": "cho'ktirib",
+     "s": 606.76,
+     "e": 607.62
+    },
+    {
+     "w": "yubordi.",
+     "s": 607.62,
+     "e": 608.02
+    }
+   ],
+   "start": 590.49,
+   "end": 607.77
+  },
+  {
+   "id": 53,
+   "img": "53_Sugurta_firibgarligining_fosh_bolishi.jpg",
+   "text": "Firibgarlik tez orada fosh bo'ldi. 'Meri Selest'ning oxiri ham, uning hikoyasi kabi, qorong'u bo'ldi.",
+   "words": [
+    {
+     "w": "Firibgarlik",
+     "s": 608.02,
+     "e": 609.16
+    },
+    {
+     "w": "tez",
+     "s": 609.16,
+     "e": 609.21
+    },
+    {
+     "w": "orada",
+     "s": 609.16,
+     "e": 609.66
+    },
+    {
+     "w": "fosh",
+     "s": 609.66,
+     "e": 609.9
+    },
+    {
+     "w": "bo'ldi.",
+     "s": 609.9,
+     "e": 610.2
+    },
+    {
+     "w": "'Meri",
+     "s": 610.64,
+     "e": 611.12
+    },
+    {
+     "w": "Selest'ning",
+     "s": 611.12,
+     "e": 611.747
+    },
+    {
+     "w": "oxiri",
+     "s": 611.747,
+     "e": 612.06
+    },
+    {
+     "w": "ham,",
+     "s": 612.06,
+     "e": 612.22
+    },
+    {
+     "w": "uning",
+     "s": 612.22,
+     "e": 613.08
+    },
+    {
+     "w": "hikoyasi",
+     "s": 613.08,
+     "e": 613.52
+    },
+    {
+     "w": "kabi,",
+     "s": 613.52,
+     "e": 614.04
+    },
+    {
+     "w": "qorong'u",
+     "s": 614.04,
+     "e": 614.88
+    },
+    {
+     "w": "bo'ldi.",
+     "s": 614.88,
+     "e": 615.24
+    }
+   ],
+   "start": 607.77,
+   "end": 615.71
+  },
+  {
+   "id": 54,
+   "img": "54_Izsiz_goyib_bolgan_on_kishi_xotirasi.jpg",
+   "text": "Kapitan Briggs, uning xotini Sara, ikki yoshli Sofiya va yetti dengizchi hech qachon topilmadi. Ular okeanning bepoyon kengliklarida izsiz g'oyib bo'lishdi.",
+   "words": [
+    {
+     "w": "Kapitan",
+     "s": 615.96,
+     "e": 616.4
+    },
+    {
+     "w": "Briggs,",
+     "s": 616.4,
+     "e": 616.88
+    },
+    {
+     "w": "uning",
+     "s": 616.88,
+     "e": 617.48
+    },
+    {
+     "w": "xotini",
+     "s": 617.48,
+     "e": 617.9
+    },
+    {
+     "w": "Sara,",
+     "s": 617.9,
+     "e": 618.38
+    },
+    {
+     "w": "ikki",
+     "s": 618.38,
+     "e": 618.92
+    },
+    {
+     "w": "yoshli",
+     "s": 618.92,
+     "e": 619.2
+    },
+    {
+     "w": "Sofiya",
+     "s": 619.2,
+     "e": 619.76
+    },
+    {
+     "w": "va",
+     "s": 619.76,
+     "e": 620.06
+    },
+    {
+     "w": "yetti",
+     "s": 620.06,
+     "e": 620.9
+    },
+    {
+     "w": "dengizchi",
+     "s": 620.9,
+     "e": 621.22
+    },
+    {
+     "w": "hech",
+     "s": 621.38,
+     "e": 621.66
+    },
+    {
+     "w": "qachon",
+     "s": 621.66,
+     "e": 621.98
+    },
+    {
+     "w": "topilmadi.",
+     "s": 621.98,
+     "e": 622.52
+    },
+    {
+     "w": "Ular",
+     "s": 623.18,
+     "e": 623.42
+    },
+    {
+     "w": "okeanning",
+     "s": 627.08,
+     "e": 627.4
+    },
+    {
+     "w": "bepoyon",
+     "s": 627.4,
+     "e": 628.14
+    },
+    {
+     "w": "kengliklarida",
+     "s": 628.14,
+     "e": 628.92
+    },
+    {
+     "w": "izsiz",
+     "s": 628.92,
+     "e": 629.72
+    },
+    {
+     "w": "g'oyib",
+     "s": 629.72,
+     "e": 630.16
+    },
+    {
+     "w": "bo'lishdi.",
+     "s": 630.16,
+     "e": 630.66
+    }
+   ],
+   "start": 615.71,
+   "end": 630.41
+  },
+  {
+   "id": 55,
+   "img": "55_Agar_kemada_qolishganida_tirik_qolishardi.jpg",
+   "text": "Endi bir o'ylab ko'ring. Kemada olti oylik oziq-ovqat bor edi. Kema butun edi. Agar ular shunchaki kemada qolishganida, ehtimol, hammasi tirik qolardi.",
+   "words": [
+    {
+     "w": "Endi",
+     "s": 630.66,
+     "e": 631.02
+    },
+    {
+     "w": "bir",
+     "s": 631.64,
+     "e": 632.22
+    },
+    {
+     "w": "o'ylab",
+     "s": 632.22,
+     "e": 632.56
+    },
+    {
+     "w": "ko'ring.",
+     "s": 632.56,
+     "e": 632.76
+    },
+    {
+     "w": "Kemada",
+     "s": 633.28,
+     "e": 633.68
+    },
+    {
+     "w": "olti",
+     "s": 633.68,
+     "e": 634.04
+    },
+    {
+     "w": "oylik",
+     "s": 634.04,
+     "e": 634.475
+    },
+    {
+     "w": "oziq-ovqat",
+     "s": 635.12,
+     "e": 635.48
+    },
+    {
+     "w": "bor",
+     "s": 635.48,
+     "e": 635.53
+    },
+    {
+     "w": "edi.",
+     "s": 635.48,
+     "e": 635.76
+    },
+    {
+     "w": "Kema",
+     "s": 636.06,
+     "e": 636.52
+    },
+    {
+     "w": "butun",
+     "s": 636.52,
+     "e": 636.82
+    },
+    {
+     "w": "edi.",
+     "s": 636.82,
+     "e": 636.94
+    },
+    {
+     "w": "Agar",
+     "s": 639.28,
+     "e": 639.56
+    },
+    {
+     "w": "ular",
+     "s": 639.56,
+     "e": 639.84
+    },
+    {
+     "w": "shunchaki",
+     "s": 640.06,
+     "e": 640.3
+    },
+    {
+     "w": "kemada",
+     "s": 640.3,
+     "e": 640.62
+    },
+    {
+     "w": "qolishganida,",
+     "s": 640.62,
+     "e": 641.26
+    },
+    {
+     "w": "ehtimol,",
+     "s": 641.26,
+     "e": 641.96
+    },
+    {
+     "w": "hammasi",
+     "s": 642.26,
+     "e": 642.52
+    },
+    {
+     "w": "tirik",
+     "s": 642.52,
+     "e": 642.82
+    },
+    {
+     "w": "qolardi.",
+     "s": 642.82,
+     "e": 643.14
+    }
+   ],
+   "start": 630.41,
+   "end": 643.47
+  },
+  {
+   "id": 56,
+   "img": "56_Bir_lahzalik_insoniy_qorquv_va_xato.jpg",
+   "text": "Ammo bir lahzalik qo'rquv, bir qaror, hamma narsani o'zgartirib yubordi. Ba'zan biz xavfdan shunchalik qo'rqamizki, xavfsiz joyni tashlab, haqiqiy xavf tomon yuguramiz.",
+   "words": [
+    {
+     "w": "Ammo",
+     "s": 643.72,
+     "e": 644.08
+    },
+    {
+     "w": "bir",
+     "s": 644.08,
+     "e": 644.28
+    },
+    {
+     "w": "lahzalik",
+     "s": 644.28,
+     "e": 644.88
+    },
+    {
+     "w": "qo'rquv,",
+     "s": 644.88,
+     "e": 645.28
+    },
+    {
+     "w": "bir",
+     "s": 645.28,
+     "e": 646.08
+    },
+    {
+     "w": "qaror,",
+     "s": 646.08,
+     "e": 646.62
+    },
+    {
+     "w": "hamma",
+     "s": 646.62,
+     "e": 647.055
+    },
+    {
+     "w": "narsani",
+     "s": 647.32,
+     "e": 647.78
+    },
+    {
+     "w": "o'zgartirib",
+     "s": 647.78,
+     "e": 648.3
+    },
+    {
+     "w": "yubordi.",
+     "s": 648.3,
+     "e": 648.885
+    },
+    {
+     "w": "Ba'zan",
+     "s": 658.44,
+     "e": 658.88
+    },
+    {
+     "w": "biz",
+     "s": 658.88,
+     "e": 659.32
+    },
+    {
+     "w": "xavfdan",
+     "s": 659.32,
+     "e": 659.82
+    },
+    {
+     "w": "shunchalik",
+     "s": 659.82,
+     "e": 660.24
+    },
+    {
+     "w": "qo'rqamizki,",
+     "s": 660.24,
+     "e": 660.76
+    },
+    {
+     "w": "xavfsiz",
+     "s": 660.92,
+     "e": 661.7
+    },
+    {
+     "w": "joyni",
+     "s": 661.7,
+     "e": 662.0
+    },
+    {
+     "w": "tashlab,",
+     "s": 662.0,
+     "e": 662.38
+    },
+    {
+     "w": "haqiqiy",
+     "s": 662.38,
+     "e": 663.22
+    },
+    {
+     "w": "xavf",
+     "s": 663.22,
+     "e": 663.58
+    },
+    {
+     "w": "tomon",
+     "s": 663.58,
+     "e": 664.015
+    },
+    {
+     "w": "yuguramiz.",
+     "s": 664.015,
+     "e": 664.75
+    }
+   ],
+   "start": 643.47,
+   "end": 674.77
+  },
+  {
+   "id": 57,
+   "img": "57_Okean_tubida_abadiy_sukut_saqlayotgan_sir.jpg",
+   "text": "Chunki bu hikoyaning oxirini bilgan yagona odamlar okeanning tubida abadiy sukut saqlab yotibdi.",
+   "words": [
+    {
+     "w": "Chunki",
+     "s": 675.02,
+     "e": 675.42
+    },
+    {
+     "w": "bu",
+     "s": 675.42,
+     "e": 676.0
+    },
+    {
+     "w": "hikoyaning",
+     "s": 676.0,
+     "e": 676.62
+    },
+    {
+     "w": "oxirini",
+     "s": 676.62,
+     "e": 677.12
+    },
+    {
+     "w": "bilgan",
+     "s": 677.12,
+     "e": 677.44
+    },
+    {
+     "w": "yagona",
+     "s": 677.44,
+     "e": 678.02
+    },
+    {
+     "w": "odamlar",
+     "s": 678.02,
+     "e": 678.46
+    },
+    {
+     "w": "okeanning",
+     "s": 678.46,
+     "e": 679.195
+    },
+    {
+     "w": "tubida",
+     "s": 679.74,
+     "e": 679.94
+    },
+    {
+     "w": "abadiy",
+     "s": 679.94,
+     "e": 680.4
+    },
+    {
+     "w": "sukut",
+     "s": 680.4,
+     "e": 680.9
+    },
+    {
+     "w": "saqlab",
+     "s": 680.9,
+     "e": 681.16
+    },
+    {
+     "w": "yotibdi.",
+     "s": 681.16,
+     "e": 681.745
+    }
+   ],
+   "start": 674.77,
+   "end": 681.91
+  },
+  {
+   "id": 58,
+   "img": "58_Spirt_buglarimi_qorquvmi_yoki_boshqa_sir.jpg",
+   "text": "Siz-chi, qanday o'ylaysiz? 'Meri Selest' ekipajini kemani tashlab ketishga nima majbur qildi? Spirt bug'larimi, qo'rquvmi, yoki biz hali bilmaydigan boshqa narsami?",
+   "words": [
+    {
+     "w": "Siz-chi,",
+     "s": 682.16,
+     "e": 682.52
+    },
+    {
+     "w": "qanday",
+     "s": 682.7,
+     "e": 683.16
+    },
+    {
+     "w": "o'ylaysiz?",
+     "s": 683.16,
+     "e": 683.74
+    },
+    {
+     "w": "'Meri",
+     "s": 684.26,
+     "e": 684.66
+    },
+    {
+     "w": "Selest'",
+     "s": 684.66,
+     "e": 684.92
+    },
+    {
+     "w": "ekipajini",
+     "s": 684.92,
+     "e": 685.52
+    },
+    {
+     "w": "kemani",
+     "s": 685.52,
+     "e": 685.86
+    },
+    {
+     "w": "tashlab",
+     "s": 686.0,
+     "e": 686.28
+    },
+    {
+     "w": "ketishga",
+     "s": 686.28,
+     "e": 686.7
+    },
+    {
+     "w": "nima",
+     "s": 686.7,
+     "e": 687.3
+    },
+    {
+     "w": "majbur",
+     "s": 687.3,
+     "e": 687.845
+    },
+    {
+     "w": "qildi?",
+     "s": 687.845,
+     "e": 688.3
+    },
+    {
+     "w": "Spirt",
+     "s": 688.3,
+     "e": 688.66
+    },
+    {
+     "w": "bug'larimi,",
+     "s": 688.66,
+     "e": 689.24
+    },
+    {
+     "w": "qo'rquvmi,",
+     "s": 689.24,
+     "e": 689.9
+    },
+    {
+     "w": "yoki",
+     "s": 690.96,
+     "e": 691.12
+    },
+    {
+     "w": "biz",
+     "s": 691.12,
+     "e": 691.6
+    },
+    {
+     "w": "hali",
+     "s": 691.6,
+     "e": 691.82
+    },
+    {
+     "w": "bilmaydigan",
+     "s": 691.82,
+     "e": 692.16
+    },
+    {
+     "w": "boshqa",
+     "s": 692.16,
+     "e": 692.595
+    },
+    {
+     "w": "narsami?",
+     "s": 692.88,
+     "e": 693.12
+    }
+   ],
+   "start": 681.91,
+   "end": 692.87
+  },
+  {
+   "id": 59,
+   "img": "59_Izohlarda_fikr_qoldiring_keyingi_video_uchun.jpg",
+   "text": "Fikringizni izohlarda yozib qoldiring, eng qiziq javoblarni keyingi videoda o'qib beraman.",
+   "words": [
+    {
+     "w": "Fikringizni",
+     "s": 693.12,
+     "e": 694.1
+    },
+    {
+     "w": "izohlarda",
+     "s": 694.34,
+     "e": 694.74
+    },
+    {
+     "w": "yozib",
+     "s": 694.86,
+     "e": 695.16
+    },
+    {
+     "w": "qoldiring,",
+     "s": 695.16,
+     "e": 695.42
+    },
+    {
+     "w": "eng",
+     "s": 695.78,
+     "e": 696.22
+    },
+    {
+     "w": "qiziq",
+     "s": 696.22,
+     "e": 696.42
+    },
+    {
+     "w": "javoblarni",
+     "s": 696.42,
+     "e": 696.84
+    },
+    {
+     "w": "keyingi",
+     "s": 696.98,
+     "e": 697.38
+    },
+    {
+     "w": "videoda",
+     "s": 697.38,
+     "e": 697.6
+    },
+    {
+     "w": "o'qib",
+     "s": 697.8,
+     "e": 698.38
+    },
+    {
+     "w": "beraman.",
+     "s": 698.38,
+     "e": 698.5
+    }
+   ],
+   "start": 692.87,
+   "end": 698.25
+  },
+  {
+   "id": 60,
+   "img": "60_QIZIQ_A_kanaliga_obuna_boling_va_qongiroqcha.jpg",
+   "text": "Hoziroq QIZIQ-A? kanaliga obuna bo'ling va qo'ng'iroqchani bosing. Chunki keyingi videoda sizni bundan ham dahshatliroq sir kutmoqda. Yana uchrashguncha.",
+   "words": [
+    {
+     "w": "Hoziroq",
+     "s": 698.5,
+     "e": 699.085
+    },
+    {
+     "w": "QIZIQ-A?",
+     "s": 703.62,
+     "e": 704.3
+    },
+    {
+     "w": "kanaliga",
+     "s": 704.52,
+     "e": 704.9
+    },
+    {
+     "w": "obuna",
+     "s": 704.9,
+     "e": 705.26
+    },
+    {
+     "w": "bo'ling",
+     "s": 705.26,
+     "e": 705.5
+    },
+    {
+     "w": "va",
+     "s": 705.5,
+     "e": 705.71
+    },
+    {
+     "w": "qo'ng'iroqchani",
+     "s": 705.94,
+     "e": 706.52
+    },
+    {
+     "w": "bosing.",
+     "s": 706.7,
+     "e": 706.98
+    },
+    {
+     "w": "Chunki",
+     "s": 707.32,
+     "e": 707.88
+    },
+    {
+     "w": "keyingi",
+     "s": 707.88,
+     "e": 708.7
+    },
+    {
+     "w": "videoda",
+     "s": 708.7,
+     "e": 709.06
+    },
+    {
+     "w": "sizni",
+     "s": 709.32,
+     "e": 710.1
+    },
+    {
+     "w": "bundan",
+     "s": 710.26,
+     "e": 710.9
+    },
+    {
+     "w": "ham",
+     "s": 710.9,
+     "e": 711.16
+    },
+    {
+     "w": "dahshatliroq",
+     "s": 711.16,
+     "e": 711.76
+    },
+    {
+     "w": "sir",
+     "s": 711.76,
+     "e": 712.045
+    },
+    {
+     "w": "kutmoqda.",
+     "s": 712.045,
+     "e": 712.705
+    },
+    {
+     "w": "Yana",
+     "s": 712.705,
+     "e": 713.065
+    },
+    {
+     "w": "uchrashguncha.",
+     "s": 713.065,
+     "e": 713.875
+    }
+   ],
+   "start": 698.25,
+   "end": 724.5
+  }
+ ]
+}
