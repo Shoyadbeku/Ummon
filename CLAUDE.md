@@ -302,3 +302,19 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   influence 0->1 (CONSTANT), oxirgi 8 kadrda uchish yo'lini `frame_set` bilan olingan beshik matritsasiga silliq qo'sh (`balkon.py`).
 - Boolean solver nomlari versiyaga qarab o'zgaradi: `bool_solver()` (MANIFOLD / FLOAT / FAST) bilan tanla.
 - 40% (432x768), 8 sample: ko'cha (HDRI + quyosh, ~60 bino deraza bloki, 5 qahramon) ~10 s/kadr (822 kadr ≈ 2.3 soat).
+
+- Qo'tir (yara po'sti) nega qichishadi misoli: `zack_test/tools/get_qotir.sh`, sahna `zack_test/qotir/qotir.py` (ko'cha: `Fall_Flat` yiqilish;
+  10x makro bilak — shilinish/qon/qo'tir bitta materialda `raw`/`red`/`dry` qiymatlari + "blood" shape key; teri kesimi: epidermis/derma/yog'/mushak,
+  kesilgan qo'tir gumbazi (`bisect_plane` + `edgeloop_fill`), konveyerdek o'rmalovchi hujayralar `sheet(f)`, tortuvchi tolalar (tube `scale.z`),
+  semiz hujayra + gistamin donachalari, uzilgan asab uchlari; rentgen tana: signal bilakdan miyaga).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_22" -> qo'tir qichishi): Whisper bilan tekshir.
+- Sessiya ishchisi qayta ishga tushsa, fondagi render (`nohup setsid`) ham o'ladi: kuzatuvchi skript bilan qayta ishga tushir
+  (0 baytli placeholder fayllarni o'chirib; `use_overwrite=False` davom ettiradi). Uzoq renderdan oldin commit + push qil.
+- `Sitting_Rubbing_Arm` (inplace=False): Hips 0.69 m (root z = o'rindiq − 0.6), o'ng qo'l **chap** bilakni ~61–150-kadrda (24 fps) ishqalaydi.
+  `Fall_Flat`: yugurib kelib ~24-kadrda yuztuban tushadi, 3.8 m oldinga (−Y) siljiydi.
+- Teriga narsa (qo'tir) yopishtirish: baholangan `Body` mesh'idan BVH yasab, suyak o'rtasidan nur otib sirt nuqtasi/normalini top,
+  `CHILD_OF` bo'sh ob'ektning mahalliy matritsasiga o'tkaz (`qotir.py: scabE`).
+- Kameraga qaragan belgi (taqiq halqasi): bo'sh ob'ektga `COPY_ROTATION` (nishon = o'sha kadr kamerasi); torus XY tekisligida yasaladi.
+- AgX'da kesim/makro yorug'ligi ortiqcha bo'lsa hamma narsa pastel-oqarib ketadi (qo'tir jigarrang, hujayralar oq): kalit chiroqni 2–4x kamaytir,
+  qora qo'tir uchun base 0.004–0.04.
+- 40% (432x768), 8 sample: ko'cha/makro/kesim/xona/rentgen ~8 s/kadr (954 kadr ≈ 2.1 soat).
