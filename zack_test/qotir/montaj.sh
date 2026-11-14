@@ -14,7 +14,7 @@ ffmpeg -y -v error -framerate 24 -i "$FR/%04d.png" -i "$VO" -i "$SFX" -frames:v 
       lutyuv=y='min(255,val*1.7+70)':enable='between(t,0.96,1.02)+between(t,10.88,10.94)+between(t,22.83,22.9)+between(t,37.29,37.36)',
       lutrgb=r='min(255,val*1.3+60)':g='val*0.6':b='val*0.6':enable='between(t,6.08,6.17)+between(t,8.46,8.53)',
       vignette=PI/5,noise=alls=5:allf=t,
-      fade=t=in:st=0:d=0.08,fade=t=out:st=39.3:d=0.45,format=yuv420p[v];
+      fade=t=out:st=39.3:d=0.45,format=yuv420p[v];
     [1:a]aformat=sample_rates=48000:channel_layouts=mono,apad,asplit=2[vo][vsc];
     [2:a]aformat=sample_rates=48000:channel_layouts=mono,volume=0.9[fx];
     [fx][vsc]sidechaincompress=threshold=0.04:ratio=4:attack=15:release=250[fxd];
