@@ -284,3 +284,16 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Tirnoq qaychisi oldidan (kamera tomondan) kirsa kadrni to'sadi: tanasini yon tomonga (yaw ±62°) qarat — kesuvchi qirra burchakka diagonal tushadi.
 - `Female_Walk`/`Injured_Walk` (inplace) ~1.22 m/s (0.051 m/kadr): root'ni −Y bo'ylab shu tezlikda sur.
 - 30%, 8 sample: makro oyoq/kesim/xona/ko'cha ~12 s/kadr.
+
+- Oq ko'ylakdagi qora nuqta misoli (namuna video asosida): `zack_test/tools/get_nuqta.sh`, sahna `zack_test/nuqta/nuqta.py` (sinf: Poly Haven
+  SchoolDesk_01/SchoolChair_01, 8 o'quvchi; o'qituvchi Megan + ko'zoynak + marker; moviy studiya siklorama; fikr pufagi = oldindan render qilingan
+  rasm (`STILLS=1`); rentgen bosh + miya + pufaklar orbitasi; so'zma-so'z subtitr `nuqta/subtitr.py`).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_20" -> o'qituvchi va qora nuqta): Whisper bilan tekshir.
+- Kiyimga chizilgan belgi (nuqta) uchun shaderda `Generated` koordinatasi (deformatsiyasiz mesh) — mato bilan birga yuradi; markaz =
+  `(co - (texspace_location - texspace_size)) / (2*texspace_size)`. Kameralarni belgiga `parent_type="VERTEX"` bo'sh ob'ekt +
+  `COPY_LOCATION` rig orqali bog'la: dunyo koordinatasidagi nuqta harakatdan keyin kadrdan chiqib ketadi.
+- O'tirgan harakatlar Hips balandligi: Seated_Idle 0.65, Sitting_And_Pointing 0.56–0.60, Sitting_5 0.61, Sitting_Disbelief_2 0.60 —
+  root z ni **ko'tar** (+farq), aks holda qahramon stulga botib, kadrdan yo'qoladi. SchoolDesk_01 usti 0.88: z bo'yicha 0.82x.
+- Ko'krakka marker bilan chizish: IK bilak nishoni nuqtadan o'ngga-oldinga-pastga (0.5, 0.65, -0.55), pole o'ng-pastda, `pole_angle=+90°`
+  (−90° da tirsak tananing chap tomoniga o'tib, bilak ko'krakni to'sadi).
+- 40% (432x768), 7 sample: sinf (9 qahramon)/studiya/rentgen ~9 s/kadr (998 kadr ≈ 2.5 soat).
