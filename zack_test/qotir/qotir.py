@@ -271,8 +271,8 @@ def scab_mat(name, vscale=45.0, dry=1.0, bump_d=0.006):
     cr.color_ramp.elements[0].position = 0.35; cr.color_ramp.elements[0].color = (0.004, 0.002, 0.002, 1)
     cr.color_ramp.elements[1].position = 0.8; cr.color_ramp.elements[1].color = (0.04, 0.011, 0.007, 1)
     L.new(mixc(N, L, dv, (0.36, 0.006, 0.006), cr.outputs[0]), b.inputs["Base Color"])
-    L.new(mn(N, L, "ADD", mn(N, L, "MULTIPLY", dv, 0.72), 0.1), b.inputs["Roughness"])
-    L.new(mn(N, L, "MULTIPLY", mn(N, L, "SUBTRACT", 1.0, dv), 0.7), b.inputs["Coat Weight"]); b.inputs["Coat Roughness"].default_value = 0.05
+    L.new(mn(N, L, "ADD", mn(N, L, "MULTIPLY", mn(N, L, "MULTIPLY", dv, 2.5, clamp=True), 0.72), 0.1), b.inputs["Roughness"])
+    L.new(mn(N, L, "MULTIPLY", mn(N, L, "SUBTRACT", 1.0, mn(N, L, "MULTIPLY", dv, 3.0, clamp=True)), 0.6), b.inputs["Coat Weight"]); b.inputs["Coat Roughness"].default_value = 0.05
     vo = N.new("ShaderNodeTexVoronoi"); vo.feature = "DISTANCE_TO_EDGE"; vo.inputs["Scale"].default_value = vscale; L.new(O, vo.inputs["Vector"])
     nz2 = N.new("ShaderNodeTexNoise"); nz2.inputs["Scale"].default_value = vscale * 3; L.new(O, nz2.inputs["Vector"])
     h = mn(N, L, "ADD", mn(N, L, "MINIMUM", vo.outputs["Distance"], 0.12), mn(N, L, "MULTIPLY", nz2.outputs["Fac"], 0.05))
@@ -508,14 +508,14 @@ for o, side, y, z, jb, ph in CELLS:
 # uchrashganda chaqnash
 FL_M = emis("flash", (1.0, 0.85, 0.7), 6.0)
 flash = sphere("link_flash", 1.0, (0, -0.05, 0.065), FL_M, parent=WG)
-key(flash, F_LINK - 1, scale=0.001); key(flash, F_LINK + 2, scale=(0.09, 0.03, 0.09)); key(flash, F_LINK + 8, scale=(0.5, 0.01, 0.012)); interp(flash, "LINEAR")
+key(flash, F_LINK - 1, scale=0.001); key(flash, F_LINK + 2, scale=(0.045, 0.02, 0.045)); key(flash, F_LINK + 8, scale=(0.3, 0.006, 0.006)); interp(flash, "LINEAR")
 vis(flash, [(F_LINK, F_LINK + 8)])
 # tortilish: yara 38% qisqaradi
 PU0, PU1 = S["pull"]; PE = PU1 - 6; SHR = 0.62
 for f, k in ((1, 0.0), (PU0 + 4, 0.0), (PE, 1.0)):
     key(WG, f, scale=(1 - (1 - SHR) * k, 1, 1)); key(SCG, f, scale=(1 - 0.27 * k, 1, 1 + 0.12 * k))
     key(EL, f, loc=(W0 * (1 - SHR) * k, 0, 0)); key(ER, f, loc=(-W0 * (1 - SHR) * k, 0, 0))
-ARR_M = emis("arrow", (1.0, 0.9, 0.55), 2.2)
+ARR_M = emis("arrow", (1.0, 0.55, 0.04), 1.6)
 for side in (-1, 1):
     ae = empty(f"arrow{side}", (0, 0, 0), cutp); ae.rotation_euler = (0, 0, 0 if side < 0 else R(180))
     box(f"arr_s{side}", (0.3, 0.06, 0.06), (-0.15, 0, 0), ARR_M, parent=ae)
@@ -553,7 +553,7 @@ MAST_M = tissue("mast", (0.5, 0.28, 0.7), (0.72, 0.5, 0.88), 20.0, 60.0, coat=0.
 NERVE_X = (-0.2, 0.06, 0.3)
 NEND = [V(x, -0.05, -0.26 - 0.03 * (i % 2)) for i, x in enumerate(NERVE_X)]
 MASTS = [V(-0.42, -0.03, -0.38), (V(-0.07, -0.03, -0.5)), V(0.18, -0.03, -0.44), V(0.48, -0.03, -0.33), V(-0.3, -0.03, -0.62), V(0.4, -0.03, -0.6)]
-HIST_M = emis("histamine", (1.0, 0.8, 0.12), 5.0)
+HIST_M = emis("histamine", (1.0, 0.5, 0.02), 3.2)
 bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=2, radius=1.0); _c = bpy.context.object; gr_me = _c.data; gr_me.shade_smooth(); gr_me.materials.append(HIST_M)
 bpy.data.objects.remove(_c)
 histE = empty("histE", (0, 0, 0), cutp)
@@ -732,15 +732,15 @@ S0 = M(0, 0, 0.012)
 FA0, FA1 = S["fall"]
 fallT = empty("fall_t"); _cl = fallT.constraints.new("COPY_LOCATION"); _cl.target = child_of_bone("meg_spine", meg, "Spine2")
 c = shot_cam("fall", tuple(FALL_P + V(0.5, -5.0, 0.14)), fallT, 16, 4.0, focus=fallT, clip=0.03)
-path_keys(c, [(FA0, FALL_P + V(0.7, -5.9, 0.16)), (F_IMPACT, FALL_P + V(0.55, -5.0, 0.12)), (FA1, FALL_P + V(0.45, -4.75, 0.1))])
+path_keys(c, [(FA0, FALL_P + V(0.7, -4.7, 0.16)), (F_IMPACT, FALL_P + V(0.5, -4.55, 0.12)), (FA1, FALL_P + V(0.42, -4.4, 0.1))])
 lens_keys(c, [(FA0, 16), (F_IMPACT, 17), (F_IMPACT + 4, 22), (FA1, 24)])
 shake(c, F_IMPACT, F_IMPACT + 9, 0.035, seed=3)
-c = abs_cam("scrape", [(SR0, M(0.5, -0.95, 0.36)), (SR0 + 8, M(0.3, -0.55, 0.24)), (SR1, M(0.2, -0.45, 0.2))], [(SR0, S0), (SR1, S0)], 24, 9.0, clip=0.005)
+c = abs_cam("scrape", [(SR0, M(0.5, -0.95, 0.36)), (SR0 + 8, M(0.26, -0.48, 0.22)), (SR1, M(0.15, -0.36, 0.17))], [(SR0, S0), (SR1, S0)], 24, 9.0, clip=0.005)
 shake(c, SR0, SR0 + 7, 0.012, seed=5)
 c = abs_cam("scab", [(SB0, M(-0.42, -0.5, 0.36)), ((SB0 + SB1) // 2, M(0.0, -0.62, 0.3)), (SB1, M(0.4, -0.46, 0.26))], [(SB0, S0), (SB1, S0)], 26, 10.0, clip=0.005)
 ithT = empty("itch_t"); _cl = ithT.constraints.new("COPY_LOCATION"); _cl.target = scabE
 c = shot_cam("itch", (1.2, -1.9, 0.4), ithT, 18, 3.2, focus=ithT, clip=0.03)
-path_keys(c, [(IT0, V(1.25, -1.95, 0.38)), (F_ITCH - 3, V(0.9, -1.75, 0.5)), (F_ITCH + 2, V(0.62, -1.45, 0.62)), (IT1, V(0.5, -1.35, 0.66))])
+path_keys(c, [(IT0, V(1.7, -2.2, 0.3)), (F_ITCH - 3, V(0.9, -1.7, 0.5)), (F_ITCH + 2, V(0.62, -1.45, 0.62)), (IT1, V(0.5, -1.35, 0.66))])
 lens_keys(c, [(IT0, 18), (F_ITCH - 3, 20), (F_ITCH + 2, 62), (IT1, 68)])
 shake(c, F_ITCH, F_ITCH + 8, 0.012, seed=9)
 c = abs_cam("scratch", [(SC0, M(0.42, -0.72, 0.2)), (F_TOUCH, M(0.3, -0.6, 0.16)), (SC1, M(0.22, -0.55, 0.15))], [(SC0, S0 + V(0.04, 0, 0.06)), (SC1, S0 + V(0.03, 0, 0.03))], 24, 9.0, clip=0.005)
