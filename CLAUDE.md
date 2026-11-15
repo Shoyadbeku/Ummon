@@ -317,3 +317,18 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Rentgen boshda jag' suyagi (Brian Head fazosi): bo'g'im (±0.054, 0.047, 0.034), burchak (±0.052, -0.016, 0.024), iyak (0, -0.04, 0.11);
   kamera 0.4 m dan yaqin bo'lsa perspektiva jag'ni ulkan ko'rsatadi.
 - 40% (432x768), 8 sample: hammom/rentgen/kesim ~10 s/kadr (982 kadr ≈ 2.7 soat); 30%, 6 sample sinov ~4 s/kadr.
+
+- Gemorroy (hojatxonada telefon) misoli: `zack_test/tools/get_gemorroy.sh`, sahna `zack_test/gemorroy/gemorroy.py` (hojatxona + BlenderKit unitaz `6a342733`,
+  rentgen chanoq: ichak/vena chigali/oyoq venalari + BOSIM o'lchagich, osiladigan to'qima kesimi — shape key "sag"/"lump", yarim vena + qon tanachalari,
+  shar, ko'cha, operatsiya xonasi).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_24" -> hojatxonada telefon / gemorroy): Whisper bilan tekshir.
+  `large-v3` (int8, 4 yadro) 42 s ni ~3 daqiqada o'girdi; matn qozoqcha chiqsa ham so'z vaqtlari to'g'ri.
+- Mixamo'da unitazda o'tirish bor: `Sitting` ("Sitting On A Toilet", 179 kadr, inplace=False): 28–62 telefonga engashadi, 62–100 engashgan holda turadi.
+  Root (0,0,0), -Y ga qaraydi, Hips (0, 0.25, 0.59). Unitaz `6a342733` (gltf-transform copy kerak): orqa y=0, old y=−0.675, o'rindiq z=0.467 —
+  `toilet.location = (0, 0.66, 0)` bilan qahramon o'rindiqqa to'g'ri tushadi.
+- `Texting_And_Walking` (inplace) ~0.046 m/kadr; telefon o'ng qo'lda (`RightHand` ga `CHILD_OF`, joylashuv (0, 0.09, 0.035)).
+- Ekrandagi yozuv/o'lchagichni (taymer, BOSIM) kameraga `parent` qil (mahalliy (x, y, −0.4)): ob'ektga bog'lab `TRACK_TO` bilan kameraga qaratilsa
+  kadrdan chiqib ketdi. Boshdan POV kamera bosh mesh'iga kirib qoladi — yelka ortidan (Head − 0.24 x, +0.12 y) qo'y.
+- Kesimdagi kamerani bo'sh nishonga emas, asosiy ob'ektning o'ziga (masalan tugun) qarat yoki nishon kalitlarini `frame_set` bilan tekshir:
+  nishon kalitlar orasida siljiganda ob'ekt kadr chetiga chiqib ketdi.
+- 40% (432x768), 8 sample: hojatxona/rentgen/kesim/ko'cha ~9 s/kadr (1024 kadr ≈ 2.6 soat).
