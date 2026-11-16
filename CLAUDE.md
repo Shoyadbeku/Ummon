@@ -332,3 +332,25 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Kesimdagi kamerani bo'sh nishonga emas, asosiy ob'ektning o'ziga (masalan tugun) qarat yoki nishon kalitlarini `frame_set` bilan tekshir:
   nishon kalitlar orasida siljiganda ob'ekt kadr chetiga chiqib ketdi.
 - 40% (432x768), 8 sample: hojatxona/rentgen/kesim/ko'cha ~9 s/kadr (1024 kadr ≈ 2.6 soat).
+
+- O'g'ri va televizor misoli: `zack_test/tools/get_ogri.sh`, sahna `zack_test/ogri/ogri.py` (yordamchilar `ogri/lib.py`: gemorroy.py dan ko'chirilgan;
+  uy + oshxona + ko'cha, David — o'g'ri: qora qalpoq va peshona chirog'i (SPOT + nur konusi `glow_mat`), Brian — uy egasi; 25 kadr).
+- Ovoz fayli nomi yana mos kelmadi ("Neytron yulduzining aql bovar qilmas og'irligi... SadoStudio_4" -> o'g'ri televizor o'rniga pechni o'g'irladi): Whisper bilan tekshir.
+- Ko'p kadrli sahnada har kadrga alohida NLA strip (`hold=True`, kadr boshidan, blend 0): keyingi track oldingisini bosadi, T-poza bo'shlig'i bo'lmaydi.
+  Root'ni kadrlar orasida sakratish uchun kalitlarni CONSTANT, faqat yurish oralig'ini LINEAR qil (`ogri.py: stage/fix_root`).
+- Qo'llarga "bake" qilingan narsa (TV, sumka) har kadr kalitlanadi; LINEAR bo'lsa, oldingi kadrdagi uzoq kalitdan sekin "sirpanib" keladi:
+  har kadr oxiriga ushlab turuvchi kalit qo'y va kesish kadrlarini CONSTANT qil (`ogri.py: lin_cuts`).
+- BlenderKit TV `5baba85b` (75", 1.67 m): ekranida logotip rasmi bor — ekran materialini almashtir. Qora TV tunda ko'rinmaydi: korpusni (0.045) +
+  coat qil va kadrga orqa yorug'lik (rim) qo'sh. TV eni X bo'ylab: yondan (X o'qi bo'ylab) qaragan kamera uni qirrasidan ko'radi.
+- BlenderKit eski pech `cab01678` (CC0): 1 m eni (`scale=0.5`), old -Y; bir qavatli panellar. Qismlarga ajratish: `separate(LOOSE)` -> joylashuv bo'yicha
+  guruhlash (eshik, panel, tepa...) -> `join` + Solidify (`ogri.py: mw_parts`).
+- BlenderKit oshxona `984fd8f8`: peshtaxta z = 0.94 (x −7.48..−4.41 dunyoda, joylashuvga qarab), lavabo o'rtada. `ray_down` ni 1.3 m dan boshla —
+  2.0 dan yuqori shkafga (1.93) tegadi.
+- David (Mixamo) Head fazosi: ko'zlar y ≈ 0.10, qosh ~0.14, soch tepasi 0.225, bosh markazi z ≈ +0.012. Qalpoq: gumbaz markazi y 0.15 (radius x 0.1,
+  z 0.115, tepa 0.09), qaytarma halqa y 0.153; pastroq qo'yilsa ko'zni yopadi, kattaroq halqa "shlyapa" bo'lib ko'rinadi.
+- Nur konusi (glow) old tomondan kamera tomon qaraganda katta kulrang disk bo'ladi: bunday kadrlarda `a` ni 0.03–0.04 ga tushir.
+- Kamera devor ichida qolsa (masalan x = −3 dagi o'rta devor, qalinlik 0.15) kadr qop-qora chiqadi: yo'l nuqtalarini devorlarga nisbatan tekshir.
+- `Working_On_Device` — cho'kkalab polda ishlash (qo'llar z 0.45–0.55): ishni peshtaxtada emas, polda ko'rsat. `Lifting_Object` og'ir narsani faqat
+  ~0.2 m ko'taradi (62–175-kadr). `Push_2` (inplace) ~0.026 m/kadr, qo'llar root'dan ~0.7 m oldinda. `Jogging_With_Box` speed 0.55 da ~0.062 m/kadr.
+  `Running_2` — burilib, kulgili qochish (ildiz harakati bilan, inplace=False). `Walking_With_Shopping_Bag` ~0.028 m/kadr, sumka o'ng qo'lda (z 0.91).
+- 40% (432x768), 8 sample: tungi uy/oshxona/ko'cha ~14 s/kadr (1112 kadr ≈ 4.3 soat).
