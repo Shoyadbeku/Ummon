@@ -504,11 +504,11 @@ P0, P1 = S["pillow"]
 ht = hand_track(P0, P1 + 2)
 fmin = min(ht, key=lambda f: ht[f].z)
 fgrab = next((f for f in sorted(ht) if f > fmin and ht[f].z > PIL0.z - 0.04), P1)
-off = PIL0 - ht[fgrab]
+off = V(-0.2, -0.04, -0.06)                                # yostiqning o'ng chekkasi qo'lda
 key(pil, 1, loc=tuple(PIL0), rot=(0, 0, 0)); key(pil, fgrab, loc=tuple(PIL0), rot=(0, 0, 0))
 for f in range(fgrab + 1, P1 + 1):
-    t = min(1.0, (f - fgrab) / 10)
-    key(pil, f, loc=tuple(ht[f] + off * (1 - 0.5 * t)), rot=(0, -35 * t, 8 * t))
+    t = min(1.0, (f - fgrab) / 10); u = min(1.0, (f - fgrab) / 4)
+    key(pil, f, loc=tuple(PIL0.lerp(ht[f] + off, ease(u))), rot=(0, -35 * t, 8 * t))
 PIL_FLOOR = V(-0.55, 1.55, 0.07)
 key(pil, P1 + 1, loc=tuple(PIL_FLOOR), rot=(4, 0, 35))
 print("PILLOW grab", fmin, fgrab, tuple(round(x, 2) for x in ht[fgrab]))
@@ -590,8 +590,8 @@ a, b = S["look"]
 c = rel_cam("look", faceB, 45, 2.0, [(a, V(0.12, -0.85, -0.22)), (b, V(0.06, -0.55, -0.15))])
 # 3 yostiq: matras sathida, yostiq yonidan
 a, b = S["pillow"]
-c = abs_cam("pillow", [(a, V(BX0 + 0.35, 1.45, MT + 0.16)), (b, V(BX0 + 0.42, 1.6, MT + 0.22))],
-            [(a, V(BX1 - 0.15, 2.05, MT + 0.3)), (b, V(BX1 - 0.1, 2.0, MT + 0.55))], 22, 3.2, focus=None)
+c = abs_cam("pillow", [(a, V(BCX + 0.05, 1.15, MT + 0.5)), (b, V(BCX + 0.15, 1.3, MT + 0.55))],
+            [(a, V(BCX + 0.25, 2.2, MT + 0.12)), (b, V(-1.15, 2.2, MT + 0.45))], 20, 3.2, focus=None)
 # 4 ko'rpa: poldan, keng ob'ektiv — ko'rpa kameraga uchadi
 a, b = S["blanket"]
 c = abs_cam("blanket", [(a, V(0.25, 0.2, 0.25)), (b, V(0.15, 0.05, 0.2))], [(a, V(-0.9, 1.15, 0.85)), (b, V(-0.7, 0.9, 0.9))], 14, 5.6)
