@@ -614,13 +614,13 @@ shake(c, F_PRESS, F_PRESS + 10, 0.006, seed=5)
 f0, f1 = S["fan"]
 orbit_cam("fan", f0, f1, (2.3, 2.30, 1.36), 0.42, 0.33, -60, -110, 0.08, 0.02, 26, empty("fan_t", (2.3, 2.31, 1.33)), fstop=6.0)
 f0, f1 = S["speed"]
-c = cam_path("speed", [(f0, (NOZ.x + 0.06, 2.12, 1.40)), (f0 + 40, (NOZ.x + 0.07, 2.10, 1.17)), (f1, (NOZ.x + 0.2, 1.95, 1.0))],
+c = cam_path("speed", [(f0, (NOZ.x + 0.06, 2.12, 1.40)), (f0 + 40, (NOZ.x - 0.10, 2.13, 1.17)), (f1, (NOZ.x - 0.30, 2.00, 1.05))],
              (NOZ.x, NOZ.y, 1.25), [(f0, 16), (f1, 18)], tgt_keys=[(f0, (NOZ.x, NOZ.y, 1.25)), (f0 + 40, (NOZ.x, NOZ.y, 1.1)), (f1, (HC.x, HC.y, 0.99))])
 shake(c, f0, f1, 0.003, seed=6, decay=False)
-t200.parent = c; t200.location = (0.0, 0.07, -0.35); t200.rotation_euler = (0, 0, 0)
+t200.parent = c; t200.location = (0.0, 0.02, -0.1); t200.rotation_euler = (0, 0, 0)   # oqimdan oldinda (0.35 da oqim yozuvni to'sdi)
 vis(t200, [(F_200 - 4, F1("speed"))])
 for f, s in ((F_200 - 4, 0.01), (F_200, 1.2), (F_200 + 4, 1.0)):
-    t200.scale = (s,) * 3; t200.keyframe_insert("scale", frame=f)
+    t200.scale = (s * 0.1 / 0.35,) * 3; t200.keyframe_insert("scale", frame=f)
 f0, f1 = S["hit"]
 c = orbit_cam("hit", f0, f1, (HC.x, HC.y, 0.98), 0.4, 0.32, 15, -25, 0.02, 0.06, 30, handsT, fstop=5.6)
 shake(c, F_HIT - 1, F_HIT + 12, 0.012, seed=7)

@@ -366,3 +366,6 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Mixamo'da qo'l yuvish/quritish harakati yo'q: Idle_14 ustida ikkala qo'lga IK, kaftlar bir-biriga qaragan, nishonlar har kadr kalitlanadi (`rub_pose`).
   Gumbaz koloniyalarni (Petri) tasodifiy burilish bilan emas, `aligned=True` (v = +Z) bilan qo'y.
 - 40% (432x768), 8 sample: hojatxona/kesim/laboratoriya ~12 s/kadr (973 kadr ≈ 3.3 soat).
+- Kamera qahramon qo'li yonidan o'tsa, kalitlar orasida bilak ichidan o'tib ketishi mumkin (quritgich "speed": 6 kadr qop-qora, keyin bilak kadrni yopdi):
+  to'liq renderdan keyin har kadr yorug'ligini tekshir (o'rtacha < 25 — shubhali) va yo'lni qo'lga qarama-qarshi tomondan o'tkaz.
+- Kameraga bog'langan yozuv (`t200`) oqim/zarralardan uzoqda (−0.35) bo'lsa, ular yozuvni to'sadi: yaqinroq (−0.1) qo'yib masshtabni mutanosib kichraytir.
