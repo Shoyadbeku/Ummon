@@ -228,7 +228,9 @@ def closed_eyes(body):
     for pl in o.data.polygons: pl.material_index = 0
     return o
 lids = closed_eyes(next(o for o in mmeshes if "body" in o.name.lower()))
+lids.animation_data_clear()                     # nusxa asl Body harakatini ulashadi (vis Body'ni ham yashirib qo'yardi)
 vis(lids, ROOM, recursive=False)
+vis(next(o for o in mmeshes if "body" in o.name.lower()), ROOM + BATHR, recursive=False)
 headE = child_of_bone("meg_head", meg, "Head")
 BODY = next(o for o in mmeshes if "body" in o.name.lower())
 print("MEG meshes", [o.name for o in mmeshes])
@@ -816,7 +818,7 @@ JR = JAR + V(0, 0, 0.05)
 c = abs_cam("cream", [(CR0, JR + V(0.42, 0.12, -0.01)), (CR1, JR + V(0.2, 0.34, 0.07))], [(CR0, JR), (CR1, JR + V(0, 0, 0.01))], 32, 2.8, clip=0.01)
 # 21 surtish: yuzga push-in
 AP0, AP1 = S["apply"]
-c = rel_cam("apply", faceT, 42, 2.8, [(AP0, V(0.2, -0.55, -0.04)), (AP1, V(0.1, -0.32, -0.03))])
+c = rel_cam("apply", faceT, 42, 2.8, [(AP0, V(0.2, -0.44, -0.04)), (AP1, V(0.1, -0.32, -0.03))])
 for n, cam in CAMS.items():
     for fc in fcurves(cam):
         if fc.data_path == "location":
