@@ -354,3 +354,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   ~0.2 m ko'taradi (62–175-kadr). `Push_2` (inplace) ~0.026 m/kadr, qo'llar root'dan ~0.7 m oldinda. `Jogging_With_Box` speed 0.55 da ~0.062 m/kadr.
   `Running_2` — burilib, kulgili qochish (ildiz harakati bilan, inplace=False). `Walking_With_Shopping_Bag` ~0.028 m/kadr, sumka o'ng qo'lda (z 0.91).
 - 40% (432x768), 8 sample: tungi uy/oshxona/ko'cha ~14 s/kadr (1112 kadr ≈ 4.3 soat).
+
+- Qo'l quritgich (bakteriyalar) misoli: `zack_test/tools/get_quritgich.sh`, sahna `zack_test/quritgich/quritgich.py` (jamoat hojatxonasi: 3 kabina + unitaz `6a342733`,
+  rakovinalar, protsedural issiq havo quritgichi va uning kesimi — fan, isitgich spirali, filtr "dirt" qiymati; Petri idishlari laboratoriyasi).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_26" -> jamoat hojatxonasidagi qo'l quritgich): Whisper bilan tekshir.
+- Minglab zarralar (bakteriya, chang, havo oqimi) uchun `Swarm` (`quritgich.py`): faqat vertekslardan iborat mesh + GN Instance on Points
+  (o'lcham "s", yo'nalish "v" atributlari), pozitsiyalar `frame_change_pre` handlerida numpy bilan hisoblanadi. Zarra "aylanganda" (modulo) s = 0 bo'lsin —
+  motion blur chizig'i ko'rinmaydi. Zarra sonini o'zgartirsang, factory'dagi n ni ham o'zgartir (aks holda "internal error setting the array").
+- Laboratoriya kabi uzoq "dunyo"ni `empty("lab", LAB)` ostiga `loc=LAB+...` bilan qo'yma: bolalar 2×LAB ga tushadi. Ota bo'sh ob'ektni (0,0,0) da yasa.
+- Kamera yo'li kalitlar orasida yupqa to'siqdan (kabina devori) o'tib ketishi mumkin: kadr qop-qora chiqsa, kameradan 6 yo'nalishda `sc.ray_cast` qil.
+- Mixamo'da qo'l yuvish/quritish harakati yo'q: Idle_14 ustida ikkala qo'lga IK, kaftlar bir-biriga qaragan, nishonlar har kadr kalitlanadi (`rub_pose`).
+  Gumbaz koloniyalarni (Petri) tasodifiy burilish bilan emas, `aligned=True` (v = +Z) bilan qo'y.
+- 40% (432x768), 8 sample: hojatxona/kesim/laboratoriya ~12 s/kadr (973 kadr ≈ 3.3 soat).
