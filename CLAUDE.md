@@ -360,7 +360,7 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   issiqlik kamerasi `thermalize` (har materialga "th" Mix + emissiya rampasi); mikro teri teshiklari va yallig'lanish kesimi `mite.py` dan; hammom + krem).
 - Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_25" -> yostiq jildidagi bakteriyalar): Whisper bilan tekshir.
 - Megan uxlaganda ko'zlari ochiq: `yostiq.py: closed_eyes` — Body'dagi ko'z orollari (markazi Root fazosida (±0.0324, -0.1327, 1.6211), 385 vertex) nusxasi
-  1.2x, **teksturasiz** to'q teri materiali (0.37, 0.2, 0.15) (Body materiali UV orqali yana ko'z rasmini beradi) + Head fazosida kiprik chizig'i.
+  1.2x, **teksturasiz** to'q teri materiali (0.37, 0.2, 0.15) (Body materiali UV orqali yana ko'z rasmini beradi) (Head fazosidagi kiprik chizig'i profilda tikandek chiqib turdi — qo'yma).
 - `Laying_Sleeping` da bosh o'qlari dunyoda ≈ X(chap)=(0.53,-0.2,-0.83), Y(tepa)=(0.17,0.98,-0.12), Z(yuz)=(0.83,-0.08,0.55): yotgan yuzni tik ko'rsatish uchun
   TRACK_TO emas, `look_cam` (kamera +Y = bosh Y o'qi) ishlat.
 - Ter/so'lak tomchilari: oq `alpha` yoki Coat'li shar "marvarid" bo'lib chiqadi; `trans=1.0, IOR 1.33`, z bo'yicha yassi + Body'ga `SHRINKWRAP` (NEAREST_SURFACE).

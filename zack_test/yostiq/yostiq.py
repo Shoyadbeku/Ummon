@@ -230,10 +230,6 @@ def closed_eyes(body):
 lids = closed_eyes(next(o for o in mmeshes if "body" in o.name.lower()))
 vis(lids, ROOM, recursive=False)
 headE = child_of_bone("meg_head", meg, "Head")
-lash_m = mat("lashline", (0.03, 0.02, 0.015), 0.5)
-for sx in (1, -1):
-    pts = [Vector((sx * 0.033 + sx * 0.0128 * math.cos(a), 0.0855 - 0.004 * math.sin(a), 0.1355 + 0.0115 * math.sin(a))) for a in [math.pi * i / 8 for i in range(9)]]
-    lt = PT.tube(f"lashline{sx}", pts, 0.0008, lash_m, headE); vis(lt, ROOM, recursive=False)
 BODY = next(o for o in mmeshes if "body" in o.name.lower())
 print("MEG meshes", [o.name for o in mmeshes])
 faceT = empty("faceT", (0.0, 0.075, 0.11), headE)
