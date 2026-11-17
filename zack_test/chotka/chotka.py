@@ -440,7 +440,7 @@ def aero_pos(f):
 aero_me = bpy.data.meshes.new("aero"); aero_me.from_pydata([(0, 0, 0)] * NP_, [], []); aero_me.update()
 aero_me.attributes.new("pr", "FLOAT", "POINT")
 aero = bpy.data.objects.new("aero", aero_me); sc.collection.objects.link(aero)
-aero_m = mat("aero_m", (0.3, 0.6, 0.15), 0.4, emit=2.5, emit_col=(0.35, 1.0, 0.2), trans=0.6)
+aero_m = mat("aero_m", (0.3, 0.6, 0.15), 0.4, emit=2.5, emit_col=(0.35, 1.0, 0.2), trans=float(os.environ.get("ATR", 0.6)))
 ng = bpy.data.node_groups.new("inst", "GeometryNodeTree"); I = ng.interface
 I.new_socket("Geometry", in_out="INPUT", socket_type="NodeSocketGeometry"); I.new_socket("Geometry", in_out="OUTPUT", socket_type="NodeSocketGeometry")
 Nn = ng.nodes; Ln = ng.links; gi = Nn.new("NodeGroupInput"); go = Nn.new("NodeGroupOutput")
@@ -794,7 +794,7 @@ r = sc.render
 r.engine = "CYCLES"; sc.cycles.device = "CPU"
 sc.cycles.samples = int(os.environ.get("SAMPLES", 8)); sc.cycles.use_adaptive_sampling = True
 sc.cycles.use_denoising = True; sc.cycles.max_bounces = 6; sc.cycles.transparent_max_bounces = 24; sc.cycles.transmission_bounces = 8
-sc.cycles.volume_bounces = 0; sc.cycles.volume_step_rate = 4.0
+sc.cycles.volume_bounces = 0; sc.cycles.volume_step_rate = float(os.environ.get("VSTEP", 4.0))
 sc.cycles.caustics_reflective = sc.cycles.caustics_refractive = False
 r.use_motion_blur = True; r.motion_blur_shutter = 0.5; r.motion_blur_position = "START"
 r.resolution_x, r.resolution_y = 1080, 1920; r.resolution_percentage = int(os.environ.get("PCT", 40))
