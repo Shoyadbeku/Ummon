@@ -354,3 +354,23 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   ~0.2 m ko'taradi (62–175-kadr). `Push_2` (inplace) ~0.026 m/kadr, qo'llar root'dan ~0.7 m oldinda. `Jogging_With_Box` speed 0.55 da ~0.062 m/kadr.
   `Running_2` — burilib, kulgili qochish (ildiz harakati bilan, inplace=False). `Walking_With_Shopping_Bag` ~0.028 m/kadr, sumka o'ng qo'lda (z 0.91).
 - 40% (432x768), 8 sample: tungi uy/oshxona/ko'cha ~14 s/kadr (1112 kadr ≈ 4.3 soat).
+
+- Telefon portlashi misoli: `zack_test/tools/get_telefon.sh`, sahna `zack_test/telefon/telefon.py` (protsedural telefon `build_phone` — ekranda numpy bilan
+  chizilgan o'yin rasmi, USB-C kabel NURBS + HOOK, rentgen studiyasi, batareya qatlamlari kesimi: litiy ionlari, separator erishi shader'i "melt",
+  qatlamlar egilishi shape key "bend", qisqa tutashuv uchquni; hajmli olov/tutun `flame_mat`/`smoke_mat`, uchqunlar particle system),
+  tovush `telefon/sfx.py`, montaj `telefon/montaj.py` (harorat °C ko'rsatkichi ffmpeg drawtext bilan).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_27" -> quvvatlanayotgan telefonda o'yin, batareya portlashi): Whisper bilan tekshir.
+- Mixamo `Gaming` (o'tirib konsol o'ynash) telefonni ikki qo'llab ushlash uchun mos: Hips 0.57; telefon markazi = bosh barmoqlar (`*HandThumb3`)
+  o'rtasi, uzun o'q = `LeftHandMiddle1 - RightHandMiddle1`, normal = ko'zlarga (Head + (0, -0.07, 0.1)). Bilaklar o'rtasini olsa telefon 13 sm ichkarida qoladi.
+  Shunda telefonning mahalliy +Y o'qi qahramon tanasi tomonga (pastga) qaraydi: makro kameralarni −Y tomonga qo'y.
+- `Scared` (`src=(40, 303)`) portlashda o'rindiqdan sakrab turish; Sofa_01 ni 1.3x qilib, root (0, 0.12, −0.06).
+- Ekran yaqinidagi AREA chiroq (ekran nuri) sukut bo'yicha −Z ga nur sochadi: yuzga qaratish uchun 180° bur va ekrandan ≥ 10 sm uzoqroq qo'y,
+  aks holda bosh barmoqlar oppoq bo'ladi.
+- Hajmli tutun/olov (silindr ichida noise): zichlikni profil bilan ko'paytir (`d *= clamp(prof*4)`) va pastki qopqoqni `clamp(h*5)` bilan so'ndir,
+  aks holda silindr devori/qopqog'i keskin oq "tabletka" bo'lib ko'rinadi. `prof + noise − 1` deyarli doim 0 — tutun umuman ko'rinmaydi.
+- Shishadigan batareya (shape key) korpusdan qalin bo'lsa ekrandan teshib chiqib, oq qizigan dog' bo'lib ko'rinadi: haqiqiy telefonda ≤ 2.5 mm.
+- Qizigan metall (batareya, chip) emissiyasi AgX'da tez oqaradi: kuch ≤ 2, rang shkalasini (`rs`) pastroq ol; metall sirtni studiya chirog'i ham oqartiradi —
+  roughness 0.6, metallic 0.2.
+- 3D HUD matni kameraga yaqin bo'lsa DOF uni xiralashtiradi: raqamli ko'rsatkichni ffmpeg `drawtext` + `%{eif\:...\:d}` bilan chiz
+  (bo'lakli-chiziqli qiymat: `v0 + Σ k_i*clip(t − t_i, 0, dt_i)`, vergullarni `\,` bilan).
+- 40% (432x768), 8 sample: xona/rentgen studiya/kesim/hajmli olov ~8 s/kadr (1047 kadr ≈ 2.3 soat).
