@@ -245,8 +245,8 @@ def screen_mat():
     m = bpy.data.materials.new("screen"); m.use_nodes = True
     N = m.node_tree.nodes; L = m.node_tree.links; b = N["Principled BSDF"]; out = N["Material Output"]
     b.inputs["Base Color"].default_value = (0.0, 0.0, 0.0, 1); b.inputs["Roughness"].default_value = 0.05
-    b.inputs["Coat Weight"].default_value = 0.25; b.inputs["Specular IOR Level"].default_value = 0.15
-    b.inputs["Roughness"].default_value = 0.2
+    b.inputs["Coat Weight"].default_value = 0.0; b.inputs["Specular IOR Level"].default_value = 0.06
+    b.inputs["Roughness"].default_value = 0.35
     scr = value_node(m, "scr", 1.0); bolt = value_node(m, "bolt", 0.0); scroll = value_node(m, "scroll", 0.0); crack = value_node(m, "crack", 0.0)
     uv = N.new("ShaderNodeUVMap")
     sh = N.new("ShaderNodeVectorMath"); sh.operation = "ADD"; L.new(uv.outputs[0], sh.inputs[0])
@@ -403,7 +403,7 @@ def build_phone(name, parent, real=True):
     # ichki qismlar
     bat = grid_box(name + "_bat", 0.096, 0.062, 0.0046, bat_real_m if real else bat_m, root, nx=20, loc=(0.022, 0, -0.0005))
     bat.modifiers.new("bev", "BEVEL").width = 0.001
-    R_["bat"] = bat; R_["swell"] = swell_key(bat, 0.011, 0.096, 0.062)
+    R_["bat"] = bat; R_["swell"] = swell_key(bat, 0.0025 if real else 0.011, 0.096, 0.062)   # haqiqiy telefonda ekrandan teshib chiqmasin
     R_["board"] = box(name + "_board", (0.048, 0.066, 0.001), (-0.053, 0, -0.0018), pcb_m, parent=root)
     R_["cpu"] = box(name + "_cpu", (0.013, 0.013, 0.0014), (-0.056, 0.01, -0.0005), cpu_m, parent=root, bevel=0.0004)
     for i in range(6):
@@ -418,8 +418,8 @@ XSH = prism("phone_xshell", PW, PHh, -PD / 2, PD / 2, xshell, proot)
 # ekran nuri (yuzga)
 scr_light = bpy.data.objects.new("scr_light", bpy.data.lights.new("scr_light", "AREA")); sc.collection.objects.link(scr_light)
 scr_light.data.shape = "RECTANGLE"; scr_light.data.size, scr_light.data.size_y = 0.15, 0.07; scr_light.data.color = (0.75, 0.6, 1.0)
-scr_light.parent = proot; scr_light.location = (0, 0, 0.03); scr_light.rotation_euler = (R(180), 0, 0); scr_light.visible_camera = False   # +Z (yuz) tomonga
-scr_light.data.energy = 2.5
+scr_light.parent = proot; scr_light.location = (0, 0, 0.12); scr_light.rotation_euler = (R(180), 0, 0); scr_light.visible_camera = False   # +Z (yuz) tomonga
+scr_light.data.energy = 3.0
 
 # ======================================================================
 # 4) MEGAN: divanda o'tirib o'ynaydi (Gaming), portlashda sakrab turadi (Scared)
@@ -675,6 +675,7 @@ def smoke_mat(name, dens=6.0, col=(0.06, 0.06, 0.065)):
     no = N.new("ShaderNodeTexNoise"); no.noise_dimensions = "4D"; no.inputs["Scale"].default_value = 3.0; no.inputs["Detail"].default_value = 4.0
     L.new(mp.outputs[0], no.inputs["Vector"]); L.new(ph, no.inputs["W"])
     d = P.math_n(N, L, "SUBTRACT", P.math_n(N, L, "ADD", P.math_n(N, L, "MULTIPLY", prof, 1.8), no.outputs["Fac"]), 0.85, clamp=True)
+    d = P.math_n(N, L, "MULTIPLY", d, P.math_n(N, L, "MULTIPLY", prof, 4.0, clamp=True))     # hajm devorida keskin chegara bo'lmasin
     pv = N.new("ShaderNodeVolumePrincipled"); pv.inputs["Color"].default_value = (*col, 1)
     L.new(P.math_n(N, L, "MULTIPLY", P.math_n(N, L, "MULTIPLY", d, amt), dens), pv.inputs["Density"])
     L.new(pv.outputs[0], N["Material Output"].inputs["Volume"])
@@ -814,7 +815,7 @@ f0, f1 = S["bulge"]         # qo'ldagi telefon, ekran ko'tariladi, Megan yuzi or
 c = cam_path("bulge", [(f0, (0.11, -0.15, 0.03)), (f1, (0.075, -0.12, 0.022))], None, 30, fstop=5.6,
              tgt_keys=[(f0, (0.01, -0.03, 0.006)), (f1, (0.01, -0.034, 0.008))], parent=proot, clip=0.002)
 f0, f1 = S["crack"]         # ekranga makro, crash zoom
-c = cam_path("crack", [(f0, (0.1, -0.1, 0.1)), (F_CRACK, (0.07, -0.07, 0.075)), (f1, (0.06, -0.06, 0.065))], None, 28, fstop=4.0,
+c = cam_path("crack", [(f0, (0.1, -0.1, 0.1)), (F_CRACK, (0.07, -0.07, 0.075)), (f1, (0.06, -0.06, 0.065))], None, 28, fstop=11.0,
              tgt_keys=[(f0, (0.02, -0.01, 0.0)), (f1, (0.025, -0.012, 0.0))], parent=proot, clip=0.002)
 lens_keys(c, [(f0, 26), (F_CRACK - 1, 28), (F_CRACK + 2, 44), (f1, 46)]); shake(c, F_CRACK, F_CRACK + 12, 0.005, seed=5)
 f0, f1 = S["boom"]          # poldan past burchak, keng
@@ -859,6 +860,10 @@ area("cell_gap", tuple(C0 + Vector((0.0, -0.9, 0.275))), 0.5, (1.0, 0.9, 0.8), l
 ap = point("arc_light", tuple(C0 + SPK + Vector((0, -0.05, 0))), 0.02, (0.7, 0.85, 1.0), [(1, 0)], const=True)
 for f in range(F_SHORT, F1("short") + 2, 2): ap.data.energy = 0 if f > F1("short") else random.uniform(8, 30); ap.data.keyframe_insert("energy", frame=f)
 ap.visible_camera = False
+
+# xona chiroqlari telefon ekranida oq dog' bo'lib aks etmasin
+for l in bpy.data.objects:
+    if l.type == "LIGHT" and l.data.type == "AREA": l.visible_glossy = False
 
 # tovush effektlari uchun voqea kadrlari
 if os.environ.get("EVENTS"):
