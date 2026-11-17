@@ -22,7 +22,7 @@ ob'ektiv, DOF, motion blur, AgX Punchy. Subtitr yo'q.
 
 | # | kadrlar | vaqt (s) | ovoz | kamera | sahna |
 |---|---|---|---|---|---|
-| 1 | 1–40 | 0.0–1.6 | "Mendan hech narsa o'tmaydi deb" | **ILGAK**: poldan past burchak 16 mm, tez push-in | Mehmonxona, Brian bug'i chiqayotgan piyola bilan "bosh barmoq" ko'rsatadi (`Standing_Thumbs_Up`) |
+| 1 | 1–40 | 0.0–1.6 | "Mendan hech narsa o'tmaydi deb" | **ILGAK**: poldan past burchak 16 mm, tez push-in | Mehmonxona, Brian bug'i chiqayotgan piyola bilan qo'llarini yoyib kekkayib turadi (`Being_Cocky`) |
 | 2 | 41–95 | 1.7–3.9 | "qaynab turgan achchiq choy yoki qahvani" | stol ustida makro, past aylanma, DOF | Choynakdan piyolaga qaynoq choy quyiladi, sirt qaynaydi, quyuq bug' |
 | 3 | 96–125 | 4.0–5.2 | "xo'plab-xo'plab ichish" | yuzga yaqin plan (f/2), bug' yuz oldida | Brian ho'playdi (`Drinking`) |
 | 4 | 126–205 | 5.2–8.5 | "ichki a'zolaringizni tiriklayin kuydirish bilan barobar" | **Rentgen**: bo'yindan ko'krakka kran, "kuydirish"da crash zoom + chaqnash + silkinish | Shaffof Brian: to'q sariq qaynoq choy qizilo'ngach bo'ylab oshqozonga oqadi, qizilo'ngach qizarib yonadi |
@@ -41,7 +41,7 @@ ob'ektiv, DOF, motion blur, AgX Punchy. Subtitr yo'q.
 | 17 | 914–966 | 38.1–40.2 | "yomon sifatli o'sma paydo bo'lish" | studiya kesimi, push-in | Qizilo'ngach devorida to'q qizil g'adir-budur o'sma o'sib chiqadi |
 | 18 | 967–1016 | 40.3–42.3 | "xavfi sakkiz barobar oshadi" | rentgen, tez orqaga chekinish | Brian hamon ichmoqda, qizilo'ngachida o'sma qizil urib turadi, yonida "×8"; oxirida qorong'ilik |
 
-Manbalar: Mixamo (HF `Linzhan/Mixamo-Animations-Characters`): Brian; harakatlar `Standing_Thumbs_Up`, `Drinking`, `Breathing_Idle`.
+Manbalar: Mixamo (HF `Linzhan/Mixamo-Animations-Characters`): Brian; harakatlar `Being_Cocky`, `Drinking`, `Breathing_Idle`.
 Poly Haven (CC0): `Sofa_01`, `modern_coffee_table_01`, `potted_plant_01`, `laminate_floor_02`, `painted_plaster_wall`,
 `kloofendal_48d_partly_cloudy_puresky`. Qolgan hammasi (o'zbekcha piyola va choynak "paxta" naqshi bilan, qaynoq choy, bug',
 rentgen qizilo'ngach/oshqozon/og'iz, qizilo'ngach kesimi, termometr, endoskop tunnel, hujayralar, DNK, o'sma) Python kodi bilan.
