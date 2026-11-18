@@ -3,7 +3,6 @@ import {
   AbsoluteFill, Easing, Img, interpolate, OffthreadVideo, random, Sequence, spring,
   staticFile, useCurrentFrame, useVideoConfig,
 } from 'remotion';
-import {continueRender, delayRender} from 'remotion';
 
 // Fonts are bundled locally (public/fonts, from Google Fonts, SIL OFL) so rendering works offline.
 export const ANTON = 'Anton';
@@ -14,11 +13,7 @@ if (typeof document !== 'undefined' && !document.getElementById('local-fonts')) 
   st.innerHTML = `@font-face{font-family:'Anton';font-weight:400;src:url(${staticFile('fonts/Anton-400-latin.woff2')}) format('woff2');}
 @font-face{font-family:'Montserrat';font-weight:700 900;src:url(${staticFile('fonts/Montserrat-900-latin.woff2')}) format('woff2');}`;
   document.head.appendChild(st);
-  const h = delayRender('fonts', {timeoutInMilliseconds: 60000});
-  let done = false;
-  const finish = () => { if (!done) { done = true; continueRender(h); } };
-  Promise.all([(document as any).fonts.load("400 40px 'Anton'"), (document as any).fonts.load("900 40px 'Montserrat'")]).then(finish, finish);
-  setTimeout(finish, 5000);
+  (document as any).fonts.load("400 40px 'Anton'"); (document as any).fonts.load("900 40px 'Montserrat'");
 }
 
 export const FPS = 30;
