@@ -15,7 +15,7 @@ export const Captions: React.FC<{y?: number}> = ({y = 1300}) => {
   const enter = spring({frame: frame - pf, fps, config: {damping: 14, stiffness: 220, mass: 0.6}});
   return (
     <AbsoluteFill style={{top: y, height: 'auto', alignItems: 'center', paddingLeft: 90, paddingRight: 130}}>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '4px 34px', maxWidth: 880,
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '4px 46px', maxWidth: 880,
         transform: `translateY(${(1 - enter) * 30}px) scale(${0.75 + 0.25 * enter})`, opacity: Math.min(1, enter * 2)}}>
         {page.words.map((w, i) => {
           const active = t >= w.s && t < (page.words[i + 1]?.s ?? page.e + 0.05);
@@ -23,7 +23,7 @@ export const Captions: React.FC<{y?: number}> = ({y = 1300}) => {
           const wf = Math.round(w.s * fps);
           const pop = spring({frame: frame - wf, fps, config: {damping: 10, stiffness: 320, mass: 0.5}});
           const color = active ? (w.kw ? GREEN : YELLOW) : spoken ? 'white' : 'rgba(255,255,255,0.85)';
-          const sc = active ? interpolate(pop, [0, 1], [0.92, w.kw ? 1.1 : 1.06]) : 1;
+          const sc = active ? interpolate(pop, [0, 1], [0.95, w.w.length > 8 ? 1.02 : w.kw ? 1.1 : 1.06]) : 1;
           return (
             <span key={i} style={{
               fontFamily: MONT, fontWeight: 900, fontSize: w.kw ? 88 : 82, lineHeight: 1.12, textTransform: 'uppercase',

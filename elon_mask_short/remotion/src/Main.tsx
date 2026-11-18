@@ -38,7 +38,8 @@ const ShowerGym: React.FC<{gymAt: number}> = ({gymAt}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const top = spring({frame, fps, config: {damping: 15}});
-  const bot = spring({frame: frame - gymAt, fps, config: {damping: 15}});
+  const bot = spring({frame: frame - 4, fps, config: {damping: 15}});
+  const lit = interpolate(frame, [gymAt - 2, gymAt + 4], [0, 1], clamp);
   const half: React.CSSProperties = {position: 'absolute', left: 0, right: 0, height: 955, overflow: 'hidden'};
   const vid: React.CSSProperties = {width: '100%', height: '100%', objectFit: 'cover'};
   return (
@@ -46,7 +47,7 @@ const ShowerGym: React.FC<{gymAt: number}> = ({gymAt}) => {
       <div style={{...half, top: 0, transform: `translateX(${(1 - top) * -1080}px)`, filter: frame >= gymAt ? 'brightness(0.55) saturate(0.6)' : 'none'}}>
         <OffthreadVideo src={staticFile('v/shower.mp4')} muted style={{...vid, filter: 'contrast(1.15) saturate(1.1) hue-rotate(-10deg)'}} />
       </div>
-      <div style={{...half, top: 965, transform: `translateX(${(1 - bot) * 1080}px)`}}>
+      <div style={{...half, top: 965, transform: `translateX(${(1 - bot) * 1080}px) scale(${1 + 0.06 * lit})`, filter: `brightness(${0.4 + 0.6 * lit}) grayscale(${1 - lit}) blur(${(1 - lit) * 6}px)`}}>
         <OffthreadVideo src={staticFile('v/gym.mp4')} muted style={{...vid, objectPosition: '55% 50%', filter: 'contrast(1.15) saturate(1.1)'}} />
       </div>
       <div style={{position: 'absolute', left: 0, right: 0, top: 952, height: 16, background: YELLOW, boxShadow: `0 0 30px ${YELLOW}`}} />
