@@ -6,3 +6,4 @@ blend/
 renders/final/
 __pycache__/
 logs/render_*.log
+logs/render_final.out
