@@ -1,0 +1,499 @@
+[
+ {
+  "start": 0.0,
+  "end": 8.7,
+  "text": " Ishtan yaki oxisdan charchab kelib, kochadagi shimingizni almashdirmandan togri yataqingiz üstübe chozilib yotish, korpangizni cemaat transport orundigi gaylantiradi.",
+  "words": [
+   {
+    "w": " Ishtan",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": " yaki",
+    "s": 0.5,
+    "e": 0.74
+   },
+   {
+    "w": " oxisdan",
+    "s": 0.74,
+    "e": 1.18
+   },
+   {
+    "w": " charchab",
+    "s": 1.18,
+    "e": 1.6
+   },
+   {
+    "w": " kelib,",
+    "s": 1.6,
+    "e": 1.92
+   },
+   {
+    "w": " kochadagi",
+    "s": 1.92,
+    "e": 2.52
+   },
+   {
+    "w": " shimingizni",
+    "s": 2.52,
+    "e": 3.06
+   },
+   {
+    "w": " almashdirmandan",
+    "s": 3.06,
+    "e": 3.8
+   },
+   {
+    "w": " togri",
+    "s": 3.8,
+    "e": 4.28
+   },
+   {
+    "w": " yataqingiz",
+    "s": 4.28,
+    "e": 4.86
+   },
+   {
+    "w": " üstübe",
+    "s": 4.86,
+    "e": 5.12
+   },
+   {
+    "w": " chozilib",
+    "s": 5.12,
+    "e": 5.48
+   },
+   {
+    "w": " yotish,",
+    "s": 5.48,
+    "e": 5.8
+   },
+   {
+    "w": " korpangizni",
+    "s": 5.94,
+    "e": 6.78
+   },
+   {
+    "w": " cemaat",
+    "s": 6.78,
+    "e": 7.36
+   },
+   {
+    "w": " transport",
+    "s": 7.36,
+    "e": 7.64
+   },
+   {
+    "w": " orundigi",
+    "s": 7.64,
+    "e": 8.16
+   },
+   {
+    "w": " gaylantiradi.",
+    "s": 8.16,
+    "e": 8.7
+   }
+  ]
+ },
+ {
+  "start": 8.86,
+  "end": 17.9,
+  "text": " Kun davamidi aftobus, taksi, kafe, yaki, kesalhani orundiglargi otirganingizda, matat alalari ozgi aldingi adamlardan kolgan milyon lab tuvarı qipiglarini,",
+  "words": [
+   {
+    "w": " Kun",
+    "s": 8.86,
+    "e": 9.36
+   },
+   {
+    "w": " davamidi",
+    "s": 9.36,
+    "e": 9.8
+   },
+   {
+    "w": " aftobus,",
+    "s": 9.8,
+    "e": 10.58
+   },
+   {
+    "w": " taksi,",
+    "s": 10.58,
+    "e": 11.08
+   },
+   {
+    "w": " kafe,",
+    "s": 11.1,
+    "e": 11.38
+   },
+   {
+    "w": " yaki,",
+    "s": 11.5,
+    "e": 11.76
+   },
+   {
+    "w": " kesalhani",
+    "s": 11.82,
+    "e": 12.34
+   },
+   {
+    "w": " orundiglargi",
+    "s": 12.34,
+    "e": 12.86
+   },
+   {
+    "w": " otirganingizda,",
+    "s": 12.86,
+    "e": 13.5
+   },
+   {
+    "w": " matat",
+    "s": 13.54,
+    "e": 14.18
+   },
+   {
+    "w": " alalari",
+    "s": 14.18,
+    "e": 14.66
+   },
+   {
+    "w": " ozgi",
+    "s": 14.66,
+    "e": 14.94
+   },
+   {
+    "w": " aldingi",
+    "s": 14.94,
+    "e": 15.56
+   },
+   {
+    "w": " adamlardan",
+    "s": 15.56,
+    "e": 15.94
+   },
+   {
+    "w": " kolgan",
+    "s": 15.94,
+    "e": 16.22
+   },
+   {
+    "w": " milyon",
+    "s": 16.22,
+    "e": 16.74
+   },
+   {
+    "w": " lab",
+    "s": 16.74,
+    "e": 16.9
+   },
+   {
+    "w": " tuvarı",
+    "s": 16.9,
+    "e": 17.26
+   },
+   {
+    "w": " qipiglarini,",
+    "s": 17.26,
+    "e": 17.9
+   }
+  ]
+ },
+ {
+  "start": 18.0,
+  "end": 22.82,
+  "text": " ichakta yoxcalarini va hatta tosha kenalardin kozgi korunmaz tukumlarini yapishtirib oladi.",
+  "words": [
+   {
+    "w": " ichakta",
+    "s": 18.0,
+    "e": 18.7
+   },
+   {
+    "w": " yoxcalarini",
+    "s": 18.7,
+    "e": 19.2
+   },
+   {
+    "w": " va",
+    "s": 19.2,
+    "e": 19.32
+   },
+   {
+    "w": " hatta",
+    "s": 19.32,
+    "e": 19.6
+   },
+   {
+    "w": " tosha",
+    "s": 19.6,
+    "e": 19.9
+   },
+   {
+    "w": " kenalardin",
+    "s": 19.9,
+    "e": 20.54
+   },
+   {
+    "w": " kozgi",
+    "s": 20.54,
+    "e": 20.96
+   },
+   {
+    "w": " korunmaz",
+    "s": 20.96,
+    "e": 21.52
+   },
+   {
+    "w": " tukumlarini",
+    "s": 21.52,
+    "e": 22.22
+   },
+   {
+    "w": " yapishtirib",
+    "s": 22.22,
+    "e": 22.66
+   },
+   {
+    "w": " oladi.",
+    "s": 22.66,
+    "e": 22.82
+   }
+  ]
+ },
+ {
+  "start": 22.94,
+  "end": 28.74,
+  "text": " Bundan tashkari, oz tanangizdan kumboya aciralgan ter va bakteriyalar shim matasidan teishi botkan boladi.",
+  "words": [
+   {
+    "w": " Bundan",
+    "s": 22.94,
+    "e": 23.7
+   },
+   {
+    "w": " tashkari,",
+    "s": 23.7,
+    "e": 23.96
+   },
+   {
+    "w": " oz",
+    "s": 24.06,
+    "e": 24.4
+   },
+   {
+    "w": " tanangizdan",
+    "s": 24.4,
+    "e": 25.0
+   },
+   {
+    "w": " kumboya",
+    "s": 25.0,
+    "e": 25.46
+   },
+   {
+    "w": " aciralgan",
+    "s": 25.46,
+    "e": 25.94
+   },
+   {
+    "w": " ter",
+    "s": 25.94,
+    "e": 26.2
+   },
+   {
+    "w": " va",
+    "s": 26.2,
+    "e": 26.36
+   },
+   {
+    "w": " bakteriyalar",
+    "s": 26.36,
+    "e": 26.94
+   },
+   {
+    "w": " shim",
+    "s": 26.94,
+    "e": 27.4
+   },
+   {
+    "w": " matasidan",
+    "s": 27.4,
+    "e": 27.84
+   },
+   {
+    "w": " teishi",
+    "s": 27.84,
+    "e": 28.16
+   },
+   {
+    "w": " botkan",
+    "s": 28.16,
+    "e": 28.44
+   },
+   {
+    "w": " boladi.",
+    "s": 28.44,
+    "e": 28.74
+   }
+  ]
+ },
+ {
+  "start": 28.74,
+  "end": 35.44,
+  "text": " Siz shu qiimdi chay shabusti gogotirgan zahat ingiz, bu mikroskopik parazitlar issiq va yumshak yastik korpangizgi kochi botadi.",
+  "words": [
+   {
+    "w": " Siz",
+    "s": 28.74,
+    "e": 29.36
+   },
+   {
+    "w": " shu",
+    "s": 29.36,
+    "e": 29.68
+   },
+   {
+    "w": " qiimdi",
+    "s": 29.68,
+    "e": 29.96
+   },
+   {
+    "w": " chay",
+    "s": 29.96,
+    "e": 30.18
+   },
+   {
+    "w": " shabusti",
+    "s": 30.18,
+    "e": 30.56
+   },
+   {
+    "w": " gogotirgan",
+    "s": 30.56,
+    "e": 30.98
+   },
+   {
+    "w": " zahat",
+    "s": 30.98,
+    "e": 31.28
+   },
+   {
+    "w": " ingiz,",
+    "s": 31.28,
+    "e": 31.6
+   },
+   {
+    "w": " bu",
+    "s": 31.6,
+    "e": 31.84
+   },
+   {
+    "w": " mikroskopik",
+    "s": 31.84,
+    "e": 32.52
+   },
+   {
+    "w": " parazitlar",
+    "s": 32.52,
+    "e": 32.96
+   },
+   {
+    "w": " issiq",
+    "s": 32.96,
+    "e": 33.56
+   },
+   {
+    "w": " va",
+    "s": 33.56,
+    "e": 33.66
+   },
+   {
+    "w": " yumshak",
+    "s": 33.66,
+    "e": 34.14
+   },
+   {
+    "w": " yastik",
+    "s": 34.14,
+    "e": 34.5
+   },
+   {
+    "w": " korpangizgi",
+    "s": 34.5,
+    "e": 34.96
+   },
+   {
+    "w": " kochi",
+    "s": 34.96,
+    "e": 35.22
+   },
+   {
+    "w": " botadi.",
+    "s": 35.22,
+    "e": 35.44
+   }
+  ]
+ },
+ {
+  "start": 35.6,
+  "end": 39.96,
+  "text": " Kechasi isi, siz ularini oz yuzingiz va tarangiz bilan issiti buxlaysis.",
+  "words": [
+   {
+    "w": " Kechasi",
+    "s": 35.6,
+    "e": 36.32
+   },
+   {
+    "w": " isi,",
+    "s": 36.32,
+    "e": 36.64
+   },
+   {
+    "w": " siz",
+    "s": 36.64,
+    "e": 36.92
+   },
+   {
+    "w": " ularini",
+    "s": 36.92,
+    "e": 37.38
+   },
+   {
+    "w": " oz",
+    "s": 37.38,
+    "e": 37.76
+   },
+   {
+    "w": " yuzingiz",
+    "s": 37.76,
+    "e": 38.34
+   },
+   {
+    "w": " va",
+    "s": 38.34,
+    "e": 38.48
+   },
+   {
+    "w": " tarangiz",
+    "s": 38.48,
+    "e": 38.96
+   },
+   {
+    "w": " bilan",
+    "s": 38.96,
+    "e": 39.18
+   },
+   {
+    "w": " issiti",
+    "s": 39.18,
+    "e": 39.58
+   },
+   {
+    "w": " buxlaysis.",
+    "s": 39.58,
+    "e": 39.96
+   }
+  ]
+ }
+]
