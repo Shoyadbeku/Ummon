@@ -1,0 +1,8 @@
+# reproducible via scripts/fetch_assets.py and scripts/build_scene.py
+assets/
+blend/
+*.blend1
+# 1049 PNG frames (~0.5 GB); the assembled MP4 is committed instead
+renders/final/
+__pycache__/
+logs/render_*.log
