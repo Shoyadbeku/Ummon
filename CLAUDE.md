@@ -388,3 +388,6 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Havodagi tomchi ichidagi bakteriyalar: Transparent + Glossy (Layer Weight Fresnel) + chet emissiyasi — transmission'dagi "qora ichki ob'ekt" muammosi yo'q.
 - Zarrachalar handler bilan yangilanadigan ob'ektda `o.cycles.use_motion_blur = False` qil.
 - 40% (432x768), 8 sample: hammom (HDRI, oyna, 4200 zarracha + hajmli tuman) ~8.5 s/kadr.
+- Chotka: aerozol keng plan kadrlari (xona to'liq + 4200 zarracha + hajmli sharlar) 40%, 8 sample da ~80–100 s/kadr (qolganlari ~10–16 s);
+  `volume_step_rate` va zarracha shaffofligi tezlikka ta'sir qilmadi. Butun 962 kadr ≈ 9 soat. Container qayta ishga tushsa `/tmp/claude-0` saqlanadi:
+  chala (< 2 KB) PNG ni o'chirib, o'sha buyruqni qayta ishga tushir — davom etadi.
