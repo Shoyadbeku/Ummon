@@ -1,0 +1,7 @@
+node_modules/
+out/
+.media_raw/
+# Mixkit media is re-created by ./prepare_media.sh (licence forbids redistribution)
+public/clips/
+public/audio/music.wav
+public/audio/sfx_*.wav

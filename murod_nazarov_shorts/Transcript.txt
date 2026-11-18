@@ -1,0 +1,15 @@
+TRANSKRIPSIYA (Whisper large-v3, qo'lda tuzatilgan, so'z darajasidagi vaqtlar: remotion/src/timeline.ts)
+
+[00.00] Bugun Toshkentda katta binolar qurayotgan Murod Nazarov bir paytlar Yaponiyada tahsil olganini bilarmidingiz?
+[07.02] U 1982-yilda Toshkentda tugʻilgan, 14 yoshida otasidan ayrilgan.
+[12.48] Keyinchalik Toshkent Davlat Sharqshunoslik Institutida tahsil olgan va Yaponiyaning Tsukuba Universitetida ham oʻqigan.
+[18.86] Bugun esa u Murad Buildings kompaniyasi asoschisi sifatida tanilgan.
+[23.34] Uning faoliyati oddiy bir savolni tugʻdiradi:
+[26.02] Katta biznes qurish uchun eng muhimi nima?
+[29.12] Pul mi? Bilim? Yoki tavakkalchilik mi?
+[32.30] Siz qaysi birini tanlaysiz?
+[34.22] (nutq tugaydi)
+
+Ovoz tahlili: davomiyligi 34.51 s; nutq tezligi ~2.3 so'z/s (tez, diktor uslubi); asosiy pauzalar: 6.4-7.0 s, 28.96-29.47 s, 30.64-30.98 s, 32.20-32.66 s.
+Intonatsiya: 0-6 s qiziqish uyg'otuvchi savol; 7-12 s hikoya (12 s atrofida emotsional nuqta - "otasidan ayrilgan"); 12-23 s yuksalish; 23-34 s ritorik savol va sanab o'tish (Pul / Bilim / Tavakkalchilik) -> auditoriyaga savol.
+Eslatma: fayl nomi "Neytron yulduzining aql bovar qilmas og'irligi" bo'lsa-da, audio mazmuni Murod Nazarov haqida. Montaj audio mazmuniga qurildi.
