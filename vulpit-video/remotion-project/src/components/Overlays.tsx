@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, random, Sequence, spring, useCurrentFrame, useVideoConfig} from 'remotion';
-import {COLORS, FONT_SANS, FONT_SERIF, OverlayT, SB, VOICE_LVL} from '../data';
+import {COLORS, FONT_SANS, FONT_SERIF, OverlayT, SB, VOICE_LVL, pick, ty} from '../data';
 import {LightLeak} from './Effects';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -27,7 +27,7 @@ const Impact: React.FC<{o: OverlayT}> = ({o}) => {
   const jx = f < 10 ? (random(`ix${f}`) - 0.5) * 16 : 0;
   const out = useOut(o.dur, 14);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -620}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: pick(-620, -400)}}>
       <div style={{position: 'relative', transform: `translateX(${jx}px) scale(${scale})`, opacity: Math.min(1, sp * 2) * out}}>
         {/* chromatic split ghost */}
         <div style={{position: 'absolute', inset: 0, fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 210, letterSpacing: 6, color: 'rgba(255,60,90,0.35)', transform: `translateX(${(1 - sp) * 18 + 3}px)`}}>{o.text}</div>
@@ -43,7 +43,7 @@ const Counter: React.FC<{o: OverlayT}> = ({o}) => {
   const out = useOut(o.dur);
   const blur = interpolate(f, [0, 32], [6, 0], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -280, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-280), opacity: out}}>
       <div style={{display: 'flex', alignItems: 'baseline', gap: 14, filter: `blur(${blur}px)`}}>
         <span style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 230, color: COLORS.white, textShadow: shadow, fontVariantNumeric: 'tabular-nums'}}>{n}</span>
         <span style={{fontFamily: FONT_SANS, fontWeight: 900, fontSize: 74, color: COLORS.gold, textShadow: shadow}}>{o.suffix}</span>
@@ -62,7 +62,7 @@ const Word: React.FC<{o: OverlayT}> = ({o}) => {
   const {fps} = useVideoConfig();
   const sp = spring({frame: f, fps, config: {damping: 11, stiffness: 190}});
   const out = useOut(o.dur, 8);
-  const y = 150 + (o.pos ?? 0) * 125;
+  const y = pick(150, 70) + (o.pos ?? 0) * pick(125, 112);
   return (
     <div style={{position: 'absolute', left: 0, right: 0, top: y, textAlign: 'center', opacity: Math.min(1, sp * 1.6) * out, transform: `scale(${interpolate(sp, [0, 1], [1.7, 1])})`}}>
       <span style={{fontFamily: FONT_SANS, fontWeight: 900, fontSize: 100, letterSpacing: -1, color: o.color === 'green' ? COLORS.green : COLORS.white, textShadow: o.color === 'green' ? greenGlow(0.8) : shadow}}>{o.text}</span>
@@ -83,7 +83,7 @@ const Title: React.FC<{o: OverlayT}> = ({o}) => {
     WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent',
   };
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', opacity: op, top: -120}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', opacity: op, top: ty(-120)}}>
       <div style={{...textStyle, fontSize: 78, backgroundImage: grad('#f7f4ee'), filter: 'drop-shadow(0 6px 18px rgba(0,0,0,0.9))'}}>{l1}</div>
       <div style={{...textStyle, fontSize: 168, backgroundImage: grad('#8ff5b6'), filter: 'drop-shadow(0 0 30px rgba(108,240,160,0.55)) drop-shadow(0 6px 18px rgba(0,0,0,0.9))'}}>{l2}</div>
       <div style={{...textStyle, fontSize: 92, backgroundImage: grad('#f7f4ee'), filter: 'drop-shadow(0 6px 18px rgba(0,0,0,0.9))'}}>{l3}</div>
@@ -102,7 +102,7 @@ const Title2: React.FC<{o: OverlayT}> = ({o}) => {
   const ls = interpolate(f, [0, o.dur], [0.32, 0.16], clamp);
   const blur = interpolate(f, [0, 18], [14, 0], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -330, opacity: op, filter: `blur(${blur}px)`}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-330), opacity: op, filter: `blur(${blur}px)`}}>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 74, letterSpacing: `${ls * 0.6}em`, color: COLORS.green, textShadow: greenGlow(1.1)}}>{l1}</div>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 700, fontSize: 58, letterSpacing: `${ls}em`, color: COLORS.white, textShadow: shadow}}>{l2}</div>
     </AbsoluteFill>
@@ -114,7 +114,7 @@ const Chapter: React.FC<{o: OverlayT}> = ({o}) => {
   const out = useOut(o.dur, 14);
   const lw = interpolate(f, [0, 22], [0, 90], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
-    <div style={{position: 'absolute', left: 64, top: 128, opacity: out, display: 'flex', alignItems: 'center', gap: 20}}>
+    <div style={{position: 'absolute', left: pick(64, 90), top: pick(128, 60), opacity: out, display: 'flex', alignItems: 'center', gap: 20}}>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 44, color: COLORS.green, textShadow: greenGlow(0.4)}}>{o.num}</div>
       <div style={{width: lw, height: 2, background: COLORS.green}} />
       <MaskReveal delay={8}>
@@ -130,7 +130,7 @@ const Stamp: React.FC<{o: OverlayT}> = ({o}) => {
   const chars = Math.floor(interpolate(f, [0, 16], [0, o.text.length], clamp));
   const caret = f < 40 && Math.floor(f / 6) % 2 === 0;
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -300, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-300), opacity: out}}>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 150, letterSpacing: 18, color: COLORS.white, textShadow: shadow}}>
         {o.text.slice(0, chars)}<span style={{opacity: caret ? 1 : 0, color: COLORS.green}}>|</span>
       </div>
@@ -149,7 +149,7 @@ const Name: React.FC<{o: OverlayT}> = ({o}) => {
   const out = useOut(o.dur, 12);
   const bar = interpolate(f, [0, 14], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
-    <div style={{position: 'absolute', left: 64, top: 1250, opacity: out, display: 'flex', gap: 18}}>
+    <div style={{position: 'absolute', left: pick(64, 90), top: pick(1250, 700), opacity: out, display: 'flex', gap: 18}}>
       <div style={{width: 6, height: 110 * bar, background: `linear-gradient(${COLORS.green}, ${COLORS.greenDeep})`, boxShadow: '0 0 14px rgba(108,240,160,0.7)'}} />
       <div>
         <MaskReveal delay={4}>
@@ -171,7 +171,7 @@ const Dates: React.FC<{o: OverlayT}> = ({o}) => {
   const n2 = Math.round(interpolate(f, [10, 34], [a, b], {...clamp, easing: Easing.out(Easing.cubic)}));
   const lw = interpolate(f, [6, 30], [0, 120], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -320, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-320), opacity: out}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 26, fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 120, color: COLORS.white, textShadow: shadow, fontVariantNumeric: 'tabular-nums'}}>
         <span>{n1}</span>
         <span style={{width: lw, height: 4, background: COLORS.gold, display: 'inline-block'}} />
@@ -190,7 +190,7 @@ const List: React.FC<{o: OverlayT}> = ({o}) => {
   const items = o.text.split('|');
   const out = useOut(o.dur, 10);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -300, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-300), opacity: out}}>
       <div style={{display: 'flex', gap: 34}}>
         {items.map((it, i) => {
           const t = o.times?.[i] ?? i * 10;
@@ -213,7 +213,7 @@ const Quote: React.FC<{o: OverlayT}> = ({o}) => {
   const words = lines.map((l) => l.split(' '));
   let k = 0;
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -330, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-330), opacity: out}}>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 170, lineHeight: 0.6, color: COLORS.green, textShadow: greenGlow(0.6), opacity: interpolate(f, [0, 10], [0, 1], clamp)}}>“</div>
       {words.map((ws, li) => (
         <div key={li} style={{display: 'flex', gap: 22}}>
@@ -236,7 +236,7 @@ const Theory: React.FC<{o: OverlayT}> = ({o}) => {
   const out = useOut(o.dur, 14);
   const box = interpolate(f, [0, 14], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
-    <div style={{position: 'absolute', left: 64, right: 64, top: 160, opacity: out}}>
+    <div style={{position: 'absolute', left: pick(64, 90), right: pick(64, 90), top: pick(160, 70), opacity: out}}>
       <div style={{display: 'inline-block', padding: '8px 18px', background: COLORS.green, color: COLORS.ink, fontFamily: FONT_SANS, fontWeight: 900, fontSize: 30, letterSpacing: 6, transform: `scaleX(${box})`, transformOrigin: 'left'}}>
         NAZARIYA № {o.num}
       </div>
@@ -252,7 +252,7 @@ const Term: React.FC<{o: OverlayT}> = ({o}) => {
   const out = useOut(o.dur, 12);
   const ls = interpolate(f, [0, o.dur], [0.3, 0.18], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -280, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-280), opacity: out}}>
       <MaskReveal len={20}>
         <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 130, letterSpacing: `${ls}em`, color: COLORS.green, textShadow: greenGlow(0.8)}}>{o.text}</div>
       </MaskReveal>
@@ -269,7 +269,7 @@ const Route: React.FC<{o: OverlayT}> = ({o}) => {
   const [a, b] = o.text.split(' → ');
   const p = interpolate(f, [8, 36], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -320, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-320), opacity: out}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 20, fontFamily: FONT_SANS, fontWeight: 900, fontSize: 58, color: COLORS.white, textShadow: shadow}}>
         <MaskReveal>{a}</MaskReveal>
         <svg width="190" height="40" viewBox="0 0 190 40">
@@ -294,7 +294,7 @@ const CTA: React.FC<{o: OverlayT}> = ({o}) => {
   const ring = f >= bellF && f < bellF + 40 ? Math.sin((f - bellF) * 1.3) * 22 * Math.exp(-(f - bellF) / 14) : 0;
   const out = interpolate(f, [o.dur - 30, o.dur], [1, 0], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -300, opacity: out}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: ty(-300), opacity: out}}>
       <div style={{fontFamily: FONT_SERIF, fontWeight: 900, fontSize: 132, color: COLORS.green, textShadow: greenGlow(1), transform: `scale(${interpolate(sp, [0, 1], [0.6, 1])})`, opacity: Math.min(1, sp * 1.5)}}>{o.text}</div>
       <div style={{marginTop: 30, display: 'flex', alignItems: 'center', gap: 24, opacity: f >= bellF - 20 ? Math.min(1, sp2 * 1.4) : 0, transform: `translateY(${(1 - sp2) * 40}px)`}}>
         <div style={{padding: '18px 40px', borderRadius: 18, background: '#E8322E', fontFamily: FONT_SANS, fontWeight: 900, fontSize: 46, color: '#fff', letterSpacing: 2, boxShadow: '0 10px 30px rgba(0,0,0,0.6)'}}>OBUNA BOʻLING</div>

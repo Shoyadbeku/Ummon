@@ -43,3 +43,9 @@ export const FONT_SERIF = 'Cinzel, serif';
 export const BAND_TOP = 270;
 export const BAND_H = 1340;
 export const BAND_CY = BAND_TOP + BAND_H / 2;
+
+/** Runtime layout switch: the same edit renders as 16:9 ("Main") or 9:16 ("Vertical"). Set by <Main/> each render. */
+export const LAYOUT = {landscape: true, W: 1920, H: 1080};
+/** vertical offsets authored for 9:16 -> compressed for 16:9 */
+export const ty = (v: number) => (LAYOUT.landscape ? Math.round(v * 0.45) : v);
+export const pick = <T,>(portrait: T, landscape: T): T => (LAYOUT.landscape ? landscape : portrait);

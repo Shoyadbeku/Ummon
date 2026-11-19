@@ -1,10 +1,10 @@
 # Vulpitning yashil bolalari — cinematic vertikal video (Remotion)
 
-Ovozli hikoya (10:38, o‘zbek tili) va 60 ta rasm asosida Remotion (React + TypeScript) yordamida montaj qilingan, ovozga so‘zma-so‘z sinxronlangan 9:16 hujjatli video.
+Ovozli hikoya (10:38, o‘zbek tili) va 60 ta rasm asosida Remotion (React + TypeScript) yordamida montaj qilingan, ovozga so‘zma-so‘z sinxronlangan hujjatli video. Asosiy format — 16:9 (`Main`), xuddi shu montajning 9:16 varianti ham bor (`Vertical`).
 
 | Parametr | Qiymat |
 |---|---|
-| Format | 1080 × 1920, 9:16, 30 fps |
+| Format | 1920 × 1080, 16:9, 30 fps (`Main`); 1080 × 1920, 9:16 (`Vertical`) |
 | Kodek | H.264 (CRF 20) + AAC 192 kbps, MP4 |
 | Davomiylik | 10:57 (19 724 kadr) = 16.4 s hook/sarlavha + 10:38.6 to‘liq ovoz + 2.5 s yakun |
 
@@ -12,7 +12,8 @@ Ovozli hikoya (10:38, o‘zbek tili) va 60 ta rasm asosida Remotion (React + Typ
 
 ```
 vulpit-video/
-├── final_video.mp4          # yakuniy render (gitda yo‘q, hajmi katta)
+├── final_video.mp4          # yakuniy 16:9 render (gitda yo‘q, hajmi katta)
+├── final_video_9x16.mp4     # 9:16 vertikal varianti (gitda yo‘q)
 ├── storyboard.json          # sahnalar, kadr vaqtlari, overlay-lar, SFX, musiqa rejasi
 ├── transcript.json          # transkript + har bir so‘zning start/end vaqti (forced alignment)
 ├── assets/
@@ -46,7 +47,8 @@ cp /yo‘l/samarqand-...wav public/audio/voice.wav
 ffmpeg -i ../assets/music/original_score.mp3 -ar 44100 public/audio/music.wav
 
 npm run studio      # brauzerda preview
-npm run render      # ../final_video.mp4
+npm run render            # 16:9  -> ../final_video.mp4
+npm run render:vertical   # 9:16  -> ../final_video_9x16.mp4
 npx remotion still Main kadr.jpg --frame=500   # bitta kadrni tekshirish
 ```
 

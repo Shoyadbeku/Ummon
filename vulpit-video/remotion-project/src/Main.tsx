@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {AbsoluteFill, Audio, continueRender, delayRender, interpolate, Sequence, staticFile} from 'remotion';
-import {MUSIC_VOL, SB, SceneT} from './data';
+import {AbsoluteFill, Audio, continueRender, delayRender, interpolate, Sequence, staticFile, useVideoConfig} from 'remotion';
+import {LAYOUT, MUSIC_VOL, SB, SceneT} from './data';
 import {fontsReady} from './fonts';
 import {DipBlack, Scene, TransitionKind} from './components/Scene';
 import {Bookends, Grade, Grain, LightLeak, Particles, Progress} from './components/Effects';
@@ -77,6 +77,10 @@ const AudioLayers: React.FC = () => (
 );
 
 export const Main: React.FC = () => {
+  const {width, height} = useVideoConfig();
+  LAYOUT.landscape = width > height;
+  LAYOUT.W = width;
+  LAYOUT.H = height;
   const [handle] = useState(() => delayRender('fonts'));
   useEffect(() => {
     fontsReady.then(() => continueRender(handle)).catch((e) => {

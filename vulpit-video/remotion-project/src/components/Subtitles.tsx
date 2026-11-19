@@ -1,6 +1,6 @@
 import React from 'react';
 import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
-import {COLORS, FONT_SANS, SUBS, SubPage, VOICE_LVL} from '../data';
+import {COLORS, FONT_SANS, SUBS, SubPage, VOICE_LVL, pick} from '../data';
 
 const findPage = (f: number): SubPage | null => {
   let lo = 0, hi = SUBS.length - 1, ans = -1;
@@ -23,13 +23,13 @@ export const Subtitles: React.FC = () => {
   const page = findPage(f);
   if (!page) return null;
   const big = page.hook;
-  const size = big ? 74 : 60;
+  const size = big ? pick(74, 66) : pick(60, 54);
   const out = interpolate(f, [page.to - 5, page.to], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const lvl = VOICE_LVL[f] ?? 0;
   return (
     <div
       style={{
-        position: 'absolute', left: 50, right: 50, top: big ? 1390 : 1470, display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+        position: 'absolute', left: pick(50, 240), right: pick(50, 240), top: big ? pick(1390, 830) : pick(1470, 880), display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
         alignItems: 'baseline', columnGap: size * 0.36, rowGap: 6, opacity: out, fontFamily: FONT_SANS, fontWeight: 800, fontSize: size,
         lineHeight: 1.18, letterSpacing: -0.5, textAlign: 'center',
       }}

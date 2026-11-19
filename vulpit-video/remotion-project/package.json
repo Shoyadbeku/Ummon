@@ -5,6 +5,7 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "remotion render Main ../final_video.mp4 --codec=h264 --audio-codec=aac --crf=20 --x264-preset=medium --audio-bitrate=192k",
+    "render:vertical": "remotion render Vertical ../final_video_9x16.mp4 --codec=h264 --audio-codec=aac --crf=20 --x264-preset=medium --audio-bitrate=192k",
     "preview": "remotion render Main ../preview.mp4 --codec=h264 --scale=0.5 --crf=28",
     "still": "remotion still Main",
     "typecheck": "tsc --noEmit"

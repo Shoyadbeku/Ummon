@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {BAND_CY, BAND_H, BAND_TOP, SceneT} from '../data';
+import {BAND_CY, BAND_H, BAND_TOP, LAYOUT, SceneT} from '../data';
 
 export type TransitionKind = 'fade' | 'black' | 'white' | 'wipe' | 'cut' | 'none';
 const IMG_RATIO = 2064 / 1152;
@@ -46,13 +46,19 @@ export const Scene: React.FC<{scene: SceneT; dur: number; transition: Transition
   const {fps} = useVideoConfig();
   const cam = camera(scene, frame, dur, fps);
 
-  const h = BAND_H * cam.z;
+  const L = LAYOUT.landscape;
+  const FW = LAYOUT.W, FH = LAYOUT.H;
+  // 16:9: the photograph fills the whole frame; pans/tilts need some headroom, so zoom is floored.
+  const isPan = ['panL', 'panR', 'tiltUp', 'tiltDown'].includes(scene.motion);
+  const z = L ? Math.max(cam.z, isPan ? 1.16 : 1.0) : cam.z;
+  const h = (L ? FH : BAND_H) * z;
   const w = h * IMG_RATIO;
-  // keep the photograph covering the full width of the frame
-  const half = 540 / w;
+  const half = FW / 2 / w;
   const cx = Math.min(1 - half, Math.max(half, cam.x));
-  const left = 540 - cx * w + cam.shakeX;
-  const top = BAND_CY - cam.y * h + cam.shakeY;
+  const halfY = FH / 2 / h;
+  const cy = L ? Math.min(1 - halfY, Math.max(halfY, cam.y)) : cam.y;
+  const left = FW / 2 - cx * w + cam.shakeX;
+  const top = (L ? FH / 2 : BAND_CY) - cy * h + cam.shakeY;
 
   // grading tweaks per motion (story-driven): colour drains, light fades, sun blooms
   let filter = '';
@@ -80,28 +86,39 @@ export const Scene: React.FC<{scene: SceneT; dur: number; transition: Transition
 
   return (
     <AbsoluteFill style={{opacity, clipPath: clip, transform: `scale(${tScale})`, filter: tBlur > 0.3 ? `blur(${tBlur}px)` : undefined}}>
-      <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#05080a'}}>
-        <Img
-          src={staticFile(scene.image.replace('images/', 'bg/'))}
-          style={{position: 'absolute', width: 1080, height: 1920, objectFit: 'cover', transform: `translateX(${bgShift}px) scale(${bgScale})`, filter: filter || undefined}}
-        />
-      </AbsoluteFill>
-      {/* photograph band with feathered (masked) edges */}
-      <div
-        style={{
-          position: 'absolute', left: 0, top: BAND_TOP - 140, width: 1080, height: BAND_H + 280, overflow: 'hidden',
-          WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 16%, black 82%, transparent 100%)',
-          maskImage: 'linear-gradient(to bottom, transparent 0%, black 16%, black 82%, transparent 100%)',
-        }}
-      >
-        <Img
-          src={staticFile(scene.image)}
-          style={{
-            position: 'absolute', left, top: top - (BAND_TOP - 140), width: w, height: h,
-            transform: `rotate(${cam.rot}deg)`, transformOrigin: `${cx * 100}% ${cam.y * 100}%`, filter: filter || undefined,
-          }}
-        />
-      </div>
+      {L ? (
+        <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#05080a'}}>
+          <Img
+            src={staticFile(scene.image)}
+            style={{position: 'absolute', left, top, width: w, height: h, transform: `rotate(${cam.rot}deg) scale(${cam.rot ? 1.04 : 1})`, transformOrigin: `${cx * 100}% ${cy * 100}%`, filter: filter || undefined}}
+          />
+        </AbsoluteFill>
+      ) : (
+        <>
+          <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#05080a'}}>
+            <Img
+              src={staticFile(scene.image.replace('images/', 'bg/'))}
+              style={{position: 'absolute', width: 1080, height: 1920, objectFit: 'cover', transform: `translateX(${bgShift}px) scale(${bgScale})`, filter: filter || undefined}}
+            />
+          </AbsoluteFill>
+          {/* photograph band with feathered (masked) edges */}
+          <div
+            style={{
+              position: 'absolute', left: 0, top: BAND_TOP - 140, width: 1080, height: BAND_H + 280, overflow: 'hidden',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 16%, black 82%, transparent 100%)',
+              maskImage: 'linear-gradient(to bottom, transparent 0%, black 16%, black 82%, transparent 100%)',
+            }}
+          >
+            <Img
+              src={staticFile(scene.image)}
+              style={{
+                position: 'absolute', left, top: top - (BAND_TOP - 140), width: w, height: h,
+                transform: `rotate(${cam.rot}deg)`, transformOrigin: `${cx * 100}% ${cam.y * 100}%`, filter: filter || undefined,
+              }}
+            />
+          </div>
+        </>
+      )}
       {scene.motion === 'flash' ? (
         <AbsoluteFill style={{background: 'radial-gradient(circle at 40% 42%, rgba(255,244,214,1) 0%, rgba(255,214,140,0.6) 35%, rgba(255,200,120,0) 70%)', opacity: interpolate(frame, [0, 6, 40], [0, 1, 0], {extrapolateRight: 'clamp'}), mixBlendMode: 'screen'}} />
       ) : null}
