@@ -4,8 +4,7 @@ import './fonts';
 import {f, FPS, WORDS, DURATION_S} from './data/timing';
 import {C, Clip, Darken, Headline, Particles, Photo, Pill, Shake, WhipIn, clamp, ease} from './components/base';
 import {Counter, Globe, IdCard, NameVs, RiseGraph, TimelineChip, UzMap, VinylCTA} from './components/Graphics';
-import {Captions} from './components/Captions';
-import {Flashes, Grain, LightLeaks, Progress, SplitTone, Vignette} from './components/Overlays';
+import {Flashes, Grain, LightLeaks, SplitTone, Vignette} from './components/Overlays';
 
 /** A scene from a → b seconds. Children get local frames. */
 const S: React.FC<{a: number; b: number; whip?: number; children: (dur: number) => React.ReactNode}> = ({a, b, whip = 1, children}) => {
@@ -319,9 +318,6 @@ const SoundDesign: React.FC = () => (
 );
 
 export const Main: React.FC = () => {
-  const frame = useCurrentFrame();
-  const t = frame / FPS;
-  const capY = t >= 24.28 && t < 28.23 ? 960 : 1270; // sit on the seam during the split screen
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <Visuals />
@@ -330,8 +326,6 @@ export const Main: React.FC = () => {
       <Vignette />
       <Grain />
       <Flashes at={[8.46, 14.5, 22.2, 26.12]} />
-      <Captions y={capY} />
-      <Progress />
       <SoundDesign />
     </AbsoluteFill>
   );

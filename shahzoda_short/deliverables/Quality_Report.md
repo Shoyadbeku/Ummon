@@ -28,7 +28,7 @@
 | 5 | Ovoz va musiqa balansi | ✅ Yuqoridagi oʻlchovlarga qarang. |
 | 6 | Vizual ritm | ✅ Har 0.6–2.6 s da yangi kadr yoki grafika. Eng uzun sahna — split-screen (3.95 s), uning ichida ham 3 ta animatsiya hodisasi bor. |
 | 7 | Takrorlanish | ✅ Yuqoridagi «Klip takrori» bandiga qarang. |
-| 8 | Mobilda oʻqiladimi? | ✅ Subtitr 84 px Montserrat Black, 16 px qora kontur bilan. Markazi y≈1270, ya'ni pastki UI zonasidan yuqorida. |
+| 8 | Mobilda oʻqiladimi? | ✅ Videoga subtitr kuydirilmagan (foydalanuvchi soʻrovi). Subtitrlar alohida `Subtitles.srt` faylida, platformaga yuklasa boʻladi. Yuqoridagi progress bar ham olib tashlangan. |
 | 9 | Hook kuchlimi? | ✅ 0-kadrdan Shahzodaning haqiqiy surati, zoom-slam, shake, impact SFX, «SHAHZODA» sarlavhasi; 1.56 s dan sir saqlangan ID-karta. |
 | 10 | Professional darajami? | Pastdagi cheklovlarga qarang. |
 

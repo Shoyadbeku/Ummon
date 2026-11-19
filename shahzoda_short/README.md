@@ -30,6 +30,6 @@ ffmpeg -i out/Final_Video.mp4 -c:v copy -af "loudnorm=I=-14:TP=-1.0:LRA=9" -c:a 
 - `src/data/timing.ts` — soʻz darajasidagi transkripsiya: matn, vaqt, rang. Subtitrlar va SRT shu yerdan olinadi.
 - `src/Main.tsx` — sahnalar ketma-ketligi, overlay’lar va ovoz dizayni (SFX jadvali, musiqa ducking).
 - `src/components/Graphics.tsx` — ID-karta, Oʻzbekiston xaritasi, globus, hisoblagich, grafik, timeline, split-screen, vinil CTA.
-- `src/components/Captions.tsx` — Hormozi uslubidagi soʻzma-soʻz subtitrlar.
+- `src/components/Captions.tsx` — soʻzma-soʻz subtitr komponenti (hozir videoda ishlatilmaydi; kerak boʻlsa `Main.tsx` ga `<Captions />` qoʻshing).
 - `src/components/Overlays.tsx` — film grain, vignette, light leaks, flash, progress bar.
 - `scripts/make_srt.py` — `Subtitles.srt` generatori.
