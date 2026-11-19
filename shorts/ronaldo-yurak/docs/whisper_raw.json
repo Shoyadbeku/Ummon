@@ -1,0 +1,401 @@
+[
+ {
+  "start": 0.0,
+  "end": 4.4,
+  "text": " RONALDO 15 YAŞIDA FUTBOLNI BUTTUNLAY TASHLASHIGE TOHRI KELISHI MUMKIN EDI.",
+  "words": [
+   {
+    "w": " RONALDO",
+    "s": 0.0,
+    "e": 0.76
+   },
+   {
+    "w": " 15",
+    "s": 0.76,
+    "e": 1.12
+   },
+   {
+    "w": " YAŞIDA",
+    "s": 1.12,
+    "e": 1.7
+   },
+   {
+    "w": " FUTBOLNI",
+    "s": 1.7,
+    "e": 2.2
+   },
+   {
+    "w": " BUTTUNLAY",
+    "s": 2.2,
+    "e": 2.8
+   },
+   {
+    "w": " TASHLASHIGE",
+    "s": 2.8,
+    "e": 3.32
+   },
+   {
+    "w": " TOHRI",
+    "s": 3.32,
+    "e": 3.6
+   },
+   {
+    "w": " KELISHI",
+    "s": 3.6,
+    "e": 3.94
+   },
+   {
+    "w": " MUMKIN",
+    "s": 3.94,
+    "e": 4.24
+   },
+   {
+    "w": " EDI.",
+    "s": 4.24,
+    "e": 4.4
+   }
+  ]
+ },
+ {
+  "start": 4.52,
+  "end": 10.26,
+  "text": " BUGUN MILYONLAB MUKRISLARGI EGE FUTBOLCHI OSMIRLIGIDA YUREK BILAN BAGLIK MOAMANGA DOCH KELGEN.",
+  "words": [
+   {
+    "w": " BUGUN",
+    "s": 4.52,
+    "e": 5.32
+   },
+   {
+    "w": " MILYONLAB",
+    "s": 5.32,
+    "e": 5.98
+   },
+   {
+    "w": " MUKRISLARGI",
+    "s": 5.98,
+    "e": 6.56
+   },
+   {
+    "w": " EGE",
+    "s": 6.56,
+    "e": 6.76
+   },
+   {
+    "w": " FUTBOLCHI",
+    "s": 6.76,
+    "e": 7.34
+   },
+   {
+    "w": " OSMIRLIGIDA",
+    "s": 7.34,
+    "e": 8.26
+   },
+   {
+    "w": " YUREK",
+    "s": 8.26,
+    "e": 8.64
+   },
+   {
+    "w": " BILAN",
+    "s": 8.64,
+    "e": 8.88
+   },
+   {
+    "w": " BAGLIK",
+    "s": 8.88,
+    "e": 9.3
+   },
+   {
+    "w": " MOAMANGA",
+    "s": 9.3,
+    "e": 9.8
+   },
+   {
+    "w": " DOCH",
+    "s": 9.8,
+    "e": 9.94
+   },
+   {
+    "w": " KELGEN.",
+    "s": 9.94,
+    "e": 10.26
+   }
+  ]
+ },
+ {
+  "start": 10.68,
+  "end": 14.2,
+  "text": " SHVAKARLARUNDA YUREKNIN XADDAN TASHKARI TEZ URUSHINA ANIQLASHGEN.",
+  "words": [
+   {
+    "w": " SHVAKARLARUNDA",
+    "s": 10.68,
+    "e": 11.48
+   },
+   {
+    "w": " YUREKNIN",
+    "s": 11.48,
+    "e": 12.24
+   },
+   {
+    "w": " XADDAN",
+    "s": 12.24,
+    "e": 12.64
+   },
+   {
+    "w": " TASHKARI",
+    "s": 12.64,
+    "e": 13.02
+   },
+   {
+    "w": " TEZ",
+    "s": 13.02,
+    "e": 13.4
+   },
+   {
+    "w": " URUSHINA",
+    "s": 13.4,
+    "e": 13.72
+   },
+   {
+    "w": " ANIQLASHGEN.",
+    "s": 13.72,
+    "e": 14.2
+   }
+  ]
+ },
+ {
+  "start": 14.8,
+  "end": 18.16,
+  "text": " U MUALACADAN ODKEN VA KOPOTMA YANA MASHGULATLARGI XAYTGEN.",
+  "words": [
+   {
+    "w": " U",
+    "s": 14.419999999999998,
+    "e": 14.82
+   },
+   {
+    "w": " MUALACADAN",
+    "s": 14.82,
+    "e": 15.6
+   },
+   {
+    "w": " ODKEN",
+    "s": 15.6,
+    "e": 15.9
+   },
+   {
+    "w": " VA",
+    "s": 15.9,
+    "e": 16.12
+   },
+   {
+    "w": " KOPOTMA",
+    "s": 16.12,
+    "e": 16.72
+   },
+   {
+    "w": " YANA",
+    "s": 16.72,
+    "e": 17.06
+   },
+   {
+    "w": " MASHGULATLARGI",
+    "s": 17.06,
+    "e": 17.74
+   },
+   {
+    "w": " XAYTGEN.",
+    "s": 17.74,
+    "e": 18.16
+   }
+  ]
+ },
+ {
+  "start": 18.5,
+  "end": 24.3,
+  "text": " KEYNCHALIK MANCHESTER UNITED, REAL MADRID VA PORTUGALIA TERMA CEMASI BILAN TARIXI YUTUKLARGI ERISHGEN.",
+  "words": [
+   {
+    "w": " KEYNCHALIK",
+    "s": 18.5,
+    "e": 19.3
+   },
+   {
+    "w": " MANCHESTER",
+    "s": 19.3,
+    "e": 19.86
+   },
+   {
+    "w": " UNITED,",
+    "s": 19.86,
+    "e": 20.4
+   },
+   {
+    "w": " REAL",
+    "s": 20.44,
+    "e": 20.8
+   },
+   {
+    "w": " MADRID",
+    "s": 20.8,
+    "e": 21.32
+   },
+   {
+    "w": " VA",
+    "s": 21.32,
+    "e": 21.42
+   },
+   {
+    "w": " PORTUGALIA",
+    "s": 21.42,
+    "e": 22.0
+   },
+   {
+    "w": " TERMA",
+    "s": 22.0,
+    "e": 22.22
+   },
+   {
+    "w": " CEMASI",
+    "s": 22.22,
+    "e": 22.58
+   },
+   {
+    "w": " BILAN",
+    "s": 22.58,
+    "e": 22.82
+   },
+   {
+    "w": " TARIXI",
+    "s": 22.82,
+    "e": 23.4
+   },
+   {
+    "w": " YUTUKLARGI",
+    "s": 23.4,
+    "e": 23.9
+   },
+   {
+    "w": " ERISHGEN.",
+    "s": 23.9,
+    "e": 24.3
+   }
+  ]
+ },
+ {
+  "start": 24.3,
+  "end": 31.28,
+  "text": " EYN KHIZIGI, BIR PAYITLAR SAGLIGI XAVATUR UYGATKEN BOLA FUTBOL TARIXIDAGI EYN MASHGUR SPORCHILARDAN BIRI GAYLANDI.",
+  "words": [
+   {
+    "w": " EYN",
+    "s": 24.3,
+    "e": 24.94
+   },
+   {
+    "w": " KHIZIGI,",
+    "s": 24.94,
+    "e": 25.28
+   },
+   {
+    "w": " BIR",
+    "s": 25.34,
+    "e": 25.76
+   },
+   {
+    "w": " PAYITLAR",
+    "s": 25.76,
+    "e": 26.18
+   },
+   {
+    "w": " SAGLIGI",
+    "s": 26.18,
+    "e": 26.66
+   },
+   {
+    "w": " XAVATUR",
+    "s": 26.66,
+    "e": 27.14
+   },
+   {
+    "w": " UYGATKEN",
+    "s": 27.14,
+    "e": 27.56
+   },
+   {
+    "w": " BOLA",
+    "s": 27.56,
+    "e": 27.84
+   },
+   {
+    "w": " FUTBOL",
+    "s": 27.84,
+    "e": 28.6
+   },
+   {
+    "w": " TARIXIDAGI",
+    "s": 28.6,
+    "e": 29.1
+   },
+   {
+    "w": " EYN",
+    "s": 29.1,
+    "e": 29.5
+   },
+   {
+    "w": " MASHGUR",
+    "s": 29.5,
+    "e": 30.0
+   },
+   {
+    "w": " SPORCHILARDAN",
+    "s": 30.0,
+    "e": 30.66
+   },
+   {
+    "w": " BIRI",
+    "s": 30.66,
+    "e": 30.92
+   },
+   {
+    "w": " GAYLANDI.",
+    "s": 30.92,
+    "e": 31.28
+   }
+  ]
+ },
+ {
+  "start": 31.46,
+  "end": 34.56,
+  "text": " SIZINCYA RONALDO KUCHLIMI YOKI MESSI.",
+  "words": [
+   {
+    "w": " SIZINCYA",
+    "s": 31.46,
+    "e": 32.3
+   },
+   {
+    "w": " RONALDO",
+    "s": 32.3,
+    "e": 33.02
+   },
+   {
+    "w": " KUCHLIMI",
+    "s": 33.02,
+    "e": 33.36
+   },
+   {
+    "w": " YOKI",
+    "s": 33.36,
+    "e": 34.06
+   },
+   {
+    "w": " MESSI.",
+    "s": 34.06,
+    "e": 34.56
+   }
+  ]
+ }
+]

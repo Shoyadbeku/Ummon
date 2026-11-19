@@ -1,0 +1,29 @@
+{
+  "name": "ronaldo-yurak-short",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Main out/Final_Video.mp4 --codec h264 --audio-codec aac --crf 16"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.1.0",
+    "@fontsource/montserrat": "^5.1.0",
+    "@remotion/cli": "4.0.538",
+    "@remotion/noise": "4.0.538",
+    "@remotion/paths": "4.0.538",
+    "@remotion/shapes": "4.0.538",
+    "@types/d3-geo": "^3.1.0",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.538",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
