@@ -1,0 +1,6 @@
+node_modules/
+out/
+# Stock media is re-downloadable with `npm run fetch-media` (see MEDIA_SOURCES.md)
+public/media/video/
+public/media/music/
+public/media/sfx/
