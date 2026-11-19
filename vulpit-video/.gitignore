@@ -1,0 +1,6 @@
+# large / user-private media (see README)
+remotion-project/node_modules/
+remotion-project/public/audio/*.wav
+*.mp4
+!final_video_preview.mp4
+build/

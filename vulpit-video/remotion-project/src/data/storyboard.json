@@ -1,0 +1,2071 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 19724,
+ "hookFrames": 491,
+ "titleStart": 395,
+ "mainAudioOffsetFrames": 491,
+ "voice": "audio/voice.wav",
+ "music": "audio/music.wav",
+ "hookClips": [
+  {
+   "fromSec": 38.8,
+   "toSec": 41.55,
+   "atFrame": 8
+  },
+  {
+   "fromSec": 53.95,
+   "toSec": 63.45,
+   "atFrame": 104
+  }
+ ],
+ "dramaturgy": {
+  "HOOK": [
+   0,
+   395
+  ],
+  "TITLE": [
+   395,
+   491
+  ],
+  "INTRIGUE": [
+   491,
+   2408
+  ],
+  "STORY_DEVELOPMENT": [
+   2408,
+   10001
+  ],
+  "THEORIES/TENSION": [
+   10001,
+   15911
+  ],
+  "EMOTIONAL_PEAK": [
+   15911,
+   18401
+  ],
+  "PAYOFF": [
+   18401,
+   19025
+  ],
+  "CINEMATIC_ENDING": [
+   19025,
+   19724
+  ]
+ },
+ "scenes": [
+  {
+   "id": "H1",
+   "from": 0,
+   "to": 104,
+   "image": "images/08_ot_kabi_yashil_teri.jpg",
+   "motion": "slam",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.45,
+   "z1": 1.0,
+   "note": "HOOK: yashil teri, keskin ochilish"
+  },
+  {
+   "id": "H2",
+   "from": 104,
+   "to": 192,
+   "image": "images/10_800_yillik_sir.jpg",
+   "motion": "pushIn",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.25,
+   "note": "800 yil"
+  },
+  {
+   "id": "H3",
+   "from": 192,
+   "to": 395,
+   "image": "images/06_galati_matoli_kiyimlar.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 0.9,
+   "z1": 1.1,
+   "note": "Kim? Qayerdan? Nega?"
+  },
+  {
+   "id": "TITLE",
+   "from": 395,
+   "to": 491,
+   "image": "images/60_outro_sirli_ufq.jpg",
+   "motion": "pullOut",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.25,
+   "z1": 1.05,
+   "note": "Sarlavha"
+  },
+  {
+   "id": "S01",
+   "from": 491,
+   "to": 647,
+   "audioStart": 0.0,
+   "audioEnd": 5.19,
+   "image": "images/01_vulpit_qishlogi_12_asr.jpg",
+   "motion": "pushIn",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.16,
+   "note": "Ochilish: XII asr qishlog'i, tuman ichida",
+   "narration": "O'n ikkinchi asr. Angliyaning sharqidagi Vulpit qishlog'i."
+  },
+  {
+   "id": "S02",
+   "from": 647,
+   "to": 773,
+   "audioStart": 5.19,
+   "audioEnd": 9.41,
+   "image": "images/02_bugdoy_orim_mavsumi.jpg",
+   "motion": "panR",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.08,
+   "z1": 1.12,
+   "note": "O'roq mavsumi",
+   "narration": "O'roq mavsumi edi. Dehqonlar dalada bug'doy o'rib yurishardi."
+  },
+  {
+   "id": "S03",
+   "from": 773,
+   "to": 961,
+   "audioStart": 9.41,
+   "audioEnd": 15.68,
+   "image": "images/03_bori_oralari.jpg",
+   "motion": "pushIn",
+   "fx": 0.45,
+   "fy": 0.62,
+   "z0": 1.0,
+   "z1": 1.25,
+   "note": "Bo'ri o'ralari — qorong'i chuqurlikka kirib borish",
+   "narration": "Qishloq chekkasida qadimdan bo'rilarni tutish uchun qazilgan chuqur o'ralar bor edi."
+  },
+  {
+   "id": "S04",
+   "from": 961,
+   "to": 1093,
+   "audioStart": 15.68,
+   "audioEnd": 20.08,
+   "image": "images/04_dehqonlar_hayrati.jpg",
+   "motion": "tiltDown",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.12,
+   "z1": 1.05,
+   "note": "Dehqonlar to'xtab qoladi",
+   "narration": "Shu o'ralardan biri yonida dehqonlar ikkita bolani ko'rib qolishdi."
+  },
+  {
+   "id": "S05",
+   "from": 1093,
+   "to": 1336,
+   "audioStart": 20.08,
+   "audioEnd": 28.18,
+   "image": "images/05_qol_ushlashgan_ikki_bola.jpg",
+   "motion": "pushIn",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.3,
+   "note": "Qo'l ushlashgan ikki bola — sekin yaqinlashuv",
+   "narration": "Bir o'g'il va bir qiz. Ular bir-birining qo'lini mahkam ushlab, qo'rquv bilan atrofga qarab turishardi."
+  },
+  {
+   "id": "S06",
+   "from": 1336,
+   "to": 1467,
+   "audioStart": 28.18,
+   "audioEnd": 32.55,
+   "image": "images/06_galati_matoli_kiyimlar.jpg",
+   "motion": "panL",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 0.92,
+   "z1": 0.98,
+   "note": "G'alati kiyimlar (yuzlar ko'rinadi)",
+   "narration": "Ularning kiyimlari g'alati, hech kim ko'rmagan matodan tikilgan edi."
+  },
+  {
+   "id": "S07",
+   "from": 1467,
+   "to": 1555,
+   "audioStart": 32.55,
+   "audioEnd": 35.47,
+   "image": "images/07_tushunarsiz_tilda_sozlash.jpg",
+   "motion": "drift",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Tushunarsiz til",
+   "narration": "Ular tushunarsiz tilda gapirishardi."
+  },
+  {
+   "id": "S08",
+   "from": 1555,
+   "to": 1657,
+   "audioStart": 35.47,
+   "audioEnd": 38.87,
+   "image": "images/09_dahshatga_tushgan_dehqonlar.jpg",
+   "motion": "shake",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.15,
+   "note": "Dahshat",
+   "narration": "Ammo dehqonlarni dahshatga solgan narsa boshqa edi."
+  },
+  {
+   "id": "S09",
+   "from": 1657,
+   "to": 1969,
+   "audioStart": 38.87,
+   "audioEnd": 49.25,
+   "image": "images/08_ot_kabi_yashil_teri.jpg",
+   "motion": "slam",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.35,
+   "z1": 0.95,
+   "note": "YASHIL TERI — hissiy zarba",
+   "narration": "Bu bolalarning terisi yashil edi. Kasallikdan oqargan emas, kuyukdan qoraygan emas, butunlay boshdan-oyoq o't kabi yashil."
+  },
+  {
+   "id": "S10",
+   "from": 1969,
+   "to": 2192,
+   "audioStart": 49.25,
+   "audioEnd": 56.72,
+   "image": "images/10_800_yillik_sir.jpg",
+   "motion": "pushIn",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "800 yillik sir",
+   "narration": "Bu tarixda «Vulpitning yashil bolalari» deb nomlangan voqea. Sakkiz yuz yildan ko'proq vaqt o'tdi."
+  },
+  {
+   "id": "S11",
+   "from": 2192,
+   "to": 2402,
+   "audioStart": 56.72,
+   "audioEnd": 63.7,
+   "image": "images/05_qol_ushlashgan_ikki_bola.jpg",
+   "motion": "pullOut",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.35,
+   "z1": 1.05,
+   "note": "Kim? Qayerdan? Nega yashil?",
+   "narration": "Ammo bu bolalar kim bo'lgani, qayerdan kelgani va nega yashil ekani haligacha jumboq bo'lib qolmoqda."
+  },
+  {
+   "id": "S12",
+   "from": 2402,
+   "to": 2656,
+   "audioStart": 63.7,
+   "audioEnd": 72.18,
+   "image": "images/54_rivoyat_yoki_tarixiy_fakt.jpg",
+   "motion": "panR",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.1,
+   "note": "Ertak emas — solnomalar",
+   "narration": "Bu oddiy qishloq ertagi emas. Bu voqeani o'sha davrning ikki jiddiy tarixchisi bir-biridan mustaqil holda yozib qoldirgan."
+  },
+  {
+   "id": "S13",
+   "from": 2656,
+   "to": 2854,
+   "audioStart": 72.18,
+   "audioEnd": 78.77,
+   "image": "images/11_nyuberglik_uilyam.jpg",
+   "motion": "pushIn",
+   "fx": 0.55,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.18,
+   "note": "Nyuberglik Uilyam",
+   "narration": "Biri — Nyuberglik Uilyam ismli rohib. U o'z davrining eng ishonchli tarixchilaridan biri hisoblanadi."
+  },
+  {
+   "id": "S14",
+   "from": 2854,
+   "to": 2967,
+   "audioStart": 78.77,
+   "audioEnd": 82.55,
+   "image": "images/12_koggeshollik_ralf.jpg",
+   "motion": "panL",
+   "fx": 0.72,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.1,
+   "note": "Koggeshollik Ralf",
+   "narration": "Ikkinchisi — Koggeshollik Ralf, abbatlik boshlig'i."
+  },
+  {
+   "id": "S15",
+   "from": 2967,
+   "to": 3146,
+   "audioStart": 82.55,
+   "audioEnd": 88.51,
+   "image": "images/13_guvohdan_eshitilgan_voqea.jpg",
+   "motion": "drift",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.1,
+   "note": "Guvohdan eshitilgan",
+   "narration": "U bu voqeani hatto yashil qizni o'z uyida ishga olgan odamning og'zidan eshitganini yozgan."
+  },
+  {
+   "id": "S16",
+   "from": 3146,
+   "to": 3436,
+   "audioStart": 88.51,
+   "audioEnd": 98.15,
+   "image": "images/14_qirol_stiven_davri.jpg",
+   "motion": "tiltUp",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.15,
+   "z1": 1.02,
+   "note": "Qirol Stiven davri",
+   "narration": "Ikkalasi ham voqeani qirol Stiven hukmronligi davriga, ya'ni 1135 va 1154- yillar oralig'iga bog'lashadi."
+  },
+  {
+   "id": "S17",
+   "from": 3436,
+   "to": 3573,
+   "audioStart": 98.15,
+   "audioEnd": 102.73,
+   "image": "images/15_uilyamning_shubhasi.jpg",
+   "motion": "pushIn",
+   "fx": 0.62,
+   "fy": 0.4,
+   "z0": 1.0,
+   "z1": 1.22,
+   "note": "Uilyamning shubhasi",
+   "narration": "Uilyam o'zi ham bu hikoyaga dastlab ishonmaganini, ammo shunchalik ko'p ishonchli guvohlar borligi uchun uni yozishga majbur bo'lganini tan olgan."
+  },
+  {
+   "id": "S18",
+   "from": 3573,
+   "to": 3722,
+   "audioStart": 102.73,
+   "audioEnd": 107.72,
+   "image": "images/16_ishonchli_guvohlar.jpg",
+   "motion": "panR",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.1,
+   "note": "Ishonchli guvohlar",
+   "narration": ""
+  },
+  {
+   "id": "S19",
+   "from": 3722,
+   "to": 3874,
+   "audioStart": 107.72,
+   "audioEnd": 112.78,
+   "image": "images/17_bolalarni_qishloqqa_olib_kelish.jpg",
+   "motion": "pushIn",
+   "fx": 0.55,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Bolalarni qishloqqa olib kelish",
+   "narration": "Endi voqeaning davomiga qaytamiz. Dehqonlar bolalarni qishloqqa olib kelishdi."
+  },
+  {
+   "id": "S20",
+   "from": 3874,
+   "to": 3963,
+   "audioStart": 112.78,
+   "audioEnd": 115.74,
+   "image": "images/18_butun_qishloq_yigilishi.jpg",
+   "motion": "pullOut",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.25,
+   "z1": 1.0,
+   "note": "Butun qishloq yig'ildi",
+   "narration": "Ularni ko'rish uchun butun qishloq yig'ildi."
+  },
+  {
+   "id": "S21",
+   "from": 3963,
+   "to": 4119,
+   "audioStart": 115.74,
+   "audioEnd": 120.94,
+   "image": "images/19_ser_richard_uyi.jpg",
+   "motion": "tiltDown",
+   "fx": 0.4,
+   "fy": 0.45,
+   "z0": 1.12,
+   "z1": 1.04,
+   "note": "Ser Richard uyi",
+   "narration": "Keyin bolalarni mahalliy zodagon ser Richard de Kalnening uyiga olib borishdi."
+  },
+  {
+   "id": "S22",
+   "from": 4119,
+   "to": 4274,
+   "audioStart": 120.94,
+   "audioEnd": 126.1,
+   "image": "images/20_non_gosht_sut_dasturxoni.jpg",
+   "motion": "panR",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Non, go'sht, sut",
+   "narration": "Ser Richard ularga ovqat berishni buyurdi. Non, go'sht, sut."
+  },
+  {
+   "id": "S23",
+   "from": 4274,
+   "to": 4426,
+   "audioStart": 126.1,
+   "audioEnd": 131.18,
+   "image": "images/21_ovqatdan_bosh_tortib_yiglash.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 0.92,
+   "z1": 1.08,
+   "note": "Yig'layotgan bolalar",
+   "narration": "Ammo bolalar hech narsani yemadi. Ular ovqatga qarab yig'lashardi."
+  },
+  {
+   "id": "S24",
+   "from": 4426,
+   "to": 4596,
+   "audioStart": 131.18,
+   "audioEnd": 136.82,
+   "image": "images/22_ochlikdan_holsizlanish.jpg",
+   "motion": "pushIn",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Ochlikdan holsizlanish",
+   "narration": "Bir kun o'tdi. Ikki kun o'tdi. Ular ochlikdan holsizlana boshladi."
+  },
+  {
+   "id": "S25",
+   "from": 4596,
+   "to": 4738,
+   "audioStart": 136.82,
+   "audioEnd": 141.57,
+   "image": "images/23_dukkakli_loviya_poyalari.jpg",
+   "motion": "panL",
+   "fx": 0.58,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.1,
+   "note": "Loviya poyalari",
+   "narration": "Shunda kimdir uyga yangi uzilgan dukkakli loviya poyalarini olib kirdi."
+  },
+  {
+   "id": "S26",
+   "from": 4738,
+   "to": 4929,
+   "audioStart": 141.57,
+   "audioEnd": 147.93,
+   "image": "images/24_loviyani_korib_jonlanish.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 0.95,
+   "z1": 1.12,
+   "note": "Jonlanish",
+   "narration": "Bolalar ularni ko'rib, birdan jonlanib ketishdi. Ular imo-ishoralar bilan loviyani so'rashdi."
+  },
+  {
+   "id": "S27",
+   "from": 4929,
+   "to": 5226,
+   "audioStart": 147.93,
+   "audioEnd": 157.82,
+   "image": "images/25_loviya_poyasini_yorish.jpg",
+   "motion": "panR",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.05,
+   "z1": 1.15,
+   "note": "Poyani yorish",
+   "narration": "Ammo qiziq tomoni shundaki, ular loviyani poyasini yorib, ichidan qidirishdi. Ular loviya dukkaklari ichida ekanini bilishmasdi."
+  },
+  {
+   "id": "S28",
+   "from": 5226,
+   "to": 5414,
+   "audioStart": 157.82,
+   "audioEnd": 164.1,
+   "image": "images/26_xom_loviya_yeyish.jpg",
+   "motion": "pushIn",
+   "fx": 0.4,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.25,
+   "note": "Xom loviya",
+   "narration": "Kimdir ularga dukkakni ochib ko'rsatdi. Bolalar xom loviyani ochko'zlik bilan yeya boshlashdi."
+  },
+  {
+   "id": "S29",
+   "from": 5414,
+   "to": 5583,
+   "audioStart": 164.1,
+   "audioEnd": 169.75,
+   "image": "images/27_oylar_davomida_faqat_loviya.jpg",
+   "motion": "drift",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.15,
+   "note": "Oylar davomida loviya",
+   "narration": "keyingi bir necha oy davomida ular faqat loviya yeb yashashdi."
+  },
+  {
+   "id": "S30",
+   "from": 5583,
+   "to": 5714,
+   "audioStart": 169.75,
+   "audioEnd": 174.11,
+   "image": "images/28_boshqa_ovqatlarga_organish.jpg",
+   "motion": "panR",
+   "fx": 0.35,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.1,
+   "note": "Boshqa ovqatlarga o'rganish",
+   "narration": "Vaqt o'tishi bilan bolalar boshqa ovqatlarga ham o'rgana boshlashdi."
+  },
+  {
+   "id": "S31",
+   "from": 5714,
+   "to": 6106,
+   "audioStart": 174.11,
+   "audioEnd": 187.16,
+   "image": "images/29_yashil_rang_yoqolishi.jpg",
+   "motion": "desat",
+   "fx": 0.55,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Yashil rang so'nmoqda",
+   "narration": "Va shu bilan birga ajablanarli narsa yuz berdi. Ularning terisidagi yashil rang asta-sekin yo'qola boshladi. Bir necha oy ichida ular boshqa bolalardan deyarli farq qilmay qoldi."
+  },
+  {
+   "id": "S32",
+   "from": 6106,
+   "to": 6243,
+   "audioStart": 187.16,
+   "audioEnd": 191.74,
+   "image": "images/31_ogil_bolaning_vafoti.jpg",
+   "motion": "pushIn",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Kasal o'g'il",
+   "narration": "Ammo o'g'il bola doim kasal va holsiz edi."
+  },
+  {
+   "id": "S33",
+   "from": 6243,
+   "to": 6370,
+   "audioStart": 191.74,
+   "audioEnd": 195.97,
+   "image": "images/30_suvga_chomdirish_marosimi.jpg",
+   "motion": "tiltUp",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.1,
+   "z1": 1.02,
+   "note": "Suvga cho'mdirish",
+   "narration": "Bolalar suvga cho'mdirilib, xristian diniga kiritilgandan ko'p o'tmay, o'g'il vafot etdi."
+  },
+  {
+   "id": "S34",
+   "from": 6370,
+   "to": 6437,
+   "audioStart": 195.97,
+   "audioEnd": 198.21,
+   "image": "images/31_ogil_bolaning_vafoti.jpg",
+   "motion": "dim",
+   "fx": 0.3,
+   "fy": 0.55,
+   "z0": 1.25,
+   "z1": 1.35,
+   "note": "O'g'il vafot etdi — qorong'ilashuv",
+   "narration": ""
+  },
+  {
+   "id": "S35",
+   "from": 6437,
+   "to": 6567,
+   "audioStart": 198.21,
+   "audioEnd": 202.55,
+   "image": "images/32_qizning_soglom_ulgayishi.jpg",
+   "motion": "pullOut",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.2,
+   "z1": 1.0,
+   "note": "Qiz omon qoldi",
+   "narration": "Qiz esa omon qoldi. U sog'lom va kuchli bo'lib ulg'aydi."
+  },
+  {
+   "id": "S36",
+   "from": 6567,
+   "to": 7021,
+   "audioStart": 202.55,
+   "audioEnd": 217.66,
+   "image": "images/33_ingliz_tilida_hikoya_qilish.jpg",
+   "motion": "pushIn",
+   "fx": 0.75,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.25,
+   "note": "Qiz hikoya qiladi",
+   "narration": "Eng muhimi, u ingliz tilini o'rgandi. Va bir kun kelib, odamlar undan nihoyat eng katta savolni so'rashdi: «Sen kimsan va qayerdan kelding?» Uning javobi hammani hayratga soldi."
+  },
+  {
+   "id": "S37",
+   "from": 7021,
+   "to": 7184,
+   "audioStart": 217.66,
+   "audioEnd": 223.08,
+   "image": "images/34_avliyo_martin_yurti_shom.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.18,
+   "note": "Avliyo Martin yurti",
+   "narration": "Qizning aytishicha, ular «Avliyo Martin yurti» deb atalgan joydan kelishgan."
+  },
+  {
+   "id": "S38",
+   "from": 7184,
+   "to": 7303,
+   "audioStart": 223.08,
+   "audioEnd": 227.07,
+   "image": "images/35_yashil_odamlar_yurti.jpg",
+   "motion": "panR",
+   "fx": 0.4,
+   "fy": 0.55,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Yashil odamlar",
+   "narration": "U yerda yashaydigan hamma odamlar yashil rangda edi."
+  },
+  {
+   "id": "S39",
+   "from": 7303,
+   "to": 7556,
+   "audioStart": 227.07,
+   "audioEnd": 235.51,
+   "image": "images/34_avliyo_martin_yurti_shom.jpg",
+   "motion": "panL",
+   "fx": 0.62,
+   "fy": 0.45,
+   "z0": 1.12,
+   "z1": 1.2,
+   "note": "Quyosh chiqmaydigan yurt",
+   "narration": "Eng g'alatisi, u yerda quyosh hech qachon chiqmagan. Doimiy shom, abadiy ala-qorong'ilik hukm surgan."
+  },
+  {
+   "id": "S40",
+   "from": 7556,
+   "to": 7731,
+   "audioStart": 235.51,
+   "audioEnd": 241.32,
+   "image": "images/35_yashil_odamlar_yurti.jpg",
+   "motion": "pullOut",
+   "fx": 0.55,
+   "fy": 0.4,
+   "z0": 1.3,
+   "z1": 1.05,
+   "note": "G'ira-shira yorug'lik",
+   "narration": "Xuddi quyosh botgandan keyingi yoki chiqishidan oldingi g'ira-shira yorug'likdek."
+  },
+  {
+   "id": "S41",
+   "from": 7731,
+   "to": 8018,
+   "audioStart": 241.32,
+   "audioEnd": 250.9,
+   "image": "images/36_daryo_narigi_tomonidagi_yorug_yurt.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Daryo narigi yorug' yurt",
+   "narration": "Qizning so'zlariga ko'ra, daryoning narigi tomonida yorug' bir mamlakat ko'rinib turardi. Ammo ular u yerga hech qachon borishmagan."
+  },
+  {
+   "id": "S42",
+   "from": 8018,
+   "to": 8402,
+   "audioStart": 250.9,
+   "audioEnd": 263.69,
+   "image": "images/37_poda_va_qongiroq_ovozi.jpg",
+   "motion": "panR",
+   "fx": 0.35,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Poda va qo'ng'iroq",
+   "narration": "Ular qanday qilib Vulpitga kelib qolishgan? Qizning hikoyasi ikki xil yozib qoldirilgan. Bir versiyaga ko'ra, ular otalarining podasini boqib yurganda, qo'ng'iroqlarning go'zal ovozini eshitishgan."
+  },
+  {
+   "id": "S43",
+   "from": 8402,
+   "to": 8624,
+   "audioStart": 263.69,
+   "audioEnd": 271.09,
+   "image": "images/38_qorongi_gorga_kirish.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.35,
+   "note": "Qorong'i g'or",
+   "narration": "Ovozga ergashib, ular uzun, qorong'i g'orga kirib qolishgan. G'or ichida qancha yurishganini bilishmagan."
+  },
+  {
+   "id": "S44",
+   "from": 8624,
+   "to": 9057,
+   "audioStart": 271.09,
+   "audioEnd": 285.52,
+   "image": "images/39_quyosh_nuridan_hushdan_ketish.jpg",
+   "motion": "flash",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.25,
+   "z1": 1.0,
+   "note": "Ko'zni qamashtiruvchi quyosh",
+   "narration": "Va birdan ular o'zlarini ko'zni qamashtiruvchi yorug' quyosh nuri ostida, o'sha bo'ri o'ralari yonida topishgan. Yorug'lik va issiqlik ularni shunchalik hayratga solganki, ular hushidan ketib yerga yiqilishgan."
+  },
+  {
+   "id": "S45",
+   "from": 9057,
+   "to": 9210,
+   "audioStart": 285.52,
+   "audioEnd": 290.64,
+   "image": "images/38_qorongi_gorga_kirish.jpg",
+   "motion": "pullOut",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.3,
+   "z1": 1.05,
+   "note": "Qaytish yo'li yo'q",
+   "narration": "Ular qaytish yo'lini qidirishgan, ammo g'or kirishini topa olmagan."
+  },
+  {
+   "id": "S46",
+   "from": 9210,
+   "to": 9481,
+   "audioStart": 290.64,
+   "audioEnd": 299.68,
+   "image": "images/32_qizning_soglom_ulgayishi.jpg",
+   "motion": "panL",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.1,
+   "z1": 1.18,
+   "note": "Xizmatkor qiz — Agnes",
+   "narration": "Qiz keyinchalik ser Richardning uyida xizmatkor bo'lib, uzoq yillar ishladi. Uning ismi Agnes bo'lgan, deyishadi."
+  },
+  {
+   "id": "S47",
+   "from": 9481,
+   "to": 9661,
+   "audioStart": 299.68,
+   "audioEnd": 305.66,
+   "image": "images/40_agnes_va_turmush_hayoti.jpg",
+   "motion": "pushIn",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Turmush",
+   "narration": "Koggeshollik Ralfning yozishicha, u keyinchalik qo'shni shahardagi bir erkakka turmushga chiqqan."
+  },
+  {
+   "id": "S48",
+   "from": 9661,
+   "to": 10001,
+   "audioStart": 305.66,
+   "audioEnd": 316.99,
+   "image": "images/18_butun_qishloq_yigilishi.jpg",
+   "motion": "panR",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.1,
+   "z1": 1.15,
+   "note": "Avlodlar",
+   "narration": "Ba'zi tadqiqotchilar hatto bugungi kunda Angliyada yashayotgan ba'zi oilalar uning avlodlari bo'lishi mumkin, deb taxmin qilishadi. Ammo bu isbotlanmagan."
+  },
+  {
+   "id": "S49",
+   "from": 10001,
+   "to": 10329,
+   "audioStart": 316.99,
+   "audioEnd": 327.95,
+   "image": "images/41_olimlar_tadqiqoti.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.18,
+   "note": "Olimlar izlanishi",
+   "narration": "Xo'sh, bu voqea aslida nima edi? Asrlar davomida olimlar, tarixchilar va sir izlovchilar bu savolga javob topishga harakat qilishdi."
+  },
+  {
+   "id": "S50",
+   "from": 10329,
+   "to": 10793,
+   "audioStart": 327.95,
+   "audioEnd": 343.39,
+   "image": "images/42_xloroz_yashil_kasallik.jpg",
+   "motion": "panR",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Xloroz",
+   "narration": "Birinchi va eng ilmiy tushuntirish kasallik bilan bog'liq. Tibbiyotda xloroz deb ataladigan kasallik bor. Uni ba'zan «yashil kasallik» ham deyishadi. Bu og'ir to'yib ovqatlanmaslik natijasida kelib chiqadigan kamqonlikning bir turi."
+  },
+  {
+   "id": "S51",
+   "from": 10793,
+   "to": 11214,
+   "audioStart": 343.39,
+   "audioEnd": 357.44,
+   "image": "images/29_yashil_rang_yoqolishi.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.15,
+   "z1": 1.35,
+   "note": "Och-yashil tus",
+   "narration": "U terini och-yashil tusga kiritishi mumkin. Agar bolalar uzoq vaqt och qolib, yaxshi ovqatlanmagan bo'lsa, ularning terisi yashil bo'lib ko'rinishi mumkin edi. Va ular normal ovqatlana boshlagach, rang asta-sekin yo'qolgan."
+  },
+  {
+   "id": "S52",
+   "from": 11214,
+   "to": 11482,
+   "audioStart": 357.44,
+   "audioEnd": 366.38,
+   "image": "images/22_ochlikdan_holsizlanish.jpg",
+   "motion": "panL",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Nega och qolgan?",
+   "narration": "Bu juda mantiqli tushuntirish. Ammo bolalar qayerdan kelgan va nega bunchalik och qolgan?"
+  },
+  {
+   "id": "S53",
+   "from": 11482,
+   "to": 11931,
+   "audioStart": 366.38,
+   "audioEnd": 381.32,
+   "image": "images/43_flamand_toquvchilari.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Flamand to'quvchilar",
+   "narration": "Bu savolga javob beradigan qiziq nazariyani tarixchi Pol Xarris ilgari surdi. O'sha davrda Angliyaga Flandriyadan, ya'ni bugungi Belgiyadan ko'plab muhojir hunarmandlar kelib joylashgan edi. Ular to'qimachilik bilan shug'ullanishardi."
+  },
+  {
+   "id": "S54",
+   "from": 11931,
+   "to": 12079,
+   "audioStart": 381.32,
+   "audioEnd": 386.26,
+   "image": "images/44_flamandlar_taqibi.jpg",
+   "motion": "shake",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.15,
+   "note": "Ta'qib",
+   "narration": "O'n ikkinchi asrda bu muhojirlar ta'qibga uchrab, ularning ko'pi o'ldirilgan."
+  },
+  {
+   "id": "S55",
+   "from": 12079,
+   "to": 12516,
+   "audioStart": 386.26,
+   "audioEnd": 400.83,
+   "image": "images/45_ormondagi_flamand_yetimlari.jpg",
+   "motion": "pushIn",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.25,
+   "note": "O'rmondagi yetimlar",
+   "narration": "Xarrisning fikricha, yashil bolalar ota-onasi o'ldirilgan flamand yetimlari bo'lishi mumkin. Ular o'rmonlarda yashirinib, uzoq vaqt och-nahor yurishgan. Ularning g'alati tili flamand tili, g'alati kiyimlari esa flamand kiyimi bo'lgan."
+  },
+  {
+   "id": "S56",
+   "from": 12516,
+   "to": 12679,
+   "audioStart": 400.83,
+   "audioEnd": 406.27,
+   "image": "images/07_tushunarsiz_tilda_sozlash.jpg",
+   "motion": "panR",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.12,
+   "z1": 1.18,
+   "note": "Tushunmagan dehqonlar",
+   "narration": "Ingliz dehqonlari bu tilni hech qachon eshitmaganligi uchun uni tushunmaganlar."
+  },
+  {
+   "id": "S57",
+   "from": 12679,
+   "to": 13021,
+   "audioStart": 406.27,
+   "audioEnd": 417.67,
+   "image": "images/46_fordem_sent_martin_qishlogi.jpg",
+   "motion": "tiltDown",
+   "fx": 0.5,
+   "fy": 0.45,
+   "z0": 1.15,
+   "z1": 1.0,
+   "note": "Fordem Sent-Martin",
+   "narration": "Va eng qiziq tafsilot: Vulpitdan unchalik uzoq bo'lmagan joyda Fordem Sent-Martin deb ataladigan qishloq bor. U qishloq daryo bilan ajratilgan."
+  },
+  {
+   "id": "S58",
+   "from": 13021,
+   "to": 13271,
+   "audioStart": 417.67,
+   "audioEnd": 426.01,
+   "image": "images/36_daryo_narigi_tomonidagi_yorug_yurt.jpg",
+   "motion": "panL",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.1,
+   "z1": 1.18,
+   "note": "Avliyo Martin yurti?",
+   "narration": "Ehtimol, qorong'i o'rmonlarda yashagan va quyosh nurini kam ko'rgan bolalar uchun bu qishloq «Avliyo Martin yurti» bo'lgandir."
+  },
+  {
+   "id": "S59",
+   "from": 13271,
+   "to": 13448,
+   "audioStart": 426.01,
+   "audioEnd": 431.91,
+   "image": "images/47_zich_ormon_soyasi.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.22,
+   "note": "Zich o'rmon soyasi",
+   "narration": "Va ular ko'rgan doimiy shom esa zich o'rmonlar soyasidagi hayot bo'lgandir."
+  },
+  {
+   "id": "S60",
+   "from": 13448,
+   "to": 13859,
+   "audioStart": 431.91,
+   "audioEnd": 445.59,
+   "image": "images/48_tanqidchilar_bahsi.jpg",
+   "motion": "panR",
+   "fx": 0.45,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.12,
+   "note": "Tanqidchilar",
+   "narration": "bu tushuntirish juda ishonarli eshitiladi, ammo tanqidchilar uning zaif tomonlarini ham ko'rsatishadi. Masalan, nega o'sha davrning bilimli tarixchilari, ko'p muhojirlarni ko'rgan odamlar flamand tilini taniy olishmadi?"
+  },
+  {
+   "id": "S61",
+   "from": 13859,
+   "to": 14004,
+   "audioStart": 445.59,
+   "audioEnd": 450.43,
+   "image": "images/49_noma_lum_non_jumbogi.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.3,
+   "note": "Non jumbog'i",
+   "narration": "Va nega bolalar oddiy ovqatlarni, nonni ham taniy olishmadi?"
+  },
+  {
+   "id": "S62",
+   "from": 14004,
+   "to": 14230,
+   "audioStart": 450.43,
+   "audioEnd": 457.96,
+   "image": "images/50_yer_osti_dunyosi_nazariyasi.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Yer osti dunyosi",
+   "narration": "Boshqa nazariyalar ancha g'ayrioddiy. Ba'zilar bolalar yer ostidagi noma'lum dunyodan kelgan, deb ishonishadi."
+  },
+  {
+   "id": "S63",
+   "from": 14230,
+   "to": 14566,
+   "audioStart": 457.96,
+   "audioEnd": 469.18,
+   "image": "images/51_ingliz_folklori_parilar_olami.jpg",
+   "motion": "drift",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.05,
+   "z1": 1.15,
+   "note": "Parilar olami",
+   "narration": "O'rta asrlarda ko'p odamlar yer ostida boshqa mavjudotlar yashashiga ishonishgan. Ingliz xalq og'zaki ijodida yashil rang ko'pincha parilar va sehrli dunyo bilan bog'langan."
+  },
+  {
+   "id": "S64",
+   "from": 14566,
+   "to": 15066,
+   "audioStart": 469.18,
+   "audioEnd": 485.85,
+   "image": "images/52_abadiy_shomli_sayyora.jpg",
+   "motion": "rotate",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Boshqa sayyora",
+   "narration": "Yigirmanchi asrda esa yanada hayratlanarli nazariyalar paydo bo'ldi. Ba'zi yozuvchilar bu bolalar boshqa sayyoradan, ehtimol, doimo bir tomoni bilan quyoshga qarab turadigan, shuning uchun abadiy shom hukm suradigan sayyoradan adashib kelib qolgan, deb taxmin qilishdi."
+  },
+  {
+   "id": "S65",
+   "from": 15066,
+   "to": 15388,
+   "audioStart": 485.85,
+   "audioEnd": 496.55,
+   "image": "images/53_fotosintez_nazariyasi.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Fotosintez farazi",
+   "narration": "Va ularning yashil rangi esa o'simliklar kabi fotosintezga moslashgan tana bo'lishi mumkin, deyishdi. Albatta, buni tasdiqlovchi hech qanday ilmiy dalil yo'q."
+  },
+  {
+   "id": "S66",
+   "from": 15388,
+   "to": 15914,
+   "audioStart": 496.55,
+   "audioEnd": 514.1,
+   "image": "images/54_rivoyat_yoki_tarixiy_fakt.jpg",
+   "motion": "panL",
+   "fx": 0.55,
+   "fy": 0.5,
+   "z0": 1.12,
+   "z1": 1.2,
+   "note": "Rivoyat yoki fakt",
+   "narration": "Ba'zi tarixchilar esa bu hikoya umuman haqiqiy voqea emas, balki qandaydir ma'noni ifodalovchi rivoyat bo'lishi mumkin, deb hisoblashadi. Ammo unda nega ikki jiddiy tarixchi uni haqiqat sifatida, guvohlar ismlari va joy nomlari bilan yozib qoldirdi?"
+  },
+  {
+   "id": "S67",
+   "from": 15914,
+   "to": 16172,
+   "audioStart": 514.1,
+   "audioEnd": 522.68,
+   "image": "images/55_bugungi_vulpit_belgisi.jpg",
+   "motion": "pushIn",
+   "fx": 0.3,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Bugungi Vulpit belgisi",
+   "narration": "Bugun Vulpit qishlog'iga kirish joyida chiroyli belgi turibdi. Unda ikki bola tasvirlangan, bir o'g'il va bir qiz. Qo'l ushlashib turibdi."
+  },
+  {
+   "id": "S68",
+   "from": 16172,
+   "to": 16487,
+   "audioStart": 522.68,
+   "audioEnd": 533.19,
+   "image": "images/01_vulpit_qishlogi_12_asr.jpg",
+   "motion": "panL",
+   "fx": 0.55,
+   "fy": 0.55,
+   "z0": 1.1,
+   "z1": 1.18,
+   "note": "Avloddan-avlodga",
+   "narration": "qishloq aholisi bu hikoyani faxr bilan avloddan-avlodga yetkazib kelmoqda. Ammo ular ham haqiqat nima ekanini bilishmaydi."
+  },
+  {
+   "id": "S69",
+   "from": 16487,
+   "to": 16928,
+   "audioStart": 533.19,
+   "audioEnd": 547.9,
+   "image": "images/56_begona_yurtda_ikki_bola.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Begona yurtda ikki bola",
+   "narration": "Endi bir o'ylab ko'ring. Ikki bola. Begona yurtda, begona odamlar orasida. Tilini tushunmaydigan, ovqatini taniy olmaydigan, terisi boshqacha bo'lgani uchun hamma hayrat bilan qaraydigan joyda."
+  },
+  {
+   "id": "S70",
+   "from": 16928,
+   "to": 17014,
+   "audioStart": 547.9,
+   "audioEnd": 550.76,
+   "image": "images/31_ogil_bolaning_vafoti.jpg",
+   "motion": "dim",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.15,
+   "z1": 1.25,
+   "note": "Biri vafot etdi",
+   "narration": "Ularning biri tez orada vafot etdi."
+  },
+  {
+   "id": "S71",
+   "from": 17014,
+   "to": 17195,
+   "audioStart": 550.76,
+   "audioEnd": 556.8,
+   "image": "images/40_agnes_va_turmush_hayoti.jpg",
+   "motion": "panR",
+   "fx": 0.4,
+   "fy": 0.5,
+   "z0": 1.12,
+   "z1": 1.18,
+   "note": "Yangi hayot",
+   "narration": "Ikkinchisi esa yangi hayotga moslashib, o'z o'tmishini asta-sekin unutdi."
+  },
+  {
+   "id": "S72",
+   "from": 17195,
+   "to": 17735,
+   "audioStart": 556.8,
+   "audioEnd": 574.81,
+   "image": "images/57_agnesning_yurt_soginchi.jpg",
+   "motion": "pushIn",
+   "fx": 0.62,
+   "fy": 0.45,
+   "z0": 1.0,
+   "z1": 1.22,
+   "note": "Agnesning sog'inchi",
+   "narration": "Ehtimol, bu hikoyaning eng og'riqli tomoni ham aynan shudir. Biz hech qachon bilmaymiz. Bu qiz qolgan umri davomida o'z yurtini, o'sha abadiy shom bilan qoplangan yashil dunyoni sog'inib yashadimi?"
+  },
+  {
+   "id": "S73",
+   "from": 17735,
+   "to": 18075,
+   "audioStart": 574.81,
+   "audioEnd": 586.13,
+   "image": "images/18_butun_qishloq_yigilishi.jpg",
+   "motion": "pullOut",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.25,
+   "z1": 1.05,
+   "note": "Begonaga hayrat",
+   "narration": "Balki yashil bolalar hikoyasi bizga shuni eslatadi. Begonani ko'rganimizda biz ko'pincha uni tushunishga emas, undan hayratlanishga shoshilamiz."
+  },
+  {
+   "id": "S74",
+   "from": 18075,
+   "to": 18407,
+   "audioStart": 586.13,
+   "audioEnd": 597.22,
+   "image": "images/58_inson_qalbidagi_sir.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.45,
+   "note": "Inson qalbidagi sir",
+   "narration": "Va ba'zan eng katta sir uzoq sayyoralarda emas, balki yonimizdagi notanish insonning qalbida yashiringan bo'ladi."
+  },
+  {
+   "id": "S75",
+   "from": 18407,
+   "to": 18559,
+   "audioStart": 597.22,
+   "audioEnd": 602.26,
+   "image": "images/59_yechilmagan_sir_savoli.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.0,
+   "z1": 1.15,
+   "note": "Siz qanday o'ylaysiz?",
+   "narration": "Siz-chi, qanday o'ylaysiz? Vulpitning yashil bolalari kim edi?"
+  },
+  {
+   "id": "S76",
+   "from": 18559,
+   "to": 18608,
+   "audioStart": 602.26,
+   "audioEnd": 603.9,
+   "image": "images/45_ormondagi_flamand_yetimlari.jpg",
+   "motion": "punch",
+   "fx": 0.45,
+   "fy": 0.55,
+   "z0": 1.15,
+   "z1": 1.25,
+   "note": "Och qolgan yetimlarmi?",
+   "narration": "Och qolgan yetimlarmi?"
+  },
+  {
+   "id": "S77",
+   "from": 18608,
+   "to": 18682,
+   "audioStart": 603.9,
+   "audioEnd": 606.38,
+   "image": "images/50_yer_osti_dunyosi_nazariyasi.jpg",
+   "motion": "punch",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.15,
+   "z1": 1.25,
+   "note": "Yer osti dunyosimi?",
+   "narration": "Yer osti dunyosidan kelganlarmi?"
+  },
+  {
+   "id": "S78",
+   "from": 18682,
+   "to": 18839,
+   "audioStart": 606.38,
+   "audioEnd": 611.6,
+   "image": "images/52_abadiy_shomli_sayyora.jpg",
+   "motion": "punch",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.1,
+   "z1": 1.22,
+   "note": "Boshqa bir sirmi?",
+   "narration": "Yoki, biz hech qachon tushunmaydigan boshqa bir sirmi?"
+  },
+  {
+   "id": "S79",
+   "from": 18839,
+   "to": 19029,
+   "audioStart": 611.6,
+   "audioEnd": 617.93,
+   "image": "images/59_yechilmagan_sir_savoli.jpg",
+   "motion": "pullOut",
+   "fx": 0.5,
+   "fy": 0.55,
+   "z0": 1.25,
+   "z1": 1.05,
+   "note": "Izohlarda yozing",
+   "narration": "Fikringizni izohlarda yozib qoldiring, eng qiziq javoblarni keyingi videoda o'qib beraman."
+  },
+  {
+   "id": "S80",
+   "from": 19029,
+   "to": 19723,
+   "audioStart": 617.93,
+   "audioEnd": 641.07,
+   "image": "images/60_outro_sirli_ufq.jpg",
+   "motion": "pushIn",
+   "fx": 0.5,
+   "fy": 0.5,
+   "z0": 1.0,
+   "z1": 1.2,
+   "note": "Outro",
+   "narration": "Va agar siz ham bunday hal bo'lmagan sirlarni yaxshi ko'rsangiz, hoziroq «Qiziq-a?» kanaliga obuna bo'ling va qo'ng'iroqchani bosing, chunki keyingi videoda sizni bundan ham hayratlanarliroq, bundan ham tushunarsizroq sir kutmoqda. Uni o'tkazib yubormang. Yana uchrashguncha."
+  }
+ ],
+ "overlays": [
+  {
+   "from": 62,
+   "dur": 60,
+   "type": "impact",
+   "text": "YASHIL",
+   "color": "green"
+  },
+  {
+   "from": 115,
+   "dur": 95,
+   "type": "counter",
+   "text": "800",
+   "suffix": "+ YIL",
+   "sub": "YECHILMAGAN SIR"
+  },
+  {
+   "from": 224,
+   "dur": 40,
+   "type": "word",
+   "text": "KIM?",
+   "pos": 0
+  },
+  {
+   "from": 258,
+   "dur": 40,
+   "type": "word",
+   "text": "QAYERDAN?",
+   "pos": 1
+  },
+  {
+   "from": 291,
+   "dur": 70,
+   "type": "word",
+   "text": "NEGA YASHIL?",
+   "pos": 2,
+   "color": "green"
+  },
+  {
+   "from": 395,
+   "dur": 106,
+   "type": "title",
+   "text": "VULPITNING|YASHIL|BOLALARI",
+   "sub": "ANGLIYA · XII ASR · HAQIQIY SOLNOMA"
+  },
+  {
+   "from": 496,
+   "dur": 120,
+   "type": "chapter",
+   "text": "TOPILMA",
+   "num": "I"
+  },
+  {
+   "from": 503,
+   "dur": 110,
+   "type": "stamp",
+   "text": "XII ASR",
+   "sub": "VULPIT · SHARQIY ANGLIYA"
+  },
+  {
+   "from": 2121,
+   "dur": 75,
+   "type": "counter",
+   "text": "800",
+   "suffix": "+ YIL",
+   "sub": ""
+  },
+  {
+   "from": 2406,
+   "dur": 120,
+   "type": "chapter",
+   "text": "GUVOHLAR",
+   "num": "II"
+  },
+  {
+   "from": 2678,
+   "dur": 90,
+   "type": "name",
+   "text": "NYUBERGLIK UILYAM",
+   "sub": "Rohib, solnomachi"
+  },
+  {
+   "from": 2886,
+   "dur": 90,
+   "type": "name",
+   "text": "KOGGESHOLLIK RALF",
+   "sub": "Abbatlik boshlig'i"
+  },
+  {
+   "from": 3283,
+   "dur": 120,
+   "type": "dates",
+   "text": "1135 — 1154",
+   "sub": "QIROL STIVEN DAVRI"
+  },
+  {
+   "from": 3727,
+   "dur": 120,
+   "type": "chapter",
+   "text": "LOVIYA SIRI",
+   "num": "III"
+  },
+  {
+   "from": 4037,
+   "dur": 90,
+   "type": "name",
+   "text": "SER RICHARD DE KALNE",
+   "sub": "Mahalliy zodagon"
+  },
+  {
+   "from": 4211,
+   "dur": 70,
+   "type": "list",
+   "text": "NON|GO'SHT|SUT",
+   "times": [
+    0,
+    22,
+    43
+   ]
+  },
+  {
+   "from": 4434,
+   "dur": 28,
+   "type": "word",
+   "text": "1-KUN",
+   "pos": 1
+  },
+  {
+   "from": 4474,
+   "dur": 40,
+   "type": "word",
+   "text": "2-KUN",
+   "pos": 1
+  },
+  {
+   "from": 5719,
+   "dur": 120,
+   "type": "chapter",
+   "text": "YASHIL RANG SO'NADI",
+   "num": "IV"
+  },
+  {
+   "from": 6671,
+   "dur": 120,
+   "type": "chapter",
+   "text": "QIZNING HIKOYASI",
+   "num": "V"
+  },
+  {
+   "from": 6826,
+   "dur": 116,
+   "type": "quote",
+   "text": "Sen kimsan va|qayerdan kelding?"
+  },
+  {
+   "from": 7083,
+   "dur": 110,
+   "type": "title2",
+   "text": "AVLIYO MARTIN|YURTI",
+   "color": "green"
+  },
+  {
+   "from": 9428,
+   "dur": 90,
+   "type": "name",
+   "text": "AGNES",
+   "sub": "Omon qolgan qiz"
+  },
+  {
+   "from": 10005,
+   "dur": 120,
+   "type": "chapter",
+   "text": "NAZARIYALAR",
+   "num": "VI"
+  },
+  {
+   "from": 10337,
+   "dur": 120,
+   "type": "theory",
+   "text": "KASALLIK",
+   "num": "1"
+  },
+  {
+   "from": 10492,
+   "dur": 100,
+   "type": "term",
+   "text": "XLOROZ",
+   "sub": "«yashil kasallik»"
+  },
+  {
+   "from": 11490,
+   "dur": 120,
+   "type": "theory",
+   "text": "FLAMAND YETIMLARI",
+   "num": "2"
+  },
+  {
+   "from": 11585,
+   "dur": 80,
+   "type": "name",
+   "text": "POL XARRIS",
+   "sub": "Tarixchi"
+  },
+  {
+   "from": 11703,
+   "dur": 90,
+   "type": "route",
+   "text": "FLANDRIYA → ANGLIYA",
+   "sub": "bugungi Belgiya"
+  },
+  {
+   "from": 12853,
+   "dur": 100,
+   "type": "name",
+   "text": "FORDEM SENT-MARTIN",
+   "sub": "Daryo ortidagi qishloq"
+  },
+  {
+   "from": 14096,
+   "dur": 120,
+   "type": "theory",
+   "text": "YER OSTI DUNYOSI",
+   "num": "3"
+  },
+  {
+   "from": 14711,
+   "dur": 120,
+   "type": "theory",
+   "text": "BOSHQA SAYYORA",
+   "num": "4"
+  },
+  {
+   "from": 15395,
+   "dur": 110,
+   "type": "theory",
+   "text": "RIVOYAT",
+   "num": "5"
+  },
+  {
+   "from": 16491,
+   "dur": 120,
+   "type": "chapter",
+   "text": "BEGONA YURTDA",
+   "num": "VII"
+  },
+  {
+   "from": 18412,
+   "dur": 120,
+   "type": "chapter",
+   "text": "SIZ-CHI?",
+   "num": "VIII"
+  },
+  {
+   "from": 18482,
+   "dur": 60,
+   "type": "word",
+   "text": "KIM EDI?",
+   "pos": 1,
+   "color": "green"
+  },
+  {
+   "from": 19183,
+   "dur": 464,
+   "type": "cta",
+   "text": "QIZIQ-A?",
+   "bell": 87
+  }
+ ],
+ "sfx": [
+  {
+   "from": 0,
+   "src": "sfx/boom.wav",
+   "volume": 0.55
+  },
+  {
+   "from": 0,
+   "src": "sfx/whoosh_rev.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 60,
+   "src": "sfx/boom.wav",
+   "volume": 0.42
+  },
+  {
+   "from": 112,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.25
+  },
+  {
+   "from": 223,
+   "src": "sfx/tick.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 257,
+   "src": "sfx/tick.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 290,
+   "src": "sfx/tick.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 315,
+   "src": "sfx/riser.wav",
+   "volume": 0.32
+  },
+  {
+   "from": 395,
+   "src": "sfx/boom.wav",
+   "volume": 0.6
+  },
+  {
+   "from": 399,
+   "src": "sfx/shimmer.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 1596,
+   "src": "sfx/heartbeat.wav",
+   "volume": 0.35
+  },
+  {
+   "from": 1622,
+   "src": "sfx/heartbeat.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 1708,
+   "src": "sfx/subdrop.wav",
+   "volume": 0.4
+  },
+  {
+   "from": 2121,
+   "src": "sfx/tick.wav",
+   "volume": 0.15
+  },
+  {
+   "from": 2400,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 3281,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.18
+  },
+  {
+   "from": 3721,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 4210,
+   "src": "sfx/tick.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 4232,
+   "src": "sfx/tick.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 4253,
+   "src": "sfx/tick.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 4434,
+   "src": "sfx/heartbeat.wav",
+   "volume": 0.25
+  },
+  {
+   "from": 4474,
+   "src": "sfx/heartbeat.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 5713,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 6394,
+   "src": "sfx/subdrop.wav",
+   "volume": 0.45
+  },
+  {
+   "from": 6665,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 6823,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.18
+  },
+  {
+   "from": 7081,
+   "src": "sfx/shimmer.wav",
+   "volume": 0.35
+  },
+  {
+   "from": 8321,
+   "src": "sfx/bells.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 8681,
+   "src": "sfx/flash.wav",
+   "volume": 0.35
+  },
+  {
+   "from": 9999,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 10334,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 10492,
+   "src": "sfx/tick.wav",
+   "volume": 0.15
+  },
+  {
+   "from": 11487,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 12044,
+   "src": "sfx/subdrop.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 14093,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 14554,
+   "src": "sfx/riser.wav",
+   "volume": 0.15
+  },
+  {
+   "from": 14708,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 14711,
+   "src": "sfx/boom.wav",
+   "volume": 0.25
+  },
+  {
+   "from": 15392,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.2
+  },
+  {
+   "from": 16485,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 16975,
+   "src": "sfx/subdrop.wav",
+   "volume": 0.35
+  },
+  {
+   "from": 18327,
+   "src": "sfx/shimmer.wav",
+   "volume": 0.25
+  },
+  {
+   "from": 18406,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.22
+  },
+  {
+   "from": 18559,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.18
+  },
+  {
+   "from": 18608,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.18
+  },
+  {
+   "from": 18682,
+   "src": "sfx/whoosh.wav",
+   "volume": 0.18
+  },
+  {
+   "from": 19270,
+   "src": "sfx/tick.wav",
+   "volume": 0.3
+  },
+  {
+   "from": 19274,
+   "src": "sfx/shimmer.wav",
+   "volume": 0.2
+  }
+ ],
+ "musicPlan": {
+  "duration": 657.4666666666667,
+  "fadeIn": 0.3,
+  "fadeOut": 5.0,
+  "sections": [
+   {
+    "start": 0,
+    "end": 12.966666666666667,
+    "pad": 0.55,
+    "bright": 0.2,
+    "pulse": 0.9,
+    "bpm": 72,
+    "drone": 0.8,
+    "bells": 0,
+    "chords": [
+     "Dm",
+     "Bb",
+     "Dm",
+     "A"
+    ],
+    "chordLen": 3.2,
+    "mood": "hook-tension"
+   },
+   {
+    "start": 12.966666666666667,
+    "end": 16.366666666666667,
+    "pad": 0.95,
+    "bright": 0.7,
+    "pulse": 0,
+    "drone": 0.9,
+    "bells": 0.2,
+    "chords": [
+     "Dm"
+    ],
+    "chordLen": 4,
+    "mood": "title-swell"
+   },
+   {
+    "start": 16.366666666666667,
+    "end": 51.766666666666666,
+    "pad": 0.5,
+    "bright": 0.3,
+    "pulse": 0,
+    "drone": 0.5,
+    "bells": 0.3,
+    "chords": [
+     "Dm",
+     "Bb",
+     "F",
+     "C"
+    ],
+    "chordLen": 7,
+    "mood": "mystery-intro"
+   },
+   {
+    "start": 51.766666666666666,
+    "end": 80.26666666666667,
+    "pad": 0.6,
+    "bright": 0.25,
+    "pulse": 0.6,
+    "bpm": 64,
+    "drone": 0.75,
+    "bells": 0,
+    "chords": [
+     "Dm",
+     "Gm",
+     "Dm",
+     "A"
+    ],
+    "chordLen": 6,
+    "mood": "reveal-tension"
+   },
+   {
+    "start": 80.26666666666667,
+    "end": 124.36666666666667,
+    "pad": 0.45,
+    "bright": 0.3,
+    "pulse": 0.15,
+    "bpm": 60,
+    "drone": 0.5,
+    "bells": 0.1,
+    "chords": [
+     "F",
+     "C",
+     "Dm",
+     "Bb"
+    ],
+    "chordLen": 8,
+    "mood": "chronicle"
+   },
+   {
+    "start": 124.36666666666667,
+    "end": 153.36666666666667,
+    "pad": 0.5,
+    "bright": 0.25,
+    "pulse": 0.2,
+    "bpm": 56,
+    "drone": 0.6,
+    "bells": 0,
+    "chords": [
+     "Dm",
+     "Bb",
+     "Gm",
+     "A"
+    ],
+    "chordLen": 7,
+    "mood": "hunger"
+   },
+   {
+    "start": 153.36666666666667,
+    "end": 190.36666666666667,
+    "pad": 0.5,
+    "bright": 0.4,
+    "pulse": 0,
+    "drone": 0.45,
+    "bells": 0.3,
+    "chords": [
+     "F",
+     "C",
+     "Bb",
+     "F"
+    ],
+    "chordLen": 7,
+    "mood": "hope-beans"
+   },
+   {
+    "start": 190.36666666666667,
+    "end": 222.36666666666667,
+    "pad": 0.6,
+    "bright": 0.22,
+    "pulse": 0.1,
+    "bpm": 52,
+    "drone": 0.6,
+    "bells": 0.05,
+    "chords": [
+     "Dm",
+     "Bb",
+     "Gm",
+     "A"
+    ],
+    "chordLen": 8,
+    "mood": "melancholy"
+   },
+   {
+    "start": 222.36666666666667,
+    "end": 306.3666666666667,
+    "pad": 0.6,
+    "bright": 0.55,
+    "pulse": 0,
+    "drone": 0.55,
+    "bells": 0.5,
+    "chords": [
+     "Fmaj7",
+     "Bbmaj7",
+     "Dsus",
+     "Am"
+    ],
+    "chordLen": 8,
+    "mood": "wonder-land"
+   },
+   {
+    "start": 306.3666666666667,
+    "end": 333.3666666666667,
+    "pad": 0.45,
+    "bright": 0.35,
+    "pulse": 0,
+    "drone": 0.45,
+    "bells": 0.15,
+    "chords": [
+     "Dm",
+     "Bb",
+     "F",
+     "C"
+    ],
+    "chordLen": 8,
+    "mood": "afterlife"
+   },
+   {
+    "start": 333.3666666666667,
+    "end": 466.3666666666667,
+    "pad": 0.45,
+    "bright": 0.35,
+    "pulse": 0.35,
+    "bpm": 70,
+    "drone": 0.55,
+    "bells": 0.1,
+    "chords": [
+     "Dm",
+     "C",
+     "Bb",
+     "A"
+    ],
+    "chordLen": 6,
+    "mood": "investigation"
+   },
+   {
+    "start": 466.3666666666667,
+    "end": 530.3666666666667,
+    "pad": 0.55,
+    "bright": 0.45,
+    "pulse": 0.15,
+    "bpm": 60,
+    "drone": 0.8,
+    "bells": 0.45,
+    "chords": [
+     "Ebmaj",
+     "Dm",
+     "Bbmaj7",
+     "A"
+    ],
+    "chordLen": 8,
+    "mood": "supernatural"
+   },
+   {
+    "start": 530.3666666666667,
+    "end": 613.3666666666667,
+    "pad": 0.75,
+    "bright": 0.55,
+    "pulse": 0,
+    "drone": 0.6,
+    "bells": 0.2,
+    "chords": [
+     "Bb",
+     "F",
+     "Gm",
+     "Dm",
+     "Bb",
+     "F",
+     "C",
+     "A"
+    ],
+    "chordLen": 6,
+    "mood": "emotional-peak"
+   },
+   {
+    "start": 613.3666666666667,
+    "end": 657.4666666666667,
+    "pad": 0.6,
+    "bright": 0.45,
+    "pulse": 0.1,
+    "bpm": 60,
+    "drone": 0.5,
+    "bells": 0.25,
+    "chords": [
+     "Dm",
+     "Bb",
+     "F",
+     "A"
+    ],
+    "chordLen": 6,
+    "mood": "outro-resolve"
+   }
+  ]
+ }
+}

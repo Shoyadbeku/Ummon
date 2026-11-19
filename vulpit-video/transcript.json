@@ -1,0 +1,10466 @@
+{
+ "language": "uz",
+ "audio": "voice.wav",
+ "duration": 638.571,
+ "method": "faster-whisper (hostmepanda/whisper-large-v3-turbo-uzbek-ct2) transcription + manual ASR-error correction + torchaudio MMS_FA forced alignment",
+ "sentences": [
+  {
+   "id": 0,
+   "start": 0.26,
+   "end": 1.301,
+   "text": "O'n ikkinchi asr.",
+   "words": [
+    {
+     "text": "O'n",
+     "dis": false,
+     "chunk": 0,
+     "start": 0.26,
+     "end": 0.38,
+     "score": 0.404
+    },
+    {
+     "text": "ikkinchi",
+     "dis": false,
+     "chunk": 0,
+     "start": 0.44,
+     "end": 0.96,
+     "score": 0.756
+    },
+    {
+     "text": "asr.",
+     "dis": false,
+     "chunk": 0,
+     "start": 1.0,
+     "end": 1.301,
+     "score": 0.564
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "start": 2.181,
+   "end": 4.642,
+   "text": "Angliyaning sharqidagi Vulpit qishlog'i.",
+   "words": [
+    {
+     "text": "Angliyaning",
+     "dis": false,
+     "chunk": 0,
+     "start": 2.181,
+     "end": 2.681,
+     "score": 0.975
+    },
+    {
+     "text": "sharqidagi",
+     "dis": false,
+     "chunk": 0,
+     "start": 2.741,
+     "end": 3.322,
+     "score": 0.879
+    },
+    {
+     "text": "Vulpit",
+     "dis": false,
+     "chunk": 0,
+     "start": 3.762,
+     "end": 4.142,
+     "score": 0.846
+    },
+    {
+     "text": "qishlog'i.",
+     "dis": false,
+     "chunk": 0,
+     "start": 4.182,
+     "end": 4.642,
+     "score": 0.775
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 5.442,
+   "end": 6.383,
+   "text": "O'roq mavsumi edi.",
+   "words": [
+    {
+     "text": "O'roq",
+     "dis": false,
+     "chunk": 0,
+     "start": 5.442,
+     "end": 5.703,
+     "score": 0.404
+    },
+    {
+     "text": "mavsumi",
+     "dis": false,
+     "chunk": 0,
+     "start": 5.743,
+     "end": 6.163,
+     "score": 0.869
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 0,
+     "start": 6.223,
+     "end": 6.383,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.063,
+   "end": 9.204,
+   "text": "Dehqonlar dalada bug'doy o'rib yurishardi.",
+   "words": [
+    {
+     "text": "Dehqonlar",
+     "dis": false,
+     "chunk": 0,
+     "start": 7.063,
+     "end": 7.603,
+     "score": 0.881
+    },
+    {
+     "text": "dalada",
+     "dis": false,
+     "chunk": 0,
+     "start": 7.683,
+     "end": 7.964,
+     "score": 0.999
+    },
+    {
+     "text": "bug'doy",
+     "dis": false,
+     "chunk": 0,
+     "start": 8.044,
+     "end": 8.404,
+     "score": 0.713
+    },
+    {
+     "text": "o'rib",
+     "dis": false,
+     "chunk": 0,
+     "start": 8.484,
+     "end": 8.664,
+     "score": 0.6
+    },
+    {
+     "text": "yurishardi.",
+     "dis": false,
+     "chunk": 0,
+     "start": 8.704,
+     "end": 9.204,
+     "score": 0.981
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 9.664,
+   "end": 15.127,
+   "text": "Qishloq chekkasida qadimdan bo'rilarni tutish uchun qazilgan chuqur o'ralar bor edi.",
+   "words": [
+    {
+     "text": "Qishloq",
+     "dis": false,
+     "chunk": 0,
+     "start": 9.664,
+     "end": 10.045,
+     "score": 0.706
+    },
+    {
+     "text": "chekkasida",
+     "dis": false,
+     "chunk": 0,
+     "start": 10.105,
+     "end": 10.705,
+     "score": 0.998
+    },
+    {
+     "text": "qadimdan",
+     "dis": false,
+     "chunk": 0,
+     "start": 11.125,
+     "end": 11.685,
+     "score": 0.861
+    },
+    {
+     "text": "bo'rilarni",
+     "dis": false,
+     "chunk": 0,
+     "start": 11.825,
+     "end": 12.406,
+     "score": 0.751
+    },
+    {
+     "text": "tutish",
+     "dis": false,
+     "chunk": 0,
+     "start": 12.446,
+     "end": 12.706,
+     "score": 0.989
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 0,
+     "start": 12.766,
+     "end": 12.926,
+     "score": 0.999
+    },
+    {
+     "text": "qazilgan",
+     "dis": false,
+     "chunk": 0,
+     "start": 13.026,
+     "end": 13.526,
+     "score": 0.874
+    },
+    {
+     "text": "chuqur",
+     "dis": false,
+     "chunk": 0,
+     "start": 13.846,
+     "end": 14.166,
+     "score": 0.823
+    },
+    {
+     "text": "o'ralar",
+     "dis": false,
+     "chunk": 0,
+     "start": 14.326,
+     "end": 14.727,
+     "score": 0.714
+    },
+    {
+     "text": "bor",
+     "dis": false,
+     "chunk": 0,
+     "start": 14.767,
+     "end": 14.927,
+     "score": 1.0
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 0,
+     "start": 14.967,
+     "end": 15.127,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 15.927,
+   "end": 19.929,
+   "text": "Shu o'ralardan biri yonida dehqonlar ikkita bolani ko'rib qolishdi.",
+   "words": [
+    {
+     "text": "Shu",
+     "dis": false,
+     "chunk": 1,
+     "start": 15.927,
+     "end": 16.047,
+     "score": 0.997
+    },
+    {
+     "text": "o'ralardan",
+     "dis": false,
+     "chunk": 1,
+     "start": 16.147,
+     "end": 16.648,
+     "score": 0.778
+    },
+    {
+     "text": "biri",
+     "dis": false,
+     "chunk": 1,
+     "start": 16.708,
+     "end": 16.848,
+     "score": 0.857
+    },
+    {
+     "text": "yonida",
+     "dis": false,
+     "chunk": 1,
+     "start": 16.888,
+     "end": 17.228,
+     "score": 0.667
+    },
+    {
+     "text": "dehqonlar",
+     "dis": false,
+     "chunk": 1,
+     "start": 17.608,
+     "end": 18.188,
+     "score": 0.881
+    },
+    {
+     "text": "ikkita",
+     "dis": false,
+     "chunk": 1,
+     "start": 18.568,
+     "end": 18.849,
+     "score": 0.956
+    },
+    {
+     "text": "bolani",
+     "dis": false,
+     "chunk": 1,
+     "start": 18.929,
+     "end": 19.229,
+     "score": 0.998
+    },
+    {
+     "text": "ko'rib",
+     "dis": false,
+     "chunk": 1,
+     "start": 19.269,
+     "end": 19.509,
+     "score": 0.666
+    },
+    {
+     "text": "qolishdi.",
+     "dis": false,
+     "chunk": 1,
+     "start": 19.549,
+     "end": 19.929,
+     "score": 0.875
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 20.329,
+   "end": 21.89,
+   "text": "Bir o'g'il va bir qiz.",
+   "words": [
+    {
+     "text": "Bir",
+     "dis": false,
+     "chunk": 1,
+     "start": 20.329,
+     "end": 20.449,
+     "score": 0.999
+    },
+    {
+     "text": "o'g'il",
+     "dis": false,
+     "chunk": 1,
+     "start": 20.609,
+     "end": 20.889,
+     "score": 0.364
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 1,
+     "start": 21.23,
+     "end": 21.31,
+     "score": 0.998
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 1,
+     "start": 21.43,
+     "end": 21.55,
+     "score": 0.994
+    },
+    {
+     "text": "qiz.",
+     "dis": false,
+     "chunk": 1,
+     "start": 21.69,
+     "end": 21.89,
+     "score": 0.663
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 22.59,
+   "end": 27.512,
+   "text": "Ular bir-birining qo'lini mahkam ushlab, qo'rquv bilan atrofga qarab turishardi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 1,
+     "start": 22.59,
+     "end": 22.79,
+     "score": 1.0
+    },
+    {
+     "text": "bir-birining",
+     "dis": false,
+     "chunk": 1,
+     "start": 23.11,
+     "end": 23.631,
+     "score": 0.904
+    },
+    {
+     "text": "qo'lini",
+     "dis": false,
+     "chunk": 1,
+     "start": 23.671,
+     "end": 23.991,
+     "score": 0.421
+    },
+    {
+     "text": "mahkam",
+     "dis": false,
+     "chunk": 1,
+     "start": 24.071,
+     "end": 24.531,
+     "score": 0.999
+    },
+    {
+     "text": "ushlab,",
+     "dis": false,
+     "chunk": 1,
+     "start": 24.651,
+     "end": 25.011,
+     "score": 0.985
+    },
+    {
+     "text": "qo'rquv",
+     "dis": false,
+     "chunk": 1,
+     "start": 25.351,
+     "end": 25.832,
+     "score": 0.424
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 1,
+     "start": 25.912,
+     "end": 26.152,
+     "score": 0.999
+    },
+    {
+     "text": "atrofga",
+     "dis": false,
+     "chunk": 1,
+     "start": 26.292,
+     "end": 26.692,
+     "score": 0.999
+    },
+    {
+     "text": "qarab",
+     "dis": false,
+     "chunk": 1,
+     "start": 26.772,
+     "end": 26.992,
+     "score": 0.799
+    },
+    {
+     "text": "turishardi.",
+     "dis": false,
+     "chunk": 1,
+     "start": 27.032,
+     "end": 27.512,
+     "score": 0.993
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 28.433,
+   "end": 32.195,
+   "text": "Ularning kiyimlari g'alati, hech kim ko'rmagan matodan tikilgan edi.",
+   "words": [
+    {
+     "text": "Ularning",
+     "dis": false,
+     "chunk": 2,
+     "start": 28.433,
+     "end": 28.753,
+     "score": 0.961
+    },
+    {
+     "text": "kiyimlari",
+     "dis": false,
+     "chunk": 2,
+     "start": 28.773,
+     "end": 29.173,
+     "score": 0.949
+    },
+    {
+     "text": "g'alati,",
+     "dis": false,
+     "chunk": 2,
+     "start": 29.233,
+     "end": 29.613,
+     "score": 0.856
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 2,
+     "start": 30.194,
+     "end": 30.414,
+     "score": 0.999
+    },
+    {
+     "text": "kim",
+     "dis": false,
+     "chunk": 2,
+     "start": 30.474,
+     "end": 30.614,
+     "score": 1.0
+    },
+    {
+     "text": "ko'rmagan",
+     "dis": false,
+     "chunk": 2,
+     "start": 30.694,
+     "end": 31.194,
+     "score": 0.777
+    },
+    {
+     "text": "matodan",
+     "dis": false,
+     "chunk": 2,
+     "start": 31.234,
+     "end": 31.614,
+     "score": 0.987
+    },
+    {
+     "text": "tikilgan",
+     "dis": false,
+     "chunk": 2,
+     "start": 31.634,
+     "end": 32.014,
+     "score": 0.988
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 2,
+     "start": 32.055,
+     "end": 32.195,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 32.795,
+   "end": 34.996,
+   "text": "Ular tushunarsiz tilda gapirishardi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 2,
+     "start": 32.795,
+     "end": 32.995,
+     "score": 1.0
+    },
+    {
+     "text": "tushunarsiz",
+     "dis": false,
+     "chunk": 2,
+     "start": 33.255,
+     "end": 33.995,
+     "score": 0.962
+    },
+    {
+     "text": "tilda",
+     "dis": false,
+     "chunk": 2,
+     "start": 34.055,
+     "end": 34.296,
+     "score": 0.738
+    },
+    {
+     "text": "gapirishardi.",
+     "dis": false,
+     "chunk": 2,
+     "start": 34.336,
+     "end": 34.996,
+     "score": 0.995
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 35.716,
+   "end": 38.457,
+   "text": "Ammo dehqonlarni dahshatga solgan narsa boshqa edi.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 3,
+     "start": 35.716,
+     "end": 35.936,
+     "score": 1.0
+    },
+    {
+     "text": "dehqonlarni",
+     "dis": false,
+     "chunk": 3,
+     "start": 36.096,
+     "end": 36.777,
+     "score": 0.908
+    },
+    {
+     "text": "dahshatga",
+     "dis": false,
+     "chunk": 3,
+     "start": 36.837,
+     "end": 37.297,
+     "score": 0.939
+    },
+    {
+     "text": "solgan",
+     "dis": false,
+     "chunk": 3,
+     "start": 37.337,
+     "end": 37.657,
+     "score": 0.999
+    },
+    {
+     "text": "narsa",
+     "dis": false,
+     "chunk": 3,
+     "start": 37.697,
+     "end": 37.917,
+     "score": 1.0
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 3,
+     "start": 37.977,
+     "end": 38.257,
+     "score": 0.832
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 3,
+     "start": 38.317,
+     "end": 38.457,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 39.118,
+   "end": 41.219,
+   "text": "Bu bolalarning terisi yashil edi.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 3,
+     "start": 39.118,
+     "end": 39.178,
+     "score": 1.0
+    },
+    {
+     "text": "bolalarning",
+     "dis": false,
+     "chunk": 3,
+     "start": 39.278,
+     "end": 39.818,
+     "score": 0.963
+    },
+    {
+     "text": "terisi",
+     "dis": false,
+     "chunk": 3,
+     "start": 39.858,
+     "end": 40.238,
+     "score": 1.0
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 3,
+     "start": 40.618,
+     "end": 41.019,
+     "score": 1.0
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 3,
+     "start": 41.079,
+     "end": 41.219,
+     "score": 0.998
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 41.839,
+   "end": 48.642,
+   "text": "Kasallikdan oqargan emas, kuyukdan qoraygan emas, butunlay boshdan-oyoq o't kabi yashil.",
+   "words": [
+    {
+     "text": "Kasallikdan",
+     "dis": false,
+     "chunk": 3,
+     "start": 41.839,
+     "end": 42.519,
+     "score": 0.999
+    },
+    {
+     "text": "oqargan",
+     "dis": false,
+     "chunk": 3,
+     "start": 42.659,
+     "end": 43.1,
+     "score": 0.775
+    },
+    {
+     "text": "emas,",
+     "dis": false,
+     "chunk": 3,
+     "start": 43.14,
+     "end": 43.44,
+     "score": 1.0
+    },
+    {
+     "text": "kuyukdan",
+     "dis": false,
+     "chunk": 3,
+     "start": 43.8,
+     "end": 44.24,
+     "score": 0.822
+    },
+    {
+     "text": "qoraygan",
+     "dis": false,
+     "chunk": 3,
+     "start": 44.34,
+     "end": 44.78,
+     "score": 0.633
+    },
+    {
+     "text": "emas,",
+     "dis": false,
+     "chunk": 3,
+     "start": 44.84,
+     "end": 45.1,
+     "score": 1.0
+    },
+    {
+     "text": "butunlay",
+     "dis": false,
+     "chunk": 3,
+     "start": 45.501,
+     "end": 46.001,
+     "score": 0.875
+    },
+    {
+     "text": "boshdan-oyoq",
+     "dis": false,
+     "chunk": 3,
+     "start": 46.381,
+     "end": 47.281,
+     "score": 0.726
+    },
+    {
+     "text": "o't",
+     "dis": false,
+     "chunk": 3,
+     "start": 47.702,
+     "end": 47.842,
+     "score": 0.332
+    },
+    {
+     "text": "kabi",
+     "dis": false,
+     "chunk": 3,
+     "start": 47.962,
+     "end": 48.202,
+     "score": 0.998
+    },
+    {
+     "text": "yashil.",
+     "dis": false,
+     "chunk": 3,
+     "start": 48.282,
+     "end": 48.642,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 49.503,
+   "end": 53.484,
+   "text": "Bu tarixda «Vulpitning yashil bolalari» deb nomlangan voqea.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 4,
+     "start": 49.503,
+     "end": 49.563,
+     "score": 1.0
+    },
+    {
+     "text": "tarixda",
+     "dis": false,
+     "chunk": 4,
+     "start": 49.983,
+     "end": 50.463,
+     "score": 0.857
+    },
+    {
+     "text": "«Vulpitning",
+     "dis": false,
+     "chunk": 4,
+     "start": 50.823,
+     "end": 51.423,
+     "score": 0.937
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 4,
+     "start": 51.483,
+     "end": 51.804,
+     "score": 1.0
+    },
+    {
+     "text": "bolalari»",
+     "dis": false,
+     "chunk": 4,
+     "start": 51.884,
+     "end": 52.264,
+     "score": 0.999
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 4,
+     "start": 52.304,
+     "end": 52.444,
+     "score": 0.987
+    },
+    {
+     "text": "nomlangan",
+     "dis": false,
+     "chunk": 4,
+     "start": 52.504,
+     "end": 53.024,
+     "score": 0.999
+    },
+    {
+     "text": "voqea.",
+     "dis": false,
+     "chunk": 4,
+     "start": 53.104,
+     "end": 53.484,
+     "score": 0.8
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 54.325,
+   "end": 56.426,
+   "text": "Sakkiz yuz yildan ko'proq vaqt o'tdi.",
+   "words": [
+    {
+     "text": "Sakkiz",
+     "dis": false,
+     "chunk": 4,
+     "start": 54.325,
+     "end": 54.785,
+     "score": 0.722
+    },
+    {
+     "text": "yuz",
+     "dis": false,
+     "chunk": 4,
+     "start": 54.865,
+     "end": 55.005,
+     "score": 0.636
+    },
+    {
+     "text": "yildan",
+     "dis": false,
+     "chunk": 4,
+     "start": 55.065,
+     "end": 55.365,
+     "score": 0.83
+    },
+    {
+     "text": "ko'proq",
+     "dis": false,
+     "chunk": 4,
+     "start": 55.445,
+     "end": 55.785,
+     "score": 0.571
+    },
+    {
+     "text": "vaqt",
+     "dis": false,
+     "chunk": 4,
+     "start": 55.865,
+     "end": 56.086,
+     "score": 0.75
+    },
+    {
+     "text": "o'tdi.",
+     "dis": false,
+     "chunk": 4,
+     "start": 56.166,
+     "end": 56.426,
+     "score": 0.598
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 56.966,
+   "end": 63.049,
+   "text": "Ammo bu bolalar kim bo'lgani, qayerdan kelgani va nega yashil ekani haligacha jumboq bo'lib qolmoqda.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 4,
+     "start": 56.966,
+     "end": 57.166,
+     "score": 0.996
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 4,
+     "start": 57.286,
+     "end": 57.366,
+     "score": 1.0
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 4,
+     "start": 57.466,
+     "end": 57.846,
+     "score": 1.0
+    },
+    {
+     "text": "kim",
+     "dis": false,
+     "chunk": 4,
+     "start": 57.966,
+     "end": 58.186,
+     "score": 0.998
+    },
+    {
+     "text": "bo'lgani,",
+     "dis": false,
+     "chunk": 4,
+     "start": 58.267,
+     "end": 58.707,
+     "score": 0.75
+    },
+    {
+     "text": "qayerdan",
+     "dis": false,
+     "chunk": 4,
+     "start": 59.107,
+     "end": 59.567,
+     "score": 0.739
+    },
+    {
+     "text": "kelgani",
+     "dis": false,
+     "chunk": 4,
+     "start": 59.627,
+     "end": 59.987,
+     "score": 0.999
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 4,
+     "start": 60.027,
+     "end": 60.087,
+     "score": 1.0
+    },
+    {
+     "text": "nega",
+     "dis": false,
+     "chunk": 4,
+     "start": 60.187,
+     "end": 60.428,
+     "score": 0.999
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 4,
+     "start": 60.488,
+     "end": 60.748,
+     "score": 0.933
+    },
+    {
+     "text": "ekani",
+     "dis": false,
+     "chunk": 4,
+     "start": 60.828,
+     "end": 61.108,
+     "score": 1.0
+    },
+    {
+     "text": "haligacha",
+     "dis": false,
+     "chunk": 4,
+     "start": 61.448,
+     "end": 61.928,
+     "score": 0.869
+    },
+    {
+     "text": "jumboq",
+     "dis": false,
+     "chunk": 4,
+     "start": 62.008,
+     "end": 62.348,
+     "score": 0.652
+    },
+    {
+     "text": "bo'lib",
+     "dis": false,
+     "chunk": 4,
+     "start": 62.408,
+     "end": 62.609,
+     "score": 0.666
+    },
+    {
+     "text": "qolmoqda.",
+     "dis": false,
+     "chunk": 4,
+     "start": 62.629,
+     "end": 63.049,
+     "score": 0.625
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 63.949,
+   "end": 65.91,
+   "text": "Bu oddiy qishloq ertagi emas.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 5,
+     "start": 63.949,
+     "end": 64.029,
+     "score": 0.999
+    },
+    {
+     "text": "oddiy",
+     "dis": false,
+     "chunk": 5,
+     "start": 64.509,
+     "end": 64.77,
+     "score": 0.753
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 5,
+     "start": 64.85,
+     "end": 65.17,
+     "score": 0.714
+    },
+    {
+     "text": "ertagi",
+     "dis": false,
+     "chunk": 5,
+     "start": 65.23,
+     "end": 65.57,
+     "score": 0.975
+    },
+    {
+     "text": "emas.",
+     "dis": false,
+     "chunk": 5,
+     "start": 65.63,
+     "end": 65.91,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 66.57,
+   "end": 71.893,
+   "text": "Bu voqeani o'sha davrning ikki jiddiy tarixchisi bir-biridan mustaqil holda yozib qoldirgan.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 5,
+     "start": 66.57,
+     "end": 66.63,
+     "score": 1.0
+    },
+    {
+     "text": "voqeani",
+     "dis": false,
+     "chunk": 5,
+     "start": 66.71,
+     "end": 67.171,
+     "score": 0.857
+    },
+    {
+     "text": "o'sha",
+     "dis": false,
+     "chunk": 5,
+     "start": 67.471,
+     "end": 67.611,
+     "score": 0.598
+    },
+    {
+     "text": "davrning",
+     "dis": false,
+     "chunk": 5,
+     "start": 67.651,
+     "end": 68.051,
+     "score": 0.983
+    },
+    {
+     "text": "ikki",
+     "dis": false,
+     "chunk": 5,
+     "start": 68.211,
+     "end": 68.511,
+     "score": 0.995
+    },
+    {
+     "text": "jiddiy",
+     "dis": false,
+     "chunk": 5,
+     "start": 68.591,
+     "end": 68.911,
+     "score": 0.694
+    },
+    {
+     "text": "tarixchisi",
+     "dis": false,
+     "chunk": 5,
+     "start": 68.971,
+     "end": 69.512,
+     "score": 0.893
+    },
+    {
+     "text": "bir-biridan",
+     "dis": false,
+     "chunk": 5,
+     "start": 69.832,
+     "end": 70.312,
+     "score": 0.999
+    },
+    {
+     "text": "mustaqil",
+     "dis": false,
+     "chunk": 5,
+     "start": 70.392,
+     "end": 70.832,
+     "score": 0.871
+    },
+    {
+     "text": "holda",
+     "dis": false,
+     "chunk": 5,
+     "start": 70.892,
+     "end": 71.152,
+     "score": 0.97
+    },
+    {
+     "text": "yozib",
+     "dis": false,
+     "chunk": 5,
+     "start": 71.152,
+     "end": 71.453,
+     "score": 0.6
+    },
+    {
+     "text": "qoldirgan.",
+     "dis": false,
+     "chunk": 5,
+     "start": 71.473,
+     "end": 71.893,
+     "score": 0.889
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 72.433,
+   "end": 74.774,
+   "text": "Biri — Nyuberglik Uilyam ismli rohib.",
+   "words": [
+    {
+     "text": "Biri",
+     "dis": false,
+     "chunk": 5,
+     "start": 72.433,
+     "end": 72.573,
+     "score": 0.75
+    },
+    {
+     "text": "—",
+     "dis": false,
+     "chunk": 5,
+     "start": 72.573,
+     "end": 72.573,
+     "score": 1
+    },
+    {
+     "text": "Nyuberglik",
+     "dis": false,
+     "chunk": 5,
+     "start": 72.893,
+     "end": 73.494,
+     "score": 0.887
+    },
+    {
+     "text": "Uilyam",
+     "dis": false,
+     "chunk": 5,
+     "start": 73.634,
+     "end": 73.994,
+     "score": 0.884
+    },
+    {
+     "text": "ismli",
+     "dis": false,
+     "chunk": 5,
+     "start": 74.054,
+     "end": 74.354,
+     "score": 0.998
+    },
+    {
+     "text": "rohib.",
+     "dis": false,
+     "chunk": 5,
+     "start": 74.434,
+     "end": 74.774,
+     "score": 0.976
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 75.234,
+   "end": 78.456,
+   "text": "U o'z davrining eng ishonchli tarixchilaridan biri hisoblanadi.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 5,
+     "start": 75.234,
+     "end": 75.254,
+     "score": 1.0
+    },
+    {
+     "text": "o'z",
+     "dis": false,
+     "chunk": 5,
+     "start": 75.434,
+     "end": 75.554,
+     "score": 0.334
+    },
+    {
+     "text": "davrining",
+     "dis": false,
+     "chunk": 5,
+     "start": 75.614,
+     "end": 76.015,
+     "score": 0.982
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 5,
+     "start": 76.215,
+     "end": 76.375,
+     "score": 0.967
+    },
+    {
+     "text": "ishonchli",
+     "dis": false,
+     "chunk": 5,
+     "start": 76.495,
+     "end": 76.935,
+     "score": 0.999
+    },
+    {
+     "text": "tarixchilaridan",
+     "dis": false,
+     "chunk": 5,
+     "start": 76.995,
+     "end": 77.655,
+     "score": 0.9
+    },
+    {
+     "text": "biri",
+     "dis": false,
+     "chunk": 5,
+     "start": 77.735,
+     "end": 77.896,
+     "score": 0.75
+    },
+    {
+     "text": "hisoblanadi.",
+     "dis": false,
+     "chunk": 5,
+     "start": 77.916,
+     "end": 78.456,
+     "score": 0.971
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 79.016,
+   "end": 82.277,
+   "text": "Ikkinchisi — Koggeshollik Ralf, abbatlik boshlig'i.",
+   "words": [
+    {
+     "text": "Ikkinchisi",
+     "dis": false,
+     "chunk": 5,
+     "start": 79.016,
+     "end": 79.476,
+     "score": 0.988
+    },
+    {
+     "text": "—",
+     "dis": false,
+     "chunk": 5,
+     "start": 79.476,
+     "end": 79.476,
+     "score": 1
+    },
+    {
+     "text": "Koggeshollik",
+     "dis": false,
+     "chunk": 5,
+     "start": 79.836,
+     "end": 80.577,
+     "score": 0.702
+    },
+    {
+     "text": "Ralf,",
+     "dis": false,
+     "chunk": 5,
+     "start": 80.677,
+     "end": 80.957,
+     "score": 0.988
+    },
+    {
+     "text": "abbatlik",
+     "dis": false,
+     "chunk": 6,
+     "start": 81.297,
+     "end": 81.837,
+     "score": 0.912
+    },
+    {
+     "text": "boshlig'i.",
+     "dis": false,
+     "chunk": 6,
+     "start": 81.877,
+     "end": 82.277,
+     "score": 0.889
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 82.798,
+   "end": 88.159,
+   "text": "U bu voqeani hatto yashil qizni o'z uyida ishga olgan odamning og'zidan eshitganini yozgan.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 6,
+     "start": 82.798,
+     "end": 82.818,
+     "score": 1.0
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 6,
+     "start": 82.918,
+     "end": 82.998,
+     "score": 1.0
+    },
+    {
+     "text": "voqeani",
+     "dis": false,
+     "chunk": 6,
+     "start": 83.078,
+     "end": 83.498,
+     "score": 0.856
+    },
+    {
+     "text": "hatto",
+     "dis": false,
+     "chunk": 6,
+     "start": 83.538,
+     "end": 83.818,
+     "score": 0.99
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 6,
+     "start": 84.198,
+     "end": 84.498,
+     "score": 0.962
+    },
+    {
+     "text": "qizni",
+     "dis": false,
+     "chunk": 6,
+     "start": 84.578,
+     "end": 84.858,
+     "score": 0.796
+    },
+    {
+     "text": "o'z",
+     "dis": false,
+     "chunk": 6,
+     "start": 85.038,
+     "end": 85.198,
+     "score": 0.335
+    },
+    {
+     "text": "uyida",
+     "dis": false,
+     "chunk": 6,
+     "start": 85.358,
+     "end": 85.618,
+     "score": 0.796
+    },
+    {
+     "text": "ishga",
+     "dis": false,
+     "chunk": 6,
+     "start": 85.718,
+     "end": 85.999,
+     "score": 0.942
+    },
+    {
+     "text": "olgan",
+     "dis": false,
+     "chunk": 6,
+     "start": 86.119,
+     "end": 86.359,
+     "score": 1.0
+    },
+    {
+     "text": "odamning",
+     "dis": false,
+     "chunk": 6,
+     "start": 86.499,
+     "end": 86.899,
+     "score": 0.997
+    },
+    {
+     "text": "og'zidan",
+     "dis": false,
+     "chunk": 6,
+     "start": 86.999,
+     "end": 87.359,
+     "score": 0.874
+    },
+    {
+     "text": "eshitganini",
+     "dis": false,
+     "chunk": 6,
+     "start": 87.419,
+     "end": 87.819,
+     "score": 0.994
+    },
+    {
+     "text": "yozgan.",
+     "dis": false,
+     "chunk": 6,
+     "start": 87.859,
+     "end": 88.159,
+     "score": 0.667
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 88.759,
+   "end": 97.722,
+   "text": "Ikkalasi ham voqeani qirol Stiven hukmronligi davriga, ya'ni 1135 va 1154- yillar oralig'iga bog'lashadi.",
+   "words": [
+    {
+     "text": "Ikkalasi",
+     "dis": false,
+     "chunk": 7,
+     "start": 88.759,
+     "end": 89.26,
+     "score": 0.998
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 7,
+     "start": 89.3,
+     "end": 89.44,
+     "score": 0.998
+    },
+    {
+     "text": "voqeani",
+     "dis": false,
+     "chunk": 7,
+     "start": 89.5,
+     "end": 89.96,
+     "score": 0.856
+    },
+    {
+     "text": "qirol",
+     "dis": false,
+     "chunk": 7,
+     "start": 90.28,
+     "end": 90.58,
+     "score": 0.799
+    },
+    {
+     "text": "Stiven",
+     "dis": false,
+     "chunk": 7,
+     "start": 90.66,
+     "end": 91.02,
+     "score": 0.937
+    },
+    {
+     "text": "hukmronligi",
+     "dis": false,
+     "chunk": 7,
+     "start": 91.08,
+     "end": 91.66,
+     "score": 0.953
+    },
+    {
+     "text": "davriga,",
+     "dis": false,
+     "chunk": 7,
+     "start": 91.68,
+     "end": 92.04,
+     "score": 0.999
+    },
+    {
+     "text": "ya'ni",
+     "dis": false,
+     "chunk": 7,
+     "start": 92.481,
+     "end": 92.701,
+     "score": 0.8
+    },
+    {
+     "text": "1135",
+     "spoken": "bir",
+     "dis": false,
+     "chunk": 7,
+     "start": 93.061,
+     "end": 94.321,
+     "score": 0.041
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 7,
+     "start": 94.581,
+     "end": 94.641,
+     "score": 0.999
+    },
+    {
+     "text": "1154-",
+     "spoken": "bir",
+     "dis": false,
+     "chunk": 7,
+     "start": 94.741,
+     "end": 96.282,
+     "score": 0.119
+    },
+    {
+     "text": "yillar",
+     "dis": false,
+     "chunk": 7,
+     "start": 96.322,
+     "end": 96.582,
+     "score": 0.879
+    },
+    {
+     "text": "oralig'iga",
+     "dis": false,
+     "chunk": 7,
+     "start": 96.702,
+     "end": 97.182,
+     "score": 0.9
+    },
+    {
+     "text": "bog'lashadi.",
+     "dis": false,
+     "chunk": 7,
+     "start": 97.242,
+     "end": 97.722,
+     "score": 0.909
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 98.403,
+   "end": 107.205,
+   "text": "Uilyam o'zi ham bu hikoyaga dastlab ishonmaganini, ammo shunchalik ko'p ishonchli guvohlar borligi uchun uni yozishga majbur bo'lganini tan olgan.",
+   "words": [
+    {
+     "text": "Uilyam",
+     "dis": false,
+     "chunk": 8,
+     "start": 98.403,
+     "end": 98.783,
+     "score": 0.994
+    },
+    {
+     "text": "o'zi",
+     "dis": false,
+     "chunk": 8,
+     "start": 99.123,
+     "end": 99.303,
+     "score": 0.499
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 8,
+     "start": 99.343,
+     "end": 99.483,
+     "score": 0.988
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 8,
+     "start": 99.523,
+     "end": 99.603,
+     "score": 1.0
+    },
+    {
+     "text": "hikoyaga",
+     "dis": false,
+     "chunk": 8,
+     "start": 99.703,
+     "end": 100.143,
+     "score": 0.954
+    },
+    {
+     "text": "dastlab",
+     "dis": false,
+     "chunk": 8,
+     "start": 100.203,
+     "end": 100.503,
+     "score": 0.996
+    },
+    {
+     "text": "ishonmaganini,",
+     "dis": false,
+     "chunk": 8,
+     "start": 100.583,
+     "end": 101.243,
+     "score": 1.0
+    },
+    {
+     "text": "ammo",
+     "dis": false,
+     "chunk": 8,
+     "start": 101.604,
+     "end": 101.844,
+     "score": 1.0
+    },
+    {
+     "text": "shunchalik",
+     "dis": false,
+     "chunk": 8,
+     "start": 102.024,
+     "end": 102.544,
+     "score": 0.997
+    },
+    {
+     "text": "ko'p",
+     "dis": false,
+     "chunk": 8,
+     "start": 102.604,
+     "end": 102.784,
+     "score": 0.5
+    },
+    {
+     "text": "ishonchli",
+     "dis": false,
+     "chunk": 8,
+     "start": 102.884,
+     "end": 103.324,
+     "score": 0.882
+    },
+    {
+     "text": "guvohlar",
+     "dis": false,
+     "chunk": 8,
+     "start": 103.404,
+     "end": 103.824,
+     "score": 0.996
+    },
+    {
+     "text": "borligi",
+     "dis": false,
+     "chunk": 8,
+     "start": 103.864,
+     "end": 104.184,
+     "score": 0.995
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 8,
+     "start": 104.244,
+     "end": 104.444,
+     "score": 1.0
+    },
+    {
+     "text": "uni",
+     "dis": false,
+     "chunk": 8,
+     "start": 104.745,
+     "end": 104.845,
+     "score": 1.0
+    },
+    {
+     "text": "yozishga",
+     "dis": false,
+     "chunk": 8,
+     "start": 104.865,
+     "end": 105.305,
+     "score": 0.75
+    },
+    {
+     "text": "majbur",
+     "dis": false,
+     "chunk": 8,
+     "start": 105.385,
+     "end": 105.765,
+     "score": 0.833
+    },
+    {
+     "text": "bo'lganini",
+     "dis": false,
+     "chunk": 8,
+     "start": 105.805,
+     "end": 106.285,
+     "score": 0.799
+    },
+    {
+     "text": "tan",
+     "dis": false,
+     "chunk": 8,
+     "start": 106.605,
+     "end": 106.785,
+     "score": 1.0
+    },
+    {
+     "text": "olgan.",
+     "dis": false,
+     "chunk": 8,
+     "start": 106.905,
+     "end": 107.205,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 107.966,
+   "end": 109.586,
+   "text": "Endi voqeaning davomiga qaytamiz.",
+   "words": [
+    {
+     "text": "Endi",
+     "dis": false,
+     "chunk": 9,
+     "start": 107.966,
+     "end": 108.146,
+     "score": 0.993
+    },
+    {
+     "text": "voqeaning",
+     "dis": false,
+     "chunk": 9,
+     "start": 108.206,
+     "end": 108.686,
+     "score": 0.864
+    },
+    {
+     "text": "davomiga",
+     "dis": false,
+     "chunk": 9,
+     "start": 108.726,
+     "end": 109.126,
+     "score": 0.999
+    },
+    {
+     "text": "qaytamiz.",
+     "dis": false,
+     "chunk": 9,
+     "start": 109.166,
+     "end": 109.586,
+     "score": 0.75
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 110.166,
+   "end": 112.487,
+   "text": "Dehqonlar bolalarni qishloqqa olib kelishdi.",
+   "words": [
+    {
+     "text": "Dehqonlar",
+     "dis": false,
+     "chunk": 9,
+     "start": 110.166,
+     "end": 110.666,
+     "score": 0.851
+    },
+    {
+     "text": "bolalarni",
+     "dis": false,
+     "chunk": 9,
+     "start": 110.966,
+     "end": 111.407,
+     "score": 0.999
+    },
+    {
+     "text": "qishloqqa",
+     "dis": false,
+     "chunk": 9,
+     "start": 111.467,
+     "end": 111.847,
+     "score": 0.666
+    },
+    {
+     "text": "olib",
+     "dis": false,
+     "chunk": 9,
+     "start": 111.907,
+     "end": 112.067,
+     "score": 1.0
+    },
+    {
+     "text": "kelishdi.",
+     "dis": false,
+     "chunk": 9,
+     "start": 112.107,
+     "end": 112.487,
+     "score": 0.875
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 113.027,
+   "end": 115.388,
+   "text": "Ularni ko'rish uchun butun qishloq yig'ildi.",
+   "words": [
+    {
+     "text": "Ularni",
+     "dis": false,
+     "chunk": 9,
+     "start": 113.027,
+     "end": 113.287,
+     "score": 1.0
+    },
+    {
+     "text": "ko'rish",
+     "dis": false,
+     "chunk": 9,
+     "start": 113.327,
+     "end": 113.547,
+     "score": 0.712
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 9,
+     "start": 113.587,
+     "end": 113.767,
+     "score": 0.972
+    },
+    {
+     "text": "butun",
+     "dis": false,
+     "chunk": 9,
+     "start": 114.087,
+     "end": 114.428,
+     "score": 1.0
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 9,
+     "start": 114.528,
+     "end": 114.908,
+     "score": 0.713
+    },
+    {
+     "text": "yig'ildi.",
+     "dis": false,
+     "chunk": 9,
+     "start": 114.988,
+     "end": 115.388,
+     "score": 0.746
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 115.988,
+   "end": 120.55,
+   "text": "Keyin bolalarni mahalliy zodagon ser Richard de Kalnening uyiga olib borishdi.",
+   "words": [
+    {
+     "text": "Keyin",
+     "dis": false,
+     "chunk": 10,
+     "start": 115.988,
+     "end": 116.168,
+     "score": 0.784
+    },
+    {
+     "text": "bolalarni",
+     "dis": false,
+     "chunk": 10,
+     "start": 116.208,
+     "end": 116.668,
+     "score": 1.0
+    },
+    {
+     "text": "mahalliy",
+     "dis": false,
+     "chunk": 10,
+     "start": 116.948,
+     "end": 117.369,
+     "score": 0.872
+    },
+    {
+     "text": "zodagon",
+     "dis": false,
+     "chunk": 10,
+     "start": 117.429,
+     "end": 117.869,
+     "score": 0.998
+    },
+    {
+     "text": "ser",
+     "dis": false,
+     "chunk": 10,
+     "start": 118.189,
+     "end": 118.369,
+     "score": 0.991
+    },
+    {
+     "text": "Richard",
+     "dis": false,
+     "chunk": 10,
+     "start": 118.469,
+     "end": 118.829,
+     "score": 0.995
+    },
+    {
+     "text": "de",
+     "dis": false,
+     "chunk": 10,
+     "start": 118.909,
+     "end": 118.989,
+     "score": 0.999
+    },
+    {
+     "text": "Kalnening",
+     "dis": false,
+     "chunk": 10,
+     "start": 119.109,
+     "end": 119.669,
+     "score": 0.884
+    },
+    {
+     "text": "uyiga",
+     "dis": false,
+     "chunk": 10,
+     "start": 119.769,
+     "end": 119.969,
+     "score": 0.595
+    },
+    {
+     "text": "olib",
+     "dis": false,
+     "chunk": 10,
+     "start": 120.029,
+     "end": 120.189,
+     "score": 0.999
+    },
+    {
+     "text": "borishdi.",
+     "dis": false,
+     "chunk": 10,
+     "start": 120.209,
+     "end": 120.55,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 121.19,
+   "end": 123.45,
+   "text": "Ser Richard ularga ovqat berishni buyurdi.",
+   "words": [
+    {
+     "text": "Ser",
+     "dis": false,
+     "chunk": 10,
+     "start": 121.19,
+     "end": 121.39,
+     "score": 0.987
+    },
+    {
+     "text": "Richard",
+     "dis": false,
+     "chunk": 10,
+     "start": 121.45,
+     "end": 121.83,
+     "score": 0.961
+    },
+    {
+     "text": "ularga",
+     "dis": false,
+     "chunk": 10,
+     "start": 121.87,
+     "end": 122.17,
+     "score": 1.0
+    },
+    {
+     "text": "ovqat",
+     "dis": false,
+     "chunk": 10,
+     "start": 122.43,
+     "end": 122.73,
+     "score": 0.799
+    },
+    {
+     "text": "berishni",
+     "dis": false,
+     "chunk": 10,
+     "start": 122.77,
+     "end": 123.07,
+     "score": 0.975
+    },
+    {
+     "text": "buyurdi.",
+     "dis": false,
+     "chunk": 10,
+     "start": 123.11,
+     "end": 123.45,
+     "score": 0.984
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 123.991,
+   "end": 125.671,
+   "text": "Non, go'sht, sut.",
+   "words": [
+    {
+     "text": "Non,",
+     "dis": false,
+     "chunk": 10,
+     "start": 123.991,
+     "end": 124.271,
+     "score": 0.999
+    },
+    {
+     "text": "go'sht,",
+     "dis": false,
+     "chunk": 10,
+     "start": 124.731,
+     "end": 125.091,
+     "score": 0.634
+    },
+    {
+     "text": "sut.",
+     "dis": false,
+     "chunk": 10,
+     "start": 125.431,
+     "end": 125.671,
+     "score": 0.667
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 126.351,
+   "end": 128.352,
+   "text": "Ammo bolalar hech narsani yemadi.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 11,
+     "start": 126.351,
+     "end": 126.591,
+     "score": 0.996
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 11,
+     "start": 126.811,
+     "end": 127.172,
+     "score": 1.0
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 11,
+     "start": 127.272,
+     "end": 127.492,
+     "score": 0.995
+    },
+    {
+     "text": "narsani",
+     "dis": false,
+     "chunk": 11,
+     "start": 127.552,
+     "end": 127.912,
+     "score": 1.0
+    },
+    {
+     "text": "yemadi.",
+     "dis": false,
+     "chunk": 11,
+     "start": 127.972,
+     "end": 128.352,
+     "score": 0.833
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 128.852,
+   "end": 130.833,
+   "text": "Ular ovqatga qarab yig'lashardi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 11,
+     "start": 128.852,
+     "end": 129.032,
+     "score": 1.0
+    },
+    {
+     "text": "ovqatga",
+     "dis": false,
+     "chunk": 11,
+     "start": 129.312,
+     "end": 129.692,
+     "score": 0.855
+    },
+    {
+     "text": "qarab",
+     "dis": false,
+     "chunk": 11,
+     "start": 129.772,
+     "end": 130.052,
+     "score": 0.8
+    },
+    {
+     "text": "yig'lashardi.",
+     "dis": false,
+     "chunk": 11,
+     "start": 130.153,
+     "end": 130.833,
+     "score": 0.833
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 131.433,
+   "end": 132.293,
+   "text": "Bir kun o'tdi.",
+   "words": [
+    {
+     "text": "Bir",
+     "dis": false,
+     "chunk": 11,
+     "start": 131.433,
+     "end": 131.593,
+     "score": 0.999
+    },
+    {
+     "text": "kun",
+     "dis": false,
+     "chunk": 11,
+     "start": 131.693,
+     "end": 131.853,
+     "score": 0.999
+    },
+    {
+     "text": "o'tdi.",
+     "dis": false,
+     "chunk": 11,
+     "start": 131.973,
+     "end": 132.293,
+     "score": 0.599
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 132.753,
+   "end": 133.694,
+   "text": "Ikki kun o'tdi.",
+   "words": [
+    {
+     "text": "Ikki",
+     "dis": false,
+     "chunk": 11,
+     "start": 132.753,
+     "end": 133.053,
+     "score": 0.999
+    },
+    {
+     "text": "kun",
+     "dis": false,
+     "chunk": 11,
+     "start": 133.113,
+     "end": 133.273,
+     "score": 0.999
+    },
+    {
+     "text": "o'tdi.",
+     "dis": false,
+     "chunk": 11,
+     "start": 133.394,
+     "end": 133.694,
+     "score": 0.6
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 134.254,
+   "end": 136.454,
+   "text": "Ular ochlikdan holsizlana boshladi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 11,
+     "start": 134.254,
+     "end": 134.454,
+     "score": 1.0
+    },
+    {
+     "text": "ochlikdan",
+     "dis": false,
+     "chunk": 11,
+     "start": 134.754,
+     "end": 135.254,
+     "score": 1.0
+    },
+    {
+     "text": "holsizlana",
+     "dis": false,
+     "chunk": 11,
+     "start": 135.354,
+     "end": 136.014,
+     "score": 0.978
+    },
+    {
+     "text": "boshladi.",
+     "dis": false,
+     "chunk": 11,
+     "start": 136.054,
+     "end": 136.454,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 137.075,
+   "end": 141.356,
+   "text": "Shunda kimdir uyga yangi uzilgan dukkakli loviya poyalarini olib kirdi.",
+   "words": [
+    {
+     "text": "Shunda",
+     "dis": false,
+     "chunk": 12,
+     "start": 137.075,
+     "end": 137.295,
+     "score": 1.0
+    },
+    {
+     "text": "kimdir",
+     "dis": false,
+     "chunk": 12,
+     "start": 137.595,
+     "end": 137.875,
+     "score": 0.999
+    },
+    {
+     "text": "uyga",
+     "dis": false,
+     "chunk": 12,
+     "start": 137.975,
+     "end": 138.195,
+     "score": 0.75
+    },
+    {
+     "text": "yangi",
+     "dis": false,
+     "chunk": 12,
+     "start": 138.535,
+     "end": 138.855,
+     "score": 1.0
+    },
+    {
+     "text": "uzilgan",
+     "dis": false,
+     "chunk": 12,
+     "start": 138.955,
+     "end": 139.335,
+     "score": 1.0
+    },
+    {
+     "text": "dukkakli",
+     "dis": false,
+     "chunk": 12,
+     "start": 139.415,
+     "end": 139.896,
+     "score": 0.995
+    },
+    {
+     "text": "loviya",
+     "dis": false,
+     "chunk": 12,
+     "start": 140.016,
+     "end": 140.356,
+     "score": 0.994
+    },
+    {
+     "text": "poyalarini",
+     "dis": false,
+     "chunk": 12,
+     "start": 140.396,
+     "end": 140.896,
+     "score": 0.991
+    },
+    {
+     "text": "olib",
+     "dis": false,
+     "chunk": 12,
+     "start": 140.936,
+     "end": 141.096,
+     "score": 1.0
+    },
+    {
+     "text": "kirdi.",
+     "dis": false,
+     "chunk": 12,
+     "start": 141.116,
+     "end": 141.356,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 141.816,
+   "end": 144.217,
+   "text": "Bolalar ularni ko'rib, birdan jonlanib ketishdi.",
+   "words": [
+    {
+     "text": "Bolalar",
+     "dis": false,
+     "chunk": 12,
+     "start": 141.816,
+     "end": 142.156,
+     "score": 0.999
+    },
+    {
+     "text": "ularni",
+     "dis": false,
+     "chunk": 12,
+     "start": 142.256,
+     "end": 142.536,
+     "score": 1.0
+    },
+    {
+     "text": "ko'rib,",
+     "dis": false,
+     "chunk": 12,
+     "start": 142.596,
+     "end": 142.836,
+     "score": 0.666
+    },
+    {
+     "text": "birdan",
+     "dis": false,
+     "chunk": 12,
+     "start": 142.937,
+     "end": 143.317,
+     "score": 0.999
+    },
+    {
+     "text": "jonlanib",
+     "dis": false,
+     "chunk": 12,
+     "start": 143.397,
+     "end": 143.817,
+     "score": 0.875
+    },
+    {
+     "text": "ketishdi.",
+     "dis": false,
+     "chunk": 12,
+     "start": 143.857,
+     "end": 144.217,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 144.837,
+   "end": 147.579,
+   "text": "Ular imo-ishoralar bilan loviyani so'rashdi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 13,
+     "start": 144.837,
+     "end": 145.097,
+     "score": 1.0
+    },
+    {
+     "text": "imo-ishoralar",
+     "dis": false,
+     "chunk": 13,
+     "start": 145.318,
+     "end": 146.218,
+     "score": 0.941
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 13,
+     "start": 146.278,
+     "end": 146.498,
+     "score": 0.999
+    },
+    {
+     "text": "loviyani",
+     "dis": false,
+     "chunk": 13,
+     "start": 146.619,
+     "end": 147.099,
+     "score": 0.988
+    },
+    {
+     "text": "so'rashdi.",
+     "dis": false,
+     "chunk": 13,
+     "start": 147.139,
+     "end": 147.579,
+     "score": 0.778
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 148.18,
+   "end": 153.543,
+   "text": "Ammo qiziq tomoni shundaki, ular loviyani poyasini yorib, ichidan qidirishdi.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 13,
+     "start": 148.18,
+     "end": 148.42,
+     "score": 1.0
+    },
+    {
+     "text": "qiziq",
+     "dis": false,
+     "chunk": 13,
+     "start": 148.56,
+     "end": 148.88,
+     "score": 0.598
+    },
+    {
+     "text": "tomoni",
+     "dis": false,
+     "chunk": 13,
+     "start": 148.96,
+     "end": 149.34,
+     "score": 0.999
+    },
+    {
+     "text": "shundaki,",
+     "dis": false,
+     "chunk": 13,
+     "start": 149.401,
+     "end": 149.901,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 13,
+     "start": 150.401,
+     "end": 150.621,
+     "score": 1.0
+    },
+    {
+     "text": "loviyani",
+     "dis": false,
+     "chunk": 13,
+     "start": 150.741,
+     "end": 151.182,
+     "score": 0.986
+    },
+    {
+     "text": "poyasini",
+     "dis": false,
+     "chunk": 13,
+     "start": 151.242,
+     "end": 151.822,
+     "score": 0.985
+    },
+    {
+     "text": "yorib,",
+     "dis": false,
+     "chunk": 13,
+     "start": 151.822,
+     "end": 152.162,
+     "score": 0.6
+    },
+    {
+     "text": "ichidan",
+     "dis": false,
+     "chunk": 13,
+     "start": 152.583,
+     "end": 152.983,
+     "score": 0.994
+    },
+    {
+     "text": "qidirishdi.",
+     "dis": false,
+     "chunk": 13,
+     "start": 153.083,
+     "end": 153.543,
+     "score": 0.857
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 154.284,
+   "end": 157.326,
+   "text": "Ular loviya dukkaklari ichida ekanini bilishmasdi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 14,
+     "start": 154.284,
+     "end": 154.504,
+     "score": 1.0
+    },
+    {
+     "text": "loviya",
+     "dis": false,
+     "chunk": 14,
+     "start": 154.584,
+     "end": 154.924,
+     "score": 0.992
+    },
+    {
+     "text": "dukkaklari",
+     "dis": false,
+     "chunk": 14,
+     "start": 155.025,
+     "end": 155.605,
+     "score": 0.998
+    },
+    {
+     "text": "ichida",
+     "dis": false,
+     "chunk": 14,
+     "start": 155.645,
+     "end": 155.865,
+     "score": 0.999
+    },
+    {
+     "text": "ekanini",
+     "dis": false,
+     "chunk": 14,
+     "start": 155.945,
+     "end": 156.325,
+     "score": 0.999
+    },
+    {
+     "text": "bilishmasdi.",
+     "dis": false,
+     "chunk": 14,
+     "start": 156.706,
+     "end": 157.326,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 158.067,
+   "end": 160.308,
+   "text": "Kimdir ularga dukkakni ochib ko'rsatdi.",
+   "words": [
+    {
+     "text": "Kimdir",
+     "dis": false,
+     "chunk": 14,
+     "start": 158.067,
+     "end": 158.347,
+     "score": 1.0
+    },
+    {
+     "text": "ularga",
+     "dis": false,
+     "chunk": 14,
+     "start": 158.407,
+     "end": 158.727,
+     "score": 1.0
+    },
+    {
+     "text": "dukkakni",
+     "dis": false,
+     "chunk": 14,
+     "start": 159.027,
+     "end": 159.448,
+     "score": 0.997
+    },
+    {
+     "text": "ochib",
+     "dis": false,
+     "chunk": 14,
+     "start": 159.528,
+     "end": 159.748,
+     "score": 0.999
+    },
+    {
+     "text": "ko'rsatdi.",
+     "dis": false,
+     "chunk": 14,
+     "start": 159.788,
+     "end": 160.308,
+     "score": 0.777
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 161.049,
+   "end": 164.331,
+   "text": "Bolalar xom loviyani ochko'zlik bilan yeya boshlashdi.",
+   "words": [
+    {
+     "text": "Bolalar",
+     "dis": false,
+     "chunk": 14,
+     "start": 161.049,
+     "end": 161.449,
+     "score": 1.0
+    },
+    {
+     "text": "xom",
+     "dis": false,
+     "chunk": 14,
+     "start": 161.829,
+     "end": 162.13,
+     "score": 0.665
+    },
+    {
+     "text": "loviyani",
+     "dis": false,
+     "chunk": 14,
+     "start": 162.21,
+     "end": 162.67,
+     "score": 0.992
+    },
+    {
+     "text": "ochko'zlik",
+     "dis": false,
+     "chunk": 14,
+     "start": 162.79,
+     "end": 163.331,
+     "score": 0.785
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 14,
+     "start": 163.371,
+     "end": 163.551,
+     "score": 0.999
+    },
+    {
+     "text": "yeya",
+     "dis": false,
+     "chunk": 14,
+     "start": 163.611,
+     "end": 163.811,
+     "score": 0.554
+    },
+    {
+     "text": "boshlashdi.",
+     "dis": false,
+     "chunk": 14,
+     "start": 163.851,
+     "end": 164.331,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 164.351,
+   "end": 169.175,
+   "text": "keyingi bir necha oy davomida ular faqat loviya yeb yashashdi.",
+   "words": [
+    {
+     "text": "Ke,",
+     "dis": true,
+     "chunk": 15,
+     "start": 164.351,
+     "end": 165.072,
+     "score": 0.0
+    },
+    {
+     "text": "keyingi,",
+     "dis": true,
+     "chunk": 15,
+     "start": 165.072,
+     "end": 165.412,
+     "score": 0.571
+    },
+    {
+     "text": "keyingi",
+     "dis": false,
+     "chunk": 15,
+     "start": 165.412,
+     "end": 165.552,
+     "score": 0.14
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 15,
+     "start": 165.612,
+     "end": 165.732,
+     "score": 0.999
+    },
+    {
+     "text": "necha",
+     "dis": false,
+     "chunk": 15,
+     "start": 165.792,
+     "end": 166.012,
+     "score": 0.911
+    },
+    {
+     "text": "oy",
+     "dis": false,
+     "chunk": 15,
+     "start": 166.053,
+     "end": 166.153,
+     "score": 0.503
+    },
+    {
+     "text": "davomida",
+     "dis": false,
+     "chunk": 15,
+     "start": 166.213,
+     "end": 166.693,
+     "score": 0.999
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 15,
+     "start": 167.093,
+     "end": 167.333,
+     "score": 1.0
+    },
+    {
+     "text": "faqat",
+     "dis": false,
+     "chunk": 15,
+     "start": 167.494,
+     "end": 167.814,
+     "score": 0.8
+    },
+    {
+     "text": "loviya",
+     "dis": false,
+     "chunk": 15,
+     "start": 168.014,
+     "end": 168.414,
+     "score": 0.969
+    },
+    {
+     "text": "yeb",
+     "dis": false,
+     "chunk": 15,
+     "start": 168.494,
+     "end": 168.634,
+     "score": 0.593
+    },
+    {
+     "text": "yashashdi.",
+     "dis": false,
+     "chunk": 15,
+     "start": 168.694,
+     "end": 169.175,
+     "score": 0.98
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 169.995,
+   "end": 173.598,
+   "text": "Vaqt o'tishi bilan bolalar boshqa ovqatlarga ham o'rgana boshlashdi.",
+   "words": [
+    {
+     "text": "Vaqt",
+     "dis": false,
+     "chunk": 15,
+     "start": 169.995,
+     "end": 170.216,
+     "score": 0.75
+    },
+    {
+     "text": "o'tishi",
+     "dis": false,
+     "chunk": 15,
+     "start": 170.256,
+     "end": 170.496,
+     "score": 0.712
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 15,
+     "start": 170.536,
+     "end": 170.736,
+     "score": 1.0
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 15,
+     "start": 170.796,
+     "end": 171.176,
+     "score": 1.0
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 15,
+     "start": 171.576,
+     "end": 171.877,
+     "score": 0.824
+    },
+    {
+     "text": "ovqatlarga",
+     "dis": false,
+     "chunk": 15,
+     "start": 171.937,
+     "end": 172.477,
+     "score": 0.891
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 15,
+     "start": 172.517,
+     "end": 172.637,
+     "score": 1.0
+    },
+    {
+     "text": "o'rgana",
+     "dis": false,
+     "chunk": 15,
+     "start": 172.737,
+     "end": 173.058,
+     "score": 0.71
+    },
+    {
+     "text": "boshlashdi.",
+     "dis": false,
+     "chunk": 15,
+     "start": 173.098,
+     "end": 173.598,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "start": 174.358,
+   "end": 177.441,
+   "text": "Va shu bilan birga ajablanarli narsa yuz berdi.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 15,
+     "start": 174.358,
+     "end": 174.419,
+     "score": 1.0
+    },
+    {
+     "text": "shu",
+     "dis": false,
+     "chunk": 15,
+     "start": 174.519,
+     "end": 174.619,
+     "score": 1.0
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 15,
+     "start": 174.679,
+     "end": 174.899,
+     "score": 1.0
+    },
+    {
+     "text": "birga",
+     "dis": false,
+     "chunk": 15,
+     "start": 174.939,
+     "end": 175.199,
+     "score": 1.0
+    },
+    {
+     "text": "ajablanarli",
+     "dis": false,
+     "chunk": 15,
+     "start": 175.719,
+     "end": 176.52,
+     "score": 0.907
+    },
+    {
+     "text": "narsa",
+     "dis": false,
+     "chunk": 15,
+     "start": 176.6,
+     "end": 176.86,
+     "score": 1.0
+    },
+    {
+     "text": "yuz",
+     "dis": false,
+     "chunk": 15,
+     "start": 176.92,
+     "end": 177.08,
+     "score": 0.969
+    },
+    {
+     "text": "berdi.",
+     "dis": false,
+     "chunk": 15,
+     "start": 177.12,
+     "end": 177.441,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "start": 178.241,
+   "end": 181.844,
+   "text": "Ularning terisidagi yashil rang asta-sekin yo'qola boshladi.",
+   "words": [
+    {
+     "text": "Ularning",
+     "dis": false,
+     "chunk": 16,
+     "start": 178.241,
+     "end": 178.622,
+     "score": 0.998
+    },
+    {
+     "text": "terisidagi",
+     "dis": false,
+     "chunk": 16,
+     "start": 178.662,
+     "end": 179.202,
+     "score": 0.988
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 16,
+     "start": 179.282,
+     "end": 179.642,
+     "score": 0.998
+    },
+    {
+     "text": "rang",
+     "dis": false,
+     "chunk": 16,
+     "start": 179.742,
+     "end": 179.922,
+     "score": 1.0
+    },
+    {
+     "text": "asta-sekin",
+     "dis": false,
+     "chunk": 16,
+     "start": 180.363,
+     "end": 180.943,
+     "score": 0.991
+    },
+    {
+     "text": "yo'qola",
+     "dis": false,
+     "chunk": 16,
+     "start": 181.023,
+     "end": 181.364,
+     "score": 0.557
+    },
+    {
+     "text": "boshladi.",
+     "dis": false,
+     "chunk": 16,
+     "start": 181.404,
+     "end": 181.844,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "start": 182.704,
+   "end": 186.647,
+   "text": "Bir necha oy ichida ular boshqa bolalardan deyarli farq qilmay qoldi.",
+   "words": [
+    {
+     "text": "Bir",
+     "dis": false,
+     "chunk": 16,
+     "start": 182.704,
+     "end": 182.825,
+     "score": 1.0
+    },
+    {
+     "text": "necha",
+     "dis": false,
+     "chunk": 16,
+     "start": 182.865,
+     "end": 183.085,
+     "score": 0.927
+    },
+    {
+     "text": "oy",
+     "dis": false,
+     "chunk": 16,
+     "start": 183.125,
+     "end": 183.225,
+     "score": 0.532
+    },
+    {
+     "text": "ichida",
+     "dis": false,
+     "chunk": 16,
+     "start": 183.305,
+     "end": 183.565,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 16,
+     "start": 183.905,
+     "end": 184.105,
+     "score": 1.0
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 16,
+     "start": 184.186,
+     "end": 184.486,
+     "score": 0.833
+    },
+    {
+     "text": "bolalardan",
+     "dis": false,
+     "chunk": 16,
+     "start": 184.526,
+     "end": 185.066,
+     "score": 0.999
+    },
+    {
+     "text": "deyarli",
+     "dis": false,
+     "chunk": 16,
+     "start": 185.126,
+     "end": 185.506,
+     "score": 0.924
+    },
+    {
+     "text": "farq",
+     "dis": false,
+     "chunk": 16,
+     "start": 185.627,
+     "end": 185.867,
+     "score": 0.75
+    },
+    {
+     "text": "qilmay",
+     "dis": false,
+     "chunk": 16,
+     "start": 185.947,
+     "end": 186.267,
+     "score": 0.666
+    },
+    {
+     "text": "qoldi.",
+     "dis": false,
+     "chunk": 16,
+     "start": 186.347,
+     "end": 186.647,
+     "score": 0.8
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "start": 187.408,
+   "end": 191.151,
+   "text": "Ammo o'g'il bola doim kasal va holsiz edi.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 17,
+     "start": 187.408,
+     "end": 187.628,
+     "score": 1.0
+    },
+    {
+     "text": "o'g'il",
+     "dis": false,
+     "chunk": 17,
+     "start": 187.828,
+     "end": 188.068,
+     "score": 0.349
+    },
+    {
+     "text": "bola",
+     "dis": false,
+     "chunk": 17,
+     "start": 188.128,
+     "end": 188.349,
+     "score": 1.0
+    },
+    {
+     "text": "doim",
+     "dis": false,
+     "chunk": 17,
+     "start": 188.829,
+     "end": 189.289,
+     "score": 0.997
+    },
+    {
+     "text": "kasal",
+     "dis": false,
+     "chunk": 17,
+     "start": 189.409,
+     "end": 189.91,
+     "score": 1.0
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 17,
+     "start": 190.29,
+     "end": 190.35,
+     "score": 1.0
+    },
+    {
+     "text": "holsiz",
+     "dis": false,
+     "chunk": 17,
+     "start": 190.45,
+     "end": 190.89,
+     "score": 0.993
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 17,
+     "start": 190.97,
+     "end": 191.151,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "start": 191.991,
+   "end": 197.615,
+   "text": "Bolalar suvga cho'mdirilib, xristian diniga kiritilgandan ko'p o'tmay, o'g'il vafot etdi.",
+   "words": [
+    {
+     "text": "Bolalar",
+     "dis": false,
+     "chunk": 17,
+     "start": 191.991,
+     "end": 192.391,
+     "score": 1.0
+    },
+    {
+     "text": "suvga",
+     "dis": false,
+     "chunk": 17,
+     "start": 192.431,
+     "end": 192.672,
+     "score": 0.976
+    },
+    {
+     "text": "cho'mdirilib,",
+     "dis": false,
+     "chunk": 17,
+     "start": 192.732,
+     "end": 193.252,
+     "score": 0.797
+    },
+    {
+     "text": "xristian",
+     "dis": false,
+     "chunk": 17,
+     "start": 193.452,
+     "end": 193.973,
+     "score": 0.684
+    },
+    {
+     "text": "diniga",
+     "dis": false,
+     "chunk": 17,
+     "start": 194.013,
+     "end": 194.293,
+     "score": 0.841
+    },
+    {
+     "text": "kiritilgandan",
+     "dis": false,
+     "chunk": 17,
+     "start": 194.353,
+     "end": 195.013,
+     "score": 0.995
+    },
+    {
+     "text": "ko'p",
+     "dis": false,
+     "chunk": 17,
+     "start": 195.093,
+     "end": 195.273,
+     "score": 0.5
+    },
+    {
+     "text": "o'tmay,",
+     "dis": false,
+     "chunk": 17,
+     "start": 195.374,
+     "end": 195.714,
+     "score": 0.5
+    },
+    {
+     "text": "o'g'il",
+     "dis": false,
+     "chunk": 17,
+     "start": 196.274,
+     "end": 196.534,
+     "score": 0.353
+    },
+    {
+     "text": "vafot",
+     "dis": false,
+     "chunk": 17,
+     "start": 196.895,
+     "end": 197.295,
+     "score": 0.986
+    },
+    {
+     "text": "etdi.",
+     "dis": false,
+     "chunk": 17,
+     "start": 197.355,
+     "end": 197.615,
+     "score": 0.997
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "start": 198.456,
+   "end": 199.476,
+   "text": "Qiz esa omon qoldi.",
+   "words": [
+    {
+     "text": "Qiz",
+     "dis": false,
+     "chunk": 18,
+     "start": 198.456,
+     "end": 198.616,
+     "score": 0.661
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 18,
+     "start": 198.656,
+     "end": 198.816,
+     "score": 0.968
+    },
+    {
+     "text": "omon",
+     "dis": false,
+     "chunk": 18,
+     "start": 198.896,
+     "end": 199.116,
+     "score": 0.999
+    },
+    {
+     "text": "qoldi.",
+     "dis": false,
+     "chunk": 18,
+     "start": 199.176,
+     "end": 199.476,
+     "score": 0.615
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "start": 200.177,
+   "end": 202.118,
+   "text": "U sog'lom va kuchli bo'lib ulg'aydi.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 18,
+     "start": 200.177,
+     "end": 200.197,
+     "score": 1.0
+    },
+    {
+     "text": "sog'lom",
+     "dis": false,
+     "chunk": 18,
+     "start": 200.357,
+     "end": 200.817,
+     "score": 0.857
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 18,
+     "start": 200.878,
+     "end": 200.938,
+     "score": 0.999
+    },
+    {
+     "text": "kuchli",
+     "dis": false,
+     "chunk": 18,
+     "start": 201.018,
+     "end": 201.338,
+     "score": 0.999
+    },
+    {
+     "text": "bo'lib",
+     "dis": false,
+     "chunk": 18,
+     "start": 201.418,
+     "end": 201.658,
+     "score": 0.666
+    },
+    {
+     "text": "ulg'aydi.",
+     "dis": false,
+     "chunk": 18,
+     "start": 201.698,
+     "end": 202.118,
+     "score": 0.749
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "start": 202.799,
+   "end": 205.421,
+   "text": "Eng muhimi, u ingliz tilini o'rgandi.",
+   "words": [
+    {
+     "text": "Eng",
+     "dis": false,
+     "chunk": 18,
+     "start": 202.799,
+     "end": 202.959,
+     "score": 0.983
+    },
+    {
+     "text": "muhimi,",
+     "dis": false,
+     "chunk": 18,
+     "start": 202.979,
+     "end": 203.319,
+     "score": 0.979
+    },
+    {
+     "text": "u",
+     "dis": false,
+     "chunk": 18,
+     "start": 203.84,
+     "end": 203.86,
+     "score": 1.0
+    },
+    {
+     "text": "ingliz",
+     "dis": false,
+     "chunk": 18,
+     "start": 204.12,
+     "end": 204.54,
+     "score": 0.939
+    },
+    {
+     "text": "tilini",
+     "dis": false,
+     "chunk": 18,
+     "start": 204.58,
+     "end": 204.86,
+     "score": 0.999
+    },
+    {
+     "text": "o'rgandi.",
+     "dis": false,
+     "chunk": 18,
+     "start": 204.96,
+     "end": 205.421,
+     "score": 0.75
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "start": 206.101,
+   "end": 213.707,
+   "text": "Va bir kun kelib, odamlar undan nihoyat eng katta savolni so'rashdi: «Sen kimsan va qayerdan kelding?»",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 19,
+     "start": 206.101,
+     "end": 206.181,
+     "score": 1.0
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 19,
+     "start": 206.241,
+     "end": 206.341,
+     "score": 0.999
+    },
+    {
+     "text": "kun",
+     "dis": false,
+     "chunk": 19,
+     "start": 206.381,
+     "end": 206.522,
+     "score": 0.999
+    },
+    {
+     "text": "kelib,",
+     "dis": false,
+     "chunk": 19,
+     "start": 206.582,
+     "end": 206.842,
+     "score": 1.0
+    },
+    {
+     "text": "odamlar",
+     "dis": false,
+     "chunk": 19,
+     "start": 207.202,
+     "end": 207.562,
+     "score": 0.999
+    },
+    {
+     "text": "undan",
+     "dis": false,
+     "chunk": 19,
+     "start": 207.602,
+     "end": 207.863,
+     "score": 0.998
+    },
+    {
+     "text": "nihoyat",
+     "dis": false,
+     "chunk": 19,
+     "start": 207.923,
+     "end": 208.403,
+     "score": 0.998
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 19,
+     "start": 208.683,
+     "end": 208.883,
+     "score": 0.932
+    },
+    {
+     "text": "katta",
+     "dis": false,
+     "chunk": 19,
+     "start": 208.963,
+     "end": 209.344,
+     "score": 0.996
+    },
+    {
+     "text": "savolni",
+     "dis": false,
+     "chunk": 19,
+     "start": 209.444,
+     "end": 209.884,
+     "score": 0.987
+    },
+    {
+     "text": "so'rashdi:",
+     "dis": false,
+     "chunk": 19,
+     "start": 209.944,
+     "end": 210.364,
+     "score": 0.777
+    },
+    {
+     "text": "«Sen",
+     "dis": false,
+     "chunk": 19,
+     "start": 211.165,
+     "end": 211.385,
+     "score": 1.0
+    },
+    {
+     "text": "kimsan",
+     "dis": false,
+     "chunk": 19,
+     "start": 211.565,
+     "end": 212.106,
+     "score": 0.999
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 19,
+     "start": 212.566,
+     "end": 212.626,
+     "score": 1.0
+    },
+    {
+     "text": "qayerdan",
+     "dis": false,
+     "chunk": 19,
+     "start": 212.726,
+     "end": 213.246,
+     "score": 0.647
+    },
+    {
+     "text": "kelding?»",
+     "dis": false,
+     "chunk": 19,
+     "start": 213.306,
+     "end": 213.707,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "start": 214.467,
+   "end": 217.089,
+   "text": "Uning javobi hammani hayratga soldi.",
+   "words": [
+    {
+     "text": "Uning",
+     "dis": false,
+     "chunk": 20,
+     "start": 214.467,
+     "end": 214.727,
+     "score": 0.994
+    },
+    {
+     "text": "javobi",
+     "dis": false,
+     "chunk": 20,
+     "start": 214.767,
+     "end": 215.188,
+     "score": 0.833
+    },
+    {
+     "text": "hammani",
+     "dis": false,
+     "chunk": 20,
+     "start": 215.788,
+     "end": 216.249,
+     "score": 0.998
+    },
+    {
+     "text": "hayratga",
+     "dis": false,
+     "chunk": 20,
+     "start": 216.309,
+     "end": 216.729,
+     "score": 0.862
+    },
+    {
+     "text": "soldi.",
+     "dis": false,
+     "chunk": 20,
+     "start": 216.789,
+     "end": 217.089,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "start": 217.91,
+   "end": 222.613,
+   "text": "Qizning aytishicha, ular «Avliyo Martin yurti» deb atalgan joydan kelishgan.",
+   "words": [
+    {
+     "text": "Qizning",
+     "dis": false,
+     "chunk": 20,
+     "start": 217.91,
+     "end": 218.21,
+     "score": 0.819
+    },
+    {
+     "text": "aytishicha,",
+     "dis": false,
+     "chunk": 20,
+     "start": 218.25,
+     "end": 218.71,
+     "score": 0.883
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 20,
+     "start": 219.111,
+     "end": 219.351,
+     "score": 1.0
+    },
+    {
+     "text": "«Avliyo",
+     "dis": false,
+     "chunk": 20,
+     "start": 219.731,
+     "end": 220.111,
+     "score": 0.664
+    },
+    {
+     "text": "Martin",
+     "dis": false,
+     "chunk": 20,
+     "start": 220.311,
+     "end": 220.752,
+     "score": 0.991
+    },
+    {
+     "text": "yurti»",
+     "dis": false,
+     "chunk": 20,
+     "start": 220.832,
+     "end": 221.132,
+     "score": 0.889
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 20,
+     "start": 221.172,
+     "end": 221.292,
+     "score": 1.0
+    },
+    {
+     "text": "atalgan",
+     "dis": false,
+     "chunk": 20,
+     "start": 221.352,
+     "end": 221.732,
+     "score": 1.0
+    },
+    {
+     "text": "joydan",
+     "dis": false,
+     "chunk": 20,
+     "start": 221.792,
+     "end": 222.113,
+     "score": 0.667
+    },
+    {
+     "text": "kelishgan.",
+     "dis": false,
+     "chunk": 20,
+     "start": 222.173,
+     "end": 222.613,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "start": 223.334,
+   "end": 226.576,
+   "text": "U yerda yashaydigan hamma odamlar yashil rangda edi.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 21,
+     "start": 223.334,
+     "end": 223.354,
+     "score": 1.0
+    },
+    {
+     "text": "yerda",
+     "dis": false,
+     "chunk": 21,
+     "start": 223.414,
+     "end": 223.634,
+     "score": 0.8
+    },
+    {
+     "text": "yashaydigan",
+     "dis": false,
+     "chunk": 21,
+     "start": 223.674,
+     "end": 224.194,
+     "score": 0.901
+    },
+    {
+     "text": "hamma",
+     "dis": false,
+     "chunk": 21,
+     "start": 224.334,
+     "end": 224.695,
+     "score": 0.976
+    },
+    {
+     "text": "odamlar",
+     "dis": false,
+     "chunk": 21,
+     "start": 224.835,
+     "end": 225.235,
+     "score": 1.0
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 21,
+     "start": 225.655,
+     "end": 225.995,
+     "score": 0.93
+    },
+    {
+     "text": "rangda",
+     "dis": false,
+     "chunk": 21,
+     "start": 226.076,
+     "end": 226.336,
+     "score": 0.999
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 21,
+     "start": 226.436,
+     "end": 226.576,
+     "score": 0.993
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "start": 227.316,
+   "end": 230.599,
+   "text": "Eng g'alatisi, u yerda quyosh hech qachon chiqmagan.",
+   "words": [
+    {
+     "text": "Eng",
+     "dis": false,
+     "chunk": 21,
+     "start": 227.316,
+     "end": 227.477,
+     "score": 0.974
+    },
+    {
+     "text": "g'alatisi,",
+     "dis": false,
+     "chunk": 21,
+     "start": 227.537,
+     "end": 228.037,
+     "score": 0.823
+    },
+    {
+     "text": "u",
+     "dis": false,
+     "chunk": 21,
+     "start": 228.557,
+     "end": 228.577,
+     "score": 1.0
+    },
+    {
+     "text": "yerda",
+     "dis": false,
+     "chunk": 21,
+     "start": 228.637,
+     "end": 228.878,
+     "score": 0.8
+    },
+    {
+     "text": "quyosh",
+     "dis": false,
+     "chunk": 21,
+     "start": 228.938,
+     "end": 229.278,
+     "score": 0.495
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 21,
+     "start": 229.418,
+     "end": 229.678,
+     "score": 0.991
+    },
+    {
+     "text": "qachon",
+     "dis": false,
+     "chunk": 21,
+     "start": 229.738,
+     "end": 230.038,
+     "score": 0.824
+    },
+    {
+     "text": "chiqmagan.",
+     "dis": false,
+     "chunk": 21,
+     "start": 230.118,
+     "end": 230.599,
+     "score": 0.889
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "start": 231.299,
+   "end": 235.042,
+   "text": "Doimiy shom, abadiy ala-qorong'ilik hukm surgan.",
+   "words": [
+    {
+     "text": "Doimiy",
+     "dis": false,
+     "chunk": 22,
+     "start": 231.299,
+     "end": 231.78,
+     "score": 0.768
+    },
+    {
+     "text": "shom,",
+     "dis": false,
+     "chunk": 22,
+     "start": 231.96,
+     "end": 232.26,
+     "score": 0.979
+    },
+    {
+     "text": "abadiy",
+     "dis": false,
+     "chunk": 22,
+     "start": 232.82,
+     "end": 233.221,
+     "score": 0.845
+    },
+    {
+     "text": "ala-qorong'ilik",
+     "dis": false,
+     "chunk": 22,
+     "start": 233.501,
+     "end": 234.342,
+     "score": 0.651
+    },
+    {
+     "text": "hukm",
+     "dis": false,
+     "chunk": 22,
+     "start": 234.422,
+     "end": 234.662,
+     "score": 0.978
+    },
+    {
+     "text": "surgan.",
+     "dis": false,
+     "chunk": 22,
+     "start": 234.722,
+     "end": 235.042,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "start": 235.763,
+   "end": 240.806,
+   "text": "Xuddi quyosh botgandan keyingi yoki chiqishidan oldingi g'ira-shira yorug'likdek.",
+   "words": [
+    {
+     "text": "Xuddi",
+     "dis": false,
+     "chunk": 22,
+     "start": 235.763,
+     "end": 236.043,
+     "score": 0.799
+    },
+    {
+     "text": "quyosh",
+     "dis": false,
+     "chunk": 22,
+     "start": 236.383,
+     "end": 236.683,
+     "score": 0.5
+    },
+    {
+     "text": "botgandan",
+     "dis": false,
+     "chunk": 22,
+     "start": 236.763,
+     "end": 237.304,
+     "score": 0.997
+    },
+    {
+     "text": "keyingi",
+     "dis": false,
+     "chunk": 22,
+     "start": 237.364,
+     "end": 237.764,
+     "score": 0.857
+    },
+    {
+     "text": "yoki",
+     "dis": false,
+     "chunk": 22,
+     "start": 237.784,
+     "end": 238.405,
+     "score": 0.5
+    },
+    {
+     "text": "chiqishidan",
+     "dis": false,
+     "chunk": 22,
+     "start": 238.485,
+     "end": 239.005,
+     "score": 0.905
+    },
+    {
+     "text": "oldingi",
+     "dis": false,
+     "chunk": 22,
+     "start": 239.145,
+     "end": 239.525,
+     "score": 0.998
+    },
+    {
+     "text": "g'ira-shira",
+     "dis": false,
+     "chunk": 22,
+     "start": 239.605,
+     "end": 240.086,
+     "score": 0.847
+    },
+    {
+     "text": "yorug'likdek.",
+     "dis": false,
+     "chunk": 22,
+     "start": 240.106,
+     "end": 240.806,
+     "score": 0.627
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "start": 241.567,
+   "end": 246.731,
+   "text": "Qizning so'zlariga ko'ra, daryoning narigi tomonida yorug' bir mamlakat ko'rinib turardi.",
+   "words": [
+    {
+     "text": "Qizning",
+     "dis": false,
+     "chunk": 23,
+     "start": 241.567,
+     "end": 241.927,
+     "score": 0.855
+    },
+    {
+     "text": "so'zlariga",
+     "dis": false,
+     "chunk": 23,
+     "start": 241.967,
+     "end": 242.447,
+     "score": 0.8
+    },
+    {
+     "text": "ko'ra,",
+     "dis": false,
+     "chunk": 23,
+     "start": 242.488,
+     "end": 242.708,
+     "score": 0.6
+    },
+    {
+     "text": "daryoning",
+     "dis": false,
+     "chunk": 23,
+     "start": 243.108,
+     "end": 243.648,
+     "score": 0.777
+    },
+    {
+     "text": "narigi",
+     "dis": false,
+     "chunk": 23,
+     "start": 243.688,
+     "end": 244.009,
+     "score": 0.974
+    },
+    {
+     "text": "tomonida",
+     "dis": false,
+     "chunk": 23,
+     "start": 244.049,
+     "end": 244.509,
+     "score": 1.0
+    },
+    {
+     "text": "yorug'",
+     "dis": false,
+     "chunk": 23,
+     "start": 244.989,
+     "end": 245.25,
+     "score": 0.489
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 23,
+     "start": 245.33,
+     "end": 245.45,
+     "score": 0.999
+    },
+    {
+     "text": "mamlakat",
+     "dis": false,
+     "chunk": 23,
+     "start": 245.51,
+     "end": 245.97,
+     "score": 0.999
+    },
+    {
+     "text": "ko'rinib",
+     "dis": false,
+     "chunk": 23,
+     "start": 246.03,
+     "end": 246.35,
+     "score": 0.741
+    },
+    {
+     "text": "turardi.",
+     "dis": false,
+     "chunk": 23,
+     "start": 246.39,
+     "end": 246.731,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "start": 247.471,
+   "end": 250.333,
+   "text": "Ammo ular u yerga hech qachon borishmagan.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 23,
+     "start": 247.471,
+     "end": 247.691,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 23,
+     "start": 247.871,
+     "end": 248.152,
+     "score": 1.0
+    },
+    {
+     "text": "u",
+     "dis": false,
+     "chunk": 23,
+     "start": 248.272,
+     "end": 248.292,
+     "score": 1.0
+    },
+    {
+     "text": "yerga",
+     "dis": false,
+     "chunk": 23,
+     "start": 248.412,
+     "end": 248.692,
+     "score": 0.8
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 23,
+     "start": 249.112,
+     "end": 249.333,
+     "score": 0.981
+    },
+    {
+     "text": "qachon",
+     "dis": false,
+     "chunk": 23,
+     "start": 249.373,
+     "end": 249.673,
+     "score": 0.823
+    },
+    {
+     "text": "borishmagan.",
+     "dis": false,
+     "chunk": 23,
+     "start": 249.713,
+     "end": 250.333,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "start": 251.154,
+   "end": 253.175,
+   "text": "Ular qanday qilib Vulpitga kelib qolishgan?",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 24,
+     "start": 251.154,
+     "end": 251.354,
+     "score": 0.98
+    },
+    {
+     "text": "qanday",
+     "dis": false,
+     "chunk": 24,
+     "start": 251.434,
+     "end": 251.774,
+     "score": 0.667
+    },
+    {
+     "text": "qilib",
+     "dis": false,
+     "chunk": 24,
+     "start": 251.814,
+     "end": 252.015,
+     "score": 0.8
+    },
+    {
+     "text": "Vulpitga",
+     "dis": false,
+     "chunk": 24,
+     "start": 252.055,
+     "end": 252.475,
+     "score": 0.947
+    },
+    {
+     "text": "kelib",
+     "dis": false,
+     "chunk": 24,
+     "start": 252.515,
+     "end": 252.715,
+     "score": 0.998
+    },
+    {
+     "text": "qolishgan?",
+     "dis": false,
+     "chunk": 24,
+     "start": 252.755,
+     "end": 253.175,
+     "score": 0.858
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "start": 253.936,
+   "end": 256.498,
+   "text": "Qizning hikoyasi ikki xil yozib qoldirilgan.",
+   "words": [
+    {
+     "text": "Qizning",
+     "dis": false,
+     "chunk": 24,
+     "start": 253.936,
+     "end": 254.276,
+     "score": 0.857
+    },
+    {
+     "text": "hikoyasi",
+     "dis": false,
+     "chunk": 24,
+     "start": 254.296,
+     "end": 254.837,
+     "score": 0.98
+    },
+    {
+     "text": "ikki",
+     "dis": false,
+     "chunk": 24,
+     "start": 255.277,
+     "end": 255.537,
+     "score": 0.996
+    },
+    {
+     "text": "xil",
+     "dis": false,
+     "chunk": 24,
+     "start": 255.557,
+     "end": 255.697,
+     "score": 0.666
+    },
+    {
+     "text": "yozib",
+     "dis": false,
+     "chunk": 24,
+     "start": 255.697,
+     "end": 256.017,
+     "score": 0.6
+    },
+    {
+     "text": "qoldirilgan.",
+     "dis": false,
+     "chunk": 24,
+     "start": 256.057,
+     "end": 256.498,
+     "score": 0.545
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "start": 257.218,
+   "end": 263.283,
+   "text": "Bir versiyaga ko'ra, ular otalarining podasini boqib yurganda, qo'ng'iroqlarning go'zal ovozini eshitishgan.",
+   "words": [
+    {
+     "text": "Bir",
+     "dis": false,
+     "chunk": 24,
+     "start": 257.218,
+     "end": 257.338,
+     "score": 1.0
+    },
+    {
+     "text": "versiyaga",
+     "dis": false,
+     "chunk": 24,
+     "start": 257.398,
+     "end": 257.839,
+     "score": 1.0
+    },
+    {
+     "text": "ko'ra,",
+     "dis": false,
+     "chunk": 24,
+     "start": 257.899,
+     "end": 258.119,
+     "score": 0.6
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 24,
+     "start": 258.499,
+     "end": 258.719,
+     "score": 1.0
+    },
+    {
+     "text": "otalarining",
+     "dis": false,
+     "chunk": 24,
+     "start": 258.88,
+     "end": 259.42,
+     "score": 0.992
+    },
+    {
+     "text": "podasini",
+     "dis": false,
+     "chunk": 24,
+     "start": 259.46,
+     "end": 259.86,
+     "score": 0.998
+    },
+    {
+     "text": "boqib",
+     "dis": false,
+     "chunk": 24,
+     "start": 259.92,
+     "end": 260.181,
+     "score": 0.8
+    },
+    {
+     "text": "yurganda,",
+     "dis": false,
+     "chunk": 24,
+     "start": 260.221,
+     "end": 260.681,
+     "score": 1.0
+    },
+    {
+     "text": "qo'ng'iroqlarning",
+     "dis": false,
+     "chunk": 24,
+     "start": 261.061,
+     "end": 261.862,
+     "score": 0.659
+    },
+    {
+     "text": "go'zal",
+     "dis": false,
+     "chunk": 24,
+     "start": 261.922,
+     "end": 262.262,
+     "score": 0.533
+    },
+    {
+     "text": "ovozini",
+     "dis": false,
+     "chunk": 24,
+     "start": 262.362,
+     "end": 262.782,
+     "score": 0.999
+    },
+    {
+     "text": "eshitishgan.",
+     "dis": false,
+     "chunk": 24,
+     "start": 262.842,
+     "end": 263.283,
+     "score": 0.998
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "start": 263.943,
+   "end": 267.784,
+   "text": "Ovozga ergashib, ular uzun, qorong'i g'orga kirib qolishgan.",
+   "words": [
+    {
+     "text": "Ovozga",
+     "dis": false,
+     "chunk": 25,
+     "start": 263.943,
+     "end": 264.283,
+     "score": 0.999
+    },
+    {
+     "text": "ergashib,",
+     "dis": false,
+     "chunk": 25,
+     "start": 264.343,
+     "end": 264.743,
+     "score": 0.984
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 25,
+     "start": 265.083,
+     "end": 265.283,
+     "score": 1.0
+    },
+    {
+     "text": "uzun,",
+     "dis": false,
+     "chunk": 25,
+     "start": 265.483,
+     "end": 265.863,
+     "score": 0.999
+    },
+    {
+     "text": "qorong'i",
+     "dis": false,
+     "chunk": 25,
+     "start": 266.263,
+     "end": 266.744,
+     "score": 0.66
+    },
+    {
+     "text": "g'orga",
+     "dis": false,
+     "chunk": 25,
+     "start": 266.804,
+     "end": 267.064,
+     "score": 0.827
+    },
+    {
+     "text": "kirib",
+     "dis": false,
+     "chunk": 25,
+     "start": 267.124,
+     "end": 267.304,
+     "score": 0.999
+    },
+    {
+     "text": "qolishgan.",
+     "dis": false,
+     "chunk": 25,
+     "start": 267.344,
+     "end": 267.784,
+     "score": 0.888
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "start": 268.564,
+   "end": 270.564,
+   "text": "G'or ichida qancha yurishganini bilishmagan.",
+   "words": [
+    {
+     "text": "G'or",
+     "dis": false,
+     "chunk": 25,
+     "start": 268.564,
+     "end": 268.744,
+     "score": 0.747
+    },
+    {
+     "text": "ichida",
+     "dis": false,
+     "chunk": 25,
+     "start": 268.784,
+     "end": 269.024,
+     "score": 0.945
+    },
+    {
+     "text": "qancha",
+     "dis": false,
+     "chunk": 25,
+     "start": 269.124,
+     "end": 269.444,
+     "score": 0.812
+    },
+    {
+     "text": "yurishganini",
+     "dis": false,
+     "chunk": 25,
+     "start": 269.484,
+     "end": 269.984,
+     "score": 0.994
+    },
+    {
+     "text": "bilishmagan.",
+     "dis": false,
+     "chunk": 25,
+     "start": 270.044,
+     "end": 270.564,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "start": 271.344,
+   "end": 278.505,
+   "text": "Va birdan ular o'zlarini ko'zni qamashtiruvchi yorug' quyosh nuri ostida, o'sha bo'ri o'ralari yonida topishgan.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 26,
+     "start": 271.344,
+     "end": 271.404,
+     "score": 1.0
+    },
+    {
+     "text": "birdan",
+     "dis": false,
+     "chunk": 26,
+     "start": 271.504,
+     "end": 271.904,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 26,
+     "start": 272.284,
+     "end": 272.484,
+     "score": 1.0
+    },
+    {
+     "text": "o'zlarini",
+     "dis": false,
+     "chunk": 26,
+     "start": 272.605,
+     "end": 273.025,
+     "score": 0.777
+    },
+    {
+     "text": "ko'zni",
+     "dis": false,
+     "chunk": 26,
+     "start": 273.105,
+     "end": 273.445,
+     "score": 0.667
+    },
+    {
+     "text": "qamashtiruvchi",
+     "dis": false,
+     "chunk": 26,
+     "start": 273.525,
+     "end": 274.205,
+     "score": 0.897
+    },
+    {
+     "text": "yorug'",
+     "dis": false,
+     "chunk": 26,
+     "start": 274.205,
+     "end": 275.005,
+     "score": 0.539
+    },
+    {
+     "text": "quyosh",
+     "dis": false,
+     "chunk": 26,
+     "start": 275.145,
+     "end": 275.505,
+     "score": 0.495
+    },
+    {
+     "text": "nuri",
+     "dis": false,
+     "chunk": 26,
+     "start": 275.545,
+     "end": 275.765,
+     "score": 0.985
+    },
+    {
+     "text": "ostida,",
+     "dis": false,
+     "chunk": 26,
+     "start": 275.845,
+     "end": 276.185,
+     "score": 0.999
+    },
+    {
+     "text": "o'sha",
+     "dis": false,
+     "chunk": 26,
+     "start": 276.625,
+     "end": 276.805,
+     "score": 0.6
+    },
+    {
+     "text": "bo'ri",
+     "dis": false,
+     "chunk": 26,
+     "start": 276.965,
+     "end": 277.225,
+     "score": 0.512
+    },
+    {
+     "text": "o'ralari",
+     "dis": false,
+     "chunk": 26,
+     "start": 277.325,
+     "end": 277.725,
+     "score": 0.75
+    },
+    {
+     "text": "yonida",
+     "dis": false,
+     "chunk": 26,
+     "start": 277.725,
+     "end": 278.045,
+     "score": 0.666
+    },
+    {
+     "text": "topishgan.",
+     "dis": false,
+     "chunk": 26,
+     "start": 278.085,
+     "end": 278.505,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "start": 279.326,
+   "end": 285.107,
+   "text": "Yorug'lik va issiqlik ularni shunchalik hayratga solganki, ular hushidan ketib yerga yiqilishgan.",
+   "words": [
+    {
+     "text": "Yorug'lik",
+     "dis": false,
+     "chunk": 27,
+     "start": 279.326,
+     "end": 279.946,
+     "score": 0.647
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 27,
+     "start": 280.026,
+     "end": 280.106,
+     "score": 0.999
+    },
+    {
+     "text": "issiqlik",
+     "dis": false,
+     "chunk": 27,
+     "start": 280.226,
+     "end": 280.726,
+     "score": 0.675
+    },
+    {
+     "text": "ularni",
+     "dis": false,
+     "chunk": 27,
+     "start": 281.026,
+     "end": 281.306,
+     "score": 0.999
+    },
+    {
+     "text": "shunchalik",
+     "dis": false,
+     "chunk": 27,
+     "start": 281.406,
+     "end": 281.926,
+     "score": 0.995
+    },
+    {
+     "text": "hayratga",
+     "dis": false,
+     "chunk": 27,
+     "start": 281.966,
+     "end": 282.406,
+     "score": 0.832
+    },
+    {
+     "text": "solganki,",
+     "dis": false,
+     "chunk": 27,
+     "start": 282.446,
+     "end": 282.926,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 27,
+     "start": 283.286,
+     "end": 283.466,
+     "score": 1.0
+    },
+    {
+     "text": "hushidan",
+     "dis": false,
+     "chunk": 27,
+     "start": 283.506,
+     "end": 283.906,
+     "score": 0.914
+    },
+    {
+     "text": "ketib",
+     "dis": false,
+     "chunk": 27,
+     "start": 283.946,
+     "end": 284.186,
+     "score": 0.999
+    },
+    {
+     "text": "yerga",
+     "dis": false,
+     "chunk": 27,
+     "start": 284.286,
+     "end": 284.547,
+     "score": 0.798
+    },
+    {
+     "text": "yiqilishgan.",
+     "dis": false,
+     "chunk": 27,
+     "start": 284.607,
+     "end": 285.107,
+     "score": 0.813
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "start": 285.767,
+   "end": 290.267,
+   "text": "Ular qaytish yo'lini qidirishgan, ammo g'or kirishini topa olmagan.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 27,
+     "start": 285.767,
+     "end": 285.987,
+     "score": 1.0
+    },
+    {
+     "text": "qaytish",
+     "dis": false,
+     "chunk": 27,
+     "start": 286.287,
+     "end": 286.667,
+     "score": 0.713
+    },
+    {
+     "text": "yo'lini",
+     "dis": false,
+     "chunk": 27,
+     "start": 286.707,
+     "end": 286.987,
+     "score": 0.438
+    },
+    {
+     "text": "qidirishgan,",
+     "dis": false,
+     "chunk": 27,
+     "start": 287.027,
+     "end": 287.527,
+     "score": 0.904
+    },
+    {
+     "text": "ammo",
+     "dis": false,
+     "chunk": 28,
+     "start": 288.087,
+     "end": 288.367,
+     "score": 1.0
+    },
+    {
+     "text": "g'or",
+     "dis": false,
+     "chunk": 28,
+     "start": 288.827,
+     "end": 289.047,
+     "score": 0.749
+    },
+    {
+     "text": "kirishini",
+     "dis": false,
+     "chunk": 28,
+     "start": 289.107,
+     "end": 289.487,
+     "score": 0.998
+    },
+    {
+     "text": "topa",
+     "dis": false,
+     "chunk": 28,
+     "start": 289.547,
+     "end": 289.747,
+     "score": 0.979
+    },
+    {
+     "text": "olmagan.",
+     "dis": false,
+     "chunk": 28,
+     "start": 289.847,
+     "end": 290.267,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "start": 290.888,
+   "end": 296.188,
+   "text": "Qiz keyinchalik ser Richardning uyida xizmatkor bo'lib, uzoq yillar ishladi.",
+   "words": [
+    {
+     "text": "Qiz",
+     "dis": false,
+     "chunk": 28,
+     "start": 290.888,
+     "end": 291.188,
+     "score": 0.393
+    },
+    {
+     "text": "keyinchalik",
+     "dis": false,
+     "chunk": 28,
+     "start": 291.548,
+     "end": 292.228,
+     "score": 0.909
+    },
+    {
+     "text": "ser",
+     "dis": false,
+     "chunk": 28,
+     "start": 292.348,
+     "end": 292.588,
+     "score": 0.993
+    },
+    {
+     "text": "Richardning",
+     "dis": false,
+     "chunk": 28,
+     "start": 292.668,
+     "end": 293.208,
+     "score": 0.966
+    },
+    {
+     "text": "uyida",
+     "dis": false,
+     "chunk": 28,
+     "start": 293.288,
+     "end": 293.548,
+     "score": 0.799
+    },
+    {
+     "text": "xizmatkor",
+     "dis": false,
+     "chunk": 28,
+     "start": 293.628,
+     "end": 294.168,
+     "score": 0.889
+    },
+    {
+     "text": "bo'lib,",
+     "dis": false,
+     "chunk": 28,
+     "start": 294.228,
+     "end": 294.488,
+     "score": 0.667
+    },
+    {
+     "text": "uzoq",
+     "dis": false,
+     "chunk": 28,
+     "start": 294.868,
+     "end": 295.268,
+     "score": 0.75
+    },
+    {
+     "text": "yillar",
+     "dis": false,
+     "chunk": 28,
+     "start": 295.368,
+     "end": 295.708,
+     "score": 0.923
+    },
+    {
+     "text": "ishladi.",
+     "dis": false,
+     "chunk": 28,
+     "start": 295.808,
+     "end": 296.188,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "start": 296.849,
+   "end": 299.169,
+   "text": "Uning ismi Agnes bo'lgan, deyishadi.",
+   "words": [
+    {
+     "text": "Uning",
+     "dis": false,
+     "chunk": 28,
+     "start": 296.849,
+     "end": 297.069,
+     "score": 0.984
+    },
+    {
+     "text": "ismi",
+     "dis": false,
+     "chunk": 28,
+     "start": 297.169,
+     "end": 297.429,
+     "score": 0.992
+    },
+    {
+     "text": "Agnes",
+     "dis": false,
+     "chunk": 28,
+     "start": 297.889,
+     "end": 298.269,
+     "score": 0.98
+    },
+    {
+     "text": "bo'lgan,",
+     "dis": false,
+     "chunk": 28,
+     "start": 298.329,
+     "end": 298.709,
+     "score": 0.714
+    },
+    {
+     "text": "deyishadi.",
+     "dis": false,
+     "chunk": 28,
+     "start": 298.749,
+     "end": 299.169,
+     "score": 0.882
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "start": 299.929,
+   "end": 305.21,
+   "text": "Koggeshollik Ralfning yozishicha, u keyinchalik qo'shni shahardagi bir erkakka turmushga chiqqan.",
+   "words": [
+    {
+     "text": "Koggeshollik",
+     "dis": false,
+     "chunk": 28,
+     "start": 299.929,
+     "end": 300.709,
+     "score": 0.721
+    },
+    {
+     "text": "Ralfning",
+     "dis": false,
+     "chunk": 28,
+     "start": 300.789,
+     "end": 301.189,
+     "score": 0.901
+    },
+    {
+     "text": "yozishicha,",
+     "dis": false,
+     "chunk": 28,
+     "start": 301.189,
+     "end": 301.749,
+     "score": 0.787
+    },
+    {
+     "text": "u",
+     "dis": false,
+     "chunk": 28,
+     "start": 301.969,
+     "end": 301.989,
+     "score": 1.0
+    },
+    {
+     "text": "keyinchalik",
+     "dis": false,
+     "chunk": 28,
+     "start": 302.169,
+     "end": 302.69,
+     "score": 0.909
+    },
+    {
+     "text": "qo'shni",
+     "dis": false,
+     "chunk": 28,
+     "start": 302.77,
+     "end": 303.09,
+     "score": 0.561
+    },
+    {
+     "text": "shahardagi",
+     "dis": false,
+     "chunk": 28,
+     "start": 303.13,
+     "end": 303.65,
+     "score": 0.999
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 28,
+     "start": 303.71,
+     "end": 303.83,
+     "score": 0.999
+    },
+    {
+     "text": "erkakka",
+     "dis": false,
+     "chunk": 28,
+     "start": 303.97,
+     "end": 304.41,
+     "score": 0.879
+    },
+    {
+     "text": "turmushga",
+     "dis": false,
+     "chunk": 28,
+     "start": 304.47,
+     "end": 304.85,
+     "score": 0.892
+    },
+    {
+     "text": "chiqqan.",
+     "dis": false,
+     "chunk": 28,
+     "start": 304.91,
+     "end": 305.21,
+     "score": 0.713
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "start": 305.91,
+   "end": 313.493,
+   "text": "Ba'zi tadqiqotchilar hatto bugungi kunda Angliyada yashayotgan ba'zi oilalar uning avlodlari bo'lishi mumkin, deb taxmin qilishadi.",
+   "words": [
+    {
+     "text": "Ba'zi",
+     "dis": false,
+     "chunk": 29,
+     "start": 305.91,
+     "end": 306.13,
+     "score": 0.8
+    },
+    {
+     "text": "tadqiqotchilar",
+     "dis": false,
+     "chunk": 29,
+     "start": 306.17,
+     "end": 306.831,
+     "score": 0.802
+    },
+    {
+     "text": "hatto",
+     "dis": false,
+     "chunk": 29,
+     "start": 306.871,
+     "end": 307.151,
+     "score": 0.987
+    },
+    {
+     "text": "bugungi",
+     "dis": false,
+     "chunk": 29,
+     "start": 307.611,
+     "end": 308.011,
+     "score": 0.935
+    },
+    {
+     "text": "kunda",
+     "dis": false,
+     "chunk": 29,
+     "start": 308.071,
+     "end": 308.331,
+     "score": 1.0
+    },
+    {
+     "text": "Angliyada",
+     "dis": false,
+     "chunk": 29,
+     "start": 308.471,
+     "end": 308.911,
+     "score": 0.971
+    },
+    {
+     "text": "yashayotgan",
+     "dis": false,
+     "chunk": 29,
+     "start": 308.971,
+     "end": 309.472,
+     "score": 0.814
+    },
+    {
+     "text": "ba'zi",
+     "dis": false,
+     "chunk": 29,
+     "start": 309.632,
+     "end": 309.952,
+     "score": 0.803
+    },
+    {
+     "text": "oilalar",
+     "dis": false,
+     "chunk": 29,
+     "start": 310.052,
+     "end": 310.452,
+     "score": 0.996
+    },
+    {
+     "text": "uning",
+     "dis": false,
+     "chunk": 29,
+     "start": 310.852,
+     "end": 311.112,
+     "score": 0.968
+    },
+    {
+     "text": "avlodlari",
+     "dis": false,
+     "chunk": 29,
+     "start": 311.272,
+     "end": 311.813,
+     "score": 0.999
+    },
+    {
+     "text": "bo'lishi",
+     "dis": false,
+     "chunk": 29,
+     "start": 311.873,
+     "end": 312.173,
+     "score": 0.74
+    },
+    {
+     "text": "mumkin,",
+     "dis": false,
+     "chunk": 29,
+     "start": 312.233,
+     "end": 312.573,
+     "score": 0.963
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 29,
+     "start": 312.613,
+     "end": 312.753,
+     "score": 1.0
+    },
+    {
+     "text": "taxmin",
+     "dis": false,
+     "chunk": 29,
+     "start": 312.793,
+     "end": 313.113,
+     "score": 0.808
+    },
+    {
+     "text": "qilishadi.",
+     "dis": false,
+     "chunk": 29,
+     "start": 313.133,
+     "end": 313.493,
+     "score": 0.87
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "start": 314.774,
+   "end": 316.214,
+   "text": "Ammo bu isbotlanmagan.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 30,
+     "start": 314.774,
+     "end": 314.994,
+     "score": 0.997
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 30,
+     "start": 315.134,
+     "end": 315.214,
+     "score": 0.999
+    },
+    {
+     "text": "isbotlanmagan.",
+     "dis": false,
+     "chunk": 30,
+     "start": 315.454,
+     "end": 316.214,
+     "score": 0.95
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "start": 317.235,
+   "end": 319.796,
+   "text": "Xo'sh, bu voqea aslida nima edi?",
+   "words": [
+    {
+     "text": "Xo'sh,",
+     "dis": false,
+     "chunk": 30,
+     "start": 317.235,
+     "end": 317.495,
+     "score": 0.398
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 30,
+     "start": 317.975,
+     "end": 318.055,
+     "score": 1.0
+    },
+    {
+     "text": "voqea",
+     "dis": false,
+     "chunk": 30,
+     "start": 318.115,
+     "end": 318.455,
+     "score": 0.646
+    },
+    {
+     "text": "aslida",
+     "dis": false,
+     "chunk": 30,
+     "start": 318.515,
+     "end": 318.875,
+     "score": 0.908
+    },
+    {
+     "text": "nima",
+     "dis": false,
+     "chunk": 30,
+     "start": 319.336,
+     "end": 319.536,
+     "score": 1.0
+    },
+    {
+     "text": "edi?",
+     "dis": false,
+     "chunk": 30,
+     "start": 319.636,
+     "end": 319.796,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "start": 321.336,
+   "end": 327.039,
+   "text": "Asrlar davomida olimlar, tarixchilar va sir izlovchilar bu savolga javob topishga harakat qilishdi.",
+   "words": [
+    {
+     "text": "Asrlar",
+     "dis": false,
+     "chunk": 30,
+     "start": 321.336,
+     "end": 321.736,
+     "score": 0.999
+    },
+    {
+     "text": "davomida",
+     "dis": false,
+     "chunk": 30,
+     "start": 321.776,
+     "end": 322.177,
+     "score": 0.999
+    },
+    {
+     "text": "olimlar,",
+     "dis": false,
+     "chunk": 30,
+     "start": 322.357,
+     "end": 322.937,
+     "score": 0.999
+    },
+    {
+     "text": "tarixchilar",
+     "dis": false,
+     "chunk": 30,
+     "start": 323.037,
+     "end": 323.677,
+     "score": 0.883
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 30,
+     "start": 323.717,
+     "end": 323.777,
+     "score": 1.0
+    },
+    {
+     "text": "sir",
+     "dis": false,
+     "chunk": 30,
+     "start": 323.937,
+     "end": 324.097,
+     "score": 0.997
+    },
+    {
+     "text": "izlovchilar",
+     "dis": false,
+     "chunk": 30,
+     "start": 324.217,
+     "end": 324.778,
+     "score": 0.998
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 30,
+     "start": 325.058,
+     "end": 325.138,
+     "score": 1.0
+    },
+    {
+     "text": "savolga",
+     "dis": false,
+     "chunk": 30,
+     "start": 325.238,
+     "end": 325.598,
+     "score": 0.995
+    },
+    {
+     "text": "javob",
+     "dis": false,
+     "chunk": 30,
+     "start": 325.678,
+     "end": 325.958,
+     "score": 0.8
+    },
+    {
+     "text": "topishga",
+     "dis": false,
+     "chunk": 30,
+     "start": 326.018,
+     "end": 326.338,
+     "score": 0.999
+    },
+    {
+     "text": "harakat",
+     "dis": false,
+     "chunk": 30,
+     "start": 326.378,
+     "end": 326.678,
+     "score": 1.0
+    },
+    {
+     "text": "qilishdi.",
+     "dis": false,
+     "chunk": 30,
+     "start": 326.718,
+     "end": 327.039,
+     "score": 0.875
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "start": 328.199,
+   "end": 332.101,
+   "text": "Birinchi va eng ilmiy tushuntirish kasallik bilan bog'liq.",
+   "words": [
+    {
+     "text": "Birinchi",
+     "dis": false,
+     "chunk": 31,
+     "start": 328.199,
+     "end": 328.599,
+     "score": 0.999
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 31,
+     "start": 328.699,
+     "end": 328.799,
+     "score": 0.999
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 31,
+     "start": 329.299,
+     "end": 329.5,
+     "score": 0.999
+    },
+    {
+     "text": "ilmiy",
+     "dis": false,
+     "chunk": 31,
+     "start": 329.68,
+     "end": 329.96,
+     "score": 0.803
+    },
+    {
+     "text": "tushuntirish",
+     "dis": false,
+     "chunk": 31,
+     "start": 330.04,
+     "end": 330.62,
+     "score": 0.966
+    },
+    {
+     "text": "kasallik",
+     "dis": false,
+     "chunk": 31,
+     "start": 330.92,
+     "end": 331.46,
+     "score": 0.999
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 31,
+     "start": 331.52,
+     "end": 331.72,
+     "score": 0.999
+    },
+    {
+     "text": "bog'liq.",
+     "dis": false,
+     "chunk": 31,
+     "start": 331.76,
+     "end": 332.101,
+     "score": 0.714
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "start": 332.781,
+   "end": 335.182,
+   "text": "Tibbiyotda xloroz deb ataladigan kasallik bor.",
+   "words": [
+    {
+     "text": "Tibbiyotda",
+     "dis": false,
+     "chunk": 31,
+     "start": 332.781,
+     "end": 333.261,
+     "score": 0.644
+    },
+    {
+     "text": "xloroz",
+     "dis": false,
+     "chunk": 31,
+     "start": 333.381,
+     "end": 333.821,
+     "score": 0.594
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 31,
+     "start": 333.861,
+     "end": 333.981,
+     "score": 1.0
+    },
+    {
+     "text": "ataladigan",
+     "dis": false,
+     "chunk": 31,
+     "start": 334.041,
+     "end": 334.502,
+     "score": 0.999
+    },
+    {
+     "text": "kasallik",
+     "dis": false,
+     "chunk": 31,
+     "start": 334.542,
+     "end": 334.982,
+     "score": 0.999
+    },
+    {
+     "text": "bor.",
+     "dis": false,
+     "chunk": 31,
+     "start": 335.022,
+     "end": 335.182,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "start": 335.582,
+   "end": 337.863,
+   "text": "Uni ba'zan «yashil kasallik» ham deyishadi.",
+   "words": [
+    {
+     "text": "Uni",
+     "dis": false,
+     "chunk": 31,
+     "start": 335.582,
+     "end": 335.722,
+     "score": 1.0
+    },
+    {
+     "text": "ba'zan",
+     "dis": false,
+     "chunk": 31,
+     "start": 335.802,
+     "end": 336.142,
+     "score": 0.831
+    },
+    {
+     "text": "«yashil",
+     "dis": false,
+     "chunk": 31,
+     "start": 336.482,
+     "end": 336.802,
+     "score": 0.998
+    },
+    {
+     "text": "kasallik»",
+     "dis": false,
+     "chunk": 31,
+     "start": 336.842,
+     "end": 337.263,
+     "score": 0.975
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 31,
+     "start": 337.323,
+     "end": 337.443,
+     "score": 0.998
+    },
+    {
+     "text": "deyishadi.",
+     "dis": false,
+     "chunk": 31,
+     "start": 337.483,
+     "end": 337.863,
+     "score": 0.759
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "start": 338.283,
+   "end": 342.885,
+   "text": "Bu og'ir to'yib ovqatlanmaslik natijasida kelib chiqadigan kamqonlikning bir turi.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 31,
+     "start": 338.283,
+     "end": 338.363,
+     "score": 1.0
+    },
+    {
+     "text": "og'ir",
+     "dis": false,
+     "chunk": 31,
+     "start": 338.623,
+     "end": 338.923,
+     "score": 0.786
+    },
+    {
+     "text": "to'yib",
+     "dis": false,
+     "chunk": 31,
+     "start": 339.083,
+     "end": 339.343,
+     "score": 0.5
+    },
+    {
+     "text": "ovqatlanmaslik",
+     "dis": false,
+     "chunk": 31,
+     "start": 339.403,
+     "end": 340.084,
+     "score": 0.855
+    },
+    {
+     "text": "natijasida",
+     "dis": false,
+     "chunk": 31,
+     "start": 340.124,
+     "end": 340.584,
+     "score": 0.898
+    },
+    {
+     "text": "kelib",
+     "dis": false,
+     "chunk": 31,
+     "start": 340.624,
+     "end": 340.844,
+     "score": 0.798
+    },
+    {
+     "text": "chiqadigan",
+     "dis": false,
+     "chunk": 31,
+     "start": 340.864,
+     "end": 341.244,
+     "score": 0.9
+    },
+    {
+     "text": "kamqonlikning",
+     "dis": false,
+     "chunk": 31,
+     "start": 341.584,
+     "end": 342.425,
+     "score": 0.922
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 31,
+     "start": 342.485,
+     "end": 342.605,
+     "score": 0.999
+    },
+    {
+     "text": "turi.",
+     "dis": false,
+     "chunk": 31,
+     "start": 342.685,
+     "end": 342.885,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "start": 343.645,
+   "end": 346.106,
+   "text": "U terini och-yashil tusga kiritishi mumkin.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 32,
+     "start": 343.645,
+     "end": 343.665,
+     "score": 1.0
+    },
+    {
+     "text": "terini",
+     "dis": false,
+     "chunk": 32,
+     "start": 343.805,
+     "end": 344.145,
+     "score": 0.999
+    },
+    {
+     "text": "och-yashil",
+     "dis": false,
+     "chunk": 32,
+     "start": 344.545,
+     "end": 345.145,
+     "score": 0.976
+    },
+    {
+     "text": "tusga",
+     "dis": false,
+     "chunk": 32,
+     "start": 345.165,
+     "end": 345.385,
+     "score": 0.923
+    },
+    {
+     "text": "kiritishi",
+     "dis": false,
+     "chunk": 32,
+     "start": 345.445,
+     "end": 345.786,
+     "score": 0.96
+    },
+    {
+     "text": "mumkin.",
+     "dis": false,
+     "chunk": 32,
+     "start": 345.826,
+     "end": 346.106,
+     "score": 0.993
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "start": 346.666,
+   "end": 352.707,
+   "text": "Agar bolalar uzoq vaqt och qolib, yaxshi ovqatlanmagan bo'lsa, ularning terisi yashil bo'lib ko'rinishi mumkin edi.",
+   "words": [
+    {
+     "text": "Agar",
+     "dis": false,
+     "chunk": 32,
+     "start": 346.666,
+     "end": 346.866,
+     "score": 0.998
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 32,
+     "start": 346.946,
+     "end": 347.306,
+     "score": 1.0
+    },
+    {
+     "text": "uzoq",
+     "dis": false,
+     "chunk": 32,
+     "start": 347.446,
+     "end": 347.746,
+     "score": 0.75
+    },
+    {
+     "text": "vaqt",
+     "dis": false,
+     "chunk": 32,
+     "start": 347.806,
+     "end": 348.026,
+     "score": 0.75
+    },
+    {
+     "text": "och",
+     "dis": false,
+     "chunk": 32,
+     "start": 348.146,
+     "end": 348.286,
+     "score": 0.998
+    },
+    {
+     "text": "qolib,",
+     "dis": false,
+     "chunk": 32,
+     "start": 348.346,
+     "end": 348.646,
+     "score": 0.8
+    },
+    {
+     "text": "yaxshi",
+     "dis": false,
+     "chunk": 32,
+     "start": 348.946,
+     "end": 349.226,
+     "score": 0.831
+    },
+    {
+     "text": "ovqatlanmagan",
+     "dis": false,
+     "chunk": 32,
+     "start": 349.326,
+     "end": 349.946,
+     "score": 0.834
+    },
+    {
+     "text": "bo'lsa,",
+     "dis": false,
+     "chunk": 32,
+     "start": 349.966,
+     "end": 350.226,
+     "score": 0.667
+    },
+    {
+     "text": "ularning",
+     "dis": false,
+     "chunk": 32,
+     "start": 350.567,
+     "end": 350.887,
+     "score": 0.997
+    },
+    {
+     "text": "terisi",
+     "dis": false,
+     "chunk": 32,
+     "start": 350.907,
+     "end": 351.227,
+     "score": 0.999
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 32,
+     "start": 351.287,
+     "end": 351.587,
+     "score": 0.999
+    },
+    {
+     "text": "bo'lib",
+     "dis": false,
+     "chunk": 32,
+     "start": 351.647,
+     "end": 351.847,
+     "score": 0.666
+    },
+    {
+     "text": "ko'rinishi",
+     "dis": false,
+     "chunk": 32,
+     "start": 351.887,
+     "end": 352.227,
+     "score": 0.795
+    },
+    {
+     "text": "mumkin",
+     "dis": false,
+     "chunk": 32,
+     "start": 352.267,
+     "end": 352.527,
+     "score": 0.993
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 32,
+     "start": 352.567,
+     "end": 352.707,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "start": 353.087,
+   "end": 357.128,
+   "text": "Va ular normal ovqatlana boshlagach, rang asta-sekin yo'qolgan.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 32,
+     "start": 353.087,
+     "end": 353.167,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 32,
+     "start": 353.347,
+     "end": 353.547,
+     "score": 1.0
+    },
+    {
+     "text": "normal",
+     "dis": false,
+     "chunk": 32,
+     "start": 353.907,
+     "end": 354.267,
+     "score": 0.999
+    },
+    {
+     "text": "ovqatlana",
+     "dis": false,
+     "chunk": 32,
+     "start": 354.387,
+     "end": 354.767,
+     "score": 0.776
+    },
+    {
+     "text": "boshlagach,",
+     "dis": false,
+     "chunk": 32,
+     "start": 354.807,
+     "end": 355.288,
+     "score": 0.995
+    },
+    {
+     "text": "rang",
+     "dis": false,
+     "chunk": 32,
+     "start": 355.588,
+     "end": 355.808,
+     "score": 0.999
+    },
+    {
+     "text": "asta-sekin",
+     "dis": false,
+     "chunk": 32,
+     "start": 356.008,
+     "end": 356.588,
+     "score": 0.975
+    },
+    {
+     "text": "yo'qolgan.",
+     "dis": false,
+     "chunk": 32,
+     "start": 356.648,
+     "end": 357.128,
+     "score": 0.532
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "start": 357.688,
+   "end": 359.628,
+   "text": "Bu juda mantiqli tushuntirish.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 33,
+     "start": 357.688,
+     "end": 357.768,
+     "score": 1.0
+    },
+    {
+     "text": "juda",
+     "dis": false,
+     "chunk": 33,
+     "start": 357.868,
+     "end": 358.088,
+     "score": 0.75
+    },
+    {
+     "text": "mantiqli",
+     "dis": false,
+     "chunk": 33,
+     "start": 358.528,
+     "end": 359.088,
+     "score": 0.753
+    },
+    {
+     "text": "tushuntirish.",
+     "dis": false,
+     "chunk": 33,
+     "start": 359.128,
+     "end": 359.628,
+     "score": 0.971
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "start": 360.909,
+   "end": 365.49,
+   "text": "Ammo bolalar qayerdan kelgan va nega bunchalik och qolgan?",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 33,
+     "start": 360.909,
+     "end": 361.129,
+     "score": 1.0
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 33,
+     "start": 361.929,
+     "end": 362.349,
+     "score": 0.999
+    },
+    {
+     "text": "qayerdan",
+     "dis": false,
+     "chunk": 33,
+     "start": 362.449,
+     "end": 363.009,
+     "score": 0.655
+    },
+    {
+     "text": "kelgan",
+     "dis": false,
+     "chunk": 33,
+     "start": 363.049,
+     "end": 363.389,
+     "score": 1.0
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 33,
+     "start": 363.869,
+     "end": 363.929,
+     "score": 0.999
+    },
+    {
+     "text": "nega",
+     "dis": false,
+     "chunk": 33,
+     "start": 364.069,
+     "end": 364.349,
+     "score": 0.999
+    },
+    {
+     "text": "bunchalik",
+     "dis": false,
+     "chunk": 33,
+     "start": 364.389,
+     "end": 364.83,
+     "score": 0.998
+    },
+    {
+     "text": "och",
+     "dis": false,
+     "chunk": 33,
+     "start": 364.95,
+     "end": 365.09,
+     "score": 0.995
+    },
+    {
+     "text": "qolgan?",
+     "dis": false,
+     "chunk": 33,
+     "start": 365.15,
+     "end": 365.49,
+     "score": 0.833
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "start": 366.63,
+   "end": 371.131,
+   "text": "Bu savolga javob beradigan qiziq nazariyani tarixchi Pol Xarris ilgari surdi.",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 34,
+     "start": 366.63,
+     "end": 366.69,
+     "score": 1.0
+    },
+    {
+     "text": "savolga",
+     "dis": false,
+     "chunk": 34,
+     "start": 366.81,
+     "end": 367.15,
+     "score": 0.999
+    },
+    {
+     "text": "javob",
+     "dis": false,
+     "chunk": 34,
+     "start": 367.21,
+     "end": 367.47,
+     "score": 0.8
+    },
+    {
+     "text": "beradigan",
+     "dis": false,
+     "chunk": 34,
+     "start": 367.49,
+     "end": 367.89,
+     "score": 0.999
+    },
+    {
+     "text": "qiziq",
+     "dis": false,
+     "chunk": 34,
+     "start": 368.23,
+     "end": 368.53,
+     "score": 0.6
+    },
+    {
+     "text": "nazariyani",
+     "dis": false,
+     "chunk": 34,
+     "start": 368.61,
+     "end": 369.13,
+     "score": 0.992
+    },
+    {
+     "text": "tarixchi",
+     "dis": false,
+     "chunk": 34,
+     "start": 369.19,
+     "end": 369.651,
+     "score": 0.874
+    },
+    {
+     "text": "Pol",
+     "dis": false,
+     "chunk": 34,
+     "start": 369.811,
+     "end": 370.031,
+     "score": 0.689
+    },
+    {
+     "text": "Xarris",
+     "dis": false,
+     "chunk": 34,
+     "start": 370.171,
+     "end": 370.511,
+     "score": 0.635
+    },
+    {
+     "text": "ilgari",
+     "dis": false,
+     "chunk": 34,
+     "start": 370.571,
+     "end": 370.871,
+     "score": 0.99
+    },
+    {
+     "text": "surdi.",
+     "dis": false,
+     "chunk": 34,
+     "start": 370.891,
+     "end": 371.131,
+     "score": 0.99
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "start": 372.171,
+   "end": 378.292,
+   "text": "O'sha davrda Angliyaga Flandriyadan, ya'ni bugungi Belgiyadan ko'plab muhojir hunarmandlar kelib joylashgan edi.",
+   "words": [
+    {
+     "text": "O'sha",
+     "dis": false,
+     "chunk": 34,
+     "start": 372.171,
+     "end": 372.331,
+     "score": 0.581
+    },
+    {
+     "text": "davrda",
+     "dis": false,
+     "chunk": 34,
+     "start": 372.371,
+     "end": 372.691,
+     "score": 0.999
+    },
+    {
+     "text": "Angliyaga",
+     "dis": false,
+     "chunk": 34,
+     "start": 373.051,
+     "end": 373.551,
+     "score": 0.966
+    },
+    {
+     "text": "Flandriyadan,",
+     "dis": false,
+     "chunk": 34,
+     "start": 373.731,
+     "end": 374.372,
+     "score": 0.939
+    },
+    {
+     "text": "ya'ni",
+     "dis": false,
+     "chunk": 34,
+     "start": 374.432,
+     "end": 374.612,
+     "score": 0.794
+    },
+    {
+     "text": "bugungi",
+     "dis": false,
+     "chunk": 34,
+     "start": 374.692,
+     "end": 374.992,
+     "score": 0.863
+    },
+    {
+     "text": "Belgiyadan",
+     "dis": false,
+     "chunk": 34,
+     "start": 375.052,
+     "end": 375.532,
+     "score": 0.999
+    },
+    {
+     "text": "ko'plab",
+     "dis": false,
+     "chunk": 34,
+     "start": 375.852,
+     "end": 376.252,
+     "score": 0.714
+    },
+    {
+     "text": "muhojir",
+     "dis": false,
+     "chunk": 34,
+     "start": 376.332,
+     "end": 376.812,
+     "score": 0.846
+    },
+    {
+     "text": "hunarmandlar",
+     "dis": false,
+     "chunk": 34,
+     "start": 376.872,
+     "end": 377.452,
+     "score": 0.963
+    },
+    {
+     "text": "kelib",
+     "dis": false,
+     "chunk": 34,
+     "start": 377.472,
+     "end": 377.652,
+     "score": 0.998
+    },
+    {
+     "text": "joylashgan",
+     "dis": false,
+     "chunk": 34,
+     "start": 377.672,
+     "end": 378.112,
+     "score": 0.8
+    },
+    {
+     "text": "edi.",
+     "dis": false,
+     "chunk": 34,
+     "start": 378.152,
+     "end": 378.292,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "start": 378.792,
+   "end": 380.493,
+   "text": "Ular to'qimachilik bilan shug'ullanishardi.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 34,
+     "start": 378.792,
+     "end": 378.992,
+     "score": 1.0
+    },
+    {
+     "text": "to'qimachilik",
+     "dis": false,
+     "chunk": 34,
+     "start": 379.052,
+     "end": 379.613,
+     "score": 0.734
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 34,
+     "start": 379.653,
+     "end": 379.813,
+     "score": 0.999
+    },
+    {
+     "text": "shug'ullanishardi.",
+     "dis": false,
+     "chunk": 34,
+     "start": 379.853,
+     "end": 380.493,
+     "score": 0.921
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "start": 381.573,
+   "end": 385.674,
+   "text": "O'n ikkinchi asrda bu muhojirlar ta'qibga uchrab, ularning ko'pi o'ldirilgan.",
+   "words": [
+    {
+     "text": "O'n",
+     "dis": false,
+     "chunk": 35,
+     "start": 381.573,
+     "end": 381.673,
+     "score": 0.36
+    },
+    {
+     "text": "ikkinchi",
+     "dis": false,
+     "chunk": 35,
+     "start": 381.713,
+     "end": 382.053,
+     "score": 0.99
+    },
+    {
+     "text": "asrda",
+     "dis": false,
+     "chunk": 35,
+     "start": 382.113,
+     "end": 382.433,
+     "score": 0.983
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 35,
+     "start": 382.553,
+     "end": 382.613,
+     "score": 1.0
+    },
+    {
+     "text": "muhojirlar",
+     "dis": false,
+     "chunk": 35,
+     "start": 382.713,
+     "end": 383.293,
+     "score": 0.889
+    },
+    {
+     "text": "ta'qibga",
+     "dis": false,
+     "chunk": 35,
+     "start": 383.573,
+     "end": 384.014,
+     "score": 0.746
+    },
+    {
+     "text": "uchrab,",
+     "dis": false,
+     "chunk": 35,
+     "start": 384.054,
+     "end": 384.354,
+     "score": 0.999
+    },
+    {
+     "text": "ularning",
+     "dis": false,
+     "chunk": 35,
+     "start": 384.414,
+     "end": 384.734,
+     "score": 0.999
+    },
+    {
+     "text": "ko'pi",
+     "dis": false,
+     "chunk": 35,
+     "start": 384.774,
+     "end": 385.054,
+     "score": 0.466
+    },
+    {
+     "text": "o'ldirilgan.",
+     "dis": false,
+     "chunk": 35,
+     "start": 385.154,
+     "end": 385.674,
+     "score": 0.818
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "start": 386.514,
+   "end": 391.855,
+   "text": "Xarrisning fikricha, yashil bolalar ota-onasi o'ldirilgan flamand yetimlari bo'lishi mumkin.",
+   "words": [
+    {
+     "text": "Xarrisning",
+     "dis": false,
+     "chunk": 35,
+     "start": 386.514,
+     "end": 386.954,
+     "score": 0.768
+    },
+    {
+     "text": "fikricha,",
+     "dis": false,
+     "chunk": 35,
+     "start": 386.954,
+     "end": 387.334,
+     "score": 0.999
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 35,
+     "start": 387.794,
+     "end": 388.114,
+     "score": 0.999
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 35,
+     "start": 388.194,
+     "end": 388.574,
+     "score": 1.0
+    },
+    {
+     "text": "ota-onasi",
+     "dis": false,
+     "chunk": 35,
+     "start": 389.015,
+     "end": 389.515,
+     "score": 0.903
+    },
+    {
+     "text": "o'ldirilgan",
+     "dis": false,
+     "chunk": 35,
+     "start": 389.595,
+     "end": 390.115,
+     "score": 0.818
+    },
+    {
+     "text": "flamand",
+     "dis": false,
+     "chunk": 35,
+     "start": 390.255,
+     "end": 390.695,
+     "score": 0.822
+    },
+    {
+     "text": "yetimlari",
+     "dis": false,
+     "chunk": 35,
+     "start": 390.795,
+     "end": 391.255,
+     "score": 0.887
+    },
+    {
+     "text": "bo'lishi",
+     "dis": false,
+     "chunk": 35,
+     "start": 391.295,
+     "end": 391.535,
+     "score": 0.743
+    },
+    {
+     "text": "mumkin.",
+     "dis": false,
+     "chunk": 35,
+     "start": 391.575,
+     "end": 391.855,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "start": 392.395,
+   "end": 395.436,
+   "text": "Ular o'rmonlarda yashirinib, uzoq vaqt och-nahor yurishgan.",
+   "words": [
+    {
+     "text": "Ular",
+     "dis": false,
+     "chunk": 35,
+     "start": 392.395,
+     "end": 392.595,
+     "score": 1.0
+    },
+    {
+     "text": "o'rmonlarda",
+     "dis": false,
+     "chunk": 35,
+     "start": 392.695,
+     "end": 393.215,
+     "score": 0.818
+    },
+    {
+     "text": "yashirinib,",
+     "dis": false,
+     "chunk": 35,
+     "start": 393.255,
+     "end": 393.596,
+     "score": 0.795
+    },
+    {
+     "text": "uzoq",
+     "dis": false,
+     "chunk": 35,
+     "start": 393.876,
+     "end": 394.176,
+     "score": 0.75
+    },
+    {
+     "text": "vaqt",
+     "dis": false,
+     "chunk": 35,
+     "start": 394.236,
+     "end": 394.456,
+     "score": 0.75
+    },
+    {
+     "text": "och-nahor",
+     "dis": false,
+     "chunk": 35,
+     "start": 394.576,
+     "end": 395.036,
+     "score": 0.99
+    },
+    {
+     "text": "yurishgan.",
+     "dis": false,
+     "chunk": 35,
+     "start": 395.076,
+     "end": 395.436,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "start": 395.916,
+   "end": 400.357,
+   "text": "Ularning g'alati tili flamand tili, g'alati kiyimlari esa flamand kiyimi bo'lgan.",
+   "words": [
+    {
+     "text": "Ularning",
+     "dis": false,
+     "chunk": 35,
+     "start": 395.916,
+     "end": 396.256,
+     "score": 0.95
+    },
+    {
+     "text": "g'alati",
+     "dis": false,
+     "chunk": 35,
+     "start": 396.296,
+     "end": 396.616,
+     "score": 0.841
+    },
+    {
+     "text": "tili",
+     "dis": false,
+     "chunk": 35,
+     "start": 396.656,
+     "end": 396.816,
+     "score": 0.998
+    },
+    {
+     "text": "flamand",
+     "dis": false,
+     "chunk": 35,
+     "start": 396.916,
+     "end": 397.336,
+     "score": 0.851
+    },
+    {
+     "text": "tili,",
+     "dis": false,
+     "chunk": 35,
+     "start": 397.376,
+     "end": 397.556,
+     "score": 0.827
+    },
+    {
+     "text": "g'alati",
+     "dis": false,
+     "chunk": 35,
+     "start": 397.956,
+     "end": 398.256,
+     "score": 0.856
+    },
+    {
+     "text": "kiyimlari",
+     "dis": false,
+     "chunk": 35,
+     "start": 398.317,
+     "end": 398.737,
+     "score": 0.974
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 35,
+     "start": 398.797,
+     "end": 398.977,
+     "score": 0.952
+    },
+    {
+     "text": "flamand",
+     "dis": false,
+     "chunk": 35,
+     "start": 399.277,
+     "end": 399.717,
+     "score": 0.848
+    },
+    {
+     "text": "kiyimi",
+     "dis": false,
+     "chunk": 35,
+     "start": 399.737,
+     "end": 399.997,
+     "score": 0.923
+    },
+    {
+     "text": "bo'lgan.",
+     "dis": false,
+     "chunk": 35,
+     "start": 400.037,
+     "end": 400.357,
+     "score": 0.714
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "start": 401.077,
+   "end": 405.618,
+   "text": "Ingliz dehqonlari bu tilni hech qachon eshitmaganligi uchun uni tushunmaganlar.",
+   "words": [
+    {
+     "text": "Ingliz",
+     "dis": false,
+     "chunk": 36,
+     "start": 401.077,
+     "end": 401.397,
+     "score": 0.894
+    },
+    {
+     "text": "dehqonlari",
+     "dis": false,
+     "chunk": 36,
+     "start": 401.437,
+     "end": 401.997,
+     "score": 0.85
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 36,
+     "start": 402.297,
+     "end": 402.357,
+     "score": 1.0
+    },
+    {
+     "text": "tilni",
+     "dis": false,
+     "chunk": 36,
+     "start": 402.417,
+     "end": 402.677,
+     "score": 0.798
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 36,
+     "start": 402.757,
+     "end": 402.977,
+     "score": 0.999
+    },
+    {
+     "text": "qachon",
+     "dis": false,
+     "chunk": 36,
+     "start": 403.017,
+     "end": 403.297,
+     "score": 0.832
+    },
+    {
+     "text": "eshitmaganligi",
+     "dis": false,
+     "chunk": 36,
+     "start": 403.437,
+     "end": 404.077,
+     "score": 0.999
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 36,
+     "start": 404.137,
+     "end": 404.337,
+     "score": 0.99
+    },
+    {
+     "text": "uni",
+     "dis": false,
+     "chunk": 36,
+     "start": 404.637,
+     "end": 404.797,
+     "score": 1.0
+    },
+    {
+     "text": "tushunmaganlar.",
+     "dis": false,
+     "chunk": 36,
+     "start": 404.858,
+     "end": 405.618,
+     "score": 0.984
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "start": 406.518,
+   "end": 414.499,
+   "text": "Va eng qiziq tafsilot: Vulpitdan unchalik uzoq bo'lmagan joyda Fordem Sent-Martin deb ataladigan qishloq bor.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 36,
+     "start": 406.518,
+     "end": 406.598,
+     "score": 0.999
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 36,
+     "start": 407.178,
+     "end": 407.418,
+     "score": 0.94
+    },
+    {
+     "text": "qiziq",
+     "dis": false,
+     "chunk": 36,
+     "start": 407.558,
+     "end": 407.838,
+     "score": 0.598
+    },
+    {
+     "text": "tafsilot:",
+     "dis": false,
+     "chunk": 36,
+     "start": 407.898,
+     "end": 408.478,
+     "score": 0.975
+    },
+    {
+     "text": "Vulpitdan",
+     "dis": false,
+     "chunk": 36,
+     "start": 409.438,
+     "end": 409.998,
+     "score": 0.964
+    },
+    {
+     "text": "unchalik",
+     "dis": false,
+     "chunk": 36,
+     "start": 410.118,
+     "end": 410.538,
+     "score": 1.0
+    },
+    {
+     "text": "uzoq",
+     "dis": false,
+     "chunk": 36,
+     "start": 410.638,
+     "end": 410.878,
+     "score": 0.75
+    },
+    {
+     "text": "bo'lmagan",
+     "dis": false,
+     "chunk": 36,
+     "start": 410.938,
+     "end": 411.318,
+     "score": 0.777
+    },
+    {
+     "text": "joyda",
+     "dis": false,
+     "chunk": 36,
+     "start": 411.358,
+     "end": 411.658,
+     "score": 0.6
+    },
+    {
+     "text": "Fordem",
+     "dis": false,
+     "chunk": 36,
+     "start": 412.078,
+     "end": 412.478,
+     "score": 0.94
+    },
+    {
+     "text": "Sent-Martin",
+     "dis": false,
+     "chunk": 36,
+     "start": 412.578,
+     "end": 413.179,
+     "score": 0.924
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 36,
+     "start": 413.219,
+     "end": 413.319,
+     "score": 1.0
+    },
+    {
+     "text": "ataladigan",
+     "dis": false,
+     "chunk": 36,
+     "start": 413.399,
+     "end": 413.859,
+     "score": 0.997
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 36,
+     "start": 413.919,
+     "end": 414.299,
+     "score": 0.712
+    },
+    {
+     "text": "bor.",
+     "dis": false,
+     "chunk": 36,
+     "start": 414.359,
+     "end": 414.499,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "start": 415.199,
+   "end": 417.199,
+   "text": "U qishloq daryo bilan ajratilgan.",
+   "words": [
+    {
+     "text": "U",
+     "dis": false,
+     "chunk": 37,
+     "start": 415.199,
+     "end": 415.219,
+     "score": 0.999
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 37,
+     "start": 415.299,
+     "end": 415.639,
+     "score": 0.713
+    },
+    {
+     "text": "daryo",
+     "dis": false,
+     "chunk": 37,
+     "start": 415.939,
+     "end": 416.279,
+     "score": 0.6
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 37,
+     "start": 416.359,
+     "end": 416.539,
+     "score": 0.999
+    },
+    {
+     "text": "ajratilgan.",
+     "dis": false,
+     "chunk": 37,
+     "start": 416.639,
+     "end": 417.199,
+     "score": 0.901
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "start": 417.919,
+   "end": 425.64,
+   "text": "Ehtimol, qorong'i o'rmonlarda yashagan va quyosh nurini kam ko'rgan bolalar uchun bu qishloq «Avliyo Martin yurti» bo'lgandir.",
+   "words": [
+    {
+     "text": "Ehtimol,",
+     "dis": false,
+     "chunk": 37,
+     "start": 417.919,
+     "end": 418.319,
+     "score": 0.968
+    },
+    {
+     "text": "qorong'i",
+     "dis": false,
+     "chunk": 37,
+     "start": 418.719,
+     "end": 419.179,
+     "score": 0.746
+    },
+    {
+     "text": "o'rmonlarda",
+     "dis": false,
+     "chunk": 37,
+     "start": 419.279,
+     "end": 419.819,
+     "score": 0.817
+    },
+    {
+     "text": "yashagan",
+     "dis": false,
+     "chunk": 37,
+     "start": 419.859,
+     "end": 420.299,
+     "score": 1.0
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 37,
+     "start": 420.359,
+     "end": 420.439,
+     "score": 0.999
+    },
+    {
+     "text": "quyosh",
+     "dis": false,
+     "chunk": 37,
+     "start": 420.639,
+     "end": 420.979,
+     "score": 0.499
+    },
+    {
+     "text": "nurini",
+     "dis": false,
+     "chunk": 37,
+     "start": 421.019,
+     "end": 421.299,
+     "score": 0.999
+    },
+    {
+     "text": "kam",
+     "dis": false,
+     "chunk": 37,
+     "start": 421.36,
+     "end": 421.56,
+     "score": 1.0
+    },
+    {
+     "text": "ko'rgan",
+     "dis": false,
+     "chunk": 37,
+     "start": 421.62,
+     "end": 421.9,
+     "score": 0.714
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 37,
+     "start": 421.94,
+     "end": 422.3,
+     "score": 1.0
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 37,
+     "start": 422.32,
+     "end": 422.5,
+     "score": 0.997
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 37,
+     "start": 422.84,
+     "end": 422.92,
+     "score": 1.0
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 37,
+     "start": 423.02,
+     "end": 423.38,
+     "score": 0.714
+    },
+    {
+     "text": "«Avliyo",
+     "dis": false,
+     "chunk": 37,
+     "start": 423.74,
+     "end": 424.16,
+     "score": 0.666
+    },
+    {
+     "text": "Martin",
+     "dis": false,
+     "chunk": 37,
+     "start": 424.36,
+     "end": 424.78,
+     "score": 0.965
+    },
+    {
+     "text": "yurti»",
+     "dis": false,
+     "chunk": 37,
+     "start": 424.84,
+     "end": 425.1,
+     "score": 0.99
+    },
+    {
+     "text": "bo'lgandir.",
+     "dis": false,
+     "chunk": 37,
+     "start": 425.14,
+     "end": 425.64,
+     "score": 0.8
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "start": 426.26,
+   "end": 431.361,
+   "text": "Va ular ko'rgan doimiy shom esa zich o'rmonlar soyasidagi hayot bo'lgandir.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 37,
+     "start": 426.26,
+     "end": 426.34,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 37,
+     "start": 426.46,
+     "end": 426.68,
+     "score": 1.0
+    },
+    {
+     "text": "ko'rgan",
+     "dis": false,
+     "chunk": 37,
+     "start": 426.74,
+     "end": 427.12,
+     "score": 0.714
+    },
+    {
+     "text": "doimiy",
+     "dis": false,
+     "chunk": 37,
+     "start": 427.2,
+     "end": 427.68,
+     "score": 0.831
+    },
+    {
+     "text": "shom",
+     "dis": false,
+     "chunk": 37,
+     "start": 427.82,
+     "end": 428.12,
+     "score": 0.953
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 37,
+     "start": 428.2,
+     "end": 428.4,
+     "score": 0.999
+    },
+    {
+     "text": "zich",
+     "dis": false,
+     "chunk": 37,
+     "start": 428.9,
+     "end": 429.1,
+     "score": 0.992
+    },
+    {
+     "text": "o'rmonlar",
+     "dis": false,
+     "chunk": 37,
+     "start": 429.24,
+     "end": 429.741,
+     "score": 0.777
+    },
+    {
+     "text": "soyasidagi",
+     "dis": false,
+     "chunk": 37,
+     "start": 429.801,
+     "end": 430.421,
+     "score": 0.995
+    },
+    {
+     "text": "hayot",
+     "dis": false,
+     "chunk": 37,
+     "start": 430.501,
+     "end": 430.821,
+     "score": 0.577
+    },
+    {
+     "text": "bo'lgandir.",
+     "dis": false,
+     "chunk": 37,
+     "start": 430.881,
+     "end": 431.361,
+     "score": 0.8
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "start": 432.161,
+   "end": 437.922,
+   "text": "bu tushuntirish juda ishonarli eshitiladi, ammo tanqidchilar uning zaif tomonlarini ham ko'rsatishadi.",
+   "words": [
+    {
+     "text": "Bu,",
+     "dis": true,
+     "chunk": 38,
+     "start": 432.161,
+     "end": 432.221,
+     "score": 1.0
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 38,
+     "start": 432.221,
+     "end": 432.301,
+     "score": 0.0
+    },
+    {
+     "text": "tushuntirish",
+     "dis": false,
+     "chunk": 38,
+     "start": 432.301,
+     "end": 432.841,
+     "score": 0.988
+    },
+    {
+     "text": "juda",
+     "dis": false,
+     "chunk": 38,
+     "start": 432.981,
+     "end": 433.161,
+     "score": 0.75
+    },
+    {
+     "text": "ishonarli",
+     "dis": false,
+     "chunk": 38,
+     "start": 433.241,
+     "end": 433.721,
+     "score": 0.997
+    },
+    {
+     "text": "eshitiladi,",
+     "dis": false,
+     "chunk": 38,
+     "start": 433.781,
+     "end": 434.241,
+     "score": 0.988
+    },
+    {
+     "text": "ammo",
+     "dis": false,
+     "chunk": 38,
+     "start": 434.681,
+     "end": 434.881,
+     "score": 1.0
+    },
+    {
+     "text": "tanqidchilar",
+     "dis": false,
+     "chunk": 38,
+     "start": 435.001,
+     "end": 435.661,
+     "score": 0.835
+    },
+    {
+     "text": "uning",
+     "dis": false,
+     "chunk": 38,
+     "start": 435.981,
+     "end": 436.181,
+     "score": 1.0
+    },
+    {
+     "text": "zaif",
+     "dis": false,
+     "chunk": 38,
+     "start": 436.261,
+     "end": 436.581,
+     "score": 0.981
+    },
+    {
+     "text": "tomonlarini",
+     "dis": false,
+     "chunk": 38,
+     "start": 436.621,
+     "end": 437.161,
+     "score": 0.989
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 38,
+     "start": 437.201,
+     "end": 437.321,
+     "score": 0.999
+    },
+    {
+     "text": "ko'rsatishadi.",
+     "dis": false,
+     "chunk": 38,
+     "start": 437.361,
+     "end": 437.922,
+     "score": 0.845
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "start": 438.362,
+   "end": 445.102,
+   "text": "Masalan, nega o'sha davrning bilimli tarixchilari, ko'p muhojirlarni ko'rgan odamlar flamand tilini taniy olishmadi?",
+   "words": [
+    {
+     "text": "Masalan,",
+     "dis": false,
+     "chunk": 38,
+     "start": 438.362,
+     "end": 438.722,
+     "score": 1.0
+    },
+    {
+     "text": "nega",
+     "dis": false,
+     "chunk": 38,
+     "start": 439.062,
+     "end": 439.262,
+     "score": 1.0
+    },
+    {
+     "text": "o'sha",
+     "dis": false,
+     "chunk": 38,
+     "start": 439.322,
+     "end": 439.482,
+     "score": 0.6
+    },
+    {
+     "text": "davrning",
+     "dis": false,
+     "chunk": 38,
+     "start": 439.542,
+     "end": 439.982,
+     "score": 0.991
+    },
+    {
+     "text": "bilimli",
+     "dis": false,
+     "chunk": 38,
+     "start": 440.082,
+     "end": 440.422,
+     "score": 0.996
+    },
+    {
+     "text": "tarixchilari,",
+     "dis": false,
+     "chunk": 38,
+     "start": 440.502,
+     "end": 441.142,
+     "score": 0.902
+    },
+    {
+     "text": "ko'p",
+     "dis": false,
+     "chunk": 38,
+     "start": 441.482,
+     "end": 441.662,
+     "score": 0.5
+    },
+    {
+     "text": "muhojirlarni",
+     "dis": false,
+     "chunk": 38,
+     "start": 441.722,
+     "end": 442.422,
+     "score": 0.9
+    },
+    {
+     "text": "ko'rgan",
+     "dis": false,
+     "chunk": 38,
+     "start": 442.442,
+     "end": 442.722,
+     "score": 0.714
+    },
+    {
+     "text": "odamlar",
+     "dis": false,
+     "chunk": 38,
+     "start": 442.822,
+     "end": 443.202,
+     "score": 1.0
+    },
+    {
+     "text": "flamand",
+     "dis": false,
+     "chunk": 38,
+     "start": 443.502,
+     "end": 443.942,
+     "score": 0.713
+    },
+    {
+     "text": "tilini",
+     "dis": false,
+     "chunk": 38,
+     "start": 443.982,
+     "end": 444.262,
+     "score": 0.99
+    },
+    {
+     "text": "taniy",
+     "dis": false,
+     "chunk": 38,
+     "start": 444.302,
+     "end": 444.522,
+     "score": 0.832
+    },
+    {
+     "text": "olishmadi?",
+     "dis": false,
+     "chunk": 38,
+     "start": 444.642,
+     "end": 445.102,
+     "score": 0.997
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "start": 445.842,
+   "end": 449.723,
+   "text": "Va nega bolalar oddiy ovqatlarni, nonni ham taniy olishmadi?",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 38,
+     "start": 445.842,
+     "end": 445.902,
+     "score": 1.0
+    },
+    {
+     "text": "nega",
+     "dis": false,
+     "chunk": 38,
+     "start": 445.942,
+     "end": 446.183,
+     "score": 1.0
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 38,
+     "start": 446.523,
+     "end": 446.863,
+     "score": 1.0
+    },
+    {
+     "text": "oddiy",
+     "dis": false,
+     "chunk": 38,
+     "start": 447.003,
+     "end": 447.263,
+     "score": 0.788
+    },
+    {
+     "text": "ovqatlarni,",
+     "dis": false,
+     "chunk": 38,
+     "start": 447.383,
+     "end": 448.003,
+     "score": 0.898
+    },
+    {
+     "text": "nonni",
+     "dis": false,
+     "chunk": 38,
+     "start": 448.363,
+     "end": 448.703,
+     "score": 0.982
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 38,
+     "start": 448.743,
+     "end": 448.883,
+     "score": 0.997
+    },
+    {
+     "text": "taniy",
+     "dis": false,
+     "chunk": 38,
+     "start": 448.943,
+     "end": 449.163,
+     "score": 0.759
+    },
+    {
+     "text": "olishmadi?",
+     "dis": false,
+     "chunk": 38,
+     "start": 449.283,
+     "end": 449.723,
+     "score": 0.992
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "start": 450.683,
+   "end": 452.804,
+   "text": "Boshqa nazariyalar ancha g'ayrioddiy.",
+   "words": [
+    {
+     "text": "Boshqa",
+     "dis": false,
+     "chunk": 39,
+     "start": 450.683,
+     "end": 450.943,
+     "score": 0.832
+    },
+    {
+     "text": "nazariyalar",
+     "dis": false,
+     "chunk": 39,
+     "start": 451.003,
+     "end": 451.584,
+     "score": 0.999
+    },
+    {
+     "text": "ancha",
+     "dis": false,
+     "chunk": 39,
+     "start": 451.944,
+     "end": 452.224,
+     "score": 0.994
+    },
+    {
+     "text": "g'ayrioddiy.",
+     "dis": false,
+     "chunk": 39,
+     "start": 452.304,
+     "end": 452.804,
+     "score": 0.518
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "start": 453.505,
+   "end": 457.527,
+   "text": "Ba'zilar bolalar yer ostidagi noma'lum dunyodan kelgan, deb ishonishadi.",
+   "words": [
+    {
+     "text": "Ba'zilar",
+     "dis": false,
+     "chunk": 39,
+     "start": 453.505,
+     "end": 453.885,
+     "score": 0.875
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 39,
+     "start": 454.225,
+     "end": 454.585,
+     "score": 1.0
+    },
+    {
+     "text": "yer",
+     "dis": false,
+     "chunk": 39,
+     "start": 454.665,
+     "end": 454.805,
+     "score": 0.666
+    },
+    {
+     "text": "ostidagi",
+     "dis": false,
+     "chunk": 39,
+     "start": 454.905,
+     "end": 455.305,
+     "score": 0.998
+    },
+    {
+     "text": "noma'lum",
+     "dis": false,
+     "chunk": 39,
+     "start": 455.385,
+     "end": 455.886,
+     "score": 0.874
+    },
+    {
+     "text": "dunyodan",
+     "dis": false,
+     "chunk": 39,
+     "start": 455.946,
+     "end": 456.426,
+     "score": 0.749
+    },
+    {
+     "text": "kelgan,",
+     "dis": false,
+     "chunk": 39,
+     "start": 456.466,
+     "end": 456.846,
+     "score": 0.995
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 39,
+     "start": 456.906,
+     "end": 457.026,
+     "score": 0.998
+    },
+    {
+     "text": "ishonishadi.",
+     "dis": false,
+     "chunk": 39,
+     "start": 457.046,
+     "end": 457.527,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "start": 458.207,
+   "end": 462.589,
+   "text": "O'rta asrlarda ko'p odamlar yer ostida boshqa mavjudotlar yashashiga ishonishgan.",
+   "words": [
+    {
+     "text": "O'rta",
+     "dis": false,
+     "chunk": 40,
+     "start": 458.207,
+     "end": 458.407,
+     "score": 0.599
+    },
+    {
+     "text": "asrlarda",
+     "dis": false,
+     "chunk": 40,
+     "start": 458.467,
+     "end": 458.927,
+     "score": 0.997
+    },
+    {
+     "text": "ko'p",
+     "dis": false,
+     "chunk": 40,
+     "start": 459.287,
+     "end": 459.467,
+     "score": 0.5
+    },
+    {
+     "text": "odamlar",
+     "dis": false,
+     "chunk": 40,
+     "start": 459.567,
+     "end": 459.948,
+     "score": 1.0
+    },
+    {
+     "text": "yer",
+     "dis": false,
+     "chunk": 40,
+     "start": 460.028,
+     "end": 460.188,
+     "score": 0.666
+    },
+    {
+     "text": "ostida",
+     "dis": false,
+     "chunk": 40,
+     "start": 460.288,
+     "end": 460.588,
+     "score": 0.998
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 40,
+     "start": 460.648,
+     "end": 460.928,
+     "score": 0.779
+    },
+    {
+     "text": "mavjudotlar",
+     "dis": false,
+     "chunk": 40,
+     "start": 460.988,
+     "end": 461.588,
+     "score": 0.908
+    },
+    {
+     "text": "yashashiga",
+     "dis": false,
+     "chunk": 40,
+     "start": 461.648,
+     "end": 462.049,
+     "score": 0.979
+    },
+    {
+     "text": "ishonishgan.",
+     "dis": false,
+     "chunk": 40,
+     "start": 462.089,
+     "end": 462.589,
+     "score": 0.978
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "start": 463.389,
+   "end": 468.692,
+   "text": "Ingliz xalq og'zaki ijodida yashil rang ko'pincha parilar va sehrli dunyo bilan bog'langan.",
+   "words": [
+    {
+     "text": "Ingliz",
+     "dis": false,
+     "chunk": 40,
+     "start": 463.389,
+     "end": 463.729,
+     "score": 0.986
+    },
+    {
+     "text": "xalq",
+     "dis": false,
+     "chunk": 40,
+     "start": 463.789,
+     "end": 463.99,
+     "score": 0.5
+    },
+    {
+     "text": "og'zaki",
+     "dis": false,
+     "chunk": 40,
+     "start": 464.11,
+     "end": 464.43,
+     "score": 0.834
+    },
+    {
+     "text": "ijodida",
+     "dis": false,
+     "chunk": 40,
+     "start": 464.47,
+     "end": 464.87,
+     "score": 0.857
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 40,
+     "start": 465.25,
+     "end": 465.55,
+     "score": 0.996
+    },
+    {
+     "text": "rang",
+     "dis": false,
+     "chunk": 40,
+     "start": 465.61,
+     "end": 465.79,
+     "score": 1.0
+    },
+    {
+     "text": "ko'pincha",
+     "dis": false,
+     "chunk": 40,
+     "start": 466.071,
+     "end": 466.431,
+     "score": 0.777
+    },
+    {
+     "text": "parilar",
+     "dis": false,
+     "chunk": 40,
+     "start": 466.511,
+     "end": 466.991,
+     "score": 0.995
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 40,
+     "start": 467.051,
+     "end": 467.131,
+     "score": 1.0
+    },
+    {
+     "text": "sehrli",
+     "dis": false,
+     "chunk": 40,
+     "start": 467.211,
+     "end": 467.591,
+     "score": 0.995
+    },
+    {
+     "text": "dunyo",
+     "dis": false,
+     "chunk": 40,
+     "start": 467.671,
+     "end": 467.911,
+     "score": 0.6
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 40,
+     "start": 467.992,
+     "end": 468.172,
+     "score": 0.999
+    },
+    {
+     "text": "bog'langan.",
+     "dis": false,
+     "chunk": 40,
+     "start": 468.212,
+     "end": 468.692,
+     "score": 0.897
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "start": 469.432,
+   "end": 473.254,
+   "text": "Yigirmanchi asrda esa yanada hayratlanarli nazariyalar paydo bo'ldi.",
+   "words": [
+    {
+     "text": "Yigirmanchi",
+     "dis": false,
+     "chunk": 41,
+     "start": 469.432,
+     "end": 469.912,
+     "score": 0.817
+    },
+    {
+     "text": "asrda",
+     "dis": false,
+     "chunk": 41,
+     "start": 469.952,
+     "end": 470.233,
+     "score": 0.987
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 41,
+     "start": 470.273,
+     "end": 470.453,
+     "score": 0.994
+    },
+    {
+     "text": "yanada",
+     "dis": false,
+     "chunk": 41,
+     "start": 470.853,
+     "end": 471.153,
+     "score": 0.999
+    },
+    {
+     "text": "hayratlanarli",
+     "dis": false,
+     "chunk": 41,
+     "start": 471.213,
+     "end": 472.013,
+     "score": 0.913
+    },
+    {
+     "text": "nazariyalar",
+     "dis": false,
+     "chunk": 41,
+     "start": 472.093,
+     "end": 472.654,
+     "score": 0.999
+    },
+    {
+     "text": "paydo",
+     "dis": false,
+     "chunk": 41,
+     "start": 472.694,
+     "end": 472.934,
+     "score": 0.8
+    },
+    {
+     "text": "bo'ldi.",
+     "dis": false,
+     "chunk": 41,
+     "start": 472.994,
+     "end": 473.254,
+     "score": 0.666
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "start": 474.014,
+   "end": 485.48,
+   "text": "Ba'zi yozuvchilar bu bolalar boshqa sayyoradan, ehtimol, doimo bir tomoni bilan quyoshga qarab turadigan, shuning uchun abadiy shom hukm suradigan sayyoradan adashib kelib qolgan, deb taxmin qilishdi.",
+   "words": [
+    {
+     "text": "Ba'zi",
+     "dis": false,
+     "chunk": 41,
+     "start": 474.014,
+     "end": 474.254,
+     "score": 0.8
+    },
+    {
+     "text": "yozuvchilar",
+     "dis": false,
+     "chunk": 41,
+     "start": 474.275,
+     "end": 474.775,
+     "score": 0.815
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 41,
+     "start": 474.815,
+     "end": 474.875,
+     "score": 1.0
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 41,
+     "start": 474.955,
+     "end": 475.315,
+     "score": 1.0
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 41,
+     "start": 475.635,
+     "end": 475.915,
+     "score": 0.833
+    },
+    {
+     "text": "sayyoradan,",
+     "dis": false,
+     "chunk": 41,
+     "start": 475.975,
+     "end": 476.616,
+     "score": 0.624
+    },
+    {
+     "text": "ehtimol,",
+     "dis": false,
+     "chunk": 41,
+     "start": 476.976,
+     "end": 477.336,
+     "score": 0.992
+    },
+    {
+     "text": "doimo",
+     "dis": false,
+     "chunk": 41,
+     "start": 477.696,
+     "end": 478.096,
+     "score": 0.985
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 41,
+     "start": 478.236,
+     "end": 478.356,
+     "score": 0.999
+    },
+    {
+     "text": "tomoni",
+     "dis": false,
+     "chunk": 41,
+     "start": 478.416,
+     "end": 478.757,
+     "score": 0.999
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 41,
+     "start": 478.797,
+     "end": 478.977,
+     "score": 0.999
+    },
+    {
+     "text": "quyoshga",
+     "dis": false,
+     "chunk": 41,
+     "start": 479.037,
+     "end": 479.417,
+     "score": 0.603
+    },
+    {
+     "text": "qarab",
+     "dis": false,
+     "chunk": 41,
+     "start": 479.497,
+     "end": 479.717,
+     "score": 0.799
+    },
+    {
+     "text": "turadigan,",
+     "dis": false,
+     "chunk": 41,
+     "start": 479.757,
+     "end": 480.177,
+     "score": 0.999
+    },
+    {
+     "text": "shuning",
+     "dis": false,
+     "chunk": 41,
+     "start": 480.517,
+     "end": 480.718,
+     "score": 0.998
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 41,
+     "start": 480.738,
+     "end": 480.918,
+     "score": 0.998
+    },
+    {
+     "text": "abadiy",
+     "dis": false,
+     "chunk": 41,
+     "start": 481.258,
+     "end": 481.598,
+     "score": 0.741
+    },
+    {
+     "text": "shom",
+     "dis": false,
+     "chunk": 41,
+     "start": 481.738,
+     "end": 481.978,
+     "score": 0.99
+    },
+    {
+     "text": "hukm",
+     "dis": false,
+     "chunk": 41,
+     "start": 482.018,
+     "end": 482.218,
+     "score": 0.999
+    },
+    {
+     "text": "suradigan",
+     "dis": false,
+     "chunk": 41,
+     "start": 482.278,
+     "end": 482.659,
+     "score": 0.995
+    },
+    {
+     "text": "sayyoradan",
+     "dis": false,
+     "chunk": 41,
+     "start": 482.739,
+     "end": 483.319,
+     "score": 0.597
+    },
+    {
+     "text": "adashib",
+     "dis": false,
+     "chunk": 41,
+     "start": 483.439,
+     "end": 483.779,
+     "score": 0.999
+    },
+    {
+     "text": "kelib",
+     "dis": false,
+     "chunk": 41,
+     "start": 483.819,
+     "end": 484.039,
+     "score": 1.0
+    },
+    {
+     "text": "qolgan,",
+     "dis": false,
+     "chunk": 41,
+     "start": 484.079,
+     "end": 484.519,
+     "score": 0.757
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 41,
+     "start": 484.599,
+     "end": 484.74,
+     "score": 1.0
+    },
+    {
+     "text": "taxmin",
+     "dis": false,
+     "chunk": 41,
+     "start": 484.8,
+     "end": 485.12,
+     "score": 0.831
+    },
+    {
+     "text": "qilishdi.",
+     "dis": false,
+     "chunk": 41,
+     "start": 485.14,
+     "end": 485.48,
+     "score": 0.875
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "start": 486.1,
+   "end": 491.822,
+   "text": "Va ularning yashil rangi esa o'simliklar kabi fotosintezga moslashgan tana bo'lishi mumkin, deyishdi.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 42,
+     "start": 486.1,
+     "end": 486.16,
+     "score": 1.0
+    },
+    {
+     "text": "ularning",
+     "dis": false,
+     "chunk": 42,
+     "start": 486.3,
+     "end": 486.68,
+     "score": 0.983
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 42,
+     "start": 486.7,
+     "end": 486.96,
+     "score": 0.999
+    },
+    {
+     "text": "rangi",
+     "dis": false,
+     "chunk": 42,
+     "start": 487.02,
+     "end": 487.26,
+     "score": 0.997
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 42,
+     "start": 487.32,
+     "end": 487.501,
+     "score": 1.0
+    },
+    {
+     "text": "o'simliklar",
+     "dis": false,
+     "chunk": 42,
+     "start": 487.861,
+     "end": 488.401,
+     "score": 0.763
+    },
+    {
+     "text": "kabi",
+     "dis": false,
+     "chunk": 42,
+     "start": 488.441,
+     "end": 488.681,
+     "score": 0.978
+    },
+    {
+     "text": "fotosintezga",
+     "dis": false,
+     "chunk": 42,
+     "start": 488.961,
+     "end": 489.721,
+     "score": 0.994
+    },
+    {
+     "text": "moslashgan",
+     "dis": false,
+     "chunk": 42,
+     "start": 489.781,
+     "end": 490.261,
+     "score": 0.985
+    },
+    {
+     "text": "tana",
+     "dis": false,
+     "chunk": 42,
+     "start": 490.341,
+     "end": 490.562,
+     "score": 0.942
+    },
+    {
+     "text": "bo'lishi",
+     "dis": false,
+     "chunk": 42,
+     "start": 490.622,
+     "end": 490.922,
+     "score": 0.75
+    },
+    {
+     "text": "mumkin,",
+     "dis": false,
+     "chunk": 42,
+     "start": 490.962,
+     "end": 491.302,
+     "score": 0.933
+    },
+    {
+     "text": "deyishdi.",
+     "dis": false,
+     "chunk": 42,
+     "start": 491.482,
+     "end": 491.822,
+     "score": 0.903
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "start": 492.742,
+   "end": 495.883,
+   "text": "Albatta, buni tasdiqlovchi hech qanday ilmiy dalil yo'q.",
+   "words": [
+    {
+     "text": "Albatta,",
+     "dis": false,
+     "chunk": 42,
+     "start": 492.742,
+     "end": 493.142,
+     "score": 1.0
+    },
+    {
+     "text": "buni",
+     "dis": false,
+     "chunk": 42,
+     "start": 493.402,
+     "end": 493.582,
+     "score": 1.0
+    },
+    {
+     "text": "tasdiqlovchi",
+     "dis": false,
+     "chunk": 42,
+     "start": 493.602,
+     "end": 494.183,
+     "score": 0.907
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 42,
+     "start": 494.263,
+     "end": 494.483,
+     "score": 0.983
+    },
+    {
+     "text": "qanday",
+     "dis": false,
+     "chunk": 42,
+     "start": 494.543,
+     "end": 494.823,
+     "score": 0.666
+    },
+    {
+     "text": "ilmiy",
+     "dis": false,
+     "chunk": 42,
+     "start": 495.003,
+     "end": 495.283,
+     "score": 0.778
+    },
+    {
+     "text": "dalil",
+     "dis": false,
+     "chunk": 42,
+     "start": 495.363,
+     "end": 495.663,
+     "score": 1.0
+    },
+    {
+     "text": "yo'q.",
+     "dis": false,
+     "chunk": 42,
+     "start": 495.723,
+     "end": 495.883,
+     "score": 0.035
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "start": 496.804,
+   "end": 505.586,
+   "text": "Ba'zi tarixchilar esa bu hikoya umuman haqiqiy voqea emas, balki qandaydir ma'noni ifodalovchi rivoyat bo'lishi mumkin, deb hisoblashadi.",
+   "words": [
+    {
+     "text": "Ba'zi",
+     "dis": false,
+     "chunk": 43,
+     "start": 496.804,
+     "end": 497.064,
+     "score": 0.801
+    },
+    {
+     "text": "tarixchilar",
+     "dis": false,
+     "chunk": 43,
+     "start": 497.104,
+     "end": 497.604,
+     "score": 0.907
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 43,
+     "start": 497.664,
+     "end": 497.844,
+     "score": 1.0
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 43,
+     "start": 498.084,
+     "end": 498.144,
+     "score": 1.0
+    },
+    {
+     "text": "hikoya",
+     "dis": false,
+     "chunk": 43,
+     "start": 498.204,
+     "end": 498.624,
+     "score": 0.597
+    },
+    {
+     "text": "umuman",
+     "dis": false,
+     "chunk": 43,
+     "start": 498.984,
+     "end": 499.344,
+     "score": 0.999
+    },
+    {
+     "text": "haqiqiy",
+     "dis": false,
+     "chunk": 43,
+     "start": 499.424,
+     "end": 499.924,
+     "score": 0.555
+    },
+    {
+     "text": "voqea",
+     "dis": false,
+     "chunk": 43,
+     "start": 500.025,
+     "end": 500.425,
+     "score": 0.79
+    },
+    {
+     "text": "emas,",
+     "dis": false,
+     "chunk": 43,
+     "start": 500.565,
+     "end": 500.865,
+     "score": 1.0
+    },
+    {
+     "text": "balki",
+     "dis": false,
+     "chunk": 43,
+     "start": 501.205,
+     "end": 501.445,
+     "score": 1.0
+    },
+    {
+     "text": "qandaydir",
+     "dis": false,
+     "chunk": 43,
+     "start": 501.785,
+     "end": 502.285,
+     "score": 0.777
+    },
+    {
+     "text": "ma'noni",
+     "dis": false,
+     "chunk": 43,
+     "start": 502.365,
+     "end": 502.825,
+     "score": 0.857
+    },
+    {
+     "text": "ifodalovchi",
+     "dis": false,
+     "chunk": 43,
+     "start": 502.885,
+     "end": 503.446,
+     "score": 0.999
+    },
+    {
+     "text": "rivoyat",
+     "dis": false,
+     "chunk": 43,
+     "start": 503.506,
+     "end": 503.926,
+     "score": 0.969
+    },
+    {
+     "text": "bo'lishi",
+     "dis": false,
+     "chunk": 43,
+     "start": 503.986,
+     "end": 504.266,
+     "score": 0.75
+    },
+    {
+     "text": "mumkin,",
+     "dis": false,
+     "chunk": 43,
+     "start": 504.286,
+     "end": 504.626,
+     "score": 0.9
+    },
+    {
+     "text": "deb",
+     "dis": false,
+     "chunk": 43,
+     "start": 504.826,
+     "end": 504.966,
+     "score": 1.0
+    },
+    {
+     "text": "hisoblashadi.",
+     "dis": false,
+     "chunk": 43,
+     "start": 504.986,
+     "end": 505.586,
+     "score": 0.992
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "start": 506.347,
+   "end": 513.549,
+   "text": "Ammo unda nega ikki jiddiy tarixchi uni haqiqat sifatida, guvohlar ismlari va joy nomlari bilan yozib qoldirdi?",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 44,
+     "start": 506.347,
+     "end": 506.567,
+     "score": 1.0
+    },
+    {
+     "text": "unda",
+     "dis": false,
+     "chunk": 44,
+     "start": 507.047,
+     "end": 507.267,
+     "score": 0.999
+    },
+    {
+     "text": "nega",
+     "dis": false,
+     "chunk": 44,
+     "start": 507.307,
+     "end": 507.527,
+     "score": 0.998
+    },
+    {
+     "text": "ikki",
+     "dis": false,
+     "chunk": 44,
+     "start": 507.687,
+     "end": 507.927,
+     "score": 0.99
+    },
+    {
+     "text": "jiddiy",
+     "dis": false,
+     "chunk": 44,
+     "start": 508.007,
+     "end": 508.287,
+     "score": 0.703
+    },
+    {
+     "text": "tarixchi",
+     "dis": false,
+     "chunk": 44,
+     "start": 508.367,
+     "end": 508.807,
+     "score": 0.871
+    },
+    {
+     "text": "uni",
+     "dis": false,
+     "chunk": 44,
+     "start": 509.107,
+     "end": 509.227,
+     "score": 1.0
+    },
+    {
+     "text": "haqiqat",
+     "dis": false,
+     "chunk": 44,
+     "start": 509.287,
+     "end": 509.808,
+     "score": 0.712
+    },
+    {
+     "text": "sifatida,",
+     "dis": false,
+     "chunk": 44,
+     "start": 509.848,
+     "end": 510.228,
+     "score": 0.999
+    },
+    {
+     "text": "guvohlar",
+     "dis": false,
+     "chunk": 44,
+     "start": 510.588,
+     "end": 511.028,
+     "score": 0.991
+    },
+    {
+     "text": "ismlari",
+     "dis": false,
+     "chunk": 44,
+     "start": 511.108,
+     "end": 511.548,
+     "score": 1.0
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 44,
+     "start": 511.608,
+     "end": 511.668,
+     "score": 0.999
+    },
+    {
+     "text": "joy",
+     "dis": false,
+     "chunk": 44,
+     "start": 511.768,
+     "end": 512.008,
+     "score": 0.335
+    },
+    {
+     "text": "nomlari",
+     "dis": false,
+     "chunk": 44,
+     "start": 512.088,
+     "end": 512.508,
+     "score": 1.0
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 44,
+     "start": 512.548,
+     "end": 512.749,
+     "score": 0.999
+    },
+    {
+     "text": "yozib",
+     "dis": false,
+     "chunk": 44,
+     "start": 512.829,
+     "end": 513.089,
+     "score": 0.6
+    },
+    {
+     "text": "qoldirdi?",
+     "dis": false,
+     "chunk": 44,
+     "start": 513.149,
+     "end": 513.549,
+     "score": 0.875
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "start": 514.349,
+   "end": 517.691,
+   "text": "Bugun Vulpit qishlog'iga kirish joyida chiroyli belgi turibdi.",
+   "words": [
+    {
+     "text": "Bugun",
+     "dis": false,
+     "chunk": 45,
+     "start": 514.349,
+     "end": 514.609,
+     "score": 1.0
+    },
+    {
+     "text": "Vulpit",
+     "dis": false,
+     "chunk": 45,
+     "start": 515.01,
+     "end": 515.33,
+     "score": 0.942
+    },
+    {
+     "text": "qishlog'iga",
+     "dis": false,
+     "chunk": 45,
+     "start": 515.37,
+     "end": 515.81,
+     "score": 0.743
+    },
+    {
+     "text": "kirish",
+     "dis": false,
+     "chunk": 45,
+     "start": 515.87,
+     "end": 516.09,
+     "score": 0.996
+    },
+    {
+     "text": "joyida",
+     "dis": false,
+     "chunk": 45,
+     "start": 516.11,
+     "end": 516.431,
+     "score": 0.663
+    },
+    {
+     "text": "chiroyli",
+     "dis": false,
+     "chunk": 45,
+     "start": 516.511,
+     "end": 516.951,
+     "score": 0.868
+    },
+    {
+     "text": "belgi",
+     "dis": false,
+     "chunk": 45,
+     "start": 517.051,
+     "end": 517.311,
+     "score": 0.964
+    },
+    {
+     "text": "turibdi.",
+     "dis": false,
+     "chunk": 45,
+     "start": 517.351,
+     "end": 517.691,
+     "score": 0.996
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "start": 518.272,
+   "end": 521.674,
+   "text": "Unda ikki bola tasvirlangan, bir o'g'il va bir qiz.",
+   "words": [
+    {
+     "text": "Unda",
+     "dis": false,
+     "chunk": 45,
+     "start": 518.272,
+     "end": 518.452,
+     "score": 0.952
+    },
+    {
+     "text": "ikki",
+     "dis": false,
+     "chunk": 45,
+     "start": 518.832,
+     "end": 519.072,
+     "score": 0.948
+    },
+    {
+     "text": "bola",
+     "dis": false,
+     "chunk": 45,
+     "start": 519.112,
+     "end": 519.313,
+     "score": 1.0
+    },
+    {
+     "text": "tasvirlangan,",
+     "dis": false,
+     "chunk": 45,
+     "start": 519.373,
+     "end": 520.053,
+     "score": 0.991
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 45,
+     "start": 520.413,
+     "end": 520.513,
+     "score": 1.0
+    },
+    {
+     "text": "o'g'il",
+     "dis": false,
+     "chunk": 45,
+     "start": 520.673,
+     "end": 520.974,
+     "score": 0.462
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 45,
+     "start": 521.094,
+     "end": 521.154,
+     "score": 0.999
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 45,
+     "start": 521.234,
+     "end": 521.354,
+     "score": 0.998
+    },
+    {
+     "text": "qiz.",
+     "dis": false,
+     "chunk": 45,
+     "start": 521.474,
+     "end": 521.674,
+     "score": 0.654
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "start": 522.054,
+   "end": 522.935,
+   "text": "Qo'l ushlashib turibdi.",
+   "words": [
+    {
+     "text": "Qo'l",
+     "dis": false,
+     "chunk": 45,
+     "start": 522.054,
+     "end": 522.254,
+     "score": 0.001
+    },
+    {
+     "text": "ushlashib",
+     "dis": false,
+     "chunk": 45,
+     "start": 522.274,
+     "end": 522.615,
+     "score": 0.971
+    },
+    {
+     "text": "turibdi.",
+     "dis": false,
+     "chunk": 45,
+     "start": 522.635,
+     "end": 522.935,
+     "score": 0.995
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "start": 522.935,
+   "end": 528.178,
+   "text": "qishloq aholisi bu hikoyani faxr bilan avloddan-avlodga yetkazib kelmoqda.",
+   "words": [
+    {
+     "text": "Qish,",
+     "dis": true,
+     "chunk": 46,
+     "start": 522.935,
+     "end": 523.735,
+     "score": 0.0
+    },
+    {
+     "text": "qishloq",
+     "dis": false,
+     "chunk": 46,
+     "start": 523.735,
+     "end": 524.036,
+     "score": 0.714
+    },
+    {
+     "text": "aholisi",
+     "dis": false,
+     "chunk": 46,
+     "start": 524.076,
+     "end": 524.516,
+     "score": 0.92
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 46,
+     "start": 524.876,
+     "end": 524.936,
+     "score": 1.0
+    },
+    {
+     "text": "hikoyani",
+     "dis": false,
+     "chunk": 46,
+     "start": 524.996,
+     "end": 525.477,
+     "score": 0.97
+    },
+    {
+     "text": "faxr",
+     "dis": false,
+     "chunk": 46,
+     "start": 525.557,
+     "end": 525.857,
+     "score": 0.75
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 46,
+     "start": 525.917,
+     "end": 526.117,
+     "score": 0.999
+    },
+    {
+     "text": "avloddan-avlodga",
+     "dis": false,
+     "chunk": 46,
+     "start": 526.277,
+     "end": 527.298,
+     "score": 0.894
+    },
+    {
+     "text": "yetkazib",
+     "dis": false,
+     "chunk": 46,
+     "start": 527.358,
+     "end": 527.738,
+     "score": 0.873
+    },
+    {
+     "text": "kelmoqda.",
+     "dis": false,
+     "chunk": 46,
+     "start": 527.758,
+     "end": 528.178,
+     "score": 0.874
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "start": 529.059,
+   "end": 532.421,
+   "text": "Ammo ular ham haqiqat nima ekanini bilishmaydi.",
+   "words": [
+    {
+     "text": "Ammo",
+     "dis": false,
+     "chunk": 46,
+     "start": 529.059,
+     "end": 529.279,
+     "score": 1.0
+    },
+    {
+     "text": "ular",
+     "dis": false,
+     "chunk": 46,
+     "start": 529.859,
+     "end": 530.06,
+     "score": 1.0
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 46,
+     "start": 530.1,
+     "end": 530.26,
+     "score": 0.967
+    },
+    {
+     "text": "haqiqat",
+     "dis": false,
+     "chunk": 46,
+     "start": 530.34,
+     "end": 530.8,
+     "score": 0.713
+    },
+    {
+     "text": "nima",
+     "dis": false,
+     "chunk": 46,
+     "start": 530.88,
+     "end": 531.04,
+     "score": 0.998
+    },
+    {
+     "text": "ekanini",
+     "dis": false,
+     "chunk": 46,
+     "start": 531.08,
+     "end": 531.5,
+     "score": 0.999
+    },
+    {
+     "text": "bilishmaydi.",
+     "dis": false,
+     "chunk": 46,
+     "start": 531.881,
+     "end": 532.421,
+     "score": 0.901
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "start": 533.442,
+   "end": 534.683,
+   "text": "Endi bir o'ylab ko'ring.",
+   "words": [
+    {
+     "text": "Endi",
+     "dis": false,
+     "chunk": 47,
+     "start": 533.442,
+     "end": 533.682,
+     "score": 0.998
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 47,
+     "start": 534.002,
+     "end": 534.102,
+     "score": 0.998
+    },
+    {
+     "text": "o'ylab",
+     "dis": false,
+     "chunk": 47,
+     "start": 534.162,
+     "end": 534.382,
+     "score": 0.502
+    },
+    {
+     "text": "ko'ring.",
+     "dis": false,
+     "chunk": 47,
+     "start": 534.402,
+     "end": 534.683,
+     "score": 0.714
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "start": 535.463,
+   "end": 536.023,
+   "text": "Ikki bola.",
+   "words": [
+    {
+     "text": "Ikki",
+     "dis": false,
+     "chunk": 47,
+     "start": 535.463,
+     "end": 535.723,
+     "score": 0.999
+    },
+    {
+     "text": "bola.",
+     "dis": false,
+     "chunk": 47,
+     "start": 535.783,
+     "end": 536.023,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "start": 536.824,
+   "end": 539.806,
+   "text": "Begona yurtda, begona odamlar orasida.",
+   "words": [
+    {
+     "text": "Begona",
+     "dis": false,
+     "chunk": 47,
+     "start": 536.824,
+     "end": 537.344,
+     "score": 0.999
+    },
+    {
+     "text": "yurtda,",
+     "dis": false,
+     "chunk": 47,
+     "start": 537.424,
+     "end": 537.825,
+     "score": 0.998
+    },
+    {
+     "text": "begona",
+     "dis": false,
+     "chunk": 47,
+     "start": 538.345,
+     "end": 538.805,
+     "score": 0.981
+    },
+    {
+     "text": "odamlar",
+     "dis": false,
+     "chunk": 47,
+     "start": 538.905,
+     "end": 539.326,
+     "score": 0.994
+    },
+    {
+     "text": "orasida.",
+     "dis": false,
+     "chunk": 47,
+     "start": 539.426,
+     "end": 539.806,
+     "score": 0.994
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "start": 540.366,
+   "end": 547.231,
+   "text": "Tilini tushunmaydigan, ovqatini taniy olmaydigan, terisi boshqacha bo'lgani uchun hamma hayrat bilan qaraydigan joyda.",
+   "words": [
+    {
+     "text": "Tilini",
+     "dis": false,
+     "chunk": 48,
+     "start": 540.366,
+     "end": 540.646,
+     "score": 1.0
+    },
+    {
+     "text": "tushunmaydigan,",
+     "dis": false,
+     "chunk": 48,
+     "start": 540.686,
+     "end": 541.447,
+     "score": 0.906
+    },
+    {
+     "text": "ovqatini",
+     "dis": false,
+     "chunk": 48,
+     "start": 541.767,
+     "end": 542.187,
+     "score": 0.872
+    },
+    {
+     "text": "taniy",
+     "dis": false,
+     "chunk": 48,
+     "start": 542.227,
+     "end": 542.468,
+     "score": 0.829
+    },
+    {
+     "text": "olmaydigan,",
+     "dis": false,
+     "chunk": 48,
+     "start": 542.608,
+     "end": 543.248,
+     "score": 0.899
+    },
+    {
+     "text": "terisi",
+     "dis": false,
+     "chunk": 48,
+     "start": 543.628,
+     "end": 543.929,
+     "score": 0.998
+    },
+    {
+     "text": "boshqacha",
+     "dis": false,
+     "chunk": 48,
+     "start": 543.989,
+     "end": 544.329,
+     "score": 0.811
+    },
+    {
+     "text": "bo'lgani",
+     "dis": false,
+     "chunk": 48,
+     "start": 544.389,
+     "end": 544.709,
+     "score": 0.749
+    },
+    {
+     "text": "uchun",
+     "dis": false,
+     "chunk": 48,
+     "start": 544.749,
+     "end": 544.949,
+     "score": 1.0
+    },
+    {
+     "text": "hamma",
+     "dis": false,
+     "chunk": 48,
+     "start": 545.249,
+     "end": 545.59,
+     "score": 0.997
+    },
+    {
+     "text": "hayrat",
+     "dis": false,
+     "chunk": 48,
+     "start": 545.69,
+     "end": 546.09,
+     "score": 0.827
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 48,
+     "start": 546.15,
+     "end": 546.33,
+     "score": 1.0
+    },
+    {
+     "text": "qaraydigan",
+     "dis": false,
+     "chunk": 48,
+     "start": 546.37,
+     "end": 546.871,
+     "score": 0.782
+    },
+    {
+     "text": "joyda.",
+     "dis": false,
+     "chunk": 48,
+     "start": 546.931,
+     "end": 547.231,
+     "score": 0.547
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "start": 548.151,
+   "end": 550.192,
+   "text": "Ularning biri tez orada vafot etdi.",
+   "words": [
+    {
+     "text": "Ularning",
+     "dis": false,
+     "chunk": 49,
+     "start": 548.151,
+     "end": 548.511,
+     "score": 0.999
+    },
+    {
+     "text": "biri",
+     "dis": false,
+     "chunk": 49,
+     "start": 548.551,
+     "end": 548.711,
+     "score": 0.999
+    },
+    {
+     "text": "tez",
+     "dis": false,
+     "chunk": 49,
+     "start": 549.071,
+     "end": 549.251,
+     "score": 0.999
+    },
+    {
+     "text": "orada",
+     "dis": false,
+     "chunk": 49,
+     "start": 549.311,
+     "end": 549.531,
+     "score": 0.952
+    },
+    {
+     "text": "vafot",
+     "dis": false,
+     "chunk": 49,
+     "start": 549.591,
+     "end": 549.892,
+     "score": 0.995
+    },
+    {
+     "text": "etdi.",
+     "dis": false,
+     "chunk": 49,
+     "start": 549.972,
+     "end": 550.192,
+     "score": 0.933
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "start": 551.012,
+   "end": 555.913,
+   "text": "Ikkinchisi esa yangi hayotga moslashib, o'z o'tmishini asta-sekin unutdi.",
+   "words": [
+    {
+     "text": "Ikkinchisi",
+     "dis": false,
+     "chunk": 49,
+     "start": 551.012,
+     "end": 551.392,
+     "score": 0.942
+    },
+    {
+     "text": "esa",
+     "dis": false,
+     "chunk": 49,
+     "start": 551.432,
+     "end": 551.612,
+     "score": 0.997
+    },
+    {
+     "text": "yangi",
+     "dis": false,
+     "chunk": 49,
+     "start": 552.032,
+     "end": 552.312,
+     "score": 1.0
+    },
+    {
+     "text": "hayotga",
+     "dis": false,
+     "chunk": 49,
+     "start": 552.372,
+     "end": 552.752,
+     "score": 0.713
+    },
+    {
+     "text": "moslashib,",
+     "dis": false,
+     "chunk": 49,
+     "start": 552.812,
+     "end": 553.292,
+     "score": 0.995
+    },
+    {
+     "text": "o'z",
+     "dis": false,
+     "chunk": 49,
+     "start": 553.672,
+     "end": 553.792,
+     "score": 0.333
+    },
+    {
+     "text": "o'tmishini",
+     "dis": false,
+     "chunk": 49,
+     "start": 553.952,
+     "end": 554.433,
+     "score": 0.799
+    },
+    {
+     "text": "asta-sekin",
+     "dis": false,
+     "chunk": 49,
+     "start": 554.833,
+     "end": 555.413,
+     "score": 0.987
+    },
+    {
+     "text": "unutdi.",
+     "dis": false,
+     "chunk": 49,
+     "start": 555.533,
+     "end": 555.913,
+     "score": 0.845
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "start": 557.053,
+   "end": 561.574,
+   "text": "Ehtimol, bu hikoyaning eng og'riqli tomoni ham aynan shudir.",
+   "words": [
+    {
+     "text": "Ehtimol,",
+     "dis": false,
+     "chunk": 50,
+     "start": 557.053,
+     "end": 557.473,
+     "score": 0.996
+    },
+    {
+     "text": "bu",
+     "dis": false,
+     "chunk": 50,
+     "start": 558.053,
+     "end": 558.133,
+     "score": 1.0
+    },
+    {
+     "text": "hikoyaning",
+     "dis": false,
+     "chunk": 50,
+     "start": 558.193,
+     "end": 558.774,
+     "score": 0.954
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 50,
+     "start": 558.954,
+     "end": 559.114,
+     "score": 0.95
+    },
+    {
+     "text": "og'riqli",
+     "dis": false,
+     "chunk": 50,
+     "start": 559.274,
+     "end": 559.694,
+     "score": 0.678
+    },
+    {
+     "text": "tomoni",
+     "dis": false,
+     "chunk": 50,
+     "start": 559.754,
+     "end": 560.134,
+     "score": 1.0
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 50,
+     "start": 560.194,
+     "end": 560.374,
+     "score": 0.981
+    },
+    {
+     "text": "aynan",
+     "dis": false,
+     "chunk": 50,
+     "start": 560.914,
+     "end": 561.214,
+     "score": 0.798
+    },
+    {
+     "text": "shudir.",
+     "dis": false,
+     "chunk": 50,
+     "start": 561.294,
+     "end": 561.574,
+     "score": 0.945
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "start": 562.254,
+   "end": 564.135,
+   "text": "Biz hech qachon bilmaymiz.",
+   "words": [
+    {
+     "text": "Biz",
+     "dis": false,
+     "chunk": 50,
+     "start": 562.254,
+     "end": 562.514,
+     "score": 1.0
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 50,
+     "start": 562.715,
+     "end": 563.015,
+     "score": 1.0
+    },
+    {
+     "text": "qachon",
+     "dis": false,
+     "chunk": 50,
+     "start": 563.095,
+     "end": 563.455,
+     "score": 0.833
+    },
+    {
+     "text": "bilmaymiz.",
+     "dis": false,
+     "chunk": 50,
+     "start": 563.535,
+     "end": 564.135,
+     "score": 0.888
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "start": 564.775,
+   "end": 573.937,
+   "text": "Bu qiz qolgan umri davomida o'z yurtini, o'sha abadiy shom bilan qoplangan yashil dunyoni sog'inib yashadimi?",
+   "words": [
+    {
+     "text": "Bu",
+     "dis": false,
+     "chunk": 50,
+     "start": 564.775,
+     "end": 564.855,
+     "score": 1.0
+    },
+    {
+     "text": "qiz",
+     "dis": false,
+     "chunk": 50,
+     "start": 564.955,
+     "end": 565.195,
+     "score": 0.592
+    },
+    {
+     "text": "qolgan",
+     "dis": false,
+     "chunk": 50,
+     "start": 565.535,
+     "end": 566.055,
+     "score": 0.833
+    },
+    {
+     "text": "umri",
+     "dis": false,
+     "chunk": 50,
+     "start": 566.215,
+     "end": 566.515,
+     "score": 0.999
+    },
+    {
+     "text": "davomida",
+     "dis": false,
+     "chunk": 50,
+     "start": 566.595,
+     "end": 567.136,
+     "score": 1.0
+    },
+    {
+     "text": "o'z",
+     "dis": false,
+     "chunk": 50,
+     "start": 567.336,
+     "end": 567.516,
+     "score": 0.333
+    },
+    {
+     "text": "yurtini,",
+     "dis": false,
+     "chunk": 50,
+     "start": 567.616,
+     "end": 568.096,
+     "score": 0.998
+    },
+    {
+     "text": "o'sha",
+     "dis": false,
+     "chunk": 50,
+     "start": 568.656,
+     "end": 568.856,
+     "score": 0.6
+    },
+    {
+     "text": "abadiy",
+     "dis": false,
+     "chunk": 50,
+     "start": 569.256,
+     "end": 569.616,
+     "score": 0.83
+    },
+    {
+     "text": "shom",
+     "dis": false,
+     "chunk": 50,
+     "start": 569.856,
+     "end": 570.156,
+     "score": 0.813
+    },
+    {
+     "text": "bilan",
+     "dis": false,
+     "chunk": 50,
+     "start": 570.256,
+     "end": 570.516,
+     "score": 1.0
+    },
+    {
+     "text": "qoplangan",
+     "dis": false,
+     "chunk": 50,
+     "start": 570.616,
+     "end": 571.337,
+     "score": 0.888
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 50,
+     "start": 571.457,
+     "end": 571.857,
+     "score": 0.998
+    },
+    {
+     "text": "dunyoni",
+     "dis": false,
+     "chunk": 50,
+     "start": 571.957,
+     "end": 572.537,
+     "score": 0.714
+    },
+    {
+     "text": "sog'inib",
+     "dis": false,
+     "chunk": 50,
+     "start": 572.997,
+     "end": 573.457,
+     "score": 0.874
+    },
+    {
+     "text": "yashadimi?",
+     "dis": false,
+     "chunk": 50,
+     "start": 573.517,
+     "end": 573.937,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "start": 575.057,
+   "end": 578.678,
+   "text": "Balki yashil bolalar hikoyasi bizga shuni eslatadi.",
+   "words": [
+    {
+     "text": "Balki",
+     "dis": false,
+     "chunk": 51,
+     "start": 575.057,
+     "end": 575.358,
+     "score": 1.0
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 51,
+     "start": 575.798,
+     "end": 576.118,
+     "score": 0.997
+    },
+    {
+     "text": "bolalar",
+     "dis": false,
+     "chunk": 51,
+     "start": 576.198,
+     "end": 576.578,
+     "score": 0.999
+    },
+    {
+     "text": "hikoyasi",
+     "dis": false,
+     "chunk": 51,
+     "start": 576.638,
+     "end": 577.198,
+     "score": 0.967
+    },
+    {
+     "text": "bizga",
+     "dis": false,
+     "chunk": 51,
+     "start": 577.538,
+     "end": 577.798,
+     "score": 1.0
+    },
+    {
+     "text": "shuni",
+     "dis": false,
+     "chunk": 51,
+     "start": 577.938,
+     "end": 578.158,
+     "score": 0.997
+    },
+    {
+     "text": "eslatadi.",
+     "dis": false,
+     "chunk": 51,
+     "start": 578.238,
+     "end": 578.678,
+     "score": 0.989
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "start": 579.478,
+   "end": 585.44,
+   "text": "Begonani ko'rganimizda biz ko'pincha uni tushunishga emas, undan hayratlanishga shoshilamiz.",
+   "words": [
+    {
+     "text": "Begonani",
+     "dis": false,
+     "chunk": 51,
+     "start": 579.478,
+     "end": 580.039,
+     "score": 0.999
+    },
+    {
+     "text": "ko'rganimizda",
+     "dis": false,
+     "chunk": 51,
+     "start": 580.079,
+     "end": 580.759,
+     "score": 0.846
+    },
+    {
+     "text": "biz",
+     "dis": false,
+     "chunk": 51,
+     "start": 581.139,
+     "end": 581.299,
+     "score": 1.0
+    },
+    {
+     "text": "ko'pincha",
+     "dis": false,
+     "chunk": 51,
+     "start": 581.359,
+     "end": 581.779,
+     "score": 0.77
+    },
+    {
+     "text": "uni",
+     "dis": false,
+     "chunk": 51,
+     "start": 581.859,
+     "end": 581.999,
+     "score": 0.998
+    },
+    {
+     "text": "tushunishga",
+     "dis": false,
+     "chunk": 51,
+     "start": 582.039,
+     "end": 582.619,
+     "score": 0.97
+    },
+    {
+     "text": "emas,",
+     "dis": false,
+     "chunk": 51,
+     "start": 582.699,
+     "end": 582.979,
+     "score": 1.0
+    },
+    {
+     "text": "undan",
+     "dis": false,
+     "chunk": 51,
+     "start": 583.379,
+     "end": 583.739,
+     "score": 1.0
+    },
+    {
+     "text": "hayratlanishga",
+     "dis": false,
+     "chunk": 51,
+     "start": 583.9,
+     "end": 584.84,
+     "score": 0.921
+    },
+    {
+     "text": "shoshilamiz.",
+     "dis": false,
+     "chunk": 51,
+     "start": 584.9,
+     "end": 585.44,
+     "score": 0.983
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "start": 586.38,
+   "end": 596.145,
+   "text": "Va ba'zan eng katta sir uzoq sayyoralarda emas, balki yonimizdagi notanish insonning qalbida yashiringan bo'ladi.",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 52,
+     "start": 586.38,
+     "end": 586.48,
+     "score": 1.0
+    },
+    {
+     "text": "ba'zan",
+     "dis": false,
+     "chunk": 52,
+     "start": 587.001,
+     "end": 587.421,
+     "score": 0.832
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 52,
+     "start": 587.661,
+     "end": 587.841,
+     "score": 0.995
+    },
+    {
+     "text": "katta",
+     "dis": false,
+     "chunk": 52,
+     "start": 587.941,
+     "end": 588.321,
+     "score": 0.993
+    },
+    {
+     "text": "sir",
+     "dis": false,
+     "chunk": 52,
+     "start": 588.421,
+     "end": 588.601,
+     "score": 0.993
+    },
+    {
+     "text": "uzoq",
+     "dis": false,
+     "chunk": 52,
+     "start": 589.142,
+     "end": 589.482,
+     "score": 0.75
+    },
+    {
+     "text": "sayyoralarda",
+     "dis": false,
+     "chunk": 52,
+     "start": 589.582,
+     "end": 590.362,
+     "score": 0.731
+    },
+    {
+     "text": "emas,",
+     "dis": false,
+     "chunk": 52,
+     "start": 590.462,
+     "end": 590.742,
+     "score": 1.0
+    },
+    {
+     "text": "balki",
+     "dis": false,
+     "chunk": 52,
+     "start": 591.123,
+     "end": 591.443,
+     "score": 1.0
+    },
+    {
+     "text": "yonimizdagi",
+     "dis": false,
+     "chunk": 52,
+     "start": 591.443,
+     "end": 592.603,
+     "score": 0.792
+    },
+    {
+     "text": "notanish",
+     "dis": false,
+     "chunk": 52,
+     "start": 593.004,
+     "end": 593.604,
+     "score": 0.999
+    },
+    {
+     "text": "insonning",
+     "dis": false,
+     "chunk": 52,
+     "start": 593.764,
+     "end": 594.424,
+     "score": 1.0
+    },
+    {
+     "text": "qalbida",
+     "dis": false,
+     "chunk": 52,
+     "start": 594.584,
+     "end": 595.125,
+     "score": 0.857
+    },
+    {
+     "text": "yashiringan",
+     "dis": false,
+     "chunk": 52,
+     "start": 595.185,
+     "end": 595.765,
+     "score": 0.986
+    },
+    {
+     "text": "bo'ladi.",
+     "dis": false,
+     "chunk": 52,
+     "start": 595.825,
+     "end": 596.145,
+     "score": 0.715
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "start": 597.466,
+   "end": 599.047,
+   "text": "Siz-chi, qanday o'ylaysiz?",
+   "words": [
+    {
+     "text": "Siz-chi,",
+     "dis": false,
+     "chunk": 53,
+     "start": 597.466,
+     "end": 597.826,
+     "score": 0.999
+    },
+    {
+     "text": "qanday",
+     "dis": false,
+     "chunk": 53,
+     "start": 598.246,
+     "end": 598.566,
+     "score": 0.667
+    },
+    {
+     "text": "o'ylaysiz?",
+     "dis": false,
+     "chunk": 53,
+     "start": 598.606,
+     "end": 599.047,
+     "score": 0.621
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "start": 599.687,
+   "end": 601.808,
+   "text": "Vulpitning yashil bolalari kim edi?",
+   "words": [
+    {
+     "text": "Vulpitning",
+     "dis": false,
+     "chunk": 53,
+     "start": 599.687,
+     "end": 600.267,
+     "score": 0.983
+    },
+    {
+     "text": "yashil",
+     "dis": false,
+     "chunk": 53,
+     "start": 600.327,
+     "end": 600.607,
+     "score": 0.999
+    },
+    {
+     "text": "bolalari",
+     "dis": false,
+     "chunk": 53,
+     "start": 600.687,
+     "end": 601.108,
+     "score": 0.875
+    },
+    {
+     "text": "kim",
+     "dis": false,
+     "chunk": 53,
+     "start": 601.408,
+     "end": 601.588,
+     "score": 0.672
+    },
+    {
+     "text": "edi?",
+     "dis": false,
+     "chunk": 53,
+     "start": 601.648,
+     "end": 601.808,
+     "score": 0.999
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "start": 602.508,
+   "end": 603.669,
+   "text": "Och qolgan yetimlarmi?",
+   "words": [
+    {
+     "text": "Och",
+     "dis": false,
+     "chunk": 53,
+     "start": 602.508,
+     "end": 602.648,
+     "score": 0.966
+    },
+    {
+     "text": "qolgan",
+     "dis": false,
+     "chunk": 53,
+     "start": 602.688,
+     "end": 603.009,
+     "score": 0.833
+    },
+    {
+     "text": "yetimlarmi?",
+     "dis": false,
+     "chunk": 53,
+     "start": 603.089,
+     "end": 603.669,
+     "score": 0.898
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "start": 604.149,
+   "end": 605.91,
+   "text": "Yer osti dunyosidan kelganlarmi?",
+   "words": [
+    {
+     "text": "Yer",
+     "dis": false,
+     "chunk": 53,
+     "start": 604.149,
+     "end": 604.329,
+     "score": 0.667
+    },
+    {
+     "text": "osti",
+     "dis": false,
+     "chunk": 53,
+     "start": 604.429,
+     "end": 604.629,
+     "score": 0.972
+    },
+    {
+     "text": "dunyosidan",
+     "dis": false,
+     "chunk": 53,
+     "start": 604.669,
+     "end": 605.21,
+     "score": 0.792
+    },
+    {
+     "text": "kelganlarmi?",
+     "dis": false,
+     "chunk": 53,
+     "start": 605.25,
+     "end": 605.91,
+     "score": 1.0
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "start": 606.63,
+   "end": 610.813,
+   "text": "Yoki, biz hech qachon tushunmaydigan boshqa bir sirmi?",
+   "words": [
+    {
+     "text": "Yoki,",
+     "dis": false,
+     "chunk": 54,
+     "start": 606.63,
+     "end": 606.911,
+     "score": 0.5
+    },
+    {
+     "text": "yoki",
+     "dis": true,
+     "chunk": 54,
+     "start": 606.931,
+     "end": 607.311,
+     "score": 0.0
+    },
+    {
+     "text": "biz",
+     "dis": false,
+     "chunk": 54,
+     "start": 607.311,
+     "end": 607.531,
+     "score": 1.0
+    },
+    {
+     "text": "hech",
+     "dis": false,
+     "chunk": 54,
+     "start": 607.691,
+     "end": 607.991,
+     "score": 0.958
+    },
+    {
+     "text": "qachon",
+     "dis": false,
+     "chunk": 54,
+     "start": 608.051,
+     "end": 608.371,
+     "score": 0.832
+    },
+    {
+     "text": "tushunmaydigan",
+     "dis": false,
+     "chunk": 54,
+     "start": 608.411,
+     "end": 609.292,
+     "score": 0.717
+    },
+    {
+     "text": "boshqa",
+     "dis": false,
+     "chunk": 54,
+     "start": 609.692,
+     "end": 610.132,
+     "score": 0.823
+    },
+    {
+     "text": "bir",
+     "dis": false,
+     "chunk": 54,
+     "start": 610.232,
+     "end": 610.352,
+     "score": 0.999
+    },
+    {
+     "text": "sirmi?",
+     "dis": false,
+     "chunk": 54,
+     "start": 610.472,
+     "end": 610.813,
+     "score": 0.983
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "start": 611.853,
+   "end": 617.476,
+   "text": "Fikringizni izohlarda yozib qoldiring, eng qiziq javoblarni keyingi videoda o'qib beraman.",
+   "words": [
+    {
+     "text": "Fikringizni",
+     "dis": false,
+     "chunk": 54,
+     "start": 611.853,
+     "end": 612.413,
+     "score": 1.0
+    },
+    {
+     "text": "izohlarda",
+     "dis": false,
+     "chunk": 54,
+     "start": 612.713,
+     "end": 613.214,
+     "score": 0.998
+    },
+    {
+     "text": "yozib",
+     "dis": false,
+     "chunk": 54,
+     "start": 613.214,
+     "end": 613.514,
+     "score": 0.6
+    },
+    {
+     "text": "qoldiring,",
+     "dis": false,
+     "chunk": 54,
+     "start": 613.554,
+     "end": 613.954,
+     "score": 0.887
+    },
+    {
+     "text": "eng",
+     "dis": false,
+     "chunk": 54,
+     "start": 614.314,
+     "end": 614.494,
+     "score": 1.0
+    },
+    {
+     "text": "qiziq",
+     "dis": false,
+     "chunk": 54,
+     "start": 614.614,
+     "end": 614.875,
+     "score": 0.6
+    },
+    {
+     "text": "javoblarni",
+     "dis": false,
+     "chunk": 54,
+     "start": 614.975,
+     "end": 615.535,
+     "score": 0.837
+    },
+    {
+     "text": "keyingi",
+     "dis": false,
+     "chunk": 54,
+     "start": 615.815,
+     "end": 616.315,
+     "score": 0.856
+    },
+    {
+     "text": "videoda",
+     "dis": false,
+     "chunk": 54,
+     "start": 616.375,
+     "end": 616.816,
+     "score": 0.871
+    },
+    {
+     "text": "o'qib",
+     "dis": false,
+     "chunk": 54,
+     "start": 616.916,
+     "end": 617.116,
+     "score": 0.397
+    },
+    {
+     "text": "beraman.",
+     "dis": false,
+     "chunk": 54,
+     "start": 617.136,
+     "end": 617.476,
+     "score": 0.861
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "start": 618.176,
+   "end": 623.62,
+   "text": "Va agar siz ham bunday hal bo'lmagan sirlarni yaxshi ko'rsangiz, hoziroq «Qiziq-a?»",
+   "words": [
+    {
+     "text": "Va",
+     "dis": false,
+     "chunk": 55,
+     "start": 618.176,
+     "end": 618.256,
+     "score": 1.0
+    },
+    {
+     "text": "agar",
+     "dis": false,
+     "chunk": 55,
+     "start": 618.356,
+     "end": 618.657,
+     "score": 1.0
+    },
+    {
+     "text": "siz",
+     "dis": false,
+     "chunk": 55,
+     "start": 618.777,
+     "end": 618.977,
+     "score": 1.0
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 55,
+     "start": 619.057,
+     "end": 619.237,
+     "score": 0.999
+    },
+    {
+     "text": "bunday",
+     "dis": false,
+     "chunk": 55,
+     "start": 619.317,
+     "end": 619.697,
+     "score": 0.833
+    },
+    {
+     "text": "hal",
+     "dis": false,
+     "chunk": 55,
+     "start": 619.777,
+     "end": 619.998,
+     "score": 0.895
+    },
+    {
+     "text": "bo'lmagan",
+     "dis": false,
+     "chunk": 55,
+     "start": 620.058,
+     "end": 620.498,
+     "score": 0.778
+    },
+    {
+     "text": "sirlarni",
+     "dis": false,
+     "chunk": 55,
+     "start": 620.538,
+     "end": 620.958,
+     "score": 0.999
+    },
+    {
+     "text": "yaxshi",
+     "dis": false,
+     "chunk": 55,
+     "start": 620.998,
+     "end": 621.279,
+     "score": 0.809
+    },
+    {
+     "text": "ko'rsangiz,",
+     "dis": false,
+     "chunk": 55,
+     "start": 621.299,
+     "end": 621.839,
+     "score": 0.8
+    },
+    {
+     "text": "hoziroq",
+     "dis": false,
+     "chunk": 55,
+     "start": 622.199,
+     "end": 622.78,
+     "score": 0.772
+    },
+    {
+     "text": "«Qiziq-a?»",
+     "dis": false,
+     "chunk": 55,
+     "start": 623.08,
+     "end": 623.62,
+     "score": 0.664
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "start": 623.7,
+   "end": 634.968,
+   "text": "kanaliga obuna bo'ling va qo'ng'iroqchani bosing, chunki keyingi videoda sizni bundan ham hayratlanarliroq, bundan ham tushunarsizroq sir kutmoqda.",
+   "words": [
+    {
+     "text": "kanaliga",
+     "dis": false,
+     "chunk": 55,
+     "start": 623.7,
+     "end": 624.181,
+     "score": 0.997
+    },
+    {
+     "text": "obuna",
+     "dis": false,
+     "chunk": 55,
+     "start": 624.621,
+     "end": 624.961,
+     "score": 0.999
+    },
+    {
+     "text": "bo'ling",
+     "dis": false,
+     "chunk": 55,
+     "start": 625.001,
+     "end": 625.301,
+     "score": 0.712
+    },
+    {
+     "text": "va",
+     "dis": false,
+     "chunk": 55,
+     "start": 625.622,
+     "end": 625.702,
+     "score": 1.0
+    },
+    {
+     "text": "qo'ng'iroqchani",
+     "dis": false,
+     "chunk": 55,
+     "start": 625.982,
+     "end": 626.582,
+     "score": 0.625
+    },
+    {
+     "text": "bosing,",
+     "dis": false,
+     "chunk": 55,
+     "start": 626.622,
+     "end": 626.903,
+     "score": 0.999
+    },
+    {
+     "text": "chunki",
+     "dis": false,
+     "chunk": 55,
+     "start": 627.283,
+     "end": 627.563,
+     "score": 0.996
+    },
+    {
+     "text": "keyingi",
+     "dis": false,
+     "chunk": 55,
+     "start": 627.863,
+     "end": 628.344,
+     "score": 0.857
+    },
+    {
+     "text": "videoda",
+     "dis": false,
+     "chunk": 55,
+     "start": 628.404,
+     "end": 628.824,
+     "score": 0.963
+    },
+    {
+     "text": "sizni",
+     "dis": false,
+     "chunk": 55,
+     "start": 628.904,
+     "end": 629.204,
+     "score": 1.0
+    },
+    {
+     "text": "bundan",
+     "dis": false,
+     "chunk": 55,
+     "start": 629.565,
+     "end": 630.065,
+     "score": 1.0
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 55,
+     "start": 630.185,
+     "end": 630.365,
+     "score": 0.998
+    },
+    {
+     "text": "hayratlanarliroq,",
+     "dis": false,
+     "chunk": 55,
+     "start": 630.465,
+     "end": 631.526,
+     "score": 0.864
+    },
+    {
+     "text": "bundan",
+     "dis": false,
+     "chunk": 55,
+     "start": 631.966,
+     "end": 632.387,
+     "score": 1.0
+    },
+    {
+     "text": "ham",
+     "dis": false,
+     "chunk": 55,
+     "start": 632.467,
+     "end": 632.647,
+     "score": 0.999
+    },
+    {
+     "text": "tushunarsizroq",
+     "dis": false,
+     "chunk": 55,
+     "start": 632.747,
+     "end": 633.768,
+     "score": 0.921
+    },
+    {
+     "text": "sir",
+     "dis": false,
+     "chunk": 55,
+     "start": 634.188,
+     "end": 634.388,
+     "score": 0.998
+    },
+    {
+     "text": "kutmoqda.",
+     "dis": false,
+     "chunk": 55,
+     "start": 634.468,
+     "end": 634.968,
+     "score": 0.862
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "start": 635.629,
+   "end": 636.65,
+   "text": "Uni o'tkazib yubormang.",
+   "words": [
+    {
+     "text": "Uni",
+     "dis": false,
+     "chunk": 56,
+     "start": 635.629,
+     "end": 635.769,
+     "score": 0.981
+    },
+    {
+     "text": "o'tkazib",
+     "dis": false,
+     "chunk": 56,
+     "start": 635.829,
+     "end": 636.189,
+     "score": 0.749
+    },
+    {
+     "text": "yubormang.",
+     "dis": false,
+     "chunk": 56,
+     "start": 636.209,
+     "end": 636.65,
+     "score": 0.98
+    }
+   ]
+  },
+  {
+   "id": 136,
+   "start": 637.37,
+   "end": 638.251,
+   "text": "Yana uchrashguncha.",
+   "words": [
+    {
+     "text": "Yana",
+     "dis": false,
+     "chunk": 56,
+     "start": 637.37,
+     "end": 637.61,
+     "score": 1.0
+    },
+    {
+     "text": "uchrashguncha.",
+     "dis": false,
+     "chunk": 56,
+     "start": 637.67,
+     "end": 638.251,
+     "score": 0.923
+    }
+   ]
+  }
+ ]
+}
