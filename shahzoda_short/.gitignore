@@ -4,3 +4,4 @@ out/
 public/media/video/
 public/media/music/
 public/media/sfx/
+public/media/img/*.tmp
