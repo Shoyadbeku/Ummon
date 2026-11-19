@@ -4,3 +4,4 @@ out/*.png
 public/clips/
 out/stills/
 out/render.log
+out/qc/
