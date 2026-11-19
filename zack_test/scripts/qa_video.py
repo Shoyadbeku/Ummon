@@ -23,7 +23,8 @@ bd = subprocess.run(["ffmpeg", "-hide_banner", "-i", V, "-vf", "blackdetect=d=0.
 rep["black_segments"] = re.findall(r"black_start:\S+ black_end:\S+", bd)
 # loudness / clipping
 ld = subprocess.run(["ffmpeg", "-hide_banner", "-i", V, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
-m = re.search(r"I:\s+(-?[\d.]+) LUFS", ld); p = re.search(r"Peak:\s+(-?[\d.]+) dBFS", ld)
+summ = ld[ld.rfind("Summary:"):]
+m = re.search(r"I:\s+(-?[\d.]+) LUFS", summ); p = re.search(r"Peak:\s+(-?[\d.]+) dBFS", summ)
 rep["loudness_LUFS"] = float(m.group(1)) if m else None
 rep["true_peak_dBFS"] = float(p.group(1)) if p else None
 # frame sequence: count, near-black, flicker (luma jump inside a shot)
@@ -34,7 +35,7 @@ lum, dark, jumps = [], [], []
 for f in fs:
     n = int(os.path.basename(f)[6:12])
     a = np.asarray(Image.open(f).convert("L").resize((54, 96)), dtype=np.float32)
-    lum.append((n, a.mean()))
+    lum.append((n, float(a.mean())))
     if a.mean() < 4:
         dark.append(n)
 for (n0, l0), (n1, l1) in zip(lum, lum[1:]):
