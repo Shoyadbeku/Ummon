@@ -1,6 +1,6 @@
-# "Dunyoni aslida kim boshqaradi?" — Shorts/Reels/TikTok montaji (Remotion)
+# "Dunyoni aslida kim boshqaradi?" — YouTube video montaji (Remotion, 16:9)
 
-Muallif ovozi (`Neytron_yulduzining_..._SadoStudio 15.wav`, 10:14) asosida qurilgan 9:16 hujjatli-uslubdagi video.
+Muallif ovozi (`Neytron_yulduzining_..._SadoStudio 15.wav`, 10:14) asosida qurilgan 16:9 (1920×1080) hujjatli-uslubdagi YouTube video.
 > Eslatma: fayl nomi "Neytron yulduzi" bo'lsa-da, ovozdagi mazmun — "Dunyoni aslida kim boshqaradi?". Montaj ovozdagi mazmunga qurilgan.
 
 ## Tuzilma
@@ -24,6 +24,6 @@ python3 scripts/prep_clips.py
 python3 scripts/mix_audio.py
 npx remotion studio            # tahrirlash
 npx remotion render src/index.ts Main out/video_noaudio.mp4 --muted
-ffmpeg -i out/video_noaudio.mp4 -i public/audio/final_mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -shortest Final_Video.mp4
+ffmpeg -i out/video_noaudio.mp4 -i public/audio/final_mix.wav  # (yoki data/final_mix.flac) -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -shortest Final_Video.mp4
 ```
 Matn yoki vizualni o'zgartirish: `data/transcript_uz.txt` / `data/storyboard.py` ni tahrirlab, yuqoridagi zanjirni qayta ishga tushiring.

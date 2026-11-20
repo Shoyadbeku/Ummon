@@ -5,7 +5,7 @@ import type {Shot} from './Main';
 
 // Kinetic headline: words slam in one by one
 export const Kinetic: React.FC<{text: string; size?: number; delay?: number; color?: string; accent?: string[]; stagger?: number; width?: number}> = ({
-  text, size = 96, delay = 0, color = '#fff', accent = [], stagger = 3, width = 940,
+  text, size = 96, delay = 0, color = '#fff', accent = [], stagger = 3, width = 1600,
 }) => {
   const f = useCurrentFrame();
   const words = text.split(' ');
@@ -37,14 +37,14 @@ const Label: React.FC<{text: string; sub?: string}> = ({text, sub}) => {
   const bar = ease(f, 2, 14);
   const txt = ease(f, 6, 20);
   return (
-    <div style={{position: 'absolute', top: 300, left: 70, right: 70, display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+    <div style={{position: 'absolute', top: 70, left: 80, right: 80, display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
       <div style={{display: 'flex', alignItems: 'stretch'}}>
         <div style={{width: 12, background: C.gold, transform: `scaleY(${bar})`, transformOrigin: 'top', borderRadius: 3}} />
         <div style={{overflow: 'hidden', marginLeft: 18}}>
           <div
             style={{
               fontFamily: HEAD, fontWeight: 900, fontSize: text.length > 22 ? 54 : 70, color: '#fff', lineHeight: 1.05,
-              transform: `translateX(${(1 - txt) * -110}%)`, maxWidth: 900, textShadow: '0 8px 30px rgba(0,0,0,0.75)',
+              transform: `translateX(${(1 - txt) * -110}%)`, maxWidth: 1400, textShadow: '0 8px 30px rgba(0,0,0,0.75)',
               background: 'rgba(6,8,14,0.55)', padding: '10px 22px', borderRadius: 8,
             }}
           >
@@ -91,7 +91,7 @@ const Stat: React.FC<{text: string; dir: string}> = ({text, dir}) => {
   const p = pop(f, 2, 12, 150);
   const color = dir === 'up' ? C.red : dir === 'down' ? C.red : C.cyan;
   return (
-    <div style={{position: 'absolute', top: 290, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+    <div style={{position: 'absolute', top: 70, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
       <div
         style={{
           display: 'flex', alignItems: 'center', gap: 26, padding: '22px 40px', borderRadius: 26,
@@ -100,7 +100,7 @@ const Stat: React.FC<{text: string; dir: string}> = ({text, dir}) => {
         }}
       >
         <Arrow dir={dir} size={110} color={color} />
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: text.length > 18 ? 50 : 66, color: '#fff', maxWidth: 680, lineHeight: 1.05}}>{text}</div>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: text.length > 18 ? 50 : 66, color: '#fff', maxWidth: 1200, lineHeight: 1.05}}>{text}</div>
       </div>
     </div>
   );
@@ -111,12 +111,12 @@ const Stamp: React.FC<{text: string}> = ({text}) => {
   const p = pop(f, 4, 9, 260, 0.6);
   const shake = f >= 4 && f < 12 ? Math.sin(f * 3) * (12 - f) : 0;
   return (
-    <AbsoluteFill style={{alignItems: 'center', top: -260, justifyContent: 'center', transform: `translateX(${shake}px)`}}>
+    <AbsoluteFill style={{alignItems: 'center', top: -130, justifyContent: 'center', transform: `translateX(${shake}px)`}}>
       <div
         style={{
           transform: `rotate(-8deg) scale(${2.4 - 1.4 * p})`, opacity: Math.min(1, p * 2), border: `10px solid ${C.red}`, borderRadius: 18,
           padding: '14px 34px', fontFamily: HEAD, fontWeight: 900, fontSize: text.length > 14 ? 64 : 92, color: C.red, letterSpacing: 2,
-          background: 'rgba(0,0,0,0.35)', textAlign: 'center', maxWidth: 900, lineHeight: 1.05, boxShadow: '0 0 0 4px rgba(255,61,61,0.25)',
+          background: 'rgba(0,0,0,0.35)', textAlign: 'center', maxWidth: 1400, lineHeight: 1.05, boxShadow: '0 0 0 4px rgba(255,61,61,0.25)',
         }}
       >
         {text}
@@ -131,7 +131,7 @@ const Breaking: React.FC<{text: string}> = ({text}) => {
   const b = ease(f, 8, 22);
   const blink = Math.floor(f / 10) % 2 === 0 ? 1 : 0.35;
   return (
-    <div style={{position: 'absolute', top: 980, left: 40, right: 40}}>
+    <div style={{position: 'absolute', top: 600, left: 80, width: 1300}}>
       <div style={{display: 'inline-flex', alignItems: 'center', gap: 12, background: C.red, padding: '10px 20px', transform: `scaleX(${a})`, transformOrigin: 'left'}}>
         <div style={{width: 16, height: 16, borderRadius: 8, background: '#fff', opacity: blink}} />
         <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 34, color: '#fff', letterSpacing: 3}}>SO'NGGI XABAR</div>
@@ -149,7 +149,7 @@ const Notif: React.FC<{text: string}> = ({text}) => {
   const f = useCurrentFrame();
   const items = ['Bir davlat urush boshlagan', 'Dollar qimmatlashgan', 'Milliarder milliardlab dollar yo\'qotgan'];
   return (
-    <div style={{position: 'absolute', top: 300, left: 70, right: 70, display: 'flex', flexDirection: 'column', gap: 18}}>
+    <div style={{position: 'absolute', top: 70, right: 80, width: 760, display: 'flex', flexDirection: 'column', gap: 18}}>
       {items.map((it, i) => {
         const p = pop(f, i * 5, 13, 160);
         return (
@@ -180,10 +180,10 @@ export const Hook: React.FC<{text: string}> = ({text}) => {
   const shake = f < 10 ? Math.sin(f * 2.7) * (10 - f) * 1.6 : 0;
   const line = ease(f, 10, 24);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -260, transform: `translate(${shake}px, ${-shake}px)`}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -110, transform: `translate(${shake}px, ${-shake}px)`}}>
       <div style={{background: 'radial-gradient(closest-side, rgba(0,0,0,0.6), rgba(0,0,0,0))', padding: 40, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <Kinetic text={text} size={120} stagger={2} accent={['KIM']} width={960} />
-        <div style={{height: 12, width: 520, background: C.red, marginTop: 18, transform: `scaleX(${line})`, borderRadius: 6}} />
+        <Kinetic text={text} size={128} stagger={2} accent={['KIM']} width={1500} />
+        <div style={{height: 12, width: 700, background: C.red, marginTop: 18, transform: `scaleX(${line})`, borderRadius: 6}} />
       </div>
     </AbsoluteFill>
   );
@@ -191,9 +191,9 @@ export const Hook: React.FC<{text: string}> = ({text}) => {
 
 const Quote: React.FC<{text: string}> = ({text}) => {
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -280}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -120}}>
       <div style={{background: 'radial-gradient(closest-side, rgba(0,0,0,0.55), rgba(0,0,0,0))', padding: '40px 20px'}}>
-        <Kinetic text={text} size={text.length > 28 ? 82 : 100} delay={2} accent={['KIM', 'EMAS', 'YANGI', 'MURAKKAB', 'BITTA', 'NEGA', 'MAXFIY']} />
+        <Kinetic text={text} size={text.length > 28 ? 90 : 110} delay={2} accent={['KIM', 'EMAS', 'YANGI', 'MURAKKAB', 'BITTA', 'NEGA', 'MAXFIY']} />
       </div>
     </AbsoluteFill>
   );
@@ -203,8 +203,8 @@ const Big: React.FC<{text: string}> = ({text}) => {
   const f = useCurrentFrame();
   const p = pop(f, 2, 10, 120);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -200}}>
-      <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 520, color: 'transparent', WebkitTextStroke: `10px ${C.gold}`, transform: `scale(${0.4 + 0.6 * p})`, opacity: p, textShadow: `0 0 80px ${C.gold}66`}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -90}}>
+      <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 440, color: 'transparent', WebkitTextStroke: `10px ${C.gold}`, transform: `scale(${0.4 + 0.6 * p})`, opacity: p, textShadow: `0 0 80px ${C.gold}66`}}>
         {text}
       </div>
     </AbsoluteFill>

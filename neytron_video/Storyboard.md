@@ -1,6 +1,6 @@
 # Storyboard — "Dunyoni aslida kim boshqaradi?"
 
-9:16 · 1080×1920 · 30 fps · 10:14.47 · 206 kadr (shot). Vaqtlar videodagi boshlanish vaqti.
+16:9 · 1920×1080 · 30 fps · 10:14.47 · 206 kadr (shot). Vaqtlar videodagi boshlanish vaqti.
 
 | # | Vaqt | Davom. | Ovozdagi gap | Vizual | Overlay / grafika |
 |---|---|---|---|---|---|

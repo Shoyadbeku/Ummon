@@ -37,7 +37,7 @@ const chunks: Chunk[] = [];
     cur.push(w);
     const txt = cur.map((x) => x.t).join(' ');
     const punct = /[.,?!:;—]$/.test(w.t);
-    if (cur.length >= 3 || txt.length > 17 || punct || !next || next.seg !== w.seg || next.s - w.e > 0.35) flush();
+    if (cur.length >= 4 || txt.length > 26 || punct || !next || next.seg !== w.seg || next.s - w.e > 0.35) flush();
   });
   // extend each chunk until the next one starts (when the gap is short) so captions don't flicker
   chunks.forEach((c, i) => {
@@ -65,7 +65,7 @@ export const Captions: React.FC = () => {
     <AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', pointerEvents: 'none'}}>
       <div
         style={{
-          position: 'absolute', top: 1330, width: 900, left: 90, display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+          position: 'absolute', top: 850, width: 1600, left: 160, display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
           alignItems: 'center', gap: '6px 18px', transform: `scale(${0.82 + 0.18 * sp}) translateY(${(1 - sp) * 26}px)`,
           opacity: Math.min(1, sp * 1.6),
         }}
@@ -82,7 +82,7 @@ export const Captions: React.FC = () => {
             <span
               key={i}
               style={{
-                position: 'relative', fontFamily: HEAD, fontWeight: 900, fontSize: 76, lineHeight: 1.12,
+                position: 'relative', fontFamily: HEAD, fontWeight: 900, fontSize: 70, lineHeight: 1.12,
                 textTransform: 'uppercase', letterSpacing: -0.5,
                 color: active ? '#0a0a0a' : base,
                 opacity: said ? 1 : 0.55,

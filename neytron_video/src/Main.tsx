@@ -45,7 +45,7 @@ const ClipShot: React.FC<{shot: Shot; index: number}> = ({shot, index}) => {
       <AbsoluteFill
         style={{
           background:
-            'linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0) 58%, rgba(0,0,0,0.55) 82%, rgba(0,0,0,0.75) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 62%, rgba(0,0,0,0.6) 85%, rgba(0,0,0,0.75) 100%)',
         }}
       />
       {shot.overlay ? <Overlay ov={shot.overlay} shot={shot} /> : null}
@@ -59,12 +59,14 @@ const ChapterTag: React.FC = () => {
   let cur = null as null | (typeof chapters)[number];
   for (const c of chapters) if (t >= c.start + 2.2) cur = c;
   if (!cur) return null;
+  const here = shots.find((s) => t >= s.start && t < s.end);
+  if (!here || here.kind !== 'clip') return null;
   const local = f - sec(cur.start + 2.2);
   const p = ease(local, 0, 14);
   return (
     <div
       style={{
-        position: 'absolute', top: 150, left: 60, display: 'flex', alignItems: 'center', gap: 14,
+        position: 'absolute', top: 40, left: 50, display: 'flex', alignItems: 'center', gap: 14,
         opacity: p, transform: `translateX(${(1 - p) * -40}px)`,
         background: 'rgba(8,10,16,0.55)', border: '1px solid rgba(255,255,255,0.18)', borderRadius: 40,
         padding: '10px 22px 10px 12px', backdropFilter: 'blur(8px)',

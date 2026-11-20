@@ -41,7 +41,7 @@ const BG: React.FC<{file?: string; dark?: number}> = ({file, dark = 0.55}) => {
   );
 };
 
-const Title: React.FC<{text: string; top?: number; delay?: number; color?: string}> = ({text, top = 300, delay = 0, color = C.gold}) => {
+const Title: React.FC<{text: string; top?: number; delay?: number; color?: string}> = ({text, top = 60, delay = 0, color = C.gold}) => {
   const f = useCurrentFrame();
   const p = ease(f, delay, delay + 14);
   return (
@@ -75,7 +75,7 @@ const Who: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.62} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: 330, gap: 26}}>
+      <AbsoluteFill style={{flexDirection: 'row', flexWrap: 'wrap', alignContent: 'flex-start', alignItems: 'center', justifyContent: 'center', padding: '200px 80px 0', gap: 30}}>
         {items.map((it: string, i: number) => {
           const at = rel(shot, times[i]) - 2;
           const p = pop(f, at, 11, 170);
@@ -85,7 +85,7 @@ const Who: React.FC<P> = ({shot}) => {
             <div key={i} style={{position: 'relative', transform: `translateX(${(1 - p) * (i % 2 ? 300 : -300)}px)`, opacity: Math.min(1, p * 1.4)}}>
               <div
                 style={{
-                  fontFamily: HEAD, fontWeight: 900, fontSize: items.length > 3 ? 74 : 96, color: active && !stamp ? C.gold : '#fff',
+                  fontFamily: HEAD, fontWeight: 900, fontSize: items.length > 3 ? 68 : 84, color: active && !stamp ? C.gold : '#fff',
                   padding: '6px 34px', background: active && !stamp ? 'rgba(255,200,61,0.12)' : 'rgba(0,0,0,0.35)', borderRadius: 16,
                   transform: `scale(${active && !stamp ? 1.06 : 1})`, ...textStroke(3, 'rgba(0,0,0,0.5)'),
                 }}
@@ -100,7 +100,7 @@ const Who: React.FC<P> = ({shot}) => {
         {stamp ? (
           <div
             style={{
-              marginTop: 30, transform: `rotate(-7deg) scale(${2.3 - 1.3 * sp})`, opacity: Math.min(1, sp * 2), border: `10px solid ${C.red}`,
+              marginTop: 40, transform: `rotate(-5deg) scale(${2.3 - 1.3 * sp})`, opacity: Math.min(1, sp * 2), border: `10px solid ${C.red}`,
               color: C.red, fontFamily: HEAD, fontWeight: 900, fontSize: 80, padding: '8px 30px', borderRadius: 16, background: 'rgba(0,0,0,0.45)',
             }}
           >
@@ -115,16 +115,16 @@ const Who: React.FC<P> = ({shot}) => {
 const Factors: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {title, items, times, bgFile} = shot.props;
-  const cx = 540, cy = 760, R = 330;
+  const cx = 960, cy = 440, R = 560, RY = 320;
   const n = items.length;
   const cp = pop(f, 0, 12, 140);
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.68} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {items.map((_: string, i: number) => {
           const a = -Math.PI / 2 + (i / n) * Math.PI * 2;
-          const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * R * 0.95;
+          const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * RY;
           const at = rel(shot, times[i]) - 2;
           const p = ease(f, at, at + 12);
           return <line key={i} x1={cx} y1={cy} x2={cx + (x - cx) * p} y2={cy + (y - cy) * p} stroke={C.gold} strokeWidth={4} strokeDasharray="10 10" strokeDashoffset={-f * 1.5} opacity={0.8} />;
@@ -141,7 +141,7 @@ const Factors: React.FC<P> = ({shot}) => {
       </div>
       {items.map((it: string, i: number) => {
         const a = -Math.PI / 2 + (i / n) * Math.PI * 2;
-        const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * R * 0.95;
+        const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * RY;
         const at = rel(shot, times[i]) - 2;
         const p = pop(f, at, 11, 170);
         return (
@@ -161,9 +161,9 @@ const Question: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.55} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -220}}>
-        <div style={{position: 'absolute', fontFamily: HEAD, fontWeight: 900, fontSize: 900, color: 'rgba(255,200,61,0.10)', transform: `scale(${0.6 + 0.4 * qp}) rotate(${(1 - qp) * 20}deg)`}}>?</div>
-        <Kinetic text={text} size={text.length > 24 ? 100 : 120} stagger={3} accent={['KIM', 'SAVOL', 'ODDIY.']} />
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -100}}>
+        <div style={{position: 'absolute', fontFamily: HEAD, fontWeight: 900, fontSize: 760, color: 'rgba(255,200,61,0.10)', transform: `scale(${0.6 + 0.4 * qp}) rotate(${(1 - qp) * 20}deg)`}}>?</div>
+        <Kinetic text={text} size={text.length > 24 ? 110 : 130} stagger={3} accent={['KIM', 'SAVOL', 'ODDIY.']} />
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -179,11 +179,11 @@ const Chapter: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.6} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -200}}>
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 380, color: 'transparent', WebkitTextStroke: `6px ${C.gold}`, opacity: 0.9 * p, transform: `scale(${1.4 - 0.4 * p}) translateX(${glitch}px)`, lineHeight: 0.9}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -90}}>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 300, color: 'transparent', WebkitTextStroke: `6px ${C.gold}`, opacity: 0.9 * p, transform: `scale(${1.4 - 0.4 * p}) translateX(${glitch}px)`, lineHeight: 0.9}}>
           {String(n).padStart(2, '0')}
         </div>
-        <div style={{width: 640 * line, height: 6, background: C.gold, margin: '26px 0', borderRadius: 3}} />
+        <div style={{width: 900 * line, height: 6, background: C.gold, margin: '26px 0', borderRadius: 3}} />
         <div style={{overflow: 'hidden'}}>
           <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: title.length > 12 ? 92 : 120, color: '#fff', transform: `translateY(${(1 - t) * 110}%)`, letterSpacing: 2, textAlign: 'center', textShadow: '0 10px 40px rgba(0,0,0,0.6)'}}>
             {title}
@@ -199,15 +199,15 @@ const Checks: React.FC<P> = ({shot}) => {
   const {items, times, center, bgFile} = shot.props;
   const cp = pop(f, 0, 12, 140);
   const pos = [
-    [540, 380],
-    [220, 1060],
-    [860, 1060],
+    [960, 140],
+    [470, 640],
+    [1450, 640],
   ];
-  const cx = 540, cy = 760;
+  const cx = 960, cy = 420;
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.62} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {items.map((_: string, i: number) => {
           const at = rel(shot, times[i]);
           const p = ease(f, at, at + 10);
@@ -234,7 +234,7 @@ const Checks: React.FC<P> = ({shot}) => {
           </div>
         );
       })}
-      <div style={{position: 'absolute', top: 1180, left: 0, right: 0, textAlign: 'center', fontFamily: BODY, fontWeight: 700, fontSize: 34, color: C.cyan, letterSpacing: 4, opacity: ease(f, sec(2.4), sec(2.8))}}>
+      <div style={{position: 'absolute', top: 760, left: 0, right: 0, textAlign: 'center', fontFamily: BODY, fontWeight: 700, fontSize: 34, color: C.cyan, letterSpacing: 4, opacity: ease(f, sec(2.4), sec(2.8))}}>
         HOKIMIYATNI CHEKLAYDI
       </div>
     </AbsoluteFill>
@@ -245,7 +245,7 @@ const Rate: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {title, bgFile} = shot.props;
   const pts = [0.62, 0.6, 0.58, 0.6, 0.55, 0.5, 0.46, 0.38, 0.3, 0.2, 0.12];
-  const W = 860, H = 520, x0 = 110, y0 = 420;
+  const W = 1300, H = 400, x0 = 310, y0 = 170;
   const prog = ease(f, 4, 40, 0, 1, Easing.inOut(Easing.cubic));
   const n = pts.length - 1;
   const upto = prog * n;
@@ -259,8 +259,8 @@ const Rate: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.72} />
-      <Title text="AQSH FEDERAL REZERV" top={300} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <Title text="AQSH FEDERAL REZERV" top={50} />
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {[0, 1, 2, 3, 4].map((i) => (
           <line key={i} x1={x0} x2={x0 + W} y1={y0 + (i * H) / 4} y2={y0 + (i * H) / 4} stroke="rgba(255,255,255,0.12)" strokeWidth={2} />
         ))}
@@ -268,7 +268,7 @@ const Rate: React.FC<P> = ({shot}) => {
         <circle cx={hx} cy={hy} r={18} fill="#fff" />
         <circle cx={hx} cy={hy} r={18 + (f % 20) * 2} fill="none" stroke="#fff" strokeWidth={3} opacity={1 - (f % 20) / 20} />
       </svg>
-      <div style={{position: 'absolute', top: 1000, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20, transform: `scale(${0.5 + 0.5 * ap})`, opacity: ap}}>
+      <div style={{position: 'absolute', top: 640, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20, transform: `scale(${0.5 + 0.5 * ap})`, opacity: ap}}>
         <svg width={90} height={90} viewBox="0 0 100 100"><path d="M50 5 L95 60 H65 V95 H35 V60 H5 Z" fill={C.red} /></svg>
         <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 84, color: '#fff'}}>{title}</div>
       </div>
@@ -287,8 +287,8 @@ const MapG: React.FC<P> = ({shot}) => {
   const rotP = to ? ease(f, 6, Math.min(len - 6, 60), 0, 1, Easing.inOut(Easing.cubic)) : 0;
   const lon = to ? DC[0] + (TAS[0] - DC[0]) * rotP : DC[0] + f * 0.15;
   const lat = to ? 25 + 10 * Math.sin(rotP * Math.PI) : 25;
-  const R = 430;
-  const proj = useMemo(() => geoOrthographic().scale(R).translate([540, 760]).clipAngle(90), []);
+  const R = 360;
+  const proj = useMemo(() => geoOrthographic().scale(R).translate([960, 450]).clipAngle(90), []);
   proj.rotate([-lon, -lat * 0.6]);
   const path = geoPath(proj);
   const grat = geoGraticule10();
@@ -315,15 +315,15 @@ const MapG: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         <defs>
           <radialGradient id="ocean" cx="40%" cy="35%">
             <stop offset="0%" stopColor="#1d3a6b" />
             <stop offset="100%" stopColor="#081428" />
           </radialGradient>
         </defs>
-        <circle cx={540} cy={760} r={R + 30} fill="none" stroke="rgba(61,220,255,0.15)" strokeWidth={30} />
-        <circle cx={540} cy={760} r={R} fill="url(#ocean)" />
+        <circle cx={960} cy={450} r={R + 30} fill="none" stroke="rgba(61,220,255,0.15)" strokeWidth={30} />
+        <circle cx={960} cy={450} r={R} fill="url(#ocean)" />
         <path d={path(grat) || ''} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth={1.5} />
         {land.features.map((ft: any, i: number) => {
           const id = String(ft.id);
@@ -341,7 +341,7 @@ const MapG: React.FC<P> = ({shot}) => {
         {pin(DC, 'WASHINGTON', C.cyan, 2)}
         {to ? pin(TAS, to, C.gold, Math.min(len - 10, 50)) : null}
       </svg>
-      <div style={{position: 'absolute', top: 290, left: 0, right: 0, textAlign: 'center'}}>
+      <div style={{position: 'absolute', top: 400, left: 90}}>
         <Chip text={caption} p={pop(f, 8, 12, 150)} size={52} style={{display: 'inline-block'}} />
       </div>
     </AbsoluteFill>
@@ -351,7 +351,7 @@ const MapG: React.FC<P> = ({shot}) => {
 const Fx: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {title, sub, bgFile} = shot.props;
-  const W = 860, x0 = 110, y0 = 560, H = 360;
+  const W = 1300, x0 = 310, y0 = 200, H = 340;
   const N = 60;
   const pts: string[] = [];
   const prog = ease(f, 0, 50);
@@ -364,12 +364,12 @@ const Fx: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.72} />
-      <Title text={title} top={330} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <Title text={title} top={50} />
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         <path d={pts.join(' ')} fill="none" stroke={C.green} strokeWidth={8} style={{filter: `drop-shadow(0 0 10px ${C.green})`}} />
         <text x={x0} y={y0 - 40} fill="#fff" style={{fontFamily: HEAD, fontWeight: 900, fontSize: 64}}>USD</text>
       </svg>
-      <div style={{position: 'absolute', top: 1020, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+      <div style={{position: 'absolute', top: 650, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
         <Chip text={`${sub} ▲`} p={sp} color={C.red} size={60} />
       </div>
     </AbsoluteFill>
@@ -379,11 +379,11 @@ const Fx: React.FC<P> = ({shot}) => {
 const Link: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {a, aSub, b, bSub} = shot.props;
-  const A = [540, 420], B = [540, 1080];
+  const A = [430, 430], B = [1490, 430];
   const lp = ease(f, 10, 40);
   const dot = (f % 40) / 40;
   const bez = (t: number) => {
-    const cx = 900, cy = 750;
+    const cx = 960, cy = 80;
     const x = (1 - t) ** 2 * A[0] + 2 * (1 - t) * t * cx + t * t * B[0];
     const y = (1 - t) ** 2 * A[1] + 2 * (1 - t) * t * cy + t * t * B[1];
     return [x, y];
@@ -401,13 +401,13 @@ const Link: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.1} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
-        <path d={`M${A[0]},${A[1]} Q900,750 ${B[0]},${B[1]}`} fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth={6} strokeDasharray="14 14" strokeDashoffset={-f * 2} pathLength={1000} style={{clipPath: `inset(0 0 ${(1 - lp) * 100}% 0)`}} />
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
+        <path d={`M${A[0]},${A[1]} Q960,80 ${B[0]},${B[1]}`} fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth={6} strokeDasharray="14 14" strokeDashoffset={-f * 2} pathLength={1000} style={{clipPath: `inset(0 0 ${(1 - lp) * 100}% 0)`}} />
         {lp > 0.95 ? <circle cx={dp[0]} cy={dp[1]} r={16} fill={C.gold} style={{filter: `drop-shadow(0 0 12px ${C.gold})`}} /> : null}
       </svg>
       {node(A, a, aSub, C.cyan, 0)}
       {node(B, b, bSub, C.gold, 22)}
-      <div style={{position: 'absolute', top: 735, left: 120, fontFamily: HEAD, fontWeight: 800, fontSize: 36, color: C.dim, letterSpacing: 3, opacity: ease(f, 30, 44)}}>BILVOSITA TA'SIR</div>
+      <div style={{position: 'absolute', top: 400, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 800, fontSize: 36, color: C.dim, letterSpacing: 3, opacity: ease(f, 30, 44)}}>BILVOSITA TA'SIR</div>
     </AbsoluteFill>
   );
 };
@@ -418,8 +418,8 @@ const Names: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.66} />
-      <Title text="ENG YIRIK INVESTITSIYA KOMPANIYALARI" top={300} />
-      <AbsoluteFill style={{justifyContent: 'flex-start', paddingTop: 440, paddingLeft: 90, gap: 50}}>
+      <Title text="ENG YIRIK INVESTITSIYA KOMPANIYALARI" top={60} />
+      <AbsoluteFill style={{justifyContent: 'flex-start', paddingTop: 190, paddingLeft: 520, gap: 40}}>
         {items.map((it: string, i: number) => {
           const at = rel(shot, times[i]) - 3;
           const p = pop(f, at, 12, 160);
@@ -449,8 +449,8 @@ const Counter: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.7} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -240}}>
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 104, color: C.green, letterSpacing: -2, textShadow: `0 0 40px ${C.green}88`, fontVariantNumeric: 'tabular-nums'}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -110}}>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 140, color: C.green, letterSpacing: -2, textShadow: `0 0 40px ${C.green}88`, fontVariantNumeric: 'tabular-nums'}}>
           ${s}
           {p > 0.995 ? '+' : ''}
         </div>
@@ -464,15 +464,15 @@ const Grid: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {items, clipFiles, times, title} = shot.props;
   const n = items.length;
-  const cols = n === 4 ? 2 : 1;
-  const tileW = n === 4 ? 470 : 820;
-  const tileH = n === 4 ? 470 : 300;
-  const top = n === 4 ? 330 : 300;
+  const cols = n;
+  const tileW = n === 4 ? 400 : 520;
+  const tileH = n === 4 ? 520 : 560;
+  const top = n === 4 ? 150 : 150;
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      {title ? <Title text={title} top={220} /> : null}
-      <div style={{position: 'absolute', top, left: (1080 - (cols * tileW + (cols - 1) * 30)) / 2, width: cols * tileW + (cols - 1) * 30, display: 'flex', flexWrap: 'wrap', gap: 30}}>
+      {title ? <Title text={title} top={50} /> : null}
+      <div style={{position: 'absolute', top, left: (1920 - (cols * tileW + (cols - 1) * 30)) / 2, width: cols * tileW + (cols - 1) * 30, display: 'flex', flexWrap: 'wrap', gap: 30}}>
         {items.map((it: string, i: number) => {
           const at = rel(shot, times[i]) - 3;
           const p = pop(f, at, 12, 150);
@@ -498,18 +498,18 @@ const Vs: React.FC<P> = ({shot}) => {
   const pb = ease(f, tb, tb + 10);
   const vp = pop(f, tb + 4, 9, 200);
   const half = (file: string, txt: string, p: number, topSide: boolean, color: string) => (
-    <div style={{position: 'absolute', left: 0, right: 0, top: topSide ? 0 : 960, height: 960, overflow: 'hidden', transform: `translateX(${(1 - p) * (topSide ? -1080 : 1080)}px)`}}>
+    <div style={{position: 'absolute', top: 0, bottom: 0, left: topSide ? 0 : 960, width: 960, overflow: 'hidden', transform: `translateY(${(1 - p) * (topSide ? -1080 : 1080)}px)`}}>
       <OffthreadVideo src={staticFile(file)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
       <AbsoluteFill style={{background: 'rgba(0,0,0,0.35)'}} />
-      <div style={{position: 'absolute', left: 0, right: 0, top: topSide ? 360 : 140, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 170, color, ...textStroke(8, '#000'), letterSpacing: 4}}>{txt}</div>
+      <div style={{position: 'absolute', left: 0, right: 0, top: 280, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 150, color, ...textStroke(8, '#000'), letterSpacing: 4}}>{txt}</div>
     </div>
   );
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {half(clipAFile, a, pa, true, C.green)}
       {half(clipBFile, b, pb, false, C.cyan)}
-      <div style={{position: 'absolute', left: 0, right: 0, top: 960 - 4, height: 8, background: '#fff', transform: `scaleX(${pb})`}} />
-      <div style={{position: 'absolute', left: 540, top: 960, transform: `translate(-50%,-50%) scale(${vp})`, width: 200, height: 200, borderRadius: 100, background: C.gold, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 56, color: '#000', boxShadow: '0 0 60px rgba(0,0,0,0.7)'}}>
+      <div style={{position: 'absolute', top: 0, bottom: 0, left: 960 - 4, width: 8, background: '#fff', transform: `scaleY(${pb})`}} />
+      <div style={{position: 'absolute', left: 960, top: 400, transform: `translate(-50%,-50%) scale(${vp})`, width: 200, height: 200, borderRadius: 100, background: C.gold, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 56, color: '#000', boxShadow: '0 0 60px rgba(0,0,0,0.7)'}}>
         YOKI?
       </div>
     </AbsoluteFill>
@@ -531,10 +531,10 @@ const Phone: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.1} />
-      <div style={{position: 'absolute', top: 250, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 64, color: '#fff', opacity: ease(f, 4, 14)}}>
+      <div style={{position: 'absolute', top: 300, left: 140, width: 640, fontFamily: HEAD, fontWeight: 900, fontSize: 76, color: '#fff', lineHeight: 1.1, opacity: ease(f, 4, 14)}}>
         {q}
       </div>
-      <div style={{position: 'absolute', left: 540 - 250, top: 380, width: 500, height: 900, borderRadius: 70, background: '#0d0f14', border: '12px solid #2a2e38', overflow: 'hidden', transform: `translateY(${(1 - p) * 500}px) rotate(${(1 - p) * -8}deg)`, boxShadow: `0 40px 100px rgba(0,0,0,0.7), 0 0 80px ${cols[0]}44`}}>
+      <div style={{position: 'absolute', left: 1000, top: 60, width: 440, height: 780, borderRadius: 64, background: '#0d0f14', border: '12px solid #2a2e38', overflow: 'hidden', transform: `translateY(${(1 - p) * 500}px) rotate(${(1 - p) * -8}deg)`, boxShadow: `0 40px 100px rgba(0,0,0,0.7), 0 0 80px ${cols[0]}44`}}>
         <div style={{height: 120, background: `linear-gradient(90deg, ${cols.join(',')})`, display: 'flex', alignItems: 'flex-end', padding: '0 0 18px 30px', fontFamily: HEAD, fontWeight: 900, fontSize: 48, color: '#fff'}}>{app}</div>
         {isG ? (
           <div style={{margin: 24, padding: '18px 24px', borderRadius: 40, background: '#fff', fontFamily: BODY, fontWeight: 700, fontSize: 28, color: '#333'}}>
@@ -556,7 +556,7 @@ const Phone: React.FC<P> = ({shot}) => {
         </div>
       </div>
       {/* recommendation pointer */}
-      <div style={{position: 'absolute', left: 820, top: 560, opacity: ease(f, 20, 30), transform: `translateX(${Math.sin(f / 4) * 10}px)`}}>
+      <div style={{position: 'absolute', left: 1480, top: 360, opacity: ease(f, 20, 30), transform: `translateX(${Math.sin(f / 4) * 10}px)`}}>
         <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 42, color: C.gold}}>◀ ALGORITM</div>
       </div>
     </AbsoluteFill>
@@ -566,33 +566,33 @@ const Phone: React.FC<P> = ({shot}) => {
 const Algo: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {items, times, out, bgFile} = shot.props;
-  const cx = 540, cy = 860;
+  const cx = 960, cy = 420;
   const op = pop(f, sec(shot.dur) - sec(2.2), 11, 150);
   return (
     <AbsoluteFill>
       <BG file={bgFile} dark={0.7} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {items.map((_: string, i: number) => {
-          const y = 330 + i * 130;
+          const y = 220 + i * 200;
           const at = rel(shot, times[i]);
           const p = ease(f, at, at + 14);
-          return <path key={i} d={`M${540},${y + 40} C ${540} ${y + 200}, ${cx} ${cy - 200}, ${cx} ${cy - 120}`} fill="none" stroke={C.cyan} strokeWidth={4} strokeDasharray="12 10" strokeDashoffset={-f * 2} opacity={p} />;
+          return <path key={i} d={`M${560},${y} C ${720} ${y}, ${cx - 300} ${cy}, ${cx - 120} ${cy}`} fill="none" stroke={C.cyan} strokeWidth={4} strokeDasharray="12 10" strokeDashoffset={-f * 2} opacity={p} />;
         })}
         {[0, 1, 2].map((k) => (
           <circle key={k} cx={cx} cy={cy} r={110 + k * 28} fill="none" stroke={k === 0 ? C.gold : 'rgba(255,200,61,0.4)'} strokeWidth={k === 0 ? 6 : 3} strokeDasharray={k === 0 ? 'none' : '20 16'} transform={`rotate(${f * (k % 2 ? -2 : 2)} ${cx} ${cy})`} />
         ))}
-        <line x1={cx} y1={cy + 170} x2={cx} y2={cy + 300} stroke={C.gold} strokeWidth={6} opacity={op} />
+        <line x1={cx + 170} y1={cy} x2={cx + 330} y2={cy} stroke={C.gold} strokeWidth={6} opacity={op} />
       </svg>
       {items.map((it: string, i: number) => {
         const at = rel(shot, times[i]) - 3;
         return (
-          <div key={i} style={{position: 'absolute', left: 540, top: 330 + i * 130, transform: 'translateX(-50%)'}}>
+          <div key={i} style={{position: 'absolute', right: 1920 - 580, top: 220 + i * 200, transform: 'translateY(-50%)'}}>
             <Chip text={it} p={pop(f, at, 11, 160)} color={C.cyan} size={38} />
           </div>
         );
       })}
       <div style={{position: 'absolute', left: cx, top: cy, transform: 'translate(-50%,-50%)', fontFamily: HEAD, fontWeight: 900, fontSize: 40, color: C.gold, letterSpacing: 2}}>ALGORITM</div>
-      <div style={{position: 'absolute', left: 540, top: cy + 300, transform: 'translateX(-50%)'}}>
+      <div style={{position: 'absolute', left: cx + 340, top: cy, transform: 'translateY(-50%)'}}>
         <Chip text={out} p={op} color={C.gold} size={44} />
       </div>
     </AbsoluteFill>
@@ -602,18 +602,18 @@ const Algo: React.FC<P> = ({shot}) => {
 const Split3: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {items, clipFiles, times} = shot.props;
-  const H = 1920 / 3;
+  const H = 1920 / 3; // column width
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {items.map((it: string, i: number) => {
         const at = rel(shot, times[i]) - 3;
         const p = ease(f, at, at + 10);
         return (
-          <div key={i} style={{position: 'absolute', left: 0, right: 0, top: i * H, height: H - 6, overflow: 'hidden', clipPath: `inset(0 ${(1 - p) * 100}% 0 0)`}}>
+          <div key={i} style={{position: 'absolute', top: 0, bottom: 0, left: i * H, width: H - 6, overflow: 'hidden', clipPath: `inset(0 0 ${(1 - p) * 100}% 0)`}}>
             {f >= at - 2 ? <OffthreadVideo src={staticFile(clipFiles[i])} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} /> : null}
-            <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.05))'}} />
-            <div style={{position: 'absolute', left: 60, top: i === 2 ? 60 : H / 2 - 70, fontFamily: HEAD, fontWeight: 900, fontSize: 30, color: C.gold, letterSpacing: 4}}>{i + 1}-INSON</div>
-            <div style={{position: 'absolute', left: 60, top: i === 2 ? 100 : H / 2 - 30, fontFamily: HEAD, fontWeight: 900, fontSize: 84, color: '#fff', ...textStroke(4, 'rgba(0,0,0,0.6)')}}>{it}</div>
+            <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.7), rgba(0,0,0,0.05) 50%)'}} />
+            <div style={{position: 'absolute', left: 50, top: 150, fontFamily: HEAD, fontWeight: 900, fontSize: 30, color: C.gold, letterSpacing: 4}}>{i + 1}-INSON</div>
+            <div style={{position: 'absolute', left: 50, top: 190, fontFamily: HEAD, fontWeight: 900, fontSize: 72, color: '#fff', ...textStroke(4, 'rgba(0,0,0,0.6)')}}>{it}</div>
           </div>
         );
       })}
@@ -622,13 +622,13 @@ const Split3: React.FC<P> = ({shot}) => {
 };
 
 const NODES = [
-  {t: 'AQSH', x: 540, y: 420},
-  {t: 'XITOY', x: 860, y: 600},
-  {t: 'ROSSIYA', x: 880, y: 930},
-  {t: 'YEVROPA', x: 540, y: 1110},
-  {t: 'BANKLAR', x: 200, y: 930},
-  {t: 'KOMPANIYALAR', x: 230, y: 600},
-  {t: 'ODDIY INSONLAR', x: 540, y: 770},
+  {t: 'AQSH', x: 960, y: 170},
+  {t: 'XITOY', x: 1470, y: 280},
+  {t: 'ROSSIYA', x: 1500, y: 640},
+  {t: 'YEVROPA', x: 960, y: 760},
+  {t: 'BANKLAR', x: 420, y: 640},
+  {t: 'KOMPANIYALAR', x: 450, y: 280},
+  {t: 'ODDIY INSONLAR', x: 960, y: 465},
 ];
 const Network: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
@@ -639,7 +639,7 @@ const Network: React.FC<P> = ({shot}) => {
     return (
       <AbsoluteFill>
         <BG dark={0.2} />
-        <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -200}}>
+        <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -100}}>
           <div style={{position: 'relative', transform: `scale(${p})`}}>
             <div style={{width: 300, height: 300, borderRadius: 150, border: `6px solid ${C.gold}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 44, color: '#fff', textAlign: 'center', background: 'rgba(255,200,61,0.1)'}}>
               BITTA
@@ -660,7 +660,7 @@ const Network: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {edges.map(([i, j], k) => {
           const p = step === 2 ? ease(f, k, k + 12) : ease(f, 10 + k, 22 + k) * 0.35;
           const a = NODES[i], b = NODES[j];
@@ -677,7 +677,7 @@ const Network: React.FC<P> = ({shot}) => {
           </div>
         );
       })}
-      <div style={{position: 'absolute', top: 260, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 50, color: '#fff', opacity: ease(f, 6, 18)}}>
+      <div style={{position: 'absolute', top: 50, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 44, color: '#fff', opacity: ease(f, 6, 18)}}>
         {step === 2 ? 'HAMMASI BOG\'LANGAN' : 'RAQOBATLASHAYOTGAN KUCHLAR'}
       </div>
     </AbsoluteFill>
@@ -688,19 +688,19 @@ const CENTERS = ['DAVLATLAR', 'MARKAZIY BANKLAR', 'KORPORATSIYALAR', 'AXBOROT PL
 const Centers: React.FC<P> = ({shot}) => {
   const f = useCurrentFrame();
   const {step} = shot.props;
-  const cx = 540, cy = 780, R = 360;
+  const cx = 960, cy = 460, R = 600, RY = 310;
   const sp = step === 0 ? ease(f, 6, 30, 0, 1, Easing.out(Easing.back(1.4))) : 1;
   const dim = step === 1 ? ease(f, sec(1.2), sec(1.8)) : 0;
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <div style={{position: 'absolute', top: 260, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 52, color: '#fff', opacity: ease(f, 2, 14)}}>
+      <div style={{position: 'absolute', top: 40, left: 0, right: 0, textAlign: 'center', fontFamily: HEAD, fontWeight: 900, fontSize: 48, color: '#fff', opacity: ease(f, 2, 14)}}>
         {step === 0 ? 'HOKIMIYAT BO\'LINGAN' : 'HECH BIRI MUTLAQ EMAS'}
       </div>
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {CENTERS.map((_, i) => {
           const a = -Math.PI / 2 + (i / 5) * Math.PI * 2;
-          const x = cx + Math.cos(a) * R * sp, y = cy + Math.sin(a) * R * sp;
+          const x = cx + Math.cos(a) * R * sp, y = cy + Math.sin(a) * RY * sp;
           return <line key={i} x1={cx} y1={cy} x2={x} y2={y} stroke={step === 1 ? C.red : C.gold} strokeWidth={4} strokeDasharray="10 10" strokeDashoffset={-f} opacity={0.7} />;
         })}
       </svg>
@@ -709,7 +709,7 @@ const Centers: React.FC<P> = ({shot}) => {
       </div>
       {CENTERS.map((t, i) => {
         const a = -Math.PI / 2 + (i / 5) * Math.PI * 2;
-        const x = cx + Math.cos(a) * R * sp, y = cy + Math.sin(a) * R * sp;
+        const x = cx + Math.cos(a) * R * sp, y = cy + Math.sin(a) * RY * sp;
         return (
           <div key={i} style={{position: 'absolute', left: x, top: y, transform: 'translate(-50%,-50%)', opacity: 1 - dim * 0.45}}>
             <Chip text={t.replace(' ', '\n')} p={Math.min(1, sp * 1.2)} size={30} style={{whiteSpace: 'pre', textAlign: 'center'}} color={step === 1 ? C.red : C.gold} />
@@ -729,10 +729,10 @@ const Neq: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -220, gap: 10}}>
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 92, color: C.cyan, transform: `scale(${pa})`, textAlign: 'center', width: 960}}>{a}</div>
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 260, color: C.red, lineHeight: 1, transform: `scale(${pn}) rotate(${(1 - pn) * 90}deg)`}}>≠</div>
-        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 92, color: C.gold, transform: `scale(${pb})`, textAlign: 'center', width: 960}}>{b}</div>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -110, gap: 0}}>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 92, color: C.cyan, transform: `scale(${pa})`, textAlign: 'center', width: 1600}}>{a}</div>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 200, color: C.red, lineHeight: 1, transform: `scale(${pn}) rotate(${(1 - pn) * 90}deg)`}}>≠</div>
+        <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 92, color: C.gold, transform: `scale(${pb})`, textAlign: 'center', width: 1600}}>{b}</div>
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -745,7 +745,7 @@ const Strike: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -220}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -110}}>
         <div style={{position: 'relative', opacity: 1 - s * 0.35}}>
           <Kinetic text={text} size={104} stagger={3} />
           <div style={{position: 'absolute', left: -20, right: -20, top: '50%', height: 16, background: C.red, transform: `scaleX(${s}) rotate(-4deg)`, transformOrigin: 'left', borderRadius: 8}} />
@@ -762,8 +762,8 @@ const Triad: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <Title text="ENG MUHIM SAVOL" top={280} />
-      <AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', paddingTop: 440, gap: 40}}>
+      <Title text="ENG MUHIM SAVOL" top={60} />
+      <AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', paddingTop: 190, gap: 34}}>
         {items.map((it: string, i: number) => {
           const at = rel(shot, times[i]) - 3;
           const p = pop(f, at, 12, 160);
@@ -789,17 +789,17 @@ const Poll: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <div style={{position: 'absolute', top: 270, left: 60, right: 60, textAlign: 'center', transform: `scale(${hp})`}}>
+      <div style={{position: 'absolute', top: 50, left: 60, right: 60, textAlign: 'center', transform: `scale(${hp})`}}>
         <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 34, color: C.gold, letterSpacing: 4}}>SIZNINGCHA</div>
         <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: 72, color: '#fff', lineHeight: 1.1, marginTop: 10}}>ENG KATTA KUCH KIMDA?</div>
       </div>
-      <div style={{position: 'absolute', top: 560, left: 90, right: 90, display: 'flex', flexDirection: 'column', gap: 26}}>
+      <div style={{position: 'absolute', top: 250, left: 460, right: 460, display: 'flex', flexDirection: 'column', gap: 20}}>
         {items.map((it: string, i: number) => {
           const at = sec(0.6) + i * 4;
           const p = pop(f, at, 12, 160);
           const on = i === active;
           return (
-            <div key={i} style={{position: 'relative', height: 120, borderRadius: 60, border: `4px solid ${on ? C.gold : 'rgba(255,255,255,0.35)'}`, background: on ? 'rgba(255,200,61,0.18)' : 'rgba(10,14,24,0.6)', display: 'flex', alignItems: 'center', padding: '0 40px', gap: 26, transform: `translateX(${(1 - p) * 600}px) scale(${on ? 1.04 : 1})`, opacity: Math.min(1, p * 1.5)}}>
+            <div key={i} style={{position: 'relative', height: 108, borderRadius: 54, border: `4px solid ${on ? C.gold : 'rgba(255,255,255,0.35)'}`, background: on ? 'rgba(255,200,61,0.18)' : 'rgba(10,14,24,0.6)', display: 'flex', alignItems: 'center', padding: '0 40px', gap: 26, transform: `translateX(${(1 - p) * 600}px) scale(${on ? 1.04 : 1})`, opacity: Math.min(1, p * 1.5)}}>
               <div style={{width: 54, height: 54, borderRadius: 27, border: `4px solid ${on ? C.gold : '#fff'}`, background: on ? C.gold : 'transparent'}} />
               <div style={{fontFamily: HEAD, fontWeight: 900, fontSize: it.length > 16 ? 40 : 50, color: '#fff'}}>{it}</div>
             </div>
@@ -818,9 +818,9 @@ const Cta: React.FC<P> = ({shot}) => {
   return (
     <AbsoluteFill>
       <BG dark={0.2} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -200}}>
-        <svg width={200} height={180} viewBox="0 0 100 90" style={{transform: `scale(${p}) rotate(${Math.sin(f / 6) * 6}deg)`}}><path d="M10 5 H90 Q95 5 95 10 V58 Q95 63 90 63 H40 L20 82 V63 H10 Q5 63 5 58 V10 Q5 5 10 5 Z" fill={C.gold} /><circle cx={30} cy={34} r={6} fill="#000" /><circle cx={50} cy={34} r={6} fill="#000" /><circle cx={70} cy={34} r={6} fill="#000" /></svg>
-        <div style={{marginTop: 30, width: 860, borderRadius: 30, background: 'rgba(255,255,255,0.95)', padding: '30px 36px', transform: `scale(${p})`, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', top: -110}}>
+        <svg width={170} height={150} viewBox="0 0 100 90" style={{transform: `scale(${p}) rotate(${Math.sin(f / 6) * 6}deg)`}}><path d="M10 5 H90 Q95 5 95 10 V58 Q95 63 90 63 H40 L20 82 V63 H10 Q5 63 5 58 V10 Q5 5 10 5 Z" fill={C.gold} /><circle cx={30} cy={34} r={6} fill="#000" /><circle cx={50} cy={34} r={6} fill="#000" /><circle cx={70} cy={34} r={6} fill="#000" /></svg>
+        <div style={{marginTop: 24, width: 1000, borderRadius: 30, background: 'rgba(255,255,255,0.95)', padding: '30px 36px', transform: `scale(${p})`, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
           <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, color: '#888'}}>Izoh qoldiring...</div>
           <div style={{fontFamily: HEAD, fontWeight: 800, fontSize: 48, color: '#111', marginTop: 8}}>
             {typed}

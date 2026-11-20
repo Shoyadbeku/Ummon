@@ -6,7 +6,7 @@ def clips_of(s):
     if s["kind"] == "clip": return [s["clip"]]
     p = s["props"]; return [c for c in [p.get("bg"), p.get("clipA"), p.get("clipB")] + p.get("clips", []) if c]
 L = ["# Storyboard — \"Dunyoni aslida kim boshqaradi?\"", "",
-     "9:16 · 1080×1920 · 30 fps · 10:14.47 · 206 kadr (shot). Vaqtlar videodagi boshlanish vaqti.", "",
+     "16:9 · 1920×1080 · 30 fps · 10:14.47 · 206 kadr (shot). Vaqtlar videodagi boshlanish vaqti.", "",
      "| # | Vaqt | Davom. | Ovozdagi gap | Vizual | Overlay / grafika |", "|---|---|---|---|---|---|"]
 for i, s in enumerate(shots):
     vis = f"Footage `mixkit {s['clip'][2:]}`" if s["kind"] == "clip" else f"**MG: {s['mg']}**" + (f" (fon/klip: {', '.join('mixkit '+c[2:] for c in clips_of(s))})" if clips_of(s) else "")
