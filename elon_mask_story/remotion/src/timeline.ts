@@ -31,7 +31,7 @@ export const SHOTS: ShotDef[] = [
   [40.9, 41656, {e: 'flash', g: 'warm'}],
   [43.04, 41652, {e: 'whip-left', g: 'warm'}],
   [44.2, 'comp:brothers'],
-  [45.6, 48297, {e: 'zoom', g: 'none'}],
+  [45.6, 48297, {e: 'zoom', g: 'none', sf: 2.6}],
   // ---------------- 1995 ----------------
   [47.06, 48530, {e: 'flash', g: 'retro'}],
   [49.16, 21620, {e: 'whip-up'}],

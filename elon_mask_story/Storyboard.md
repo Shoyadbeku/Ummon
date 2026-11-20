@@ -1,4 +1,4 @@
-# Storyboard — 1080×1920, 30 fps, 8:08
+# Storyboard — 1920×1080 (16:9), 30 fps, 8:08
 
 Har bir qator: kadr boshlanishi → ovozdagi gap → vizual. Motion graphics overleylari `remotion/src/timeline.ts` dagi `OVERLAYS` ro'yxatida.
 

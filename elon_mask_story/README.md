@@ -1,10 +1,10 @@
-# Ilon Mask: ofisdan raketalargacha — 8:08 vertikal hujjatli video
+# Ilon Mask: ofisdan raketalargacha — 8:08 hujjatli video (16:9)
 
 Asl ovoz: `Neytron_yulduzining_aql_bovar_qilmas_og‘irligi_SadoStudio 13.wav` (mazmuni — Ilon Mask hayoti, 1995–2008).
 
 | Fayl | Tavsif |
 |---|---|
-| `Final_Video.mp4` | 1080×1920, 30 fps, H.264/AAC, −14 LUFS (343 MB — repoga kirmaydi, alohida yuborilgan) |
+| `Final_Video.mp4` | 1920×1080 (16:9), 30 fps, H.264/AAC, −14 LUFS (365 MB — repoga kirmaydi, alohida yuborilgan) |
 | `Subtitles.srt` | O'zbekcha subtitrlar (videoga yozilmagan) |
 | `data/script_uz.txt` | Vaqt kodli tuzatilgan transkripsiya |
 | `remotion/` | Remotion + React + TypeScript loyiha (`src/timeline.ts` — montaj ro'yxati, `src/comps.tsx` — grafikalar) |
