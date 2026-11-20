@@ -190,19 +190,20 @@ export const DayNight: React.FC<{base: number}> = ({base}) => {
   const a = useSp(0);
   const frame = useCurrentFrame();
   const nightAt = at(164.82, base);
-  const b = spring({frame: frame - nightAt, fps: FPS, config: {damping: 15}});
+  const b = spring({frame: frame - 4, fps: FPS, config: {damping: 15}});
+  const lit = interpolate(frame, [nightAt - 2, nightAt + 6], [0, 1], clamp);
   const half: React.CSSProperties = {position: 'absolute', left: 0, right: 0, height: 955, overflow: 'hidden'};
   return (
     <AbsoluteFill style={{background: '#05060a'}}>
       <div style={{...half, top: 0, transform: `translateX(${(1 - a) * -1080}px)`, filter: frame >= nightAt ? 'brightness(0.5)' : 'none'}}>
         <Vid src="v/mk_13906.mp4" filter="contrast(1.1) saturate(1.2) sepia(0.2) brightness(1.05)" />
-        <div style={{position: 'absolute', top: 70, left: 0, right: 0}}><Label text={'☀ KUNDUZI'} size={90} color={YELLOW} /></div>
-        <div style={{position: 'absolute', bottom: 70, left: 0, right: 0}}><Label text="VEB-SAYT" size={120} /></div>
+        <div style={{position: 'absolute', top: 170, left: 0, right: 0}}><Label text={'☀ KUNDUZI'} size={90} color={YELLOW} /></div>
+        <div style={{position: 'absolute', top: 290, left: 0, right: 0}}><Label text="VEB-SAYT" size={130} /></div>
       </div>
-      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px)`}}>
+      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px)`, filter: `brightness(${0.35 + 0.65 * lit}) grayscale(${1 - lit})`}}>
         <Vid src="v/mk_9757.mp4" filter="contrast(1.2) saturate(1.1) hue-rotate(-15deg) brightness(0.8)" />
-        <div style={{position: 'absolute', top: 70, left: 0, right: 0}}><Label text={'☾ KECHASI'} size={90} color={CYAN} /></div>
-        <div style={{position: 'absolute', bottom: 70, left: 0, right: 0}}><Label text="DASTUR YOZISH" size={120} /></div>
+        <div style={{position: 'absolute', top: 170, left: 0, right: 0}}><Label text={'☾ KECHASI'} size={90} color={CYAN} /></div>
+        <div style={{position: 'absolute', top: 290, left: 0, right: 0}}><Label text="DASTUR YOZISH" size={130} /></div>
       </div>
       <div style={{position: 'absolute', left: 0, right: 0, top: 952, height: 16, background: 'white', boxShadow: '0 0 30px white'}} />
       <div style={{position: 'absolute', left: 390, top: 860, width: 300, height: 200, borderRadius: 30, background: '#111', border: '6px solid white', display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${a})`}}>
@@ -419,7 +420,8 @@ export const Ebay: React.FC = () => {
 export const SafeRisky: React.FC<{base: number}> = ({base}) => {
   const frame = useCurrentFrame();
   const a = useSp(0);
-  const b = useSp(at(336.62, base));
+  const b = useSp(5);
+  const lit = interpolate(frame, [at(336.62, base) - 2, at(336.62, base) + 6], [0, 1], clamp);
   const pick = at(342.3, base);
   const chosen = frame >= pick;
   const ps = spring({frame: frame - pick, fps: FPS, config: {damping: 10, stiffness: 200}});
@@ -431,7 +433,7 @@ export const SafeRisky: React.FC<{base: number}> = ({base}) => {
         <div style={{position: 'absolute', top: 260, left: 0, right: 0}}><Label text="XAVFSIZ" size={150} color={GREEN} /></div>
         <div style={{position: 'absolute', top: 440, left: 0, right: 0}}><Label text="INVESTITSIYALAR" size={80} color="white" /></div>
       </div>
-      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px) scale(${chosen ? 1 + 0.03 * ps : 1})`}}>
+      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px) scale(${chosen ? 1 + 0.03 * ps : 1})`, filter: `brightness(${0.35 + 0.65 * lit}) grayscale(${1 - lit})`}}>
         <Vid src="v/mk_52304.mp4" filter="contrast(1.2) saturate(1.3)" />
         <div style={{position: 'absolute', top: 300, left: 0, right: 0}}><Label text="XAVFLI" size={150} color={RED} /></div>
         <div style={{position: 'absolute', top: 480, left: 0, right: 0}}><Label text="YANGI SOHALAR" size={80} color="white" /></div>
@@ -519,13 +521,15 @@ export const Founders: React.FC<{base: number}> = ({base}) => {
 /** SpaceX | Tesla split */
 export const SplitSxTesla: React.FC = () => {
   const a = useSp(0);
-  const b = useSp(at(414.0, 411.88));
+  const frame = useCurrentFrame();
+  const b = useSp(5);
+  const lit = interpolate(frame, [at(414.0, 411.88) - 2, at(414.0, 411.88) + 6], [0, 1], clamp);
   const half: React.CSSProperties = {position: 'absolute', left: 0, right: 0, height: 955, overflow: 'hidden'};
   return (
     <AbsoluteFill style={{background: '#05060a'}}>
       <div style={{...half, top: 0, transform: `translateX(${(1 - a) * -1080}px)`}}><Vid src="v/n_fh_ignite.mp4" sf={1} />
         <div style={{position: 'absolute', top: 230, left: 0, right: 0}}><Label text="SPACEX" size={170} grad={ICE_GRAD} /></div></div>
-      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px)`}}>
+      <div style={{...half, top: 965, transform: `translateX(${(1 - b) * 1080}px)`, filter: `brightness(${0.35 + 0.65 * lit}) grayscale(${1 - lit})`}}>
         <Img src={staticFile('img/tesla_factory.jpg')} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '60% 60%'}} />
         <div style={{position: 'absolute', bottom: 260, left: 0, right: 0}}><Label text="TESLA" size={170} color={RED} /></div></div>
       <div style={{position: 'absolute', left: 0, right: 0, top: 952, height: 16, background: 'white'}} />
