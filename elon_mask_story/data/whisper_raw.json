@@ -1,0 +1,6749 @@
+[
+ {
+  "start": 0.0,
+  "end": 2.14,
+  "text": " Tasaur qilin, siznin uyengiz yok.",
+  "words": [
+   {
+    "w": " Tasaur",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": " qilin,",
+    "s": 0.5,
+    "e": 0.78
+   },
+   {
+    "w": " siznin",
+    "s": 0.86,
+    "e": 1.46
+   },
+   {
+    "w": " uyengiz",
+    "s": 1.46,
+    "e": 1.92
+   },
+   {
+    "w": " yok.",
+    "s": 1.92,
+    "e": 2.14
+   }
+  ]
+ },
+ {
+  "start": 2.36,
+  "end": 4.2,
+  "text": " Keçelari ofiste uxulaysiz.",
+  "words": [
+   {
+    "w": " Keçelari",
+    "s": 2.36,
+    "e": 3.18
+   },
+   {
+    "w": " ofiste",
+    "s": 3.18,
+    "e": 3.72
+   },
+   {
+    "w": " uxulaysiz.",
+    "s": 3.72,
+    "e": 4.2
+   }
+  ]
+ },
+ {
+  "start": 4.34,
+  "end": 6.72,
+  "text": " Dush qabulqulish uchun sportzaliga borasiz.",
+  "words": [
+   {
+    "w": " Dush",
+    "s": 4.34,
+    "e": 4.82
+   },
+   {
+    "w": " qabulqulish",
+    "s": 4.82,
+    "e": 5.28
+   },
+   {
+    "w": " uchun",
+    "s": 5.28,
+    "e": 5.6
+   },
+   {
+    "w": " sportzaliga",
+    "s": 5.6,
+    "e": 6.28
+   },
+   {
+    "w": " borasiz.",
+    "s": 6.28,
+    "e": 6.72
+   }
+  ]
+ },
+ {
+  "start": 6.86,
+  "end": 8.88,
+  "text": " Kun boyi kompiyotur qarqisidi ishlayasiz.",
+  "words": [
+   {
+    "w": " Kun",
+    "s": 6.86,
+    "e": 7.24
+   },
+   {
+    "w": " boyi",
+    "s": 7.24,
+    "e": 7.56
+   },
+   {
+    "w": " kompiyotur",
+    "s": 7.56,
+    "e": 8.0
+   },
+   {
+    "w": " qarqisidi",
+    "s": 8.0,
+    "e": 8.34
+   },
+   {
+    "w": " ishlayasiz.",
+    "s": 8.34,
+    "e": 8.88
+   }
+  ]
+ },
+ {
+  "start": 9.06,
+  "end": 12.5,
+  "text": " Xisabingizdagi pulese kundalik xaricatlaringizgi zorga yetadi.",
+  "words": [
+   {
+    "w": " Xisabingizdagi",
+    "s": 9.06,
+    "e": 9.88
+   },
+   {
+    "w": " pulese",
+    "s": 9.88,
+    "e": 10.16
+   },
+   {
+    "w": " kundalik",
+    "s": 10.16,
+    "e": 11.04
+   },
+   {
+    "w": " xaricatlaringizgi",
+    "s": 11.04,
+    "e": 11.82
+   },
+   {
+    "w": " zorga",
+    "s": 11.82,
+    "e": 12.22
+   },
+   {
+    "w": " yetadi.",
+    "s": 12.22,
+    "e": 12.5
+   }
+  ]
+ },
+ {
+  "start": 12.7,
+  "end": 15.0,
+  "text": " Amma oradan bir neche il otib,",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 12.7,
+    "e": 13.4
+   },
+   {
+    "w": " oradan",
+    "s": 13.4,
+    "e": 13.76
+   },
+   {
+    "w": " bir",
+    "s": 13.76,
+    "e": 14.18
+   },
+   {
+    "w": " neche",
+    "s": 14.18,
+    "e": 14.52
+   },
+   {
+    "w": " il",
+    "s": 14.52,
+    "e": 14.7
+   },
+   {
+    "w": " otib,",
+    "s": 14.7,
+    "e": 15.0
+   }
+  ]
+ },
+ {
+  "start": 15.08,
+  "end": 18.78,
+  "text": " siz yaratkan kampanya yüzlap milyon dollarga satiladi.",
+  "words": [
+   {
+    "w": " siz",
+    "s": 15.08,
+    "e": 15.44
+   },
+   {
+    "w": " yaratkan",
+    "s": 15.44,
+    "e": 15.98
+   },
+   {
+    "w": " kampanya",
+    "s": 15.98,
+    "e": 16.48
+   },
+   {
+    "w": " yüzlap",
+    "s": 16.48,
+    "e": 17.4
+   },
+   {
+    "w": " milyon",
+    "s": 17.4,
+    "e": 17.94
+   },
+   {
+    "w": " dollarga",
+    "s": 17.94,
+    "e": 18.42
+   },
+   {
+    "w": " satiladi.",
+    "s": 18.42,
+    "e": 18.78
+   }
+  ]
+ },
+ {
+  "start": 19.25,
+  "end": 21.46,
+  "text": " Bu, fantastik film sanaryasi emas.",
+  "words": [
+   {
+    "w": " Bu,",
+    "s": 19.25,
+    "e": 19.66
+   },
+   {
+    "w": " fantastik",
+    "s": 19.78,
+    "e": 20.52
+   },
+   {
+    "w": " film",
+    "s": 20.52,
+    "e": 20.68
+   },
+   {
+    "w": " sanaryasi",
+    "s": 20.68,
+    "e": 21.2
+   },
+   {
+    "w": " emas.",
+    "s": 21.2,
+    "e": 21.46
+   }
+  ]
+ },
+ {
+  "start": 21.58,
+  "end": 24.44,
+  "text": " Bu, dunyanin en mashkur tadbirkorlardan biri.",
+  "words": [
+   {
+    "w": " Bu,",
+    "s": 21.58,
+    "e": 22.14
+   },
+   {
+    "w": " dunyanin",
+    "s": 22.2,
+    "e": 22.6
+   },
+   {
+    "w": " en",
+    "s": 22.6,
+    "e": 22.84
+   },
+   {
+    "w": " mashkur",
+    "s": 22.84,
+    "e": 23.5
+   },
+   {
+    "w": " tadbirkorlardan",
+    "s": 23.5,
+    "e": 24.16
+   },
+   {
+    "w": " biri.",
+    "s": 24.16,
+    "e": 24.44
+   }
+  ]
+ },
+ {
+  "start": 24.56,
+  "end": 28.28,
+  "text": " Elon Musk hayatinin dastlapki illerde yüzbergan vahiyalar.",
+  "words": [
+   {
+    "w": " Elon",
+    "s": 24.56,
+    "e": 25.06
+   },
+   {
+    "w": " Musk",
+    "s": 25.06,
+    "e": 25.4
+   },
+   {
+    "w": " hayatinin",
+    "s": 25.4,
+    "e": 25.84
+   },
+   {
+    "w": " dastlapki",
+    "s": 25.84,
+    "e": 26.76
+   },
+   {
+    "w": " illerde",
+    "s": 26.76,
+    "e": 27.18
+   },
+   {
+    "w": " yüzbergan",
+    "s": 27.18,
+    "e": 27.64
+   },
+   {
+    "w": " vahiyalar.",
+    "s": 27.64,
+    "e": 28.28
+   }
+  ]
+ },
+ {
+  "start": 28.28,
+  "end": 31.46,
+  "text": " Bugun uning nama Tesla elektromobillari,",
+  "words": [
+   {
+    "w": " Bugun",
+    "s": 28.28,
+    "e": 29.62
+   },
+   {
+    "w": " uning",
+    "s": 29.62,
+    "e": 29.84
+   },
+   {
+    "w": " nama",
+    "s": 29.84,
+    "e": 30.1
+   },
+   {
+    "w": " Tesla",
+    "s": 30.1,
+    "e": 30.52
+   },
+   {
+    "w": " elektromobillari,",
+    "s": 30.52,
+    "e": 31.46
+   }
+  ]
+ },
+ {
+  "start": 31.56,
+  "end": 32.98,
+  "text": " SpaceX raketelari",
+  "words": [
+   {
+    "w": " SpaceX",
+    "s": 31.56,
+    "e": 32.2
+   },
+   {
+    "w": " raketelari",
+    "s": 32.2,
+    "e": 32.98
+   }
+  ]
+ },
+ {
+  "start": 32.98,
+  "end": 35.84,
+  "text": " va milyardlap dollarlik bizneslar bilan baqliq.",
+  "words": [
+   {
+    "w": " va",
+    "s": 32.98,
+    "e": 33.3
+   },
+   {
+    "w": " milyardlap",
+    "s": 33.3,
+    "e": 34.3
+   },
+   {
+    "w": " dollarlik",
+    "s": 34.3,
+    "e": 34.8
+   },
+   {
+    "w": " bizneslar",
+    "s": 34.8,
+    "e": 35.22
+   },
+   {
+    "w": " bilan",
+    "s": 35.22,
+    "e": 35.44
+   },
+   {
+    "w": " baqliq.",
+    "s": 35.44,
+    "e": 35.84
+   }
+  ]
+ },
+ {
+  "start": 35.92,
+  "end": 37.08,
+  "text": " Lekin bu xkaya,",
+  "words": [
+   {
+    "w": " Lekin",
+    "s": 35.92,
+    "e": 36.6
+   },
+   {
+    "w": " bu",
+    "s": 36.6,
+    "e": 36.66
+   },
+   {
+    "w": " xkaya,",
+    "s": 36.66,
+    "e": 37.08
+   }
+  ]
+ },
+ {
+  "start": 37.14,
+  "end": 38.6,
+  "text": " hashamatli avtomobillari",
+  "words": [
+   {
+    "w": " hashamatli",
+    "s": 37.14,
+    "e": 37.88
+   },
+   {
+    "w": " avtomobillari",
+    "s": 37.88,
+    "e": 38.6
+   }
+  ]
+ },
+ {
+  "start": 38.6,
+  "end": 40.72,
+  "text": " yaki kosmik raketelerdan bashlanmagan.",
+  "words": [
+   {
+    "w": " yaki",
+    "s": 38.6,
+    "e": 38.84
+   },
+   {
+    "w": " kosmik",
+    "s": 38.84,
+    "e": 39.58
+   },
+   {
+    "w": " raketelerdan",
+    "s": 39.58,
+    "e": 40.18
+   },
+   {
+    "w": " bashlanmagan.",
+    "s": 40.18,
+    "e": 40.72
+   }
+  ]
+ },
+ {
+  "start": 40.9,
+  "end": 43.02,
+  "text": " Hammasi addi kompiyotur,",
+  "words": [
+   {
+    "w": " Hammasi",
+    "s": 40.9,
+    "e": 41.72
+   },
+   {
+    "w": " addi",
+    "s": 41.72,
+    "e": 42.34
+   },
+   {
+    "w": " kompiyotur,",
+    "s": 42.34,
+    "e": 43.02
+   }
+  ]
+ },
+ {
+  "start": 43.04,
+  "end": 44.2,
+  "text": " kichkina ofis",
+  "words": [
+   {
+    "w": " kichkina",
+    "s": 43.04,
+    "e": 43.68
+   },
+   {
+    "w": " ofis",
+    "s": 43.68,
+    "e": 44.2
+   }
+  ]
+ },
+ {
+  "start": 44.2,
+  "end": 45.6,
+  "text": " va ikita akyukani",
+  "words": [
+   {
+    "w": " va",
+    "s": 44.2,
+    "e": 44.54
+   },
+   {
+    "w": " ikita",
+    "s": 44.54,
+    "e": 45.06
+   },
+   {
+    "w": " akyukani",
+    "s": 45.06,
+    "e": 45.6
+   }
+  ]
+ },
+ {
+  "start": 45.6,
+  "end": 46.88,
+  "text": " ghayasdan bashlangan.",
+  "words": [
+   {
+    "w": " ghayasdan",
+    "s": 45.6,
+    "e": 46.38
+   },
+   {
+    "w": " bashlangan.",
+    "s": 46.38,
+    "e": 46.88
+   }
+  ]
+ },
+ {
+  "start": 47.06,
+  "end": 49.08,
+  "text": " 1995-ci il,",
+  "words": [
+   {
+    "w": " 1995",
+    "s": 47.06,
+    "e": 48.04
+   },
+   {
+    "w": "-ci",
+    "s": 48.04,
+    "e": 48.9
+   },
+   {
+    "w": " il,",
+    "s": 48.9,
+    "e": 49.08
+   }
+  ]
+ },
+ {
+  "start": 49.16,
+  "end": 50.6,
+  "text": " Amerika koshmashdatlari.",
+  "words": [
+   {
+    "w": " Amerika",
+    "s": 49.16,
+    "e": 49.7
+   },
+   {
+    "w": " koshmashdatlari.",
+    "s": 49.7,
+    "e": 50.6
+   }
+  ]
+ },
+ {
+  "start": 50.6,
+  "end": 53.32,
+  "text": " Internet endigini ammalashuyatkan davr.",
+  "words": [
+   {
+    "w": " Internet",
+    "s": 50.6,
+    "e": 51.12
+   },
+   {
+    "w": " endigini",
+    "s": 51.12,
+    "e": 52.2
+   },
+   {
+    "w": " ammalashuyatkan",
+    "s": 52.2,
+    "e": 52.9
+   },
+   {
+    "w": " davr.",
+    "s": 52.9,
+    "e": 53.32
+   }
+  ]
+ },
+ {
+  "start": 53.34,
+  "end": 54.86,
+  "text": " Hazirgidek smartfullar,",
+  "words": [
+   {
+    "w": " Hazirgidek",
+    "s": 53.34,
+    "e": 54.2
+   },
+   {
+    "w": " smartfullar,",
+    "s": 54.2,
+    "e": 54.86
+   }
+  ]
+ },
+ {
+  "start": 55.14,
+  "end": 56.32,
+  "text": " ishtimai tarmaqlar",
+  "words": [
+   {
+    "w": " ishtimai",
+    "s": 55.14,
+    "e": 55.7
+   },
+   {
+    "w": " tarmaqlar",
+    "s": 55.7,
+    "e": 56.32
+   }
+  ]
+ },
+ {
+  "start": 56.32,
+  "end": 57.98,
+  "text": " yaki Google xaritalari yok.",
+  "words": [
+   {
+    "w": " yaki",
+    "s": 56.32,
+    "e": 56.62
+   },
+   {
+    "w": " Google",
+    "s": 56.62,
+    "e": 57.18
+   },
+   {
+    "w": " xaritalari",
+    "s": 57.18,
+    "e": 57.82
+   },
+   {
+    "w": " yok.",
+    "s": 57.82,
+    "e": 57.98
+   }
+  ]
+ },
+ {
+  "start": 58.28,
+  "end": 60.02,
+  "text": " Kopchilik, internet kelecekti",
+  "words": [
+   {
+    "w": " Kopchilik,",
+    "s": 58.28,
+    "e": 58.86
+   },
+   {
+    "w": " internet",
+    "s": 58.98,
+    "e": 59.34
+   },
+   {
+    "w": " kelecekti",
+    "s": 59.34,
+    "e": 60.02
+   }
+  ]
+ },
+ {
+  "start": 60.02,
+  "end": 61.72,
+  "text": " kanday imkaniyatlar yarachin xali",
+  "words": [
+   {
+    "w": " kanday",
+    "s": 60.02,
+    "e": 60.46
+   },
+   {
+    "w": " imkaniyatlar",
+    "s": 60.46,
+    "e": 61.1
+   },
+   {
+    "w": " yarachin",
+    "s": 61.1,
+    "e": 61.48
+   },
+   {
+    "w": " xali",
+    "s": 61.48,
+    "e": 61.72
+   }
+  ]
+ },
+ {
+  "start": 61.72,
+  "end": 63.16,
+  "text": " tasavur xam kulalmasdi.",
+  "words": [
+   {
+    "w": " tasavur",
+    "s": 61.72,
+    "e": 62.54
+   },
+   {
+    "w": " xam",
+    "s": 62.54,
+    "e": 62.68
+   },
+   {
+    "w": " kulalmasdi.",
+    "s": 62.68,
+    "e": 63.16
+   }
+  ]
+ },
+ {
+  "start": 63.56,
+  "end": 65.76,
+  "text": " Aynan shupaytda, 24-yashli",
+  "words": [
+   {
+    "w": " Aynan",
+    "s": 63.56,
+    "e": 64.02
+   },
+   {
+    "w": " shupaytda,",
+    "s": 64.02,
+    "e": 64.5
+   },
+   {
+    "w": " 24",
+    "s": 64.58,
+    "e": 65.06
+   },
+   {
+    "w": "-yashli",
+    "s": 65.06,
+    "e": 65.76
+   }
+  ]
+ },
+ {
+  "start": 65.76,
+  "end": 67.74,
+  "text": " Elon Musk hayatidegi en mokhum",
+  "words": [
+   {
+    "w": " Elon",
+    "s": 65.76,
+    "e": 65.98
+   },
+   {
+    "w": " Musk",
+    "s": 65.98,
+    "e": 66.3
+   },
+   {
+    "w": " hayatidegi",
+    "s": 66.3,
+    "e": 66.82
+   },
+   {
+    "w": " en",
+    "s": 66.82,
+    "e": 67.26
+   },
+   {
+    "w": " mokhum",
+    "s": 67.26,
+    "e": 67.74
+   }
+  ]
+ },
+ {
+  "start": 67.74,
+  "end": 69.1,
+  "text": " kararlardan birini qabul kuladi.",
+  "words": [
+   {
+    "w": " kararlardan",
+    "s": 67.74,
+    "e": 68.3
+   },
+   {
+    "w": " birini",
+    "s": 68.3,
+    "e": 68.62
+   },
+   {
+    "w": " qabul",
+    "s": 68.62,
+    "e": 68.84
+   },
+   {
+    "w": " kuladi.",
+    "s": 68.84,
+    "e": 69.1
+   }
+  ]
+ },
+ {
+  "start": 69.18,
+  "end": 71.24,
+  "text": " O, Stanford Universiteti de",
+  "words": [
+   {
+    "w": " O,",
+    "s": 69.18,
+    "e": 69.7
+   },
+   {
+    "w": " Stanford",
+    "s": 69.84,
+    "e": 70.38
+   },
+   {
+    "w": " Universiteti",
+    "s": 70.38,
+    "e": 71.2
+   },
+   {
+    "w": " de",
+    "s": 71.2,
+    "e": 71.24
+   }
+  ]
+ },
+ {
+  "start": 71.24,
+  "end": 72.72,
+  "text": " dektaranturada oqishni boshlaydi.",
+  "words": [
+   {
+    "w": " dektaranturada",
+    "s": 71.24,
+    "e": 72.06
+   },
+   {
+    "w": " oqishni",
+    "s": 72.06,
+    "e": 72.36
+   },
+   {
+    "w": " boshlaydi.",
+    "s": 72.36,
+    "e": 72.72
+   }
+  ]
+ },
+ {
+  "start": 72.8,
+  "end": 75.8,
+  "text": " Amma atigi iki kunnankin oqishni tarketib,",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 72.8,
+    "e": 73.42
+   },
+   {
+    "w": " atigi",
+    "s": 73.42,
+    "e": 74.04
+   },
+   {
+    "w": " iki",
+    "s": 74.04,
+    "e": 74.4
+   },
+   {
+    "w": " kunnankin",
+    "s": 74.4,
+    "e": 74.98
+   },
+   {
+    "w": " oqishni",
+    "s": 74.98,
+    "e": 75.32
+   },
+   {
+    "w": " tarketib,",
+    "s": 75.32,
+    "e": 75.8
+   }
+  ]
+ },
+ {
+  "start": 75.84,
+  "end": 77.8,
+  "text": " internet biznisige kirishki kararkiladi.",
+  "words": [
+   {
+    "w": " internet",
+    "s": 75.84,
+    "e": 76.38
+   },
+   {
+    "w": " biznisige",
+    "s": 76.38,
+    "e": 77.02
+   },
+   {
+    "w": " kirishki",
+    "s": 77.02,
+    "e": 77.32
+   },
+   {
+    "w": " kararkiladi.",
+    "s": 77.32,
+    "e": 77.8
+   }
+  ]
+ },
+ {
+  "start": 77.98,
+  "end": 80.3,
+  "text": " Bu, judakatta tavakkarciligidi.",
+  "words": [
+   {
+    "w": " Bu,",
+    "s": 77.98,
+    "e": 78.56
+   },
+   {
+    "w": " judakatta",
+    "s": 78.7,
+    "e": 79.54
+   },
+   {
+    "w": " tavakkarciligidi.",
+    "s": 79.54,
+    "e": 80.3
+   }
+  ]
+ },
+ {
+  "start": 80.44,
+  "end": 81.42,
+  "text": " Chunky Stanford,",
+  "words": [
+   {
+    "w": " Chunky",
+    "s": 80.44,
+    "e": 80.86
+   },
+   {
+    "w": " Stanford,",
+    "s": 80.86,
+    "e": 81.42
+   }
+  ]
+ },
+ {
+  "start": 81.8,
+  "end": 83.94,
+  "text": " dunyanin en nufuzli universitetlardan",
+  "words": [
+   {
+    "w": " dunyanin",
+    "s": 81.8,
+    "e": 82.4
+   },
+   {
+    "w": " en",
+    "s": 82.4,
+    "e": 82.64
+   },
+   {
+    "w": " nufuzli",
+    "s": 82.64,
+    "e": 83.18
+   },
+   {
+    "w": " universitetlardan",
+    "s": 83.18,
+    "e": 83.94
+   }
+  ]
+ },
+ {
+  "start": 83.94,
+  "end": 84.64,
+  "text": " birih soplanardi.",
+  "words": [
+   {
+    "w": " birih",
+    "s": 83.94,
+    "e": 84.22
+   },
+   {
+    "w": " soplanardi.",
+    "s": 84.22,
+    "e": 84.64
+   }
+  ]
+ },
+ {
+  "start": 84.82,
+  "end": 86.6,
+  "text": " Bunda imkaniyattan vazkechish",
+  "words": [
+   {
+    "w": " Bunda",
+    "s": 84.82,
+    "e": 85.4
+   },
+   {
+    "w": " imkaniyattan",
+    "s": 85.4,
+    "e": 85.9
+   },
+   {
+    "w": " vazkechish",
+    "s": 85.9,
+    "e": 86.6
+   }
+  ]
+ },
+ {
+  "start": 86.6,
+  "end": 88.92,
+  "text": " kopchili uchun chunarsiz karar bolishi munkinidi.",
+  "words": [
+   {
+    "w": " kopchili",
+    "s": 86.6,
+    "e": 87.16
+   },
+   {
+    "w": " uchun",
+    "s": 87.16,
+    "e": 87.5
+   },
+   {
+    "w": " chunarsiz",
+    "s": 87.5,
+    "e": 87.98
+   },
+   {
+    "w": " karar",
+    "s": 87.98,
+    "e": 88.26
+   },
+   {
+    "w": " bolishi",
+    "s": 88.26,
+    "e": 88.5
+   },
+   {
+    "w": " munkinidi.",
+    "s": 88.5,
+    "e": 88.92
+   }
+  ]
+ },
+ {
+  "start": 89.02,
+  "end": 90.76,
+  "text": " Lekin Musk, internetnin",
+  "words": [
+   {
+    "w": " Lekin",
+    "s": 89.02,
+    "e": 89.62
+   },
+   {
+    "w": " Musk,",
+    "s": 89.62,
+    "e": 89.86
+   },
+   {
+    "w": " internetnin",
+    "s": 90.04,
+    "e": 90.76
+   }
+  ]
+ },
+ {
+  "start": 90.76,
+  "end": 92.0,
+  "text": " kelecegige ishongan.",
+  "words": [
+   {
+    "w": " kelecegige",
+    "s": 90.76,
+    "e": 91.24
+   },
+   {
+    "w": " ishongan.",
+    "s": 91.24,
+    "e": 92.0
+   }
+  ]
+ },
+ {
+  "start": 92.36,
+  "end": 94.78,
+  "text": " O, ukasy Kimball Musk blambirgelikte",
+  "words": [
+   {
+    "w": " O,",
+    "s": 92.36,
+    "e": 92.84
+   },
+   {
+    "w": " ukasy",
+    "s": 93.0,
+    "e": 93.48
+   },
+   {
+    "w": " Kimball",
+    "s": 93.48,
+    "e": 93.96
+   },
+   {
+    "w": " Musk",
+    "s": 93.96,
+    "e": 94.16
+   },
+   {
+    "w": " blambirgelikte",
+    "s": 94.16,
+    "e": 94.78
+   }
+  ]
+ },
+ {
+  "start": 94.78,
+  "end": 96.52,
+  "text": " yangi kampaniya tashkilkladi.",
+  "words": [
+   {
+    "w": " yangi",
+    "s": 94.78,
+    "e": 95.56
+   },
+   {
+    "w": " kampaniya",
+    "s": 95.56,
+    "e": 96.04
+   },
+   {
+    "w": " tashkilkladi.",
+    "s": 96.04,
+    "e": 96.52
+   }
+  ]
+ },
+ {
+  "start": 96.7,
+  "end": 98.34,
+  "text": " Kampanyanin dastlapki nomi",
+  "words": [
+   {
+    "w": " Kampanyanin",
+    "s": 96.7,
+    "e": 97.58
+   },
+   {
+    "w": " dastlapki",
+    "s": 97.58,
+    "e": 98.12
+   },
+   {
+    "w": " nomi",
+    "s": 98.12,
+    "e": 98.34
+   }
+  ]
+ },
+ {
+  "start": 98.34,
+  "end": 100.64,
+  "text": " Global Link Information Network edi.",
+  "words": [
+   {
+    "w": " Global",
+    "s": 98.34,
+    "e": 98.86
+   },
+   {
+    "w": " Link",
+    "s": 98.86,
+    "e": 99.32
+   },
+   {
+    "w": " Information",
+    "s": 99.32,
+    "e": 99.68
+   },
+   {
+    "w": " Network",
+    "s": 99.68,
+    "e": 100.26
+   },
+   {
+    "w": " edi.",
+    "s": 100.26,
+    "e": 100.64
+   }
+  ]
+ },
+ {
+  "start": 100.7,
+  "end": 102.96,
+  "text": " Kenchaligu zip ikkidib ataladi.",
+  "words": [
+   {
+    "w": " Kenchaligu",
+    "s": 100.7,
+    "e": 101.52
+   },
+   {
+    "w": " zip",
+    "s": 101.52,
+    "e": 102.04
+   },
+   {
+    "w": " ikkidib",
+    "s": 102.04,
+    "e": 102.54
+   },
+   {
+    "w": " ataladi.",
+    "s": 102.54,
+    "e": 102.96
+   }
+  ]
+ },
+ {
+  "start": 103.16,
+  "end": 104.8,
+  "text": " Ularinin gayasi bugungi",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 103.16,
+    "e": 103.8
+   },
+   {
+    "w": " gayasi",
+    "s": 103.8,
+    "e": 104.3
+   },
+   {
+    "w": " bugungi",
+    "s": 104.3,
+    "e": 104.8
+   }
+  ]
+ },
+ {
+  "start": 104.8,
+  "end": 106.58,
+  "text": " kunda addi tiyulishi munkun.",
+  "words": [
+   {
+    "w": " kunda",
+    "s": 104.8,
+    "e": 105.0
+   },
+   {
+    "w": " addi",
+    "s": 105.0,
+    "e": 105.84
+   },
+   {
+    "w": " tiyulishi",
+    "s": 105.84,
+    "e": 106.2
+   },
+   {
+    "w": " munkun.",
+    "s": 106.2,
+    "e": 106.58
+   }
+  ]
+ },
+ {
+  "start": 106.68,
+  "end": 108.88,
+  "text": " Shaharda geri istarallar, dokanlar",
+  "words": [
+   {
+    "w": " Shaharda",
+    "s": 106.68,
+    "e": 107.26
+   },
+   {
+    "w": " geri",
+    "s": 107.26,
+    "e": 107.48
+   },
+   {
+    "w": " istarallar,",
+    "s": 107.48,
+    "e": 108.06
+   },
+   {
+    "w": " dokanlar",
+    "s": 108.22,
+    "e": 108.88
+   }
+  ]
+ },
+ {
+  "start": 108.88,
+  "end": 110.5,
+  "text": " va boshka karkhanalar haqdagi",
+  "words": [
+   {
+    "w": " va",
+    "s": 108.88,
+    "e": 109.08
+   },
+   {
+    "w": " boshka",
+    "s": 109.08,
+    "e": 109.72
+   },
+   {
+    "w": " karkhanalar",
+    "s": 109.72,
+    "e": 110.14
+   },
+   {
+    "w": " haqdagi",
+    "s": 110.14,
+    "e": 110.5
+   }
+  ]
+ },
+ {
+  "start": 110.5,
+  "end": 112.54,
+  "text": " malumatlarini internet xaritas bilan",
+  "words": [
+   {
+    "w": " malumatlarini",
+    "s": 110.5,
+    "e": 111.08
+   },
+   {
+    "w": " internet",
+    "s": 111.08,
+    "e": 111.66
+   },
+   {
+    "w": " xaritas",
+    "s": 111.66,
+    "e": 112.22
+   },
+   {
+    "w": " bilan",
+    "s": 112.22,
+    "e": 112.54
+   }
+  ]
+ },
+ {
+  "start": 112.54,
+  "end": 113.12,
+  "text": " birlashdirish.",
+  "words": [
+   {
+    "w": " birlashdirish.",
+    "s": 112.54,
+    "e": 113.12
+   }
+  ]
+ },
+ {
+  "start": 113.28,
+  "end": 116.1,
+  "text": " Tasaur qilin, siz yangi shahargi keldingiz.",
+  "words": [
+   {
+    "w": " Tasaur",
+    "s": 113.28,
+    "e": 114.02
+   },
+   {
+    "w": " qilin,",
+    "s": 114.02,
+    "e": 114.28
+   },
+   {
+    "w": " siz",
+    "s": 114.34,
+    "e": 114.7
+   },
+   {
+    "w": " yangi",
+    "s": 114.7,
+    "e": 115.24
+   },
+   {
+    "w": " shahargi",
+    "s": 115.24,
+    "e": 115.56
+   },
+   {
+    "w": " keldingiz.",
+    "s": 115.56,
+    "e": 116.1
+   }
+  ]
+ },
+ {
+  "start": 116.1,
+  "end": 117.66,
+  "text": " Qayir daqatlanishni, ya ki",
+  "words": [
+   {
+    "w": " Qayir",
+    "s": 116.1,
+    "e": 116.68
+   },
+   {
+    "w": " daqatlanishni,",
+    "s": 116.68,
+    "e": 117.32
+   },
+   {
+    "w": " ya",
+    "s": 117.42,
+    "e": 117.54
+   },
+   {
+    "w": " ki",
+    "s": 117.54,
+    "e": 117.66
+   }
+  ]
+ },
+ {
+  "start": 117.66,
+  "end": 119.68,
+  "text": " qaysi mihmanxanida tunashni bilmaysis.",
+  "words": [
+   {
+    "w": " qaysi",
+    "s": 117.66,
+    "e": 118.32
+   },
+   {
+    "w": " mihmanxanida",
+    "s": 118.32,
+    "e": 118.92
+   },
+   {
+    "w": " tunashni",
+    "s": 118.92,
+    "e": 119.26
+   },
+   {
+    "w": " bilmaysis.",
+    "s": 119.26,
+    "e": 119.68
+   }
+  ]
+ },
+ {
+  "start": 119.88,
+  "end": 121.56,
+  "text": " Bugun telefonin gizni alib,",
+  "words": [
+   {
+    "w": " Bugun",
+    "s": 119.88,
+    "e": 120.52
+   },
+   {
+    "w": " telefonin",
+    "s": 120.52,
+    "e": 121.0
+   },
+   {
+    "w": " gizni",
+    "s": 121.0,
+    "e": 121.26
+   },
+   {
+    "w": " alib,",
+    "s": 121.26,
+    "e": 121.56
+   }
+  ]
+ },
+ {
+  "start": 121.56,
+  "end": 123.64,
+  "text": " bir nece saniyada xammasini tapasiz.",
+  "words": [
+   {
+    "w": " bir",
+    "s": 121.56,
+    "e": 121.82
+   },
+   {
+    "w": " nece",
+    "s": 121.82,
+    "e": 122.1
+   },
+   {
+    "w": " saniyada",
+    "s": 122.1,
+    "e": 122.56
+   },
+   {
+    "w": " xammasini",
+    "s": 122.56,
+    "e": 123.2
+   },
+   {
+    "w": " tapasiz.",
+    "s": 123.2,
+    "e": 123.64
+   }
+  ]
+ },
+ {
+  "start": 123.76,
+  "end": 125.96,
+  "text": " Amma 1995. ilda",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 123.76,
+    "e": 124.26
+   },
+   {
+    "w": " 1995.",
+    "s": 124.26,
+    "e": 124.82
+   },
+   {
+    "w": " ilda",
+    "s": 125.64,
+    "e": 125.96
+   }
+  ]
+ },
+ {
+  "start": 125.96,
+  "end": 127.98,
+  "text": " bunday khizmatlar xali keyn tarqalmagen edi.",
+  "words": [
+   {
+    "w": " bunday",
+    "s": 125.96,
+    "e": 126.3
+   },
+   {
+    "w": " khizmatlar",
+    "s": 126.3,
+    "e": 126.8
+   },
+   {
+    "w": " xali",
+    "s": 126.8,
+    "e": 127.0
+   },
+   {
+    "w": " keyn",
+    "s": 127.0,
+    "e": 127.22
+   },
+   {
+    "w": " tarqalmagen",
+    "s": 127.22,
+    "e": 127.76
+   },
+   {
+    "w": " edi.",
+    "s": 127.76,
+    "e": 127.98
+   }
+  ]
+ },
+ {
+  "start": 128.26,
+  "end": 129.72,
+  "text": " Musk va unin yukasi",
+  "words": [
+   {
+    "w": " Musk",
+    "s": 128.26,
+    "e": 128.94
+   },
+   {
+    "w": " va",
+    "s": 128.94,
+    "e": 129.14
+   },
+   {
+    "w": " unin",
+    "s": 129.14,
+    "e": 129.42
+   },
+   {
+    "w": " yukasi",
+    "s": 129.42,
+    "e": 129.72
+   }
+  ]
+ },
+ {
+  "start": 129.72,
+  "end": 131.28,
+  "text": " anashu imkaniyatni korishken.",
+  "words": [
+   {
+    "w": " anashu",
+    "s": 129.72,
+    "e": 130.3
+   },
+   {
+    "w": " imkaniyatni",
+    "s": 130.3,
+    "e": 130.86
+   },
+   {
+    "w": " korishken.",
+    "s": 130.86,
+    "e": 131.28
+   }
+  ]
+ },
+ {
+  "start": 131.4,
+  "end": 133.76,
+  "text": " Bıraq, yakhshi xayanin ozi yetarliyemasti.",
+  "words": [
+   {
+    "w": " Bıraq,",
+    "s": 131.4,
+    "e": 132.06
+   },
+   {
+    "w": " yakhshi",
+    "s": 132.06,
+    "e": 132.44
+   },
+   {
+    "w": " xayanin",
+    "s": 132.44,
+    "e": 132.88
+   },
+   {
+    "w": " ozi",
+    "s": 132.88,
+    "e": 133.06
+   },
+   {
+    "w": " yetarliyemasti.",
+    "s": 133.06,
+    "e": 133.76
+   }
+  ]
+ },
+ {
+  "start": 134.12,
+  "end": 135.56,
+  "text": " Kampanyage pul keregidi.",
+  "words": [
+   {
+    "w": " Kampanyage",
+    "s": 134.12,
+    "e": 134.8
+   },
+   {
+    "w": " pul",
+    "s": 134.8,
+    "e": 135.1
+   },
+   {
+    "w": " keregidi.",
+    "s": 135.1,
+    "e": 135.56
+   }
+  ]
+ },
+ {
+  "start": 135.92,
+  "end": 137.54,
+  "text": " Dasturchilar, kompyutorlar,",
+  "words": [
+   {
+    "w": " Dasturchilar,",
+    "s": 135.92,
+    "e": 136.6
+   },
+   {
+    "w": " kompyutorlar,",
+    "s": 136.8,
+    "e": 137.54
+   }
+  ]
+ },
+ {
+  "start": 137.84,
+  "end": 139.96,
+  "text": " internet alakasi va mecazlar keregidi.",
+  "words": [
+   {
+    "w": " internet",
+    "s": 137.84,
+    "e": 138.12
+   },
+   {
+    "w": " alakasi",
+    "s": 138.12,
+    "e": 138.84
+   },
+   {
+    "w": " va",
+    "s": 138.84,
+    "e": 139.02
+   },
+   {
+    "w": " mecazlar",
+    "s": 139.02,
+    "e": 139.54
+   },
+   {
+    "w": " keregidi.",
+    "s": 139.54,
+    "e": 139.96
+   }
+  ]
+ },
+ {
+  "start": 140.46,
+  "end": 141.84,
+  "text": " Ular esay imkan qadar",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 140.46,
+    "e": 140.8
+   },
+   {
+    "w": " esay",
+    "s": 140.8,
+    "e": 141.08
+   },
+   {
+    "w": " imkan",
+    "s": 141.08,
+    "e": 141.54
+   },
+   {
+    "w": " qadar",
+    "s": 141.54,
+    "e": 141.84
+   }
+  ]
+ },
+ {
+  "start": 141.84,
+  "end": 143.6,
+  "text": " kem xarajat qilishki xaragat qilishardi.",
+  "words": [
+   {
+    "w": " kem",
+    "s": 141.84,
+    "e": 142.16
+   },
+   {
+    "w": " xarajat",
+    "s": 142.16,
+    "e": 142.6
+   },
+   {
+    "w": " qilishki",
+    "s": 142.6,
+    "e": 142.94
+   },
+   {
+    "w": " xaragat",
+    "s": 142.94,
+    "e": 143.22
+   },
+   {
+    "w": " qilishardi.",
+    "s": 143.22,
+    "e": 143.6
+   }
+  ]
+ },
+ {
+  "start": 143.82,
+  "end": 145.54,
+  "text": " Ilin Musk keyin chalik bergan",
+  "words": [
+   {
+    "w": " Ilin",
+    "s": 143.82,
+    "e": 144.48
+   },
+   {
+    "w": " Musk",
+    "s": 144.48,
+    "e": 144.7
+   },
+   {
+    "w": " keyin",
+    "s": 144.7,
+    "e": 145.02
+   },
+   {
+    "w": " chalik",
+    "s": 145.02,
+    "e": 145.26
+   },
+   {
+    "w": " bergan",
+    "s": 145.26,
+    "e": 145.54
+   }
+  ]
+ },
+ {
+  "start": 145.54,
+  "end": 147.22,
+  "text": " interiularda oshi davarini eslab",
+  "words": [
+   {
+    "w": " interiularda",
+    "s": 145.54,
+    "e": 146.14
+   },
+   {
+    "w": " oshi",
+    "s": 146.14,
+    "e": 146.5
+   },
+   {
+    "w": " davarini",
+    "s": 146.5,
+    "e": 146.92
+   },
+   {
+    "w": " eslab",
+    "s": 146.92,
+    "e": 147.22
+   }
+  ]
+ },
+ {
+  "start": 147.22,
+  "end": 149.32,
+  "text": " ukesi bilan ofiste yasagani nayitgan.",
+  "words": [
+   {
+    "w": " ukesi",
+    "s": 147.22,
+    "e": 147.86
+   },
+   {
+    "w": " bilan",
+    "s": 147.86,
+    "e": 148.06
+   },
+   {
+    "w": " ofiste",
+    "s": 148.06,
+    "e": 148.5
+   },
+   {
+    "w": " yasagani",
+    "s": 148.5,
+    "e": 148.94
+   },
+   {
+    "w": " nayitgan.",
+    "s": 148.94,
+    "e": 149.32
+   }
+  ]
+ },
+ {
+  "start": 149.42,
+  "end": 151.68,
+  "text": " Ular alaxida kvartira icaraga alish",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 149.42,
+    "e": 150.04
+   },
+   {
+    "w": " alaxida",
+    "s": 150.04,
+    "e": 150.54
+   },
+   {
+    "w": " kvartira",
+    "s": 150.54,
+    "e": 151.0
+   },
+   {
+    "w": " icaraga",
+    "s": 151.0,
+    "e": 151.4
+   },
+   {
+    "w": " alish",
+    "s": 151.4,
+    "e": 151.68
+   }
+  ]
+ },
+ {
+  "start": 151.68,
+  "end": 153.7,
+  "text": " orniga kichkini ofistan faydalanishgan.",
+  "words": [
+   {
+    "w": " orniga",
+    "s": 151.68,
+    "e": 151.92
+   },
+   {
+    "w": " kichkini",
+    "s": 151.92,
+    "e": 152.52
+   },
+   {
+    "w": " ofistan",
+    "s": 152.52,
+    "e": 153.02
+   },
+   {
+    "w": " faydalanishgan.",
+    "s": 153.02,
+    "e": 153.7
+   }
+  ]
+ },
+ {
+  "start": 153.82,
+  "end": 155.48,
+  "text": " Kechelari shu yerda uxlashgan.",
+  "words": [
+   {
+    "w": " Kechelari",
+    "s": 153.82,
+    "e": 154.58
+   },
+   {
+    "w": " shu",
+    "s": 154.58,
+    "e": 154.84
+   },
+   {
+    "w": " yerda",
+    "s": 154.84,
+    "e": 155.12
+   },
+   {
+    "w": " uxlashgan.",
+    "s": 155.12,
+    "e": 155.48
+   }
+  ]
+ },
+ {
+  "start": 155.62,
+  "end": 156.92,
+  "text": " Dush qabul qilish uchinisa",
+  "words": [
+   {
+    "w": " Dush",
+    "s": 155.62,
+    "e": 156.06
+   },
+   {
+    "w": " qabul",
+    "s": 156.06,
+    "e": 156.32
+   },
+   {
+    "w": " qilish",
+    "s": 156.32,
+    "e": 156.62
+   },
+   {
+    "w": " uchinisa",
+    "s": 156.62,
+    "e": 156.92
+   }
+  ]
+ },
+ {
+  "start": 156.92,
+  "end": 158.66,
+  "text": " mahali sport markezga barishgan.",
+  "words": [
+   {
+    "w": " mahali",
+    "s": 156.92,
+    "e": 157.52
+   },
+   {
+    "w": " sport",
+    "s": 157.52,
+    "e": 157.7
+   },
+   {
+    "w": " markezga",
+    "s": 157.7,
+    "e": 158.26
+   },
+   {
+    "w": " barishgan.",
+    "s": 158.26,
+    "e": 158.66
+   }
+  ]
+ },
+ {
+  "start": 159.22,
+  "end": 160.9,
+  "text": " Xatta daslabki payetlarda ularda",
+  "words": [
+   {
+    "w": " Xatta",
+    "s": 159.22,
+    "e": 159.6
+   },
+   {
+    "w": " daslabki",
+    "s": 159.6,
+    "e": 160.12
+   },
+   {
+    "w": " payetlarda",
+    "s": 160.12,
+    "e": 160.48
+   },
+   {
+    "w": " ularda",
+    "s": 160.48,
+    "e": 160.9
+   }
+  ]
+ },
+ {
+  "start": 160.9,
+  "end": 162.42,
+  "text": " fakat bitte kompyutor bolgan.",
+  "words": [
+   {
+    "w": " fakat",
+    "s": 160.9,
+    "e": 161.32
+   },
+   {
+    "w": " bitte",
+    "s": 161.32,
+    "e": 161.62
+   },
+   {
+    "w": " kompyutor",
+    "s": 161.62,
+    "e": 162.12
+   },
+   {
+    "w": " bolgan.",
+    "s": 162.12,
+    "e": 162.42
+   }
+  ]
+ },
+ {
+  "start": 162.6,
+  "end": 164.74,
+  "text": " Kunduzi kompyotorda website islagan.",
+  "words": [
+   {
+    "w": " Kunduzi",
+    "s": 162.6,
+    "e": 163.26
+   },
+   {
+    "w": " kompyotorda",
+    "s": 163.26,
+    "e": 163.88
+   },
+   {
+    "w": " website",
+    "s": 163.88,
+    "e": 164.2
+   },
+   {
+    "w": " islagan.",
+    "s": 164.2,
+    "e": 164.74
+   }
+  ]
+ },
+ {
+  "start": 164.82,
+  "end": 166.86,
+  "text": " Kechasi isa Musk undan dastur yazish",
+  "words": [
+   {
+    "w": " Kechasi",
+    "s": 164.82,
+    "e": 165.24
+   },
+   {
+    "w": " isa",
+    "s": 165.24,
+    "e": 165.48
+   },
+   {
+    "w": " Musk",
+    "s": 165.48,
+    "e": 165.68
+   },
+   {
+    "w": " undan",
+    "s": 165.68,
+    "e": 166.06
+   },
+   {
+    "w": " dastur",
+    "s": 166.06,
+    "e": 166.5
+   },
+   {
+    "w": " yazish",
+    "s": 166.5,
+    "e": 166.86
+   }
+  ]
+ },
+ {
+  "start": 166.86,
+  "end": 168.48,
+  "text": " uchun faydalangan. Bu yerda",
+  "words": [
+   {
+    "w": " uchun",
+    "s": 166.86,
+    "e": 167.1
+   },
+   {
+    "w": " faydalangan.",
+    "s": 167.1,
+    "e": 167.54
+   },
+   {
+    "w": " Bu",
+    "s": 167.7,
+    "e": 168.18
+   },
+   {
+    "w": " yerda",
+    "s": 168.18,
+    "e": 168.48
+   }
+  ]
+ },
+ {
+  "start": 168.48,
+  "end": 169.82,
+  "text": " bir narsani chunush mukhum.",
+  "words": [
+   {
+    "w": " bir",
+    "s": 168.48,
+    "e": 168.7
+   },
+   {
+    "w": " narsani",
+    "s": 168.7,
+    "e": 169.1
+   },
+   {
+    "w": " chunush",
+    "s": 169.1,
+    "e": 169.5
+   },
+   {
+    "w": " mukhum.",
+    "s": 169.5,
+    "e": 169.82
+   }
+  ]
+ },
+ {
+  "start": 169.98,
+  "end": 172.24,
+  "text": " Musknin keyin chalik erishgan bayligi",
+  "words": [
+   {
+    "w": " Musknin",
+    "s": 169.98,
+    "e": 170.72
+   },
+   {
+    "w": " keyin",
+    "s": 170.72,
+    "e": 171.1
+   },
+   {
+    "w": " chalik",
+    "s": 171.1,
+    "e": 171.38
+   },
+   {
+    "w": " erishgan",
+    "s": 171.38,
+    "e": 171.72
+   },
+   {
+    "w": " bayligi",
+    "s": 171.72,
+    "e": 172.24
+   }
+  ]
+ },
+ {
+  "start": 172.24,
+  "end": 174.52,
+  "text": " fakat kem uxlash ya ki tınimsiz islash",
+  "words": [
+   {
+    "w": " fakat",
+    "s": 172.24,
+    "e": 172.62
+   },
+   {
+    "w": " kem",
+    "s": 172.62,
+    "e": 173.04
+   },
+   {
+    "w": " uxlash",
+    "s": 173.04,
+    "e": 173.44
+   },
+   {
+    "w": " ya",
+    "s": 173.44,
+    "e": 173.58
+   },
+   {
+    "w": " ki",
+    "s": 173.58,
+    "e": 173.7
+   },
+   {
+    "w": " tınimsiz",
+    "s": 173.7,
+    "e": 174.24
+   },
+   {
+    "w": " islash",
+    "s": 174.24,
+    "e": 174.52
+   }
+  ]
+ },
+ {
+  "start": 174.52,
+  "end": 176.42,
+  "text": " netijasi emasti. U internet",
+  "words": [
+   {
+    "w": " netijasi",
+    "s": 174.52,
+    "e": 174.94
+   },
+   {
+    "w": " emasti.",
+    "s": 174.94,
+    "e": 175.26
+   },
+   {
+    "w": " U",
+    "s": 175.42,
+    "e": 175.9
+   },
+   {
+    "w": " internet",
+    "s": 175.9,
+    "e": 176.42
+   }
+  ]
+ },
+ {
+  "start": 176.42,
+  "end": 178.38,
+  "text": " juda tez rvajdani yatgan davarda",
+  "words": [
+   {
+    "w": " juda",
+    "s": 176.42,
+    "e": 177.08
+   },
+   {
+    "w": " tez",
+    "s": 177.08,
+    "e": 177.36
+   },
+   {
+    "w": " rvajdani",
+    "s": 177.36,
+    "e": 177.74
+   },
+   {
+    "w": " yatgan",
+    "s": 177.74,
+    "e": 178.0
+   },
+   {
+    "w": " davarda",
+    "s": 178.0,
+    "e": 178.38
+   }
+  ]
+ },
+ {
+  "start": 178.38,
+  "end": 180.76,
+  "text": " tohru bazarini tallagan, tawakkal kilgan",
+  "words": [
+   {
+    "w": " tohru",
+    "s": 178.38,
+    "e": 178.86
+   },
+   {
+    "w": " bazarini",
+    "s": 178.86,
+    "e": 179.28
+   },
+   {
+    "w": " tallagan,",
+    "s": 179.28,
+    "e": 179.64
+   },
+   {
+    "w": " tawakkal",
+    "s": 179.82,
+    "e": 180.48
+   },
+   {
+    "w": " kilgan",
+    "s": 180.48,
+    "e": 180.76
+   }
+  ]
+ },
+ {
+  "start": 180.76,
+  "end": 182.54,
+  "text": " va keyin chalik sarmayadarlarini",
+  "words": [
+   {
+    "w": " va",
+    "s": 180.76,
+    "e": 181.2
+   },
+   {
+    "w": " keyin",
+    "s": 181.2,
+    "e": 181.46
+   },
+   {
+    "w": " chalik",
+    "s": 181.46,
+    "e": 181.72
+   },
+   {
+    "w": " sarmayadarlarini",
+    "s": 181.72,
+    "e": 182.54
+   }
+  ]
+ },
+ {
+  "start": 182.54,
+  "end": 184.82,
+  "text": " jal qula algan. Amma u shabaytda",
+  "words": [
+   {
+    "w": " jal",
+    "s": 182.54,
+    "e": 182.8
+   },
+   {
+    "w": " qula",
+    "s": 182.8,
+    "e": 183.04
+   },
+   {
+    "w": " algan.",
+    "s": 183.04,
+    "e": 183.3
+   },
+   {
+    "w": " Amma",
+    "s": 183.46,
+    "e": 184.22
+   },
+   {
+    "w": " u",
+    "s": 184.22,
+    "e": 184.34
+   },
+   {
+    "w": " shabaytda",
+    "s": 184.34,
+    "e": 184.82
+   }
+  ]
+ },
+ {
+  "start": 184.82,
+  "end": 186.34,
+  "text": " xalik hiç kanday muafakiyat",
+  "words": [
+   {
+    "w": " xalik",
+    "s": 184.82,
+    "e": 185.22
+   },
+   {
+    "w": " hiç",
+    "s": 185.22,
+    "e": 185.38
+   },
+   {
+    "w": " kanday",
+    "s": 185.38,
+    "e": 185.72
+   },
+   {
+    "w": " muafakiyat",
+    "s": 185.72,
+    "e": 186.34
+   }
+  ]
+ },
+ {
+  "start": 186.34,
+  "end": 188.64,
+  "text": " kafalatlanmagan edi. En qiyin",
+  "words": [
+   {
+    "w": " kafalatlanmagan",
+    "s": 186.34,
+    "e": 187.16
+   },
+   {
+    "w": " edi.",
+    "s": 187.16,
+    "e": 187.4
+   },
+   {
+    "w": " En",
+    "s": 187.56,
+    "e": 188.32
+   },
+   {
+    "w": " qiyin",
+    "s": 188.32,
+    "e": 188.64
+   }
+  ]
+ },
+ {
+  "start": 188.64,
+  "end": 190.24,
+  "text": " vazifalardan biri mecazlarini",
+  "words": [
+   {
+    "w": " vazifalardan",
+    "s": 188.64,
+    "e": 189.2
+   },
+   {
+    "w": " biri",
+    "s": 189.2,
+    "e": 189.46
+   },
+   {
+    "w": " mecazlarini",
+    "s": 189.46,
+    "e": 190.24
+   }
+  ]
+ },
+ {
+  "start": 190.24,
+  "end": 192.1,
+  "text": " shantirish burgan. Chunki kampanya",
+  "words": [
+   {
+    "w": " shantirish",
+    "s": 190.24,
+    "e": 190.7
+   },
+   {
+    "w": " burgan.",
+    "s": 190.7,
+    "e": 190.98
+   },
+   {
+    "w": " Chunki",
+    "s": 191.06,
+    "e": 191.62
+   },
+   {
+    "w": " kampanya",
+    "s": 191.62,
+    "e": 192.1
+   }
+  ]
+ },
+ {
+  "start": 192.1,
+  "end": 194.24,
+  "text": " gazetalarga internet orqali shakar",
+  "words": [
+   {
+    "w": " gazetalarga",
+    "s": 192.1,
+    "e": 192.86
+   },
+   {
+    "w": " internet",
+    "s": 192.86,
+    "e": 193.2
+   },
+   {
+    "w": " orqali",
+    "s": 193.2,
+    "e": 193.76
+   },
+   {
+    "w": " shakar",
+    "s": 193.76,
+    "e": 194.24
+   }
+  ]
+ },
+ {
+  "start": 194.24,
+  "end": 196.4,
+  "text": " malamatlarini takdim edish khizmatini taklif qilarda.",
+  "words": [
+   {
+    "w": " malamatlarini",
+    "s": 194.24,
+    "e": 194.88
+   },
+   {
+    "w": " takdim",
+    "s": 194.88,
+    "e": 195.26
+   },
+   {
+    "w": " edish",
+    "s": 195.26,
+    "e": 195.48
+   },
+   {
+    "w": " khizmatini",
+    "s": 195.48,
+    "e": 195.86
+   },
+   {
+    "w": " taklif",
+    "s": 195.86,
+    "e": 196.16
+   },
+   {
+    "w": " qilarda.",
+    "s": 196.16,
+    "e": 196.4
+   }
+  ]
+ },
+ {
+  "start": 196.76,
+  "end": 198.24,
+  "text": " Gazetar akbarlari uchunisa",
+  "words": [
+   {
+    "w": " Gazetar",
+    "s": 196.76,
+    "e": 197.52
+   },
+   {
+    "w": " akbarlari",
+    "s": 197.52,
+    "e": 197.96
+   },
+   {
+    "w": " uchunisa",
+    "s": 197.96,
+    "e": 198.24
+   }
+  ]
+ },
+ {
+  "start": 198.24,
+  "end": 200.14,
+  "text": " internet xali yangi va namalom",
+  "words": [
+   {
+    "w": " internet",
+    "s": 198.24,
+    "e": 198.6
+   },
+   {
+    "w": " xali",
+    "s": 198.6,
+    "e": 199.04
+   },
+   {
+    "w": " yangi",
+    "s": 199.04,
+    "e": 199.44
+   },
+   {
+    "w": " va",
+    "s": 199.44,
+    "e": 199.6
+   },
+   {
+    "w": " namalom",
+    "s": 199.6,
+    "e": 200.14
+   }
+  ]
+ },
+ {
+  "start": 200.14,
+  "end": 202.08,
+  "text": " sahidi. Negi ular basma",
+  "words": [
+   {
+    "w": " sahidi.",
+    "s": 200.14,
+    "e": 200.56
+   },
+   {
+    "w": " Negi",
+    "s": 200.8,
+    "e": 201.42
+   },
+   {
+    "w": " ular",
+    "s": 201.42,
+    "e": 201.7
+   },
+   {
+    "w": " basma",
+    "s": 201.7,
+    "e": 202.08
+   }
+  ]
+ },
+ {
+  "start": 202.08,
+  "end": 203.86,
+  "text": " gazetadan tashqiri internettagi",
+  "words": [
+   {
+    "w": " gazetadan",
+    "s": 202.08,
+    "e": 202.6
+   },
+   {
+    "w": " tashqiri",
+    "s": 202.6,
+    "e": 202.98
+   },
+   {
+    "w": " internettagi",
+    "s": 202.98,
+    "e": 203.86
+   }
+  ]
+ },
+ {
+  "start": 203.86,
+  "end": 205.6,
+  "text": " xizmat uchunxan pulu sarflashlari kerek.",
+  "words": [
+   {
+    "w": " xizmat",
+    "s": 203.86,
+    "e": 204.2
+   },
+   {
+    "w": " uchunxan",
+    "s": 204.2,
+    "e": 204.62
+   },
+   {
+    "w": " pulu",
+    "s": 204.62,
+    "e": 204.94
+   },
+   {
+    "w": " sarflashlari",
+    "s": 204.94,
+    "e": 205.42
+   },
+   {
+    "w": " kerek.",
+    "s": 205.42,
+    "e": 205.6
+   }
+  ]
+ },
+ {
+  "start": 205.8,
+  "end": 207.98,
+  "text": " Ziptu aynan shu savalga",
+  "words": [
+   {
+    "w": " Ziptu",
+    "s": 205.8,
+    "e": 206.56
+   },
+   {
+    "w": " aynan",
+    "s": 206.56,
+    "e": 207.26
+   },
+   {
+    "w": " shu",
+    "s": 207.26,
+    "e": 207.54
+   },
+   {
+    "w": " savalga",
+    "s": 207.54,
+    "e": 207.98
+   }
+  ]
+ },
+ {
+  "start": 207.98,
+  "end": 210.02,
+  "text": " jawab topshi lazim edi. Vaqt",
+  "words": [
+   {
+    "w": " jawab",
+    "s": 207.98,
+    "e": 208.36
+   },
+   {
+    "w": " topshi",
+    "s": 208.36,
+    "e": 208.62
+   },
+   {
+    "w": " lazim",
+    "s": 208.62,
+    "e": 208.94
+   },
+   {
+    "w": " edi.",
+    "s": 208.94,
+    "e": 209.08
+   },
+   {
+    "w": " Vaqt",
+    "s": 209.26,
+    "e": 210.02
+   }
+  ]
+ },
+ {
+  "start": 210.02,
+  "end": 211.88,
+  "text": " otushi bilan kampanya rvajdana baslaydi.",
+  "words": [
+   {
+    "w": " otushi",
+    "s": 210.02,
+    "e": 210.24
+   },
+   {
+    "w": " bilan",
+    "s": 210.24,
+    "e": 210.5
+   },
+   {
+    "w": " kampanya",
+    "s": 210.5,
+    "e": 210.9
+   },
+   {
+    "w": " rvajdana",
+    "s": 210.9,
+    "e": 211.44
+   },
+   {
+    "w": " baslaydi.",
+    "s": 211.44,
+    "e": 211.88
+   }
+  ]
+ },
+ {
+  "start": 212.1,
+  "end": 213.62,
+  "text": " Sarmayadarlar qizikish bildiradi.",
+  "words": [
+   {
+    "w": " Sarmayadarlar",
+    "s": 212.1,
+    "e": 212.86
+   },
+   {
+    "w": " qizikish",
+    "s": 212.86,
+    "e": 213.26
+   },
+   {
+    "w": " bildiradi.",
+    "s": 213.26,
+    "e": 213.62
+   }
+  ]
+ },
+ {
+  "start": 213.72,
+  "end": 216.02,
+  "text": " Yangi hadimlar iski alinadi. Yerik",
+  "words": [
+   {
+    "w": " Yangi",
+    "s": 213.72,
+    "e": 214.26
+   },
+   {
+    "w": " hadimlar",
+    "s": 214.26,
+    "e": 214.76
+   },
+   {
+    "w": " iski",
+    "s": 214.76,
+    "e": 214.94
+   },
+   {
+    "w": " alinadi.",
+    "s": 214.94,
+    "e": 215.28
+   },
+   {
+    "w": " Yerik",
+    "s": 215.4,
+    "e": 216.02
+   }
+  ]
+ },
+ {
+  "start": 216.02,
+  "end": 217.9,
+  "text": " gazeta kampanyalar bilan xamkarliki",
+  "words": [
+   {
+    "w": " gazeta",
+    "s": 216.02,
+    "e": 216.48
+   },
+   {
+    "w": " kampanyalar",
+    "s": 216.48,
+    "e": 217.0
+   },
+   {
+    "w": " bilan",
+    "s": 217.0,
+    "e": 217.3
+   },
+   {
+    "w": " xamkarliki",
+    "s": 217.3,
+    "e": 217.9
+   }
+  ]
+ },
+ {
+  "start": 217.9,
+  "end": 219.96,
+  "text": " olga xoyladi. Amma kampanya",
+  "words": [
+   {
+    "w": " olga",
+    "s": 217.9,
+    "e": 218.1
+   },
+   {
+    "w": " xoyladi.",
+    "s": 218.1,
+    "e": 218.42
+   },
+   {
+    "w": " Amma",
+    "s": 218.56,
+    "e": 219.3
+   },
+   {
+    "w": " kampanya",
+    "s": 219.3,
+    "e": 219.96
+   }
+  ]
+ },
+ {
+  "start": 219.96,
+  "end": 221.88,
+  "text": " kattalashkani sara yangi muammarlar",
+  "words": [
+   {
+    "w": " kattalashkani",
+    "s": 219.96,
+    "e": 220.56
+   },
+   {
+    "w": " sara",
+    "s": 220.56,
+    "e": 220.78
+   },
+   {
+    "w": " yangi",
+    "s": 220.78,
+    "e": 221.38
+   },
+   {
+    "w": " muammarlar",
+    "s": 221.38,
+    "e": 221.88
+   }
+  ]
+ },
+ {
+  "start": 221.88,
+  "end": 223.94,
+  "text": " payda boladi. Elon Musk biznesini",
+  "words": [
+   {
+    "w": " payda",
+    "s": 221.88,
+    "e": 222.1
+   },
+   {
+    "w": " boladi.",
+    "s": 222.1,
+    "e": 222.4
+   },
+   {
+    "w": " Elon",
+    "s": 222.78,
+    "e": 223.1
+   },
+   {
+    "w": " Musk",
+    "s": 223.1,
+    "e": 223.42
+   },
+   {
+    "w": " biznesini",
+    "s": 223.42,
+    "e": 223.94
+   }
+  ]
+ },
+ {
+  "start": 223.94,
+  "end": 226.16,
+  "text": " kanday bashqarish masalasi da investorlar",
+  "words": [
+   {
+    "w": " kanday",
+    "s": 223.94,
+    "e": 224.38
+   },
+   {
+    "w": " bashqarish",
+    "s": 224.38,
+    "e": 224.82
+   },
+   {
+    "w": " masalasi",
+    "s": 224.82,
+    "e": 225.18
+   },
+   {
+    "w": " da",
+    "s": 225.18,
+    "e": 225.3
+   },
+   {
+    "w": " investorlar",
+    "s": 225.3,
+    "e": 226.16
+   }
+  ]
+ },
+ {
+  "start": 226.16,
+  "end": 227.72,
+  "text": " bilan kereshima uchidiklarga dushkiladi.",
+  "words": [
+   {
+    "w": " bilan",
+    "s": 226.16,
+    "e": 226.42
+   },
+   {
+    "w": " kereshima",
+    "s": 226.42,
+    "e": 226.82
+   },
+   {
+    "w": " uchidiklarga",
+    "s": 226.82,
+    "e": 227.34
+   },
+   {
+    "w": " dushkiladi.",
+    "s": 227.34,
+    "e": 227.72
+   }
+  ]
+ },
+ {
+  "start": 228.06,
+  "end": 230.02,
+  "text": " Akir akubat kampanyaga tajribali",
+  "words": [
+   {
+    "w": " Akir",
+    "s": 228.06,
+    "e": 228.64
+   },
+   {
+    "w": " akubat",
+    "s": 228.64,
+    "e": 228.96
+   },
+   {
+    "w": " kampanyaga",
+    "s": 228.96,
+    "e": 229.44
+   },
+   {
+    "w": " tajribali",
+    "s": 229.44,
+    "e": 230.02
+   }
+  ]
+ },
+ {
+  "start": 230.02,
+  "end": 231.6,
+  "text": " raqbartan ilanadi. Musk esa",
+  "words": [
+   {
+    "w": " raqbartan",
+    "s": 230.02,
+    "e": 230.52
+   },
+   {
+    "w": " ilanadi.",
+    "s": 230.52,
+    "e": 230.82
+   },
+   {
+    "w": " Musk",
+    "s": 230.98,
+    "e": 231.4
+   },
+   {
+    "w": " esa",
+    "s": 231.4,
+    "e": 231.6
+   }
+  ]
+ },
+ {
+  "start": 231.6,
+  "end": 233.94,
+  "text": " bash direkter lavazimini egallayi almaydi.",
+  "words": [
+   {
+    "w": " bash",
+    "s": 231.6,
+    "e": 231.98
+   },
+   {
+    "w": " direkter",
+    "s": 231.98,
+    "e": 232.4
+   },
+   {
+    "w": " lavazimini",
+    "s": 232.4,
+    "e": 232.92
+   },
+   {
+    "w": " egallayi",
+    "s": 232.92,
+    "e": 233.58
+   },
+   {
+    "w": " almaydi.",
+    "s": 233.58,
+    "e": 233.94
+   }
+  ]
+ },
+ {
+  "start": 234.06,
+  "end": 235.86,
+  "text": " Bu unin biznes xayatidagi",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 234.06,
+    "e": 234.6
+   },
+   {
+    "w": " unin",
+    "s": 234.6,
+    "e": 234.92
+   },
+   {
+    "w": " biznes",
+    "s": 234.92,
+    "e": 235.3
+   },
+   {
+    "w": " xayatidagi",
+    "s": 235.3,
+    "e": 235.86
+   }
+  ]
+ },
+ {
+  "start": 235.86,
+  "end": 237.5,
+  "text": " muxum sabaklaridan bir boladi.",
+  "words": [
+   {
+    "w": " muxum",
+    "s": 235.86,
+    "e": 236.48
+   },
+   {
+    "w": " sabaklaridan",
+    "s": 236.48,
+    "e": 237.08
+   },
+   {
+    "w": " bir",
+    "s": 237.08,
+    "e": 237.2
+   },
+   {
+    "w": " boladi.",
+    "s": 237.2,
+    "e": 237.5
+   }
+  ]
+ },
+ {
+  "start": 237.6,
+  "end": 239.9,
+  "text": " Chunki kampanyaga asas salish bilan",
+  "words": [
+   {
+    "w": " Chunki",
+    "s": 237.6,
+    "e": 238.14
+   },
+   {
+    "w": " kampanyaga",
+    "s": 238.14,
+    "e": 238.96
+   },
+   {
+    "w": " asas",
+    "s": 238.96,
+    "e": 239.36
+   },
+   {
+    "w": " salish",
+    "s": 239.36,
+    "e": 239.64
+   },
+   {
+    "w": " bilan",
+    "s": 239.64,
+    "e": 239.9
+   }
+  ]
+ },
+ {
+  "start": 239.9,
+  "end": 241.76,
+  "text": " unu tolik nazarat qilish xar",
+  "words": [
+   {
+    "w": " unu",
+    "s": 239.9,
+    "e": 240.4
+   },
+   {
+    "w": " tolik",
+    "s": 240.4,
+    "e": 240.7
+   },
+   {
+    "w": " nazarat",
+    "s": 240.7,
+    "e": 241.22
+   },
+   {
+    "w": " qilish",
+    "s": 241.22,
+    "e": 241.54
+   },
+   {
+    "w": " xar",
+    "s": 241.54,
+    "e": 241.76
+   }
+  ]
+ },
+ {
+  "start": 241.76,
+  "end": 242.98,
+  "text": " daimxan birxil narseyimiz.",
+  "words": [
+   {
+    "w": " daimxan",
+    "s": 241.76,
+    "e": 242.2
+   },
+   {
+    "w": " birxil",
+    "s": 242.2,
+    "e": 242.54
+   },
+   {
+    "w": " narseyimiz.",
+    "s": 242.54,
+    "e": 242.98
+   }
+  ]
+ },
+ {
+  "start": 243.94,
+  "end": 246.08,
+  "text": " 1999-ci ilgi kelebise",
+  "words": [
+   {
+    "w": " 1999",
+    "s": 243.94,
+    "e": 244.48
+   },
+   {
+    "w": "-ci",
+    "s": 244.48,
+    "e": 245.5
+   },
+   {
+    "w": " ilgi",
+    "s": 245.5,
+    "e": 245.7
+   },
+   {
+    "w": " kelebise",
+    "s": 245.7,
+    "e": 246.08
+   }
+  ]
+ },
+ {
+  "start": 246.08,
+  "end": 247.84,
+  "text": " kütilmagan vaqiya yuzberadi.",
+  "words": [
+   {
+    "w": " kütilmagan",
+    "s": 246.08,
+    "e": 246.86
+   },
+   {
+    "w": " vaqiya",
+    "s": 246.86,
+    "e": 247.36
+   },
+   {
+    "w": " yuzberadi.",
+    "s": 247.36,
+    "e": 247.84
+   }
+  ]
+ },
+ {
+  "start": 248.08,
+  "end": 249.72,
+  "text": " Kampyotir sanatidagi yerik",
+  "words": [
+   {
+    "w": " Kampyotir",
+    "s": 248.08,
+    "e": 248.92
+   },
+   {
+    "w": " sanatidagi",
+    "s": 248.92,
+    "e": 249.44
+   },
+   {
+    "w": " yerik",
+    "s": 249.44,
+    "e": 249.72
+   }
+  ]
+ },
+ {
+  "start": 249.72,
+  "end": 251.2,
+  "text": " kampanyalardan biri Compact",
+  "words": [
+   {
+    "w": " kampanyalardan",
+    "s": 249.72,
+    "e": 250.32
+   },
+   {
+    "w": " biri",
+    "s": 250.32,
+    "e": 250.52
+   },
+   {
+    "w": " Compact",
+    "s": 250.52,
+    "e": 251.2
+   }
+  ]
+ },
+ {
+  "start": 251.2,
+  "end": 253.08,
+  "text": " Ziptu'nu satip alishki qararkiladi.",
+  "words": [
+   {
+    "w": " Ziptu",
+    "s": 251.2,
+    "e": 251.82
+   },
+   {
+    "w": "'nu",
+    "s": 251.82,
+    "e": 251.88
+   },
+   {
+    "w": " satip",
+    "s": 251.88,
+    "e": 252.24
+   },
+   {
+    "w": " alishki",
+    "s": 252.24,
+    "e": 252.56
+   },
+   {
+    "w": " qararkiladi.",
+    "s": 252.56,
+    "e": 253.08
+   }
+  ]
+ },
+ {
+  "start": 253.3,
+  "end": 255.06,
+  "text": " Bitiminin umumi qimati",
+  "words": [
+   {
+    "w": " Bitiminin",
+    "s": 253.3,
+    "e": 254.14
+   },
+   {
+    "w": " umumi",
+    "s": 254.14,
+    "e": 254.54
+   },
+   {
+    "w": " qimati",
+    "s": 254.54,
+    "e": 255.06
+   }
+  ]
+ },
+ {
+  "start": 255.06,
+  "end": 257.46,
+  "text": " tahminan 307 milyon doldarini",
+  "words": [
+   {
+    "w": " tahminan",
+    "s": 255.06,
+    "e": 255.82
+   },
+   {
+    "w": " 307",
+    "s": 255.82,
+    "e": 256.56
+   },
+   {
+    "w": " milyon",
+    "s": 256.56,
+    "e": 257.04
+   },
+   {
+    "w": " doldarini",
+    "s": 257.04,
+    "e": 257.46
+   }
+  ]
+ },
+ {
+  "start": 257.46,
+  "end": 259.28,
+  "text": " tashkil edadi. Atigi",
+  "words": [
+   {
+    "w": " tashkil",
+    "s": 257.46,
+    "e": 257.8
+   },
+   {
+    "w": " edadi.",
+    "s": 257.8,
+    "e": 258.04
+   },
+   {
+    "w": " Atigi",
+    "s": 258.44,
+    "e": 259.28
+   }
+  ]
+ },
+ {
+  "start": 259.28,
+  "end": 261.4,
+  "text": " tort il aldin kichkini ofista başlangan",
+  "words": [
+   {
+    "w": " tort",
+    "s": 259.28,
+    "e": 259.62
+   },
+   {
+    "w": " il",
+    "s": 259.62,
+    "e": 259.74
+   },
+   {
+    "w": " aldin",
+    "s": 259.74,
+    "e": 260.08
+   },
+   {
+    "w": " kichkini",
+    "s": 260.08,
+    "e": 260.46
+   },
+   {
+    "w": " ofista",
+    "s": 260.46,
+    "e": 260.94
+   },
+   {
+    "w": " başlangan",
+    "s": 260.94,
+    "e": 261.4
+   }
+  ]
+ },
+ {
+  "start": 261.4,
+  "end": 263.18,
+  "text": " biznes yuzlab milyon dolargi",
+  "words": [
+   {
+    "w": " biznes",
+    "s": 261.4,
+    "e": 261.76
+   },
+   {
+    "w": " yuzlab",
+    "s": 261.76,
+    "e": 262.46
+   },
+   {
+    "w": " milyon",
+    "s": 262.46,
+    "e": 262.84
+   },
+   {
+    "w": " dolargi",
+    "s": 262.84,
+    "e": 263.18
+   }
+  ]
+ },
+ {
+  "start": 263.18,
+  "end": 265.08,
+  "text": " baxalanadi. Ilan Muskning",
+  "words": [
+   {
+    "w": " baxalanadi.",
+    "s": 263.18,
+    "e": 263.7
+   },
+   {
+    "w": " Ilan",
+    "s": 263.94,
+    "e": 264.7
+   },
+   {
+    "w": " Muskning",
+    "s": 264.7,
+    "e": 265.08
+   }
+  ]
+ },
+ {
+  "start": 265.08,
+  "end": 266.92,
+  "text": " ozeysa uxbu bitimdan tahminan",
+  "words": [
+   {
+    "w": " ozeysa",
+    "s": 265.08,
+    "e": 265.58
+   },
+   {
+    "w": " uxbu",
+    "s": 265.58,
+    "e": 266.04
+   },
+   {
+    "w": " bitimdan",
+    "s": 266.04,
+    "e": 266.44
+   },
+   {
+    "w": " tahminan",
+    "s": 266.44,
+    "e": 266.92
+   }
+  ]
+ },
+ {
+  "start": 266.92,
+  "end": 268.8,
+  "text": " 22 milyon dolar oladi.",
+  "words": [
+   {
+    "w": " 22",
+    "s": 266.92,
+    "e": 267.42
+   },
+   {
+    "w": " milyon",
+    "s": 267.42,
+    "e": 268.26
+   },
+   {
+    "w": " dolar",
+    "s": 268.26,
+    "e": 268.54
+   },
+   {
+    "w": " oladi.",
+    "s": 268.54,
+    "e": 268.8
+   }
+  ]
+ },
+ {
+  "start": 269.16,
+  "end": 271.62,
+  "text": " O shabaytda u 27 yoshde edi.",
+  "words": [
+   {
+    "w": " O",
+    "s": 269.16,
+    "e": 269.54
+   },
+   {
+    "w": " shabaytda",
+    "s": 269.54,
+    "e": 269.94
+   },
+   {
+    "w": " u",
+    "s": 269.94,
+    "e": 270.06
+   },
+   {
+    "w": " 27",
+    "s": 270.06,
+    "e": 270.62
+   },
+   {
+    "w": " yoshde",
+    "s": 270.62,
+    "e": 271.36
+   },
+   {
+    "w": " edi.",
+    "s": 271.36,
+    "e": 271.62
+   }
+  ]
+ },
+ {
+  "start": 271.78,
+  "end": 272.84,
+  "text": " Tasaor qilin,",
+  "words": [
+   {
+    "w": " Tasaor",
+    "s": 271.78,
+    "e": 272.54
+   },
+   {
+    "w": " qilin,",
+    "s": 272.54,
+    "e": 272.84
+   }
+  ]
+ },
+ {
+  "start": 272.88,
+  "end": 274.84,
+  "text": " bir nexil aldin ofista uxlab,",
+  "words": [
+   {
+    "w": " bir",
+    "s": 272.88,
+    "e": 273.28
+   },
+   {
+    "w": " nexil",
+    "s": 273.28,
+    "e": 273.66
+   },
+   {
+    "w": " aldin",
+    "s": 273.66,
+    "e": 274.0
+   },
+   {
+    "w": " ofista",
+    "s": 274.0,
+    "e": 274.42
+   },
+   {
+    "w": " uxlab,",
+    "s": 274.42,
+    "e": 274.84
+   }
+  ]
+ },
+ {
+  "start": 275.0,
+  "end": 276.94,
+  "text": " spor zalada dursh qabul qilayan yigit",
+  "words": [
+   {
+    "w": " spor",
+    "s": 275.0,
+    "e": 275.38
+   },
+   {
+    "w": " zalada",
+    "s": 275.38,
+    "e": 275.84
+   },
+   {
+    "w": " dursh",
+    "s": 275.84,
+    "e": 276.12
+   },
+   {
+    "w": " qabul",
+    "s": 276.12,
+    "e": 276.36
+   },
+   {
+    "w": " qilayan",
+    "s": 276.36,
+    "e": 276.66
+   },
+   {
+    "w": " yigit",
+    "s": 276.66,
+    "e": 276.94
+   }
+  ]
+ },
+ {
+  "start": 276.94,
+  "end": 278.94,
+  "text": " endi milyonlab dolar mablaqgi",
+  "words": [
+   {
+    "w": " endi",
+    "s": 276.94,
+    "e": 277.44
+   },
+   {
+    "w": " milyonlab",
+    "s": 277.44,
+    "e": 278.1
+   },
+   {
+    "w": " dolar",
+    "s": 278.1,
+    "e": 278.44
+   },
+   {
+    "w": " mablaqgi",
+    "s": 278.44,
+    "e": 278.94
+   }
+  ]
+ },
+ {
+  "start": 278.94,
+  "end": 280.76,
+  "text": " ege bulgan. Kopchilik",
+  "words": [
+   {
+    "w": " ege",
+    "s": 278.94,
+    "e": 279.16
+   },
+   {
+    "w": " bulgan.",
+    "s": 279.16,
+    "e": 279.46
+   },
+   {
+    "w": " Kopchilik",
+    "s": 280.0,
+    "e": 280.76
+   }
+  ]
+ },
+ {
+  "start": 280.76,
+  "end": 282.6,
+  "text": " bunday vaziyatta katta uuy,",
+  "words": [
+   {
+    "w": " bunday",
+    "s": 280.76,
+    "e": 281.3
+   },
+   {
+    "w": " vaziyatta",
+    "s": 281.3,
+    "e": 281.64
+   },
+   {
+    "w": " katta",
+    "s": 281.64,
+    "e": 282.3
+   },
+   {
+    "w": " uuy,",
+    "s": 282.3,
+    "e": 282.6
+   }
+  ]
+ },
+ {
+  "start": 282.7,
+  "end": 284.48,
+  "text": " qimatmako avtomobillar satib alib,",
+  "words": [
+   {
+    "w": " qimatmako",
+    "s": 282.7,
+    "e": 283.3
+   },
+   {
+    "w": " avtomobillar",
+    "s": 283.3,
+    "e": 284.0
+   },
+   {
+    "w": " satib",
+    "s": 284.0,
+    "e": 284.26
+   },
+   {
+    "w": " alib,",
+    "s": 284.26,
+    "e": 284.48
+   }
+  ]
+ },
+ {
+  "start": 284.5,
+  "end": 286.78,
+  "text": " umrunin qalgan qismini biyamanal otgazicini",
+  "words": [
+   {
+    "w": " umrunin",
+    "s": 284.5,
+    "e": 285.0
+   },
+   {
+    "w": " qalgan",
+    "s": 285.0,
+    "e": 285.3
+   },
+   {
+    "w": " qismini",
+    "s": 285.3,
+    "e": 285.7
+   },
+   {
+    "w": " biyamanal",
+    "s": 285.7,
+    "e": 286.3
+   },
+   {
+    "w": " otgazicini",
+    "s": 286.3,
+    "e": 286.78
+   }
+  ]
+ },
+ {
+  "start": 286.78,
+  "end": 288.76,
+  "text": " tanilashi mumkun edi. Musk",
+  "words": [
+   {
+    "w": " tanilashi",
+    "s": 286.78,
+    "e": 287.14
+   },
+   {
+    "w": " mumkun",
+    "s": 287.14,
+    "e": 287.4
+   },
+   {
+    "w": " edi.",
+    "s": 287.4,
+    "e": 287.6
+   },
+   {
+    "w": " Musk",
+    "s": 288.0,
+    "e": 288.76
+   }
+  ]
+ },
+ {
+  "start": 288.76,
+  "end": 290.58,
+  "text": " esa, baska yolni tanilaydi.",
+  "words": [
+   {
+    "w": " esa,",
+    "s": 288.76,
+    "e": 289.0
+   },
+   {
+    "w": " baska",
+    "s": 289.14,
+    "e": 289.86
+   },
+   {
+    "w": " yolni",
+    "s": 289.86,
+    "e": 290.18
+   },
+   {
+    "w": " tanilaydi.",
+    "s": 290.18,
+    "e": 290.58
+   }
+  ]
+ },
+ {
+  "start": 290.58,
+  "end": 292.26,
+  "text": " U yangi internet",
+  "words": [
+   {
+    "w": " U",
+    "s": 290.58,
+    "e": 291.3
+   },
+   {
+    "w": " yangi",
+    "s": 291.3,
+    "e": 291.88
+   },
+   {
+    "w": " internet",
+    "s": 291.88,
+    "e": 292.26
+   }
+  ]
+ },
+ {
+  "start": 292.26,
+  "end": 294.26,
+  "text": " kampanyasiga asas saladi. Unin",
+  "words": [
+   {
+    "w": " kampanyasiga",
+    "s": 292.26,
+    "e": 293.06
+   },
+   {
+    "w": " asas",
+    "s": 293.06,
+    "e": 293.34
+   },
+   {
+    "w": " saladi.",
+    "s": 293.34,
+    "e": 293.62
+   },
+   {
+    "w": " Unin",
+    "s": 293.72,
+    "e": 294.26
+   }
+  ]
+ },
+ {
+  "start": 294.26,
+  "end": 296.12,
+  "text": " nami x.com edi.",
+  "words": [
+   {
+    "w": " nami",
+    "s": 294.26,
+    "e": 294.64
+   },
+   {
+    "w": " x",
+    "s": 294.64,
+    "e": 295.18
+   },
+   {
+    "w": ".com",
+    "s": 295.18,
+    "e": 295.86
+   },
+   {
+    "w": " edi.",
+    "s": 295.86,
+    "e": 296.12
+   }
+  ]
+ },
+ {
+  "start": 296.52,
+  "end": 298.02,
+  "text": " Bu sefar maksat internet",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 296.52,
+    "e": 296.92
+   },
+   {
+    "w": " sefar",
+    "s": 296.92,
+    "e": 297.18
+   },
+   {
+    "w": " maksat",
+    "s": 297.18,
+    "e": 297.56
+   },
+   {
+    "w": " internet",
+    "s": 297.56,
+    "e": 298.02
+   }
+  ]
+ },
+ {
+  "start": 298.02,
+  "end": 300.04,
+  "text": " orqali maliyavi khizmatlar korsatish,",
+  "words": [
+   {
+    "w": " orqali",
+    "s": 298.02,
+    "e": 298.52
+   },
+   {
+    "w": " maliyavi",
+    "s": 298.52,
+    "e": 299.04
+   },
+   {
+    "w": " khizmatlar",
+    "s": 299.04,
+    "e": 299.58
+   },
+   {
+    "w": " korsatish,",
+    "s": 299.58,
+    "e": 300.04
+   }
+  ]
+ },
+ {
+  "start": 300.12,
+  "end": 301.92,
+  "text": " adamlarinin pul otgazish usurini",
+  "words": [
+   {
+    "w": " adamlarinin",
+    "s": 300.12,
+    "e": 300.7
+   },
+   {
+    "w": " pul",
+    "s": 300.7,
+    "e": 300.96
+   },
+   {
+    "w": " otgazish",
+    "s": 300.96,
+    "e": 301.48
+   },
+   {
+    "w": " usurini",
+    "s": 301.48,
+    "e": 301.92
+   }
+  ]
+ },
+ {
+  "start": 301.92,
+  "end": 304.0,
+  "text": " uzgartirish edi. Kenchalik",
+  "words": [
+   {
+    "w": " uzgartirish",
+    "s": 301.92,
+    "e": 302.5
+   },
+   {
+    "w": " edi.",
+    "s": 302.5,
+    "e": 302.7
+   },
+   {
+    "w": " Kenchalik",
+    "s": 303.2,
+    "e": 304.0
+   }
+  ]
+ },
+ {
+  "start": 304.0,
+  "end": 306.44,
+  "text": " x.com baska kampanya blambirilashadi",
+  "words": [
+   {
+    "w": " x",
+    "s": 304.0,
+    "e": 304.34
+   },
+   {
+    "w": ".com",
+    "s": 304.34,
+    "e": 304.86
+   },
+   {
+    "w": " baska",
+    "s": 304.86,
+    "e": 305.4
+   },
+   {
+    "w": " kampanya",
+    "s": 305.4,
+    "e": 305.86
+   },
+   {
+    "w": " blambirilashadi",
+    "s": 305.86,
+    "e": 306.44
+   }
+  ]
+ },
+ {
+  "start": 306.44,
+  "end": 307.86,
+  "text": " va Paypal rivajlarin shinin",
+  "words": [
+   {
+    "w": " va",
+    "s": 306.44,
+    "e": 306.58
+   },
+   {
+    "w": " Paypal",
+    "s": 306.58,
+    "e": 307.22
+   },
+   {
+    "w": " rivajlarin",
+    "s": 307.22,
+    "e": 307.68
+   },
+   {
+    "w": " shinin",
+    "s": 307.68,
+    "e": 307.86
+   }
+  ]
+ },
+ {
+  "start": 307.86,
+  "end": 310.14,
+  "text": " mukhum qismiga aylanadi. Amma",
+  "words": [
+   {
+    "w": " mukhum",
+    "s": 307.86,
+    "e": 308.36
+   },
+   {
+    "w": " qismiga",
+    "s": 308.36,
+    "e": 308.74
+   },
+   {
+    "w": " aylanadi.",
+    "s": 308.74,
+    "e": 309.16
+   },
+   {
+    "w": " Amma",
+    "s": 309.34,
+    "e": 310.14
+   }
+  ]
+ },
+ {
+  "start": 310.14,
+  "end": 312.26,
+  "text": " bu biznista ham xammasi tinj kechmagan.",
+  "words": [
+   {
+    "w": " bu",
+    "s": 310.14,
+    "e": 310.54
+   },
+   {
+    "w": " biznista",
+    "s": 310.54,
+    "e": 311.0
+   },
+   {
+    "w": " ham",
+    "s": 311.0,
+    "e": 311.18
+   },
+   {
+    "w": " xammasi",
+    "s": 311.18,
+    "e": 311.6
+   },
+   {
+    "w": " tinj",
+    "s": 311.6,
+    "e": 311.92
+   },
+   {
+    "w": " kechmagan.",
+    "s": 311.92,
+    "e": 312.26
+   }
+  ]
+ },
+ {
+  "start": 312.52,
+  "end": 314.46,
+  "text": " Rakbariyat ortasta kilish mauchiliklar",
+  "words": [
+   {
+    "w": " Rakbariyat",
+    "s": 312.52,
+    "e": 313.32
+   },
+   {
+    "w": " ortasta",
+    "s": 313.32,
+    "e": 313.66
+   },
+   {
+    "w": " kilish",
+    "s": 313.66,
+    "e": 313.98
+   },
+   {
+    "w": " mauchiliklar",
+    "s": 313.98,
+    "e": 314.46
+   }
+  ]
+ },
+ {
+  "start": 314.46,
+  "end": 316.44,
+  "text": " yuza gekeledi. 2000. ilda",
+  "words": [
+   {
+    "w": " yuza",
+    "s": 314.46,
+    "e": 314.64
+   },
+   {
+    "w": " gekeledi.",
+    "s": 314.64,
+    "e": 315.12
+   },
+   {
+    "w": " 2000.",
+    "s": 315.2,
+    "e": 315.92
+   },
+   {
+    "w": " ilda",
+    "s": 316.12,
+    "e": 316.44
+   }
+  ]
+ },
+ {
+  "start": 316.44,
+  "end": 317.98,
+  "text": " Musk, baxj direktir lavazimadan",
+  "words": [
+   {
+    "w": " Musk,",
+    "s": 316.44,
+    "e": 316.62
+   },
+   {
+    "w": " baxj",
+    "s": 316.74,
+    "e": 317.14
+   },
+   {
+    "w": " direktir",
+    "s": 317.14,
+    "e": 317.5
+   },
+   {
+    "w": " lavazimadan",
+    "s": 317.5,
+    "e": 317.98
+   }
+  ]
+ },
+ {
+  "start": 317.98,
+  "end": 319.9,
+  "text": " chetlatiladi. Shunga karamay,",
+  "words": [
+   {
+    "w": " chetlatiladi.",
+    "s": 317.98,
+    "e": 318.6
+   },
+   {
+    "w": " Shunga",
+    "s": 318.8,
+    "e": 319.6
+   },
+   {
+    "w": " karamay,",
+    "s": 319.6,
+    "e": 319.9
+   }
+  ]
+ },
+ {
+  "start": 319.98,
+  "end": 320.2,
+  "text": " u,",
+  "words": [
+   {
+    "w": " u,",
+    "s": 319.98,
+    "e": 320.2
+   }
+  ]
+ },
+ {
+  "start": 320.58,
+  "end": 322.26,
+  "text": " kampanyadagi ulushini saklap qaladi.",
+  "words": [
+   {
+    "w": " kampanyadagi",
+    "s": 320.58,
+    "e": 321.08
+   },
+   {
+    "w": " ulushini",
+    "s": 321.08,
+    "e": 321.48
+   },
+   {
+    "w": " saklap",
+    "s": 321.48,
+    "e": 322.0
+   },
+   {
+    "w": " qaladi.",
+    "s": 322.0,
+    "e": 322.26
+   }
+  ]
+ },
+ {
+  "start": 322.68,
+  "end": 324.18,
+  "text": " 2002. ilda",
+  "words": [
+   {
+    "w": " 2002.",
+    "s": 322.68,
+    "e": 323.44
+   },
+   {
+    "w": " ilda",
+    "s": 323.8,
+    "e": 324.18
+   }
+  ]
+ },
+ {
+  "start": 324.18,
+  "end": 326.26,
+  "text": " eBay, Paypalini bir yari",
+  "words": [
+   {
+    "w": " eBay,",
+    "s": 324.18,
+    "e": 324.62
+   },
+   {
+    "w": " Paypalini",
+    "s": 324.9,
+    "e": 325.54
+   },
+   {
+    "w": " bir",
+    "s": 325.54,
+    "e": 325.94
+   },
+   {
+    "w": " yari",
+    "s": 325.94,
+    "e": 326.26
+   }
+  ]
+ },
+ {
+  "start": 326.26,
+  "end": 328.48,
+  "text": " milyar dolarga sotub aladi. Musk",
+  "words": [
+   {
+    "w": " milyar",
+    "s": 326.26,
+    "e": 326.68
+   },
+   {
+    "w": " dolarga",
+    "s": 326.68,
+    "e": 327.04
+   },
+   {
+    "w": " sotub",
+    "s": 327.04,
+    "e": 327.34
+   },
+   {
+    "w": " aladi.",
+    "s": 327.34,
+    "e": 327.54
+   },
+   {
+    "w": " Musk",
+    "s": 327.72,
+    "e": 328.48
+   }
+  ]
+ },
+ {
+  "start": 328.48,
+  "end": 330.34,
+  "text": " ush bu bitimdan ham ketta mablaq",
+  "words": [
+   {
+    "w": " ush",
+    "s": 328.48,
+    "e": 328.88
+   },
+   {
+    "w": " bu",
+    "s": 328.88,
+    "e": 328.96
+   },
+   {
+    "w": " bitimdan",
+    "s": 328.96,
+    "e": 329.34
+   },
+   {
+    "w": " ham",
+    "s": 329.34,
+    "e": 329.54
+   },
+   {
+    "w": " ketta",
+    "s": 329.54,
+    "e": 329.98
+   },
+   {
+    "w": " mablaq",
+    "s": 329.98,
+    "e": 330.34
+   }
+  ]
+ },
+ {
+  "start": 330.34,
+  "end": 332.22,
+  "text": " aladi. Endi unin aldida",
+  "words": [
+   {
+    "w": " aladi.",
+    "s": 330.34,
+    "e": 330.52
+   },
+   {
+    "w": " Endi",
+    "s": 330.9,
+    "e": 331.66
+   },
+   {
+    "w": " unin",
+    "s": 331.66,
+    "e": 331.9
+   },
+   {
+    "w": " aldida",
+    "s": 331.9,
+    "e": 332.22
+   }
+  ]
+ },
+ {
+  "start": 332.22,
+  "end": 333.52,
+  "text": " yana bir tanla oturardi.",
+  "words": [
+   {
+    "w": " yana",
+    "s": 332.22,
+    "e": 332.78
+   },
+   {
+    "w": " bir",
+    "s": 332.78,
+    "e": 332.92
+   },
+   {
+    "w": " tanla",
+    "s": 332.92,
+    "e": 333.16
+   },
+   {
+    "w": " oturardi.",
+    "s": 333.16,
+    "e": 333.52
+   }
+  ]
+ },
+ {
+  "start": 334.1,
+  "end": 336.62,
+  "text": " Pulni xafsiz investisiyalarga yönaltirishmi",
+  "words": [
+   {
+    "w": " Pulni",
+    "s": 334.1,
+    "e": 334.52
+   },
+   {
+    "w": " xafsiz",
+    "s": 334.52,
+    "e": 335.32
+   },
+   {
+    "w": " investisiyalarga",
+    "s": 335.32,
+    "e": 336.12
+   },
+   {
+    "w": " yönaltirishmi",
+    "s": 336.12,
+    "e": 336.62
+   }
+  ]
+ },
+ {
+  "start": 336.62,
+  "end": 338.26,
+  "text": " ya ki mutlaka yangi",
+  "words": [
+   {
+    "w": " ya",
+    "s": 336.62,
+    "e": 336.96
+   },
+   {
+    "w": " ki",
+    "s": 336.96,
+    "e": 337.1
+   },
+   {
+    "w": " mutlaka",
+    "s": 337.1,
+    "e": 337.82
+   },
+   {
+    "w": " yangi",
+    "s": 337.82,
+    "e": 338.26
+   }
+  ]
+ },
+ {
+  "start": 338.26,
+  "end": 340.26,
+  "text": " va nahayatta xafliy sahalarga",
+  "words": [
+   {
+    "w": " va",
+    "s": 338.26,
+    "e": 338.42
+   },
+   {
+    "w": " nahayatta",
+    "s": 338.42,
+    "e": 339.24
+   },
+   {
+    "w": " xafliy",
+    "s": 339.24,
+    "e": 339.72
+   },
+   {
+    "w": " sahalarga",
+    "s": 339.72,
+    "e": 340.26
+   }
+  ]
+ },
+ {
+  "start": 340.26,
+  "end": 342.3,
+  "text": " kirishmi. U ikkinchi",
+  "words": [
+   {
+    "w": " kirishmi.",
+    "s": 340.26,
+    "e": 340.54
+   },
+   {
+    "w": " U",
+    "s": 340.74,
+    "e": 341.5
+   },
+   {
+    "w": " ikkinchi",
+    "s": 341.5,
+    "e": 342.3
+   }
+  ]
+ },
+ {
+  "start": 342.3,
+  "end": 343.98,
+  "text": " yolni tanilaydi. Musk",
+  "words": [
+   {
+    "w": " yolni",
+    "s": 342.3,
+    "e": 342.58
+   },
+   {
+    "w": " tanilaydi.",
+    "s": 342.58,
+    "e": 343.0
+   },
+   {
+    "w": " Musk",
+    "s": 343.22,
+    "e": 343.98
+   }
+  ]
+ },
+ {
+  "start": 343.98,
+  "end": 345.86,
+  "text": " kosmik raketalar ishlab chikaradyan",
+  "words": [
+   {
+    "w": " kosmik",
+    "s": 343.98,
+    "e": 344.62
+   },
+   {
+    "w": " raketalar",
+    "s": 344.62,
+    "e": 345.08
+   },
+   {
+    "w": " ishlab",
+    "s": 345.08,
+    "e": 345.36
+   },
+   {
+    "w": " chikaradyan",
+    "s": 345.36,
+    "e": 345.86
+   }
+  ]
+ },
+ {
+  "start": 345.86,
+  "end": 347.88,
+  "text": " SpaceX kampanyasigi asas saladi.",
+  "words": [
+   {
+    "w": " SpaceX",
+    "s": 345.86,
+    "e": 346.36
+   },
+   {
+    "w": " kampanyasigi",
+    "s": 346.36,
+    "e": 347.3
+   },
+   {
+    "w": " asas",
+    "s": 347.3,
+    "e": 347.6
+   },
+   {
+    "w": " saladi.",
+    "s": 347.6,
+    "e": 347.88
+   }
+  ]
+ },
+ {
+  "start": 348.44,
+  "end": 350.44,
+  "text": " Bu gaya kupchilikki ghalatit u yirishimun",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 348.44,
+    "e": 348.82
+   },
+   {
+    "w": " gaya",
+    "s": 348.82,
+    "e": 349.08
+   },
+   {
+    "w": " kupchilikki",
+    "s": 349.08,
+    "e": 349.64
+   },
+   {
+    "w": " ghalatit",
+    "s": 349.64,
+    "e": 350.0
+   },
+   {
+    "w": " u",
+    "s": 350.0,
+    "e": 350.08
+   },
+   {
+    "w": " yirishimun",
+    "s": 350.08,
+    "e": 350.44
+   }
+  ]
+ },
+ {
+  "start": 350.58,
+  "end": 352.26,
+  "text": " edi. Chunki raketa yaratish",
+  "words": [
+   {
+    "w": " edi.",
+    "s": 350.58,
+    "e": 350.74
+   },
+   {
+    "w": " Chunki",
+    "s": 350.76,
+    "e": 351.12
+   },
+   {
+    "w": " raketa",
+    "s": 351.12,
+    "e": 351.88
+   },
+   {
+    "w": " yaratish",
+    "s": 351.88,
+    "e": 352.26
+   }
+  ]
+ },
+ {
+  "start": 352.26,
+  "end": 354.38,
+  "text": " oddi internet dastorini ishlab chikisdan",
+  "words": [
+   {
+    "w": " oddi",
+    "s": 352.26,
+    "e": 352.78
+   },
+   {
+    "w": " internet",
+    "s": 352.78,
+    "e": 353.18
+   },
+   {
+    "w": " dastorini",
+    "s": 353.18,
+    "e": 353.82
+   },
+   {
+    "w": " ishlab",
+    "s": 353.82,
+    "e": 354.04
+   },
+   {
+    "w": " chikisdan",
+    "s": 354.04,
+    "e": 354.38
+   }
+  ]
+ },
+ {
+  "start": 354.38,
+  "end": 356.34,
+  "text": " butunlay fark qaladi. Bunin",
+  "words": [
+   {
+    "w": " butunlay",
+    "s": 354.38,
+    "e": 355.14
+   },
+   {
+    "w": " fark",
+    "s": 355.14,
+    "e": 355.3
+   },
+   {
+    "w": " qaladi.",
+    "s": 355.3,
+    "e": 355.64
+   },
+   {
+    "w": " Bunin",
+    "s": 355.76,
+    "e": 356.34
+   }
+  ]
+ },
+ {
+  "start": 356.34,
+  "end": 358.08,
+  "text": " uchun murakab muhandislik,",
+  "words": [
+   {
+    "w": " uchun",
+    "s": 356.34,
+    "e": 356.64
+   },
+   {
+    "w": " murakab",
+    "s": 356.64,
+    "e": 357.18
+   },
+   {
+    "w": " muhandislik,",
+    "s": 357.18,
+    "e": 358.08
+   }
+  ]
+ },
+ {
+  "start": 358.12,
+  "end": 360.42,
+  "text": " ulkan mablaq va yukari darajadagi",
+  "words": [
+   {
+    "w": " ulkan",
+    "s": 358.12,
+    "e": 358.58
+   },
+   {
+    "w": " mablaq",
+    "s": 358.58,
+    "e": 359.18
+   },
+   {
+    "w": " va",
+    "s": 359.18,
+    "e": 359.42
+   },
+   {
+    "w": " yukari",
+    "s": 359.42,
+    "e": 359.86
+   },
+   {
+    "w": " darajadagi",
+    "s": 359.86,
+    "e": 360.42
+   }
+  ]
+ },
+ {
+  "start": 360.42,
+  "end": 362.4,
+  "text": " xafsizlik talab etaladi. Daslabki",
+  "words": [
+   {
+    "w": " xafsizlik",
+    "s": 360.42,
+    "e": 360.92
+   },
+   {
+    "w": " talab",
+    "s": 360.92,
+    "e": 361.16
+   },
+   {
+    "w": " etaladi.",
+    "s": 361.16,
+    "e": 361.44
+   },
+   {
+    "w": " Daslabki",
+    "s": 361.64,
+    "e": 362.4
+   }
+  ]
+ },
+ {
+  "start": 362.4,
+  "end": 364.86,
+  "text": " uchta Falcon 1 raketasi muhafaqiyatsizlik",
+  "words": [
+   {
+    "w": " uchta",
+    "s": 362.4,
+    "e": 362.7
+   },
+   {
+    "w": " Falcon",
+    "s": 362.7,
+    "e": 363.08
+   },
+   {
+    "w": " 1",
+    "s": 363.08,
+    "e": 363.34
+   },
+   {
+    "w": " raketasi",
+    "s": 363.34,
+    "e": 363.88
+   },
+   {
+    "w": " muhafaqiyatsizlik",
+    "s": 363.88,
+    "e": 364.86
+   }
+  ]
+ },
+ {
+  "start": 364.86,
+  "end": 366.96,
+  "text": " uchraydi. Xar bir muhafaqiyatsizlik",
+  "words": [
+   {
+    "w": " uchraydi.",
+    "s": 364.86,
+    "e": 365.24
+   },
+   {
+    "w": " Xar",
+    "s": 365.34,
+    "e": 365.92
+   },
+   {
+    "w": " bir",
+    "s": 365.92,
+    "e": 366.06
+   },
+   {
+    "w": " muhafaqiyatsizlik",
+    "s": 366.06,
+    "e": 366.96
+   }
+  ]
+ },
+ {
+  "start": 366.96,
+  "end": 368.58,
+  "text": " kampanyanin mablaqini kem ediradi.",
+  "words": [
+   {
+    "w": " kampanyanin",
+    "s": 366.96,
+    "e": 367.66
+   },
+   {
+    "w": " mablaqini",
+    "s": 367.66,
+    "e": 368.08
+   },
+   {
+    "w": " kem",
+    "s": 368.08,
+    "e": 368.26
+   },
+   {
+    "w": " ediradi.",
+    "s": 368.26,
+    "e": 368.58
+   }
+  ]
+ },
+ {
+  "start": 368.8,
+  "end": 370.14,
+  "text": " 2008. ilda",
+  "words": [
+   {
+    "w": " 2008.",
+    "s": 368.8,
+    "e": 369.42
+   },
+   {
+    "w": " ilda",
+    "s": 369.84,
+    "e": 370.14
+   }
+  ]
+ },
+ {
+  "start": 370.14,
+  "end": 372.48,
+  "text": " SpaceX juda agir maliyavi vaziyatki",
+  "words": [
+   {
+    "w": " SpaceX",
+    "s": 370.14,
+    "e": 370.46
+   },
+   {
+    "w": " juda",
+    "s": 370.46,
+    "e": 371.16
+   },
+   {
+    "w": " agir",
+    "s": 371.16,
+    "e": 371.58
+   },
+   {
+    "w": " maliyavi",
+    "s": 371.58,
+    "e": 372.02
+   },
+   {
+    "w": " vaziyatki",
+    "s": 372.02,
+    "e": 372.48
+   }
+  ]
+ },
+ {
+  "start": 372.48,
+  "end": 374.4,
+  "text": " tushb qaladi. Aynan shu yili",
+  "words": [
+   {
+    "w": " tushb",
+    "s": 372.48,
+    "e": 372.72
+   },
+   {
+    "w": " qaladi.",
+    "s": 372.72,
+    "e": 372.98
+   },
+   {
+    "w": " Aynan",
+    "s": 373.14,
+    "e": 373.9
+   },
+   {
+    "w": " shu",
+    "s": 373.9,
+    "e": 374.16
+   },
+   {
+    "w": " yili",
+    "s": 374.16,
+    "e": 374.4
+   }
+  ]
+ },
+ {
+  "start": 374.4,
+  "end": 376.46,
+  "text": " tortinchi urinish muhafaqatli yakullanadi.",
+  "words": [
+   {
+    "w": " tortinchi",
+    "s": 374.4,
+    "e": 374.98
+   },
+   {
+    "w": " urinish",
+    "s": 374.98,
+    "e": 375.32
+   },
+   {
+    "w": " muhafaqatli",
+    "s": 375.32,
+    "e": 375.96
+   },
+   {
+    "w": " yakullanadi.",
+    "s": 375.96,
+    "e": 376.46
+   }
+  ]
+ },
+ {
+  "start": 377.0,
+  "end": 378.36,
+  "text": " Falcon 1 xsusi",
+  "words": [
+   {
+    "w": " Falcon",
+    "s": 377.0,
+    "e": 377.38
+   },
+   {
+    "w": " 1",
+    "s": 377.38,
+    "e": 377.74
+   },
+   {
+    "w": " xsusi",
+    "s": 377.74,
+    "e": 378.36
+   }
+  ]
+ },
+ {
+  "start": 378.36,
+  "end": 380.3,
+  "text": " ishlab chikilgan suyuk yanilgili",
+  "words": [
+   {
+    "w": " ishlab",
+    "s": 378.36,
+    "e": 378.74
+   },
+   {
+    "w": " chikilgan",
+    "s": 378.74,
+    "e": 379.1
+   },
+   {
+    "w": " suyuk",
+    "s": 379.1,
+    "e": 379.72
+   },
+   {
+    "w": " yanilgili",
+    "s": 379.72,
+    "e": 380.3
+   }
+  ]
+ },
+ {
+  "start": 380.3,
+  "end": 382.44,
+  "text": " raketa sfatida arbitege chikishki muhafaq",
+  "words": [
+   {
+    "w": " raketa",
+    "s": 380.3,
+    "e": 380.76
+   },
+   {
+    "w": " sfatida",
+    "s": 380.76,
+    "e": 381.16
+   },
+   {
+    "w": " arbitege",
+    "s": 381.16,
+    "e": 381.76
+   },
+   {
+    "w": " chikishki",
+    "s": 381.76,
+    "e": 382.06
+   },
+   {
+    "w": " muhafaq",
+    "s": 382.06,
+    "e": 382.44
+   }
+  ]
+ },
+ {
+  "start": 382.44,
+  "end": 384.66,
+  "text": " baladi. Bu SpaceX tarikdagi",
+  "words": [
+   {
+    "w": " baladi.",
+    "s": 382.44,
+    "e": 382.72
+   },
+   {
+    "w": " Bu",
+    "s": 382.84,
+    "e": 383.3
+   },
+   {
+    "w": " SpaceX",
+    "s": 383.3,
+    "e": 383.94
+   },
+   {
+    "w": " tarikdagi",
+    "s": 383.94,
+    "e": 384.66
+   }
+  ]
+ },
+ {
+  "start": 384.66,
+  "end": 386.44,
+  "text": " burulish nuqtasi edi. Shublambirgan",
+  "words": [
+   {
+    "w": " burulish",
+    "s": 384.66,
+    "e": 385.06
+   },
+   {
+    "w": " nuqtasi",
+    "s": 385.06,
+    "e": 385.4
+   },
+   {
+    "w": " edi.",
+    "s": 385.4,
+    "e": 385.66
+   },
+   {
+    "w": " Shublambirgan",
+    "s": 385.7,
+    "e": 386.44
+   }
+  ]
+ },
+ {
+  "start": 386.44,
+  "end": 388.26,
+  "text": " Musk Tesla kampanyasi gexam",
+  "words": [
+   {
+    "w": " Musk",
+    "s": 386.44,
+    "e": 386.88
+   },
+   {
+    "w": " Tesla",
+    "s": 386.88,
+    "e": 387.3
+   },
+   {
+    "w": " kampanyasi",
+    "s": 387.3,
+    "e": 387.96
+   },
+   {
+    "w": " gexam",
+    "s": 387.96,
+    "e": 388.26
+   }
+  ]
+ },
+ {
+  "start": 388.26,
+  "end": 390.32,
+  "text": " katta mablaq karitgan edi. Tesla",
+  "words": [
+   {
+    "w": " katta",
+    "s": 388.26,
+    "e": 388.64
+   },
+   {
+    "w": " mablaq",
+    "s": 388.64,
+    "e": 389.0
+   },
+   {
+    "w": " karitgan",
+    "s": 389.0,
+    "e": 389.32
+   },
+   {
+    "w": " edi.",
+    "s": 389.32,
+    "e": 389.54
+   },
+   {
+    "w": " Tesla",
+    "s": 389.6,
+    "e": 390.32
+   }
+  ]
+ },
+ {
+  "start": 390.32,
+  "end": 392.26,
+  "text": " ge u asas solmaygan. Kampanya",
+  "words": [
+   {
+    "w": " ge",
+    "s": 390.32,
+    "e": 390.46
+   },
+   {
+    "w": " u",
+    "s": 390.46,
+    "e": 390.64
+   },
+   {
+    "w": " asas",
+    "s": 390.64,
+    "e": 391.0
+   },
+   {
+    "w": " solmaygan.",
+    "s": 391.0,
+    "e": 391.5
+   },
+   {
+    "w": " Kampanya",
+    "s": 391.62,
+    "e": 392.26
+   }
+  ]
+ },
+ {
+  "start": 392.26,
+  "end": 394.42,
+  "text": " 2003. ilda Martin Eberhardt",
+  "words": [
+   {
+    "w": " 2003.",
+    "s": 392.26,
+    "e": 392.58
+   },
+   {
+    "w": " ilda",
+    "s": 392.94,
+    "e": 393.28
+   },
+   {
+    "w": " Martin",
+    "s": 393.28,
+    "e": 393.7
+   },
+   {
+    "w": " Eberhardt",
+    "s": 393.7,
+    "e": 394.42
+   }
+  ]
+ },
+ {
+  "start": 394.42,
+  "end": 396.26,
+  "text": " va Mark Tarpenin tomanadan tashkil",
+  "words": [
+   {
+    "w": " va",
+    "s": 394.42,
+    "e": 394.52
+   },
+   {
+    "w": " Mark",
+    "s": 394.52,
+    "e": 394.92
+   },
+   {
+    "w": " Tarpenin",
+    "s": 394.92,
+    "e": 395.5
+   },
+   {
+    "w": " tomanadan",
+    "s": 395.5,
+    "e": 395.92
+   },
+   {
+    "w": " tashkil",
+    "s": 395.92,
+    "e": 396.26
+   }
+  ]
+ },
+ {
+  "start": 396.26,
+  "end": 397.88,
+  "text": " etilgan. Musk ese 2004.",
+  "words": [
+   {
+    "w": " etilgan.",
+    "s": 396.26,
+    "e": 396.58
+   },
+   {
+    "w": " Musk",
+    "s": 396.72,
+    "e": 397.38
+   },
+   {
+    "w": " ese",
+    "s": 397.38,
+    "e": 397.54
+   },
+   {
+    "w": " 2004.",
+    "s": 397.54,
+    "e": 397.88
+   }
+  ]
+ },
+ {
+  "start": 398.2,
+  "end": 400.12,
+  "text": " ilda investor sfatida koshilgan",
+  "words": [
+   {
+    "w": " ilda",
+    "s": 398.2,
+    "e": 398.62
+   },
+   {
+    "w": " investor",
+    "s": 398.62,
+    "e": 399.08
+   },
+   {
+    "w": " sfatida",
+    "s": 399.08,
+    "e": 399.64
+   },
+   {
+    "w": " koshilgan",
+    "s": 399.64,
+    "e": 400.12
+   }
+  ]
+ },
+ {
+  "start": 400.12,
+  "end": 402.16,
+  "text": " va keyinchalik kampanyanin en muhum",
+  "words": [
+   {
+    "w": " va",
+    "s": 400.12,
+    "e": 400.48
+   },
+   {
+    "w": " keyinchalik",
+    "s": 400.48,
+    "e": 401.06
+   },
+   {
+    "w": " kampanyanin",
+    "s": 401.06,
+    "e": 401.58
+   },
+   {
+    "w": " en",
+    "s": 401.58,
+    "e": 401.74
+   },
+   {
+    "w": " muhum",
+    "s": 401.74,
+    "e": 402.16
+   }
+  ]
+ },
+ {
+  "start": 402.16,
+  "end": 403.36,
+  "text": " ragbarlaradan birgi aylangan.",
+  "words": [
+   {
+    "w": " ragbarlaradan",
+    "s": 402.16,
+    "e": 402.84
+   },
+   {
+    "w": " birgi",
+    "s": 402.84,
+    "e": 403.06
+   },
+   {
+    "w": " aylangan.",
+    "s": 403.06,
+    "e": 403.36
+   }
+  ]
+ },
+ {
+  "start": 403.62,
+  "end": 405.94,
+  "text": " 2008. ilda Tesla xam ciddi",
+  "words": [
+   {
+    "w": " 2008.",
+    "s": 403.62,
+    "e": 404.28
+   },
+   {
+    "w": " ilda",
+    "s": 404.6,
+    "e": 405.02
+   },
+   {
+    "w": " Tesla",
+    "s": 405.02,
+    "e": 405.24
+   },
+   {
+    "w": " xam",
+    "s": 405.24,
+    "e": 405.56
+   },
+   {
+    "w": " ciddi",
+    "s": 405.56,
+    "e": 405.94
+   }
+  ]
+ },
+ {
+  "start": 405.94,
+  "end": 407.86,
+  "text": " maliyavi keyinchiliklarini bashtan kechiradi.",
+  "words": [
+   {
+    "w": " maliyavi",
+    "s": 405.94,
+    "e": 406.44
+   },
+   {
+    "w": " keyinchiliklarini",
+    "s": 406.44,
+    "e": 407.18
+   },
+   {
+    "w": " bashtan",
+    "s": 407.18,
+    "e": 407.5
+   },
+   {
+    "w": " kechiradi.",
+    "s": 407.5,
+    "e": 407.86
+   }
+  ]
+ },
+ {
+  "start": 408.0,
+  "end": 409.9,
+  "text": " Musk keyinchalik oysa gilini",
+  "words": [
+   {
+    "w": " Musk",
+    "s": 408.0,
+    "e": 408.62
+   },
+   {
+    "w": " keyinchalik",
+    "s": 408.62,
+    "e": 409.32
+   },
+   {
+    "w": " oysa",
+    "s": 409.32,
+    "e": 409.52
+   },
+   {
+    "w": " gilini",
+    "s": 409.52,
+    "e": 409.9
+   }
+  ]
+ },
+ {
+  "start": 409.9,
+  "end": 411.88,
+  "text": " xayatidagi en agir davirlardan",
+  "words": [
+   {
+    "w": " xayatidagi",
+    "s": 409.9,
+    "e": 410.66
+   },
+   {
+    "w": " en",
+    "s": 410.66,
+    "e": 410.88
+   },
+   {
+    "w": " agir",
+    "s": 410.88,
+    "e": 411.42
+   },
+   {
+    "w": " davirlardan",
+    "s": 411.42,
+    "e": 411.88
+   }
+  ]
+ },
+ {
+  "start": 411.88,
+  "end": 414.0,
+  "text": " bir sfatida tasfirlagan. Bir tomanda",
+  "words": [
+   {
+    "w": " bir",
+    "s": 411.88,
+    "e": 412.06
+   },
+   {
+    "w": " sfatida",
+    "s": 412.06,
+    "e": 412.5
+   },
+   {
+    "w": " tasfirlagan.",
+    "s": 412.5,
+    "e": 413.0
+   },
+   {
+    "w": " Bir",
+    "s": 413.18,
+    "e": 413.68
+   },
+   {
+    "w": " tomanda",
+    "s": 413.68,
+    "e": 414.0
+   }
+  ]
+ },
+ {
+  "start": 414.0,
+  "end": 415.86,
+  "text": " SpaceX, ikinch tomanda Tesla.",
+  "words": [
+   {
+    "w": " SpaceX,",
+    "s": 414.0,
+    "e": 414.3
+   },
+   {
+    "w": " ikinch",
+    "s": 414.76,
+    "e": 415.2
+   },
+   {
+    "w": " tomanda",
+    "s": 415.2,
+    "e": 415.56
+   },
+   {
+    "w": " Tesla.",
+    "s": 415.56,
+    "e": 415.86
+   }
+  ]
+ },
+ {
+  "start": 416.14,
+  "end": 417.98,
+  "text": " Ikeli kampanya xam katta mablaq",
+  "words": [
+   {
+    "w": " Ikeli",
+    "s": 416.14,
+    "e": 416.66
+   },
+   {
+    "w": " kampanya",
+    "s": 416.66,
+    "e": 417.1
+   },
+   {
+    "w": " xam",
+    "s": 417.1,
+    "e": 417.28
+   },
+   {
+    "w": " katta",
+    "s": 417.28,
+    "e": 417.66
+   },
+   {
+    "w": " mablaq",
+    "s": 417.66,
+    "e": 417.98
+   }
+  ]
+ },
+ {
+  "start": 417.98,
+  "end": 420.08,
+  "text": " talab qilardi. Amma vaqdo tushibilan",
+  "words": [
+   {
+    "w": " talab",
+    "s": 417.98,
+    "e": 418.24
+   },
+   {
+    "w": " qilardi.",
+    "s": 418.24,
+    "e": 418.54
+   },
+   {
+    "w": " Amma",
+    "s": 418.66,
+    "e": 419.22
+   },
+   {
+    "w": " vaqdo",
+    "s": 419.22,
+    "e": 419.66
+   },
+   {
+    "w": " tushibilan",
+    "s": 419.66,
+    "e": 420.08
+   }
+  ]
+ },
+ {
+  "start": 420.08,
+  "end": 421.38,
+  "text": " ularini fawaliyati ken gaydi.",
+  "words": [
+   {
+    "w": " ularini",
+    "s": 420.08,
+    "e": 420.44
+   },
+   {
+    "w": " fawaliyati",
+    "s": 420.44,
+    "e": 420.94
+   },
+   {
+    "w": " ken",
+    "s": 420.94,
+    "e": 421.1
+   },
+   {
+    "w": " gaydi.",
+    "s": 421.1,
+    "e": 421.38
+   }
+  ]
+ },
+ {
+  "start": 421.54,
+  "end": 423.96,
+  "text": " SpaceX kosmik parvazlar sahasta muhum",
+  "words": [
+   {
+    "w": " SpaceX",
+    "s": 421.54,
+    "e": 422.04
+   },
+   {
+    "w": " kosmik",
+    "s": 422.04,
+    "e": 422.76
+   },
+   {
+    "w": " parvazlar",
+    "s": 422.76,
+    "e": 423.24
+   },
+   {
+    "w": " sahasta",
+    "s": 423.24,
+    "e": 423.6
+   },
+   {
+    "w": " muhum",
+    "s": 423.6,
+    "e": 423.96
+   }
+  ]
+ },
+ {
+  "start": 423.96,
+  "end": 425.52,
+  "text": " orin yegalladi. Tesla ese",
+  "words": [
+   {
+    "w": " orin",
+    "s": 423.96,
+    "e": 424.32
+   },
+   {
+    "w": " yegalladi.",
+    "s": 424.32,
+    "e": 424.72
+   },
+   {
+    "w": " Tesla",
+    "s": 424.82,
+    "e": 425.32
+   },
+   {
+    "w": " ese",
+    "s": 425.32,
+    "e": 425.52
+   }
+  ]
+ },
+ {
+  "start": 425.52,
+  "end": 427.92,
+  "text": " elektromobillerini ammalashtirishka katta",
+  "words": [
+   {
+    "w": " elektromobillerini",
+    "s": 425.52,
+    "e": 426.8
+   },
+   {
+    "w": " ammalashtirishka",
+    "s": 426.8,
+    "e": 427.44
+   },
+   {
+    "w": " katta",
+    "s": 427.44,
+    "e": 427.92
+   }
+  ]
+ },
+ {
+  "start": 427.92,
+  "end": 429.8,
+  "text": " xisa koshdi. Albatta, Musk'in",
+  "words": [
+   {
+    "w": " xisa",
+    "s": 427.92,
+    "e": 428.12
+   },
+   {
+    "w": " koshdi.",
+    "s": 428.12,
+    "e": 428.44
+   },
+   {
+    "w": " Albatta,",
+    "s": 428.7,
+    "e": 429.46
+   },
+   {
+    "w": " Musk",
+    "s": 429.48,
+    "e": 429.64
+   },
+   {
+    "w": "'in",
+    "s": 429.64,
+    "e": 429.8
+   }
+  ]
+ },
+ {
+  "start": 429.8,
+  "end": 432.08,
+  "text": " fawaliyati fakat muhafaqiyatlardan ibarat imas.",
+  "words": [
+   {
+    "w": " fawaliyati",
+    "s": 429.8,
+    "e": 430.3
+   },
+   {
+    "w": " fakat",
+    "s": 430.3,
+    "e": 430.74
+   },
+   {
+    "w": " muhafaqiyatlardan",
+    "s": 430.74,
+    "e": 431.4
+   },
+   {
+    "w": " ibarat",
+    "s": 431.4,
+    "e": 431.8
+   },
+   {
+    "w": " imas.",
+    "s": 431.8,
+    "e": 432.08
+   }
+  ]
+ },
+ {
+  "start": 432.18,
+  "end": 434.26,
+  "text": " Unin kararlari, boshqaru uslubi",
+  "words": [
+   {
+    "w": " Unin",
+    "s": 432.18,
+    "e": 432.64
+   },
+   {
+    "w": " kararlari,",
+    "s": 432.64,
+    "e": 433.24
+   },
+   {
+    "w": " boshqaru",
+    "s": 433.24,
+    "e": 433.7
+   },
+   {
+    "w": " uslubi",
+    "s": 433.7,
+    "e": 434.26
+   }
+  ]
+ },
+ {
+  "start": 434.26,
+  "end": 435.82,
+  "text": " va ayrin bayanotlari kop",
+  "words": [
+   {
+    "w": " va",
+    "s": 434.26,
+    "e": 434.6
+   },
+   {
+    "w": " ayrin",
+    "s": 434.6,
+    "e": 434.98
+   },
+   {
+    "w": " bayanotlari",
+    "s": 434.98,
+    "e": 435.62
+   },
+   {
+    "w": " kop",
+    "s": 435.62,
+    "e": 435.82
+   }
+  ]
+ },
+ {
+  "start": 435.82,
+  "end": 437.48,
+  "text": " martta tangitlargi xan sabab bolgan.",
+  "words": [
+   {
+    "w": " martta",
+    "s": 435.82,
+    "e": 436.22
+   },
+   {
+    "w": " tangitlargi",
+    "s": 436.22,
+    "e": 436.8
+   },
+   {
+    "w": " xan",
+    "s": 436.8,
+    "e": 436.92
+   },
+   {
+    "w": " sabab",
+    "s": 436.92,
+    "e": 437.2
+   },
+   {
+    "w": " bolgan.",
+    "s": 437.2,
+    "e": 437.48
+   }
+  ]
+ },
+ {
+  "start": 437.6,
+  "end": 439.74,
+  "text": " Shulindeki unin yutuklari ortada minlab",
+  "words": [
+   {
+    "w": " Shulindeki",
+    "s": 437.6,
+    "e": 438.3
+   },
+   {
+    "w": " unin",
+    "s": 438.3,
+    "e": 438.58
+   },
+   {
+    "w": " yutuklari",
+    "s": 438.58,
+    "e": 439.02
+   },
+   {
+    "w": " ortada",
+    "s": 439.02,
+    "e": 439.26
+   },
+   {
+    "w": " minlab",
+    "s": 439.26,
+    "e": 439.74
+   }
+  ]
+ },
+ {
+  "start": 439.74,
+  "end": 441.74,
+  "text": " muhandislar, dasturchilar, ischilar",
+  "words": [
+   {
+    "w": " muhandislar,",
+    "s": 439.74,
+    "e": 440.3
+   },
+   {
+    "w": " dasturchilar,",
+    "s": 440.5,
+    "e": 441.26
+   },
+   {
+    "w": " ischilar",
+    "s": 441.4,
+    "e": 441.74
+   }
+  ]
+ },
+ {
+  "start": 441.74,
+  "end": 443.34,
+  "text": " va investorlarinin miknat turibdi.",
+  "words": [
+   {
+    "w": " va",
+    "s": 441.74,
+    "e": 441.96
+   },
+   {
+    "w": " investorlarinin",
+    "s": 441.96,
+    "e": 442.62
+   },
+   {
+    "w": " miknat",
+    "s": 442.62,
+    "e": 442.96
+   },
+   {
+    "w": " turibdi.",
+    "s": 442.96,
+    "e": 443.34
+   }
+  ]
+ },
+ {
+  "start": 443.58,
+  "end": 445.98,
+  "text": " Shusababli, buh koyani bir insan",
+  "words": [
+   {
+    "w": " Shusababli,",
+    "s": 443.58,
+    "e": 444.44
+   },
+   {
+    "w": " buh",
+    "s": 444.46,
+    "e": 444.72
+   },
+   {
+    "w": " koyani",
+    "s": 444.72,
+    "e": 445.14
+   },
+   {
+    "w": " bir",
+    "s": 445.14,
+    "e": 445.58
+   },
+   {
+    "w": " insan",
+    "s": 445.58,
+    "e": 445.98
+   }
+  ]
+ },
+ {
+  "start": 445.98,
+  "end": 447.82,
+  "text": " xam manarsage yalgis erishkandigan",
+  "words": [
+   {
+    "w": " xam",
+    "s": 445.98,
+    "e": 446.3
+   },
+   {
+    "w": " manarsage",
+    "s": 446.3,
+    "e": 446.74
+   },
+   {
+    "w": " yalgis",
+    "s": 446.74,
+    "e": 447.18
+   },
+   {
+    "w": " erishkandigan",
+    "s": 447.18,
+    "e": 447.82
+   }
+  ]
+ },
+ {
+  "start": 447.82,
+  "end": 449.78,
+  "text": " xolasage aylandirish tohrib olmaydi.",
+  "words": [
+   {
+    "w": " xolasage",
+    "s": 447.82,
+    "e": 448.34
+   },
+   {
+    "w": " aylandirish",
+    "s": 448.34,
+    "e": 448.88
+   },
+   {
+    "w": " tohrib",
+    "s": 448.88,
+    "e": 449.38
+   },
+   {
+    "w": " olmaydi.",
+    "s": 449.38,
+    "e": 449.78
+   }
+  ]
+ },
+ {
+  "start": 449.92,
+  "end": 452.0,
+  "text": " Amma, bitta tarihi tafsilat",
+  "words": [
+   {
+    "w": " Amma,",
+    "s": 449.92,
+    "e": 450.68
+   },
+   {
+    "w": " bitta",
+    "s": 450.68,
+    "e": 450.98
+   },
+   {
+    "w": " tarihi",
+    "s": 450.98,
+    "e": 451.38
+   },
+   {
+    "w": " tafsilat",
+    "s": 451.38,
+    "e": 452.0
+   }
+  ]
+ },
+ {
+  "start": 452.0,
+  "end": 453.12,
+  "text": " baribir xayratlanarli.",
+  "words": [
+   {
+    "w": " baribir",
+    "s": 452.0,
+    "e": 452.42
+   },
+   {
+    "w": " xayratlanarli.",
+    "s": 452.42,
+    "e": 453.12
+   }
+  ]
+ },
+ {
+  "start": 453.22,
+  "end": 455.6,
+  "text": " 1995-ci ilda internet",
+  "words": [
+   {
+    "w": " 1995",
+    "s": 453.22,
+    "e": 453.86
+   },
+   {
+    "w": "-ci",
+    "s": 453.86,
+    "e": 454.92
+   },
+   {
+    "w": " ilda",
+    "s": 454.92,
+    "e": 455.2
+   },
+   {
+    "w": " internet",
+    "s": 455.2,
+    "e": 455.6
+   }
+  ]
+ },
+ {
+  "start": 455.6,
+  "end": 457.8,
+  "text": " xaritalar usuda ishligan kichkina kampanya",
+  "words": [
+   {
+    "w": " xaritalar",
+    "s": 455.6,
+    "e": 456.32
+   },
+   {
+    "w": " usuda",
+    "s": 456.32,
+    "e": 456.54
+   },
+   {
+    "w": " ishligan",
+    "s": 456.54,
+    "e": 456.96
+   },
+   {
+    "w": " kichkina",
+    "s": 456.96,
+    "e": 457.34
+   },
+   {
+    "w": " kampanya",
+    "s": 457.34,
+    "e": 457.8
+   }
+  ]
+ },
+ {
+  "start": 457.8,
+  "end": 459.54,
+  "text": " asaschilardan biri, keyin chalik",
+  "words": [
+   {
+    "w": " asaschilardan",
+    "s": 457.8,
+    "e": 458.32
+   },
+   {
+    "w": " biri,",
+    "s": 458.32,
+    "e": 458.62
+   },
+   {
+    "w": " keyin",
+    "s": 458.78,
+    "e": 459.26
+   },
+   {
+    "w": " chalik",
+    "s": 459.26,
+    "e": 459.54
+   }
+  ]
+ },
+ {
+  "start": 459.54,
+  "end": 461.76,
+  "text": " elektromobiller va kosmik raketalar",
+  "words": [
+   {
+    "w": " elektromobiller",
+    "s": 459.54,
+    "e": 460.28
+   },
+   {
+    "w": " va",
+    "s": 460.28,
+    "e": 460.72
+   },
+   {
+    "w": " kosmik",
+    "s": 460.72,
+    "e": 461.26
+   },
+   {
+    "w": " raketalar",
+    "s": 461.26,
+    "e": 461.76
+   }
+  ]
+ },
+ {
+  "start": 461.76,
+  "end": 463.14,
+  "text": " ishlab chikaradigan kampanyalarga",
+  "words": [
+   {
+    "w": " ishlab",
+    "s": 461.76,
+    "e": 462.02
+   },
+   {
+    "w": " chikaradigan",
+    "s": 462.02,
+    "e": 462.42
+   },
+   {
+    "w": " kampanyalarga",
+    "s": 462.42,
+    "e": 463.14
+   }
+  ]
+ },
+ {
+  "start": 463.14,
+  "end": 465.38,
+  "text": " raqbarlik xildi. Va xammasinin",
+  "words": [
+   {
+    "w": " raqbarlik",
+    "s": 463.14,
+    "e": 463.9
+   },
+   {
+    "w": " xildi.",
+    "s": 463.9,
+    "e": 464.26
+   },
+   {
+    "w": " Va",
+    "s": 464.28,
+    "e": 464.74
+   },
+   {
+    "w": " xammasinin",
+    "s": 464.74,
+    "e": 465.38
+   }
+  ]
+ },
+ {
+  "start": 465.38,
+  "end": 467.32,
+  "text": " boshlanishi da kichkina ofis,",
+  "words": [
+   {
+    "w": " boshlanishi",
+    "s": 465.38,
+    "e": 465.9
+   },
+   {
+    "w": " da",
+    "s": 465.9,
+    "e": 466.06
+   },
+   {
+    "w": " kichkina",
+    "s": 466.06,
+    "e": 466.78
+   },
+   {
+    "w": " ofis,",
+    "s": 466.78,
+    "e": 467.32
+   }
+  ]
+ },
+ {
+  "start": 467.38,
+  "end": 469.54,
+  "text": " bitta kompyuter va katta tavaka",
+  "words": [
+   {
+    "w": " bitta",
+    "s": 467.38,
+    "e": 467.86
+   },
+   {
+    "w": " kompyuter",
+    "s": 467.86,
+    "e": 468.42
+   },
+   {
+    "w": " va",
+    "s": 468.42,
+    "e": 468.78
+   },
+   {
+    "w": " katta",
+    "s": 468.78,
+    "e": 469.26
+   },
+   {
+    "w": " tavaka",
+    "s": 469.26,
+    "e": 469.54
+   }
+  ]
+ },
+ {
+  "start": 469.54,
+  "end": 471.34,
+  "text": " baridi. Endi, sizge",
+  "words": [
+   {
+    "w": " baridi.",
+    "s": 469.54,
+    "e": 469.98
+   },
+   {
+    "w": " Endi,",
+    "s": 470.42,
+    "e": 471.06
+   },
+   {
+    "w": " sizge",
+    "s": 471.06,
+    "e": 471.34
+   }
+  ]
+ },
+ {
+  "start": 471.34,
+  "end": 473.66,
+  "text": " saval, agar 24 yashingizda",
+  "words": [
+   {
+    "w": " saval,",
+    "s": 471.34,
+    "e": 471.66
+   },
+   {
+    "w": " agar",
+    "s": 471.78,
+    "e": 472.68
+   },
+   {
+    "w": " 24",
+    "s": 472.68,
+    "e": 472.88
+   },
+   {
+    "w": " yashingizda",
+    "s": 472.88,
+    "e": 473.66
+   }
+  ]
+ },
+ {
+  "start": 473.66,
+  "end": 475.04,
+  "text": " dunyanin en nufuzli",
+  "words": [
+   {
+    "w": " dunyanin",
+    "s": 473.66,
+    "e": 474.22
+   },
+   {
+    "w": " en",
+    "s": 474.22,
+    "e": 474.42
+   },
+   {
+    "w": " nufuzli",
+    "s": 474.42,
+    "e": 475.04
+   }
+  ]
+ },
+ {
+  "start": 475.04,
+  "end": 476.68,
+  "text": " universitetlaridan birda okish,",
+  "words": [
+   {
+    "w": " universitetlaridan",
+    "s": 475.04,
+    "e": 475.96
+   },
+   {
+    "w": " birda",
+    "s": 475.96,
+    "e": 476.28
+   },
+   {
+    "w": " okish,",
+    "s": 476.28,
+    "e": 476.68
+   }
+  ]
+ },
+ {
+  "start": 476.78,
+  "end": 479.12,
+  "text": " ya ki xalik elecegi namalim biznesini",
+  "words": [
+   {
+    "w": " ya",
+    "s": 476.78,
+    "e": 477.08
+   },
+   {
+    "w": " ki",
+    "s": 477.08,
+    "e": 477.24
+   },
+   {
+    "w": " xalik",
+    "s": 477.24,
+    "e": 477.7
+   },
+   {
+    "w": " elecegi",
+    "s": 477.7,
+    "e": 478.06
+   },
+   {
+    "w": " namalim",
+    "s": 478.06,
+    "e": 478.58
+   },
+   {
+    "w": " biznesini",
+    "s": 478.58,
+    "e": 479.12
+   }
+  ]
+ },
+ {
+  "start": 479.12,
+  "end": 481.22,
+  "text": " boshlash imkaniyati berilse, kaysi birni",
+  "words": [
+   {
+    "w": " boshlash",
+    "s": 479.12,
+    "e": 479.44
+   },
+   {
+    "w": " imkaniyati",
+    "s": 479.44,
+    "e": 479.94
+   },
+   {
+    "w": " berilse,",
+    "s": 479.94,
+    "e": 480.28
+   },
+   {
+    "w": " kaysi",
+    "s": 480.38,
+    "e": 481.02
+   },
+   {
+    "w": " birni",
+    "s": 481.02,
+    "e": 481.22
+   }
+  ]
+ },
+ {
+  "start": 481.22,
+  "end": 483.3,
+  "text": " tallagan bolardigiz? Universitetini mi,",
+  "words": [
+   {
+    "w": " tallagan",
+    "s": 481.22,
+    "e": 481.54
+   },
+   {
+    "w": " bolardigiz?",
+    "s": 481.54,
+    "e": 482.06
+   },
+   {
+    "w": " Universitetini",
+    "s": 482.56,
+    "e": 483.2
+   },
+   {
+    "w": " mi,",
+    "s": 483.2,
+    "e": 483.3
+   }
+  ]
+ },
+ {
+  "start": 483.34,
+  "end": 485.42,
+  "text": " ya ki tavakkal qilib biznesi boshlashini mi?",
+  "words": [
+   {
+    "w": " ya",
+    "s": 483.34,
+    "e": 483.66
+   },
+   {
+    "w": " ki",
+    "s": 483.66,
+    "e": 483.8
+   },
+   {
+    "w": " tavakkal",
+    "s": 483.8,
+    "e": 484.34
+   },
+   {
+    "w": " qilib",
+    "s": 484.34,
+    "e": 484.58
+   },
+   {
+    "w": " biznesi",
+    "s": 484.58,
+    "e": 484.96
+   },
+   {
+    "w": " boshlashini",
+    "s": 484.96,
+    "e": 485.32
+   },
+   {
+    "w": " mi?",
+    "s": 485.32,
+    "e": 485.42
+   }
+  ]
+ },
+ {
+  "start": 485.86,
+  "end": 487.44,
+  "text": " Jawabingizini izahlarda yazib",
+  "words": [
+   {
+    "w": " Jawabingizini",
+    "s": 485.86,
+    "e": 486.5
+   },
+   {
+    "w": " izahlarda",
+    "s": 486.5,
+    "e": 487.12
+   },
+   {
+    "w": " yazib",
+    "s": 487.12,
+    "e": 487.44
+   }
+  ]
+ },
+ {
+  "start": 487.44,
+  "end": 487.72,
+  "text": " qaldirin.",
+  "words": [
+   {
+    "w": " qaldirin.",
+    "s": 487.44,
+    "e": 487.72
+   }
+  ]
+ }
+]
