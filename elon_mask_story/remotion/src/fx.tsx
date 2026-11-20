@@ -18,6 +18,9 @@ if (typeof document !== 'undefined' && !document.getElementById('local-fonts')) 
 
 export const FPS = 30;
 export const f = (sec: number) => Math.round(sec * FPS);
+export const W = 1920;
+export const H = 1080;
+export const SZ = 0.78; // type scale vs. the vertical design
 export const OVER = 8; // frames each shot lingers under the next one (no black gaps)
 
 export const GOLD = '#FFD23F';
@@ -44,7 +47,7 @@ const GRADES: Record<string, string> = {
   retro: 'sepia(0.45) contrast(1.15) saturate(0.85) brightness(0.92)',
 };
 
-/** One shot: video or photo, cropped to 9:16, with Ken Burns, grade and an entrance transition. */
+/** One shot: video or photo, cropped to 16:9, with Ken Burns, grade and an entrance transition. */
 export const Shot: React.FC<{
   src: string; img?: boolean; from: number; to: number; enter?: Enter;
   kb?: [number, number]; drift?: [number, number]; pos?: string; grade?: string;
@@ -67,10 +70,10 @@ const ShotInner: React.FC<any> = ({src, img, dur, enter, kb, drift, pos, grade, 
   const dx = interpolate(t, [0, 1], [0, drift[0]]);
   const dy = interpolate(t, [0, 1], [0, drift[1]]);
   let tx = 0, ty = 0, sc = 1, blur = 0, op = 1, clip = 'none';
-  if (enter === 'whip-up') { ty = (1 - p) * 1920; blur = (1 - p) * 40; }
-  if (enter === 'whip-down') { ty = -(1 - p) * 1920; blur = (1 - p) * 40; }
-  if (enter === 'whip-left') { tx = (1 - p) * 1080; blur = (1 - p) * 40; }
-  if (enter === 'whip-right') { tx = -(1 - p) * 1080; blur = (1 - p) * 40; }
+  if (enter === 'whip-up') { ty = (1 - p) * H; blur = (1 - p) * 40; }
+  if (enter === 'whip-down') { ty = -(1 - p) * H; blur = (1 - p) * 40; }
+  if (enter === 'whip-left') { tx = (1 - p) * W; blur = (1 - p) * 40; }
+  if (enter === 'whip-right') { tx = -(1 - p) * W; blur = (1 - p) * 40; }
   if (enter === 'zoom') { sc = interpolate(p, [0, 1], [1.6, 1]); blur = (1 - p) * 30; op = p; }
   if (enter === 'fade') { op = p; }
   if (enter === 'mask') { clip = `circle(${p * 120}% at 50% 50%)`; }
@@ -101,7 +104,7 @@ export const Grain: React.FC<{opacity?: number}> = ({opacity = 0.09}) => {
   const seed = frame % 12;
   return (
     <AbsoluteFill style={{opacity, mixBlendMode: 'overlay', pointerEvents: 'none'}}>
-      <svg width="1080" height="1920">
+      <svg width={W} height={H}>
         <filter id={`g${seed}`}>
           <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed={seed} stitchTiles="stitch" />
           <feColorMatrix type="saturate" values="0" />
@@ -307,7 +310,7 @@ const YearInner: React.FC<any> = ({y, from, to, suffix, dur}) => {
   const settle = spring({frame: frame - 22, fps, config: {damping: 7, stiffness: 300}});
   const rgb = frame < 24 ? 8 : 3 * (1 - settle);
   const out = interpolate(frame, [dur - 6, dur], [1, 0], clamp);
-  const sty: React.CSSProperties = {fontFamily: ANTON, fontSize: 250, lineHeight: 1, letterSpacing: 4};
+  const sty: React.CSSProperties = {fontFamily: ANTON, fontSize: 250 * SZ, lineHeight: 1, letterSpacing: 4};
   return (
     <AbsoluteFill style={{top: y, height: 'auto', alignItems: 'center', opacity: out}}>
       <div style={{position: 'relative', transform: `scale(${1 + 0.08 * (1 - settle) * (frame > 22 ? 1 : 0)})`}}>
@@ -315,7 +318,7 @@ const YearInner: React.FC<any> = ({y, from, to, suffix, dur}) => {
         <div style={{...sty, color: '#05d9e8', position: 'absolute', left: rgb, top: 0, mixBlendMode: 'screen'}}>{val}</div>
         <div style={{...sty, color: 'white', position: 'relative', textShadow: '0 0 30px rgba(5,217,232,0.6)'}}>{val}</div>
       </div>
-      <div style={{fontFamily: ANTON, fontSize: 110, color: YELLOW, opacity: interpolate(frame, [20, 28], [0, 1], clamp), letterSpacing: 8, textShadow: txtShadow}}>{suffix}</div>
+      <div style={{fontFamily: ANTON, fontSize: 110 * SZ, color: YELLOW, opacity: interpolate(frame, [20, 28], [0, 1], clamp), letterSpacing: 8, textShadow: txtShadow}}>{suffix}</div>
     </AbsoluteFill>
   );
 };
