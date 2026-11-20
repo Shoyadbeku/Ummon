@@ -12,6 +12,8 @@ export type Shot = {
   kind: 'clip' | 'mg'; clip?: string; file?: string; mg?: string; props?: any;
   overlay?: {type: string; text: string; extra?: string};
 };
+// Burned-in captions are off; the SRT file is delivered separately.
+const SHOW_CAPTIONS = false;
 export const shots = shotsJson as unknown as Shot[];
 
 // chapter tag that stays on screen at the top
@@ -123,7 +125,7 @@ export const Main: React.FC = () => {
         <HookLayer />
       </Sequence>
       <ChapterTag />
-      <Captions />
+      {SHOW_CAPTIONS ? <Captions /> : null}
       <Grain />
       <Fade />
     </AbsoluteFill>
