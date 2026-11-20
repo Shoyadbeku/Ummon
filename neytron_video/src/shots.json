@@ -1,0 +1,2953 @@
+[
+ {
+  "start": 0.0,
+  "seg": 0,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:34352",
+  "overlay": {
+   "type": "hook",
+   "text": "DUNYONI ASLIDA KIM BOSHQARADI?",
+   "extra": null
+  },
+  "end": 1.026,
+  "dur": 1.026,
+  "file": "clips/s000.mp4"
+ },
+ {
+  "start": 1.026,
+  "seg": 0,
+  "word": 2,
+  "kind": "clip",
+  "clip": "m:42896",
+  "end": 2.68,
+  "dur": 1.654,
+  "file": "clips/s001.mp4"
+ },
+ {
+  "start": 2.68,
+  "seg": 0,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:13168",
+  "end": 4.29,
+  "dur": 1.61,
+  "file": "clips/s002.mp4"
+ },
+ {
+  "start": 4.29,
+  "seg": 0,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:14710",
+  "overlay": {
+   "type": "notif",
+   "text": "YANGILIKLAR",
+   "extra": null
+  },
+  "end": 5.829,
+  "dur": 1.539,
+  "file": "clips/s003.mp4"
+ },
+ {
+  "start": 5.829,
+  "seg": 0,
+  "word": 9,
+  "kind": "clip",
+  "clip": "m:23811",
+  "overlay": {
+   "type": "label",
+   "text": "URUSH",
+   "extra": null
+  },
+  "end": 7.387,
+  "dur": 1.558,
+  "file": "clips/s004.mp4"
+ },
+ {
+  "start": 7.387,
+  "seg": 0,
+  "word": 13,
+  "kind": "clip",
+  "clip": "m:18305",
+  "overlay": {
+   "type": "stat",
+   "text": "DOLLAR",
+   "extra": "up"
+  },
+  "end": 9.366,
+  "dur": 1.979,
+  "file": "clips/s005.mp4"
+ },
+ {
+  "start": 9.366,
+  "seg": 0,
+  "word": 17,
+  "kind": "clip",
+  "clip": "m:18303",
+  "overlay": {
+   "type": "stat",
+   "text": "MILLIARDLAB $",
+   "extra": "down"
+  },
+  "end": 13.78,
+  "dur": 4.414,
+  "file": "clips/s006.mp4"
+ },
+ {
+  "start": 13.78,
+  "seg": 1,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4401",
+  "end": 15.994,
+  "dur": 2.214,
+  "file": "clips/s007.mp4"
+ },
+ {
+  "start": 15.994,
+  "seg": 1,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:5507",
+  "end": 18.061,
+  "dur": 2.067,
+  "file": "clips/s008.mp4"
+ },
+ {
+  "start": 18.061,
+  "seg": 1,
+  "word": 10,
+  "kind": "clip",
+  "clip": "m:5339",
+  "overlay": {
+   "type": "quote",
+   "text": "BU QARORLARNI ASLIDA KIM QABUL QILADI?",
+   "extra": null
+  },
+  "end": 22.74,
+  "dur": 4.679,
+  "file": "clips/s009.mp4"
+ },
+ {
+  "start": 22.74,
+  "seg": 2,
+  "word": 0,
+  "kind": "mg",
+  "mg": "who",
+  "props": {
+   "items": [
+    "PREZIDENTLAR",
+    "MILLIARDERLAR",
+    "BANKIRLAR"
+   ],
+   "bg": "m:45705",
+   "times": [
+    22.8,
+    24.026,
+    25.636
+   ],
+   "bgFile": "clips/s010_bg.mp4"
+  },
+  "end": 26.68,
+  "dur": 3.94
+ },
+ {
+  "start": 26.68,
+  "seg": 3,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:32298",
+  "end": 29.189,
+  "dur": 2.509,
+  "file": "clips/s011.mp4"
+ },
+ {
+  "start": 29.189,
+  "seg": 3,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:36897",
+  "overlay": {
+   "type": "label",
+   "text": "NOMA'LUM ODAMLAR?",
+   "extra": null
+  },
+  "end": 31.1,
+  "dur": 1.911,
+  "file": "clips/s012.mp4"
+ },
+ {
+  "start": 31.1,
+  "seg": 4,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:23289",
+  "end": 34.387,
+  "dur": 3.287,
+  "file": "clips/s013.mp4"
+ },
+ {
+  "start": 34.387,
+  "seg": 4,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:49885",
+  "overlay": {
+   "type": "label",
+   "text": "XOHLAGAN QARORNI QABUL QILA OLMAYDI",
+   "extra": null
+  },
+  "end": 36.92,
+  "dur": 2.533,
+  "file": "clips/s014.mp4"
+ },
+ {
+  "start": 36.92,
+  "seg": 5,
+  "word": 0,
+  "kind": "mg",
+  "mg": "factors",
+  "props": {
+   "title": "UNING ORTIDA",
+   "items": [
+    "IQTISODIYOT",
+    "QONUNLAR",
+    "BANKLAR",
+    "HARBIY TIZIM",
+    "MILLIONLAB INSONLAR"
+   ],
+   "bg": "m:47006",
+   "times": [
+    38.253,
+    39.327,
+    39.855,
+    40.584,
+    42.146
+   ],
+   "bgFile": "clips/s015_bg.mp4"
+  },
+  "end": 44.3,
+  "dur": 7.38
+ },
+ {
+  "start": 44.3,
+  "seg": 6,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21607",
+  "end": 48.04,
+  "dur": 3.74,
+  "file": "clips/s016.mp4"
+ },
+ {
+  "start": 48.04,
+  "seg": 7,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21612",
+  "end": 50.593,
+  "dur": 2.553,
+  "file": "clips/s017.mp4"
+ },
+ {
+  "start": 50.593,
+  "seg": 7,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:100113",
+  "end": 52.8,
+  "dur": 2.207,
+  "file": "clips/s018.mp4"
+ },
+ {
+  "start": 52.8,
+  "seg": 8,
+  "word": 0,
+  "kind": "mg",
+  "mg": "question",
+  "props": {
+   "text": "HAQIQIY HOKIMIYAT KIMNING QO'LIDA?",
+   "bg": "m:21617",
+   "bgFile": "clips/s019_bg.mp4"
+  },
+  "end": 55.76,
+  "dur": 2.96
+ },
+ {
+  "start": 55.76,
+  "seg": 9,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 1,
+   "title": "PREZIDENTLAR",
+   "bg": "m:11799",
+   "bgFile": "clips/s020_bg.mp4"
+  },
+  "end": 57.8,
+  "dur": 2.04
+ },
+ {
+  "start": 57.8,
+  "seg": 10,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:8764",
+  "end": 60.413,
+  "dur": 2.613,
+  "file": "clips/s021.mp4"
+ },
+ {
+  "start": 60.413,
+  "seg": 10,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:46238",
+  "overlay": {
+   "type": "label",
+   "text": "AQSH PREZIDENTI",
+   "extra": "eng kuchli siyosiy lavozimlardan biri"
+  },
+  "end": 62.44,
+  "dur": 2.027,
+  "file": "clips/s022.mp4"
+ },
+ {
+  "start": 62.44,
+  "seg": 11,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:7373",
+  "end": 64.007,
+  "dur": 1.567,
+  "file": "clips/s023.mp4"
+ },
+ {
+  "start": 64.007,
+  "seg": 11,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:22181",
+  "overlay": {
+   "type": "label",
+   "text": "ULKAN HARBIY KUCH",
+   "extra": null
+  },
+  "end": 65.6,
+  "dur": 1.593,
+  "file": "clips/s024.mp4"
+ },
+ {
+  "start": 65.6,
+  "seg": 12,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:23059",
+  "overlay": {
+   "type": "label",
+   "text": "YADROVIY QUROLLAR",
+   "extra": "favqulodda vakolatlar"
+  },
+  "end": 68.82,
+  "dur": 3.22,
+  "file": "clips/s025.mp4"
+ },
+ {
+  "start": 68.82,
+  "seg": 13,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:35869",
+  "overlay": {
+   "type": "label",
+   "text": "XALQARO SAVDO",
+   "extra": null
+  },
+  "end": 71.92,
+  "dur": 3.1,
+  "file": "clips/s026.mp4"
+ },
+ {
+  "start": 71.92,
+  "seg": 13,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:23049",
+  "overlay": {
+   "type": "label",
+   "text": "URUSHLAR",
+   "extra": null
+  },
+  "end": 72.92,
+  "dur": 1.0,
+  "file": "clips/s027.mp4"
+ },
+ {
+  "start": 72.92,
+  "seg": 13,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:23044",
+  "overlay": {
+   "type": "label",
+   "text": "DIPLOMATIYA",
+   "extra": null
+  },
+  "end": 74.54,
+  "dur": 1.62,
+  "file": "clips/s028.mp4"
+ },
+ {
+  "start": 74.54,
+  "seg": 14,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:40711",
+  "end": 77.854,
+  "dur": 3.314,
+  "file": "clips/s029.mp4"
+ },
+ {
+  "start": 77.854,
+  "seg": 14,
+  "word": 8,
+  "kind": "clip",
+  "clip": "m:9188",
+  "overlay": {
+   "type": "quote",
+   "text": "HAMMA NARSANI BIR O'ZI HAL QILA OLMAYDI",
+   "extra": null
+  },
+  "end": 79.1,
+  "dur": 1.246,
+  "file": "clips/s030.mp4"
+ },
+ {
+  "start": 79.1,
+  "seg": 15,
+  "word": 0,
+  "kind": "mg",
+  "mg": "checks",
+  "props": {
+   "items": [
+    "KONGRESS",
+    "SUDLAR",
+    "KONSTITUTSIYA"
+   ],
+   "center": "PREZIDENT",
+   "bg": "m:11804",
+   "times": [
+    79.16,
+    80.263,
+    81.188
+   ],
+   "bgFile": "clips/s031_bg.mp4"
+  },
+  "end": 82.38,
+  "dur": 3.28
+ },
+ {
+  "start": 82.38,
+  "seg": 16,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:17049",
+  "end": 84.96,
+  "dur": 2.58,
+  "file": "clips/s032.mp4"
+ },
+ {
+  "start": 84.96,
+  "seg": 17,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46820",
+  "end": 87.194,
+  "dur": 2.234,
+  "file": "clips/s033.mp4"
+ },
+ {
+  "start": 87.194,
+  "seg": 17,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:47602",
+  "end": 88.02,
+  "dur": 0.826,
+  "file": "clips/s034.mp4"
+ },
+ {
+  "start": 88.02,
+  "seg": 18,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46806",
+  "overlay": {
+   "type": "quote",
+   "text": "CHEKSIZ HOKIMIYATGA EGA EMAS",
+   "extra": null
+  },
+  "end": 92.72,
+  "dur": 4.7,
+  "file": "clips/s035.mp4"
+ },
+ {
+  "start": 92.72,
+  "seg": 19,
+  "word": 0,
+  "kind": "mg",
+  "mg": "question",
+  "props": {
+   "text": "UNDA DUNYONI KIM BOSHQARADI?",
+   "bg": "m:29351",
+   "bgFile": "clips/s036_bg.mp4"
+  },
+  "end": 94.92,
+  "dur": 2.2
+ },
+ {
+  "start": 94.92,
+  "seg": 20,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:18249",
+  "overlay": {
+   "type": "label",
+   "text": "PUL?",
+   "extra": null
+  },
+  "end": 97.12,
+  "dur": 2.2,
+  "file": "clips/s037.mp4"
+ },
+ {
+  "start": 97.12,
+  "seg": 21,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 2,
+   "title": "BANKLAR",
+   "bg": "m:49379",
+   "bgFile": "clips/s038_bg.mp4"
+  },
+  "end": 100.38,
+  "dur": 3.26
+ },
+ {
+  "start": 100.38,
+  "seg": 22,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4135",
+  "end": 101.34,
+  "dur": 0.96,
+  "file": "clips/s039.mp4"
+ },
+ {
+  "start": 101.34,
+  "seg": 23,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:26763",
+  "overlay": {
+   "type": "breaking",
+   "text": "FEDERAL REZERV FOIZ STAVKASINI OSHIRDI",
+   "extra": null
+  },
+  "end": 104.312,
+  "dur": 2.972,
+  "file": "clips/s040.mp4"
+ },
+ {
+  "start": 104.312,
+  "seg": 23,
+  "word": 7,
+  "kind": "mg",
+  "mg": "rate",
+  "props": {
+   "title": "FOIZ STAVKASI",
+   "bg": "m:47213",
+   "bgFile": "clips/s041_bg.mp4"
+  },
+  "end": 106.92,
+  "dur": 2.608
+ },
+ {
+  "start": 106.92,
+  "seg": 24,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4437",
+  "end": 109.51,
+  "dur": 2.59,
+  "file": "clips/s042.mp4"
+ },
+ {
+  "start": 109.51,
+  "seg": 24,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:14142",
+  "overlay": {
+   "type": "label",
+   "text": "TA'SIRI BUTUN DUNYOGA",
+   "extra": null
+  },
+  "end": 111.8,
+  "dur": 2.29,
+  "file": "clips/s043.mp4"
+ },
+ {
+  "start": 111.8,
+  "seg": 25,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:38482",
+  "overlay": {
+   "type": "stat",
+   "text": "KREDITLAR",
+   "extra": "up"
+  },
+  "end": 113.36,
+  "dur": 1.56,
+  "file": "clips/s044.mp4"
+ },
+ {
+  "start": 113.36,
+  "seg": 26,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47214",
+  "overlay": {
+   "type": "stat",
+   "text": "INVESTORLAR → BOSHQA BOZORLAR",
+   "extra": "right"
+  },
+  "end": 116.34,
+  "dur": 2.98,
+  "file": "clips/s045.mp4"
+ },
+ {
+  "start": 116.34,
+  "seg": 27,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:18261",
+  "overlay": {
+   "type": "stat",
+   "text": "MILLIY VALYUTALAR",
+   "extra": "down"
+  },
+  "end": 119.94,
+  "dur": 3.6,
+  "file": "clips/s046.mp4"
+ },
+ {
+  "start": 119.94,
+  "seg": 28,
+  "word": 0,
+  "kind": "mg",
+  "mg": "map",
+  "props": {
+   "from": "WASHINGTON",
+   "to": null,
+   "caption": "MINGLAB KILOMETR"
+  },
+  "end": 123.515,
+  "dur": 3.575
+ },
+ {
+  "start": 123.515,
+  "seg": 28,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:25890",
+  "end": 126.26,
+  "dur": 2.745,
+  "file": "clips/s048.mp4"
+ },
+ {
+  "start": 126.26,
+  "seg": 29,
+  "word": 0,
+  "kind": "mg",
+  "mg": "map",
+  "props": {
+   "from": "WASHINGTON",
+   "to": "TOSHKENT",
+   "caption": "O'ZBEKISTON"
+  },
+  "end": 129.047,
+  "dur": 2.787
+ },
+ {
+  "start": 129.047,
+  "seg": 29,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:4450",
+  "overlay": {
+   "type": "label",
+   "text": "IMPORT MAHSULOT",
+   "extra": null
+  },
+  "end": 130.62,
+  "dur": 1.573,
+  "file": "clips/s050.mp4"
+ },
+ {
+  "start": 130.62,
+  "seg": 30,
+  "word": 0,
+  "kind": "mg",
+  "mg": "fx",
+  "props": {
+   "title": "DOLLAR KURSI",
+   "sub": "XARAJATLAR",
+   "bg": "m:18296",
+   "bgFile": "clips/s051_bg.mp4"
+  },
+  "end": 134.84,
+  "dur": 4.22
+ },
+ {
+  "start": 134.84,
+  "seg": 31,
+  "word": 0,
+  "kind": "mg",
+  "mg": "link",
+  "props": {
+   "a": "AMERIKA",
+   "aSub": "moliyaviy qaror",
+   "b": "TOSHKENT",
+   "bSub": "do'kon narxi"
+  },
+  "end": 139.12,
+  "dur": 4.28
+ },
+ {
+  "start": 139.12,
+  "seg": 31,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:31969",
+  "end": 141.48,
+  "dur": 2.36,
+  "file": "clips/s053.mp4"
+ },
+ {
+  "start": 141.48,
+  "seg": 32,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:49731",
+  "overlay": {
+   "type": "label",
+   "text": "MUHIM JIHAT",
+   "extra": null
+  },
+  "end": 143.66,
+  "dur": 2.18,
+  "file": "clips/s054.mp4"
+ },
+ {
+  "start": 143.66,
+  "seg": 33,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:50744",
+  "overlay": {
+   "type": "stamp",
+   "text": "MAXFIY TASHKILOT EMAS",
+   "extra": null
+  },
+  "end": 147.86,
+  "dur": 4.2,
+  "file": "clips/s055.mp4"
+ },
+ {
+  "start": 147.86,
+  "seg": 34,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4169",
+  "overlay": {
+   "type": "label",
+   "text": "FEDERAL REZERV",
+   "extra": "AQShning markaziy bank tizimi"
+  },
+  "end": 150.56,
+  "dur": 2.7,
+  "file": "clips/s056.mp4"
+ },
+ {
+  "start": 150.56,
+  "seg": 34,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:47601",
+  "overlay": {
+   "type": "label",
+   "text": "QONUNIY VAKOLATLAR DOIRASIDA",
+   "extra": null
+  },
+  "end": 153.28,
+  "dur": 2.72,
+  "file": "clips/s057.mp4"
+ },
+ {
+  "start": 153.28,
+  "seg": 35,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47517",
+  "end": 155.397,
+  "dur": 2.117,
+  "file": "clips/s058.mp4"
+ },
+ {
+  "start": 155.397,
+  "seg": 35,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:12748",
+  "overlay": {
+   "type": "label",
+   "text": "XALQARO MOLIYA TIZIMI",
+   "extra": null
+  },
+  "end": 158.4,
+  "dur": 3.003,
+  "file": "clips/s059.mp4"
+ },
+ {
+  "start": 158.4,
+  "seg": 36,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:45032",
+  "overlay": {
+   "type": "label",
+   "text": "DUNYO IQTISODIYOTI",
+   "extra": null
+  },
+  "end": 162.04,
+  "dur": 3.64,
+  "file": "clips/s060.mp4"
+ },
+ {
+  "start": 162.04,
+  "seg": 37,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 3,
+   "title": "ENG KATTA PULLAR",
+   "bg": "m:45703",
+   "bgFile": "clips/s061_bg.mp4"
+  },
+  "end": 164.9,
+  "dur": 2.86
+ },
+ {
+  "start": 164.9,
+  "seg": 38,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:45701",
+  "end": 168.219,
+  "dur": 3.319,
+  "file": "clips/s062.mp4"
+ },
+ {
+  "start": 168.219,
+  "seg": 38,
+  "word": 8,
+  "kind": "clip",
+  "clip": "m:47005",
+  "overlay": {
+   "type": "quote",
+   "text": "ENG KATTA PULLAR KIMNING QO'LIDA?",
+   "extra": null
+  },
+  "end": 170.86,
+  "dur": 2.641,
+  "file": "clips/s063.mp4"
+ },
+ {
+  "start": 170.86,
+  "seg": 39,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:30386",
+  "overlay": {
+   "type": "big",
+   "text": "3",
+   "extra": null
+  },
+  "end": 173.3,
+  "dur": 2.44,
+  "file": "clips/s064.mp4"
+ },
+ {
+  "start": 173.3,
+  "seg": 40,
+  "word": 0,
+  "kind": "mg",
+  "mg": "names",
+  "props": {
+   "items": [
+    "BlackRock",
+    "Vanguard",
+    "State Street"
+   ],
+   "bg": "m:40652",
+   "times": [
+    173.36,
+    174.238,
+    175.008
+   ],
+   "bgFile": "clips/s065_bg.mp4"
+  },
+  "end": 176.54,
+  "dur": 3.24
+ },
+ {
+  "start": 176.54,
+  "seg": 41,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:41539",
+  "end": 179.581,
+  "dur": 3.041,
+  "file": "clips/s066.mp4"
+ },
+ {
+  "start": 179.581,
+  "seg": 41,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:47016",
+  "overlay": {
+   "type": "label",
+   "text": "ENG YIRIK AKTIV BOSHQARUVCHILAR",
+   "extra": null
+  },
+  "end": 181.8,
+  "dur": 2.219,
+  "file": "clips/s067.mp4"
+ },
+ {
+  "start": 181.8,
+  "seg": 42,
+  "word": 0,
+  "kind": "mg",
+  "mg": "counter",
+  "props": {
+   "title": "TRILLIONLAB DOLLAR",
+   "bg": "m:18262",
+   "bgFile": "clips/s068_bg.mp4"
+  },
+  "end": 185.62,
+  "dur": 3.82
+ },
+ {
+  "start": 185.62,
+  "seg": 43,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:45706",
+  "end": 188.745,
+  "dur": 3.125,
+  "file": "clips/s069.mp4"
+ },
+ {
+  "start": 188.745,
+  "seg": 43,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:40701",
+  "overlay": {
+   "type": "label",
+   "text": "INVESTITSIYA FONDLARI",
+   "extra": null
+  },
+  "end": 191.06,
+  "dur": 2.315,
+  "file": "clips/s070.mp4"
+ },
+ {
+  "start": 191.06,
+  "seg": 44,
+  "word": 0,
+  "kind": "mg",
+  "mg": "grid",
+  "props": {
+   "items": [
+    "TEXNOLOGIYA",
+    "ENERGETIKA",
+    "BANK",
+    "FARMATSEVTIKA"
+   ],
+   "clips": [
+    "m:47051",
+    "m:46319",
+    "m:46980",
+    "m:1776"
+   ],
+   "times": [
+    191.12,
+    191.895,
+    192.725,
+    193.207
+   ],
+   "clipFiles": [
+    "clips/s071_t0.mp4",
+    "clips/s071_t1.mp4",
+    "clips/s071_t2.mp4",
+    "clips/s071_t3.mp4"
+   ]
+  },
+  "end": 195.3,
+  "dur": 4.24
+ },
+ {
+  "start": 195.3,
+  "seg": 45,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:42648",
+  "end": 197.257,
+  "dur": 1.957,
+  "file": "clips/s072.mp4"
+ },
+ {
+  "start": 197.257,
+  "seg": 45,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:45707",
+  "overlay": {
+   "type": "label",
+   "text": "AKSIYALAR",
+   "extra": null
+  },
+  "end": 200.5,
+  "dur": 3.243,
+  "file": "clips/s073.mp4"
+ },
+ {
+  "start": 200.5,
+  "seg": 46,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:23116",
+  "overlay": {
+   "type": "label",
+   "text": "KORPORATIV QARORLAR",
+   "extra": null
+  },
+  "end": 204.64,
+  "dur": 4.14,
+  "file": "clips/s074.mp4"
+ },
+ {
+  "start": 204.64,
+  "seg": 47,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46677",
+  "overlay": {
+   "type": "label",
+   "text": "DIREKTORLAR KENGASHI",
+   "extra": null
+  },
+  "end": 208.2,
+  "dur": 3.56,
+  "file": "clips/s075.mp4"
+ },
+ {
+  "start": 208.2,
+  "seg": 48,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:13192",
+  "overlay": {
+   "type": "label",
+   "text": "OVOZ BERISH",
+   "extra": null
+  },
+  "end": 210.88,
+  "dur": 2.68,
+  "file": "clips/s076.mp4"
+ },
+ {
+  "start": 210.88,
+  "seg": 49,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:49736",
+  "overlay": {
+   "type": "label",
+   "text": "MUHIM FARQ",
+   "extra": null
+  },
+  "end": 214.56,
+  "dur": 3.68,
+  "file": "clips/s077.mp4"
+ },
+ {
+  "start": 214.56,
+  "seg": 50,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:18304",
+  "overlay": {
+   "type": "stamp",
+   "text": "SHAXSIY PULI EMAS",
+   "extra": null
+  },
+  "end": 219.88,
+  "dur": 5.32,
+  "file": "clips/s078.mp4"
+ },
+ {
+  "start": 219.88,
+  "seg": 51,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4764",
+  "end": 221.226,
+  "dur": 1.346,
+  "file": "clips/s079.mp4"
+ },
+ {
+  "start": 221.226,
+  "seg": 51,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:4738",
+  "overlay": {
+   "type": "label",
+   "text": "PENSIYA JAMG'ARMALARI",
+   "extra": null
+  },
+  "end": 222.499,
+  "dur": 1.273,
+  "file": "clips/s080.mp4"
+ },
+ {
+  "start": 222.499,
+  "seg": 51,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:14977",
+  "overlay": {
+   "type": "label",
+   "text": "INVESTITSIYA FONDLARI",
+   "extra": null
+  },
+  "end": 223.949,
+  "dur": 1.45,
+  "file": "clips/s081.mp4"
+ },
+ {
+  "start": 223.949,
+  "seg": 51,
+  "word": 8,
+  "kind": "clip",
+  "clip": "m:21325",
+  "overlay": {
+   "type": "label",
+   "text": "ODDIY MIJOZLAR",
+   "extra": null
+  },
+  "end": 225.54,
+  "dur": 1.591,
+  "file": "clips/s082.mp4"
+ },
+ {
+  "start": 225.54,
+  "seg": 52,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:41541",
+  "end": 230.24,
+  "dur": 4.7,
+  "file": "clips/s083.mp4"
+ },
+ {
+  "start": 230.24,
+  "seg": 53,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46632",
+  "overlay": {
+   "type": "stamp",
+   "text": "NOTO'G'RI",
+   "extra": null
+  },
+  "end": 233.24,
+  "dur": 3.0,
+  "file": "clips/s084.mp4"
+ },
+ {
+  "start": 233.24,
+  "seg": 54,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47018",
+  "overlay": {
+   "type": "label",
+   "text": "MOLIYA BOZORIDAGI TA'SIR",
+   "extra": "juda katta"
+  },
+  "end": 236.48,
+  "dur": 3.24,
+  "file": "clips/s085.mp4"
+ },
+ {
+  "start": 236.48,
+  "seg": 55,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:31536",
+  "end": 239.16,
+  "dur": 2.68,
+  "file": "clips/s086.mp4"
+ },
+ {
+  "start": 239.16,
+  "seg": 56,
+  "word": 0,
+  "kind": "mg",
+  "mg": "vs",
+  "props": {
+   "a": "PUL",
+   "b": "AXBOROT",
+   "clipA": "m:18263",
+   "clipB": "m:50748",
+   "times": [
+    239.22,
+    241.377
+   ],
+   "clipAFile": "clips/s087_clipA.mp4",
+   "clipBFile": "clips/s087_clipB.mp4"
+  },
+  "end": 242.02,
+  "dur": 2.86
+ },
+ {
+  "start": 242.02,
+  "seg": 57,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4801",
+  "end": 243.523,
+  "dur": 1.503,
+  "file": "clips/s088.mp4"
+ },
+ {
+  "start": 243.523,
+  "seg": 57,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:144",
+  "overlay": {
+   "type": "label",
+   "text": "HAR KUNI NECHA MARTA?",
+   "extra": null
+  },
+  "end": 246.14,
+  "dur": 2.617,
+  "file": "clips/s089.mp4"
+ },
+ {
+  "start": 246.14,
+  "seg": 58,
+  "word": 0,
+  "kind": "mg",
+  "mg": "phone",
+  "props": {
+   "app": "Instagram",
+   "q": "Nima ko'rasiz?"
+  },
+  "end": 247.74,
+  "dur": 1.6
+ },
+ {
+  "start": 247.74,
+  "seg": 59,
+  "word": 0,
+  "kind": "mg",
+  "mg": "phone",
+  "props": {
+   "app": "YouTube",
+   "q": "Qaysi video tavsiya qilinadi?"
+  },
+  "end": 250.3,
+  "dur": 2.56
+ },
+ {
+  "start": 250.3,
+  "seg": 60,
+  "word": 0,
+  "kind": "mg",
+  "mg": "phone",
+  "props": {
+   "app": "Google",
+   "q": "Qaysi natija birinchi?"
+  },
+  "end": 253.72,
+  "dur": 3.42
+ },
+ {
+  "start": 253.72,
+  "seg": 61,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:31413",
+  "end": 258.04,
+  "dur": 4.32,
+  "file": "clips/s093.mp4"
+ },
+ {
+  "start": 258.04,
+  "seg": 62,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:22760",
+  "overlay": {
+   "type": "label",
+   "text": "ALGORITMLAR",
+   "extra": "axborotni saralaydi"
+  },
+  "end": 262.74,
+  "dur": 4.7,
+  "file": "clips/s094.mp4"
+ },
+ {
+  "start": 262.74,
+  "seg": 63,
+  "word": 0,
+  "kind": "mg",
+  "mg": "algo",
+  "props": {
+   "items": [
+    "QIZIQISHLARINGIZ",
+    "AVVALGI HARAKATLARINGIZ",
+    "BOSHQA SIGNALLAR"
+   ],
+   "out": "KONTENT TAVSIYASI",
+   "bg": "m:26776",
+   "times": [
+    264.646,
+    266.221,
+    267.634
+   ],
+   "bgFile": "clips/s095_bg.mp4"
+  },
+  "end": 270.1,
+  "dur": 7.36
+ },
+ {
+  "start": 270.1,
+  "seg": 64,
+  "word": 0,
+  "kind": "mg",
+  "mg": "split3",
+  "props": {
+   "items": [
+    "URUSH",
+    "IQTISOD",
+    "KO'NGILOCHAR"
+   ],
+   "clips": [
+    "m:23136",
+    "m:47012",
+    "m:26092"
+   ],
+   "times": [
+    271.657,
+    274.477,
+    277.004
+   ],
+   "clipFiles": [
+    "clips/s096_t0.mp4",
+    "clips/s096_t1.mp4",
+    "clips/s096_t2.mp4"
+   ]
+  },
+  "end": 279.74,
+  "dur": 9.64
+ },
+ {
+  "start": 279.74,
+  "seg": 66,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:14724",
+  "end": 283.4,
+  "dur": 3.66,
+  "file": "clips/s097.mp4"
+ },
+ {
+  "start": 283.4,
+  "seg": 67,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:12262",
+  "overlay": {
+   "type": "quote",
+   "text": "YANGI TURDAGI HOKIMIYAT",
+   "extra": null
+  },
+  "end": 286.98,
+  "dur": 3.58,
+  "file": "clips/s098.mp4"
+ },
+ {
+  "start": 286.98,
+  "seg": 68,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21618",
+  "overlay": {
+   "type": "label",
+   "text": "DAVLAT CHEGARALARIGA BOG'LANMAGAN",
+   "extra": null
+  },
+  "end": 289.86,
+  "dur": 2.88,
+  "file": "clips/s099.mp4"
+ },
+ {
+  "start": 289.86,
+  "seg": 69,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:41180",
+  "overlay": {
+   "type": "label",
+   "text": "DIQQATNI BOSHQARISH",
+   "extra": null
+  },
+  "end": 293.92,
+  "dur": 4.06,
+  "file": "clips/s100.mp4"
+ },
+ {
+  "start": 293.92,
+  "seg": 70,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:23219",
+  "end": 295.906,
+  "dur": 1.986,
+  "file": "clips/s101.mp4"
+ },
+ {
+  "start": 295.906,
+  "seg": 70,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:28609",
+  "overlay": {
+   "type": "label",
+   "text": "MILLIARDLAB FOYDALANUVCHI",
+   "extra": null
+  },
+  "end": 300.32,
+  "dur": 4.414,
+  "file": "clips/s102.mp4"
+ },
+ {
+  "start": 300.32,
+  "seg": 71,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:15776",
+  "overlay": {
+   "type": "stamp",
+   "text": "TO'LIQ NAZORAT EMAS",
+   "extra": null
+  },
+  "end": 304.7,
+  "dur": 4.38,
+  "file": "clips/s103.mp4"
+ },
+ {
+  "start": 304.7,
+  "seg": 72,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:39767",
+  "overlay": {
+   "type": "label",
+   "text": "OILA",
+   "extra": null
+  },
+  "end": 306.864,
+  "dur": 2.164,
+  "file": "clips/s104.mp4"
+ },
+ {
+  "start": 306.864,
+  "seg": 72,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:4519",
+  "overlay": {
+   "type": "label",
+   "text": "TA'LIM",
+   "extra": null
+  },
+  "end": 307.446,
+  "dur": 0.582,
+  "file": "clips/s105.mp4"
+ },
+ {
+  "start": 307.446,
+  "seg": 72,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:16145",
+  "overlay": {
+   "type": "label",
+   "text": "SHAXSIY TAJRIBA",
+   "extra": null
+  },
+  "end": 311.56,
+  "dur": 4.114,
+  "file": "clips/s106.mp4"
+ },
+ {
+  "start": 311.56,
+  "seg": 73,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:41192",
+  "end": 313.312,
+  "dur": 1.752,
+  "file": "clips/s107.mp4"
+ },
+ {
+  "start": 313.312,
+  "seg": 73,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:14044",
+  "overlay": {
+   "type": "label",
+   "text": "AXBOROT TARQATISH KUCHI",
+   "extra": null
+  },
+  "end": 315.94,
+  "dur": 2.628,
+  "file": "clips/s108.mp4"
+ },
+ {
+  "start": 315.94,
+  "seg": 74,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:9050",
+  "end": 318.993,
+  "dur": 3.053,
+  "file": "clips/s109.mp4"
+ },
+ {
+  "start": 318.993,
+  "seg": 74,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:49265",
+  "end": 321.52,
+  "dur": 2.527,
+  "file": "clips/s110.mp4"
+ },
+ {
+  "start": 321.52,
+  "seg": 75,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 5,
+   "title": "ENERGIYA",
+   "bg": "m:30219",
+   "bgFile": "clips/s111_bg.mp4"
+  },
+  "end": 324.88,
+  "dur": 3.36
+ },
+ {
+  "start": 324.88,
+  "seg": 76,
+  "word": 0,
+  "kind": "mg",
+  "mg": "grid",
+  "props": {
+   "items": [
+    "NEFT",
+    "GAZ",
+    "ELEKTR"
+   ],
+   "clips": [
+    "m:48353",
+    "m:8394",
+    "m:25181"
+   ],
+   "title": "ENERGIYA",
+   "times": [
+    326.071,
+    326.92,
+    327.477
+   ],
+   "clipFiles": [
+    "clips/s112_t0.mp4",
+    "clips/s112_t1.mp4",
+    "clips/s112_t2.mp4"
+   ]
+  },
+  "end": 328.48,
+  "dur": 3.6
+ },
+ {
+  "start": 328.48,
+  "seg": 77,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:48884",
+  "overlay": {
+   "type": "stat",
+   "text": "NEFT QAZIB OLISH",
+   "extra": "down"
+  },
+  "end": 331.557,
+  "dur": 3.077,
+  "file": "clips/s113.mp4"
+ },
+ {
+  "start": 331.557,
+  "seg": 77,
+  "word": 9,
+  "kind": "clip",
+  "clip": "m:47796",
+  "overlay": {
+   "type": "stat",
+   "text": "NARXLAR O'ZGARADI",
+   "extra": "updown"
+  },
+  "end": 334.22,
+  "dur": 2.663,
+  "file": "clips/s114.mp4"
+ },
+ {
+  "start": 334.22,
+  "seg": 78,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:28787",
+  "overlay": {
+   "type": "label",
+   "text": "TRANSPORT XARAJATLARI",
+   "extra": null
+  },
+  "end": 336.541,
+  "dur": 2.321,
+  "file": "clips/s115.mp4"
+ },
+ {
+  "start": 336.541,
+  "seg": 78,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:47257",
+  "overlay": {
+   "type": "label",
+   "text": "ISHLAB CHIQARISH",
+   "extra": null
+  },
+  "end": 338.162,
+  "dur": 1.621,
+  "file": "clips/s116.mp4"
+ },
+ {
+  "start": 338.162,
+  "seg": 78,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:48128",
+  "overlay": {
+   "type": "label",
+   "text": "OZIQ-OVQAT NARXLARI",
+   "extra": null
+  },
+  "end": 340.02,
+  "dur": 1.858,
+  "file": "clips/s117.mp4"
+ },
+ {
+  "start": 340.02,
+  "seg": 79,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4359",
+  "end": 343.29,
+  "dur": 3.27,
+  "file": "clips/s118.mp4"
+ },
+ {
+  "start": 343.29,
+  "seg": 79,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:5587",
+  "overlay": {
+   "type": "label",
+   "text": "GEOSIYOSIY USTUNLIK",
+   "extra": null
+  },
+  "end": 346.04,
+  "dur": 2.75,
+  "file": "clips/s119.mp4"
+ },
+ {
+  "start": 346.04,
+  "seg": 80,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:20857",
+  "overlay": {
+   "type": "quote",
+   "text": "FAQAT YOQILG'I EMAS",
+   "extra": null
+  },
+  "end": 349.34,
+  "dur": 3.3,
+  "file": "clips/s120.mp4"
+ },
+ {
+  "start": 349.34,
+  "seg": 81,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:13129",
+  "overlay": {
+   "type": "label",
+   "text": "XALQARO SIYOSAT VOSITASI",
+   "extra": null
+  },
+  "end": 352.46,
+  "dur": 3.12,
+  "file": "clips/s121.mp4"
+ },
+ {
+  "start": 352.46,
+  "seg": 82,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:22194",
+  "overlay": {
+   "type": "stamp",
+   "text": "XATO",
+   "extra": null
+  },
+  "end": 356.5,
+  "dur": 4.04,
+  "file": "clips/s122.mp4"
+ },
+ {
+  "start": 356.5,
+  "seg": 83,
+  "word": 0,
+  "kind": "mg",
+  "mg": "factors",
+  "props": {
+   "title": "ENERGETIKA BOZORI",
+   "items": [
+    "DAVLATLAR",
+    "ISHLAB CHIQARUVCHILAR",
+    "ISTE'MOLCHILAR",
+    "SAVDO TASHKILOTLARI",
+    "BOSHQA ISHTIROKCHILAR"
+   ],
+   "bg": "m:4362",
+   "times": [
+    358.54,
+    359.08,
+    360.291,
+    361.309,
+    362.82
+   ],
+   "bgFile": "clips/s123_bg.mp4"
+  },
+  "end": 364.46,
+  "dur": 7.96
+ },
+ {
+  "start": 364.46,
+  "seg": 84,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:100106",
+  "end": 367.26,
+  "dur": 2.8,
+  "file": "clips/s124.mp4"
+ },
+ {
+  "start": 367.26,
+  "seg": 85,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:100115",
+  "end": 369.115,
+  "dur": 1.855,
+  "file": "clips/s125.mp4"
+ },
+ {
+  "start": 369.115,
+  "seg": 85,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:23035",
+  "overlay": {
+   "type": "label",
+   "text": "QARAMA-QARSHILIK",
+   "extra": null
+  },
+  "end": 371.58,
+  "dur": 2.465,
+  "file": "clips/s126.mp4"
+ },
+ {
+  "start": 371.58,
+  "seg": 86,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 6,
+   "title": "MAXFIY GURUHLAR?",
+   "bg": "m:50745",
+   "bgFile": "clips/s127_bg.mp4"
+  },
+  "end": 375.96,
+  "dur": 4.38
+ },
+ {
+  "start": 375.96,
+  "seg": 87,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:22806",
+  "overlay": {
+   "type": "quote",
+   "text": "DUNYONI MAXFIY GURUHLAR BOSHQARADIMI?",
+   "extra": null
+  },
+  "end": 378.5,
+  "dur": 2.54,
+  "file": "clips/s128.mp4"
+ },
+ {
+  "start": 378.5,
+  "seg": 88,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:4198",
+  "overlay": {
+   "type": "label",
+   "text": "BILDERBERG UCHRASHUVLARI",
+   "extra": null
+  },
+  "end": 382.0,
+  "dur": 3.5,
+  "file": "clips/s129.mp4"
+ },
+ {
+  "start": 382.0,
+  "seg": 89,
+  "word": 0,
+  "kind": "mg",
+  "mg": "factors",
+  "props": {
+   "title": "NUFUZLI VAKILLAR",
+   "items": [
+    "SIYOSAT",
+    "BIZNES",
+    "MOLIYA",
+    "ILM-FAN"
+   ],
+   "bg": "m:15798",
+   "times": [
+    384.096,
+    384.807,
+    385.503,
+    386.063
+   ],
+   "bgFile": "clips/s130_bg.mp4"
+  },
+  "end": 388.8,
+  "dur": 6.8
+ },
+ {
+  "start": 388.8,
+  "seg": 90,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:17438",
+  "overlay": {
+   "type": "label",
+   "text": "YOPIQ MUHOKAMA",
+   "extra": null
+  },
+  "end": 392.245,
+  "dur": 3.445,
+  "file": "clips/s131.mp4"
+ },
+ {
+  "start": 392.245,
+  "seg": 90,
+  "word": 7,
+  "kind": "clip",
+  "clip": "m:49000",
+  "overlay": {
+   "type": "label",
+   "text": "TURLI TAXMINLAR",
+   "extra": null
+  },
+  "end": 394.46,
+  "dur": 2.215,
+  "file": "clips/s132.mp4"
+ },
+ {
+  "start": 394.46,
+  "seg": 91,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:41494",
+  "end": 399.32,
+  "dur": 4.86,
+  "file": "clips/s133.mp4"
+ },
+ {
+  "start": 399.32,
+  "seg": 92,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21610",
+  "overlay": {
+   "type": "stamp",
+   "text": "ISHONCHLI DALIL YO'Q",
+   "extra": null
+  },
+  "end": 403.58,
+  "dur": 4.26,
+  "file": "clips/s134.mp4"
+ },
+ {
+  "start": 403.58,
+  "seg": 93,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46755",
+  "end": 406.0,
+  "dur": 2.42,
+  "file": "clips/s135.mp4"
+ },
+ {
+  "start": 406.0,
+  "seg": 94,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:12741",
+  "end": 409.44,
+  "dur": 3.44,
+  "file": "clips/s136.mp4"
+ },
+ {
+  "start": 409.44,
+  "seg": 95,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:15717",
+  "overlay": {
+   "type": "label",
+   "text": "FIKR ALMASHISH",
+   "extra": null
+  },
+  "end": 413.06,
+  "dur": 3.62,
+  "file": "clips/s137.mp4"
+ },
+ {
+  "start": 413.06,
+  "seg": 96,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:30016",
+  "overlay": {
+   "type": "label",
+   "text": "ALOQALAR",
+   "extra": null
+  },
+  "end": 415.68,
+  "dur": 2.62,
+  "file": "clips/s138.mp4"
+ },
+ {
+  "start": 415.68,
+  "seg": 97,
+  "word": 0,
+  "kind": "mg",
+  "mg": "neq",
+  "props": {
+   "a": "TA'SIR KO'RSATISH",
+   "b": "DUNYONI BOSHQARISH"
+  },
+  "end": 422.84,
+  "dur": 7.16
+ },
+ {
+  "start": 422.84,
+  "seg": 99,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:33353",
+  "end": 425.667,
+  "dur": 2.827,
+  "file": "clips/s140.mp4"
+ },
+ {
+  "start": 425.667,
+  "seg": 99,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:3923",
+  "overlay": {
+   "type": "quote",
+   "text": "NEGA INSONLAR ISHONADI?",
+   "extra": null
+  },
+  "end": 428.1,
+  "dur": 2.433,
+  "file": "clips/s141.mp4"
+ },
+ {
+  "start": 428.1,
+  "seg": 100,
+  "word": 0,
+  "kind": "mg",
+  "mg": "question",
+  "props": {
+   "text": "SABABI ODDIY.",
+   "bg": null
+  },
+  "end": 429.58,
+  "dur": 1.48
+ },
+ {
+  "start": 429.58,
+  "seg": 101,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:26778",
+  "overlay": {
+   "type": "quote",
+   "text": "DUNYO NIHOYATDA MURAKKAB",
+   "extra": null
+  },
+  "end": 431.8,
+  "dur": 2.22,
+  "file": "clips/s143.mp4"
+ },
+ {
+  "start": 431.8,
+  "seg": 102,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:24021",
+  "overlay": {
+   "type": "label",
+   "text": "URUSHLAR",
+   "extra": null
+  },
+  "end": 433.272,
+  "dur": 1.472,
+  "file": "clips/s144.mp4"
+ },
+ {
+  "start": 433.272,
+  "seg": 102,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:49219",
+  "overlay": {
+   "type": "label",
+   "text": "IQTISODIY INQIROZLAR",
+   "extra": null
+  },
+  "end": 434.715,
+  "dur": 1.443,
+  "file": "clips/s145.mp4"
+ },
+ {
+  "start": 434.715,
+  "seg": 102,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:45648",
+  "overlay": {
+   "type": "label",
+   "text": "SIYOSIY KELISHMOVCHILIKLAR",
+   "extra": null
+  },
+  "end": 436.399,
+  "dur": 1.684,
+  "file": "clips/s146.mp4"
+ },
+ {
+  "start": 436.399,
+  "seg": 102,
+  "word": 9,
+  "kind": "clip",
+  "clip": "m:47258",
+  "overlay": {
+   "type": "label",
+   "text": "TEXNOLOGIK O'ZGARISHLAR",
+   "extra": null
+  },
+  "end": 438.52,
+  "dur": 2.121,
+  "file": "clips/s147.mp4"
+ },
+ {
+  "start": 438.52,
+  "seg": 103,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:5665",
+  "overlay": {
+   "type": "label",
+   "text": "SODDA TUSHUNTIRISH",
+   "extra": null
+  },
+  "end": 442.6,
+  "dur": 4.08,
+  "file": "clips/s148.mp4"
+ },
+ {
+  "start": 442.6,
+  "seg": 104,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21623",
+  "end": 445.666,
+  "dur": 3.066,
+  "file": "clips/s149.mp4"
+ },
+ {
+  "start": 445.666,
+  "seg": 104,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:3458",
+  "overlay": {
+   "type": "quote",
+   "text": "BITTA MAXFIY KUCH?",
+   "extra": null
+  },
+  "end": 449.08,
+  "dur": 3.414,
+  "file": "clips/s150.mp4"
+ },
+ {
+  "start": 449.08,
+  "seg": 105,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21626",
+  "end": 451.64,
+  "dur": 2.56,
+  "file": "clips/s151.mp4"
+ },
+ {
+  "start": 451.64,
+  "seg": 106,
+  "word": 0,
+  "kind": "mg",
+  "mg": "network",
+  "props": {
+   "step": 0
+  },
+  "end": 454.28,
+  "dur": 2.64
+ },
+ {
+  "start": 454.28,
+  "seg": 107,
+  "word": 0,
+  "kind": "mg",
+  "mg": "network",
+  "props": {
+   "step": 1
+  },
+  "end": 457.68,
+  "dur": 3.4
+ },
+ {
+  "start": 457.68,
+  "seg": 108,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46901",
+  "overlay": {
+   "type": "label",
+   "text": "AQSH",
+   "extra": "o'z manfaati"
+  },
+  "end": 460.62,
+  "dur": 2.94,
+  "file": "clips/s154.mp4"
+ },
+ {
+  "start": 460.62,
+  "seg": 109,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:31089",
+  "overlay": {
+   "type": "label",
+   "text": "XITOY",
+   "extra": "iqtisodiy va strategik maqsadlar"
+  },
+  "end": 463.9,
+  "dur": 3.28,
+  "file": "clips/s155.mp4"
+ },
+ {
+  "start": 463.9,
+  "seg": 110,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21734",
+  "overlay": {
+   "type": "label",
+   "text": "ROSSIYA",
+   "extra": "xavfsizlik va siyosiy manfaatlar"
+  },
+  "end": 467.64,
+  "dur": 3.74,
+  "file": "clips/s156.mp4"
+ },
+ {
+  "start": 467.64,
+  "seg": 111,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:5015",
+  "overlay": {
+   "type": "label",
+   "text": "YEVROPA",
+   "extra": "o'zaro hamkorlik"
+  },
+  "end": 470.42,
+  "dur": 2.78,
+  "file": "clips/s157.mp4"
+ },
+ {
+  "start": 470.42,
+  "seg": 112,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:24357",
+  "overlay": {
+   "type": "label",
+   "text": "KELISHMOVCHILIKLAR",
+   "extra": null
+  },
+  "end": 474.12,
+  "dur": 3.7,
+  "file": "clips/s158.mp4"
+ },
+ {
+  "start": 474.12,
+  "seg": 113,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:40653",
+  "overlay": {
+   "type": "label",
+   "text": "YIRIK KOMPANIYALAR",
+   "extra": "foyda"
+  },
+  "end": 476.6,
+  "dur": 2.48,
+  "file": "clips/s159.mp4"
+ },
+ {
+  "start": 476.6,
+  "seg": 114,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:45702",
+  "overlay": {
+   "type": "label",
+   "text": "BANKLAR",
+   "extra": "barqarorlik va daromad"
+  },
+  "end": 480.18,
+  "dur": 3.58,
+  "file": "clips/s160.mp4"
+ },
+ {
+  "start": 480.18,
+  "seg": 115,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:9261",
+  "overlay": {
+   "type": "label",
+   "text": "ODDIY INSONLAR",
+   "extra": null
+  },
+  "end": 481.849,
+  "dur": 1.669,
+  "file": "clips/s161.mp4"
+ },
+ {
+  "start": 481.849,
+  "seg": 115,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:49264",
+  "overlay": {
+   "type": "label",
+   "text": "SAYLOVLAR",
+   "extra": null
+  },
+  "end": 482.555,
+  "dur": 0.706,
+  "file": "clips/s162.mp4"
+ },
+ {
+  "start": 482.555,
+  "seg": 115,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:49448",
+  "overlay": {
+   "type": "label",
+   "text": "NOROZILIK NAMOYISHLARI",
+   "extra": null
+  },
+  "end": 484.041,
+  "dur": 1.486,
+  "file": "clips/s163.mp4"
+ },
+ {
+  "start": 484.041,
+  "seg": 115,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:6302",
+  "overlay": {
+   "type": "label",
+   "text": "XARIDLAR",
+   "extra": null
+  },
+  "end": 485.03,
+  "dur": 0.989,
+  "file": "clips/s164.mp4"
+ },
+ {
+  "start": 485.03,
+  "seg": 115,
+  "word": 8,
+  "kind": "clip",
+  "clip": "m:25377",
+  "overlay": {
+   "type": "label",
+   "text": "KUNDALIK QARORLAR",
+   "extra": null
+  },
+  "end": 487.72,
+  "dur": 2.69,
+  "file": "clips/s165.mp4"
+ },
+ {
+  "start": 487.72,
+  "seg": 116,
+  "word": 0,
+  "kind": "mg",
+  "mg": "network",
+  "props": {
+   "step": 2
+  },
+  "end": 490.76,
+  "dur": 3.04
+ },
+ {
+  "start": 490.76,
+  "seg": 117,
+  "word": 0,
+  "kind": "mg",
+  "mg": "chapter",
+  "props": {
+   "n": 7,
+   "title": "XULOSA",
+   "bg": "m:28901",
+   "bgFile": "clips/s167_bg.mp4"
+  },
+  "end": 493.38,
+  "dur": 2.62
+ },
+ {
+  "start": 493.38,
+  "seg": 118,
+  "word": 0,
+  "kind": "mg",
+  "mg": "question",
+  "props": {
+   "text": "DUNYONI ASLIDA KIM BOSHQARADI?",
+   "bg": "m:34314",
+   "bgFile": "clips/s168_bg.mp4"
+  },
+  "end": 495.82,
+  "dur": 2.44
+ },
+ {
+  "start": 495.82,
+  "seg": 119,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:31771",
+  "overlay": {
+   "type": "quote",
+   "text": "JAVOB MURAKKABROQ",
+   "extra": null
+  },
+  "end": 498.1,
+  "dur": 2.28,
+  "file": "clips/s169.mp4"
+ },
+ {
+  "start": 498.1,
+  "seg": 120,
+  "word": 0,
+  "kind": "mg",
+  "mg": "who",
+  "props": {
+   "items": [
+    "PREZIDENT",
+    "MILLIARDER",
+    "BANK",
+    "MAXFIY TASHKILOT"
+   ],
+   "stamp": "ISBOTLANMAGAN",
+   "bg": "m:14111",
+   "times": [
+    500.805,
+    501.31,
+    502.067,
+    502.878
+   ],
+   "stampTime": 504.248,
+   "bgFile": "clips/s170_bg.mp4"
+  },
+  "end": 505.22,
+  "dur": 7.12
+ },
+ {
+  "start": 505.22,
+  "seg": 121,
+  "word": 0,
+  "kind": "mg",
+  "mg": "centers",
+  "props": {
+   "step": 0
+  },
+  "end": 508.02,
+  "dur": 2.8
+ },
+ {
+  "start": 508.02,
+  "seg": 122,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:6936",
+  "overlay": {
+   "type": "label",
+   "text": "DAVLATLAR",
+   "extra": "harbiy va siyosiy kuch"
+  },
+  "end": 510.44,
+  "dur": 2.42,
+  "file": "clips/s172.mp4"
+ },
+ {
+  "start": 510.44,
+  "seg": 123,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46990",
+  "overlay": {
+   "type": "label",
+   "text": "MARKAZIY BANKLAR",
+   "extra": "moliyaviy sharoitlar"
+  },
+  "end": 513.4,
+  "dur": 2.96,
+  "file": "clips/s173.mp4"
+ },
+ {
+  "start": 513.4,
+  "seg": 124,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:30544",
+  "overlay": {
+   "type": "label",
+   "text": "KORPORATSIYALAR",
+   "extra": "investitsiya va texnologiya"
+  },
+  "end": 517.78,
+  "dur": 4.38,
+  "file": "clips/s174.mp4"
+ },
+ {
+  "start": 517.78,
+  "seg": 125,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:43257",
+  "overlay": {
+   "type": "label",
+   "text": "AXBOROT PLATFORMALARI",
+   "extra": "ma'lumotni saralaydi"
+  },
+  "end": 521.64,
+  "dur": 3.86,
+  "file": "clips/s175.mp4"
+ },
+ {
+  "start": 521.64,
+  "seg": 126,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:24214",
+  "overlay": {
+   "type": "label",
+   "text": "XALQARO TASHKILOTLAR",
+   "extra": "hamkorlik va qoidalar"
+  },
+  "end": 526.68,
+  "dur": 5.04,
+  "file": "clips/s176.mp4"
+ },
+ {
+  "start": 526.68,
+  "seg": 127,
+  "word": 0,
+  "kind": "mg",
+  "mg": "centers",
+  "props": {
+   "step": 1
+  },
+  "end": 530.46,
+  "dur": 3.78
+ },
+ {
+  "start": 530.46,
+  "seg": 128,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:26770",
+  "overlay": {
+   "type": "label",
+   "text": "BOG'LIQ",
+   "extra": null
+  },
+  "end": 531.867,
+  "dur": 1.407,
+  "file": "clips/s178.mp4"
+ },
+ {
+  "start": 531.867,
+  "seg": 128,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:49906",
+  "overlay": {
+   "type": "label",
+   "text": "RAQOBAT",
+   "extra": null
+  },
+  "end": 533.47,
+  "dur": 1.603,
+  "file": "clips/s179.mp4"
+ },
+ {
+  "start": 533.47,
+  "seg": 128,
+  "word": 6,
+  "kind": "clip",
+  "clip": "m:30013",
+  "overlay": {
+   "type": "label",
+   "text": "KELISHUV",
+   "extra": null
+  },
+  "end": 534.661,
+  "dur": 1.191,
+  "file": "clips/s180.mp4"
+ },
+ {
+  "start": 534.661,
+  "seg": 128,
+  "word": 8,
+  "kind": "clip",
+  "clip": "m:46485",
+  "overlay": {
+   "type": "label",
+   "text": "TO'QNASHUV",
+   "extra": null
+  },
+  "end": 536.16,
+  "dur": 1.499,
+  "file": "clips/s181.mp4"
+ },
+ {
+  "start": 536.16,
+  "seg": 129,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:2026",
+  "end": 539.68,
+  "dur": 3.52,
+  "file": "clips/s182.mp4"
+ },
+ {
+  "start": 539.68,
+  "seg": 130,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:23082",
+  "overlay": {
+   "type": "label",
+   "text": "FOIZ STAVKASI",
+   "extra": null
+  },
+  "end": 544.76,
+  "dur": 5.08,
+  "file": "clips/s183.mp4"
+ },
+ {
+  "start": 544.76,
+  "seg": 131,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:46635",
+  "end": 546.789,
+  "dur": 2.029,
+  "file": "clips/s184.mp4"
+ },
+ {
+  "start": 546.789,
+  "seg": 131,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:42133",
+  "overlay": {
+   "type": "label",
+   "text": "ALGORITM O'ZGARADI",
+   "extra": null
+  },
+  "end": 549.62,
+  "dur": 2.831,
+  "file": "clips/s185.mp4"
+ },
+ {
+  "start": 549.62,
+  "seg": 132,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:11433",
+  "end": 552.74,
+  "dur": 3.12,
+  "file": "clips/s186.mp4"
+ },
+ {
+  "start": 552.74,
+  "seg": 133,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:15914",
+  "overlay": {
+   "type": "stat",
+   "text": "MAHSULOT NARXI",
+   "extra": "updown"
+  },
+  "end": 556.02,
+  "dur": 3.28,
+  "file": "clips/s187.mp4"
+ },
+ {
+  "start": 556.02,
+  "seg": 134,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:40677",
+  "end": 560.1,
+  "dur": 4.08,
+  "file": "clips/s188.mp4"
+ },
+ {
+  "start": 560.1,
+  "seg": 135,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:11421",
+  "end": 561.88,
+  "dur": 1.78,
+  "file": "clips/s189.mp4"
+ },
+ {
+  "start": 561.88,
+  "seg": 136,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47793",
+  "overlay": {
+   "type": "label",
+   "text": "MOLIYA",
+   "extra": null
+  },
+  "end": 563.209,
+  "dur": 1.329,
+  "file": "clips/s190.mp4"
+ },
+ {
+  "start": 563.209,
+  "seg": 136,
+  "word": 3,
+  "kind": "clip",
+  "clip": "m:23215",
+  "overlay": {
+   "type": "label",
+   "text": "TEXNOLOGIYA",
+   "extra": null
+  },
+  "end": 564.269,
+  "dur": 1.06,
+  "file": "clips/s191.mp4"
+ },
+ {
+  "start": 564.269,
+  "seg": 136,
+  "word": 4,
+  "kind": "clip",
+  "clip": "m:4360",
+  "overlay": {
+   "type": "label",
+   "text": "ENERGETIKA",
+   "extra": null
+  },
+  "end": 565.432,
+  "dur": 1.163,
+  "file": "clips/s192.mp4"
+ },
+ {
+  "start": 565.432,
+  "seg": 136,
+  "word": 5,
+  "kind": "clip",
+  "clip": "m:21053",
+  "overlay": {
+   "type": "label",
+   "text": "AXBOROT",
+   "extra": null
+  },
+  "end": 566.74,
+  "dur": 1.308,
+  "file": "clips/s193.mp4"
+ },
+ {
+  "start": 566.74,
+  "seg": 137,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47686",
+  "overlay": {
+   "type": "label",
+   "text": "INSTITUTLAR",
+   "extra": null
+  },
+  "end": 570.28,
+  "dur": 3.54,
+  "file": "clips/s194.mp4"
+ },
+ {
+  "start": 570.28,
+  "seg": 138,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:26532",
+  "end": 572.64,
+  "dur": 2.36,
+  "file": "clips/s195.mp4"
+ },
+ {
+  "start": 572.64,
+  "seg": 139,
+  "word": 0,
+  "kind": "mg",
+  "mg": "strike",
+  "props": {
+   "text": "DUNYONI BITTA ODAM BOSHQARADIMI?"
+  },
+  "end": 575.38,
+  "dur": 2.74
+ },
+ {
+  "start": 575.38,
+  "seg": 140,
+  "word": 0,
+  "kind": "mg",
+  "mg": "triad",
+  "props": {
+   "items": [
+    "QAYERDA?",
+    "KIM TOMONIDAN?",
+    "QANDAY NAZORAT OSTIDA?"
+   ],
+   "times": [
+    578.228,
+    579.72,
+    581.209
+   ]
+  },
+  "end": 583.52,
+  "dur": 8.14
+ },
+ {
+  "start": 583.52,
+  "seg": 142,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:31607",
+  "end": 585.92,
+  "dur": 2.4,
+  "file": "clips/s198.mp4"
+ },
+ {
+  "start": 585.92,
+  "seg": 143,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:21592",
+  "overlay": {
+   "type": "label",
+   "text": "AFSONALAR SHART EMAS",
+   "extra": null
+  },
+  "end": 588.54,
+  "dur": 2.62,
+  "file": "clips/s199.mp4"
+ },
+ {
+  "start": 588.54,
+  "seg": 144,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:40654",
+  "end": 590.52,
+  "dur": 1.98,
+  "file": "clips/s200.mp4"
+ },
+ {
+  "start": 590.52,
+  "seg": 145,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:47792",
+  "overlay": {
+   "type": "quote",
+   "text": "KO'Z OLDIMIZDAGI TIZIMLAR",
+   "extra": null
+  },
+  "end": 594.02,
+  "dur": 3.5,
+  "file": "clips/s201.mp4"
+ },
+ {
+  "start": 594.02,
+  "seg": 146,
+  "word": 0,
+  "kind": "mg",
+  "mg": "question",
+  "props": {
+   "text": "ENDI SIZGA SAVOL",
+   "bg": null
+  },
+  "end": 595.48,
+  "dur": 1.46
+ },
+ {
+  "start": 595.48,
+  "seg": 147,
+  "word": 0,
+  "kind": "mg",
+  "mg": "poll",
+  "props": {
+   "items": [
+    "PREZIDENTLAR",
+    "MILLIARDERLAR",
+    "BANKLAR",
+    "TEXNOLOGIK KOMPANIYALAR"
+   ],
+   "times": [
+    599.26,
+    600.58,
+    601.78,
+    602.68
+   ]
+  },
+  "end": 606.6,
+  "dur": 11.12
+ },
+ {
+  "start": 606.6,
+  "seg": 152,
+  "word": 0,
+  "kind": "mg",
+  "mg": "cta",
+  "props": {
+   "text": "Fikringizni izohlarda yozing"
+  },
+  "end": 608.66,
+  "dur": 2.06
+ },
+ {
+  "start": 608.66,
+  "seg": 153,
+  "word": 0,
+  "kind": "clip",
+  "clip": "m:45033",
+  "overlay": {
+   "type": "quote",
+   "text": "JAVOB IZLASHDAN BOSHLANADI",
+   "extra": null
+  },
+  "end": 614.47,
+  "dur": 5.81,
+  "file": "clips/s205.mp4"
+ }
+]
