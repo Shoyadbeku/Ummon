@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Audio, interpolate, random, Sequence, spring, staticFile, useCurrentFrame} from 'remotion';
 import {
-  CYAN, f, FPS, GOLD, Grain, GREEN, Headline, LightLeak, OVER, Pill, ProgressBar, RED, Shot, Stamp, SZ, Vignette, YearRoll, YELLOW, Zzz,
+  CYAN, f, FPS, GOLD, Grain, GREEN, Headline, LightLeak, OVER, Pill, RED, Shot, Stamp, SZ, Vignette, YearRoll, YELLOW, Zzz,
 } from './fx';
 import * as C from './comps';
 import {DURATION, LEAKS, OVERLAYS, SFX, SHAKES, SHOTS} from './timeline';
@@ -163,7 +163,6 @@ export const Main: React.FC = () => (
     {LEAKS.map(([t, h], i) => <LightLeak key={i} at={t} hue={h} />)}
     <Vignette />
     <Grain opacity={0.08} />
-    <ProgressBar />
     <Audio src={staticFile('audio/voice_clean.wav')} volume={1} />
     <Audio src={staticFile('audio/music_bed.mp3')} volume={1} />
     {SFX.map(([t, s, v], i) => (
