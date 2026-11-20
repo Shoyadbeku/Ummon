@@ -508,14 +508,6 @@ const Label: React.FC<{text: string; top: number; color: string}> = ({text, top,
 	</div>
 );
 
-// ───── Progress bar (retention) ─────
-const Progress: React.FC = () => {
-	const frame = useCurrentFrame();
-	return (
-		<div style={{position: 'absolute', top: 0, left: 0, height: 8, width: `${(frame / DURATION) * 100}%`, background: `linear-gradient(90deg, ${COLORS.pink}, ${COLORS.gold})`, boxShadow: `0 0 16px ${COLORS.pink}`}} />
-	);
-};
-
 // ───── Audio: ovoz + musiqa (ducking) + SFX ─────
 const musicVolume = (frame: number) => {
 	const t = frame / 30;
@@ -550,7 +542,6 @@ export const Main: React.FC = () => (
 		<Scenes />
 		<Vignette />
 		<Grain />
-		<Progress />
 		<AudioMix />
 	</AbsoluteFill>
 );

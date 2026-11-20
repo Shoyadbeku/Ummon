@@ -294,17 +294,11 @@ export const Blueprint: React.FC<{dur: number}> = ({dur}) => {
 // ───────────────── REC UI (bloger kamerasi) ─────────────────
 export const RecUI: React.FC = () => {
 	const frame = useCurrentFrame();
-	const {fps} = useVideoConfig();
-	const s = Math.floor(frame / fps);
-	const ff = frame % fps;
 	return (
 		<>
 			<div style={{position: 'absolute', top: 250, left: 100, display: 'flex', alignItems: 'center', gap: 16, fontFamily: FONT_BODY, fontWeight: 800, fontSize: 40, color: '#fff'}}>
 				<div style={{width: 30, height: 30, borderRadius: 15, background: COLORS.red, opacity: Math.floor(frame / 10) % 2 ? 0.25 : 1}} />
 				REC
-			</div>
-			<div style={{position: 'absolute', top: 250, right: 100, fontFamily: 'monospace', fontWeight: 700, fontSize: 38, color: '#fff'}}>
-				00:00:{String(s).padStart(2, '0')}:{String(ff).padStart(2, '0')}
 			</div>
 		</>
 	);
