@@ -1,0 +1,33 @@
+{
+  "name": "mrbeast-squid-game-short",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MrBeast Squid Game — 9:16 Shorts/Reels/TikTok, Remotion loyihasi",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main out/Final_Video.mp4 --codec=h264 --audio-codec=aac --crf=16"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@remotion/bundler": "^4.0.540",
+    "@remotion/cli": "^4.0.540",
+    "@remotion/media-utils": "^4.0.540",
+    "@remotion/noise": "^4.0.540",
+    "@remotion/paths": "^4.0.540",
+    "@remotion/renderer": "^4.0.540",
+    "@remotion/shapes": "^4.0.540",
+    "@remotion/transitions": "^4.0.540",
+    "@types/d3-geo": "^3.1.1",
+    "@types/react": "^19.3.0",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.540",
+    "topojson-client": "^3.1.0",
+    "typescript": "5.6",
+    "world-atlas": "^2.0.2"
+  }
+}

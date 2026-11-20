@@ -1,0 +1,9 @@
+node_modules/
+out/*
+!out/.gitkeep
+public/video/
+public/sfx/
+public/music/
+public/img/*.jpg
+public/img/*.png
+public/audio/music_bed.wav
