@@ -732,7 +732,7 @@ r.use_motion_blur = True; r.motion_blur_shutter = 0.5; r.motion_blur_position = 
 r.resolution_x, r.resolution_y = 1080, 1920; r.resolution_percentage = int(os.environ.get("PCT", 50))
 sc.view_settings.view_transform = "AgX"; sc.view_settings.look = "AgX - Punchy"; sc.view_settings.exposure = -0.3
 r.image_settings.file_format = "PNG"; r.filepath = OUT
-r.use_persistent_data = True
+r.use_persistent_data = os.environ.get("PERSIST", "1") == "1"
 r.use_overwrite = False; r.use_placeholder = True
 
 if os.environ.get("SAVE"):

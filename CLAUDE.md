@@ -113,3 +113,5 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Kamera katta sfera (tanglay, lunj) ichiga tushib qolsa kadr butunlay qora chiqadi: sinov kadrida qora kadr = kamera mesh ichida.
 - Sporty Granny multfilmga o'xshaydi (Megan bilan mos emas): "qarish"ni Megan'ning o'zida qil (soch kulrang, ajin bump, yuz shape key).
 - Megan `Sad_Idle` da boshini pastga egib turadi (yuz ko'rinmaydi): yaqin planlar uchun `Idle_9`.
+- `use_persistent_data=True` bilan to'liq renderda rentgen (shaffof nusxa, `hide_render` kalitlari) kadrlari butunlay qora chiqdi,
+  alohida `FRAMES=` sinovida esa to'g'ri edi. Bunday kadrlarni `PERSIST=0` bilan qayta render qil va o'rtacha yorqinlik bilan tekshir.
