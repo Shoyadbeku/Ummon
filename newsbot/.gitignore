@@ -1,0 +1,13 @@
+data/
+remotion/node_modules/
+remotion/out/
+episodes/*/media/
+episodes/*/*.wav
+episodes/*/*.mp4
+episodes/*/render_props.json
+episodes/*/contact_sheet.jpg
+__pycache__/
+*.pyc
+# secrets never live in the repo
+*token*
+.env

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "media/01.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Winter._Tashkent.jpg",
+    "license": "CC0",
+    "author": "Rabiga Shabatova",
+    "title": "File:Winter. Tashkent.jpg",
+    "query": "Tashkent winter",
+    "date": "2026-01-28 13:48:00",
+    "desc": "Winter."
+  },
+  {
+    "file": "media/02.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Winter_(Tashkent).jpg",
+    "license": "CC0",
+    "author": "Rabiga Shabatova",
+    "title": "File:Winter (Tashkent).jpg",
+    "query": "Tashkent winter",
+    "date": "2026-01-28 13:45:32",
+    "desc": "Tashkent"
+  },
+  {
+    "file": "media/03.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2018-01-01_(117)_High-voltage_overhead_power_lines_in_Annaberg,_Lower_Austria.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "GT1976",
+    "title": "File:2018-01-01 (117) High-voltage overhead power lines in Annaberg, Lower Austria.jpg",
+    "query": "high voltage pylons snow",
+    "date": "2018-01-01 11:42:23",
+    "desc": "Hochspannungsleitung in Annaberg, Niederösterreich"
+  },
+  {
+    "file": "media/04.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Klenov13Slovakia3.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Jozef Kotulič",
+    "title": "File:Klenov13Slovakia3.JPG",
+    "query": "high voltage pylons snow",
+    "date": "2013-03-02 11:49:21",
+    "desc": "Snehová prikrývka na Šarišskej vrchovine. Kataster obce Klenov, okres Prešov. Marec 2013."
+  },
+  {
+    "file": "media/05.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electricians_fixing_electricity_meter_3.jpg",
+    "license": "CC0",
+    "author": "Jeromi Mikhael",
+    "title": "File:Electricians fixing electricity meter 3.jpg",
+    "query": "electricity meter",
+    "date": "28 July 2019 (accord",
+    "desc": "Electricians fixing electricity meter"
+  },
+  {
+    "file": "media/06.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electricians_fixing_electricity_meter_5.jpg",
+    "license": "CC0",
+    "author": "Jeromi Mikhael",
+    "title": "File:Electricians fixing electricity meter 5.jpg",
+    "query": "electricity meter",
+    "date": "28 July 2019 (accord",
+    "desc": "Electricians fixing electricity meter"
+  },
+  {
+    "file": "media/07.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electricity_pylon_at_sunset_Milan_IT_2017.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Irene Grassi",
+    "title": "File:Electricity pylon at sunset Milan IT 2017.jpg",
+    "query": "electricity pylon sunset",
+    "date": "2017-10-29 17:30",
+    "desc": "Sunset at Milan. The amazing colours were, unfortunately, caused by air pollution. Picture by Giovanni Dall'Orto, October 29 2017."
+  },
+  {
+    "file": "media/08.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electricity_pylons,_sunset_01.jpg",
+    "license": "CC BY 4.0",
+    "author": "Novoklimov",
+    "title": "File:Electricity pylons, sunset 01.jpg",
+    "query": "electricity pylon sunset",
+    "date": "2007-01-20 16:16:53",
+    "desc": "Electricity pylons"
+  }
+]
