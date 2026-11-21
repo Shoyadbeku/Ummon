@@ -4,7 +4,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {bundle} from '@remotion/bundler';
-import {renderMedia, selectComposition} from '@remotion/renderer';
+import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const epDir = path.resolve(process.argv[2]);
@@ -38,3 +38,8 @@ await renderMedia({
 	},
 });
 console.log('OK', out);
+
+// Cover / thumbnail as a separate JPEG (for YouTube, TikTok, previews).
+const still = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: props, browserExecutable});
+await renderStill({composition: still, serveUrl, output: path.join(epDir, 'cover.jpg'), inputProps: props, browserExecutable, imageFormat: 'jpeg', jpegQuality: 92});
+console.log('OK', path.join(epDir, 'cover.jpg'));

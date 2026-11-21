@@ -3,14 +3,17 @@ import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig} 
 import {EpisodeProps} from './types';
 import {MediaLayer} from './components/MediaLayer';
 import {Captions} from './components/Captions';
-import {GraphicCard, Headline, Intro, LowerThird, Outro, ProgressBar, Ticker, TopBar} from './components/Overlays';
+import {GraphicCard, Headline, Intro, LowerThird, Outro, Ticker, TopBar} from './components/Overlays';
+import {Thumbnail} from './components/Thumbnail';
 
 export const INTRO_SEC = 2.6;
 export const OUTRO_SEC = 2.5;
 
 export const NewsVideo: React.FC<EpisodeProps> = (p) => {
-	const {fps, durationInFrames} = useVideoConfig();
+	const {fps, durationInFrames: total} = useVideoConfig();
 	const f = (s: number) => Math.round(s * fps);
+	const coverFrom = total - f(p.coverSec || 0);
+	const durationInFrames = coverFrom; // everything except the closing cover frame
 	const outroFrom = durationInFrames - f(OUTRO_SEC);
 	return (
 		<AbsoluteFill style={{backgroundColor: '#0B0F17'}}>
@@ -48,15 +51,20 @@ export const NewsVideo: React.FC<EpisodeProps> = (p) => {
 			</Sequence>
 
 			<TopBar brand={p.brand} kicker={p.kicker} region={p.region} breaking={p.breaking} />
-			<ProgressBar durationSec={p.durationSec} />
 
 			<Sequence from={0} durationInFrames={f(INTRO_SEC) + 10} layout="absolute-fill">
 				<Intro hook={p.hook} breaking={p.breaking} />
 			</Sequence>
 
-			<Sequence from={outroFrom} layout="absolute-fill">
+			<Sequence from={outroFrom} durationInFrames={coverFrom - outroFrom} layout="absolute-fill">
 				<Outro brand={p.brand} text={p.outroText} />
 			</Sequence>
+
+			{p.coverSec ? (
+				<Sequence from={coverFrom} layout="absolute-fill">
+					<Thumbnail brand={p.brand} kicker={p.kicker} region={p.region} text={p.thumbnailText} headline={p.headline} media={p.coverMedia} />
+				</Sequence>
+			) : null}
 
 			{/* credits line (media licenses), small, above the UI safe area */}
 			<div style={{position: 'absolute', top: 1545, left: 60, right: 160, fontFamily: 'Inter', fontSize: 20, color: 'rgba(255,255,255,0.6)'}}>{p.credits}</div>
@@ -65,7 +73,7 @@ export const NewsVideo: React.FC<EpisodeProps> = (p) => {
 			{p.music ? (
 				<Audio
 					src={staticFile(p.music)}
-					volume={(fr) => interpolate(fr, [0, 15, durationInFrames - 30, durationInFrames], [0, 0.09, 0.09, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+					volume={(fr) => interpolate(fr, [0, 15, total - 30, total], [0, 0.09, 0.09, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
 				/>
 			) : null}
 		</AbsoluteFill>

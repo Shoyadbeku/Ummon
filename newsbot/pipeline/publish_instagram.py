@@ -43,9 +43,11 @@ def quota() -> dict:
     return _req("GET", f"{GRAPH}/{IG_USER_ID}/content_publishing_limit", {"fields": "quota_usage,config"})
 
 
-def create_container(caption: str, share_to_feed: bool = True) -> dict:
-    return _req("POST", f"{GRAPH}/{IG_USER_ID}/media",
-                {"media_type": "REELS", "upload_type": "resumable", "caption": caption, "share_to_feed": str(share_to_feed).lower()})
+def create_container(caption: str, share_to_feed: bool = True, thumb_offset_ms: int | None = None) -> dict:
+    params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption, "share_to_feed": str(share_to_feed).lower()}
+    if thumb_offset_ms is not None:
+        params["thumb_offset"] = str(thumb_offset_ms)   # cover = the designed thumbnail frame
+    return _req("POST", f"{GRAPH}/{IG_USER_ID}/media", params)
 
 
 def upload(container: dict, video: Path) -> dict:

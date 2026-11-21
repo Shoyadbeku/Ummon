@@ -11,6 +11,19 @@ from .uz_text import MONTHS
 
 INTRO_SEC = 2.6
 OUTRO_SEC = 2.5
+COVER_SEC = 0.7     # designed cover held at the end; Instagram cover = this frame (thumb_offset)
+
+
+def _cover_media(ep: dict, approved: list) -> str | None:
+    idx = ep.get("cover_media")
+    if idx is None:
+        idx = next((s.get("media") for s in ep["sentences"] if s.get("media") is not None), 0)
+    return approved[idx]["file"] if approved and idx < len(approved) else None
+
+
+def cover_offset_ms(ep_dir: Path) -> int:
+    props = json.loads((ep_dir / "render_props.json").read_text())
+    return int((props["durationSec"] - props.get("coverSec", 0) / 2) * 1000)
 
 
 def music_bed() -> Path:
@@ -39,11 +52,12 @@ def build_props(ep_dir: Path) -> dict:
     approved = [m for m in media if m.get("approved", True)]
     sents = tm["sentences"]
     voice_end = tm["duration"]
-    total = round(voice_end + 0.6 + OUTRO_SEC, 2)
+    body = round(voice_end + 0.6 + OUTRO_SEC, 2)
+    total = round(body + COVER_SEC, 2)
     segments = []
     for i, (s, spec) in enumerate(zip(sents, ep["sentences"])):
         start = 0 if i == 0 else s["start"] - 0.1
-        end = (sents[i + 1]["start"] - 0.1) if i + 1 < len(sents) else total
+        end = (sents[i + 1]["start"] - 0.1) if i + 1 < len(sents) else body
         midx = spec.get("media")
         if midx is None and approved:            # never leave a sentence without visuals
             midx = i % len(approved)
@@ -72,6 +86,9 @@ def build_props(ep_dir: Path) -> dict:
         "ticker": ep.get("ticker") or ep["headline"],
         "credits": credits_line(approved),
         "outroText": ep.get("outro_text", "Har kuni eng muhim yangiliklar"),
+        "thumbnailText": ep.get("thumbnail_text") or ep["headline"],
+        "coverMedia": _cover_media(ep, approved),
+        "coverSec": COVER_SEC,
     }
     (ep_dir / "render_props.json").write_text(json.dumps(props, ensure_ascii=False, indent=1))
     return props

@@ -32,4 +32,7 @@ export type EpisodeProps = {
 	ticker: string;
 	credits: string;
 	outroText: string;
+	thumbnailText: string;
+	coverMedia?: string | null;
+	coverSec: number; // designed cover held at the very end; Instagram cover uses this frame
 };

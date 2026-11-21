@@ -6,34 +6,148 @@
   "title": "Gaz yo'q xonadonlar uchun elektr me'yori 350 kVt·soatga oshirildi",
   "headline": "Gazsiz xonadonlar uchun elektr me'yori 350 kVt·soatga oshdi",
   "hook": "Gaz yo'q uylar uchun yangi imtiyoz!",
-  "thumbnail_text": "ELEKTR: 200 → 350",
+  "thumbnail_text": "ELEKTR ME'YORI | 200 → 350",
   "event_date": "2026-10-31",
-  "viral_score": {"total": 72, "freshness": 22, "impact": 24, "coverage": 7, "trust": 9, "visual": 5, "local": 5,
-    "note": "Kundalik hayotga bevosita ta'sir (to'lovlar), qishki mavsum, ikki mustaqil manba. Taxminiy ko'rsatkich, kafolat emas."},
+  "viral_score": {
+    "total": 72,
+    "freshness": 22,
+    "impact": 24,
+    "coverage": 7,
+    "trust": 9,
+    "visual": 5,
+    "local": 5,
+    "note": "Kundalik hayotga bevosita ta'sir (to'lovlar), qishki mavsum, ikki mustaqil manba. Taxminiy ko'rsatkich, kafolat emas."
+  },
   "sentences": [
-    {"text": "Gaz yo'q uylar uchun yangi imtiyoz!", "highlight": ["imtiyoz!"], "media": 7},
-    {"text": "Vazirlar Mahkamasi qaroriga ko'ra, elektr energiyasining oylik bazaviy me'yori 200 kilovatt-soatdan 350 kilovatt-soatga oshirildi.", "highlight": ["350"], "media": 3,
-     "graphic": {"type": "stat", "value": 350, "suffix": " kVt·soat", "label": "oylik bazaviy me'yor (avval 200)"}},
-    {"text": "Shu me'yor doirasida har bir kilovatt-soat uchun 650 so'm to'lanadi.", "highlight": ["650"], "media": 4,
-     "graphic": {"type": "stat", "value": 650, "suffix": " so'm", "label": "1 kVt·soat uchun bazaviy tarif"}},
-    {"text": "Imtiyoz tabiiy gaz bilan ta'minlanmagan yoki gaz yetkazib berish cheklangan hududlardagi xonadonlarga tegishli.", "highlight": ["gaz"], "media": 0,
-     "graphic": {"type": "location", "place": "O'zbekiston", "country": "uz"}, "lower_third": "Isitish mavsumi uchun"},
-    {"text": "Yangi tartib 1-noyabrdan amal qiladi, shuning uchun noyabr oyi to'lovlari ham qayta hisoblanadi.", "highlight": ["qayta"], "media": 5,
-     "lower_third": "Noyabr to'lovlari qayta hisoblanadi"},
-    {"text": "Masalan, oyiga 300 kilovatt-soat ishlatgan xonadon eski me'yorda 220 ming so'm to'lar edi.", "highlight": ["220"], "media": 1,
-     "graphic": {"type": "stat", "value": 220000, "suffix": " so'm", "label": "300 kVt·soat — eski me'yor bo'yicha"}},
-    {"text": "Yangi me'yorda esa hisob-kitobga ko'ra, bu summa 195 ming so'mni tashkil qiladi.", "highlight": ["195"], "media": 2,
-     "graphic": {"type": "stat", "value": 195000, "suffix": " so'm", "label": "300 kVt·soat — yangi me'yor bo'yicha"}},
-    {"text": "Eng muhimi, ariza yozish yoki idoralarga borish shart emas, imtiyoz avtomatik qo'llaniladi.", "highlight": ["avtomatik"], "media": 6,
-     "graphic": {"type": "list", "title": "Bilish kerak", "items": ["Ariza kerak emas", "Idoraga borish shart emas", "Avtomatik qo'llaniladi"]}},
-    {"text": "Sizning hududingizda gaz bormi? Fikringizni izohda yozing.", "highlight": ["izohda"], "media": 7}
+    {
+      "text": "Gaz yo'q uylar uchun yangi imtiyoz!",
+      "highlight": [
+        "imtiyoz!"
+      ],
+      "media": 7
+    },
+    {
+      "text": "Vazirlar Mahkamasi qaroriga ko'ra, elektr energiyasining oylik bazaviy me'yori 200 kilovatt-soatdan 350 kilovatt-soatga oshirildi.",
+      "highlight": [
+        "350"
+      ],
+      "media": 3,
+      "graphic": {
+        "type": "stat",
+        "value": 350,
+        "suffix": " kVt·soat",
+        "label": "oylik bazaviy me'yor (avval 200)"
+      }
+    },
+    {
+      "text": "Shu me'yor doirasida har bir kilovatt-soat uchun 650 so'm to'lanadi.",
+      "highlight": [
+        "650"
+      ],
+      "media": 4,
+      "graphic": {
+        "type": "stat",
+        "value": 650,
+        "suffix": " so'm",
+        "label": "1 kVt·soat uchun bazaviy tarif"
+      }
+    },
+    {
+      "text": "Imtiyoz tabiiy gaz bilan ta'minlanmagan yoki gaz yetkazib berish cheklangan hududlardagi xonadonlarga tegishli.",
+      "highlight": [
+        "gaz"
+      ],
+      "media": 0,
+      "graphic": {
+        "type": "location",
+        "place": "O'zbekiston",
+        "country": "uz"
+      },
+      "lower_third": "Isitish mavsumi uchun"
+    },
+    {
+      "text": "Yangi tartib 1-noyabrdan amal qiladi, shuning uchun noyabr oyi to'lovlari ham qayta hisoblanadi.",
+      "highlight": [
+        "qayta"
+      ],
+      "media": 5,
+      "lower_third": "Noyabr to'lovlari qayta hisoblanadi"
+    },
+    {
+      "text": "Masalan, oyiga 300 kilovatt-soat ishlatgan xonadon eski me'yorda 220 ming so'm to'lar edi.",
+      "highlight": [
+        "220"
+      ],
+      "media": 1,
+      "graphic": {
+        "type": "stat",
+        "value": 220000,
+        "suffix": " so'm",
+        "label": "300 kVt·soat — eski me'yor bo'yicha"
+      }
+    },
+    {
+      "text": "Yangi me'yorda esa hisob-kitobga ko'ra, bu summa 195 ming so'mni tashkil qiladi.",
+      "highlight": [
+        "195"
+      ],
+      "media": 2,
+      "graphic": {
+        "type": "stat",
+        "value": 195000,
+        "suffix": " so'm",
+        "label": "300 kVt·soat — yangi me'yor bo'yicha"
+      }
+    },
+    {
+      "text": "Eng muhimi, ariza yozish yoki idoralarga borish shart emas, imtiyoz avtomatik qo'llaniladi.",
+      "highlight": [
+        "avtomatik"
+      ],
+      "media": 6,
+      "graphic": {
+        "type": "list",
+        "title": "Bilish kerak",
+        "items": [
+          "Ariza kerak emas",
+          "Idoraga borish shart emas",
+          "Avtomatik qo'llaniladi"
+        ]
+      }
+    },
+    {
+      "text": "Sizning hududingizda gaz bormi? Fikringizni izohda yozing.",
+      "highlight": [
+        "izohda"
+      ],
+      "media": 7
+    }
   ],
   "caption": "Tabiiy gaz bilan ta'minlanmagan va gaz yetkazib berish cheklangan hududlardagi xonadonlar uchun elektr energiyasining oylik bazaviy me'yori 200 kVt·soatdan 350 kVt·soatga oshirildi (Vazirlar Mahkamasining 31-oktabrdagi 601-son qarori). Me'yor doirasida 1 kVt·soat — 650 so'm. Tartib 1-noyabrdan amal qiladi, noyabr to'lovlari qayta hisoblanadi. Ariza talab etilmaydi. 195 ming so'm — 300 kVt·soat × 650 so'm bo'yicha bizning hisob-kitobimiz.",
-  "hashtags": ["#yangiliklar", "#uzbekistan", "#ozbekiston", "#elektr", "#gaz", "#kommunal", "#imtiyoz", "#toshkent", "#news", "#reels"],
+  "hashtags": [
+    "#yangiliklar",
+    "#uzbekistan",
+    "#ozbekiston",
+    "#elektr",
+    "#gaz",
+    "#kommunal",
+    "#imtiyoz",
+    "#toshkent",
+    "#news",
+    "#reels"
+  ],
   "ticker": "Gazsiz xonadonlar uchun elektr me'yori 350 kVt·soat • 1 kVt·soat — 650 so'm • Ariza talab etilmaydi",
   "sources": [
-    {"name": "Kun.uz", "url": "https://kun.uz/news/2026/11/21/gazlashtirilmagan-hududlardagi-aholi-uchun-elektr-energiyasining-bazaviy-meyori-350-kvtsoatga-oshirildi-61735", "published": "2026-11-21T13:36:04Z"},
-    {"name": "Daryo.uz", "url": "https://daryo.uz/2026/11/21/gazlashtirilmagan-hududlarda-elektr-energiyasi-uchun-imtiyozli-meyor-oshirildi/", "published": "2026-11-21T13:33:22Z"}
+    {
+      "name": "Kun.uz",
+      "url": "https://kun.uz/news/2026/11/21/gazlashtirilmagan-hududlardagi-aholi-uchun-elektr-energiyasining-bazaviy-meyori-350-kvtsoatga-oshirildi-61735",
+      "published": "2026-11-21T13:36:04Z"
+    },
+    {
+      "name": "Daryo.uz",
+      "url": "https://daryo.uz/2026/11/21/gazlashtirilmagan-hududlarda-elektr-energiyasi-uchun-imtiyozli-meyor-oshirildi/",
+      "published": "2026-11-21T13:33:22Z"
+    }
   ],
   "fact_check": [
     "200 -> 350 kVt·soat: Kun.uz va Daryo.uz (ikkalasi ham VM 601-son qaroriga tayangan)",

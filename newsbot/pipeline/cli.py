@@ -147,7 +147,8 @@ def cmd_publish(ep_id: str, confirm: bool, stage_only: bool = False):
         sys.exit(f"QC o'tmagan: {qcj['checks']}")
     for attempt in (1, 2, 3):           # retry mechanism for transient API errors
         try:
-            c = ig.create_container(_caption(ep))
+            from .build import cover_offset_ms
+            c = ig.create_container(_caption(ep), thumb_offset_ms=cover_offset_ms(d))
             ig.upload(c, d / "final.mp4")
             ig.wait_ready(c["id"])
             break
