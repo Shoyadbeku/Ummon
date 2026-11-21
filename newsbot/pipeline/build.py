@@ -36,7 +36,7 @@ def music_bed() -> Path:
             "+0.03*sin(2*PI*220*t)+0.025*sin(2*PI*261.63*t)*(0.5+0.5*sin(2*PI*0.125*t))"
             "+0.22*sin(2*PI*52*t)*exp(-14*mod(t,0.5))"
             "+0.05*sin(2*PI*880*t)*exp(-40*mod(t+0.25,0.5))")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", f"aevalsrc={expr}:s=48000:d=120",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "aevalsrc=" + expr.replace(",", "\\,") + ":s=48000:d=120",
                     "-af", "lowpass=f=2500,aecho=0.6:0.5:60:0.25,loudnorm=I=-20", "-ac", "2", str(out)], check=True)
     return out
 

@@ -1,0 +1,13 @@
+{
+ "ok": true,
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "has_audio": true,
+  "duration_15_90s": true,
+  "loudness_ok": true,
+  "size_under_100mb": true
+ },
+ "duration": 51.95,
+ "lufs": -15.9
+}

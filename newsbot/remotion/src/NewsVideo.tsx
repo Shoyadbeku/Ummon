@@ -46,11 +46,13 @@ export const NewsVideo: React.FC<EpisodeProps> = (p) => {
 
 			<Captions words={p.words} />
 
-			<Sequence from={f(INTRO_SEC)} layout="absolute-fill">
+			<Sequence from={f(INTRO_SEC)} durationInFrames={coverFrom - f(INTRO_SEC)} layout="absolute-fill">
 				<Ticker text={p.ticker} />
 			</Sequence>
 
-			<TopBar brand={p.brand} kicker={p.kicker} region={p.region} breaking={p.breaking} />
+			<Sequence from={0} durationInFrames={coverFrom} layout="absolute-fill">
+				<TopBar brand={p.brand} kicker={p.kicker} region={p.region} breaking={p.breaking} />
+			</Sequence>
 
 			<Sequence from={0} durationInFrames={f(INTRO_SEC) + 10} layout="absolute-fill">
 				<Intro hook={p.hook} breaking={p.breaking} />
@@ -67,7 +69,9 @@ export const NewsVideo: React.FC<EpisodeProps> = (p) => {
 			) : null}
 
 			{/* credits line (media licenses), small, above the UI safe area */}
-			<div style={{position: 'absolute', top: 1545, left: 60, right: 160, fontFamily: 'Inter', fontSize: 20, color: 'rgba(255,255,255,0.6)'}}>{p.credits}</div>
+			<Sequence from={0} durationInFrames={coverFrom} layout="absolute-fill">
+				<div style={{position: 'absolute', top: 1545, left: 60, right: 160, fontFamily: 'Inter', fontSize: 20, color: 'rgba(255,255,255,0.6)'}}>{p.credits}</div>
+			</Sequence>
 
 			<Audio src={staticFile(p.audio)} />
 			{p.music ? (

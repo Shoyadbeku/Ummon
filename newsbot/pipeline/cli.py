@@ -145,24 +145,44 @@ def cmd_publish(ep_id: str, confirm: bool, stage_only: bool = False):
     qcj = json.loads((d / "qc.json").read_text())
     if not qcj["ok"]:
         sys.exit(f"QC o'tmagan: {qcj['checks']}")
-    for attempt in (1, 2, 3):           # retry mechanism for transient API errors
+    from .build import cover_offset_ms
+    c = None
+    for attempt in range(1, 7):         # rupload.facebook.com rejects uploads intermittently -> fresh container + retry
         try:
-            from .build import cover_offset_ms
             c = ig.create_container(_caption(ep), thumb_offset_ms=cover_offset_ms(d))
-            ig.upload(c, d / "final.mp4")
+            time.sleep(10)
+            ig.upload(c, ig.upload_copy(d / "final.mp4"))
             ig.wait_ready(c["id"])
             break
         except Exception as ex:
-            db.log("WARN", f"upload attempt {attempt}: {ex}", ep_id)
-            if attempt == 3:
-                db.upsert_episode(ep_id, status="error", error=str(ex)[:500])
-                raise
-            time.sleep(20 * attempt)
+            db.log("WARN", f"upload attempt {attempt}: {str(ex)[:200]}", ep_id)
+            c = None
+            time.sleep(15 * attempt)
+    if c is None:
+        db.upsert_episode(ep_id, status="error", error="upload failed after retries")
+        sys.exit("upload failed after retries")
     if stage_only:
         db.log("INFO", f"staged container {c['id']} (not published)", ep_id)
         print(json.dumps({"staged": c["id"]}))
         return
-    mid = ig.publish(c["id"])
+    mid = None
+    for attempt in range(1, 5):
+        try:
+            mid = ig.publish(c["id"])
+            break
+        except Exception as ex:
+            db.log("WARN", f"publish attempt {attempt}: {str(ex)[:200]}", ep_id)
+            time.sleep(30 * attempt)
+            # never double-post: check whether the container got published despite the error
+            st = ig._req("GET", f"{ig.GRAPH}/{c['id']}", {"fields": "status_code"})
+            if st.get("status_code") == "PUBLISHED":
+                break
+    if mid is None:
+        recent = ig._req("GET", f"{ig.GRAPH}/{ig.IG_USER_ID}/media", {"fields": "id,caption", "limit": "3"}).get("data", [])
+        mid = next((m["id"] for m in recent if (m.get("caption") or "").startswith(_caption(ep)[:40])), None)
+    if mid is None:
+        db.upsert_episode(ep_id, status="error", error="publish failed after retries")
+        sys.exit("publish failed after retries")
     link = ig.permalink(mid)
     db.upsert_episode(ep_id, status="published", published_at=db.now_utc(), ig_media_id=mid)
     with db.conn() as cx:

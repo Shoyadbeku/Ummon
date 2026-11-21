@@ -1,0 +1,83 @@
+1
+00:00:00,350 --> 00:00:02,029
+Gaz yo'q uylar uchun yangi imtiyoz!
+
+2
+00:00:02,250 --> 00:00:05,435
+Vazirlar Mahkamasi qaroriga ko'ra, elektr energiyasining
+
+3
+00:00:05,435 --> 00:00:08,900
+oylik bazaviy me'yori 200 kilovatt-soatdan 350
+
+4
+00:00:08,900 --> 00:00:10,410
+kilovatt-soatga oshirildi.
+
+5
+00:00:10,630 --> 00:00:12,952
+Shu me'yor doirasida har bir kilovatt-soat
+
+6
+00:00:12,952 --> 00:00:14,949
+uchun 650 so'm to'lanadi.
+
+7
+00:00:15,169 --> 00:00:17,637
+Imtiyoz tabiiy gaz bilan ta'minlanmagan yoki
+
+8
+00:00:17,637 --> 00:00:20,762
+gaz yetkazib berish cheklangan hududlardagi xonadonlarga
+
+9
+00:00:20,762 --> 00:00:21,309
+tegishli.
+
+10
+00:00:21,530 --> 00:00:24,536
+Yangi tartib 1-noyabrdan amal qiladi, shuning
+
+11
+00:00:24,536 --> 00:00:26,692
+uchun noyabr oyi to'lovlari ham qayta
+
+12
+00:00:26,692 --> 00:00:27,429
+hisoblanadi.
+
+13
+00:00:27,649 --> 00:00:30,562
+Masalan, oyiga 300 kilovatt-soat ishlatgan xonadon
+
+14
+00:00:30,562 --> 00:00:33,104
+eski me'yorda 220 ming so'm to'lar
+
+15
+00:00:33,104 --> 00:00:33,369
+edi.
+
+16
+00:00:33,590 --> 00:00:35,889
+Yangi me'yorda esa hisob-kitobga ko'ra, bu
+
+17
+00:00:35,889 --> 00:00:38,829
+summa 195 ming so'mni tashkil qiladi.
+
+18
+00:00:39,049 --> 00:00:41,366
+Eng muhimi, ariza yozish yoki idoralarga
+
+19
+00:00:41,366 --> 00:00:44,250
+borish shart emas, imtiyoz avtomatik qo'llaniladi.
+
+20
+00:00:44,469 --> 00:00:46,325
+Sizning hududingizda gaz bormi?
+
+21
+00:00:46,325 --> 00:00:47,890
+Fikringizni izohda yozing.

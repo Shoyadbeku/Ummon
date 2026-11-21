@@ -1,0 +1,670 @@
+{
+ "duration": 48.11,
+ "sentences": [
+  {
+   "i": 0,
+   "text": "Gaz yo'q uylar uchun yangi imtiyoz!",
+   "say": "Gaz yo'q uylar uchun yangi imtiyoz!",
+   "start": 0.35,
+   "end": 2.03
+  },
+  {
+   "i": 1,
+   "text": "Vazirlar Mahkamasi qaroriga ko'ra, elektr energiyasining oylik bazaviy me'yori 200 kilovatt-soatdan 350 kilovatt-soatga oshirildi.",
+   "say": "Vazirlar Mahkamasi qaroriga ko'ra, elektr energiyasining oylik bazaviy me'yori ikki yuz kilovatt-soatdan uch yuz ellik kilovatt-soatga oshirildi.",
+   "start": 2.25,
+   "end": 10.41
+  },
+  {
+   "i": 2,
+   "text": "Shu me'yor doirasida har bir kilovatt-soat uchun 650 so'm to'lanadi.",
+   "say": "Shu me'yor doirasida har bir kilovatt-soat uchun olti yuz ellik so'm to'lanadi.",
+   "start": 10.63,
+   "end": 14.95
+  },
+  {
+   "i": 3,
+   "text": "Imtiyoz tabiiy gaz bilan ta'minlanmagan yoki gaz yetkazib berish cheklangan hududlardagi xonadonlarga tegishli.",
+   "say": "Imtiyoz tabiiy gaz bilan ta'minlanmagan yoki gaz yetkazib berish cheklangan hududlardagi xonadonlarga tegishli.",
+   "start": 15.17,
+   "end": 21.31
+  },
+  {
+   "i": 4,
+   "text": "Yangi tartib 1-noyabrdan amal qiladi, shuning uchun noyabr oyi to'lovlari ham qayta hisoblanadi.",
+   "say": "Yangi tartib birinchi noyabrdan amal qiladi, shuning uchun noyabr oyi to'lovlari ham qayta hisoblanadi.",
+   "start": 21.53,
+   "end": 27.43
+  },
+  {
+   "i": 5,
+   "text": "Masalan, oyiga 300 kilovatt-soat ishlatgan xonadon eski me'yorda 220 ming so'm to'lar edi.",
+   "say": "Masalan, oyiga uch yuz kilovatt-soat ishlatgan xonadon eski me'yorda ikki yuz yigirma ming so'm to'lar edi.",
+   "start": 27.65,
+   "end": 33.37
+  },
+  {
+   "i": 6,
+   "text": "Yangi me'yorda esa hisob-kitobga ko'ra, bu summa 195 ming so'mni tashkil qiladi.",
+   "say": "Yangi me'yorda esa hisob-kitobga ko'ra, bu summa bir yuz to'qson besh ming so'mni tashkil qiladi.",
+   "start": 33.59,
+   "end": 38.83
+  },
+  {
+   "i": 7,
+   "text": "Eng muhimi, ariza yozish yoki idoralarga borish shart emas, imtiyoz avtomatik qo'llaniladi.",
+   "say": "Eng muhimi, ariza yozish yoki idoralarga borish shart emas, imtiyoz avtomatik qo'llaniladi.",
+   "start": 39.05,
+   "end": 44.25
+  },
+  {
+   "i": 8,
+   "text": "Sizning hududingizda gaz bormi? Fikringizni izohda yozing.",
+   "say": "Sizning hududingizda gaz bormi? Fikringizni izohda yozing.",
+   "start": 44.47,
+   "end": 47.89
+  }
+ ],
+ "words": [
+  {
+   "text": "Gaz",
+   "start": 0.35,
+   "end": 0.537,
+   "highlight": false
+  },
+  {
+   "text": "yo'q",
+   "start": 0.537,
+   "end": 0.77,
+   "highlight": false
+  },
+  {
+   "text": "uylar",
+   "start": 0.77,
+   "end": 1.05,
+   "highlight": false
+  },
+  {
+   "text": "uchun",
+   "start": 1.05,
+   "end": 1.33,
+   "highlight": false
+  },
+  {
+   "text": "yangi",
+   "start": 1.33,
+   "end": 1.61,
+   "highlight": false
+  },
+  {
+   "text": "imtiyoz!",
+   "start": 1.61,
+   "end": 2.03,
+   "highlight": false
+  },
+  {
+   "text": "Vazirlar",
+   "start": 2.25,
+   "end": 2.753,
+   "highlight": false
+  },
+  {
+   "text": "Mahkamasi",
+   "start": 2.753,
+   "end": 3.312,
+   "highlight": false
+  },
+  {
+   "text": "qaroriga",
+   "start": 3.312,
+   "end": 3.815,
+   "highlight": false
+  },
+  {
+   "text": "ko'ra,",
+   "start": 3.815,
+   "end": 4.206,
+   "highlight": false
+  },
+  {
+   "text": "elektr",
+   "start": 4.206,
+   "end": 4.597,
+   "highlight": false
+  },
+  {
+   "text": "energiyasining",
+   "start": 4.597,
+   "end": 5.436,
+   "highlight": false
+  },
+  {
+   "text": "oylik",
+   "start": 5.436,
+   "end": 5.771,
+   "highlight": false
+  },
+  {
+   "text": "bazaviy",
+   "start": 5.771,
+   "end": 6.218,
+   "highlight": false
+  },
+  {
+   "text": "me'yori",
+   "start": 6.218,
+   "end": 6.665,
+   "highlight": false
+  },
+  {
+   "text": "200",
+   "start": 6.665,
+   "end": 7.168,
+   "highlight": false
+  },
+  {
+   "text": "kilovatt-soatdan",
+   "start": 7.168,
+   "end": 8.118,
+   "highlight": false
+  },
+  {
+   "text": "350",
+   "start": 8.118,
+   "end": 8.901,
+   "highlight": true
+  },
+  {
+   "text": "kilovatt-soatga",
+   "start": 8.901,
+   "end": 9.795,
+   "highlight": false
+  },
+  {
+   "text": "oshirildi.",
+   "start": 9.795,
+   "end": 10.41,
+   "highlight": false
+  },
+  {
+   "text": "Shu",
+   "start": 10.63,
+   "end": 10.846,
+   "highlight": false
+  },
+  {
+   "text": "me'yor",
+   "start": 10.846,
+   "end": 11.224,
+   "highlight": false
+  },
+  {
+   "text": "doirasida",
+   "start": 11.224,
+   "end": 11.764,
+   "highlight": false
+  },
+  {
+   "text": "har",
+   "start": 11.764,
+   "end": 11.98,
+   "highlight": false
+  },
+  {
+   "text": "bir",
+   "start": 11.98,
+   "end": 12.196,
+   "highlight": false
+  },
+  {
+   "text": "kilovatt-soat",
+   "start": 12.196,
+   "end": 12.952,
+   "highlight": false
+  },
+  {
+   "text": "uchun",
+   "start": 12.952,
+   "end": 13.276,
+   "highlight": false
+  },
+  {
+   "text": "650",
+   "start": 13.276,
+   "end": 14.086,
+   "highlight": true
+  },
+  {
+   "text": "so'm",
+   "start": 14.086,
+   "end": 14.356,
+   "highlight": false
+  },
+  {
+   "text": "to'lanadi.",
+   "start": 14.356,
+   "end": 14.95,
+   "highlight": false
+  },
+  {
+   "text": "Imtiyoz",
+   "start": 15.17,
+   "end": 15.609,
+   "highlight": false
+  },
+  {
+   "text": "tabiiy",
+   "start": 15.609,
+   "end": 15.992,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 15.992,
+   "end": 16.212,
+   "highlight": true
+  },
+  {
+   "text": "bilan",
+   "start": 16.212,
+   "end": 16.541,
+   "highlight": false
+  },
+  {
+   "text": "ta'minlanmagan",
+   "start": 16.541,
+   "end": 17.363,
+   "highlight": false
+  },
+  {
+   "text": "yoki",
+   "start": 17.363,
+   "end": 17.637,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 17.637,
+   "end": 17.856,
+   "highlight": true
+  },
+  {
+   "text": "yetkazib",
+   "start": 17.856,
+   "end": 18.35,
+   "highlight": false
+  },
+  {
+   "text": "berish",
+   "start": 18.35,
+   "end": 18.733,
+   "highlight": false
+  },
+  {
+   "text": "cheklangan",
+   "start": 18.733,
+   "end": 19.336,
+   "highlight": false
+  },
+  {
+   "text": "hududlardagi",
+   "start": 19.336,
+   "end": 20.049,
+   "highlight": false
+  },
+  {
+   "text": "xonadonlarga",
+   "start": 20.049,
+   "end": 20.762,
+   "highlight": false
+  },
+  {
+   "text": "tegishli.",
+   "start": 20.762,
+   "end": 21.31,
+   "highlight": false
+  },
+  {
+   "text": "Yangi",
+   "start": 21.53,
+   "end": 21.87,
+   "highlight": false
+  },
+  {
+   "text": "tartib",
+   "start": 21.87,
+   "end": 22.268,
+   "highlight": false
+  },
+  {
+   "text": "1-noyabrdan",
+   "start": 22.268,
+   "end": 23.345,
+   "highlight": false
+  },
+  {
+   "text": "amal",
+   "start": 23.345,
+   "end": 23.629,
+   "highlight": false
+  },
+  {
+   "text": "qiladi,",
+   "start": 23.629,
+   "end": 24.083,
+   "highlight": false
+  },
+  {
+   "text": "shuning",
+   "start": 24.083,
+   "end": 24.537,
+   "highlight": false
+  },
+  {
+   "text": "uchun",
+   "start": 24.537,
+   "end": 24.877,
+   "highlight": false
+  },
+  {
+   "text": "noyabr",
+   "start": 24.877,
+   "end": 25.274,
+   "highlight": false
+  },
+  {
+   "text": "oyi",
+   "start": 25.274,
+   "end": 25.501,
+   "highlight": false
+  },
+  {
+   "text": "to'lovlari",
+   "start": 25.501,
+   "end": 26.125,
+   "highlight": false
+  },
+  {
+   "text": "ham",
+   "start": 26.125,
+   "end": 26.352,
+   "highlight": false
+  },
+  {
+   "text": "qayta",
+   "start": 26.352,
+   "end": 26.692,
+   "highlight": true
+  },
+  {
+   "text": "hisoblanadi.",
+   "start": 26.692,
+   "end": 27.43,
+   "highlight": false
+  },
+  {
+   "text": "Masalan,",
+   "start": 27.65,
+   "end": 28.127,
+   "highlight": false
+  },
+  {
+   "text": "oyiga",
+   "start": 28.127,
+   "end": 28.444,
+   "highlight": false
+  },
+  {
+   "text": "300",
+   "start": 28.444,
+   "end": 28.868,
+   "highlight": false
+  },
+  {
+   "text": "kilovatt-soat",
+   "start": 28.868,
+   "end": 29.61,
+   "highlight": false
+  },
+  {
+   "text": "ishlatgan",
+   "start": 29.61,
+   "end": 30.139,
+   "highlight": false
+  },
+  {
+   "text": "xonadon",
+   "start": 30.139,
+   "end": 30.563,
+   "highlight": false
+  },
+  {
+   "text": "eski",
+   "start": 30.563,
+   "end": 30.828,
+   "highlight": false
+  },
+  {
+   "text": "me'yorda",
+   "start": 30.828,
+   "end": 31.304,
+   "highlight": false
+  },
+  {
+   "text": "220",
+   "start": 31.304,
+   "end": 32.205,
+   "highlight": true
+  },
+  {
+   "text": "ming",
+   "start": 32.205,
+   "end": 32.47,
+   "highlight": false
+  },
+  {
+   "text": "so'm",
+   "start": 32.47,
+   "end": 32.734,
+   "highlight": false
+  },
+  {
+   "text": "to'lar",
+   "start": 32.734,
+   "end": 33.105,
+   "highlight": false
+  },
+  {
+   "text": "edi.",
+   "start": 33.105,
+   "end": 33.37,
+   "highlight": false
+  },
+  {
+   "text": "Yangi",
+   "start": 33.59,
+   "end": 33.911,
+   "highlight": false
+  },
+  {
+   "text": "me'yorda",
+   "start": 33.911,
+   "end": 34.392,
+   "highlight": false
+  },
+  {
+   "text": "esa",
+   "start": 34.392,
+   "end": 34.606,
+   "highlight": false
+  },
+  {
+   "text": "hisob-kitobga",
+   "start": 34.606,
+   "end": 35.354,
+   "highlight": false
+  },
+  {
+   "text": "ko'ra,",
+   "start": 35.354,
+   "end": 35.729,
+   "highlight": false
+  },
+  {
+   "text": "bu",
+   "start": 35.729,
+   "end": 35.889,
+   "highlight": false
+  },
+  {
+   "text": "summa",
+   "start": 35.889,
+   "end": 36.21,
+   "highlight": false
+  },
+  {
+   "text": "195",
+   "start": 36.21,
+   "end": 37.333,
+   "highlight": true
+  },
+  {
+   "text": "ming",
+   "start": 37.333,
+   "end": 37.6,
+   "highlight": false
+  },
+  {
+   "text": "so'mni",
+   "start": 37.6,
+   "end": 37.974,
+   "highlight": false
+  },
+  {
+   "text": "tashkil",
+   "start": 37.974,
+   "end": 38.402,
+   "highlight": false
+  },
+  {
+   "text": "qiladi.",
+   "start": 38.402,
+   "end": 38.83,
+   "highlight": false
+  },
+  {
+   "text": "Eng",
+   "start": 39.05,
+   "end": 39.276,
+   "highlight": false
+  },
+  {
+   "text": "muhimi,",
+   "start": 39.276,
+   "end": 39.728,
+   "highlight": false
+  },
+  {
+   "text": "ariza",
+   "start": 39.728,
+   "end": 40.067,
+   "highlight": false
+  },
+  {
+   "text": "yozish",
+   "start": 40.067,
+   "end": 40.463,
+   "highlight": false
+  },
+  {
+   "text": "yoki",
+   "start": 40.463,
+   "end": 40.746,
+   "highlight": false
+  },
+  {
+   "text": "idoralarga",
+   "start": 40.746,
+   "end": 41.367,
+   "highlight": false
+  },
+  {
+   "text": "borish",
+   "start": 41.367,
+   "end": 41.763,
+   "highlight": false
+  },
+  {
+   "text": "shart",
+   "start": 41.763,
+   "end": 42.102,
+   "highlight": false
+  },
+  {
+   "text": "emas,",
+   "start": 42.102,
+   "end": 42.441,
+   "highlight": false
+  },
+  {
+   "text": "imtiyoz",
+   "start": 42.441,
+   "end": 42.893,
+   "highlight": false
+  },
+  {
+   "text": "avtomatik",
+   "start": 42.893,
+   "end": 43.459,
+   "highlight": true
+  },
+  {
+   "text": "qo'llaniladi.",
+   "start": 43.459,
+   "end": 44.25,
+   "highlight": false
+  },
+  {
+   "text": "Sizning",
+   "start": 44.47,
+   "end": 44.934,
+   "highlight": false
+  },
+  {
+   "text": "hududingizda",
+   "start": 44.934,
+   "end": 45.687,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 45.687,
+   "end": 45.919,
+   "highlight": false
+  },
+  {
+   "text": "bormi?",
+   "start": 45.919,
+   "end": 46.325,
+   "highlight": false
+  },
+  {
+   "text": "Fikringizni",
+   "start": 46.325,
+   "end": 47.021,
+   "highlight": false
+  },
+  {
+   "text": "izohda",
+   "start": 47.021,
+   "end": 47.426,
+   "highlight": true
+  },
+  {
+   "text": "yozing.",
+   "start": 47.426,
+   "end": 47.89,
+   "highlight": false
+  }
+ ]
+}

@@ -50,11 +50,47 @@ def create_container(caption: str, share_to_feed: bool = True, thumb_offset_ms: 
     return _req("POST", f"{GRAPH}/{IG_USER_ID}/media", params)
 
 
-def upload(container: dict, video: Path) -> dict:
+def _curl(uri: str, headers: list[str], body: Path | None = None, timeout: int = 600) -> dict:
+    import subprocess
+    cfg = "".join(f'header = "{h}"\n' for h in [f"Authorization: OAuth {token()}", *headers])
+    cmd = ["curl", "-s", "-m", str(timeout), uri, "-K", "-"]
+    if body is not None:
+        cmd[1:1] = ["-X", "POST", "--data-binary", f"@{body}"]
+    r = subprocess.run(cmd, input=cfg, capture_output=True, text=True)
+    try:
+        return json.loads(r.stdout or "{}")
+    except json.JSONDecodeError:
+        return {"raw": r.stdout[:300], "err": r.stderr[:200]}
+
+
+def upload_copy(video: Path) -> Path:
+    """Lighter H.264 copy for upload (same 1080x1920/30fps; ~3.5 Mbps). Big bodies get cut in transit."""
+    import subprocess
+    out = video.with_name("upload.mp4")
+    if not out.exists() or out.stat().st_mtime < video.stat().st_mtime:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-c:v", "libx264", "-preset", "slow", "-crf", "23",
+                        "-maxrate", "4M", "-bufsize", "8M", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+                        "-c:a", "aac", "-b:a", "160k", str(out)], check=True)
+    return out
+
+
+def upload(container: dict, video: Path, tries: int = 8) -> dict:
+    """Resumable upload: on a cut transfer, ask the server how many bytes it has and continue from there.
+    (Uses curl: Python's urllib re-capitalises header names, which rupload.facebook.com rejects.)"""
+    import tempfile
+    uri = f"https://rupload.facebook.com/ig-api-upload/{GRAPH.rsplit('/', 1)[1]}/{container['id']}"
     data = video.read_bytes()
-    uri = container.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v21.0/{container['id']}"
-    return _req("POST", uri, data=data, headers={
-        "Authorization": f"OAuth {token()}", "offset": "0", "file_size": str(len(data)), "Content-Type": "application/octet-stream"})
+    size = len(data)
+    last = {}
+    for _ in range(tries):
+        off = int(_curl(uri, []).get("offset") or 0)
+        with tempfile.NamedTemporaryFile(suffix=".bin") as tmp:
+            tmp.write(data[off:]); tmp.flush()
+            last = _curl(uri, [f"offset: {off}", f"file_size: {size}"], Path(tmp.name))
+        if last.get("success"):
+            return last
+        time.sleep(3)
+    raise RuntimeError(f"upload failed: {last}")
 
 
 def wait_ready(container_id: str, timeout: int = 600) -> str:
