@@ -1,0 +1,335 @@
+// YHQ test platformasi — ma'lumotlar bazasi sxemasi (PostgreSQL)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+/// Savol kelib chiqishi: rasmiy imtihon bazasidan yoki mustaqil tuzilgan mashq savoli
+enum QuestionOrigin {
+  OFFICIAL
+  PRACTICE
+}
+
+enum VerificationStatus {
+  UNVERIFIED
+  IN_REVIEW
+  VERIFIED
+  REJECTED
+}
+
+enum SourceType {
+  OFFICIAL_LAW
+  OFFICIAL_QUESTION_BANK
+  ORIGINAL_PRACTICE
+  THIRD_PARTY
+}
+
+enum AttemptMode {
+  LEARN
+  EXAM
+}
+
+enum AttemptKind {
+  TICKET
+  EXAM
+  RANDOM
+  TOPIC
+  MISTAKES
+  SIGNS
+  FAVORITES
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  FINISHED
+  EXPIRED
+}
+
+enum SignGroup {
+  WARNING
+  PRIORITY
+  PROHIBITORY
+  MANDATORY
+  INFORMATION
+  SERVICE
+  ADDITIONAL
+}
+
+model User {
+  id           String          @id @default(cuid())
+  email        String          @unique
+  name         String
+  passwordHash String
+  role         Role            @default(USER)
+  isBlocked    Boolean         @default(false)
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+  sessions     Session[]
+  attempts     TestAttempt[]
+  progress     UserProgress[]
+  saved        SavedQuestion[]
+  auditLogs    AuditLog[]
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  userAgent String?
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  name        String
+  nameRu      String?
+  description String?
+  order       Int        @default(0)
+  questions   Question[]
+
+  @@map("categories")
+}
+
+model QuestionSource {
+  id        String     @id @default(cuid())
+  name      String
+  type      SourceType
+  url       String?
+  license   String?
+  notes     String?
+  verified  Boolean    @default(false)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  questions Question[]
+
+  @@map("question_sources")
+}
+
+model Question {
+  id                 String             @id @default(cuid())
+  code               String             @unique
+  text               String
+  explanation        String
+  imageUrl           String?
+  /// Sxematik vaziyat (chorraha, svetofor va h.k.) — SVG sifatida chiziladi
+  scene              Json?
+  /// Savolga tegishli yo'l belgisi kodi (masalan "2.4") — belgini rasm sifatida ko'rsatish uchun
+  signCode           String?
+  categoryId         String
+  category           Category           @relation(fields: [categoryId], references: [id])
+  difficulty         Difficulty         @default(MEDIUM)
+  sourceId           String?
+  source             QuestionSource?    @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  /// YHQ bandi, masalan "YHQ 78-band"
+  ruleRef            String?
+  ruleUrl            String?
+  origin             QuestionOrigin     @default(PRACTICE)
+  verificationStatus VerificationStatus @default(UNVERIFIED)
+  isActive           Boolean            @default(true)
+  /// Takrorlarni aniqlash uchun normallashtirilgan matn xeshi
+  textHash           String
+  /// Boshqa tillardagi tarjimalar: { ru?: { text, explanation, options: string[] } }
+  translations       Json?
+  reviewedAt         DateTime?
+  reviewNote         String?
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  options            AnswerOption[]
+  tickets            TicketQuestion[]
+  answers            UserAnswer[]
+  progress           UserProgress[]
+  saved              SavedQuestion[]
+
+  @@index([categoryId])
+  @@index([textHash])
+  @@index([isActive, verificationStatus])
+  @@map("questions")
+}
+
+model AnswerOption {
+  id          String       @id @default(cuid())
+  questionId  String
+  question    Question     @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  order       Int
+  text        String
+  isCorrect   Boolean      @default(false)
+  /// Nima uchun bu variant to'g'ri/noto'g'ri — qisqa izoh
+  explanation String?
+  answers     UserAnswer[]
+
+  @@unique([questionId, order])
+  @@map("answer_options")
+}
+
+model Ticket {
+  id          String           @id @default(cuid())
+  number      Int              @unique
+  title       String?
+  isPublished Boolean          @default(true)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  questions   TicketQuestion[]
+  attempts    TestAttempt[]
+
+  @@map("tickets")
+}
+
+model TicketQuestion {
+  ticketId   String
+  ticket     Ticket   @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  position   Int
+
+  @@id([ticketId, position])
+  @@unique([ticketId, questionId])
+  @@index([questionId])
+  @@map("ticket_questions")
+}
+
+model TestAttempt {
+  id           String        @id @default(cuid())
+  userId       String?
+  user         User?         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// Ro'yxatdan o'tmagan foydalanuvchi brauzeri identifikatori (httpOnly cookie)
+  guestId      String?
+  mode         AttemptMode
+  kind         AttemptKind
+  ticketId     String?
+  ticket       Ticket?       @relation(fields: [ticketId], references: [id], onDelete: SetNull)
+  categorySlug String?
+  status       AttemptStatus @default(IN_PROGRESS)
+  questionIds  String[]
+  startedAt    DateTime      @default(now())
+  deadlineAt   DateTime?
+  finishedAt   DateTime?
+  total        Int
+  correctCount Int           @default(0)
+  wrongCount   Int           @default(0)
+  durationSec  Int?
+  maxErrors    Int?
+  passed       Boolean?
+  answers      UserAnswer[]
+
+  @@index([userId, startedAt])
+  @@index([guestId, startedAt])
+  @@index([ticketId])
+  @@map("test_attempts")
+}
+
+model UserAnswer {
+  id         String        @id @default(cuid())
+  attemptId  String
+  attempt    TestAttempt   @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question      @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  optionId   String?
+  option     AnswerOption? @relation(fields: [optionId], references: [id], onDelete: SetNull)
+  isCorrect  Boolean       @default(false)
+  /// O'quv rejimida javob ko'rsatilgan (oldindan ko'rilgan) bo'lsa
+  revealed   Boolean       @default(false)
+  checked    Boolean       @default(false)
+  answeredAt DateTime      @default(now())
+
+  @@unique([attemptId, questionId])
+  @@map("user_answers")
+}
+
+model UserProgress {
+  id             String    @id @default(cuid())
+  userId         String?
+  user           User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guestId        String?
+  questionId     String
+  question       Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  seenCount      Int       @default(0)
+  correctCount   Int       @default(0)
+  wrongCount     Int       @default(0)
+  lastCorrect    Boolean?
+  /// "Mening xatolarim" ro'yxatida turibdimi (xato qilingan va hali to'g'rilanmagan)
+  inMistakes     Boolean   @default(false)
+  /// Ketma-ket to'g'ri javoblar soni (o'zlashtirish uchun)
+  streak         Int       @default(0)
+  lastAnsweredAt DateTime?
+
+  @@unique([userId, questionId])
+  @@unique([guestId, questionId])
+  @@index([userId, inMistakes])
+  @@index([guestId, inMistakes])
+  @@map("user_progress")
+}
+
+model SavedQuestion {
+  id         String   @id @default(cuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guestId    String?
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@unique([userId, questionId])
+  @@unique([guestId, questionId])
+  @@map("saved_questions")
+}
+
+model TrafficSign {
+  id        String    @id @default(cuid())
+  code      String    @unique
+  group     SignGroup
+  name      String
+  meaning   String
+  usage     String?
+  ruleRef   String?
+  imageUrl  String?
+  order     Int       @default(0)
+  updatedAt DateTime  @updatedAt
+
+  @@map("traffic_signs")
+}
+
+model AppSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+
+  @@map("app_settings")
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action    String
+  entity    String
+  entityId  String?
+  details   Json?
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@map("audit_logs")
+}
