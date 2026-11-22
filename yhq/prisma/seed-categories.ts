@@ -1,0 +1,21 @@
+// Savol mavzulari (kategoriyalar)
+export const CATEGORIES = [
+  { slug: "umumiy", name: "Umumiy qoidalar va haydovchi majburiyatlari", nameRu: "Общие положения и обязанности водителя", description: "YHQ 1–3-boblar: hujjatlar, toifalar, kamar, taqiqlar, YTH" },
+  { slug: "piyoda", name: "Piyodalar, yo'lovchilar va o'tish joylari", nameRu: "Пешеходы, пассажиры и переходы", description: "YHQ 4, 5, 17-boblar" },
+  { slug: "maxsus", name: "Maxsus transport vositalari", nameRu: "Спецтранспорт", description: "YHQ 6-bob" },
+  { slug: "svetofor", name: "Svetofor va tartibga soluvchi ishoralari", nameRu: "Сигналы светофора и регулировщика", description: "YHQ 7-bob" },
+  { slug: "ishoralar", name: "Ogohlantiruvchi va avariya ishoralari", nameRu: "Предупредительные и аварийные сигналы", description: "YHQ 8-bob" },
+  { slug: "manyovr", name: "Manyovr va qatnov qismida joylashuv", nameRu: "Маневрирование и расположение на проезжей части", description: "YHQ 9–10-boblar" },
+  { slug: "tezlik", name: "Harakatlanish tezligi", nameRu: "Скорость движения", description: "YHQ 11-bob" },
+  { slug: "quvib", name: "Quvib o'tish", nameRu: "Обгон", description: "YHQ 12-bob" },
+  { slug: "toxtash", name: "To'xtash va to'xtab turish", nameRu: "Остановка и стоянка", description: "YHQ 13-bob" },
+  { slug: "chorraha", name: "Chorrahalardan o'tish", nameRu: "Проезд перекрёстков", description: "YHQ 14–16-boblar" },
+  { slug: "temiryol", name: "Temir yo'l kesishmalari", nameRu: "Железнодорожные переезды", description: "YHQ 18-bob" },
+  { slug: "magistral", name: "Avtomagistral, turar joy dahasi, nishabliklar", nameRu: "Автомагистрали, жилые зоны, уклоны", description: "YHQ 19–22-boblar" },
+  { slug: "yoritish", name: "Tashqi yoritish asboblari", nameRu: "Внешние световые приборы", description: "YHQ 23-bob" },
+  { slug: "shatak", name: "Shatakka olish, odam va yuk tashish", nameRu: "Буксировка, перевозка людей и грузов", description: "YHQ 24–27-boblar" },
+  { slug: "velo", name: "Velosiped, moped va hayvonlar", nameRu: "Велосипеды, мопеды и животные", description: "YHQ 28-bob" },
+  { slug: "belgilar", name: "Yo'l belgilari", nameRu: "Дорожные знаки", description: "YHQ 1-ilova" },
+  { slug: "tibbiy", name: "Birinchi tibbiy yordam", nameRu: "Первая помощь", description: "YTHda birinchi yordam asoslari" },
+  { slug: "texnik", name: "Transport vositasining texnik holati", nameRu: "Техническое состояние ТС", description: "YHQ 11–12-bandlar" },
+];

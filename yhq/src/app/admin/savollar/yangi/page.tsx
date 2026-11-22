@@ -1,6 +1,7 @@
 import { prisma } from "@/lib/db";
 import { PageHeader } from "@/components/ui/misc";
-import { EMPTY_QUESTION, QuestionForm } from "@/components/admin/question-form";
+import { QuestionForm } from "@/components/admin/question-form";
+import { EMPTY_QUESTION } from "@/components/admin/question-form-data";
 
 export default async function NewQuestion() {
   const [categories, sources] = await Promise.all([
