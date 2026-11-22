@@ -199,9 +199,14 @@ def radio_ishlov(kirish: str, chiqish: str):
                    check=True)
 
 
+def ovoz_yoli(nom: str) -> str:
+    return nom if nom.endswith(".pt") else os.path.join(BU_PAPKA, "ovozlar", f"{nom}.pt")
+
+
 def ayt(args):
-    if not os.path.exists(OVOZ_FAYL):
-        sys.exit("Avval ovozni yarating: python diktor.py dizayn")
+    ovoz = ovoz_yoli(args.ovoz)
+    if not os.path.exists(ovoz):
+        sys.exit(f"Ovoz topilmadi: {ovoz}. Avval: python diktor.py dizayn yoki python diktor.py klon ...")
     from omnivoice.models.omnivoice import VoiceClonePrompt
 
     matn = open(args.fayl, encoding="utf-8").read() if args.fayl else " ".join(args.matn)
@@ -212,7 +217,7 @@ def ayt(args):
 
     model = tts_model()
     sr = model.sampling_rate
-    prompt = VoiceClonePrompt.load(OVOZ_FAYL)
+    prompt = VoiceClonePrompt.load(ovoz)
     tek = None if args.tekshirmaslik else Tekshiruvchi()
 
     pauza = np.zeros(int(sr * args.pauza), dtype=np.float32)
@@ -247,6 +252,47 @@ def ayt(args):
     log(f"\nTayyor: {chiqish}  ({len(toliq) / sr:.1f} s)")
 
 
+# ---------------------------------------------------------------- klon
+
+KLON_SINOV = "Assalomu alaykum! Bu mening ovozim. Bugun sizga ikki ming yigirma oltinchi yilning eng qiziq faktlarini aytib beraman."
+
+
+def klon(args):
+    """O'z ovozingizdan klon: 5-20 soniyalik toza bo'lak va uning aniq matni kerak."""
+    import torchaudio.functional as F
+
+    audio, sr = sf.read(args.audio, dtype="float32", always_2d=True)
+    audio = audio.mean(axis=1)
+    bosh = int((args.boshi or 0) * sr)
+    oxir = int(args.oxiri * sr) if args.oxiri else len(audio)
+    audio = audio[bosh:oxir]
+    if len(audio) / sr > 20:
+        log(f"Diqqat: bo'lak {len(audio) / sr:.0f} s. 5-20 soniya eng yaxshi; --boshi/--oxiri bilan qisqartiring.")
+
+    model = tts_model()
+    tek = Tekshiruvchi()
+    audio24 = F.resample(torch.from_numpy(audio), sr, model.sampling_rate).numpy()
+    matn = args.matn or tek.matn(audio24, model.sampling_rate)
+    if not args.matn:
+        log("Diqqat: matn ASR bilan olindi, xatolar bo'lsa klon sifati pasayadi. Aniq matnni --matn bilan bering.")
+    log(f"Namuna matni: {matn}")
+
+    yol = ovoz_yoli(args.nom)
+    os.makedirs(os.path.dirname(yol), exist_ok=True)
+    prompt = model.create_voice_clone_prompt(ref_audio=(torch.from_numpy(audio24), model.sampling_rate), ref_text=matn)
+    prompt.save(yol)
+    log(f"Ovoz saqlandi: {yol}")
+
+    torch.manual_seed(0)
+    sinov = model.generate(text=KLON_SINOV, language="uz", voice_clone_prompt=prompt, **GEN)[0]
+    cer, eshitildi = tek.cer(sinov, model.sampling_rate, KLON_SINOV)
+    log(f"Sinov: CER={cer:.3f}  F0 asl={tembr_hz(audio24, model.sampling_rate):.0f}Hz  "
+        f"klon={tembr_hz(sinov, model.sampling_rate):.0f}Hz  -> {eshitildi}")
+    sinov_fayl = os.path.splitext(yol)[0] + "_sinov.wav"
+    sf.write(sinov_fayl, sinov, model.sampling_rate)
+    log(f"Sinov fayli: {sinov_fayl}")
+
+
 def main():
     p = argparse.ArgumentParser(description="Ummon Diktor: OmniVoice o'zbekcha erkak ovozi")
     sub = p.add_subparsers(dest="buyruq", required=True)
@@ -259,6 +305,7 @@ def main():
     a.add_argument("matn", nargs="*")
     a.add_argument("-f", "--fayl", help="matn fayli (UTF-8)")
     a.add_argument("-o", "--chiqish", default="diktor.wav")
+    a.add_argument("--ovoz", default="diktor", help="ovoz nomi (ovozlar/<nom>.pt) yoki .pt fayl yo'li")
     a.add_argument("--tezlik", type=float, default=None, help="masalan 0.95 sekinroq, 1.05 tezroq")
     a.add_argument("--pauza", type=float, default=0.35, help="gaplar orasidagi pauza (soniya)")
     a.add_argument("--urinish", type=int, default=3, help="xato bo'lsa necha marta qayta yaratish")
@@ -266,6 +313,14 @@ def main():
     a.add_argument("--tekshirmaslik", action="store_true", help="ASR tekshiruvisiz, tezroq")
     a.add_argument("--xom", action="store_true", help="radio ishlovisiz, 24 kHz WAV")
     a.set_defaults(fn=ayt)
+
+    k = sub.add_parser("klon", help="o'z ovozingizdan klon yaratish")
+    k.add_argument("audio", help="ovoz yozuvi (wav/mp3)")
+    k.add_argument("--nom", default="mening_ovozim", help="saqlanadigan ovoz nomi")
+    k.add_argument("--matn", help="bo'lakda aytilgan aniq matn (tavsiya etiladi)")
+    k.add_argument("--boshi", type=float, help="bo'lak boshi, soniya")
+    k.add_argument("--oxiri", type=float, help="bo'lak oxiri, soniya")
+    k.set_defaults(fn=klon)
 
     args = p.parse_args()
     args.fn(args)

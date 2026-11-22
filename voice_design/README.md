@@ -49,6 +49,18 @@ python diktor.py dizayn -n 6
 
 CPU'da 10 soniyalik ovoz taxminan 1 daqiqada tayyor bo'ladi, GPU'da esa bir necha soniyada.
 
+## O'z ovozingizni klonlash
+
+```bash
+# 5-20 soniyalik toza bo'lak va unda aytilgan aniq matn kerak
+python diktor.py klon yozuv.wav --boshi 0.6 --oxiri 15.6 --matn "Bo'lakda aytilgan so'zlar..."
+python diktor.py ayt --ovoz mening_ovozim -f matn.txt -o video.wav
+```
+
+`--matn` berilmasa, matn ASR bilan olinadi, lekin uning xatolari klon sifatini pasaytiradi.
+Klon `ovozlar/mening_ovozim.pt` ga saqlanadi va repozitoriyga qo'shilmaydi (`.gitignore`).
+Faqat o'z ovozingizni yoki ruxsat bergan odamning ovozini klonlang.
+
 ## Fayllar
 
 ```
