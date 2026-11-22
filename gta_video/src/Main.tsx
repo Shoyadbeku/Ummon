@@ -87,7 +87,7 @@ export const Main: React.FC<{captions?: boolean}> = ({captions = false}) => {
       <Vignette strength={captions ? 0.6 : 0.45} />
       <Grain opacity={0.07} />
       {captions && <Captions words={words as Word[]} />}
-      <ProgressBar total={durationInFrames} />
+
       <AbsoluteFill style={{background: '#000', opacity: fadeOut, pointerEvents: 'none'}} />
       <Audio src={staticFile('audio/final_mix.wav')} />
     </AbsoluteFill>
