@@ -81,12 +81,13 @@ def _image(e) -> str | None:
 
 def crawl() -> int:
     new = 0
+    warnings = []
     with conn() as c:
         for f in FEEDS:
             try:
                 d = feedparser.parse(_fetch(f["url"]))
             except Exception as ex:  # retry next run; log and keep going
-                log("WARN", f"feed failed {f['name']}: {ex}")
+                warnings.append(f"feed failed {f['name']}: {ex}")
                 continue
             for e in d.entries[:60]:
                 url = e.get("link")
@@ -98,6 +99,8 @@ def crawl() -> int:
                      _published(e), now_utc(), _image(e)),
                 )
                 new += cur.rowcount
+    for w in warnings:   # logged after the transaction closes (avoids sqlite lock)
+        log("WARN", w)
     log("INFO", f"crawl done, {new} new items")
     return new
 

@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 from .config import BRAND, DATA, REMOTION, SLOTS, TZ
-from .media import credits_line
+from .edit import build_edit
 from .uz_text import MONTHS
 
 INTRO_SEC = 2.6
@@ -15,10 +15,14 @@ COVER_SEC = 0.7     # designed cover held at the end; Instagram cover = this fra
 
 
 def _cover_media(ep: dict, approved: list) -> str | None:
+    """Cover background: an explicit choice, else the first real (non-illustrative) photo, else any photo."""
     idx = ep.get("cover_media")
-    if idx is None:
-        idx = next((s.get("media") for s in ep["sentences"] if s.get("media") is not None), 0)
-    return approved[idx]["file"] if approved and idx < len(approved) else None
+    if idx is not None and idx < len(approved):
+        return approved[idx]["file"]
+    imgs = [m for m in approved if m.get("kind", "image") == "image"]
+    real = [m for m in imgs if not m.get("illustrative")]
+    pick = (real or imgs or [None])[0]
+    return pick["file"] if pick else None
 
 
 def cover_offset_ms(ep_dir: Path) -> int:
@@ -50,24 +54,12 @@ def build_props(ep_dir: Path) -> dict:
     tm = json.loads((ep_dir / "timings.json").read_text())
     media = json.loads((ep_dir / "media.json").read_text()) if (ep_dir / "media.json").exists() else []
     approved = [m for m in media if m.get("approved", True)]
-    sents = tm["sentences"]
     voice_end = tm["duration"]
     body = round(voice_end + 0.6 + OUTRO_SEC, 2)
     total = round(body + COVER_SEC, 2)
-    segments = []
-    for i, (s, spec) in enumerate(zip(sents, ep["sentences"])):
-        start = 0 if i == 0 else s["start"] - 0.1
-        end = (sents[i + 1]["start"] - 0.1) if i + 1 < len(sents) else body
-        midx = spec.get("media")
-        if midx is None and approved:            # never leave a sentence without visuals
-            midx = i % len(approved)
-        m = approved[midx] if (midx is not None and midx < len(approved)) else None
-        segments.append({
-            "start": round(start, 3), "end": round(end, 3),
-            "media": m["file"] if m else None, "mediaType": (m or {}).get("kind", "image"),
-            "graphic": spec.get("graphic"), "lowerThird": spec.get("lower_third"),
-        })
-    # merge consecutive segments that share the same media & no graphic change -> smoother edit
+    edit = build_edit(ep, tm, media, body, INTRO_SEC)
+    for name, f in edit.pop("sfx_files").items():
+        shutil.copy(f, ep_dir / f"sfx_{name}.wav")
     slot = SLOTS.get(ep.get("slot", ""), {})
     shutil.copy(music_bed(), ep_dir / "music.wav")
     props = {
@@ -81,10 +73,9 @@ def build_props(ep_dir: Path) -> dict:
         "audio": "voice.wav",
         "music": "music.wav",
         "durationSec": total,
-        "segments": segments,
+        **edit,
         "words": [w for w in tm["words"] if w["start"] >= INTRO_SEC - 0.2],  # intro shows the hook itself
         "ticker": ep.get("ticker") or ep["headline"],
-        "credits": credits_line(approved),
         "outroText": ep.get("outro_text", "Har kuni eng muhim yangiliklar"),
         "thumbnailText": ep.get("thumbnail_text") or ep["headline"],
         "coverMedia": _cover_media(ep, approved),

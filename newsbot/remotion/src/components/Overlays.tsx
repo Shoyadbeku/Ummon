@@ -190,6 +190,26 @@ export const GraphicCard: React.FC<{g: Graphic; durFrames: number}> = ({g, durFr
 			</div>
 		);
 	}
+	if (g.type === 'timeline') {
+		return (
+			<div style={box}>
+				{g.title ? <div style={{fontFamily: font, fontWeight: 900, fontSize: 40, color: theme.yellow, marginBottom: 18}}>{g.title}</div> : null}
+				<div style={{position: 'relative', paddingLeft: 44}}>
+					<div style={{position: 'absolute', left: 14, top: 10, bottom: 10, width: 6, background: 'rgba(255,255,255,.25)', borderRadius: 3}} />
+					{g.items.map((it, i) => {
+						const si = spring({frame: frame - 6 - i * 10, fps, config: {damping: 200}});
+						return (
+							<div key={i} style={{position: 'relative', marginBottom: 22, opacity: si, transform: `translateX(${(1 - si) * 50}px)`}}>
+								<div style={{position: 'absolute', left: -42, top: 8, width: 30, height: 30, borderRadius: 15, background: it.active ? theme.red : '#fff', boxShadow: it.active ? `0 0 0 8px ${theme.red}55` : 'none'}} />
+								<div style={{fontFamily: font, fontWeight: 900, fontSize: 36, color: it.active ? theme.yellow : '#fff'}}>{it.date}</div>
+								<div style={{fontFamily: font, fontWeight: 600, fontSize: 34, color: 'rgba(255,255,255,.92)', lineHeight: 1.2}}>{it.text}</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+		);
+	}
 	// list
 	return (
 		<div style={box}>

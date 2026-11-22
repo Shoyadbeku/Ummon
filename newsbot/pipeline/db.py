@@ -1,5 +1,6 @@
 """News History Database (SQLite)."""
 import json
+import sys
 import sqlite3
 from datetime import datetime, timezone
 
@@ -67,7 +68,7 @@ def now_utc() -> str:
 
 
 def conn() -> sqlite3.Connection:
-    c = sqlite3.connect(DB_PATH)
+    c = sqlite3.connect(DB_PATH, timeout=30)
     c.row_factory = sqlite3.Row
     c.executescript(SCHEMA)
     return c
@@ -76,7 +77,7 @@ def conn() -> sqlite3.Connection:
 def log(level: str, msg: str, episode_id: str | None = None):
     with conn() as c:
         c.execute("INSERT INTO log VALUES (?,?,?,?)", (now_utc(), level, episode_id, msg))
-    print(f"[{level}] {episode_id or '-'} {msg}")
+    print(f"[{level}] {episode_id or '-'} {msg}", file=sys.stderr)
 
 
 def upsert_episode(ep_id: str, **fields):
