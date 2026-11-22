@@ -1,0 +1,734 @@
+<title>YHQ Mashq</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: ko'k yo'l belgisi palitrasi — to'q ko'k sarlavha, oq kartalar, yashil/qizil faqat javob holati uchun */
+:root {
+  --bg: #f3f6fb; --surface: #ffffff; --surface-2: #eaf0f8; --fg: #0d1b36; --muted: #55627a; --line: #d6deea;
+  --navy: #0b2a66; --navy-fg: #ffffff; --blue: #1f6fe5; --blue-soft: #e3eefd;
+  --ok: #138a4a; --ok-soft: #e2f5ea; --bad: #c8282e; --bad-soft: #fde8e8; --warn: #a35d00; --warn-soft: #fff1d6;
+  --shadow: 0 1px 2px rgba(13,27,54,.06), 0 4px 16px rgba(13,27,54,.06);
+  --f-display: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --f-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #07101f; --surface: #0f1b31; --surface-2: #15243f; --fg: #e6edf8; --muted: #9aa8c0; --line: #233556;
+  --navy: #0b2a66; --navy-fg: #ffffff; --blue: #5b9bff; --blue-soft: #16294a;
+  --ok: #3ccf7f; --ok-soft: #0f2c1e; --bad: #ff6b6f; --bad-soft: #3a1518; --warn: #f3b450; --warn-soft: #33250c;
+  --shadow: 0 1px 2px rgba(0,0,0,.4); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #07101f; --surface: #0f1b31; --surface-2: #15243f; --fg: #e6edf8; --muted: #9aa8c0; --line: #233556;
+  --navy: #0b2a66; --navy-fg: #ffffff; --blue: #5b9bff; --blue-soft: #16294a;
+  --ok: #3ccf7f; --ok-soft: #0f2c1e; --bad: #ff6b6f; --bad-soft: #3a1518; --warn: #f3b450; --warn-soft: #33250c;
+  --shadow: 0 1px 2px rgba(0,0,0,.4); color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 15px; line-height: 1.55; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--navy); }
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.2; text-wrap: balance; margin: 0; letter-spacing: -.01em; }
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: var(--blue); }
+.wrap { max-width: 1080px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--navy); color: var(--navy-fg); }
+.top .bar { display: flex; align-items: center; gap: 12px; height: 58px; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--f-display); font-weight: 700; font-size: 18px; color: inherit; text-decoration: none; }
+.brand svg { width: 30px; height: 30px; }
+.top nav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; padding-bottom: 8px; }
+.top nav::-webkit-scrollbar { display: none; }
+.top nav a { color: #c9d6f2; text-decoration: none; padding: 7px 12px; border-radius: 999px; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.top nav a:hover { color: #fff; background: rgba(255,255,255,.08); }
+.top nav a[aria-current="page"] { background: #fff; color: #0b2a66; }
+.spacer { flex: 1; }
+.chip-btn { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18); color: #fff; border-radius: 999px; padding: 5px 11px; font-size: 13px; font-weight: 600; }
+main { padding-block: 22px 60px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); }
+.pad { padding: 18px; }
+.grid { display: grid; gap: 14px; }
+.g2 { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.g4 { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 0 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 14px; text-decoration: none; color: var(--fg); transition: transform .08s, background .15s; }
+.btn:active { transform: scale(.98); }
+.btn:hover { background: var(--surface-2); }
+.btn.primary { background: var(--navy); color: #fff; border-color: var(--navy); }
+.btn.accent { background: var(--blue); color: #fff; border-color: var(--blue); }
+.btn.soft { background: var(--blue-soft); color: var(--blue); border-color: transparent; }
+.btn.danger { background: var(--bad); color: #fff; border-color: var(--bad); }
+.btn[disabled] { opacity: .45; pointer-events: none; }
+.btn.sm { min-height: 34px; padding: 0 12px; font-size: 13px; }
+.pill { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 2px 10px; font-size: 12px; font-weight: 600; background: var(--surface-2); color: var(--muted); }
+.pill.ok { background: var(--ok-soft); color: var(--ok); } .pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); } .pill.blue { background: var(--blue-soft); color: var(--blue); }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.hero { background: radial-gradient(900px 400px at 0% 0%, #1f6fe5 0%, transparent 60%), linear-gradient(160deg, #0b2a66, #06173b); color: #fff; border-radius: 20px; padding: 32px 24px; display: grid; gap: 20px; grid-template-columns: 1fr; overflow: hidden; }
+@media (min-width: 760px) { .hero { grid-template-columns: 1.4fr 1fr; padding: 40px; } }
+.hero > * { min-width: 0; }
+.hero h1 { font-size: clamp(26px, 4.4vw, 42px); }
+.hero p { color: #c9d6f2; max-width: 52ch; }
+.hero .signs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; align-content: center; }
+.hero .signs svg { width: 100%; height: auto; max-width: 96px; margin: auto; }
+.stat { font-family: var(--f-display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.kpis > div { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 10px 14px; }
+.kpis span { font-size: 12px; color: #c9d6f2; }
+.section-title { margin: 28px 0 12px; font-size: 20px; }
+.notice { border-left: 4px solid var(--warn); background: var(--warn-soft); padding: 12px 14px; border-radius: 10px; font-size: 14px; }
+.ticket { display: flex; flex-direction: column; gap: 10px; }
+.ticket h3 { font-size: 18px; }
+.bar-track { height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; display: flex; }
+.bar-track > i { display: block; height: 100%; }
+.qnav { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.qnav button { width: 38px; height: 38px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface); font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums; }
+.qnav button.cur { outline: 3px solid var(--blue); outline-offset: 1px; }
+.qnav button.done { background: var(--blue-soft); color: var(--blue); border-color: var(--blue); }
+.qnav button.ok { background: var(--ok); color: #fff; border-color: var(--ok); }
+.qnav button.bad { background: var(--bad); color: #fff; border-color: var(--bad); }
+.qtext { font-size: 19px; font-weight: 600; margin: 8px 0 0; font-family: var(--f-body); }
+.media { display: flex; justify-content: center; margin-top: 16px; }
+.media svg.sign { width: 140px; height: 140px; }
+.media figure { margin: 0; width: 100%; max-width: 340px; }
+.media figure svg { width: 100%; height: auto; border-radius: 12px; }
+.media figcaption { text-align: center; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.opts { display: grid; gap: 8px; padding: 16px; border-top: 1px solid var(--line); background: var(--surface-2); border-radius: 0 0 var(--r) var(--r); }
+.opt { display: flex; gap: 12px; align-items: flex-start; text-align: left; width: 100%; padding: 13px 14px; border-radius: 11px; border: 2px solid var(--line); background: var(--surface); font-size: 15px; line-height: 1.45; }
+.opt:hover:not([disabled]) { border-color: var(--blue); }
+.opt .k { flex: none; width: 28px; height: 28px; border-radius: 8px; border: 1px solid var(--line); display: grid; place-items: center; font-weight: 700; font-size: 13px; }
+.opt.sel { border-color: var(--blue); background: var(--blue-soft); } .opt.sel .k { background: var(--blue); color: #fff; border-color: var(--blue); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); } .opt.right .k { background: var(--ok); color: #fff; border-color: var(--ok); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); } .opt.wrong .k { background: var(--bad); color: #fff; border-color: var(--bad); }
+.opt[disabled] { cursor: default; }
+.fb { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 12px 16px; border-top: 1px solid var(--line); font-weight: 700; }
+.fb.ok { background: var(--ok-soft); color: var(--ok); } .fb.bad { background: var(--bad-soft); color: var(--bad); }
+.controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 14px; }
+.controls .wide { grid-column: span 2; }
+@media (min-width: 720px) { .controls { display: flex; flex-wrap: wrap; } .controls .push { margin-left: auto; } }
+@media (max-width: 719px) {
+  .controls { position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; background: var(--surface); border-top: 1px solid var(--line); padding: 10px max(12px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px)); margin: 0; }
+  .testpage { padding-bottom: 120px; }
+}
+.timer { font-family: var(--f-display); font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; padding: 4px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.timer.low { color: var(--bad); border-color: var(--bad); }
+.overlay { position: fixed; inset: 0; z-index: 50; background: rgba(4,12,28,.6); display: flex; align-items: flex-end; justify-content: center; }
+@media (min-width: 640px) { .overlay { align-items: center; padding: 16px; } }
+.sheet { background: var(--surface); width: 100%; max-width: 600px; max-height: 92dvh; display: flex; flex-direction: column; border-radius: 18px 18px 0 0; animation: up .2s ease-out; padding-bottom: env(safe-area-inset-bottom, 0px); }
+@media (min-width: 640px) { .sheet { border-radius: 18px; } }
+@keyframes up { from { transform: translateY(16px); opacity: .4; } }
+@media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
+.sheet header { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+.sheet .body { overflow-y: auto; padding: 18px; display: grid; gap: 16px; }
+.sheet footer { display: flex; gap: 8px; padding: 12px 18px; border-top: 1px solid var(--line); }
+.sheet footer .btn { flex: 1; }
+.answer-box { border: 2px solid var(--ok); background: var(--ok-soft); border-radius: 12px; padding: 12px 14px; }
+.answer-box .lbl { font-size: 12px; font-weight: 800; letter-spacing: .12em; color: var(--ok); }
+.answer-box .txt { font-weight: 700; font-size: 16px; margin-top: 4px; }
+.other { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.other.yours { border-color: var(--bad); background: var(--bad-soft); }
+.rule { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.ring { width: 130px; height: 130px; position: relative; display: grid; place-items: center; margin: 6px auto; }
+.ring svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.ring b { font-family: var(--f-display); font-size: 30px; font-variant-numeric: tabular-nums; }
+.result-head { text-align: center; padding: 26px 18px; border-radius: var(--r) var(--r) 0 0; }
+.result-head.ok { background: var(--ok-soft); } .result-head.bad { background: var(--bad-soft); }
+.kv { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; padding: 16px; }
+.kv > div { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.kv span { display: block; font-size: 12px; color: var(--muted); }
+.kv b { font-family: var(--f-display); font-size: 22px; font-variant-numeric: tabular-nums; }
+.list { display: grid; gap: 10px; }
+details summary { cursor: pointer; font-weight: 600; color: var(--blue); }
+.signcard { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; padding: 14px; width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.signcard:hover { border-color: var(--blue); }
+.signcard svg { width: 76px; height: 76px; }
+.signcard .c { font-size: 12px; color: var(--muted); font-weight: 600; }
+.input { width: 100%; height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); padding: 0 12px; font: inherit; }
+.tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+.tabs button { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; }
+.tabs button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+.chart { width: 100%; height: 180px; }
+footer.site { border-top: 1px solid var(--line); padding-block: 22px; font-size: 13px; color: var(--muted); }
+.loading { padding: 60px 0; text-align: center; color: var(--muted); }
+@media (max-width: 719px) { .hide-sm { display: none; } }
+.kbd { font-size: 12px; color: var(--muted); margin-top: 10px; }
+@media (max-width: 719px) { .kbd { display: none; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#home" aria-label="Bosh sahifa">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 L96 88 Q97 92 92 92 H8 Q3 92 4 88 Z" fill="#d32027"/><path d="M50 22 L83 82 H17 Z" fill="#fff"/><path d="M36 66 L39 56 Q40 52 45 52 H55 Q60 52 61 56 L64 66 V72 H36 Z" fill="#0b2a66"/></svg>
+        <span data-t>YHQ Mashq</span>
+      </a>
+      <span class="spacer"></span>
+      <button class="chip-btn" id="script-toggle" data-action="script" aria-label="Lotin yoki kirill yozuvi">Ўз</button>
+    </div>
+    <nav id="nav" aria-label="Bo'limlar"></nav>
+  </div>
+</header>
+<main class="wrap" id="app"><div class="loading">Yuklanmoqda…</div></main>
+<footer class="site"><div class="wrap" id="foot"></div></footer>
+<div id="modal-root"></div>
+
+<script>
+"use strict";
+// ───────────────── Transliteratsiya (lotin → kirill) ─────────────────
+const APOS = "['‘’ʻʼ`]";
+const TR_RULES = [[new RegExp("o" + APOS, "g"), "ў"], [new RegExp("O" + APOS, "g"), "Ў"], [new RegExp("g" + APOS, "g"), "ғ"], [new RegExp("G" + APOS, "g"), "Ғ"],
+  [/sh/g, "ш"], [/S[hH]/g, "Ш"], [/ch/g, "ч"], [/C[hH]/g, "Ч"], [/yo/g, "ё"], [/Y[oO]/g, "Ё"], [/yu/g, "ю"], [/Y[uU]/g, "Ю"], [/ya/g, "я"], [/Y[aA]/g, "Я"],
+  [/ye/g, "е"], [/Y[eE]/g, "Е"], [/(?<![\p{L}\p{N}])e/gu, "э"], [/(?<![\p{L}\p{N}])E/gu, "Э"], [new RegExp(APOS, "g"), "ъ"]];
+const TR_SINGLE = { a: "а", b: "б", v: "в", g: "г", d: "д", e: "е", j: "ж", z: "з", i: "и", y: "й", k: "к", l: "л", m: "м", n: "н", o: "о", p: "п", r: "р", s: "с", t: "т", u: "у", f: "ф", x: "х", q: "қ", h: "ҳ", c: "с", w: "в" };
+const KEEP = /(https?:\/\/\S+|\b[A-Z]{2,}\b|“[A-Z0-9]+”|"[A-Z0-9]+")/g;
+function toCyr(text) {
+  return String(text).split(KEEP).map((p, i) => {
+    if (i % 2) return p;
+    for (const [re, r] of TR_RULES) p = p.replace(re, r);
+    let o = ""; for (const ch of p) { const l = ch.toLowerCase(); o += l in TR_SINGLE ? (ch === l ? TR_SINGLE[l] : TR_SINGLE[l].toUpperCase()) : ch; } return o;
+  }).join("");
+}
+let cyr = false;
+const tr = (s) => (s == null ? "" : cyr ? toCyr(s) : String(s));
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const T = (s) => esc(tr(s));
+const L = ["A", "B", "C", "D", "E", "F"];
+const fmtTime = (s) => `${Math.floor(s / 60)}:${String(Math.max(0, s % 60)).padStart(2, "0")}`;
+const fmtDate = (ts) => { const d = new Date(ts), p = (n) => String(n).padStart(2, "0"); return `${p(d.getDate())}.${p(d.getMonth() + 1)}.${d.getFullYear()}, ${p(d.getHours())}:${p(d.getMinutes())}`; };
+const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+// Imtihon formati (ochiq manbalardagi ma'lumot, rasmiy tasdiqlanmagan)
+const EXAM = { count: 20, minutes: 25, maxErrors: 2 };
+
+// ───────────────── Saqlash: Claude bazasi (har bir foydalanuvchiga alohida) yoki brauzer ─────────────────
+const LS_KEY = "yhq-mashq-v1";
+const blank = () => ({ v: 1, updatedAt: 0, tickets: {}, prog: {}, saved: [], history: [], current: null });
+const Store = {
+  s: blank(), mode: "local", ref: null, writing: false, again: false,
+  load() { try { const raw = localStorage.getItem(LS_KEY); if (raw) this.s = Object.assign(blank(), JSON.parse(raw)); } catch {} },
+  async connect() {
+    try {
+      const c = window.claude; if (!c || !c.use) return;
+      const [user, db] = await Promise.all([c.use("user"), c.use("db")]);
+      if (!user || !db) return;
+      const id = await user.id(); if (!id) return;
+      const ref = db.doc("data/users/" + id + "/progress");
+      const snap = await Promise.race([ref.get(), new Promise((_, r) => setTimeout(() => r(new Error("timeout")), 10000))]);
+      this.ref = ref; this.mode = "cloud";
+      const remote = snap.exists ? snap.data() : null;
+      if (remote && (remote.updatedAt || 0) > (this.s.updatedAt || 0)) {
+        this.s = Object.assign(blank(), JSON.parse(JSON.stringify(remote)));
+        try { localStorage.setItem(LS_KEY, JSON.stringify(this.s)); } catch {}
+        render();
+      } else if (this.s.updatedAt) { this.flush(); }
+      renderFoot();
+    } catch { this.mode = "local"; renderFoot(); }
+  },
+  save() {
+    this.s.updatedAt = Date.now();
+    if (this.s.history.length > 120) this.s.history = this.s.history.slice(-120);
+    try { localStorage.setItem(LS_KEY, JSON.stringify(this.s)); } catch {}
+    this.flush();
+  },
+  async flush() {
+    if (this.mode !== "cloud" || !this.ref) return;
+    if (this.writing) { this.again = true; return; }
+    this.writing = true;
+    try { await this.ref.set(JSON.parse(JSON.stringify(this.s))); }
+    catch (e) { if (e && (e.code === "invalid_argument" || e.code === "not_granted" || e.code === "revoked")) { this.mode = "local"; renderFoot(); } }
+    this.writing = false;
+    if (this.again) { this.again = false; this.flush(); }
+  },
+};
+
+// ───────────────── Ma'lumotlar ─────────────────
+let D = null, Q = {}, CAT = {};
+async function loadData() {
+  const r = await fetch("data.json");
+  if (!r.ok) throw new Error("data");
+  D = await r.json();
+  for (const q of D.questions) Q[q.code] = q;
+  for (const c of D.categories) CAT[c.slug] = c;
+}
+
+// ───────────────── Progress qoidalari ─────────────────
+function applyAnswer(code, ok) {
+  const p = Store.s.prog[code] || { seen: 0, ok: 0, bad: 0, streak: 0, mis: false };
+  p.seen++; if (ok) { p.ok++; p.streak++; } else { p.bad++; p.streak = 0; }
+  // Xato qilingan savol "xatolarim"ga tushadi, ketma-ket 2 marta to'g'ri ishlanganda chiqadi
+  p.mis = ok ? (p.mis ? p.streak < 2 : false) : true;
+  p.last = ok; p.at = Date.now();
+  Store.s.prog[code] = p;
+}
+function ticketStatus(n) {
+  const cur = Store.s.current;
+  if (cur && !cur.done && cur.kind === "TICKET" && cur.ticket === n) return "prog";
+  const t = Store.s.tickets[n];
+  if (!t) return "none";
+  return t.correct === t.total ? "ok" : "bad";
+}
+
+// ───────────────── Test sessiyasi ─────────────────
+function startTest({ kind, mode = "LEARN", ticket, cat, codes }) {
+  let qs = [];
+  if (kind === "TICKET") qs = D.tickets.find((t) => t.n === ticket).q;
+  else if (kind === "EXAM") qs = shuffle(D.questions.map((q) => q.code)).slice(0, EXAM.count);
+  else if (kind === "RANDOM") qs = shuffle(D.questions.map((q) => q.code)).slice(0, 10);
+  else if (kind === "TOPIC") qs = shuffle(D.questions.filter((q) => q.cat === cat).map((q) => q.code)).slice(0, 10);
+  else if (kind === "SIGNS") qs = shuffle(D.questions.filter((q) => q.cat === "belgilar" || q.sign).map((q) => q.code)).slice(0, 10);
+  else qs = shuffle(codes).slice(0, 20);
+  if (!qs.length) return;
+  const exam = mode === "EXAM";
+  const minutes = kind === "EXAM" ? EXAM.minutes : Math.max(1, Math.ceil(EXAM.minutes * qs.length / EXAM.count));
+  Store.s.current = {
+    kind, mode, ticket: ticket ?? null, cat: cat ?? null, qs, idx: 0, ans: {},
+    started: Date.now(), deadline: exam ? Date.now() + minutes * 60000 : null,
+    maxErrors: exam ? Math.floor(EXAM.maxErrors * qs.length / EXAM.count) : null, done: false,
+  };
+  Store.save();
+  go("test");
+}
+function finishTest(auto) {
+  const c = Store.s.current; if (!c || c.done) return;
+  let correct = 0;
+  for (const code of c.qs) {
+    const a = c.ans[code]; const ok = !!a && a.sel != null && a.sel === Q[code].a;
+    if (ok) correct++;
+    if (c.mode === "EXAM") applyAnswer(code, ok); // o'quv rejimida progress har tekshiruvda yangilanadi
+  }
+  const end = auto && c.deadline ? Math.min(Date.now(), c.deadline) : Date.now();
+  const res = { id: "r" + Date.now(), kind: c.kind, mode: c.mode, ticket: c.ticket, cat: c.cat, qs: c.qs, ans: c.ans, correct, total: c.qs.length,
+    dur: Math.round((end - c.started) / 1000), at: end, maxErrors: c.maxErrors };
+  res.passed = c.maxErrors != null ? res.total - correct <= c.maxErrors : correct === res.total;
+  if (c.kind === "TICKET") Store.s.tickets[c.ticket] = { correct, total: res.total, at: end };
+  Store.s.history.push(res);
+  c.done = true; Store.s.current = null; Store.s.lastResult = res;
+  Store.save();
+  go("natija");
+}
+
+// ───────────────── Navigatsiya ─────────────────
+const NAV = [["home", "Bosh sahifa"], ["biletlar", "Biletlar"], ["imtihon", "Imtihon"], ["mavzular", "Mavzular"], ["belgilar", "Yo'l belgilari"], ["xatolar", "Xatolarim"], ["statistika", "Statistika"], ["qidiruv", "Qidiruv"]];
+const VIEWS = new Set([...NAV.map((n) => n[0]), "test", "natija"]);
+function view() { const h = location.hash.slice(1); return VIEWS.has(h) ? h : "home"; }
+function go(v) { if (location.hash.slice(1) === v) render(); else location.hash = v; window.scrollTo(0, 0); }
+window.addEventListener("hashchange", () => { closeModal(); render(); window.scrollTo(0, 0); });
+
+let timerId = null;
+function render() {
+  clearInterval(timerId); timerId = null;
+  const v = view();
+  document.getElementById("nav").innerHTML = NAV.map(([k, l]) => `<a href="#${k}" ${k === v || (v === "test" && k === "biletlar") ? 'aria-current="page"' : ""}>${T(l)}</a>`).join("");
+  document.getElementById("script-toggle").textContent = cyr ? "Uz" : "Ўз";
+  document.querySelectorAll("[data-t]").forEach((el) => { el.dataset.orig ??= el.textContent; el.textContent = tr(el.dataset.orig); });
+  const app = document.getElementById("app");
+  if (!D) return;
+  const fn = { home: vHome, biletlar: vTickets, imtihon: vExam, mavzular: vTopics, belgilar: vSigns, xatolar: vMistakes, statistika: vStats, qidiruv: vSearch, test: vTest, natija: vResult }[v];
+  app.innerHTML = fn();
+  if (v === "test") afterTest();
+  if (v === "qidiruv") afterSearch();
+  if (v === "belgilar") afterSigns();
+  renderFoot();
+}
+function renderFoot() {
+  const cloud = Store.mode === "cloud";
+  document.getElementById("foot").innerHTML = `<p style="margin:0 0 6px">${T("Mashq savollari O'zbekiston Respublikasi Yo'l harakati qoidalari (VM 2022-yil 12-apreldagi 172-son qarori) asosida mustaqil tuzilgan. Ular rasmiy imtihon savollari emas va ekspert tekshiruvini kutmoqda.")} <a href="${D ? D.law : "https://lex.uz/docs/-5953883"}" target="_blank" rel="noopener">${T("YHQ matni (lex.uz)")} ↗</a></p>
+  <p style="margin:0"><span class="pill ${cloud ? "ok" : ""}">${T(cloud ? "Natijalaringiz Claude bazasida saqlanmoqda" : "Natijalaringiz shu brauzerda saqlanmoqda")}</span></p>`;
+}
+
+// ───────────────── Sahifalar ─────────────────
+function vHome() {
+  const done = Object.keys(Store.s.tickets).length;
+  const cur = Store.s.current;
+  const tiles = [
+    ["biletlar", "Biletlar", `${D.tickets.length} ta bilet, har birida 10 ta savol. O'quv yoki imtihon rejimida ishlang.`],
+    ["imtihon", "Imtihon rejimi", `${EXAM.count} ta savol, ${EXAM.minutes} daqiqa. Javoblar faqat oxirida ko'rsatiladi.`],
+    ["xatolar", "Xatolarim", "Noto'g'ri ishlangan savollar shu yerga tushadi. 2 marta ketma-ket to'g'ri ishlansa chiqadi."],
+    ["belgilar", "Yo'l belgilari", `${D.signs.length} ta belgi: ma'nosi, qo'llanishi va belgilar testi.`],
+    ["mavzular", "Mavzular", `${D.categories.length} ta mavzu bo'yicha alohida testlar.`],
+    ["statistika", "Statistika", "Natijalar tarixi, o'zlashtirish grafigi va saqlangan savollar."],
+  ];
+  return `
+  <section class="hero">
+    <div style="display:grid;gap:16px;align-content:center">
+      <span class="pill" style="background:rgba(255,255,255,.12);color:#fff;justify-self:start;white-space:normal">${T("O'zbekiston YHQ asosida · ro'yxatdan o'tish shart emas")}</span>
+      <h1>${T("Haydovchilik nazariy imtihoniga ishonch bilan tayyorlaning")}</h1>
+      <p>${T("Biletni tanlang, 10 ta savolni ishlang, javobni tekshiring va nima uchun to'g'ri ekanini YHQ bandi bilan o'qing. Xatolar avtomatik saqlanadi.")}</p>
+      <div class="row">
+        ${cur && !cur.done ? `<a class="btn accent" href="#test">${T("Davom ettirish")} →</a>` : ""}
+        <a class="btn ${cur ? "" : "accent"}" href="#biletlar" style="${cur ? "background:#fff;color:#0b2a66" : ""}">${T("Biletlarni boshlash")}</a>
+        <a class="btn" href="#imtihon" style="background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.25)">${T("Imtihonni sinash")}</a>
+      </div>
+      <div class="kpis">
+        <div><span>${T("savol")}</span><div class="stat">${D.questions.length}</div></div>
+        <div><span>${T("bilet")}</span><div class="stat">${D.tickets.length}</div></div>
+        <div><span>${T("ishlangan bilet")}</span><div class="stat">${done}</div></div>
+      </div>
+    </div>
+    <div class="signs" aria-hidden="true">${["2.1", "1.20", "3.24", "2.5", "4.3", "3.27"].map((c) => D.signSvg[c] || "").join("")}</div>
+  </section>
+  <h2 class="section-title">${T("Bo'limlar")}</h2>
+  <div class="grid g2">${tiles.map(([h, t, d]) => `<a class="card pad" href="#${h}" style="text-decoration:none;color:inherit;display:grid;gap:6px"><h3 style="font-size:17px">${T(t)}</h3><span class="muted small">${T(d)}</span></a>`).join("")}</div>
+  <div class="notice" style="margin-top:22px">${T("Savollar bazasi haqida: bu yerdagi savollar YHQ matni asosida mustaqil tuzilgan mashq savollaridir, rasmiy imtihon savollari emas. Har bir savolda tegishli YHQ bandi ko'rsatilgan. Imtihon formati (20 savol, 25 daqiqa, 2 xato) ochiq manbalardan olingan va rasmiy tasdiqlanmagan.")}</div>`;
+}
+
+function vTickets() {
+  const st = D.tickets.map((t) => ticketStatus(t.n));
+  const ok = st.filter((s) => s === "ok").length, bad = st.filter((s) => s === "bad").length, n = D.tickets.length;
+  const label = { none: ["Hali ishlanmagan", ""], prog: ["Ishlanmoqda", "blue"], ok: ["Muvaffaqiyatli", "ok"], bad: ["Xatolar bilan", "bad"] };
+  return `<h1>${T("Barcha biletlar")}</h1>
+  <p class="muted">${T("Har bir biletda aniq 10 ta savol. Biletni tanlang va o'quv yoki imtihon rejimida ishlang.")}</p>
+  <div class="card pad" style="margin:14px 0">
+    <div class="small muted" style="margin-bottom:8px">${T(`${ok} ta muvaffaqiyatli, ${bad} ta xatolar bilan, ${n - ok - bad} ta ishlanmagan`)}</div>
+    <div class="bar-track"><i style="width:${ok / n * 100}%;background:var(--ok)"></i><i style="width:${bad / n * 100}%;background:var(--bad)"></i></div>
+  </div>
+  <div class="grid g2">${D.tickets.map((t, i) => {
+    const s = st[i]; const r = Store.s.tickets[t.n];
+    return `<div class="card pad ticket">
+      <div class="row" style="justify-content:space-between"><h3>${T("Bilet")} №${t.n}</h3><span class="pill ${label[s][1]}">${T(label[s][0])}</span></div>
+      ${r ? `<div class="small"><div class="row" style="justify-content:space-between"><span class="muted">${T("Oxirgi natija")}</span><b>${r.correct}/${r.total}</b></div>
+        <div class="bar-track" style="margin:6px 0"><i style="width:${r.correct / r.total * 100}%;background:${r.correct === r.total ? "var(--ok)" : "var(--bad)"}"></i></div>
+        <span class="muted">${T("Oxirgi marta")}: ${esc(fmtDate(r.at))}</span></div>` : `<div class="small muted">10 ${T("ta savol")}</div>`}
+      <div class="row">
+        ${s === "prog" ? `<a class="btn accent sm" href="#test" style="flex:1">${T("Davom ettirish")}</a>` : `<button class="btn accent sm" style="flex:1" data-action="start" data-kind="TICKET" data-ticket="${t.n}">${T("O'rganish")}</button>`}
+        <button class="btn sm" style="flex:1" data-action="start" data-kind="TICKET" data-mode="EXAM" data-ticket="${t.n}">${T("Imtihon")}</button>
+      </div></div>`;
+  }).join("")}</div>`;
+}
+
+function vExam() {
+  return `<div style="max-width:720px;margin:auto;display:grid;gap:14px">
+  <h1>${T("Imtihon rejimi")}</h1>
+  <p class="muted" style="margin:0">${T("Haqiqiy imtihonga o'xshash sinov: vaqt cheklangan, to'g'ri javoblar faqat test yakunlangandan keyin ko'rsatiladi.")}</p>
+  <div class="grid g4">
+    <div class="card pad"><div class="muted small">${T("Savollar")}</div><div class="stat">${EXAM.count}</div></div>
+    <div class="card pad"><div class="muted small">${T("Vaqt")}</div><div class="stat">${EXAM.minutes} ${T("daq")}</div></div>
+    <div class="card pad"><div class="muted small">${T("Ruxsat etilgan xatolar")}</div><div class="stat">${EXAM.maxErrors}</div></div>
+  </div>
+  <div class="card pad small"><b>${T("Qoidalar")}</b><ul style="margin:6px 0 0;padding-left:18px">
+    <li>${T("Javobni test yakunlanguncha o'zgartirish mumkin.")}</li><li>${T("Vaqt tugaganda test avtomatik yakunlanadi.")}</li><li>${T("Javob berilmagan savollar noto'g'ri hisoblanadi.")}</li></ul></div>
+  <div class="notice">${T("Format ochiq manbalardagi ma'lumotlarga asoslangan va rasmiy tasdiqlanmagan. Amaldagi talablarni YHXB (DYHXX) dan aniqlang.")}</div>
+  <div><button class="btn accent" data-action="start" data-kind="EXAM" data-mode="EXAM">${T("Imtihonni boshlash")}</button></div></div>`;
+}
+
+function vTopics() {
+  return `<h1>${T("Mavzular bo'yicha testlar")}</h1><p class="muted">${T("Mavzuni tanlang — 10 ta tasodifiy savol beriladi.")}</p>
+  <div class="grid g2">${D.categories.map((c) => {
+    const qs = D.questions.filter((q) => q.cat === c.slug); const m = qs.filter((q) => { const p = Store.s.prog[q.code]; return p && p.last && !p.mis; }).length;
+    return `<div class="card pad" style="display:grid;gap:8px"><h3 style="font-size:16px">${T(c.name)}</h3><span class="muted small">${T(c.description || "")}</span>
+      <div class="small">${qs.length} ${T("ta savol")} · ${T("o'zlashtirilgan")}: ${m}</div><div class="bar-track"><i style="width:${qs.length ? m / qs.length * 100 : 0}%;background:var(--ok)"></i></div>
+      <button class="btn soft sm" data-action="start" data-kind="TOPIC" data-cat="${c.slug}">${T("Testni boshlash")}</button></div>`;
+  }).join("")}</div>
+  <div class="card pad" style="margin-top:14px" ><div class="row" style="justify-content:space-between"><div><h3 style="font-size:16px">${T("Tasodifiy 10 ta savol")}</h3><span class="muted small">${T("Butun bazadan tasodifiy tanlangan savollar.")}</span></div>
+  <button class="btn accent" data-action="start" data-kind="RANDOM">${T("Boshlash")}</button></div></div>`;
+}
+
+const GROUPS = { WARNING: "Ogohlantiruvchi belgilar", PRIORITY: "Imtiyoz belgilari", PROHIBITORY: "Taqiqlovchi belgilar", MANDATORY: "Buyuruvchi belgilar", INFORMATION: "Axborot-ko'rsatgich belgilari", SERVICE: "Servis belgilari" };
+let signGroup = "ALL", signQ = "";
+function vSigns() {
+  return `<div class="row" style="justify-content:space-between"><div><h1>${T("Yo'l belgilari")}</h1><p class="muted" style="margin:4px 0 0">${T("YHQ 1-ilovasi asosida. Tasvirlar sxematik — rasmiy ko'rinish uchun lex.uz dagi ilovaga qarang.")}</p></div>
+  <button class="btn accent" data-action="start" data-kind="SIGNS">${T("Belgilar bo'yicha test")}</button></div>
+  <div style="display:grid;gap:10px;margin:16px 0"><input class="input" id="sign-q" placeholder="${T("Belgi nomi yoki raqami…")}" aria-label="${T("Belgi qidirish")}" value="${esc(signQ)}">
+  <div class="tabs">${["ALL", ...Object.keys(GROUPS)].map((g) => `<button data-action="sgroup" data-g="${g}" aria-pressed="${signGroup === g}">${T(g === "ALL" ? "Barchasi" : GROUPS[g].replace(/ belgilari$/, ""))}</button>`).join("")}</div></div>
+  <div id="sign-list"></div>`;
+}
+function afterSigns() {
+  const inp = document.getElementById("sign-q");
+  const draw = () => {
+    const q = signQ.trim().toLowerCase();
+    const list = D.signs.filter((s) => (signGroup === "ALL" || s.group === signGroup) && (!q || s.code.startsWith(q) || s.name.toLowerCase().includes(q) || s.meaning.toLowerCase().includes(q)));
+    document.getElementById("sign-list").innerHTML = Object.keys(GROUPS).filter((g) => list.some((s) => s.group === g)).map((g) =>
+      `<h2 class="section-title" style="font-size:17px">${T(GROUPS[g])}</h2><div class="grid g4">${list.filter((s) => s.group === g).map((s) =>
+        `<button class="signcard" data-action="sign" data-code="${s.code}">${D.signSvg[s.code] || ""}<span class="c">${s.code}</span><b class="small">${T(s.name)}</b></button>`).join("")}</div>`).join("") || `<p class="muted">${T("Hech narsa topilmadi.")}</p>`;
+  };
+  inp.addEventListener("input", () => { signQ = inp.value; draw(); });
+  draw();
+}
+
+function vMistakes() {
+  const mis = Object.entries(Store.s.prog).filter(([c, p]) => p.mis && Q[c]).sort((a, b) => b[1].at - a[1].at);
+  const mastered = Object.values(Store.s.prog).filter((p) => p.last && !p.mis).length;
+  return `<div class="row" style="justify-content:space-between"><div><h1>${T("Mening xatolarim")}</h1><p class="muted" style="margin:4px 0 0">${T("Noto'g'ri javob bergan savollaringiz. Savol ketma-ket 2 marta to'g'ri ishlanganda ro'yxatdan chiqadi.")}</p></div>
+  ${mis.length ? `<button class="btn accent" data-action="start" data-kind="MISTAKES">${T("Xatolarni qayta ishlash")}</button>` : ""}</div>
+  <div class="grid g4" style="margin:16px 0"><div class="card pad"><div class="muted small">${T("Xatolar")}</div><div class="stat" style="color:var(--bad)">${mis.length}</div></div>
+  <div class="card pad"><div class="muted small">${T("O'zlashtirilgan")}</div><div class="stat" style="color:var(--ok)">${mastered}</div></div>
+  <div class="card pad"><div class="muted small">${T("Ko'rilgan savollar")}</div><div class="stat">${Object.keys(Store.s.prog).length}</div></div></div>
+  ${mis.length ? `<div class="list">${mis.map(([c, p]) => qCard(Q[c], `<span class="pill bad">${T(p.bad + " marta xato")}</span>`)).join("")}</div>`
+    : `<div class="card pad" style="text-align:center"><b>${T("Xatolar yo'q.")}</b><p class="muted">${T("Biletlarni ishlashda davom eting — xato qilingan savollar shu yerda paydo bo'ladi.")}</p></div>`}`;
+}
+function qCard(q, extra = "") {
+  return `<div class="card pad" style="display:grid;gap:8px">
+    <div class="row"><span class="pill">${T(CAT[q.cat]?.name || "")}</span>${extra}<span class="small muted" style="margin-left:auto">${q.code}</span></div>
+    <div style="font-weight:600">${T(q.text)}</div>
+    <details><summary>${T("To'g'ri javobni ko'rish")}</summary><div class="answer-box" style="margin-top:8px"><div class="txt">${L[q.a]}) ${T(q.opts[q.a])}</div><div class="small" style="margin-top:4px;font-weight:400">${T(q.exp)}</div><div class="small muted" style="margin-top:4px">${T(q.rule || "")}</div></div></details>
+    <div><button class="btn sm" data-action="save" data-code="${q.code}">${Store.s.saved.includes(q.code) ? "★ " + T("Saqlangan") : "☆ " + T("Saqlash")}</button></div></div>`;
+}
+
+function vStats() {
+  const h = Store.s.history; const recent = h.slice(-12);
+  const tot = Object.values(Store.s.prog).reduce((a, p) => [a[0] + p.ok, a[1] + p.ok + p.bad], [0, 0]);
+  const acc = tot[1] ? Math.round(tot[0] / tot[1] * 100) : 0;
+  const saved = Store.s.saved.filter((c) => Q[c]);
+  const pts = h.slice(-20).map((r) => Math.round(r.correct / r.total * 100));
+  const W = 600, H = 170, pad = 28;
+  const x = (i) => pad + (pts.length < 2 ? (W - 2 * pad) / 2 : i * (W - 2 * pad) / (pts.length - 1)), y = (v) => H - pad - v * (H - 2 * pad) / 100;
+  const chart = pts.length ? `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${T("Oxirgi testlar natijasi foizda")}">
+    ${[0, 50, 100].map((v) => `<line x1="${pad}" x2="${W - pad}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-dasharray="4 4"/><text x="4" y="${y(v) + 4}" font-size="11" fill="var(--muted)">${v}%</text>`).join("")}
+    <polyline fill="none" stroke="var(--blue)" stroke-width="3" points="${pts.map((v, i) => `${x(i)},${y(v)}`).join(" ")}"/>
+    ${pts.map((v, i) => `<circle cx="${x(i)}" cy="${y(v)}" r="${i === pts.length - 1 ? 5 : 3}" fill="var(--blue)"/>`).join("")}</svg>` : `<p class="muted small">${T("Hali test ishlanmagan.")}</p>`;
+  const kindName = { TICKET: "Bilet", EXAM: "Imtihon", RANDOM: "Tasodifiy", TOPIC: "Mavzu", MISTAKES: "Xatolar", SIGNS: "Belgilar", SAVED: "Saqlanganlar" };
+  return `<h1>${T("Statistika")}</h1>
+  <div class="grid g4" style="margin:16px 0">
+    <div class="card pad"><div class="muted small">${T("Ishlangan testlar")}</div><div class="stat">${h.length}</div></div>
+    <div class="card pad"><div class="muted small">${T("Ishlangan biletlar")}</div><div class="stat">${Object.keys(Store.s.tickets).length}/${D.tickets.length}</div></div>
+    <div class="card pad"><div class="muted small">${T("To'g'ri javoblar foizi")}</div><div class="stat" style="color:var(--blue)">${acc}%</div></div>
+    <div class="card pad"><div class="muted small">${T("Xatolar ro'yxatida")}</div><div class="stat" style="color:var(--bad)">${Object.values(Store.s.prog).filter((p) => p.mis).length}</div></div>
+  </div>
+  <div class="card pad"><h3 style="font-size:16px;margin-bottom:8px">${T("O'zlashtirish grafigi")}</h3>${chart}</div>
+  <div class="grid g2" style="margin-top:14px">
+    <div class="card pad"><h3 style="font-size:16px;margin-bottom:8px">${T("Oxirgi testlar")}</h3>
+      ${recent.length ? recent.reverse().map((r) => `<div class="row small" style="justify-content:space-between;border-bottom:1px solid var(--line);padding:7px 0">
+        <span><span class="pill ${r.mode === "EXAM" ? "warn" : "blue"}">${T(kindName[r.kind] || r.kind)}${r.ticket ? " №" + r.ticket : ""}</span> <span class="muted">${esc(fmtDate(r.at))}</span></span>
+        <span><b>${r.correct}/${r.total}</b> · ${fmtTime(r.dur)} <button class="btn sm" data-action="review" data-id="${r.id}">${T("Ochish")}</button></span></div>`).join("") : `<p class="muted small">${T("Hali test ishlanmagan.")}</p>`}</div>
+    <div class="card pad"><div class="row" style="justify-content:space-between;margin-bottom:8px"><h3 style="font-size:16px">${T("Saqlangan savollar")}</h3>
+      ${saved.length ? `<button class="btn soft sm" data-action="start" data-kind="SAVED">${T("Ishlash")}</button>` : ""}</div>
+      ${saved.length ? saved.slice(0, 15).map((c) => `<div class="small" style="border-bottom:1px solid var(--line);padding:7px 0"><span class="muted">${c}</span> ${T(Q[c].text)}</div>`).join("") : `<p class="muted small">${T("Test paytida ☆ tugmasini bosib savolni saqlang.")}</p>`}</div>
+  </div>
+  ${h.length || Object.keys(Store.s.prog).length ? `<div style="margin-top:18px" id="reset-zone"><button class="btn sm" data-action="reset-ask">${T("Natijalarni tozalash")}</button></div>` : ""}`;
+}
+
+function vSearch() {
+  return `<h1>${T("Savollarni qidirish")}</h1><input class="input" id="sq" style="margin:14px 0" placeholder="${T("Savol matni, YHQ bandi yoki kod…")}" aria-label="${T("Qidiruv")}"><div id="sres" class="list"><p class="muted small">${T("Kamida 2 ta belgi kiriting.")}</p></div>`;
+}
+function afterSearch() {
+  const inp = document.getElementById("sq"); inp.focus();
+  let t; inp.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => {
+    const q = inp.value.trim().toLowerCase(); const box = document.getElementById("sres");
+    if (q.length < 2) { box.innerHTML = `<p class="muted small">${T("Kamida 2 ta belgi kiriting.")}</p>`; return; }
+    const res = D.questions.filter((x) => x.code.toLowerCase() === q || x.text.toLowerCase().includes(q) || (x.rule || "").toLowerCase().includes(q) || x.exp.toLowerCase().includes(q) || x.opts.some((o) => o.toLowerCase().includes(q))).slice(0, 30);
+    box.innerHTML = res.length ? `<p class="muted small">${res.length} ${T("ta natija")}</p>` + res.map((x) => qCard(x)).join("") : `<p class="muted">${T("Hech narsa topilmadi.")}</p>`;
+  }, 200); });
+}
+
+// ───────────────── Test oynasi ─────────────────
+function vTest() {
+  const c = Store.s.current;
+  if (!c || c.done) return `<div class="card pad" style="text-align:center"><p>${T("Faol test yo'q.")}</p><a class="btn accent" href="#biletlar">${T("Biletlarga o'tish")}</a></div>`;
+  const exam = c.mode === "EXAM";
+  const code = c.qs[c.idx]; const q = Q[code]; const a = c.ans[code] || {};
+  const locked = !exam && (a.checked || a.revealed);
+  const answered = c.qs.filter((k) => c.ans[k] && (c.ans[k].sel != null || c.ans[k].revealed)).length;
+  const title = c.kind === "TICKET" ? `${tr("Bilet")} №${c.ticket}` : tr({ EXAM: "Imtihon", RANDOM: "Tasodifiy test", TOPIC: CAT[c.cat]?.name || "Mavzu", MISTAKES: "Xatolarni qayta ishlash", SIGNS: "Belgilar testi", SAVED: "Saqlangan savollar" }[c.kind]);
+  const media = q.scene ? q.scene : q.sign ? (D.signSvg[q.sign] || "") : "";
+  return `<div class="testpage" style="max-width:780px;margin:auto">
+  <div class="row" style="justify-content:space-between"><div><h1 style="font-size:24px">${esc(title)}</h1><span class="pill ${exam ? "warn" : "blue"}">${T(exam ? "Imtihon rejimi" : "O'rganish rejimi")}</span></div>
+    ${c.deadline ? `<div class="timer" id="timer" aria-live="polite" aria-label="${T("Qolgan vaqt")}">--:--</div>` : ""}</div>
+  <div class="row small" style="justify-content:space-between;margin-top:14px"><b id="qcount">${T("Savol")} №${c.idx + 1} / ${c.qs.length}</b><span class="muted">${answered}/${c.qs.length}</span></div>
+  <div class="bar-track" style="margin-top:6px"><i style="width:${answered / c.qs.length * 100}%;background:var(--blue)"></i></div>
+  <div class="qnav" role="navigation" aria-label="${T("Savollar")}">${c.qs.map((k, i) => {
+    const x = c.ans[k]; let cls = "";
+    if (x && !exam && (x.checked || x.revealed)) cls = x.sel === Q[k].a ? "ok" : "bad"; else if (x && x.sel != null) cls = "done";
+    return `<button class="${cls} ${i === c.idx ? "cur" : ""}" data-action="goto" data-i="${i}" aria-label="${T("Savol")} ${i + 1}" ${i === c.idx ? 'aria-current="step"' : ""}>${i + 1}</button>`;
+  }).join("")}</div>
+  <div class="card">
+    <div class="pad">
+      <div class="row"><span class="pill">${T(CAT[q.cat]?.name || "")}</span><span class="pill blue">${T("Mashq savoli")}</span><span class="pill warn">${T("Ekspert tekshiruvi kutilmoqda")}</span>
+        <button class="btn sm" style="margin-left:auto" data-action="save" data-code="${code}" aria-pressed="${Store.s.saved.includes(code)}">${Store.s.saved.includes(code) ? "★ " + T("Saqlangan") : "☆ " + T("Saqlash")}</button></div>
+      <h2 class="qtext">${T(q.text)}</h2>
+      ${media ? `<div class="media">${media}</div>` : ""}
+    </div>
+    <div class="opts" role="radiogroup" aria-label="${T("Javob variantlari")}">${q.opts.map((o, i) => {
+      let cls = ""; if (locked) { if (i === q.a) cls = "right"; else if (i === a.sel) cls = "wrong"; } else if (a.sel === i) cls = "sel";
+      return `<button class="opt ${cls}" role="radio" aria-checked="${a.sel === i}" data-action="pick" data-i="${i}" ${locked ? "disabled" : ""}><span class="k">${L[i]}</span><span>${T(o)}</span></button>`;
+    }).join("")}</div>
+    ${locked ? `<div class="fb ${a.sel === q.a ? "ok" : "bad"}" role="status">${T(a.sel == null ? "Javob berilmagan (oldindan ko'rildi)" : a.sel === q.a ? "To'g'ri!" : "Noto'g'ri")}
+      <button class="btn sm" style="margin-left:auto" data-action="explain">${T("Nima uchun?")}</button></div>` : ""}
+  </div>
+  <p id="note" class="small" role="alert" style="color:var(--warn);min-height:1em;margin:8px 0 0"></p>
+  ${exam ? `<p class="small muted" style="margin:4px 0 0">${T("Imtihon rejimida to'g'ri javoblar test yakunlangandan keyin ko'rsatiladi.")}</p>` : ""}
+  <div class="controls">
+    <button class="btn" data-action="prev" ${c.idx === 0 ? "disabled" : ""} aria-label="${T("Oldingi savol")}">← <span class="hide-sm">${T("Oldingi")}</span></button>
+    ${exam ? `<span class="wide"></span>` : `<button class="btn accent wide" data-action="check" ${locked ? "disabled" : ""}>${T("Javobni tekshirish")}</button>`}
+    <button class="btn" data-action="next" ${c.idx === c.qs.length - 1 ? "disabled" : ""} aria-label="${T("Keyingi savol")}"><span class="hide-sm">${T("Keyingi")}</span> →</button>
+    ${exam ? "" : `<button class="btn soft wide" data-action="reveal">${T("To'g'ri javobni ko'rish")}</button>`}
+    <button class="btn primary ${exam ? "" : "wide"} push" style="${exam ? "grid-column:span 4" : ""}" data-action="finish-ask">${T("Testni yakunlash")}</button>
+  </div>
+  <p class="kbd">${T("Klaviatura: 1–4 yoki A–D — tanlash, Enter — tekshirish, ← → — savollar")}</p></div>`;
+}
+function afterTest() {
+  const c = Store.s.current; if (!c || !c.deadline) return;
+  const tick = () => {
+    const left = Math.max(0, Math.round((c.deadline - Date.now()) / 1000));
+    const el = document.getElementById("timer");
+    if (el) { el.textContent = fmtTime(left); el.classList.toggle("low", left < 60); }
+    if (left <= 0) { clearInterval(timerId); finishTest(true); }
+  };
+  tick(); timerId = setInterval(tick, 500);
+}
+function note(msg) { const n = document.getElementById("note"); if (n) n.textContent = tr(msg); }
+
+// ───────────────── Natija ─────────────────
+let reviewOnlyWrong = true;
+function vResult() {
+  const r = Store.s.lastResult;
+  if (!r) return `<div class="card pad" style="text-align:center"><a class="btn accent" href="#biletlar">${T("Biletlarga o'tish")}</a></div>`;
+  const pct = Math.round(r.correct / r.total * 100), wrong = r.total - r.correct;
+  const prev = Store.s.history.filter((h) => h.id !== r.id && h.at < r.at && (r.kind === "TICKET" ? h.ticket === r.ticket && h.kind === "TICKET" : h.kind === r.kind)).slice(-5).reverse();
+  const diff = prev[0] ? r.correct - prev[0].correct : null;
+  const next = r.kind === "TICKET" ? D.tickets.find((t) => t.n > r.ticket) : null;
+  const exam = r.maxErrors != null;
+  const ok = r.passed;
+  const list = r.qs.filter((k) => !reviewOnlyWrong || (r.ans[k]?.sel !== Q[k].a));
+  return `<div style="max-width:820px;margin:auto;display:grid;gap:14px">
+  <div class="card">
+    <div class="result-head ${ok ? "ok" : "bad"}">
+      <h1>${T("Test natijasi")}</h1>
+      <p style="font-weight:700;color:var(${ok ? "--ok" : "--bad"});margin:6px 0">${T(exam ? (ok ? "Imtihon topshirildi" : "Imtihon topshirilmadi") : ok ? "Tabriklaymiz! Barcha javoblar to'g'ri" : "Xatolar bor — ularni qayta ishlang")}</p>
+      ${exam ? `<p class="small muted" style="margin:0">${T("Ruxsat etilgan xatolar")}: ${r.maxErrors}</p>` : ""}
+      <div class="ring"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--line)" stroke-width="3"/><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(${ok ? "--ok" : "--bad"})" stroke-width="3" stroke-linecap="round" stroke-dasharray="${pct} 100"/></svg><b>${pct}%</b></div>
+    </div>
+    <div class="kv">
+      <div><span>${T("Jami savollar")}</span><b>${r.total}</b></div>
+      <div><span>${T("To'g'ri javoblar")}</span><b style="color:var(--ok)">${r.correct}</b></div>
+      <div><span>${T("Noto'g'ri javoblar")}</span><b style="color:var(--bad)">${wrong}</b></div>
+      <div><span>${T("Natija")}</span><b>${pct}%</b></div>
+      <div><span>${T("Sarflangan vaqt")}</span><b>${fmtTime(r.dur)}</b></div>
+      <div><span>${T("Bilet raqami")}</span><b>${r.ticket ? "№" + r.ticket : "—"}</b></div>
+    </div>
+  </div>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <a class="btn danger" href="#review">${T("Xatolarni ko'rish")}</a>
+    <button class="btn" data-action="retry">${T("Qayta ishlash")}</button>
+    ${next ? `<button class="btn accent" data-action="start" data-kind="TICKET" data-mode="${r.mode}" data-ticket="${next.n}">${T("Keyingi bilet")} →</button>` : `<a class="btn accent" href="#xatolar">${T("Xatolarim")}</a>`}
+    <a class="btn" href="#biletlar">${T("Barcha biletlar")}</a>
+  </div>
+  <div class="card pad"><h3 style="font-size:16px">${T("Oldingi natijalar bilan taqqoslash")}</h3>
+    ${prev.length ? `<p style="font-weight:700;color:var(${diff > 0 ? "--ok" : diff < 0 ? "--bad" : "--muted"})">${T(diff > 0 ? `Oldingi urinishdan ${diff} ta yaxshiroq` : diff < 0 ? `Oldingi urinishdan ${-diff} ta kamroq` : "Oldingi urinish bilan bir xil")}</p>
+      ${prev.map((p) => `<div class="row small" style="justify-content:space-between;border-top:1px solid var(--line);padding:6px 0"><span class="muted">${esc(fmtDate(p.at))}</span><b>${p.correct}/${p.total} · ${fmtTime(p.dur)}</b></div>`).join("")}`
+    : `<p class="muted small">${T("Bu bo'lim bo'yicha avvalgi natijalar yo'q.")}</p>`}</div>
+  <section id="review" style="display:grid;gap:10px;scroll-margin-top:120px">
+    <div class="row" style="justify-content:space-between"><h2 style="font-size:20px">${T("Javoblar tahlili")}</h2>
+      <div class="tabs"><button data-action="rv" data-w="1" aria-pressed="${reviewOnlyWrong}">${T("Faqat xatolar")} (${wrong})</button><button data-action="rv" data-w="0" aria-pressed="${!reviewOnlyWrong}">${T("Hammasi")} (${r.total})</button></div></div>
+    ${list.length ? list.map((k) => {
+      const q = Q[k], s = r.ans[k]?.sel, good = s === q.a;
+      return `<details class="card pad"><summary style="color:var(--fg);list-style:none;display:flex;gap:8px"><span style="color:var(${good ? "--ok" : "--bad"});font-weight:800">${good ? "✓" : "✗"}</span><span>${r.qs.indexOf(k) + 1}. ${T(q.text)}</span></summary>
+        <div style="display:grid;gap:8px;margin-top:12px">${q.scene || (q.sign ? `<div class="media" style="margin:0">${D.signSvg[q.sign] || ""}</div>` : "")}
+        ${q.opts.map((o, i) => `<div class="other ${i === q.a ? "" : i === s ? "yours" : ""}" style="${i === q.a ? "border:2px solid var(--ok);background:var(--ok-soft);font-weight:600" : ""}">${L[i]}) ${T(o)}${i === s && !good ? ` <span class="small" style="color:var(--bad)">← ${T("sizning javobingiz")}</span>` : ""}</div>`).join("")}
+        ${s == null ? `<p class="small" style="color:var(--bad);margin:0">${T("Javob berilmagan")}</p>` : ""}
+        <p style="margin:0">${T(q.exp)}</p><p class="small muted" style="margin:0">${T(q.rule || "")}</p></div></details>`;
+    }).join("") : `<p class="muted">${T("Xato yo'q.")}</p>`}
+  </section></div>`;
+}
+
+// ───────────────── Modal: to'g'ri javob ─────────────────
+function openExplain(code, sel) {
+  const q = Q[code];
+  const others = q.opts.map((o, i) => i === q.a ? "" : `<div class="other ${i === sel ? "yours" : ""}"><b>${L[i]}) ${T(o)}</b>${i === sel ? ` <span class="pill bad">${T("sizning javobingiz")}</span>` : ""}<div class="small muted">${T(q.notes[i] || "Bu variant savol shartiga va ko'rsatilgan YHQ bandiga mos kelmaydi.")}</div></div>`).join("");
+  const c = Store.s.current; const hasNext = c && c.idx < c.qs.length - 1;
+  document.getElementById("modal-root").innerHTML = `<div class="overlay" data-action="close-overlay"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mt">
+    <header><h2 id="mt" style="font-size:18px">${T("To'g'ri javob")}</h2><button class="btn sm" data-action="close" aria-label="${T("Yopish")}">✕</button></header>
+    <div class="body">
+      <div class="answer-box"><div class="lbl">${T("TO'G'RI JAVOB")}: ${L[q.a]}</div><div class="txt">${T(q.opts[q.a])}</div></div>
+      <section><h3 style="font-size:15px;margin-bottom:6px">${T("Nima uchun bu javob to'g'ri")}</h3><p style="margin:0">${T(q.exp)}</p></section>
+      <section style="display:grid;gap:8px"><h3 style="font-size:15px">${T("Boshqa variantlar")}</h3>${others}</section>
+      <div class="rule"><b>${T("Tegishli qoida")}:</b> ${T(q.rule || "—")}<br><b>${T("Manba")}:</b> ${T(q.firstAid ? "Birinchi tibbiy yordam bo'yicha umumqabul qilingan tavsiyalar (mutaxassis tekshiruvini kutmoqda)" : "O'zbekiston Respublikasi Yo'l harakati qoidalari, VM 172-son qarori")}<br><a href="${D.law}" target="_blank" rel="noopener">${T("lex.uz da ochish")} ↗</a></div>
+    </div>
+    <footer><button class="btn" data-action="close">${T("Yopish")}</button>${hasNext && view() === "test" ? `<button class="btn accent" data-action="modal-next">${T("Keyingi savol")}</button>` : ""}</footer></div></div>`;
+  document.querySelector(".sheet [data-action=close]").focus();
+}
+function closeModal() { const m = document.getElementById("modal-root"); if (m) m.innerHTML = ""; }
+function confirmBox(title, text, okLabel, action) {
+  document.getElementById("modal-root").innerHTML = `<div class="overlay" data-action="close-overlay"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="ct">
+    <header><h2 id="ct" style="font-size:18px">${T(title)}</h2></header><div class="body"><p style="margin:0">${T(text)}</p></div>
+    <footer><button class="btn" data-action="close">${T("Bekor qilish")}</button><button class="btn primary" data-action="${action}">${T(okLabel)}</button></footer></div></div>`;
+}
+function openSign(code) {
+  const s = D.signs.find((x) => x.code === code);
+  document.getElementById("modal-root").innerHTML = `<div class="overlay" data-action="close-overlay"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="st">
+    <header><h2 id="st" style="font-size:18px">${s.code} — ${T(s.name)}</h2><button class="btn sm" data-action="close" aria-label="${T("Yopish")}">✕</button></header>
+    <div class="body"><div class="media" style="margin:0">${(D.signSvg[s.code] || "").replace('class="sign', 'style="width:150px;height:150px" class="sign')}</div>
+    <section><h3 style="font-size:15px">${T("Ma'nosi")}</h3><p style="margin:4px 0 0">${T(s.meaning)}</p></section>
+    ${s.usage ? `<section><h3 style="font-size:15px">${T("Qo'llanishi")}</h3><p style="margin:4px 0 0">${T(s.usage)}</p></section>` : ""}
+    <div class="rule"><b>${T("Qoida")}:</b> ${T(s.rule || "")} · <a href="${D.law}" target="_blank" rel="noopener">lex.uz ↗</a></div></div></div></div>`;
+}
+
+// ───────────────── Hodisalar ─────────────────
+document.addEventListener("click", (e) => {
+  const el = e.target.closest("[data-action]"); if (!el) return;
+  const act = el.dataset.action; const c = Store.s.current;
+  if (act === "close-overlay" && e.target !== el) return;
+  switch (act) {
+    case "script": cyr = !cyr; try { localStorage.setItem("yhq-cyr", cyr ? "1" : ""); } catch {} render(); break;
+    case "start": {
+      const kind = el.dataset.kind;
+      if (kind === "MISTAKES") startTest({ kind, codes: Object.keys(Store.s.prog).filter((k) => Store.s.prog[k].mis && Q[k]) });
+      else if (kind === "SAVED") startTest({ kind, codes: Store.s.saved.filter((k) => Q[k]) });
+      else startTest({ kind, mode: el.dataset.mode || "LEARN", ticket: el.dataset.ticket ? Number(el.dataset.ticket) : undefined, cat: el.dataset.cat });
+      break;
+    }
+    case "pick": {
+      if (!c) return; const code = c.qs[c.idx]; const a = c.ans[code] || (c.ans[code] = {});
+      if (c.mode !== "EXAM" && (a.checked || a.revealed)) return;
+      a.sel = Number(el.dataset.i);
+      if (c.mode === "EXAM") Store.save();
+      render(); break;
+    }
+    case "check": {
+      if (!c) return; const code = c.qs[c.idx]; const a = c.ans[code];
+      if (!a || a.sel == null) { note("Avval javob variantini tanlang"); return; }
+      a.checked = true; applyAnswer(code, a.sel === Q[code].a); Store.save(); render(); break;
+    }
+    case "reveal": {
+      if (!c || c.mode === "EXAM") return; const code = c.qs[c.idx]; const a = c.ans[code] || (c.ans[code] = {});
+      if (!a.checked && !a.revealed) { a.revealed = true; a.sel = undefined; applyAnswer(code, false); Store.save(); render(); }
+      openExplain(code, a.sel); break;
+    }
+    case "explain": if (c) openExplain(c.qs[c.idx], c.ans[c.qs[c.idx]]?.sel); break;
+    case "goto": if (c) { c.idx = Number(el.dataset.i); Store.save(); render(); } break;
+    case "prev": if (c && c.idx > 0) { c.idx--; Store.save(); render(); } break;
+    case "next": if (c && c.idx < c.qs.length - 1) { c.idx++; Store.save(); render(); } break;
+    case "modal-next": closeModal(); if (c && c.idx < c.qs.length - 1) { c.idx++; Store.save(); render(); } break;
+    case "finish-ask": {
+      if (!c) return; const un = c.qs.filter((k) => !c.ans[k] || c.ans[k].sel == null).length;
+      confirmBox("Testni yakunlaysizmi?", un ? `${un} ta savolga javob berilmagan. Ular noto'g'ri hisoblanadi.` : "Barcha savollarga javob berildi.", "Ha, yakunlash", "finish"); break;
+    }
+    case "finish": closeModal(); finishTest(false); break;
+    case "close": case "close-overlay": closeModal(); break;
+    case "save": {
+      const code = el.dataset.code; const i = Store.s.saved.indexOf(code);
+      if (i >= 0) Store.s.saved.splice(i, 1); else Store.s.saved.push(code);
+      Store.save(); render(); break;
+    }
+    case "retry": { const r = Store.s.lastResult; if (!r) return;
+      if (["MISTAKES", "SAVED"].includes(r.kind)) startTest({ kind: r.kind, codes: r.qs }); else startTest({ kind: r.kind, mode: r.mode, ticket: r.ticket ?? undefined, cat: r.cat ?? undefined }); break; }
+    case "rv": reviewOnlyWrong = el.dataset.w === "1"; render(); document.getElementById("review")?.scrollIntoView(); break;
+    case "review": { const r = Store.s.history.find((h) => h.id === el.dataset.id); if (r) { Store.s.lastResult = r; go("natija"); } break; }
+    case "sgroup": signGroup = el.dataset.g; render(); break;
+    case "sign": openSign(el.dataset.code); break;
+    case "reset-ask": confirmBox("Natijalarni tozalash", "Barcha natijalar, xatolar va saqlangan savollar o'chiriladi. Bu amalni qaytarib bo'lmaydi.", "Tozalash", "reset"); break;
+    case "reset": closeModal(); Store.s = blank(); Store.save(); render(); break;
+  }
+});
+document.addEventListener("click", (e) => { const a = e.target.closest('a[href="#review"]'); if (a) { e.preventDefault(); document.getElementById("review")?.scrollIntoView({ behavior: "smooth" }); } });
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") { closeModal(); return; }
+  if (view() !== "test" || document.querySelector(".overlay")) return;
+  if (["INPUT", "TEXTAREA", "SELECT"].includes(e.target.tagName)) return;
+  const map = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 }; const k = e.key.toLowerCase();
+  const c = Store.s.current; if (!c) return;
+  const click = (sel) => document.querySelector(sel)?.click();
+  if (k in map) { const btn = document.querySelectorAll(".opt")[map[k]]; if (btn && !btn.disabled) { e.preventDefault(); btn.click(); } }
+  else if (k === "enter") { e.preventDefault(); c.mode === "EXAM" ? click("[data-action=next]") : click("[data-action=check]"); }
+  else if (k === "arrowright") click("[data-action=next]");
+  else if (k === "arrowleft") click("[data-action=prev]");
+});
+
+// ───────────────── Ishga tushirish ─────────────────
+(async () => {
+  try { cyr = localStorage.getItem("yhq-cyr") === "1"; } catch {}
+  Store.load();
+  try { await loadData(); }
+  catch { document.getElementById("app").innerHTML = `<div class="card pad" style="text-align:center"><b>Savollar bazasini yuklab bo'lmadi.</b><p class="muted">Internet aloqasini tekshirib, sahifani qayta oching.</p></div>`; return; }
+  render();
+  Store.connect();
+})();
+</script>
