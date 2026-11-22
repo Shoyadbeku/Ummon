@@ -15,13 +15,17 @@ pinned: false
 O'zbekcha matnni egasining OmniVoice klon ovozida o'qiydigan Hugging Face Space.
 Ummon saytidagi `ovozim.html` sahifasi shu Space'ning `/ovozlashtirish` API'sini chaqiradi.
 
-## Joylash
+## Joylash (telefon brauzerida ham bo'ladi)
 
-`python deploy.py <egasi>/<space-nomi>` (HF write token kerak, `HF_TOKEN` muhit o'zgaruvchisida):
+1. huggingface.co/new-space → nomi `ummon-ovozim`, SDK **Gradio**, Hardware **CPU basic (free)**, **Public** → Create Space.
+2. Files → Add file → Upload files → 7 ta faylni tanlang: `app.py`, `uz_matn.py`, `ovoz_shifr.py`,
+   `requirements.txt`, `packages.txt`, `README.md`, `ovoz.enc` → Commit.
+3. Settings → Variables and secrets → **New secret**: nomi `PAROL`, qiymati ovoz shifrlangan parol.
 
-1. Klon ovoz (`voice_design/ovozlar/mening_ovozim.pt`) **yopiq** model repozitoriyga yuklanadi.
-2. Space yaratiladi, `app.py`, `uz_matn.py`, `requirements.txt`, `packages.txt`, `README.md` yuklanadi.
-3. Space'ga `VOICE_REPO` o'zgaruvchisi va `HF_TOKEN` secret qo'shiladi. `--parol` berilsa, `PAROL` secret ham qo'shiladi.
+`ovoz.enc` klon ovozning parol bilan shifrlangan nusxasi (`python ovoz_shifr.py shifrla ovoz.pt ovoz.enc PAROL`).
+Space ochiq bo'lsa ham, parolsiz ovozni ochib ham, ishlatib ham bo'lmaydi.
+
+Boshqa yo'l: `HF_TOKEN=... python deploy.py <egasi>/<space>` (yopiq repozitoriy + HF_TOKEN secret).
 
 ## API
 
