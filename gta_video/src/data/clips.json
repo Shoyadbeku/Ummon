@@ -1,0 +1,412 @@
+{
+"aerial_city_night": {
+"dur": 14.633333,
+"w": 1920,
+"h": 1080
+},
+"aerial_city_night_top": {
+"dur": 22.033333,
+"w": 1280,
+"h": 720
+},
+"aerial_traffic_night": {
+"dur": 12.5,
+"w": 1920,
+"h": 1080
+},
+"avenue_night": {
+"dur": 13.1,
+"w": 1920,
+"h": 1080
+},
+"banknotes_falling": {
+"dur": 15.966667,
+"w": 1920,
+"h": 1080
+},
+"beach_sunset": {
+"dur": 13.6,
+"w": 1920,
+"h": 1080
+},
+"big_ben": {
+"dur": 10.333333,
+"w": 1920,
+"h": 1080
+},
+"boy_gaming": {
+"dur": 7.7,
+"w": 1920,
+"h": 1080
+},
+"brainstorm": {
+"dur": 13.966667,
+"w": 1280,
+"h": 720
+},
+"building_burning": {
+"dur": 22.033333,
+"w": 1280,
+"h": 720
+},
+"business_meeting": {
+"dur": 18.6,
+"w": 1920,
+"h": 1080
+},
+"cash_rotating": {
+"dur": 10.066667,
+"w": 1280,
+"h": 720
+},
+"child_gaming_chair": {
+"dur": 22.766667,
+"w": 1280,
+"h": 720
+},
+"code_closeup": {
+"dur": 5.366667,
+"w": 1080,
+"h": 1920
+},
+"confused_laptop": {
+"dur": 25.1,
+"w": 1280,
+"h": 720
+},
+"crowd_arms": {
+"dur": 13.333333,
+"w": 1280,
+"h": 720
+},
+"crowd_junction": {
+"dur": 19.8,
+"w": 1920,
+"h": 1080
+},
+"dashboard_accel": {
+"dur": 17.033333,
+"w": 1920,
+"h": 1080
+},
+"dev_screen": {
+"dur": 18.333333,
+"w": 1920,
+"h": 1080
+},
+"digital_counter": {
+"dur": 15.0,
+"w": 1920,
+"h": 1080
+},
+"drift_aerial": {
+"dur": 34.766667,
+"w": 1280,
+"h": 720
+},
+"drift_country": {
+"dur": 13.433333,
+"w": 1280,
+"h": 720
+},
+"empire_timelapse": {
+"dur": 19.8,
+"w": 1280,
+"h": 720
+},
+"fireball": {
+"dur": 11.8,
+"w": 1280,
+"h": 720
+},
+"fireworks_black": {
+"dur": 11.433333,
+"w": 1280,
+"h": 720
+},
+"fireworks_city": {
+"dur": 14.6,
+"w": 1280,
+"h": 720
+},
+"florida_sunset": {
+"dur": 11.2,
+"w": 1280,
+"h": 720
+},
+"friends_gaming": {
+"dur": 14.966667,
+"w": 1920,
+"h": 1080
+},
+"gamer_frustrated": {
+"dur": 7.066667,
+"w": 1280,
+"h": 720
+},
+"gamer_hands": {
+"dur": 8.966667,
+"w": 1920,
+"h": 1080
+},
+"gamers_room": {
+"dur": 9.4,
+"w": 1920,
+"h": 1080
+},
+"ghetto_blaster": {
+"dur": 11.766667,
+"w": 1920,
+"h": 1080
+},
+"green_code": {
+"dur": 23.033333,
+"w": 1280,
+"h": 720
+},
+"handcuffed": {
+"dur": 16.266667,
+"w": 1280,
+"h": 720
+},
+"hands_pc_game": {
+"dur": 6.633333,
+"w": 1920,
+"h": 1080
+},
+"heli_boat": {
+"dur": 29.466667,
+"w": 1280,
+"h": 720
+},
+"hollywood_sign_fly": {
+"dur": 13.433333,
+"w": 1280,
+"h": 720
+},
+"hourglass_close": {
+"dur": 10.0,
+"w": 1920,
+"h": 1080
+},
+"hourglass_finish": {
+"dur": 13.2,
+"w": 1920,
+"h": 1080
+},
+"la_avenue_night": {
+"dur": 16.6,
+"w": 1280,
+"h": 720
+},
+"la_downtown_drone": {
+"dur": 17.033333,
+"w": 1280,
+"h": 720
+},
+"la_freeway_traffic": {
+"dur": 9.8,
+"w": 1280,
+"h": 720
+},
+"la_helipads": {
+"dur": 15.0,
+"w": 1280,
+"h": 720
+},
+"la_highway_sea": {
+"dur": 17.966667,
+"w": 1280,
+"h": 720
+},
+"liberty_brooklyn": {
+"dur": 15.0,
+"w": 1280,
+"h": 720
+},
+"lightning": {
+"dur": 9.066667,
+"w": 1280,
+"h": 720
+},
+"malibu_coast": {
+"dur": 10.833333,
+"w": 1280,
+"h": 720
+},
+"man_controller": {
+"dur": 13.066667,
+"w": 1280,
+"h": 720
+},
+"matrix_screens": {
+"dur": 12.0,
+"w": 1920,
+"h": 1080
+},
+"miami_calm_night": {
+"dur": 12.066667,
+"w": 1280,
+"h": 720
+},
+"miami_night_lights": {
+"dur": 10.566667,
+"w": 1280,
+"h": 720
+},
+"miami_nightlife": {
+"dur": 10.733333,
+"w": 1280,
+"h": 720
+},
+"money_counter": {
+"dur": 18.266667,
+"w": 1280,
+"h": 720
+},
+"neon_biker": {
+"dur": 8.9,
+"w": 1920,
+"h": 1080
+},
+"neon_drive": {
+"dur": 10.033333,
+"w": 1280,
+"h": 720
+},
+"neon_speedometer": {
+"dur": 6.6,
+"w": 1920,
+"h": 1080
+},
+"newspaper_face": {
+"dur": 12.7,
+"w": 1920,
+"h": 1080
+},
+"newspaper_pov": {
+"dur": 9.033333,
+"w": 1920,
+"h": 1080
+},
+"ny_night_pan": {
+"dur": 34.266667,
+"w": 1920,
+"h": 1080
+},
+"palm_sun": {
+"dur": 22.666667,
+"w": 1080,
+"h": 1920
+},
+"phone_night": {
+"dur": 10.433333,
+"w": 1280,
+"h": 720
+},
+"pink_sunset_car": {
+"dur": 6.033333,
+"w": 1920,
+"h": 1080
+},
+"police_blurry": {
+"dur": 14.833333,
+"w": 1280,
+"h": 720
+},
+"police_lights": {
+"dur": 16.866667,
+"w": 1280,
+"h": 720
+},
+"police_lights2": {
+"dur": 11.933333,
+"w": 1280,
+"h": 720
+},
+"programmer_big": {
+"dur": 7.3,
+"w": 1080,
+"h": 1920
+},
+"programmer_hands": {
+"dur": 8.1,
+"w": 1920,
+"h": 1080
+},
+"red_luxury_spotlight": {
+"dur": 15.033333,
+"w": 1280,
+"h": 720
+},
+"red_sports_car_road": {
+"dur": 7.366667,
+"w": 1920,
+"h": 1080
+},
+"reel_counter": {
+"dur": 23.766667,
+"w": 1280,
+"h": 720
+},
+"sea_sunset": {
+"dur": 30.1,
+"w": 1920,
+"h": 1080
+},
+"servers": {
+"dur": 11.933333,
+"w": 1280,
+"h": 720
+},
+"stock_graph": {
+"dur": 24.533333,
+"w": 1280,
+"h": 720
+},
+"street_night_traffic": {
+"dur": 25.433333,
+"w": 1280,
+"h": 720
+},
+"theater_audience": {
+"dur": 7.766667,
+"w": 1920,
+"h": 1080
+},
+"times_square_ads": {
+"dur": 40.266667,
+"w": 1280,
+"h": 720
+},
+"vhs_eject": {
+"dur": 11.166667,
+"w": 1280,
+"h": 720
+},
+"vhs_neon_palm": {
+"dur": 12.033333,
+"w": 1280,
+"h": 720
+},
+"vhs_palm_island": {
+"dur": 12.033333,
+"w": 1280,
+"h": 720
+},
+"vhs_sun_palms": {
+"dur": 10.033333,
+"w": 1280,
+"h": 720
+},
+"video_editing": {
+"dur": 22.766667,
+"w": 1920,
+"h": 1080
+},
+"white_sportscar_sunset": {
+"dur": 13.0,
+"w": 1280,
+"h": 720
+}
+}

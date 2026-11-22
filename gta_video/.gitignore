@@ -1,0 +1,11 @@
+node_modules/
+out/
+.cache/
+# Mixkit stock files are re-downloaded with scripts/fetch_media.sh
+public/media/
+public/music/
+public/sfx/
+# voice + mixed audio are not committed (your own voice recording); see README
+public/audio/
+deliverables/_usage.json
+deliverables/*.mp4
