@@ -114,6 +114,13 @@ export async function startAttempt(input: StartInput) {
 
   if (!questionIds.length) throw new HttpError(404, "Bu bo'lim uchun savollar topilmadi");
 
+  // Imtihon rejimidagi boshqa testlar uchun vaqt va xato chegarasi savollar soniga proporsional
+  if (mode === "EXAM" && !deadlineAt) {
+    const minutes = Math.max(1, Math.ceil((settings.examTimeMinutes * questionIds.length) / settings.examQuestionCount));
+    deadlineAt = new Date(Date.now() + minutes * 60_000);
+    maxErrors ??= Math.floor((settings.examMaxErrors * questionIds.length) / settings.examQuestionCount);
+  }
+
   // Shu bilet bo'yicha tugallanmagan urinishlar eskirgan deb belgilanadi
   if (ticketId) {
     await prisma.testAttempt.updateMany({

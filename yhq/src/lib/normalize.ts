@@ -16,14 +16,16 @@ export function textHash(text: string): string {
   return createHash("sha256").update(normalizeText(text)).digest("hex").slice(0, 32);
 }
 
-function wordSet(text: string) {
+export function wordSet(text: string) {
   return new Set(normalizeText(text).split(" ").filter((w) => w.length > 2));
 }
 
 /** So'zlar to'plami bo'yicha Jaccard o'xshashligi (0..1) */
 export function similarity(a: string, b: string): number {
-  const A = wordSet(a);
-  const B = wordSet(b);
+  return setSimilarity(wordSet(a), wordSet(b));
+}
+
+export function setSimilarity(A: Set<string>, B: Set<string>): number {
   if (!A.size && !B.size) return 1;
   let inter = 0;
   for (const w of A) if (B.has(w)) inter++;
