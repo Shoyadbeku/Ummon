@@ -1,13 +1,10 @@
 """Ummon Ovozim Space'ini Hugging Face'ga joylash.
 
-    HF_TOKEN=hf_... python deploy.py Baxtbek97/ummon-ovozim [--parol MAXFIY]
+    HF_TOKEN=hf_... python deploy.py Baxtbek97/ummon-ovozim --parol MAXFIY
 
-1. Klon ovoz yopiq model repozitoriyga (<egasi>/<space>-voice) yuklanadi.
-2. Space (Gradio, CPU basic) yaratiladi va kod yuklanadi.
-3. Space'ga VOICE_REPO o'zgaruvchisi, berilsa PAROL secret qo'shiladi.
-
-So'ng Space Settings → Variables and secrets'ga HF_TOKEN (read token) qo'shing:
-Space yopiq repozitoriydan ovozni shu token bilan oladi.
+1. Space (Gradio, CPU basic) yaratiladi, PAROL secret qo'shiladi.
+2. Klon ovoz shu parol bilan shifrlanib, ovoz.enc bo'lib yuklanadi.
+3. Kod fayllari yuklanadi. Boshqa qo'lda sozlash kerak emas.
 """
 
 import argparse
@@ -23,30 +20,28 @@ FAYLLAR = {
     "packages.txt": os.path.join(BU, "packages.txt"),
     "README.md": os.path.join(BU, "README.md"),
     "uz_matn.py": os.path.join(BU, "..", "voice_design", "uz_matn.py"),
+    "ovoz_shifr.py": os.path.join(BU, "ovoz_shifr.py"),
 }
 
 
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("space", help="egasi/space-nomi")
-    p.add_argument("--parol", help="Space'ni parol bilan himoyalash")
+    p.add_argument("--parol", required=True, help="ovoz shu parol bilan shifrlanadi va Space'ga PAROL secret bo'lib qo'yiladi")
     p.add_argument("--ovoz", default=OVOZ, help="VoiceClonePrompt .pt fayli")
     a = p.parse_args()
 
-    api = HfApi(token=os.environ.get("HF_TOKEN"))
-    ovoz_repo = a.space + "-voice"
-    api.create_repo(ovoz_repo, repo_type="model", private=True, exist_ok=True)
-    api.upload_file(path_or_fileobj=a.ovoz, path_in_repo="mening_ovozim_tez.pt", repo_id=ovoz_repo)
-    print("Ovoz yuklandi (yopiq):", ovoz_repo)
+    from ovoz_shifr import shifrla
 
+    api = HfApi(token=os.environ.get("HF_TOKEN"))
     api.create_repo(a.space, repo_type="space", space_sdk="gradio", exist_ok=True)
-    api.add_space_variable(a.space, "VOICE_REPO", ovoz_repo)
-    if a.parol:
-        api.add_space_secret(a.space, "PAROL", a.parol)
+    api.add_space_secret(a.space, "PAROL", a.parol)
+    with open(a.ovoz, "rb") as f:
+        api.upload_file(path_or_fileobj=shifrla(f.read(), a.parol), path_in_repo="ovoz.enc",
+                        repo_id=a.space, repo_type="space")
     for nom, yol in FAYLLAR.items():
         api.upload_file(path_or_fileobj=yol, path_in_repo=nom, repo_id=a.space, repo_type="space")
     print("Space:", f"https://huggingface.co/spaces/{a.space}")
-    print("Endi Settings → Variables and secrets'ga HF_TOKEN (read) secret qo'shing.")
 
 
 if __name__ == "__main__":
