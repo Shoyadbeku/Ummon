@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Img, Loop, OffthreadVideo, interpolate, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
 import clips from '../data/clips.json';
+import {useLayout} from '../theme';
 
 const CLIPS = clips as Record<string, {dur: number; w: number; h: number}>;
 
@@ -77,8 +78,13 @@ const MediaEl: React.FC<ShotProps & {style: React.CSSProperties; dur: number}> =
 };
 
 export const Shot: React.FC<ShotProps & {dur: number}> = (p) => {
-  const {dur, fit = 'cover', kb = 'in', grade, focus = '50% 50%', dim = 0} = p;
+  const {dur, kb = 'in', grade, focus = '50% 50%', dim = 0} = p;
+  let fit = p.fit ?? 'cover';
   const frame = useCurrentFrame();
+  const {W, H, land} = useLayout();
+  const clipName = p.src.replace(/^media\//, '').replace(/\.mp4$/, '');
+  const portraitClip = p.kind === 'video' && (CLIPS[clipName]?.h ?? 0) > (CLIPS[clipName]?.w ?? 1);
+  if (land) fit = portraitClip ? 'card' : fit === 'card' ? 'cover' : fit;
   const transform = useKenBurns(kb, dur);
   const filter = gradeFilter(grade);
 
@@ -99,7 +105,7 @@ export const Shot: React.FC<ShotProps & {dur: number}> = (p) => {
   return (
     <AbsoluteFill style={{overflow: 'hidden', background: '#000'}}>
       {/* low-res blurred background: render small then scale up = cheap blur */}
-      <div style={{position: 'absolute', left: 0, top: 0, width: 270, height: 480, transform: 'scale(4)', transformOrigin: '0 0', overflow: 'hidden'}}>
+      <div style={{position: 'absolute', left: 0, top: 0, width: W / 4, height: H / 4, transform: 'scale(4)', transformOrigin: '0 0', overflow: 'hidden'}}>
         {p.kind === 'image' ? (
           <Img src={staticFile(p.src)} style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(9px) brightness(.45) saturate(1.3)'}} />
         ) : (
@@ -109,9 +115,9 @@ export const Shot: React.FC<ShotProps & {dur: number}> = (p) => {
       <AbsoluteFill style={{perspective: 1600, alignItems: 'center', justifyContent: 'center'}}>
         <div
           style={{
-            width: 1000,
-            height: fit === 'contain' ? 1300 : 562,
-            marginTop: -160,
+            width: land ? 560 : 1000,
+            height: land ? 996 : fit === 'contain' ? 1300 : 562,
+            marginTop: land ? 0 : -160,
             borderRadius: 28,
             overflow: 'hidden',
             boxShadow: '0 40px 120px rgba(0,0,0,.75), 0 0 0 2px rgba(255,255,255,.12)',

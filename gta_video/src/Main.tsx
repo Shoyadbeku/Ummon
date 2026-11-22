@@ -50,7 +50,7 @@ const ProgressBar: React.FC<{total: number}> = ({total}) => {
   );
 };
 
-export const Main: React.FC = () => {
+export const Main: React.FC<{captions?: boolean}> = ({captions = false}) => {
   const {fps, durationInFrames} = useVideoConfig();
   const frame = useCurrentFrame();
   const fadeOut = interpolate(frame, [durationInFrames - 30, durationInFrames - 1], [0, 1], clamp);
@@ -83,10 +83,10 @@ export const Main: React.FC = () => {
       {SCENES.filter((_, i) => i % 9 === 4).map((s, i) => (
         <LightLeak key={`lk${i}`} at={Math.round(s.t * fps)} seed={i + 100} />
       ))}
-      <SafeGradients />
-      <Vignette strength={0.6} />
+      <SafeGradients light={!captions} />
+      <Vignette strength={captions ? 0.6 : 0.45} />
       <Grain opacity={0.07} />
-      <Captions words={words as Word[]} />
+      {captions && <Captions words={words as Word[]} />}
       <ProgressBar total={durationInFrames} />
       <AbsoluteFill style={{background: '#000', opacity: fadeOut, pointerEvents: 'none'}} />
       <Audio src={staticFile('audio/final_mix.wav')} />

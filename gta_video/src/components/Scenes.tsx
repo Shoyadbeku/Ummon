@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {ANTON, C, MONT, accent} from '../theme';
+import {ANTON, C, MONT, accent, useLayout} from '../theme';
 import {Shot, ShotProps} from './Shot';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -47,6 +47,7 @@ const Car: React.FC<{x: number; y: number; a: number; color: string; police?: bo
 
 export const PixelCity: React.FC<{mode?: 'top' | 'chase' | 'tilt' | 'sim'; labels?: {text: string; at: number; x: number; y: number}[]; rainAt?: number}> = ({mode = 'top', labels = [], rainAt}) => {
   const {f, fps} = useT();
+  const {W, H, land} = useLayout();
   const tiltP = mode === 'tilt' ? interpolate(f, [fps * 1.5, fps * 4], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)}) : mode === 'sim' ? 1 : 0;
   const speed = mode === 'chase' ? 9 : 6;
   const player = loopPos(f * speed);
@@ -80,6 +81,7 @@ export const PixelCity: React.FC<{mode?: 'top' | 'chase' | 'tilt' | 'sim'; label
   const camY = interpolate(tiltP, [0, 1], [cam.y * 0.6, -120]);
   return (
     <AbsoluteFill style={{background: '#14161c', overflow: 'hidden', perspective: 1300}}>
+      <div style={land ? {position: 'absolute', left: (W - 1080) / 2, top: (H - 1920) / 2, width: 1080, height: 1920, transform: `scale(${W / 1080})`, perspective: 1300} : {position: 'absolute', inset: 0, perspective: 1300}}>
       <AbsoluteFill style={{transform: `translateY(${tiltP * 160}px) rotateX(${tiltP * 52}deg) scale(${zoom + tiltP * 0.25}) translate(${camX}px, ${camY}px)`, transformOrigin: '50% 60%'}}>
         <svg width={1080} height={1920} viewBox="0 0 1080 1920" style={{imageRendering: 'pixelated'}}>
           <rect width={1080} height={1920} fill="#1d2a1f" />
@@ -109,11 +111,12 @@ export const PixelCity: React.FC<{mode?: 'top' | 'chase' | 'tilt' | 'sim'; label
           <circle cx={player.x} cy={player.y} r={46 + Math.sin(f / 5) * 6} fill="none" stroke={C.yellow} strokeWidth={4} opacity={0.6} />
         </svg>
       </AbsoluteFill>
+      </div>
       {rainAt !== undefined && f > rainAt * fps && (
         <AbsoluteFill style={{opacity: interpolate(f, [rainAt * fps, rainAt * fps + 15], [0, 0.6], clamp)}}>
-          <svg width={1080} height={1920}>
+          <svg width={W} height={H}>
             {Array.from({length: 120}, (_, i) => {
-              const x = random(`r${i}`) * 1200 - 60;
+              const x = random(`r${i}`) * (W + 120) - 60;
               const y = ((random(`ry${i}`) * 1920 + f * 48) % 2000) - 80;
               return <line key={i} x1={x} y1={y} x2={x - 10} y2={y + 46} stroke="rgba(180,210,255,.7)" strokeWidth={2.5} />;
             })}
@@ -124,7 +127,7 @@ export const PixelCity: React.FC<{mode?: 'top' | 'chase' | 'tilt' | 'sim'; label
         const s = spring({frame: f - l.at * fps, fps, config: {damping: 12, stiffness: 200}});
         if (f < l.at * fps) return null;
         return (
-          <div key={i} style={{position: 'absolute', left: l.x, top: l.y, transform: `scale(${s})`, transformOrigin: 'left center'}}>
+          <div key={i} style={{position: 'absolute', left: land ? 100 : l.x, top: land ? 120 + i * 120 : l.y, transform: `scale(${s})`, transformOrigin: 'left center'}}>
             <div style={{display: 'flex', alignItems: 'center', gap: 12}}>
               <div style={{width: 22, height: 22, borderRadius: 11, background: C.yellow, boxShadow: `0 0 20px ${C.yellow}`}} />
               <div style={{background: '#000d', border: `3px solid ${C.yellow}`, padding: '8px 18px', borderRadius: 10, fontFamily: MONT, fontWeight: 900, fontSize: 40, color: '#fff', textTransform: 'uppercase'}}>{l.text}</div>
@@ -145,10 +148,12 @@ export const LogoCard: React.FC<{src: string; sub?: string; color?: string; widt
   const ac = accent(color);
   const s = spring({frame: f, fps, config: {damping: 15, stiffness: 110}});
   const sweep = interpolate(f, [8, 38], [-60, 160], clamp);
+  const {land} = useLayout();
+  if (land) width = width * 0.78;
   return (
     <AbsoluteFill style={{background: `radial-gradient(circle at 50% 38%, ${ac}33 0%, #07070c 62%)`}}>
       {bg && <AbsoluteFill style={{opacity: 0.35}}><Shot {...bg} dur={dur} /></AbsoluteFill>}
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: 300}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: land ? 110 : 300}}>
         <div style={{position: 'relative', width, transform: `scale(${interpolate(s, [0, 1], [1.35, 1]) + f * 0.0008})`, filter: `blur(${interpolate(s, [0, 0.8], [18, 0], clamp)}px) drop-shadow(0 0 50px ${ac}88)`, opacity: interpolate(s, [0, 0.3], [0, 1], clamp)}}>
           <Img src={staticFile(src)} style={{width: '100%'}} />
           <div style={{position: 'absolute', inset: 0, background: `linear-gradient(105deg, transparent ${sweep - 15}%, rgba(255,255,255,.55) ${sweep}%, transparent ${sweep + 15}%)`, mixBlendMode: 'overlay', WebkitMaskImage: `url(${staticFile(src)})`, WebkitMaskSize: '100% 100%'}} />
@@ -169,18 +174,19 @@ export const Split: React.FC<{a: ShotProps & {label: string}; b: ShotProps & {la
   const ac = accent(color);
   const sA = spring({frame: f, fps, config: {damping: 16, stiffness: 120}});
   const sB = spring({frame: f - bAt * fps, fps, config: {damping: 16, stiffness: 120}});
+  const {W, H, land} = useLayout();
   const half = (p: ShotProps & {label: string}, top: boolean, s: number, col: string) => (
-    <div style={{position: 'absolute', left: 0, right: 0, top: top ? 0 : 1000, height: 920, overflow: 'hidden', clipPath: `inset(0 ${top ? (1 - s) * 100 : 0}% 0 ${top ? 0 : (1 - s) * 100}%)`}}>
+    <div style={{position: 'absolute', ...(land ? {top: 0, bottom: 0, left: top ? 0 : W / 2 + 6, width: W / 2 - 6, clipPath: `inset(${top ? 0 : (1 - s) * 100}% 0 ${top ? (1 - s) * 100 : 0}% 0)`} : {left: 0, right: 0, top: top ? 0 : 1000, height: 920, clipPath: `inset(0 ${top ? (1 - s) * 100 : 0}% 0 ${top ? 0 : (1 - s) * 100}%)`}), overflow: 'hidden'}}>
       <div style={{position: 'absolute', inset: 0}}><Shot {...p} dur={dur} /></div>
-      <div style={{position: 'absolute', left: 60, [top ? 'top' : 'bottom']: top ? 200 : 380, background: col, padding: '10px 24px', borderRadius: 8, fontFamily: MONT, fontWeight: 900, fontSize: 50, color: '#000', textTransform: 'uppercase'}}>{p.label}</div>
+      <div style={{position: 'absolute', left: 60, ...(land ? {top: 70} : {[top ? 'top' : 'bottom']: top ? 200 : 380}), background: col, padding: '10px 24px', borderRadius: 8, fontFamily: MONT, fontWeight: 900, fontSize: 50, color: '#000', textTransform: 'uppercase'}}>{p.label}</div>
     </div>
   );
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {half(a, true, sA, '#fff')}
       {f >= bAt * fps && half(b, false, sB, ac)}
-      <div style={{position: 'absolute', left: 0, right: 0, top: 920, height: 80, background: '#000'}} />
-      <div style={{position: 'absolute', left: 540 - 70, top: 890, width: 140, height: 140, borderRadius: 70, background: ac, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: ANTON, fontSize: 64, color: '#000', transform: `scale(${sB})`, boxShadow: `0 0 50px ${ac}`}}>VS</div>
+      {!land && <div style={{position: 'absolute', left: 0, right: 0, top: 920, height: 80, background: '#000'}} />}
+      <div style={{position: 'absolute', left: W / 2 - 70, top: land ? H / 2 - 70 : 890, width: 140, height: 140, borderRadius: 70, background: ac, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: ANTON, fontSize: 64, color: '#000', transform: `scale(${sB})`, boxShadow: `0 0 50px ${ac}`}}>VS</div>
     </AbsoluteFill>
   );
 };
@@ -221,15 +227,19 @@ export const Icon: React.FC<{name: string; size?: number; color?: string}> = ({n
 export const IconGrid: React.FC<{title?: string; items: {label: string; icon: string; at: number}[]; color?: string; linkAt?: number; top?: number}> = ({title, items, color, linkAt, top = 250}) => {
   const {f, fps} = useT();
   const ac = accent(color);
-  const cols = 2;
-  const tileW = 440, tileH = items.length > 6 ? 170 : 200, gap = 26;
-  const pos = (i: number) => ({x: 70 + (i % cols) * (tileW + gap), y: top + (title ? 110 : 0) + Math.floor(i / cols) * (tileH + gap)});
+  const {W, H, land} = useLayout();
+  const cols = land ? (items.length > 6 ? 4 : items.length === 6 ? 3 : 2) : 2;
+  const tileW = 440, tileH = land ? 180 : items.length > 6 ? 170 : 200, gap = 26;
+  const rows = Math.ceil(items.length / cols);
+  if (land) top = Math.max(60, (H - ((title ? 110 : 0) + rows * (tileH + gap))) / 2);
+  const x0 = land ? (W - (cols * tileW + (cols - 1) * gap)) / 2 : 70;
+  const pos = (i: number) => ({x: x0 + (i % cols) * (tileW + gap), y: top + (title ? 110 : 0) + Math.floor(i / cols) * (tileH + gap)});
   const linkP = linkAt !== undefined ? interpolate(f, [linkAt * fps, linkAt * fps + 30], [0, 1], clamp) : 0;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      {title && <div style={{position: 'absolute', top, left: 70, right: 70, fontFamily: ANTON, fontSize: 84, color: '#fff', textTransform: 'uppercase', textShadow: '0 8px 30px #000'}}>{title}</div>}
+      {title && <div style={{position: 'absolute', top, left: x0, right: 70, fontFamily: ANTON, fontSize: 84, color: '#fff', textTransform: 'uppercase', textShadow: '0 8px 30px #000'}}>{title}</div>}
       {linkP > 0 && (
-        <svg width={1080} height={1920} style={{position: 'absolute'}}>
+        <svg width={W} height={H} style={{position: 'absolute'}}>
           {items.map((_, i) => items.map((__, j) => {
             if (j <= i) return null;
             const a = pos(i), b = pos(j);
@@ -259,9 +269,11 @@ export const IconGrid: React.FC<{title?: string; items: {label: string; icon: st
 export const TimedList: React.FC<{title?: string; items: {text: string; at: number}[]; color?: string; top?: number; size?: number}> = ({title, items, color, top = 300, size = 60}) => {
   const {f, fps} = useT();
   const ac = accent(color);
+  const {H, land} = useLayout();
+  if (land) top = Math.max(80, (H - items.length * (size * 1.3 + 22) - (title ? 74 : 0)) / 2);
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      <div style={{position: 'absolute', top, left: 80, right: 80}}>
+      <div style={{position: 'absolute', top, left: land ? 160 : 80, right: 80}}>
         {title && <div style={{fontFamily: MONT, fontWeight: 900, fontSize: 44, color: ac, letterSpacing: 6, textTransform: 'uppercase', marginBottom: 24, textShadow: '0 4px 20px #000'}}>{title}</div>}
         {items.map((it, i) => {
           if (f < it.at * fps) return null;
@@ -284,7 +296,8 @@ export const TimedList: React.FC<{title?: string; items: {text: string; at: numb
 // =====================================================================
 export const Panels: React.FC<{panels: (ShotProps & {name: string; at: number; color?: string})[]; dur: number}> = ({panels, dur}) => {
   const {f, fps} = useT();
-  const w = 1080 / panels.length;
+  const {W, H, land} = useLayout();
+  const w = W / panels.length;
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {panels.map((p, i) => {
@@ -292,11 +305,11 @@ export const Panels: React.FC<{panels: (ShotProps & {name: string; at: number; c
         if (f < p.at * fps) return null;
         const ac = accent(p.color);
         return (
-          <div key={i} style={{position: 'absolute', left: i * w, top: 0, width: w - 6, height: 1920, overflow: 'hidden', clipPath: `inset(${(1 - s) * 100}% 0 0 0)`}}>
-            <div style={{position: 'absolute', left: -(1080 - w) / 2, width: 1080, height: 1920}}><Shot {...p} dur={dur} /></div>
+          <div key={i} style={{position: 'absolute', left: i * w, top: 0, width: w - 6, height: H, overflow: 'hidden', clipPath: `inset(${(1 - s) * 100}% 0 0 0)`}}>
+            <div style={{position: 'absolute', left: -(W - w) / 2, width: W, height: H}}><Shot {...p} dur={dur} /></div>
             <div style={{position: 'absolute', inset: 0, background: `linear-gradient(180deg, ${ac}55, transparent 40%)`}} />
-            <div style={{position: 'absolute', top: 260, left: 0, right: 0, textAlign: 'center', fontFamily: ANTON, fontSize: 70, color: '#fff', textTransform: 'uppercase', textShadow: '0 6px 24px #000', transform: `translateY(${interpolate(s, [0, 1], [60, 0])}px)`}}>{p.name}</div>
-            <div style={{position: 'absolute', top: 350, left: w / 2 - 50, width: 100, height: 8, background: ac, borderRadius: 4}} />
+            <div style={{position: 'absolute', top: land ? 90 : 260, left: 0, right: 0, textAlign: 'center', fontFamily: ANTON, fontSize: land ? 84 : 70, color: '#fff', textTransform: 'uppercase', textShadow: '0 6px 24px #000', transform: `translateY(${interpolate(s, [0, 1], [60, 0])}px)`}}>{p.name}</div>
+            <div style={{position: 'absolute', top: land ? 200 : 350, left: w / 2 - 50, width: 100, height: 8, background: ac, borderRadius: 4}} />
           </div>
         );
       })}
@@ -310,11 +323,12 @@ export const Panels: React.FC<{panels: (ShotProps & {name: string; at: number; c
 export const HackUI: React.FC<{lines: string[]; title: string}> = ({lines, title}) => {
   const {f} = useT();
   const flick = f % 14 < 9;
+  const {land} = useLayout();
   const chars = Math.floor(f * 2.2);
   let used = 0;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      <div style={{position: 'absolute', top: 260, left: 60, right: 60, background: 'rgba(5,10,8,.9)', border: '2px solid #2bff88', borderRadius: 18, boxShadow: '0 0 60px rgba(43,255,136,.25)', overflow: 'hidden', transform: `translateX(${f < 10 ? (random(f) - 0.5) * 30 : 0}px)`}}>
+      <div style={{position: 'absolute', top: land ? 90 : 260, left: land ? 380 : 60, right: land ? 380 : 60, background: 'rgba(5,10,8,.9)', border: '2px solid #2bff88', borderRadius: 18, boxShadow: '0 0 60px rgba(43,255,136,.25)', overflow: 'hidden', transform: `translateX(${f < 10 ? (random(f) - 0.5) * 30 : 0}px)`}}>
         <div style={{display: 'flex', gap: 10, padding: '14px 18px', background: '#0f1a14', borderBottom: '2px solid #2bff8855'}}>
           {['#ff5f56', '#ffbd2e', '#27c93f'].map((c) => <div key={c} style={{width: 18, height: 18, borderRadius: 9, background: c}} />)}
           <div style={{marginLeft: 16, fontFamily: 'monospace', fontSize: 26, color: '#2bff88'}}>terminal — secure_server</div>
@@ -328,7 +342,7 @@ export const HackUI: React.FC<{lines: string[]; title: string}> = ({lines, title
           })}
         </div>
       </div>
-      <div style={{position: 'absolute', top: 820, left: 60, right: 60, textAlign: 'center', opacity: f > 30 ? (flick ? 1 : 0.35) : 0}}>
+      <div style={{position: 'absolute', top: land ? 780 : 820, left: 60, right: 60, textAlign: 'center', opacity: f > 30 ? (flick ? 1 : 0.35) : 0}}>
         <div style={{display: 'inline-block', background: '#ff1f45', padding: '14px 34px', borderRadius: 10, fontFamily: ANTON, fontSize: 86, color: '#fff', letterSpacing: 4, boxShadow: '0 0 60px #ff1f45'}}>⚠ {title}</div>
       </div>
     </AbsoluteFill>
@@ -343,9 +357,10 @@ export const TrailerUI: React.FC<{logo: string; label: string}> = ({logo, label}
   const s = spring({frame: f, fps, config: {damping: 15, stiffness: 120}});
   const pressed = f > 22;
   const prog = interpolate(f, [24, 110], [0, 0.85], clamp);
+  const {land} = useLayout();
   return (
     <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 35%, #3a1450 0%, #08060c 70%)'}}>
-      <div style={{position: 'absolute', top: 300, left: 50, right: 50, height: 560, borderRadius: 28, overflow: 'hidden', background: 'linear-gradient(135deg,#ff6a3d,#c2247c 45%,#3b1d8f)', boxShadow: '0 40px 120px rgba(0,0,0,.8)', transform: `scale(${interpolate(s, [0, 1], [0.8, 1])})`, opacity: s}}>
+      <div style={{position: 'absolute', top: land ? 100 : 300, left: land ? 400 : 50, right: land ? 400 : 50, height: land ? 630 : 560, borderRadius: 28, overflow: 'hidden', background: 'linear-gradient(135deg,#ff6a3d,#c2247c 45%,#3b1d8f)', boxShadow: '0 40px 120px rgba(0,0,0,.8)', transform: `scale(${interpolate(s, [0, 1], [0.8, 1])})`, opacity: s}}>
         <Img src={staticFile(logo)} style={{position: 'absolute', left: '50%', top: '50%', width: 520, transform: `translate(-50%,-55%) scale(${1 + f * 0.0015})`, filter: 'drop-shadow(0 10px 30px rgba(0,0,0,.5))', opacity: pressed ? 1 : 0.5}} />
         {!pressed && (
           <div style={{position: 'absolute', left: '50%', top: '50%', width: 170, height: 170, borderRadius: 85, background: 'rgba(0,0,0,.6)', transform: `translate(-50%,-50%) scale(${f > 16 ? 0.85 : 1})`, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid #fff'}}>
@@ -356,7 +371,7 @@ export const TrailerUI: React.FC<{logo: string; label: string}> = ({logo, label}
           <div style={{width: `${prog * 100}%`, height: '100%', background: '#ff2040'}} />
         </div>
       </div>
-      <div style={{position: 'absolute', top: 900, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, color: C.yellow, letterSpacing: 6, textTransform: 'uppercase', opacity: interpolate(f, [10, 20], [0, 1], clamp)}}>{label}</div>
+      <div style={{position: 'absolute', top: land ? 780 : 900, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, color: C.yellow, letterSpacing: 6, textTransform: 'uppercase', opacity: interpolate(f, [10, 20], [0, 1], clamp)}}>{label}</div>
     </AbsoluteFill>
   );
 };
@@ -368,10 +383,11 @@ export const DateShift: React.FC<{items: {text: string; at: number; crossAt?: nu
   const {f, fps} = useT();
   const finalOn = f >= final.at * fps;
   const fs = spring({frame: f - final.at * fps, fps, config: {damping: 10, stiffness: 160}});
+  const {land} = useLayout();
   return (
     <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 35%, #1b2236 0%, #06070c 70%)'}}>
-      <div style={{position: 'absolute', top: 210, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, letterSpacing: 8, color: C.muted, textTransform: 'uppercase'}}>Chiqish sanasi</div>
-      <div style={{position: 'absolute', top: 300, left: 110, right: 110, opacity: finalOn ? interpolate(f, [final.at * fps, final.at * fps + 10], [1, 0.15], clamp) : 1}}>
+      <div style={{position: 'absolute', top: land ? 70 : 210, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, letterSpacing: 8, color: C.muted, textTransform: 'uppercase'}}>Chiqish sanasi</div>
+      <div style={{position: 'absolute', top: land ? 170 : 300, left: land ? 560 : 110, right: land ? 560 : 110, opacity: finalOn ? interpolate(f, [final.at * fps, final.at * fps + 10], [1, 0.15], clamp) : 1}}>
         {items.map((it, i) => {
           if (f < it.at * fps) return null;
           const s = spring({frame: f - it.at * fps, fps, config: {damping: 14, stiffness: 170}});
@@ -387,7 +403,7 @@ export const DateShift: React.FC<{items: {text: string; at: number; crossAt?: nu
         })}
       </div>
       {finalOn && (
-        <div style={{position: 'absolute', top: 430, left: 0, right: 0, textAlign: 'center', transform: `scale(${interpolate(fs, [0, 1], [1.8, 1])})`, opacity: Math.min(1, fs * 2)}}>
+        <div style={{position: 'absolute', top: land ? 300 : 430, left: 0, right: 0, textAlign: 'center', transform: `scale(${interpolate(fs, [0, 1], [1.8, 1])})`, opacity: Math.min(1, fs * 2)}}>
           <div style={{display: 'inline-block', padding: '30px 50px', borderRadius: 30, border: `8px solid ${C.green}`, background: '#03140acc', boxShadow: `0 0 80px ${C.green}88`}}>
             <div style={{fontFamily: ANTON, fontSize: 170, color: C.green, lineHeight: 1}}>{final.text}</div>
             <div style={{fontFamily: MONT, fontWeight: 900, fontSize: 50, color: '#fff', textTransform: 'uppercase', marginTop: 10}}>{final.sub}</div>
@@ -405,10 +421,11 @@ export const Platforms: React.FC<{chips: {text: string; at: number}[]; imgsAt: n
   const {f, fps} = useT();
   const s = spring({frame: f, fps, config: {damping: 15}});
   const si = spring({frame: f - imgsAt * fps, fps, config: {damping: 14}});
+  const {W, land} = useLayout();
   return (
     <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 30%, #2a1840 0%, #07060b 70%)'}}>
-      <Img src={staticFile('img/logo_gta6.png')} style={{position: 'absolute', top: 190, left: 300, width: 480, opacity: s, transform: `scale(${interpolate(s, [0, 1], [1.2, 1])})`}} />
-      <div style={{position: 'absolute', top: 600, left: 40, right: 40, display: 'flex', gap: 30, justifyContent: 'center', opacity: si, transform: `translateY(${interpolate(si, [0, 1], [80, 0])}px)`}}>
+      <Img src={staticFile('img/logo_gta6.png')} style={{position: 'absolute', top: land ? 60 : 190, left: land ? W / 2 - 190 : 300, width: land ? 380 : 480, opacity: s, transform: `scale(${interpolate(s, [0, 1], [1.2, 1])})`}} />
+      <div style={{position: 'absolute', top: land ? 400 : 600, left: 40, right: 40, display: 'flex', gap: 30, justifyContent: 'center', opacity: si, transform: `translateY(${interpolate(si, [0, 1], [80, 0])}px)`}}>
         <div style={{width: 470, height: 360, borderRadius: 24, background: '#fff', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
           <Img src={staticFile('img/ps5.png')} style={{height: 340}} />
         </div>
@@ -416,7 +433,7 @@ export const Platforms: React.FC<{chips: {text: string; at: number}[]; imgsAt: n
           <Img src={staticFile('img/xbox_series.jpg')} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '70% 50%'}} />
         </div>
       </div>
-      <div style={{position: 'absolute', top: 990, left: 40, right: 40, display: 'flex', flexWrap: 'wrap', gap: 16, justifyContent: 'center'}}>
+      <div style={{position: 'absolute', top: land ? 800 : 990, left: 40, right: 40, display: 'flex', flexWrap: 'wrap', gap: 16, justifyContent: 'center'}}>
         {chips.map((c, i) => {
           if (f < c.at * fps) return null;
           const cs = spring({frame: f - c.at * fps, fps, config: {damping: 12, stiffness: 220}});
@@ -434,9 +451,11 @@ export const TimelineRecap: React.FC<{items: {year: string; title: string; at: n
   const {f, fps} = useT();
   const shown = items.filter((i) => f >= i.at * fps);
   const lineH = interpolate(f, [0, items[items.length - 1].at * fps + 20], [0, 1], clamp);
-  const top = 200, step = 128;
+  const {W, land} = useLayout();
+  const top = land ? 90 : 200, step = land ? 126 : 128;
   return (
     <AbsoluteFill style={{background: 'radial-gradient(circle at 30% 30%, #18202e 0%, #06070b 75%)'}}>
+     <div style={{position: 'absolute', top: 0, bottom: 0, width: 1080, left: (W - 1080) / 2 + (land ? 60 : 0)}}>
       <div style={{position: 'absolute', left: 300, top: top + 20, width: 6, height: (items.length - 1) * step * lineH, background: `linear-gradient(${C.yellow}, ${C.pink})`, borderRadius: 3}} />
       {items.map((it, i) => {
         if (f < it.at * fps) return null;
@@ -451,6 +470,7 @@ export const TimelineRecap: React.FC<{items: {year: string; title: string; at: n
           </div>
         );
       })}
+     </div>
     </AbsoluteFill>
   );
 };
@@ -463,9 +483,10 @@ export const Poll: React.FC<{q: string; options: {text: string; at: number}[]; c
   const s = spring({frame: f, fps, config: {damping: 15}});
   const cta = spring({frame: f - ctaAt * fps, fps, config: {damping: 9, stiffness: 200}});
   const latest = options.filter((o) => f >= o.at * fps).length - 1;
+  const {land} = useLayout();
   return (
     <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 30%, #2d1a3f 0%, #07060b 70%)'}}>
-      <div style={{position: 'absolute', top: 200, left: 60, right: 60, padding: 40, borderRadius: 32, background: 'rgba(255,255,255,.06)', border: '2px solid rgba(255,255,255,.15)', transform: `scale(${interpolate(s, [0, 1], [0.9, 1])})`, opacity: s}}>
+      <div style={{position: 'absolute', top: land ? 70 : 200, left: land ? 460 : 60, right: land ? 460 : 60, padding: land ? 34 : 40, borderRadius: 32, background: 'rgba(255,255,255,.06)', border: '2px solid rgba(255,255,255,.15)', transform: `scale(${interpolate(s, [0, 1], [0.9, 1])})`, opacity: s}}>
         <div style={{fontFamily: ANTON, fontSize: 76, color: '#fff', textTransform: 'uppercase', lineHeight: 1.05, marginBottom: 30}}>{q}</div>
         {options.map((o, i) => {
           if (f < o.at * fps) return null;
@@ -480,7 +501,7 @@ export const Poll: React.FC<{q: string; options: {text: string; at: number}[]; c
         })}
       </div>
       {f >= ctaAt * fps && (
-        <div style={{position: 'absolute', top: 960, left: 0, right: 0, display: 'flex', justifyContent: 'center', transform: `scale(${cta * (1 + 0.04 * Math.sin(f / 4))})`}}>
+        <div style={{position: 'absolute', top: land ? 900 : 960, left: 0, right: 0, display: 'flex', justifyContent: 'center', transform: `scale(${cta * (1 + 0.04 * Math.sin(f / 4))})`}}>
           <div style={{display: 'flex', alignItems: 'center', gap: 18, background: C.pink, padding: '16px 36px', borderRadius: 60, boxShadow: `0 0 50px ${C.pink}`}}>
             <Icon name="chat" size={54} color="#fff" />
             <div style={{fontFamily: MONT, fontWeight: 900, fontSize: 46, color: '#fff', textTransform: 'uppercase'}}>Izohlarda yozing</div>
@@ -497,7 +518,7 @@ export const BigWord: React.FC<{text: string; color?: string; bg?: string; size?
   const s = spring({frame: f, fps, config: {damping: 9, stiffness: 260}});
   return (
     <AbsoluteFill style={{background: bg, alignItems: 'center', justifyContent: 'center'}}>
-      <div style={{marginTop: -300, fontFamily: ANTON, fontSize: size, color: accent(color), textTransform: 'uppercase', transform: `scale(${interpolate(s, [0, 1], [2.2, 1])})`, textShadow: `0 0 80px ${accent(color)}88`, textAlign: 'center', lineHeight: 0.95, padding: '0 40px'}}>{text}</div>
+      <div style={{marginTop: useLayout().land ? 0 : -300, fontFamily: ANTON, fontSize: size, color: accent(color), textTransform: 'uppercase', transform: `scale(${interpolate(s, [0, 1], [2.2, 1])})`, textShadow: `0 0 80px ${accent(color)}88`, textAlign: 'center', lineHeight: 0.95, padding: '0 40px'}}>{text}</div>
     </AbsoluteFill>
   );
 };

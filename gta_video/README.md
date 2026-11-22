@@ -1,7 +1,12 @@
-# GTA tarixi — Remotion video loyihasi (9:16 Shorts/Reels/TikTok)
+# GTA tarixi — Remotion video loyihasi
 
-Original o‘zbekcha ovoz asosida avtomatik montaj qilingan 11:49 daqiqalik vertikal hujjatli video.
-Remotion + React + TypeScript, 1080×1920, 30 fps, H.264 + AAC.
+Original o‘zbekcha ovoz asosida montaj qilingan 11:49 daqiqalik hujjatli video.
+Remotion + React + TypeScript, 30 fps, H.264 + AAC.
+
+- **`Main`** — asosiy versiya: 16:9, 1920×1080, subtitrlarsiz.
+- **`Vertical`** — qo‘shimcha: 9:16, 1080×1920, so‘zma-so‘z subtitrlar bilan (Shorts/Reels/TikTok).
+
+Barcha komponentlar kadr yo‘nalishiga qarab joylashuvni o‘zi moslaydi (`useLayout()` in `src/theme.ts`).
 
 ## Tuzilishi
 ```
@@ -28,6 +33,7 @@ bash scripts/fetch_media.sh                 # Mixkit media (≈900 MB)
 # ovoz: o‘z WAV faylingizni tozalab public/audio/voice_clean.wav ga qo‘ying (Quality_Report’dagi ffmpeg zanjiri)
 python3 scripts/mix.py                      # public/audio/final_mix.wav
 npx remotion studio src/index.ts            # tahrirlash/ko‘rish
-npx remotion render src/index.ts Main out/Final_Video.mp4 --codec h264 --crf 20 --audio-codec aac
+npx remotion render src/index.ts Main out/Final_Video.mp4 --codec h264 --crf 20 --audio-codec aac        # 16:9
+npx remotion render src/index.ts Vertical out/Final_Video_9x16.mp4 --codec h264 --crf 20 --audio-codec aac  # 9:16
 ```
 Matn/vaqtni o‘zgartirish: `src/storyboard.tsx` dagi `t` (soniya) va matnlar; subtitr: `src/data/words.json`.

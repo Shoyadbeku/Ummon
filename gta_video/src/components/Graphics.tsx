@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {ANTON, C, MONT, accent} from '../theme';
+import {ANTON, C, MONT, accent, useLayout} from '../theme';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
@@ -17,11 +17,12 @@ export const Kinetic: React.FC<{
   const frame = useCurrentFrame() - delay;
   const {fps} = useVideoConfig();
   const ac = accent(color);
+  const {land} = useLayout();
   let idx = 0;
   const exit = dur ? interpolate(frame, [dur - delay - 8, dur - delay], [1, 0], clamp) : 1;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      <div style={{position: 'absolute', top, left: 60, right: 60, textAlign: align, opacity: exit}}>
+      <div style={land ? {position: 'absolute', top: 0, bottom: 0, left: 140, right: 140, display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: align, opacity: exit} : {position: 'absolute', top, left: 60, right: 60, textAlign: align, opacity: exit}}>
         {lines.map((line, li) => (
           <div key={li} style={{display: 'block', lineHeight: 0.98, marginBottom: 10}}>
             {line.split(' ').map((raw, wi) => {
@@ -78,6 +79,8 @@ export const Counter: React.FC<{
   const v = from + (to - from) * p;
   const txt = v.toLocaleString('en-US', {minimumFractionDigits: decimals, maximumFractionDigits: decimals}).replace(/,/g, ' ');
   const s = spring({frame, fps, config: {damping: 12, stiffness: 160}});
+  const {land, H} = useLayout();
+  if (land) top = H / 2 - 200;
   const done = spring({frame: frame - countDur, fps, config: {damping: 8, stiffness: 260}});
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
@@ -117,6 +120,8 @@ export const YearStamp: React.FC<{year: number; label?: string; top?: number; co
   const {fps} = useVideoConfig();
   const ac = accent(color);
   const s = spring({frame, fps, config: {damping: 14, stiffness: 140}});
+  const {land, H} = useLayout();
+  if (land) top = H / 2 - 240;
   const start = prev ?? year - 6;
   const shown = Math.round(interpolate(frame, [0, 22], [start, year], {...clamp, easing: Easing.out(Easing.quad)}));
   const ticks = Array.from({length: 31}, (_, i) => i);
@@ -153,7 +158,7 @@ export const Chapter: React.FC<{num: string; title: string; color?: string}> = (
   const bar = interpolate(frame, [4, 24], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', pointerEvents: 'none'}}>
-      <div style={{marginTop: -260, textAlign: 'center'}}>
+      <div style={{marginTop: useLayout().land ? -60 : -260, textAlign: 'center'}}>
         <div style={{fontFamily: MONT, fontWeight: 800, fontSize: 40, letterSpacing: 18, color: ac, opacity: s, textTransform: 'uppercase'}}>{num}</div>
         <div style={{width: 600 * bar, height: 6, background: ac, margin: '22px auto', boxShadow: `0 0 30px ${ac}`}} />
         <div style={{fontFamily: ANTON, fontSize: 120, color: C.white, textTransform: 'uppercase', lineHeight: 1, padding: '0 60px', transform: `translateY(${interpolate(s, [0, 1], [60, 0])}px)`, opacity: s, textShadow: '0 12px 40px #000'}}>
@@ -171,8 +176,9 @@ export const Callout: React.FC<{title: string; sub?: string; top?: number; color
   const ac = accent(color);
   const s = spring({frame, fps, config: {damping: 15, stiffness: 170}});
   const w = interpolate(frame, [0, 14], [0, 100], {...clamp, easing: Easing.out(Easing.cubic)});
+  const {land} = useLayout();
   return (
-    <div style={{position: 'absolute', top, left: 70, pointerEvents: 'none', opacity: frame < 0 ? 0 : 1}}>
+    <div style={{position: 'absolute', ...(land ? {bottom: 110, left: 110} : {top, left: 70}), pointerEvents: 'none', opacity: frame < 0 ? 0 : 1}}>
       <div style={{clipPath: `inset(0 ${100 - w}% 0 0)`, background: ac, padding: '14px 28px', borderRadius: 8, display: 'inline-block'}}>
         <div style={{fontFamily: MONT, fontWeight: 900, fontSize: 52, color: '#000', textTransform: 'uppercase', letterSpacing: -0.5}}>{title}</div>
       </div>
@@ -269,7 +275,7 @@ export const Quote: React.FC<{text: string; who?: string; color?: string; top?: 
   const chars = Math.floor(interpolate(frame, [6, 6 + text.length * 0.9], [0, text.length], clamp));
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      <div style={{position: 'absolute', top, left: 80, right: 80, padding: '50px 50px 40px', background: 'rgba(8,8,14,.82)', borderRadius: 30, border: '2px solid rgba(255,255,255,.12)', boxShadow: '0 30px 80px rgba(0,0,0,.6)', transform: `scale(${interpolate(s, [0, 1], [0.9, 1])})`, opacity: s}}>
+      <div style={{position: 'absolute', ...(useLayout().land ? {top: 220, left: 360, right: 360} : {top, left: 80, right: 80}), padding: '50px 50px 40px', background: 'rgba(8,8,14,.82)', borderRadius: 30, border: '2px solid rgba(255,255,255,.12)', boxShadow: '0 30px 80px rgba(0,0,0,.6)', transform: `scale(${interpolate(s, [0, 1], [0.9, 1])})`, opacity: s}}>
         <div style={{fontFamily: ANTON, fontSize: 200, color: ac, lineHeight: 0.6, height: 90}}>“</div>
         <div style={{fontFamily: MONT, fontWeight: 800, fontSize: 58, color: C.white, lineHeight: 1.2}}>
           {text.slice(0, chars)}

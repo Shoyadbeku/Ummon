@@ -40,3 +40,10 @@ export const FPS = 30;
 
 export const accent = (name?: string) =>
   name === 'pink' ? C.pink : name === 'cyan' ? C.cyan : name === 'green' ? C.green : name === 'orange' ? C.orange : C.yellow;
+
+// Layout helper: every component adapts to landscape (16:9) or portrait (9:16)
+import {useVideoConfig} from 'remotion';
+export const useLayout = () => {
+  const {width, height} = useVideoConfig();
+  return {W: width, H: height, land: width > height};
+};

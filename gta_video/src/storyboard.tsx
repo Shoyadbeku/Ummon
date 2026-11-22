@@ -20,8 +20,8 @@ const v = (src: string, o: Partial<ShotProps> = {}): ShotProps => ({src: `media/
 const im = (src: string, o: Partial<ShotProps> = {}): ShotProps => ({src: `img/${src}`, kind: 'image', ...o});
 const B = (p: ShotProps) => (dur: number) => <Shot {...p} dur={dur} />;
 const dark = (c = '#06060a') => () => <AbsoluteFill style={{background: `radial-gradient(circle at 50% 35%, #1a1a2a 0%, ${c} 70%)`}} />;
-const K = (lines: string[], o: {color?: string; size?: number; top?: number; at?: number} = {}): Fg => ({at: o.at, el: (d) => <Kinetic lines={lines} color={o.color} size={o.size} top={o.top} dur={d} />});
-const CO = (title: string, sub?: string, o: {color?: string; top?: number; at?: number} = {}): Fg => ({at: o.at, el: () => <Callout title={title} sub={sub} color={o.color} top={o.top} />});
+const K = (lines: string[], o: {color?: string; size?: number; top?: number; at?: number; until?: number} = {}): Fg => ({at: o.at, until: o.until, el: (d) => <Kinetic lines={lines} color={o.color} size={o.size} top={o.top} dur={d} />});
+const CO = (title: string, sub?: string, o: {color?: string; top?: number; at?: number; until?: number} = {}): Fg => ({at: o.at, until: o.until, el: () => <Callout title={title} sub={sub} color={o.color} top={o.top} />});
 
 export const SCENES: Scene[] = [
   // ============================ HOOK ============================
@@ -31,7 +31,7 @@ export const SCENES: Scene[] = [
   {t: 5.1, bg: () => <LogoCard src="img/logo_gta6.png" color="pink" dur={60} />, fx: 'glitch', sfx: ['bass_hit', 'glitch1']},
   {t: 6.9, bg: B(v('police_lights2', {kb: 'in'})), fg: [K(['DUNYO', '*HAYRATDA*'], {size: 170, color: 'cyan'})], fx: 'zoom', sfx: ['whoosh3']},
   {t: 8.7, bg: B(v('vhs_eject', {kb: 'in', dim: 0.35, grade: 'warm'})), fg: [{at: 0.4, el: () => <YearStamp year={1997} label="Tasavvur qiling" prev={2026} />}], fx: 'blur', sfx: ['riser_short', 'type_click']},
-  {t: 11.9, bg: () => <PixelCity mode="top" />, fg: [CO('Yuqoridan ko‘rinish', 'oddiy bir o‘yin', {top: 230}), CO('Sodda grafika', 'kichkina mashinalar', {top: 230, at: 3.8, color: 'cyan'})], fx: 'glitch', sfx: ['glitch2', 'pixel_boom']},
+  {t: 11.9, bg: () => <PixelCity mode="top" />, fg: [CO('Yuqoridan ko‘rinish', 'oddiy bir o‘yin', {top: 230, until: 3.7}), CO('Sodda grafika', 'kichkina mashinalar', {top: 230, at: 3.8, color: 'cyan'})], fx: 'glitch', sfx: ['glitch2', 'pixel_boom']},
   {t: 20.2, bg: B(v('programmer_hands', {fit: 'card', kb: 'in'})), fg: [CO('Dasturchilar', 'o‘sha paytda...', {top: 260})], fx: 'whip', sfx: ['whoosh4', 'typing']},
   {t: 22.8, bg: B(v('dev_screen', {kb: 'right', grade: 'teal'})), fg: [], fx: 'zoom', sfx: ['sweep1']},
   {t: 24.6, bg: B(v('crowd_arms', {kb: 'in'})), fg: [K(['O‘YIN *SANOATINI*', 'O‘ZGARTIRADI'], {size: 120})], fx: 'flash', sfx: ['whoosh1']},
@@ -58,7 +58,7 @@ export const SCENES: Scene[] = [
   {t: 94.0, bg: B(im('dma_team_2011.jpg', {kb: 'in', focus: '50% 40%'})), fg: [CO('DMA Design', 'jamoa a’zolari (2011-yilgi surat)', {top: 250, color: 'cyan'})], fx: 'flash', sfx: ['shutter', 'whoosh2']},
   {t: 97.8, bg: B(v('aerial_city_night_top', {kb: 'in'})), fg: [K(['*OCHIQ*', 'SHAHAR'], {size: 170, color: 'cyan'})], fx: 'whip', sfx: ['whoosh4']},
   {t: 102.1, bg: B(v('police_lights', {kb: 'in'})), fg: [K(['POLITSIYA', '*TA’QIBI*'], {size: 160, color: 'cyan'})], fx: 'flash', sfx: ['siren_short']},
-  {t: 105.3, bg: B(v('vhs_neon_palm', {kb: 'in', dim: 0.4})), fg: [CO('Dastlabki nom', undefined, {top: 300}), K(['*RACE’N’CHASE*'], {size: 140, top: 420, at: 0.3})], fx: 'glitch', sfx: ['glitch2', 'bass_hit']},
+  {t: 105.3, bg: B(v('vhs_neon_palm', {kb: 'in', dim: 0.4})), fg: [CO('Dastlabki nom', undefined, {top: 300, until: 0.3}), K(['*RACE’N’CHASE*'], {size: 140, top: 420, at: 0.3})], fx: 'glitch', sfx: ['glitch2', 'bass_hit']},
   {t: 108.2, bg: B(v('matrix_screens', {kb: 'in'})), fg: [K(['*QIZIQ*', 'HOLAT'], {size: 170})], fx: 'glitch', sfx: ['glitch3']},
   {t: 111.3, bg: () => <PixelCity mode="chase" />, fg: [CO('Texnik xato', 'politsiya haddan tashqari agressiv', {top: 230, color: 'pink'})], fx: 'shake', sfx: ['siren', 'car_by']},
   {t: 118.7, bg: B(v('friends_gaming', {kb: 'in'})), fg: [K(['KUTILMAGAN XATO', '→ *QIZIQARLI*'], {size: 110, color: 'green'})], fx: 'flash', sfx: ['impact_zoom']},
@@ -107,7 +107,7 @@ export const SCENES: Scene[] = [
   {t: 252.3, bg: B(v('friends_gaming', {kb: 'left', from: 6})), fg: [CO('Do‘stlar bilan', undefined, {top: 260, color: 'orange'})], fx: 'whip', sfx: ['whoosh3']},
   {t: 254.1, bg: B(v('drift_aerial', {kb: 'in'})), fg: [CO('Mashinalar', undefined, {top: 260, color: 'orange'})], fx: 'whip', sfx: ['car_by']},
   {t: 255.1, bg: B(v('police_lights2', {kb: 'out', from: 5, dim: 0.35})), fg: [{el: () => <Quote text="HESOYAM · AEZAKMI · BAGUVIX" who="mashhur kodlar" color="orange" top={300} />}], fx: 'glitch', sfx: ['typing']},
-  {t: 257.2, bg: B(v('la_avenue_night', {kb: 'in', dim: 0.3})), fg: [K(['ENG MUHIMI...'], {size: 110}), K(['*CJ*'], {size: 300, color: 'green', top: 520, at: 1.4}), CO('Carl Johnson', undefined, {top: 900, color: 'green', at: 2.2})], fx: 'zoom', sfx: ['bass_hit', 'impact_zoom']},
+  {t: 257.2, bg: B(v('la_avenue_night', {kb: 'in', dim: 0.3})), fg: [K(['ENG MUHIMI...'], {size: 110, until: 1.4}), K(['*CJ*'], {size: 300, color: 'green', top: 520, at: 1.4}), CO('Carl Johnson', undefined, {top: 900, color: 'green', at: 2.2})], fx: 'zoom', sfx: ['bass_hit', 'impact_zoom']},
   {t: 260.9, bg: () => <MapScene center={[-118.3, 34.05]} scaleFrom={600} scaleTo={6000} highlight={['United States of America']} pins={[{name: 'Los Santos', lon: -118.24, lat: 34.05, sub: 'Los-Anjeles asosida'}]} title="Kaliforniya" color="green" />, fx: 'zoom', sfx: ['sweep1']},
   {t: 265.3, bg: B(v('handcuffed', {kb: 'in', dim: 0.2})), fg: [{el: () => <TimedList items={[{text: 'Eski do‘stlar', at: 0.1}, {text: 'Oila', at: 1.5}, {text: 'Ko‘cha guruhlari', at: 2.4}]} top={280} color="green" />}], fx: 'whip', sfx: ['whoosh2']},
   {t: 270.8, bg: B(v('newspaper_pov', {kb: 'in'})), fg: [K(['FAQAT HIKOYA', '*EMAS*'], {size: 140, color: 'green'})], fx: 'zoom', sfx: ['sweep2']},
@@ -192,7 +192,7 @@ export const SCENES: Scene[] = [
   {t: 673.7, bg: B(v('banknotes_falling', {kb: 'out', from: 2, grade: 'warm'})), fg: [K(['TEXNIK TAJRIBADAN', '*MILLIARDLAB $*'], {size: 110, color: 'green'})], fx: 'flash', sfx: ['coin']},
   {t: 681.9, bg: B(im('dma_team_2011.jpg', {kb: 'out', focus: '50% 40%'})), fg: [CO('Kichik studiya', 'dasturchilarning g‘oyasidan', {top: 250, color: 'cyan'})], fx: 'zoom', sfx: ['shutter']},
   {t: 686.9, bg: () => <Poll q="Sizningcha, eng zo‘r GTA qaysi?" options={[{text: 'Vice City', at: 5.8}, {text: 'San Andreas', at: 7.7}, {text: 'GTA 5', at: 9.4}, {text: 'GTA 6', at: 10.8}]} ctaAt={14.5} />, fx: 'flash', sfx: ['ding']},
-  {t: 703.5, bg: B(v('fireworks_black', {kb: 'in', from: 3, dim: 0.2})), fg: [K(['YANGI DAVR', '*BOSHLANDI*'], {size: 140}), {at: 2.9, el: () => <Kinetic lines={['TARIX HALI', '*TUGAMAGAN*']} size={130} top={700} color="pink" />}], fx: 'flash', sfx: ['impact_trailer']},
+  {t: 703.5, bg: B(v('fireworks_black', {kb: 'in', from: 3, dim: 0.2})), fg: [K(['YANGI DAVR', '*BOSHLANDI*'], {size: 140, until: 2.9}), {at: 2.9, el: () => <Kinetic lines={['TARIX HALI', '*TUGAMAGAN*']} size={130} top={700} color="pink" />}], fx: 'flash', sfx: ['impact_trailer']},
 ];
 
 export const TOTAL_SEC = 709.06;

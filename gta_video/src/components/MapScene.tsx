@@ -3,7 +3,7 @@ import {AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConf
 import {geoMercator, geoPath} from 'd3-geo';
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-50m.json';
-import {ANTON, C, MONT, accent} from '../theme';
+import {ANTON, C, MONT, accent, useLayout} from '../theme';
 
 type Pin = {name: string; lon: number; lat: number; sub?: string};
 
@@ -25,10 +25,11 @@ export const MapScene: React.FC<{
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const ac = accent(color);
+  const {W, H, land} = useLayout();
   const z = interpolate(frame, [0, 70], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
   const scale = scaleFrom * Math.pow(scaleTo / scaleFrom, z);
   const projection = useMemo(() => geoMercator(), []);
-  projection.center(center).scale(scale).translate([540, 820]);
+  projection.center(center).scale(scale * (land ? 0.85 : 1)).translate([W / 2, land ? H / 2 + 30 : 820]);
   const path = geoPath(projection);
 
   const pts = pins.map((p) => projection([p.lon, p.lat]) as [number, number]);
@@ -44,7 +45,7 @@ export const MapScene: React.FC<{
     <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 42%, #10233a 0%, #060a12 70%)'}}>
       {/* grid */}
       <AbsoluteFill style={{backgroundImage: 'linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px)', backgroundSize: '60px 60px'}} />
-      <svg width={1080} height={1920} style={{position: 'absolute'}}>
+      <svg width={W} height={H} style={{position: 'absolute'}}>
         <defs>
           <filter id="glow"><feGaussianBlur stdDeviation="6" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
         </defs>
@@ -78,9 +79,9 @@ export const MapScene: React.FC<{
       {pins.map((p, i) => {
         const [x, y] = pts[i];
         const s = spring({frame: frame - 38 - i * 14, fps, config: {damping: 14, stiffness: 170}});
-        const left = x > 700;
+        const left = x > W - 380;
         return (
-          <div key={i} style={{position: 'absolute', left: left ? undefined : x + 34, right: left ? 1080 - x + 34 : undefined, top: y - 46, opacity: s, transform: `translateX(${interpolate(s, [0, 1], [left ? 40 : -40, 0])}px)`, textAlign: left ? 'right' : 'left'}}>
+          <div key={i} style={{position: 'absolute', left: left ? undefined : x + 34, right: left ? W - x + 34 : undefined, top: y - 46, opacity: s, transform: `translateX(${interpolate(s, [0, 1], [left ? 40 : -40, 0])}px)`, textAlign: left ? 'right' : 'left'}}>
             <div style={{display: 'inline-block', background: '#000c', border: `3px solid ${ac}`, borderRadius: 12, padding: '8px 20px'}}>
               <div style={{fontFamily: ANTON, fontSize: 58, color: C.white, textTransform: 'uppercase', lineHeight: 1.05}}>{p.name}</div>
               {p.sub && <div style={{fontFamily: MONT, fontWeight: 800, fontSize: 28, color: ac, textTransform: 'uppercase'}}>{p.sub}</div>}
@@ -89,7 +90,7 @@ export const MapScene: React.FC<{
         );
       })}
       {title && (
-        <div style={{position: 'absolute', top: 210, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, letterSpacing: 10, color: ac, textTransform: 'uppercase', opacity: interpolate(frame, [0, 12], [0, 1], clamp)}}>
+        <div style={{position: 'absolute', top: land ? 60 : 210, left: 0, right: 0, textAlign: 'center', fontFamily: MONT, fontWeight: 900, fontSize: 46, letterSpacing: 10, color: ac, textTransform: 'uppercase', opacity: interpolate(frame, [0, 12], [0, 1], clamp)}}>
           {title}
         </div>
       )}

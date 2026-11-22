@@ -22,11 +22,12 @@ export const Vignette: React.FC<{strength?: number}> = ({strength = 0.75}) => (
 );
 
 // Soft top/bottom gradients so captions and titles always read
-export const SafeGradients: React.FC = () => (
+export const SafeGradients: React.FC<{light?: boolean}> = ({light}) => (
   <AbsoluteFill
     style={{
-      background:
-        'linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 52%, rgba(0,0,0,.72) 78%, rgba(0,0,0,.85) 100%)',
+      background: light
+        ? 'linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 75%, rgba(0,0,0,.3) 100%)'
+        : 'linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 52%, rgba(0,0,0,.72) 78%, rgba(0,0,0,.85) 100%)',
       pointerEvents: 'none',
     }}
   />

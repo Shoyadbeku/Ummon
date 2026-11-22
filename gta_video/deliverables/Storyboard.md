@@ -1,4 +1,4 @@
-# Storyboard — GTA tarixi (9:16, 30 fps, 11:49)
+# Storyboard — GTA tarixi (16:9, 30 fps, 11:49)
 
 Har bir sahna ovozdagi aniq so‘z vaqtiga bog‘langan. Manba kodi: `src/storyboard.tsx`.
 
