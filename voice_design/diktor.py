@@ -226,7 +226,8 @@ def ayt(args):
         eng = None
         for urinish in range(args.urinish):
             torch.manual_seed(urinish)
-            audio = model.generate(text=gap, language="uz", voice_clone_prompt=prompt, speed=args.tezlik, **GEN)[0]
+            audio = model.generate(text=gap, language="uz", voice_clone_prompt=prompt, speed=args.tezlik,
+                                   **{**GEN, "num_step": args.qadam})[0]
             if tek is None:
                 eng = (0.0, audio, "")
                 break
@@ -305,6 +306,7 @@ def main():
     a.add_argument("matn", nargs="*")
     a.add_argument("-f", "--fayl", help="matn fayli (UTF-8)")
     a.add_argument("-o", "--chiqish", default="diktor.wav")
+    a.add_argument("--qadam", type=int, default=32, help="OmniVoice qadamlari: 16 ikki baravar tezroq")
     a.add_argument("--ovoz", default="diktor", help="ovoz nomi (ovozlar/<nom>.pt) yoki .pt fayl yo'li")
     a.add_argument("--tezlik", type=float, default=None, help="masalan 0.95 sekinroq, 1.05 tezroq")
     a.add_argument("--pauza", type=float, default=0.35, help="gaplar orasidagi pauza (soniya)")

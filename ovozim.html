@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ummon Ovozim</title>
+<meta name="description" content="O‘zbekcha matnni egasining OmniVoice klon ovozida o‘qitish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Unbounded:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ovoz.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="index.html#bosh" aria-label="Ummon bosh sahifa">
+      <span class="logo-mark">U</span><span class="logo-word">Ummon<b>Ovoz</b></span>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="index.html#bosh">Bosh sahifa</a>
+      <a href="index.html#muharrir">Muharrir</a>
+      <a href="ovoz.html">Ovoz klon</a>
+      <a href="matn.html">Matn → Ovoz</a>
+      <a href="ovozim.html" class="active">Ovozim</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap vc">
+  <section class="vc-head">
+    <p class="eyebrow">OmniVoice · Hugging Face Space</p>
+    <h1>Matnni <span class="hl">mening ovozimda</span> o‘qit</h1>
+    <p class="lead">O‘zbekcha matn yozing, u egasining klonlangan ovozida o‘qiladi. Raqamlar, foizlar va yillar avtomatik so‘z bilan o‘qiladi: «2026-yil» «ikki ming yigirma oltinchi yil» bo‘lib eshitiladi.</p>
+  </section>
+
+  <section class="card vc-step vc-tts" aria-labelledby="h-tts">
+    <div class="vc-step-h"><span class="vc-num">1</span><h2 id="h-tts">Matn</h2></div>
+    <div class="vc-tts-grid">
+      <div class="vc-col">
+        <div class="field">
+          <label for="speed">Tezlik <output id="speedOut">0.92</output></label>
+          <input type="range" id="speed" min="0.7" max="1.3" step="0.01" value="0.92">
+        </div>
+        <div class="field">
+          <label for="pause">Gaplar orasidagi pauza <output id="pauseOut">0.35 s</output></label>
+          <input type="range" id="pause" min="0" max="1" step="0.05" value="0.35">
+        </div>
+        <label class="sm"><input type="checkbox" id="check"> ASR bilan tekshirish: aniqroq, lekin 2 baravar sekinroq</label>
+        <details>
+          <summary class="sm">Sozlamalar</summary>
+          <div class="field">
+            <label for="space">Hugging Face Space</label>
+            <input type="text" id="space" spellcheck="false" placeholder="egasi/space-nomi">
+          </div>
+          <div class="field">
+            <label for="pass">Parol (Space'da o‘rnatilgan bo‘lsa)</label>
+            <input type="password" id="pass" autocomplete="current-password">
+          </div>
+        </details>
+      </div>
+      <div class="vc-col">
+        <div class="field">
+          <label for="text">Matn <output id="count">0</output></label>
+          <textarea id="text" rows="8" maxlength="1500">Bilasizmi? Samarqand shahri 2 700 yildan ham qadimiyroq. U Buyuk ipak yo‘lining eng muhim markazlaridan biri bo‘lgan.</textarea>
+        </div>
+        <div class="row wrap-row">
+          <button class="btn btn-primary" id="goBtn" type="button">Ovozlashtirish</button>
+          <a class="btn btn-ghost" id="dlBtn" download="ummon-ovozim.wav" hidden>WAV yuklab olish</a>
+        </div>
+        <p class="sm" id="status" role="status" aria-live="polite"></p>
+        <audio controls id="audio" hidden></audio>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">Ummon Ovozim · So‘rovlar Hugging Face Space'ga boradi. Bepul CPU'da bir gap taxminan 1 daqiqada tayyor bo‘ladi; Space uxlab qolgan bo‘lsa, birinchi so‘rov bir necha daqiqa olishi mumkin. Klonlangan ovozni faqat egasining roziligi bilan ishlating.</footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="js/ovozim.js"></script>
+</body>
+</html>

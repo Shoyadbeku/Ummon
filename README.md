@@ -15,6 +15,7 @@ O‘zbek tilidagi AI subtitrlar, shablonlar va qisqa videolar uchun veb-muharrir
 - **Ovoz klon** (`ovoz.html`): Gemini 3.8 Flash TTS bilan ovozni 10–30 soniyalik namunadan klonlash va o‘zbekcha matnni shu ovozda o‘qitish. O‘z Gemini API kalitingiz kerak; so‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google'ga boradi.
 - **Matn → Ovoz** (`matn.html`): o‘zbekcha matnni egasining RVC v2 modeli bilan klonlangan ovozda o‘qitadi. Server qismi `space/` papkasida (Hugging Face Space, Gradio).
 - **Diktor ovozi** (`voice_design/`): OmniVoice voice design bilan yaratilgan jarangdor o‘zbekcha erkak diktor ovozi. Raqamlar so‘z bilan o‘qiladi, har bir gap ASR bilan tekshiriladi.
+- **Ovozim** (`ovozim.html`): o‘zbekcha matnni egasining OmniVoice klon ovozida o‘qitadi. Server qismi `space_ovozim/` papkasida (Hugging Face Space, `python space_ovozim/deploy.py` bilan joylanadi).
 - **Eksport**: subtitrlar kuydirilgan video (MP4 yoki WEBM, 720p/1080p), SRT, VTT, TXT. SRT import ham bor.
 
 ## Ishga tushirish
@@ -45,6 +46,10 @@ js/whisper-worker.js  Whisper (transformers.js) Web Worker'da
 ovoz.html             ovoz klonlash sahifasi
 matn.html             matn → klonlangan ovoz sahifasi
 js/matn.js            Hugging Face Space API chaqiruvi
+ovozim.html           matn → egasining OmniVoice klon ovozi
+js/ovozim.js          Ovozim Space API chaqiruvi
+space_ovozim/         Space: OmniVoice klon ovoz (app.py, deploy.py)
+voice_design/         diktor ovozi va ovoz klonlash (CLI)
 space/                Space: edge-tts + RVC (app.py, requirements.txt)
 css/ovoz.css          ovoz sahifasi dizayni
 js/ovoz.js            Gemini Voices API va TTS chaqiruvlari
