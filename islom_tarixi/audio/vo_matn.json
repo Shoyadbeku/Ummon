@@ -1,0 +1,10 @@
+[
+ {"id":"s1","start":0.9,"rate":"-4%","text":"Zulmat qo‘ynida bir nur porladi. Arabistondan taralgan bu nur insoniyat tarixini o‘zgartirdi."},
+ {"id":"s2","start":12.5,"rate":"+0%","text":"Olti yuz yigirma ikkinchi yil — hijrat. Bir asrga yetmay, Islom olami Andalusiyadan Hind daryosigacha yoyildi."},
+ {"id":"s3","start":21.0,"rate":"+0%","text":"Bag‘doddagi Baytul Hikma olimlarni jamladi. Al-Xorazmiy algebraga asos soldi, Ibn Sino «Tib qonunlari»ni yozdi."},
+ {"id":"s4","start":31.0,"rate":"-4%","text":"Kordovadan Buxoro va Samarqandgacha — gumbazlar, minoralar va naqshlar ilm va go‘zallikni toshga muhrladi."},
+ {"id":"s5","start":40.9,"rate":"+0%","text":"Qo‘lyozmalar tarjima qilinib, Yevropaga yetib bordi. Raqamlar, algoritmlar, yulduz jadvallari — bu meros hamon ilm poydevori."},
+ {"id":"s6a","start":50.9,"rate":"-6%","text":"Uning nuri bugun ham yo‘limizni yoritadi."},
+ {"id":"s6b","start":55.1,"rate":"-12%","text":"Islom sivilizatsiyasi."},
+ {"id":"s6c","start":57.3,"rate":"-12%","text":"Buyuk tarix, buyuk meros."}
+]

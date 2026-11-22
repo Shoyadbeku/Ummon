@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Islom olami tarixi — render</title>
+<style>
+  @font-face { font-family: "Cinzel"; font-weight: 400; src: url(assets/fonts/cinzel-latin-400-normal.woff2); }
+  @font-face { font-family: "Cinzel"; font-weight: 700; src: url(assets/fonts/cinzel-latin-700-normal.woff2); }
+  @font-face { font-family: "Cinzel"; font-weight: 900; src: url(assets/fonts/cinzel-latin-900-normal.woff2); }
+  @font-face { font-family: "Cormorant"; font-weight: 500; src: url(assets/fonts/cormorant-garamond-latin-500-normal.woff2); }
+  @font-face { font-family: "Cormorant"; font-weight: 500; src: url(assets/fonts/cormorant-garamond-latin-ext-500-normal.woff2); unicode-range: U+0100-02FF, U+1E00-1EFF; }
+  @font-face { font-family: "Cormorant"; font-weight: 600; src: url(assets/fonts/cormorant-garamond-latin-600-normal.woff2); }
+  @font-face { font-family: "Cormorant"; font-weight: 600; font-style: italic; src: url(assets/fonts/cormorant-garamond-latin-600-italic.woff2); }
+  @font-face { font-family: "Amiri"; font-weight: 400; src: url(assets/fonts/amiri-arabic-400-normal.woff2); }
+  @font-face { font-family: "Amiri"; font-weight: 700; src: url(assets/fonts/amiri-arabic-700-normal.woff2); }
+  @font-face { font-family: "ReemKufi"; font-weight: 600; src: url(assets/fonts/reem-kufi-arabic-600-normal.woff2); }
+  @font-face { font-family: "ArefRuqaa"; font-weight: 700; src: url(assets/fonts/aref-ruqaa-arabic-700-normal.woff2); }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+  #gl { position: absolute; left: -99999px; top: 0; }
+</style>
+</head>
+<body>
+<canvas id="out"></canvas>
+<canvas id="gl"></canvas>
+<script src="assets/geo.js"></script>
+<script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,3 +1,8 @@
 # Ovoz modellari ochiq repozitoriyga qo'yilmaydi
 *.pth
 *.index
+
+# Islom tarixi render bo'laklari
+islom_tarixi/render/c*.mp4
+islom_tarixi/render/list.txt
+islom_tarixi/render/preview.mp4

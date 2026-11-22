@@ -14,6 +14,7 @@ O‘zbek tilidagi AI subtitrlar, shablonlar va qisqa videolar uchun veb-muharrir
 - **Lotin ⇄ Kirill** transliteratsiyasi.
 - **Ovoz klon** (`ovoz.html`): Gemini 3.8 Flash TTS bilan ovozni 10–30 soniyalik namunadan klonlash va o‘zbekcha matnni shu ovozda o‘qitish. O‘z Gemini API kalitingiz kerak; so‘rovlar brauzerdan to‘g‘ridan-to‘g‘ri Google'ga boradi.
 - **Matn → Ovoz** (`matn.html`): o‘zbekcha matnni egasining RVC v2 modeli bilan klonlangan ovozda o‘qitadi. Server qismi `space/` papkasida (Hugging Face Space, Gradio).
+- **Islom olami tarixi** (`islom_tarixi/`): 60 soniyalik 4K kinematografik hujjatli film introsi — kod bilan render qilingan 3D motion graphics, o‘zbekcha diktor ovozi va sintez qilingan saundtrek.
 - **Eksport**: subtitrlar kuydirilgan video (MP4 yoki WEBM, 720p/1080p), SRT, VTT, TXT. SRT import ham bor.
 
 ## Ishga tushirish
