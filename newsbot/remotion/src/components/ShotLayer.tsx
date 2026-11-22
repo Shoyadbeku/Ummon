@@ -14,7 +14,7 @@ const Vignette = () => (
 const Credit: React.FC<{text?: string | null; illustrative?: boolean}> = ({text, illustrative}) => {
 	if (!text && !illustrative) return null;
 	return (
-		<div style={{position: 'absolute', left: 60, top: 1408, display: 'flex', gap: 10, alignItems: 'center', maxWidth: 860}}>
+		<div style={{position: 'absolute', left: 60, top: 1546, display: 'flex', gap: 10, alignItems: 'center', maxWidth: 860}}>
 			{illustrative ? (
 				<span style={{fontFamily: theme.font, fontWeight: 800, fontSize: 21, color: '#0B0F17', background: 'rgba(255,255,255,.85)', padding: '3px 9px', borderRadius: 5, letterSpacing: 1}}>
 					ILLYUSTRATIV

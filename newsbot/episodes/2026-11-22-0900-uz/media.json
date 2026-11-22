@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "file": "media/01.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Qarshi_Mustaqillik_shoh_ko%E2%80%98chasi.jpg",
+    "license": "CC0",
+    "author": "YUI 3414",
+    "title": "File:Qarshi Mustaqillik shoh ko‘chasi.jpg",
+    "illustrative": false
+  },
+  {
+    "file": "media/02.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Qarshi_Kat_mahallasi.jpg",
+    "license": "CC0",
+    "author": "Afruza Oybekovna",
+    "title": "File:Qarshi Kat mahallasi.jpg",
+    "illustrative": false
+  },
+  {
+    "file": "media/03.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Qarshi_shahar_markaziy_soati.jpg",
+    "license": "CC0",
+    "author": "Qarshi.life",
+    "title": "File:Qarshi shahar markaziy soati.jpg",
+    "illustrative": false
+  },
+  {
+    "file": "media/04.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Qarshi,Mustaqillik_shoh_ko%E2%80%98chasi_1.jpg",
+    "license": "CC0",
+    "author": "YUI 3414",
+    "title": "File:Qarshi,Mustaqillik shoh ko‘chasi 1.jpg",
+    "illustrative": false
+  },
+  {
+    "file": "media/05.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sovet_era_apartment_blocks.jpg",
+    "license": "CC BY 4.0",
+    "author": "Muharramxon",
+    "title": "File:Sovet era apartment blocks.jpg",
+    "illustrative": true
+  }
+]

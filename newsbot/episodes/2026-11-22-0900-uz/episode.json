@@ -8,27 +8,194 @@
   "hook": "Qarshida tunda ko'p qavatli uyda gaz portladi",
   "thumbnail_text": "QARSHI | GAZ PORTLADI",
   "event_date": "2026-11-22",
-  "viral_score": {"total": 64, "freshness": 12, "impact": 22, "coverage": 7, "trust": 9, "visual": 0, "local": 5,
-    "note": "Favqulodda hodisa, qishki mavsumda gaz xavfsizligi dolzarb; rasmiy manba (FVV) ikki nashrda. Taxmin, kafolat emas."},
+  "viral_score": {
+    "total": 64,
+    "freshness": 12,
+    "impact": 22,
+    "coverage": 7,
+    "trust": 9,
+    "visual": 0,
+    "local": 5,
+    "note": "Favqulodda hodisa, qishki mavsumda gaz xavfsizligi dolzarb; rasmiy manba (FVV) ikki nashrda. Taxmin, kafolat emas."
+  },
   "sentences": [
-    {"text": "Qarshida tunda ko'p qavatli uyda gaz portladi.", "highlight": ["portladi."]},
-    {"text": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa 22-noyabr kuni tungi soat 00:28 da Batosh mahallasida sodir bo'lgan.",
-     "say": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa yigirma ikkinchi noyabr kuni tungi soat o'n ikkidan yigirma sakkiz daqiqa o'tganda, Batosh mahallasida sodir bo'lgan.",
-     "highlight": ["00:28"]},
-    {"text": "Ko'p qavatli binoning ikkinchi qavatidagi xonadonda gaz-havo aralashmasi chaqnagan.", "highlight": ["chaqnagan."]},
-    {"text": "Chaqnash natijasida yong'in chiqqan, qutqaruvchilar uni qisqa vaqtda o'chirgan.", "highlight": ["o'chirgan."]},
-    {"text": "Ikki kishi kuyish jarohati olib, shifoxonaga murojaat qilgan.", "highlight": ["Ikki"]},
-    {"text": "Xayriyatki, halok bo'lganlar yo'q.", "highlight": ["yo'q."]},
-    {"text": "Mas'ul idoralar hodisa sabablarini aniqlash uchun surishtiruv olib bormoqda.", "highlight": ["surishtiruv"]},
-    {"text": "Eslatib o'tamiz, 5-noyabr kuni Toshkentdagi ko'p qavatli uyda ham gaz portlab, bir kishi jarohatlangan edi.", "highlight": ["Toshkentdagi"]},
-    {"text": "Qishda gaz jihozlaridan foydalanishda ehtiyot bo'ling. Fikringizni izohda yozing.", "highlight": ["ehtiyot"]}
+    {
+      "text": "Qarshida tunda ko'p qavatli uyda gaz portladi.",
+      "highlight": [
+        "portladi."
+      ],
+      "shots": [
+        1
+      ],
+      "cover_hint": true
+    },
+    {
+      "text": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa 22-noyabr kuni tungi soat 00:28 da Batosh mahallasida sodir bo'lgan.",
+      "say": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa yigirma ikkinchi noyabr kuni tungi soat o'n ikkidan yigirma sakkiz daqiqa o'tganda, Batosh mahallasida sodir bo'lgan.",
+      "highlight": [
+        "00:28"
+      ],
+      "shots": [
+        {
+          "map": {
+            "center": [
+              65.79,
+              38.86
+            ],
+            "zoomFrom": 700,
+            "zoomTo": 5200,
+            "highlight": [
+              "860"
+            ],
+            "pins": [
+              {
+                "name": "Qarshi",
+                "lon": 65.79,
+                "lat": 38.86,
+                "main": true
+              }
+            ]
+          }
+        },
+        2,
+        3
+      ],
+      "lower_third": "Qarshi, Batosh mahallasi • 22-noyabr, 00:28"
+    },
+    {
+      "text": "Ko'p qavatli binoning ikkinchi qavatidagi xonadonda gaz-havo aralashmasi chaqnagan.",
+      "highlight": [
+        "chaqnagan."
+      ],
+      "shots": [
+        4
+      ],
+      "lower_third": "Ko'p qavatli uy, 2-qavat"
+    },
+    {
+      "text": "Chaqnash natijasida yong'in chiqqan, qutqaruvchilar uni qisqa vaqtda o'chirgan.",
+      "highlight": [
+        "o'chirgan."
+      ],
+      "shots": [
+        4,
+        2
+      ],
+      "graphic": {
+        "type": "list",
+        "title": "FVV ma'lumoti",
+        "items": [
+          "Gaz-havo aralashmasi chaqnagan",
+          "Yong'in qisqa vaqtda o'chirilgan"
+        ]
+      }
+    },
+    {
+      "text": "Ikki kishi kuyish jarohati olib, shifoxonaga murojaat qilgan.",
+      "highlight": [
+        "Ikki"
+      ],
+      "shots": [
+        1
+      ],
+      "graphic": {
+        "type": "stat",
+        "value": 2,
+        "suffix": " kishi",
+        "label": "kuyish jarohati bilan shifoxonaga murojaat qilgan"
+      }
+    },
+    {
+      "text": "Xayriyatki, halok bo'lganlar yo'q.",
+      "highlight": [
+        "yo'q."
+      ],
+      "shots": [
+        3
+      ],
+      "lower_third": "Halok bo'lganlar yo'q"
+    },
+    {
+      "text": "Mas'ul idoralar hodisa sabablarini aniqlash uchun surishtiruv olib bormoqda.",
+      "highlight": [
+        "surishtiruv"
+      ],
+      "shots": [
+        2,
+        0
+      ],
+      "lower_third": "Hodisa sabablari o'rganilmoqda"
+    },
+    {
+      "text": "Eslatib o'tamiz, 5-noyabr kuni Toshkentdagi ko'p qavatli uyda ham gaz portlab, bir kishi jarohatlangan edi.",
+      "highlight": [
+        "Toshkentdagi"
+      ],
+      "shots": [
+        {
+          "map": {
+            "center": [
+              67.4,
+              40.1
+            ],
+            "zoomFrom": 900,
+            "zoomTo": 3300,
+            "highlight": [
+              "860"
+            ],
+            "pins": [
+              {
+                "name": "Toshkent • 5-noyabr",
+                "lon": 69.24,
+                "lat": 41.3
+              },
+              {
+                "name": "Qarshi • 22-noyabr",
+                "lon": 65.79,
+                "lat": 38.86,
+                "main": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Qishda gaz jihozlaridan foydalanishda ehtiyot bo'ling. Fikringizni izohda yozing.",
+      "highlight": [
+        "ehtiyot"
+      ],
+      "shots": [
+        4,
+        1
+      ],
+      "lower_third": "Gaz jihozlaridan ehtiyotkorlik bilan foydalaning"
+    }
   ],
   "caption": "Qarshi shahrida 22-noyabr kuni tungi soat 00:28 da Batosh mahallasidagi ko'p qavatli uyning 2-qavatidagi xonadonda gaz-havo aralashmasi chaqnadi. Yong'in qutqaruvchilar tomonidan qisqa vaqtda o'chirildi. Ikki kishi kuyish jarohati bilan shifoxonaga murojaat qilgan, halok bo'lganlar yo'q. Hodisa sabablari yuzasidan surishtiruv olib borilmoqda (FVV ma'lumoti).",
-  "hashtags": ["#yangiliklar", "#qarshi", "#uzbekistan", "#ozbekiston", "#fvv", "#gaz", "#xavfsizlik", "#news", "#reels"],
+  "hashtags": [
+    "#yangiliklar",
+    "#qarshi",
+    "#uzbekistan",
+    "#ozbekiston",
+    "#fvv",
+    "#gaz",
+    "#xavfsizlik",
+    "#news",
+    "#reels"
+  ],
   "ticker": "Qarshi: ko'p qavatli uyda gaz chaqnashi • 2 kishi jarohatlandi, halok bo'lganlar yo'q • Surishtiruv olib borilmoqda",
   "sources": [
-    {"name": "Kun.uz (FVV ma'lumoti)", "url": "https://kun.uz/news/2026/11/22/qarshida-uyda-gaz-portlashi-oqibatida-2-kishi-jarohatlandi-61753", "published": "2026-11-22T04:06:27Z"},
-    {"name": "Daryo.uz (FVV ma'lumoti)", "url": "https://daryo.uz/2026/11/22/qarshidagi-uyda-gaz-portlab-ikki-kishi-jarohatlandi/", "published": "2026-11-22T03:33:34Z"}
+    {
+      "name": "Kun.uz (FVV ma'lumoti)",
+      "url": "https://kun.uz/news/2026/11/22/qarshida-uyda-gaz-portlashi-oqibatida-2-kishi-jarohatlandi-61753",
+      "published": "2026-11-22T04:06:27Z"
+    },
+    {
+      "name": "Daryo.uz (FVV ma'lumoti)",
+      "url": "https://daryo.uz/2026/11/22/qarshidagi-uyda-gaz-portlab-ikki-kishi-jarohatlandi/",
+      "published": "2026-11-22T03:33:34Z"
+    }
   ],
   "fact_check": [
     "Vaqt 22-noyabr 00:28, Batosh mahallasi, ko'p qavatli uy, 2-qavat: Kun.uz va Daryo.uz (FVV)",
@@ -36,5 +203,6 @@
     "2 kishi kuyish jarohati, shifoxonaga murojaat, vafot etganlar yo'q: Kun.uz va Daryo.uz",
     "Surishtiruv olib borilmoqda: Kun.uz va Daryo.uz",
     "5-noyabr Toshkent, ko'p qavatli uy, 1 kishi jarohatlangan: Daryo.uz (bitta manba, kontekst sifatida)"
-  ]
+  ],
+  "cover_media": 1
 }

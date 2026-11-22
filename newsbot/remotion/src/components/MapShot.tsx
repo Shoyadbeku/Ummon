@@ -67,8 +67,21 @@ export const MapShot: React.FC<{spec: MapSpec; durFrames: number}> = ({spec, dur
 						<g key={`p${i}`} transform={`translate(${xy[0]},${xy[1]}) scale(${s})`}>
 							<circle r={18 * pulse} fill="none" stroke={col} strokeOpacity={1.6 - pulse} strokeWidth={4} />
 							<circle r={13} fill={col} stroke="#000" strokeWidth={3} />
-							<rect x={26} y={-30} rx={10} width={p.name.length * 27 + 34} height={60} fill="rgba(7,11,20,.85)" stroke={col} strokeWidth={2} />
-							<text x={43} y={12} fill={col} fontFamily="Inter" fontWeight={800} fontSize={38}>
+							{/* label goes left of the pin when it would run off the right edge */}
+							{(() => {
+								const w = p.name.length * 24 + 34;
+								const left = xy[0] + 26 + w > W - 40;
+								const x0 = left ? -26 - w : 26;
+								return (
+									<>
+										<rect x={x0} y={-30} rx={10} width={w} height={60} fill="rgba(7,11,20,.85)" stroke={col} strokeWidth={2} />
+										<text x={x0 + 17} y={12} fill={col} fontFamily="Inter" fontWeight={800} fontSize={36}>
+											{p.name}
+										</text>
+									</>
+								);
+							})()}
+							<text x={-10000} y={0} fill={col} fontFamily="Inter" fontWeight={800} fontSize={1}>
 								{p.name}
 							</text>
 						</g>
