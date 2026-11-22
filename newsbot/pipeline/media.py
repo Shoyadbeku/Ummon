@@ -225,14 +225,15 @@ def fetch_titles(ep_dir: Path, ep_id: str, titles: list[str], illustrative: bool
         p = pages.get(t.replace("_", " "))
         if not p:
             log("WARN", f"not found: {t}", ep_id); continue
-        info = (p.get("videoinfo") or p.get("imageinfo") or [{}])[0]
+        ii = (p.get("imageinfo") or [{}])[0]
+        is_video = ii.get("mediatype") == "VIDEO" or t.lower().endswith((".webm", ".ogv", ".mp4"))
+        info = (p.get("videoinfo") or [{}])[0] if is_video else ii
         md = info.get("extmetadata", {})
         lic = _strip(md.get("LicenseShortName", {}).get("value", ""))
         if not lic or BAD.search(lic) or not OK_LICENSES.search(lic):
             log("WARN", f"licence rejected {t}: {lic}", ep_id); continue
         author = _strip(md.get("Artist", {}).get("value", ""))[:80] or "Wikimedia Commons"
         n = len(existing) + len(got) + 1
-        is_video = info.get("mediatype") == "VIDEO" or t.lower().endswith((".webm", ".ogv", ".mp4"))
         if is_video:
             ders = [d for d in info.get("derivatives", []) if "webm" in d.get("type", "") or "mp4" in d.get("type", "")]
             ders.sort(key=lambda d: abs((d.get("height") or 0) - 1080))

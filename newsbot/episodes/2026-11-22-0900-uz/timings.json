@@ -1,0 +1,586 @@
+{
+ "duration": 44.31,
+ "sentences": [
+  {
+   "i": 0,
+   "text": "Qarshida tunda ko'p qavatli uyda gaz portladi.",
+   "say": "Qarshida tunda ko'p qavatli uyda gaz portladi.",
+   "start": 0.35,
+   "end": 2.81
+  },
+  {
+   "i": 1,
+   "text": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa 22-noyabr kuni tungi soat 00:28 da Batosh mahallasida sodir bo'lgan.",
+   "say": "Favqulodda vaziyatlar vazirligi xabariga ko'ra, hodisa yigirma ikkinchi noyabr kuni tungi soat o'n ikkidan yigirma sakkiz daqiqa o'tganda, Batosh mahallasida sodir bo'lgan.",
+   "start": 3.03,
+   "end": 12.89
+  },
+  {
+   "i": 2,
+   "text": "Ko'p qavatli binoning ikkinchi qavatidagi xonadonda gaz-havo aralashmasi chaqnagan.",
+   "say": "Ko'p qavatli binoning ikkinchi qavatidagi xonadonda gaz-havo aralashmasi chaqnagan.",
+   "start": 13.11,
+   "end": 17.65
+  },
+  {
+   "i": 3,
+   "text": "Chaqnash natijasida yong'in chiqqan, qutqaruvchilar uni qisqa vaqtda o'chirgan.",
+   "say": "Chaqnash natijasida yong'in chiqqan, qutqaruvchilar uni qisqa vaqtda o'chirgan.",
+   "start": 17.87,
+   "end": 22.27
+  },
+  {
+   "i": 4,
+   "text": "Ikki kishi kuyish jarohati olib, shifoxonaga murojaat qilgan.",
+   "say": "Ikki kishi kuyish jarohati olib, shifoxonaga murojaat qilgan.",
+   "start": 22.49,
+   "end": 26.05
+  },
+  {
+   "i": 5,
+   "text": "Xayriyatki, halok bo'lganlar yo'q.",
+   "say": "Xayriyatki, halok bo'lganlar yo'q.",
+   "start": 26.27,
+   "end": 28.09
+  },
+  {
+   "i": 6,
+   "text": "Mas'ul idoralar hodisa sabablarini aniqlash uchun surishtiruv olib bormoqda.",
+   "say": "Mas'ul idoralar hodisa sabablarini aniqlash uchun surishtiruv olib bormoqda.",
+   "start": 28.31,
+   "end": 32.89
+  },
+  {
+   "i": 7,
+   "text": "Eslatib o'tamiz, 5-noyabr kuni Toshkentdagi ko'p qavatli uyda ham gaz portlab, bir kishi jarohatlangan edi.",
+   "say": "Eslatib o'tamiz, beshinchi noyabr kuni Toshkentdagi ko'p qavatli uyda ham gaz portlab, bir kishi jarohatlangan edi.",
+   "start": 33.11,
+   "end": 39.49
+  },
+  {
+   "i": 8,
+   "text": "Qishda gaz jihozlaridan foydalanishda ehtiyot bo'ling. Fikringizni izohda yozing.",
+   "say": "Qishda gaz jihozlaridan foydalanishda ehtiyot bo'ling. Fikringizni izohda yozing.",
+   "start": 39.71,
+   "end": 44.09
+  }
+ ],
+ "words": [
+  {
+   "text": "Qarshida",
+   "start": 0.35,
+   "end": 0.821,
+   "highlight": false
+  },
+  {
+   "text": "tunda",
+   "start": 0.821,
+   "end": 1.135,
+   "highlight": false
+  },
+  {
+   "text": "ko'p",
+   "start": 1.135,
+   "end": 1.397,
+   "highlight": false
+  },
+  {
+   "text": "qavatli",
+   "start": 1.397,
+   "end": 1.816,
+   "highlight": false
+  },
+  {
+   "text": "uyda",
+   "start": 1.816,
+   "end": 2.077,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 2.077,
+   "end": 2.287,
+   "highlight": false
+  },
+  {
+   "text": "portladi.",
+   "start": 2.287,
+   "end": 2.81,
+   "highlight": false
+  },
+  {
+   "text": "Favqulodda",
+   "start": 3.03,
+   "end": 3.748,
+   "highlight": false
+  },
+  {
+   "text": "vaziyatlar",
+   "start": 3.748,
+   "end": 4.467,
+   "highlight": false
+  },
+  {
+   "text": "vazirligi",
+   "start": 4.467,
+   "end": 5.12,
+   "highlight": false
+  },
+  {
+   "text": "xabariga",
+   "start": 5.12,
+   "end": 5.707,
+   "highlight": false
+  },
+  {
+   "text": "ko'ra,",
+   "start": 5.707,
+   "end": 6.164,
+   "highlight": false
+  },
+  {
+   "text": "hodisa",
+   "start": 6.164,
+   "end": 6.621,
+   "highlight": false
+  },
+  {
+   "text": "22-noyabr",
+   "start": 6.621,
+   "end": 8.189,
+   "highlight": false
+  },
+  {
+   "text": "kuni",
+   "start": 8.189,
+   "end": 8.515,
+   "highlight": false
+  },
+  {
+   "text": "tungi",
+   "start": 8.515,
+   "end": 8.907,
+   "highlight": false
+  },
+  {
+   "text": "soat",
+   "start": 8.907,
+   "end": 9.233,
+   "highlight": false
+  },
+  {
+   "text": "00:28",
+   "start": 9.233,
+   "end": 10.474,
+   "highlight": true
+  },
+  {
+   "text": "da",
+   "start": 10.474,
+   "end": 10.67,
+   "highlight": false
+  },
+  {
+   "text": "Batosh",
+   "start": 10.67,
+   "end": 11.127,
+   "highlight": false
+  },
+  {
+   "text": "mahallasida",
+   "start": 11.127,
+   "end": 11.911,
+   "highlight": false
+  },
+  {
+   "text": "sodir",
+   "start": 11.911,
+   "end": 12.302,
+   "highlight": false
+  },
+  {
+   "text": "bo'lgan.",
+   "start": 12.302,
+   "end": 12.89,
+   "highlight": false
+  },
+  {
+   "text": "Ko'p",
+   "start": 13.11,
+   "end": 13.38,
+   "highlight": false
+  },
+  {
+   "text": "qavatli",
+   "start": 13.38,
+   "end": 13.813,
+   "highlight": false
+  },
+  {
+   "text": "binoning",
+   "start": 13.813,
+   "end": 14.299,
+   "highlight": false
+  },
+  {
+   "text": "ikkinchi",
+   "start": 14.299,
+   "end": 14.785,
+   "highlight": false
+  },
+  {
+   "text": "qavatidagi",
+   "start": 14.785,
+   "end": 15.38,
+   "highlight": false
+  },
+  {
+   "text": "xonadonda",
+   "start": 15.38,
+   "end": 15.92,
+   "highlight": false
+  },
+  {
+   "text": "gaz-havo",
+   "start": 15.92,
+   "end": 16.407,
+   "highlight": false
+  },
+  {
+   "text": "aralashmasi",
+   "start": 16.407,
+   "end": 17.055,
+   "highlight": false
+  },
+  {
+   "text": "chaqnagan.",
+   "start": 17.055,
+   "end": 17.65,
+   "highlight": false
+  },
+  {
+   "text": "Chaqnash",
+   "start": 17.87,
+   "end": 18.365,
+   "highlight": false
+  },
+  {
+   "text": "natijasida",
+   "start": 18.365,
+   "end": 18.97,
+   "highlight": false
+  },
+  {
+   "text": "yong'in",
+   "start": 18.97,
+   "end": 19.41,
+   "highlight": false
+  },
+  {
+   "text": "chiqqan,",
+   "start": 19.41,
+   "end": 19.905,
+   "highlight": false
+  },
+  {
+   "text": "qutqaruvchilar",
+   "start": 19.905,
+   "end": 20.73,
+   "highlight": false
+  },
+  {
+   "text": "uni",
+   "start": 20.73,
+   "end": 20.95,
+   "highlight": false
+  },
+  {
+   "text": "qisqa",
+   "start": 20.95,
+   "end": 21.28,
+   "highlight": false
+  },
+  {
+   "text": "vaqtda",
+   "start": 21.28,
+   "end": 21.665,
+   "highlight": false
+  },
+  {
+   "text": "o'chirgan.",
+   "start": 21.665,
+   "end": 22.27,
+   "highlight": false
+  },
+  {
+   "text": "Ikki",
+   "start": 22.49,
+   "end": 22.777,
+   "highlight": true
+  },
+  {
+   "text": "kishi",
+   "start": 22.777,
+   "end": 23.122,
+   "highlight": false
+  },
+  {
+   "text": "kuyish",
+   "start": 23.122,
+   "end": 23.524,
+   "highlight": false
+  },
+  {
+   "text": "jarohati",
+   "start": 23.524,
+   "end": 24.04,
+   "highlight": false
+  },
+  {
+   "text": "olib,",
+   "start": 24.04,
+   "end": 24.385,
+   "highlight": false
+  },
+  {
+   "text": "shifoxonaga",
+   "start": 24.385,
+   "end": 25.074,
+   "highlight": false
+  },
+  {
+   "text": "murojaat",
+   "start": 25.074,
+   "end": 25.591,
+   "highlight": false
+  },
+  {
+   "text": "qilgan.",
+   "start": 25.591,
+   "end": 26.05,
+   "highlight": false
+  },
+  {
+   "text": "Xayriyatki,",
+   "start": 26.27,
+   "end": 26.894,
+   "highlight": false
+  },
+  {
+   "text": "halok",
+   "start": 26.894,
+   "end": 27.206,
+   "highlight": false
+  },
+  {
+   "text": "bo'lganlar",
+   "start": 27.206,
+   "end": 27.778,
+   "highlight": false
+  },
+  {
+   "text": "yo'q.",
+   "start": 27.778,
+   "end": 28.09,
+   "highlight": false
+  },
+  {
+   "text": "Mas'ul",
+   "start": 28.31,
+   "end": 28.726,
+   "highlight": false
+  },
+  {
+   "text": "idoralar",
+   "start": 28.726,
+   "end": 29.262,
+   "highlight": false
+  },
+  {
+   "text": "hodisa",
+   "start": 29.262,
+   "end": 29.678,
+   "highlight": false
+  },
+  {
+   "text": "sabablarini",
+   "start": 29.678,
+   "end": 30.392,
+   "highlight": false
+  },
+  {
+   "text": "aniqlash",
+   "start": 30.392,
+   "end": 30.927,
+   "highlight": false
+  },
+  {
+   "text": "uchun",
+   "start": 30.927,
+   "end": 31.284,
+   "highlight": false
+  },
+  {
+   "text": "surishtiruv",
+   "start": 31.284,
+   "end": 31.998,
+   "highlight": true
+  },
+  {
+   "text": "olib",
+   "start": 31.998,
+   "end": 32.295,
+   "highlight": false
+  },
+  {
+   "text": "bormoqda.",
+   "start": 32.295,
+   "end": 32.89,
+   "highlight": false
+  },
+  {
+   "text": "Eslatib",
+   "start": 33.11,
+   "end": 33.55,
+   "highlight": false
+  },
+  {
+   "text": "o'tamiz,",
+   "start": 33.55,
+   "end": 34.045,
+   "highlight": false
+  },
+  {
+   "text": "5-noyabr",
+   "start": 34.045,
+   "end": 34.98,
+   "highlight": false
+  },
+  {
+   "text": "kuni",
+   "start": 34.98,
+   "end": 35.255,
+   "highlight": false
+  },
+  {
+   "text": "Toshkentdagi",
+   "start": 35.255,
+   "end": 35.97,
+   "highlight": true
+  },
+  {
+   "text": "ko'p",
+   "start": 35.97,
+   "end": 36.245,
+   "highlight": false
+  },
+  {
+   "text": "qavatli",
+   "start": 36.245,
+   "end": 36.685,
+   "highlight": false
+  },
+  {
+   "text": "uyda",
+   "start": 36.685,
+   "end": 36.96,
+   "highlight": false
+  },
+  {
+   "text": "ham",
+   "start": 36.96,
+   "end": 37.18,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 37.18,
+   "end": 37.4,
+   "highlight": false
+  },
+  {
+   "text": "portlab,",
+   "start": 37.4,
+   "end": 37.895,
+   "highlight": false
+  },
+  {
+   "text": "bir",
+   "start": 37.895,
+   "end": 38.115,
+   "highlight": false
+  },
+  {
+   "text": "kishi",
+   "start": 38.115,
+   "end": 38.445,
+   "highlight": false
+  },
+  {
+   "text": "jarohatlangan",
+   "start": 38.445,
+   "end": 39.215,
+   "highlight": false
+  },
+  {
+   "text": "edi.",
+   "start": 39.215,
+   "end": 39.49,
+   "highlight": false
+  },
+  {
+   "text": "Qishda",
+   "start": 39.71,
+   "end": 40.084,
+   "highlight": false
+  },
+  {
+   "text": "gaz",
+   "start": 40.084,
+   "end": 40.298,
+   "highlight": false
+  },
+  {
+   "text": "jihozlaridan",
+   "start": 40.298,
+   "end": 40.992,
+   "highlight": false
+  },
+  {
+   "text": "foydalanishda",
+   "start": 40.992,
+   "end": 41.74,
+   "highlight": false
+  },
+  {
+   "text": "ehtiyot",
+   "start": 41.74,
+   "end": 42.167,
+   "highlight": true
+  },
+  {
+   "text": "bo'ling.",
+   "start": 42.167,
+   "end": 42.648,
+   "highlight": false
+  },
+  {
+   "text": "Fikringizni",
+   "start": 42.648,
+   "end": 43.289,
+   "highlight": false
+  },
+  {
+   "text": "izohda",
+   "start": 43.289,
+   "end": 43.663,
+   "highlight": false
+  },
+  {
+   "text": "yozing.",
+   "start": 43.663,
+   "end": 44.09,
+   "highlight": false
+  }
+ ]
+}
