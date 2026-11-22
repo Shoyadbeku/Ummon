@@ -1,7 +1,7 @@
 // Ummon Ovozim: OmniVoice klon ovozli Hugging Face Space'ning Gradio API'sini (/ovozlashtirish) chaqiradi.
 const $ = (sel) => document.querySelector(sel);
 
-const DEFAULT_SPACE = 'Baxtbek97/ummon-ovozim';
+const DEFAULT_SPACE = 'Baxtbek2027/ummon-ovozim';
 const API_NAME = 'ovozlashtirish';
 
 const store = {
