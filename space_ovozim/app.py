@@ -7,6 +7,7 @@ Ishlash tartibi:
   4. Radio ishlovi (EQ, kompressor, -16 LUFS) beriladi.
 
 Ovoz fayli (OmniVoice VoiceClonePrompt, .pt) repozitoriyga qo'yilmaydi. U quyidagilardan biridan olinadi:
+  - ovoz.enc: PAROL bilan shifrlangan ovoz (ovoz_shifr.py), Space'ga yuklanadi;
   - VOICE_PATH (standart: mening_ovozim.pt): Space'ga yuklangan fayl;
   - VOICE_REPO + VOICE_FILE: yopiq Hugging Face model repozitoriysi (HF_TOKEN secret bilan).
 
@@ -43,13 +44,25 @@ torch.set_num_threads(os.cpu_count() or 2)
 
 
 def voice_path() -> str:
+    # 1) Shifrlangan ovoz.enc (PAROL bilan ochiladi): token va yopiq repo kerak emas.
+    if os.path.exists("ovoz.enc"):
+        if not PAROL:
+            raise RuntimeError("ovoz.enc bor, lekin PAROL secret o'rnatilmagan.")
+        from ovoz_shifr import och
+
+        yol = os.path.join(tempfile.gettempdir(), "ovoz.pt")
+        with open("ovoz.enc", "rb") as f, open(yol, "wb") as g:
+            g.write(och(f.read(), PAROL))
+        return yol
+    # 2) Space'ga yuklangan ochiq .pt fayl.
     if os.path.exists(VOICE_PATH):
         return VOICE_PATH
+    # 3) Yopiq model repozitoriy (HF_TOKEN secret bilan).
     if VOICE_REPO:
         from huggingface_hub import hf_hub_download
 
         return hf_hub_download(VOICE_REPO, VOICE_FILE, token=os.environ.get("HF_TOKEN"))
-    raise FileNotFoundError(f"Ovoz fayli topilmadi: {VOICE_PATH}. Faylni yuklang yoki VOICE_REPO ni sozlang.")
+    raise FileNotFoundError("Ovoz fayli topilmadi: ovoz.enc ni yuklang va PAROL secret qo'shing.")
 
 
 from omnivoice import OmniVoice  # noqa: E402

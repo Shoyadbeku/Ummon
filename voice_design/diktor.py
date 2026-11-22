@@ -200,7 +200,18 @@ def radio_ishlov(kirish: str, chiqish: str):
 
 
 def ovoz_yoli(nom: str) -> str:
-    return nom if nom.endswith(".pt") else os.path.join(BU_PAPKA, "ovozlar", f"{nom}.pt")
+    """Ovoz .pt fayli. U yo'q, lekin shifrlangan .enc bo'lsa, OVOZ_PAROL bilan ochiladi."""
+    if nom.endswith(".pt"):
+        return nom
+    yol = os.path.join(BU_PAPKA, "ovozlar", f"{nom}.pt")
+    enc = yol[:-3] + ".enc"
+    if not os.path.exists(yol) and os.path.exists(enc) and os.environ.get("OVOZ_PAROL"):
+        sys.path.insert(0, os.path.join(BU_PAPKA, "..", "space_ovozim"))
+        from ovoz_shifr import och
+
+        with open(enc, "rb") as f, open(yol, "wb") as g:
+            g.write(och(f.read(), os.environ["OVOZ_PAROL"]))
+    return yol
 
 
 def ayt(args):

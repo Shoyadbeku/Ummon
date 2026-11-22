@@ -4,4 +4,6 @@
 
 __pycache__/
 voice_design/ovozlar/nomzodlar/
-voice_design/ovozlar/mening_ovozim*
+voice_design/ovozlar/mening_ovozim*.pt
+voice_design/ovozlar/mening_ovozim*.wav
+voice_design/ovozlar/*.enc
