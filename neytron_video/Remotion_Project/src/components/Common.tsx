@@ -1,8 +1,8 @@
 import React from 'react';
-import {AbsoluteFill, interpolate, random, spring, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
+import {AbsoluteFill, interpolate, random, useCurrentFrame, useVideoConfig, spring, Easing} from 'remotion';
+import {FONT, SERIF} from '../fonts';
+export {FONT, SERIF};
 
-export const FONT = '"Inter", "Helvetica Neue", Arial, sans-serif';
-export const SERIF = '"Playfair Display", Georgia, "Times New Roman", serif';
 export const ACCENT = '#5fd4ff';
 export const WARM = '#ffb547';
 

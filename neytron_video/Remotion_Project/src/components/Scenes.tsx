@@ -200,7 +200,7 @@ export const CompareScene: React.FC<{scene: Scene; dur: number}> = ({scene, dur}
         ) : (
           <Starfield seed={`${scene.id}${i}`} />
         )}
-        <div style={{position: 'absolute', left: 0, right: 0, top: 0, padding: '60px 50px 90px', background: 'linear-gradient(rgba(0,0,0,0.75), transparent)', fontFamily: FONT, color: '#fff', textAlign: 'center'}}>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 0, padding: '120px 50px 90px', background: 'linear-gradient(rgba(0,0,0,0.8), transparent)', fontFamily: FONT, color: '#fff', textAlign: 'center'}}>
           <div style={{fontSize: 44, fontWeight: 700}}>{it.label}</div>
           {it.value ? <div style={{fontSize: 34, color: i ? WARM : ACCENT, marginTop: 8, fontWeight: 600}}>{it.value}</div> : null}
         </div>

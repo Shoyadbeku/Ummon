@@ -51,7 +51,7 @@ export const Documentary: React.FC = () => {
       })}
       <CinematicOverlay />
       <Subtitles cues={cues as Cue[]} />
-      <Audio src={staticFile('audio/final_mix.wav')} />
+      <Audio src={staticFile('audio/final_mix.m4a')} />
     </AbsoluteFill>
   );
 };
