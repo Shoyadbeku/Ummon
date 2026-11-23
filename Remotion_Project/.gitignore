@@ -2,3 +2,4 @@ node_modules/
 out/
 public/media/
 public/*.wav
+__pycache__/
