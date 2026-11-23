@@ -1,0 +1,14032 @@
+[
+ {
+  "start": 0.0,
+  "end": 4.2,
+  "text": " 1972 ild, 13. Oktaabri kunu,",
+  "words": [
+   {
+    "w": " 1972",
+    "s": 0.0,
+    "e": 1.06
+   },
+   {
+    "w": " ild,",
+    "s": 1.06,
+    "e": 2.34
+   },
+   {
+    "w": " 13.",
+    "s": 2.52,
+    "e": 3.14
+   },
+   {
+    "w": " Oktaabri",
+    "s": 3.48,
+    "e": 3.94
+   },
+   {
+    "w": " kunu,",
+    "s": 3.94,
+    "e": 4.2
+   }
+  ]
+ },
+ {
+  "start": 4.82,
+  "end": 10.24,
+  "text": " Canubi Amerikadagi an taqlarida Uruguay harbi hava kushlariga tegishli Samalot,",
+  "words": [
+   {
+    "w": " Canubi",
+    "s": 4.82,
+    "e": 5.22
+   },
+   {
+    "w": " Amerikadagi",
+    "s": 5.22,
+    "e": 5.94
+   },
+   {
+    "w": " an",
+    "s": 5.94,
+    "e": 6.32
+   },
+   {
+    "w": " taqlarida",
+    "s": 6.32,
+    "e": 7.02
+   },
+   {
+    "w": " Uruguay",
+    "s": 7.02,
+    "e": 8.0
+   },
+   {
+    "w": " harbi",
+    "s": 8.0,
+    "e": 8.38
+   },
+   {
+    "w": " hava",
+    "s": 8.38,
+    "e": 8.72
+   },
+   {
+    "w": " kushlariga",
+    "s": 8.72,
+    "e": 9.24
+   },
+   {
+    "w": " tegishli",
+    "s": 9.24,
+    "e": 9.66
+   },
+   {
+    "w": " Samalot,",
+    "s": 9.66,
+    "e": 10.24
+   }
+  ]
+ },
+ {
+  "start": 10.76,
+  "end": 11.82,
+  "text": " Xalaketke uchiradi.",
+  "words": [
+   {
+    "w": " Xalaketke",
+    "s": 10.76,
+    "e": 11.42
+   },
+   {
+    "w": " uchiradi.",
+    "s": 11.42,
+    "e": 11.82
+   }
+  ]
+ },
+ {
+  "start": 12.16,
+  "end": 14.82,
+  "text": " Samalot bortida 45 kishib olgen.",
+  "words": [
+   {
+    "w": " Samalot",
+    "s": 12.16,
+    "e": 13.04
+   },
+   {
+    "w": " bortida",
+    "s": 13.04,
+    "e": 13.38
+   },
+   {
+    "w": " 45",
+    "s": 13.38,
+    "e": 14.16
+   },
+   {
+    "w": " kishib",
+    "s": 14.16,
+    "e": 14.62
+   },
+   {
+    "w": " olgen.",
+    "s": 14.62,
+    "e": 14.82
+   }
+  ]
+ },
+ {
+  "start": 15.36,
+  "end": 20.98,
+  "text": " Ularinin asasi qismini Uruguaynin Old Christians Club rugby jamaası azalara,",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 15.36,
+    "e": 15.74
+   },
+   {
+    "w": " asasi",
+    "s": 15.74,
+    "e": 16.3
+   },
+   {
+    "w": " qismini",
+    "s": 16.3,
+    "e": 16.76
+   },
+   {
+    "w": " Uruguaynin",
+    "s": 16.76,
+    "e": 17.72
+   },
+   {
+    "w": " Old",
+    "s": 17.72,
+    "e": 18.32
+   },
+   {
+    "w": " Christians",
+    "s": 18.32,
+    "e": 18.78
+   },
+   {
+    "w": " Club",
+    "s": 18.78,
+    "e": 19.36
+   },
+   {
+    "w": " rugby",
+    "s": 19.36,
+    "e": 19.82
+   },
+   {
+    "w": " jamaası",
+    "s": 19.82,
+    "e": 20.42
+   },
+   {
+    "w": " azalara,",
+    "s": 20.42,
+    "e": 20.98
+   }
+  ]
+ },
+ {
+  "start": 21.22,
+  "end": 24.14,
+  "text": " shunindik ularinin dostları va yakillari tashkil etken.",
+  "words": [
+   {
+    "w": " shunindik",
+    "s": 21.22,
+    "e": 21.74
+   },
+   {
+    "w": " ularinin",
+    "s": 21.74,
+    "e": 22.34
+   },
+   {
+    "w": " dostları",
+    "s": 22.34,
+    "e": 22.86
+   },
+   {
+    "w": " va",
+    "s": 22.86,
+    "e": 22.98
+   },
+   {
+    "w": " yakillari",
+    "s": 22.98,
+    "e": 23.5
+   },
+   {
+    "w": " tashkil",
+    "s": 23.5,
+    "e": 23.84
+   },
+   {
+    "w": " etken.",
+    "s": 23.84,
+    "e": 24.14
+   }
+  ]
+ },
+ {
+  "start": 24.14,
+  "end": 30.56,
+  "text": " Halaaketten kein yulavucilar dengi sattkadan tachminan 3.500 metri balandlikdagi",
+  "words": [
+   {
+    "w": " Halaaketten",
+    "s": 24.14,
+    "e": 25.56
+   },
+   {
+    "w": " kein",
+    "s": 25.56,
+    "e": 25.84
+   },
+   {
+    "w": " yulavucilar",
+    "s": 25.84,
+    "e": 26.46
+   },
+   {
+    "w": " dengi",
+    "s": 26.46,
+    "e": 27.28
+   },
+   {
+    "w": " sattkadan",
+    "s": 27.28,
+    "e": 27.82
+   },
+   {
+    "w": " tachminan",
+    "s": 27.82,
+    "e": 28.46
+   },
+   {
+    "w": " 3",
+    "s": 28.46,
+    "e": 29.04
+   },
+   {
+    "w": ".500",
+    "s": 29.04,
+    "e": 29.54
+   },
+   {
+    "w": " metri",
+    "s": 29.54,
+    "e": 29.94
+   },
+   {
+    "w": " balandlikdagi",
+    "s": 29.94,
+    "e": 30.56
+   }
+  ]
+ },
+ {
+  "start": 30.56,
+  "end": 32.34,
+  "text": " muzlik khududada qalib getişken.",
+  "words": [
+   {
+    "w": " muzlik",
+    "s": 30.56,
+    "e": 31.14
+   },
+   {
+    "w": " khududada",
+    "s": 31.14,
+    "e": 31.56
+   },
+   {
+    "w": " qalib",
+    "s": 31.56,
+    "e": 31.92
+   },
+   {
+    "w": " getişken.",
+    "s": 31.92,
+    "e": 32.34
+   }
+  ]
+ },
+ {
+  "start": 33.18,
+  "end": 36.48,
+  "text": " Ular azik aukat yetişmaslike, kuçulis saoq,",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 33.18,
+    "e": 33.48
+   },
+   {
+    "w": " azik",
+    "s": 33.48,
+    "e": 34.3
+   },
+   {
+    "w": " aukat",
+    "s": 34.3,
+    "e": 34.58
+   },
+   {
+    "w": " yetişmaslike,",
+    "s": 34.58,
+    "e": 35.2
+   },
+   {
+    "w": " kuçulis",
+    "s": 35.52,
+    "e": 36.04
+   },
+   {
+    "w": " saoq,",
+    "s": 36.04,
+    "e": 36.48
+   }
+  ]
+ },
+ {
+  "start": 36.82,
+  "end": 41.64,
+  "text": " jarahatlar va tashqa dunya bulan alaqa yukhligi şaraitada yasaske majpur bulgen.",
+  "words": [
+   {
+    "w": " jarahatlar",
+    "s": 36.82,
+    "e": 37.42
+   },
+   {
+    "w": " va",
+    "s": 37.42,
+    "e": 37.6
+   },
+   {
+    "w": " tashqa",
+    "s": 37.6,
+    "e": 38.02
+   },
+   {
+    "w": " dunya",
+    "s": 38.02,
+    "e": 38.3
+   },
+   {
+    "w": " bulan",
+    "s": 38.3,
+    "e": 38.6
+   },
+   {
+    "w": " alaqa",
+    "s": 38.6,
+    "e": 39.08
+   },
+   {
+    "w": " yukhligi",
+    "s": 39.08,
+    "e": 39.52
+   },
+   {
+    "w": " şaraitada",
+    "s": 39.52,
+    "e": 40.06
+   },
+   {
+    "w": " yasaske",
+    "s": 40.06,
+    "e": 40.94
+   },
+   {
+    "w": " majpur",
+    "s": 40.94,
+    "e": 41.34
+   },
+   {
+    "w": " bulgen.",
+    "s": 41.34,
+    "e": 41.64
+   }
+  ]
+ },
+ {
+  "start": 42.44,
+  "end": 44.42,
+  "text": " Qidru işlari tukta tliganiga kharamay,",
+  "words": [
+   {
+    "w": " Qidru",
+    "s": 42.44,
+    "e": 42.9
+   },
+   {
+    "w": " işlari",
+    "s": 42.9,
+    "e": 43.3
+   },
+   {
+    "w": " tukta",
+    "s": 43.3,
+    "e": 43.56
+   },
+   {
+    "w": " tliganiga",
+    "s": 43.56,
+    "e": 44.0
+   },
+   {
+    "w": " kharamay,",
+    "s": 44.0,
+    "e": 44.42
+   }
+  ]
+ },
+ {
+  "start": 44.72,
+  "end": 48.16,
+  "text": " aman kalgalgalar mustaqil ravişta kutulish yolu nizlashken.",
+  "words": [
+   {
+    "w": " aman",
+    "s": 44.72,
+    "e": 45.12
+   },
+   {
+    "w": " kalgalgalar",
+    "s": 45.12,
+    "e": 45.7
+   },
+   {
+    "w": " mustaqil",
+    "s": 45.7,
+    "e": 46.52
+   },
+   {
+    "w": " ravişta",
+    "s": 46.52,
+    "e": 46.94
+   },
+   {
+    "w": " kutulish",
+    "s": 46.94,
+    "e": 47.42
+   },
+   {
+    "w": " yolu",
+    "s": 47.42,
+    "e": 47.62
+   },
+   {
+    "w": " nizlashken.",
+    "s": 47.62,
+    "e": 48.16
+   }
+  ]
+ },
+ {
+  "start": 48.16,
+  "end": 50.7,
+  "text": " 72 kund davam etken,",
+  "words": [
+   {
+    "w": " 72",
+    "s": 48.16,
+    "e": 49.64
+   },
+   {
+    "w": " kund",
+    "s": 49.64,
+    "e": 50.1
+   },
+   {
+    "w": " davam",
+    "s": 50.1,
+    "e": 50.4
+   },
+   {
+    "w": " etken,",
+    "s": 50.4,
+    "e": 50.7
+   }
+  ]
+ },
+ {
+  "start": 51.2,
+  "end": 54.78,
+  "text": " fauquladda vaziyyat yakunu da 10 alt kishikud karligan.",
+  "words": [
+   {
+    "w": " fauquladda",
+    "s": 51.2,
+    "e": 51.8
+   },
+   {
+    "w": " vaziyyat",
+    "s": 51.8,
+    "e": 52.34
+   },
+   {
+    "w": " yakunu",
+    "s": 52.34,
+    "e": 52.72
+   },
+   {
+    "w": " da",
+    "s": 52.72,
+    "e": 52.9
+   },
+   {
+    "w": " 10",
+    "s": 52.9,
+    "e": 53.62
+   },
+   {
+    "w": " alt",
+    "s": 53.62,
+    "e": 53.92
+   },
+   {
+    "w": " kishikud",
+    "s": 53.92,
+    "e": 54.32
+   },
+   {
+    "w": " karligan.",
+    "s": 54.32,
+    "e": 54.78
+   }
+  ]
+ },
+ {
+  "start": 55.58,
+  "end": 58.72,
+  "text": " Tarikta uşbu hadis an taqlari mucizası,",
+  "words": [
+   {
+    "w": " Tarikta",
+    "s": 55.58,
+    "e": 56.02
+   },
+   {
+    "w": " uşbu",
+    "s": 56.02,
+    "e": 56.28
+   },
+   {
+    "w": " hadis",
+    "s": 56.28,
+    "e": 56.68
+   },
+   {
+    "w": " an",
+    "s": 56.68,
+    "e": 57.42
+   },
+   {
+    "w": " taqlari",
+    "s": 57.42,
+    "e": 58.12
+   },
+   {
+    "w": " mucizası,",
+    "s": 58.12,
+    "e": 58.72
+   }
+  ]
+ },
+ {
+  "start": 59.1,
+  "end": 62.0,
+  "text": " yani Miracle of the End is nama bilan tanligan.",
+  "words": [
+   {
+    "w": " yani",
+    "s": 59.1,
+    "e": 59.48
+   },
+   {
+    "w": " Miracle",
+    "s": 59.48,
+    "e": 60.26
+   },
+   {
+    "w": " of",
+    "s": 60.26,
+    "e": 60.52
+   },
+   {
+    "w": " the",
+    "s": 60.52,
+    "e": 60.66
+   },
+   {
+    "w": " End",
+    "s": 60.66,
+    "e": 60.9
+   },
+   {
+    "w": " is",
+    "s": 60.9,
+    "e": 61.08
+   },
+   {
+    "w": " nama",
+    "s": 61.08,
+    "e": 61.32
+   },
+   {
+    "w": " bilan",
+    "s": 61.32,
+    "e": 61.6
+   },
+   {
+    "w": " tanligan.",
+    "s": 61.6,
+    "e": 62.0
+   }
+  ]
+ },
+ {
+  "start": 62.76,
+  "end": 64.8,
+  "text": " Bu waqiyya, aviyatse hafzizliki.",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 62.76,
+    "e": 62.92
+   },
+   {
+    "w": " waqiyya,",
+    "s": 62.92,
+    "e": 63.5
+   },
+   {
+    "w": " aviyatse",
+    "s": 63.82,
+    "e": 64.22
+   },
+   {
+    "w": " hafzizliki.",
+    "s": 64.22,
+    "e": 64.8
+   }
+  ]
+ },
+ {
+  "start": 65.16,
+  "end": 68.34,
+  "text": " İnsan erganizmaning ekstremal şaraitlarga maslashuwa,",
+  "words": [
+   {
+    "w": " İnsan",
+    "s": 65.16,
+    "e": 65.72
+   },
+   {
+    "w": " erganizmaning",
+    "s": 65.72,
+    "e": 66.48
+   },
+   {
+    "w": " ekstremal",
+    "s": 66.48,
+    "e": 67.08
+   },
+   {
+    "w": " şaraitlarga",
+    "s": 67.08,
+    "e": 67.72
+   },
+   {
+    "w": " maslashuwa,",
+    "s": 67.72,
+    "e": 68.34
+   }
+  ]
+ },
+ {
+  "start": 68.8,
+  "end": 71.84,
+  "text": " gruh bolib aman kalish ve fauquladda vaziyyatlarda",
+  "words": [
+   {
+    "w": " gruh",
+    "s": 68.8,
+    "e": 69.16
+   },
+   {
+    "w": " bolib",
+    "s": 69.16,
+    "e": 69.46
+   },
+   {
+    "w": " aman",
+    "s": 69.46,
+    "e": 69.76
+   },
+   {
+    "w": " kalish",
+    "s": 69.76,
+    "e": 70.08
+   },
+   {
+    "w": " ve",
+    "s": 70.08,
+    "e": 70.24
+   },
+   {
+    "w": " fauquladda",
+    "s": 70.24,
+    "e": 71.18
+   },
+   {
+    "w": " vaziyyatlarda",
+    "s": 71.18,
+    "e": 71.84
+   }
+  ]
+ },
+ {
+  "start": 71.84,
+  "end": 73.96,
+  "text": " karar qabul qalış masalalarını organishda",
+  "words": [
+   {
+    "w": " karar",
+    "s": 71.84,
+    "e": 72.24
+   },
+   {
+    "w": " qabul",
+    "s": 72.24,
+    "e": 72.54
+   },
+   {
+    "w": " qalış",
+    "s": 72.54,
+    "e": 72.78
+   },
+   {
+    "w": " masalalarını",
+    "s": 72.78,
+    "e": 73.36
+   },
+   {
+    "w": " organishda",
+    "s": 73.36,
+    "e": 73.96
+   }
+  ]
+ },
+ {
+  "start": 73.96,
+  "end": 76.86,
+  "text": " muhum tarihim sallardan beriq sablanada.",
+  "words": [
+   {
+    "w": " muhum",
+    "s": 73.96,
+    "e": 74.86
+   },
+   {
+    "w": " tarihim",
+    "s": 74.86,
+    "e": 75.6
+   },
+   {
+    "w": " sallardan",
+    "s": 75.6,
+    "e": 76.06
+   },
+   {
+    "w": " beriq",
+    "s": 76.06,
+    "e": 76.44
+   },
+   {
+    "w": " sablanada.",
+    "s": 76.44,
+    "e": 76.86
+   }
+  ]
+ },
+ {
+  "start": 76.86,
+  "end": 80.56,
+  "text": " Samaliyot halaqatinin asasi sabablara.",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 76.86,
+    "e": 78.42
+   },
+   {
+    "w": " halaqatinin",
+    "s": 78.42,
+    "e": 79.06
+   },
+   {
+    "w": " asasi",
+    "s": 79.06,
+    "e": 79.96
+   },
+   {
+    "w": " sabablara.",
+    "s": 79.96,
+    "e": 80.56
+   }
+  ]
+ },
+ {
+  "start": 81.44,
+  "end": 86.52,
+  "text": " 571 reis Fairchild FH-227D rusumli",
+  "words": [
+   {
+    "w": " 571",
+    "s": 81.44,
+    "e": 82.4
+   },
+   {
+    "w": " reis",
+    "s": 82.4,
+    "e": 82.98
+   },
+   {
+    "w": " Fairchild",
+    "s": 82.98,
+    "e": 84.12
+   },
+   {
+    "w": " FH",
+    "s": 84.12,
+    "e": 84.94
+   },
+   {
+    "w": "-227D",
+    "s": 84.94,
+    "e": 86.02
+   },
+   {
+    "w": " rusumli",
+    "s": 86.02,
+    "e": 86.52
+   }
+  ]
+ },
+ {
+  "start": 86.52,
+  "end": 88.82,
+  "text": " ikki dvigatilli Samaliyotda amalga aşirilgen.",
+  "words": [
+   {
+    "w": " ikki",
+    "s": 86.52,
+    "e": 86.96
+   },
+   {
+    "w": " dvigatilli",
+    "s": 86.96,
+    "e": 87.52
+   },
+   {
+    "w": " Samaliyotda",
+    "s": 87.52,
+    "e": 88.1
+   },
+   {
+    "w": " amalga",
+    "s": 88.1,
+    "e": 88.36
+   },
+   {
+    "w": " aşirilgen.",
+    "s": 88.36,
+    "e": 88.82
+   }
+  ]
+ },
+ {
+  "start": 89.52,
+  "end": 92.52,
+  "text": " Parvas, Uruguay paytaxtı Montevideo'dan",
+  "words": [
+   {
+    "w": " Parvas,",
+    "s": 89.52,
+    "e": 90.04
+   },
+   {
+    "w": " Uruguay",
+    "s": 90.48,
+    "e": 90.84
+   },
+   {
+    "w": " paytaxtı",
+    "s": 90.84,
+    "e": 91.46
+   },
+   {
+    "w": " Montevideo'dan",
+    "s": 91.46,
+    "e": 92.52
+   }
+  ]
+ },
+ {
+  "start": 92.52,
+  "end": 95.1,
+  "text": " Chile'nin Santiago şahri girejilashdirilgen.",
+  "words": [
+   {
+    "w": " Chile",
+    "s": 92.52,
+    "e": 93.04
+   },
+   {
+    "w": "'nin",
+    "s": 93.04,
+    "e": 93.26
+   },
+   {
+    "w": " Santiago",
+    "s": 93.26,
+    "e": 93.72
+   },
+   {
+    "w": " şahri",
+    "s": 93.72,
+    "e": 94.24
+   },
+   {
+    "w": " girejilashdirilgen.",
+    "s": 94.24,
+    "e": 95.1
+   }
+  ]
+ },
+ {
+  "start": 95.68,
+  "end": 97.2,
+  "text": " Nakulay Abu Hawa sababli,",
+  "words": [
+   {
+    "w": " Nakulay",
+    "s": 95.68,
+    "e": 96.32
+   },
+   {
+    "w": " Abu",
+    "s": 96.32,
+    "e": 96.5
+   },
+   {
+    "w": " Hawa",
+    "s": 96.5,
+    "e": 96.78
+   },
+   {
+    "w": " sababli,",
+    "s": 96.78,
+    "e": 97.2
+   }
+  ]
+ },
+ {
+  "start": 97.36,
+  "end": 101.4,
+  "text": " Samaliyot Argintina hudududda gie Mendoza şahrida tohtagyan",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 97.36,
+    "e": 98.12
+   },
+   {
+    "w": " Argintina",
+    "s": 98.12,
+    "e": 98.86
+   },
+   {
+    "w": " hudududda",
+    "s": 98.86,
+    "e": 99.32
+   },
+   {
+    "w": " gie",
+    "s": 99.32,
+    "e": 99.82
+   },
+   {
+    "w": " Mendoza",
+    "s": 99.82,
+    "e": 100.46
+   },
+   {
+    "w": " şahrida",
+    "s": 100.46,
+    "e": 100.88
+   },
+   {
+    "w": " tohtagyan",
+    "s": 100.88,
+    "e": 101.4
+   }
+  ]
+ },
+ {
+  "start": 101.4,
+  "end": 104.0,
+  "text": " və safarını ertası konu davam ettirgen.",
+  "words": [
+   {
+    "w": " və",
+    "s": 101.4,
+    "e": 101.78
+   },
+   {
+    "w": " safarını",
+    "s": 101.78,
+    "e": 102.28
+   },
+   {
+    "w": " ertası",
+    "s": 102.28,
+    "e": 103.12
+   },
+   {
+    "w": " konu",
+    "s": 103.12,
+    "e": 103.34
+   },
+   {
+    "w": " davam",
+    "s": 103.34,
+    "e": 103.64
+   },
+   {
+    "w": " ettirgen.",
+    "s": 103.64,
+    "e": 104.0
+   }
+  ]
+ },
+ {
+  "start": 104.0,
+  "end": 108.34,
+  "text": " 13. oktabrikunu an taqları ustadan uçuş vaxtıda",
+  "words": [
+   {
+    "w": " 13.",
+    "s": 104.0,
+    "e": 105.18
+   },
+   {
+    "w": " oktabrikunu",
+    "s": 105.44,
+    "e": 106.04
+   },
+   {
+    "w": " an",
+    "s": 106.04,
+    "e": 106.72
+   },
+   {
+    "w": " taqları",
+    "s": 106.72,
+    "e": 107.2
+   },
+   {
+    "w": " ustadan",
+    "s": 107.2,
+    "e": 107.58
+   },
+   {
+    "w": " uçuş",
+    "s": 107.58,
+    "e": 107.94
+   },
+   {
+    "w": " vaxtıda",
+    "s": 107.94,
+    "e": 108.34
+   }
+  ]
+ },
+ {
+  "start": 108.34,
+  "end": 111.18,
+  "text": " ekipaj navigasyon xataga yol qoygen.",
+  "words": [
+   {
+    "w": " ekipaj",
+    "s": 108.34,
+    "e": 109.32
+   },
+   {
+    "w": " navigasyon",
+    "s": 109.32,
+    "e": 110.24
+   },
+   {
+    "w": " xataga",
+    "s": 110.24,
+    "e": 110.66
+   },
+   {
+    "w": " yol",
+    "s": 110.66,
+    "e": 110.86
+   },
+   {
+    "w": " qoygen.",
+    "s": 110.86,
+    "e": 111.18
+   }
+  ]
+ },
+ {
+  "start": 112.06,
+  "end": 113.28,
+  "text": " Samaliyot başqa rovda bolgen,",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 112.06,
+    "e": 112.46
+   },
+   {
+    "w": " başqa",
+    "s": 112.46,
+    "e": 112.74
+   },
+   {
+    "w": " rovda",
+    "s": 112.74,
+    "e": 112.98
+   },
+   {
+    "w": " bolgen,",
+    "s": 112.98,
+    "e": 113.28
+   }
+  ]
+ },
+ {
+  "start": 113.44,
+  "end": 115.54,
+  "text": " ikkinci uçu uçu dan teyla gurara",
+  "words": [
+   {
+    "w": " ikkinci",
+    "s": 113.44,
+    "e": 113.8
+   },
+   {
+    "w": " uçu",
+    "s": 113.8,
+    "e": 114.06
+   },
+   {
+    "w": " uçu",
+    "s": 114.06,
+    "e": 114.22
+   },
+   {
+    "w": " dan",
+    "s": 114.22,
+    "e": 114.78
+   },
+   {
+    "w": " teyla",
+    "s": 114.78,
+    "e": 115.16
+   },
+   {
+    "w": " gurara",
+    "s": 115.16,
+    "e": 115.54
+   }
+  ]
+ },
+ {
+  "start": 115.54,
+  "end": 118.18,
+  "text": " taq tizmastan utu bolingen deyip xisaplegen.",
+  "words": [
+   {
+    "w": " taq",
+    "s": 115.54,
+    "e": 116.18
+   },
+   {
+    "w": " tizmastan",
+    "s": 116.18,
+    "e": 116.7
+   },
+   {
+    "w": " utu",
+    "s": 116.7,
+    "e": 117.0
+   },
+   {
+    "w": " bolingen",
+    "s": 117.0,
+    "e": 117.42
+   },
+   {
+    "w": " deyip",
+    "s": 117.42,
+    "e": 117.7
+   },
+   {
+    "w": " xisaplegen.",
+    "s": 117.7,
+    "e": 118.18
+   }
+  ]
+ },
+ {
+  "start": 119.02,
+  "end": 122.32,
+  "text": " Aslidə isə Samaliyot hali hafli taqli hududda bolgen.",
+  "words": [
+   {
+    "w": " Aslidə",
+    "s": 119.02,
+    "e": 119.4
+   },
+   {
+    "w": " isə",
+    "s": 119.4,
+    "e": 119.66
+   },
+   {
+    "w": " Samaliyot",
+    "s": 119.66,
+    "e": 120.44
+   },
+   {
+    "w": " hali",
+    "s": 120.44,
+    "e": 120.68
+   },
+   {
+    "w": " hafli",
+    "s": 120.68,
+    "e": 121.18
+   },
+   {
+    "w": " taqli",
+    "s": 121.18,
+    "e": 121.6
+   },
+   {
+    "w": " hududda",
+    "s": 121.6,
+    "e": 122.02
+   },
+   {
+    "w": " bolgen.",
+    "s": 122.02,
+    "e": 122.32
+   }
+  ]
+ },
+ {
+  "start": 122.32,
+  "end": 125.74,
+  "text": " kuriş imkaniyatı burudlar sababliyı çeqlengen.",
+  "words": [
+   {
+    "w": " kuriş",
+    "s": 122.32,
+    "e": 123.44
+   },
+   {
+    "w": " imkaniyatı",
+    "s": 123.44,
+    "e": 124.1
+   },
+   {
+    "w": " burudlar",
+    "s": 124.1,
+    "e": 124.76
+   },
+   {
+    "w": " sababliyı",
+    "s": 124.76,
+    "e": 125.24
+   },
+   {
+    "w": " çeqlengen.",
+    "s": 125.24,
+    "e": 125.74
+   }
+  ]
+ },
+ {
+  "start": 126.4,
+  "end": 129.86,
+  "text": " Ekipaj paslashda başlagani da Samaliyot taqqa orulgen.",
+  "words": [
+   {
+    "w": " Ekipaj",
+    "s": 126.4,
+    "e": 126.82
+   },
+   {
+    "w": " paslashda",
+    "s": 126.82,
+    "e": 127.34
+   },
+   {
+    "w": " başlagani",
+    "s": 127.34,
+    "e": 127.78
+   },
+   {
+    "w": " da",
+    "s": 127.78,
+    "e": 127.92
+   },
+   {
+    "w": " Samaliyot",
+    "s": 127.92,
+    "e": 128.86
+   },
+   {
+    "w": " taqqa",
+    "s": 128.86,
+    "e": 129.48
+   },
+   {
+    "w": " orulgen.",
+    "s": 129.48,
+    "e": 129.86
+   }
+  ]
+ },
+ {
+  "start": 130.68,
+  "end": 134.52,
+  "text": " Zarbah natijası da Samaliyotnin qanatları və dum qısmı əcralib gedgen.",
+  "words": [
+   {
+    "w": " Zarbah",
+    "s": 130.68,
+    "e": 131.08
+   },
+   {
+    "w": " natijası",
+    "s": 131.08,
+    "e": 131.54
+   },
+   {
+    "w": " da",
+    "s": 131.54,
+    "e": 131.6
+   },
+   {
+    "w": " Samaliyotnin",
+    "s": 131.6,
+    "e": 132.48
+   },
+   {
+    "w": " qanatları",
+    "s": 132.48,
+    "e": 133.1
+   },
+   {
+    "w": " və",
+    "s": 133.1,
+    "e": 133.26
+   },
+   {
+    "w": " dum",
+    "s": 133.26,
+    "e": 133.46
+   },
+   {
+    "w": " qısmı",
+    "s": 133.46,
+    "e": 133.8
+   },
+   {
+    "w": " əcralib",
+    "s": 133.8,
+    "e": 134.24
+   },
+   {
+    "w": " gedgen.",
+    "s": 134.24,
+    "e": 134.52
+   }
+  ]
+ },
+ {
+  "start": 135.18,
+  "end": 138.32,
+  "text": " Asasiy kurb sisa qarlı yanbaş boyləb sirpanıb,",
+  "words": [
+   {
+    "w": " Asasiy",
+    "s": 135.18,
+    "e": 135.66
+   },
+   {
+    "w": " kurb",
+    "s": 135.66,
+    "e": 135.98
+   },
+   {
+    "w": " sisa",
+    "s": 135.98,
+    "e": 136.24
+   },
+   {
+    "w": " qarlı",
+    "s": 136.24,
+    "e": 137.06
+   },
+   {
+    "w": " yanbaş",
+    "s": 137.06,
+    "e": 137.5
+   },
+   {
+    "w": " boyləb",
+    "s": 137.5,
+    "e": 137.8
+   },
+   {
+    "w": " sirpanıb,",
+    "s": 137.8,
+    "e": 138.32
+   }
+  ]
+ },
+ {
+  "start": 138.84,
+  "end": 139.72,
+  "text": " muzdikdə tohtagin.",
+  "words": [
+   {
+    "w": " muzdikdə",
+    "s": 138.84,
+    "e": 139.26
+   },
+   {
+    "w": " tohtagin.",
+    "s": 139.26,
+    "e": 139.72
+   }
+  ]
+ },
+ {
+  "start": 139.72,
+  "end": 143.26,
+  "text": " Halaqat vaktıda on iki kişi vafat edgen.",
+  "words": [
+   {
+    "w": " Halaqat",
+    "s": 139.72,
+    "e": 141.02
+   },
+   {
+    "w": " vaktıda",
+    "s": 141.02,
+    "e": 141.4
+   },
+   {
+    "w": " on",
+    "s": 141.4,
+    "e": 142.1
+   },
+   {
+    "w": " iki",
+    "s": 142.1,
+    "e": 142.36
+   },
+   {
+    "w": " kişi",
+    "s": 142.36,
+    "e": 142.68
+   },
+   {
+    "w": " vafat",
+    "s": 142.68,
+    "e": 143.0
+   },
+   {
+    "w": " edgen.",
+    "s": 143.0,
+    "e": 143.26
+   }
+  ]
+ },
+ {
+  "start": 143.52,
+  "end": 146.68,
+  "text": " Ki yengi künlarda yana beş kişi algen",
+  "words": [
+   {
+    "w": " Ki",
+    "s": 143.52,
+    "e": 143.96
+   },
+   {
+    "w": " yengi",
+    "s": 143.96,
+    "e": 144.34
+   },
+   {
+    "w": " künlarda",
+    "s": 144.34,
+    "e": 144.82
+   },
+   {
+    "w": " yana",
+    "s": 144.82,
+    "e": 145.58
+   },
+   {
+    "w": " beş",
+    "s": 145.58,
+    "e": 145.94
+   },
+   {
+    "w": " kişi",
+    "s": 145.94,
+    "e": 146.34
+   },
+   {
+    "w": " algen",
+    "s": 146.34,
+    "e": 146.68
+   }
+  ]
+ },
+ {
+  "start": 146.68,
+  "end": 148.24,
+  "text": " jarahatları aqabatıda",
+  "words": [
+   {
+    "w": " jarahatları",
+    "s": 146.68,
+    "e": 147.54
+   },
+   {
+    "w": " aqabatıda",
+    "s": 147.54,
+    "e": 148.24
+   }
+  ]
+ },
+ {
+  "start": 148.24,
+  "end": 150.02,
+  "text": " hayattan koz yumgen.",
+  "words": [
+   {
+    "w": " hayattan",
+    "s": 148.24,
+    "e": 149.2
+   },
+   {
+    "w": " koz",
+    "s": 149.2,
+    "e": 149.74
+   },
+   {
+    "w": " yumgen.",
+    "s": 149.74,
+    "e": 150.02
+   }
+  ]
+ },
+ {
+  "start": 150.66,
+  "end": 153.22,
+  "text": " Dastlapki zarbadan aman qalgenlər arasıda",
+  "words": [
+   {
+    "w": " Dastlapki",
+    "s": 150.66,
+    "e": 151.42
+   },
+   {
+    "w": " zarbadan",
+    "s": 151.42,
+    "e": 151.9
+   },
+   {
+    "w": " aman",
+    "s": 151.9,
+    "e": 152.16
+   },
+   {
+    "w": " qalgenlər",
+    "s": 152.16,
+    "e": 152.76
+   },
+   {
+    "w": " arasıda",
+    "s": 152.76,
+    "e": 153.22
+   }
+  ]
+ },
+ {
+  "start": 153.22,
+  "end": 155.78,
+  "text": " tibbi yardım korusatış imkaniyatıgi",
+  "words": [
+   {
+    "w": " tibbi",
+    "s": 153.22,
+    "e": 153.98
+   },
+   {
+    "w": " yardım",
+    "s": 153.98,
+    "e": 154.26
+   },
+   {
+    "w": " korusatış",
+    "s": 154.26,
+    "e": 154.96
+   },
+   {
+    "w": " imkaniyatıgi",
+    "s": 154.96,
+    "e": 155.78
+   }
+  ]
+ },
+ {
+  "start": 155.78,
+  "end": 157.14,
+  "text": " ege bolgenlər ham barayda.",
+  "words": [
+   {
+    "w": " ege",
+    "s": 155.78,
+    "e": 156.02
+   },
+   {
+    "w": " bolgenlər",
+    "s": 156.02,
+    "e": 156.58
+   },
+   {
+    "w": " ham",
+    "s": 156.58,
+    "e": 156.74
+   },
+   {
+    "w": " barayda.",
+    "s": 156.74,
+    "e": 157.14
+   }
+  ]
+ },
+ {
+  "start": 157.64,
+  "end": 159.78,
+  "text": " Tibbiyat talabası Roberto Canessa",
+  "words": [
+   {
+    "w": " Tibbiyat",
+    "s": 157.64,
+    "e": 158.34
+   },
+   {
+    "w": " talabası",
+    "s": 158.34,
+    "e": 158.8
+   },
+   {
+    "w": " Roberto",
+    "s": 158.8,
+    "e": 159.14
+   },
+   {
+    "w": " Canessa",
+    "s": 159.14,
+    "e": 159.78
+   }
+  ]
+ },
+ {
+  "start": 159.78,
+  "end": 162.32,
+  "text": " ve başqa yolavucular jarahatlen genlərge",
+  "words": [
+   {
+    "w": " ve",
+    "s": 159.78,
+    "e": 160.36
+   },
+   {
+    "w": " başqa",
+    "s": 160.36,
+    "e": 160.74
+   },
+   {
+    "w": " yolavucular",
+    "s": 160.74,
+    "e": 161.2
+   },
+   {
+    "w": " jarahatlen",
+    "s": 161.2,
+    "e": 161.84
+   },
+   {
+    "w": " genlərge",
+    "s": 161.84,
+    "e": 162.32
+   }
+  ]
+ },
+ {
+  "start": 162.32,
+  "end": 163.76,
+  "text": " yaradan birişki harakat gülgen.",
+  "words": [
+   {
+    "w": " yaradan",
+    "s": 162.32,
+    "e": 162.68
+   },
+   {
+    "w": " birişki",
+    "s": 162.68,
+    "e": 163.1
+   },
+   {
+    "w": " harakat",
+    "s": 163.1,
+    "e": 163.48
+   },
+   {
+    "w": " gülgen.",
+    "s": 163.48,
+    "e": 163.76
+   }
+  ]
+ },
+ {
+  "start": 164.3,
+  "end": 166.8,
+  "text": " Bırak, profesyonel tibbi jihazlar,",
+  "words": [
+   {
+    "w": " Bırak,",
+    "s": 164.3,
+    "e": 164.72
+   },
+   {
+    "w": " profesyonel",
+    "s": 165.14,
+    "e": 165.84
+   },
+   {
+    "w": " tibbi",
+    "s": 165.84,
+    "e": 166.2
+   },
+   {
+    "w": " jihazlar,",
+    "s": 166.2,
+    "e": 166.8
+   }
+  ]
+ },
+ {
+  "start": 166.8,
+  "end": 169.98,
+  "text": " dar darman ve zarur şaraidlerinin yetişmesliğe",
+  "words": [
+   {
+    "w": " dar",
+    "s": 166.8,
+    "e": 167.42
+   },
+   {
+    "w": " darman",
+    "s": 167.42,
+    "e": 167.94
+   },
+   {
+    "w": " ve",
+    "s": 167.94,
+    "e": 168.1
+   },
+   {
+    "w": " zarur",
+    "s": 168.1,
+    "e": 168.46
+   },
+   {
+    "w": " şaraidlerinin",
+    "s": 168.46,
+    "e": 169.18
+   },
+   {
+    "w": " yetişmesliğe",
+    "s": 169.18,
+    "e": 169.98
+   }
+  ]
+ },
+ {
+  "start": 169.98,
+  "end": 171.8,
+  "text": " vaziyyatını muraqablaştırgen.",
+  "words": [
+   {
+    "w": " vaziyyatını",
+    "s": 169.98,
+    "e": 170.88
+   },
+   {
+    "w": " muraqablaştırgen.",
+    "s": 170.88,
+    "e": 171.8
+   }
+  ]
+ },
+ {
+  "start": 172.26,
+  "end": 173.58,
+  "text": " History plus one",
+  "words": [
+   {
+    "w": " History",
+    "s": 172.26,
+    "e": 172.84
+   },
+   {
+    "w": " plus",
+    "s": 172.84,
+    "e": 173.2
+   },
+   {
+    "w": " one",
+    "s": 173.2,
+    "e": 173.58
+   }
+  ]
+ },
+ {
+  "start": 173.58,
+  "end": 176.5,
+  "text": " Muzlikte aman qalış şaraidlerim.",
+  "words": [
+   {
+    "w": " Muzlikte",
+    "s": 173.58,
+    "e": 174.96
+   },
+   {
+    "w": " aman",
+    "s": 174.96,
+    "e": 175.3
+   },
+   {
+    "w": " qalış",
+    "s": 175.3,
+    "e": 175.76
+   },
+   {
+    "w": " şaraidlerim.",
+    "s": 175.76,
+    "e": 176.5
+   }
+  ]
+ },
+ {
+  "start": 176.86,
+  "end": 179.5,
+  "text": " Halaqat jayih Ergintin hududududu da gie",
+  "words": [
+   {
+    "w": " Halaqat",
+    "s": 176.86,
+    "e": 177.82
+   },
+   {
+    "w": " jayih",
+    "s": 177.82,
+    "e": 178.28
+   },
+   {
+    "w": " Ergintin",
+    "s": 178.28,
+    "e": 178.8
+   },
+   {
+    "w": " hududududu",
+    "s": 178.8,
+    "e": 179.38
+   },
+   {
+    "w": " da",
+    "s": 179.38,
+    "e": 179.38
+   },
+   {
+    "w": " gie",
+    "s": 179.38,
+    "e": 179.5
+   }
+  ]
+ },
+ {
+  "start": 179.5,
+  "end": 181.54,
+  "text": " balen taqli muzlikte jahilashkan yedir.",
+  "words": [
+   {
+    "w": " balen",
+    "s": 179.5,
+    "e": 179.94
+   },
+   {
+    "w": " taqli",
+    "s": 179.94,
+    "e": 180.32
+   },
+   {
+    "w": " muzlikte",
+    "s": 180.32,
+    "e": 180.82
+   },
+   {
+    "w": " jahilashkan",
+    "s": 180.82,
+    "e": 181.32
+   },
+   {
+    "w": " yedir.",
+    "s": 181.32,
+    "e": 181.54
+   }
+  ]
+ },
+ {
+  "start": 182.24,
+  "end": 183.18,
+  "text": " Bunday hudududlarda",
+  "words": [
+   {
+    "w": " Bunday",
+    "s": 182.24,
+    "e": 182.64
+   },
+   {
+    "w": " hudududlarda",
+    "s": 182.64,
+    "e": 183.18
+   }
+  ]
+ },
+ {
+  "start": 183.18,
+  "end": 185.5,
+  "text": " khuha hararatı keskin pasayiş,",
+  "words": [
+   {
+    "w": " khuha",
+    "s": 183.18,
+    "e": 183.92
+   },
+   {
+    "w": " hararatı",
+    "s": 183.92,
+    "e": 184.46
+   },
+   {
+    "w": " keskin",
+    "s": 184.46,
+    "e": 184.88
+   },
+   {
+    "w": " pasayiş,",
+    "s": 184.88,
+    "e": 185.5
+   }
+  ]
+ },
+ {
+  "start": 185.72,
+  "end": 186.82,
+  "text": " kuşli şamanlar,",
+  "words": [
+   {
+    "w": " kuşli",
+    "s": 185.72,
+    "e": 186.16
+   },
+   {
+    "w": " şamanlar,",
+    "s": 186.16,
+    "e": 186.82
+   }
+  ]
+ },
+ {
+  "start": 187.18,
+  "end": 188.72,
+  "text": " qar boranlar ve keslerod",
+  "words": [
+   {
+    "w": " qar",
+    "s": 187.18,
+    "e": 187.52
+   },
+   {
+    "w": " boranlar",
+    "s": 187.52,
+    "e": 188.04
+   },
+   {
+    "w": " ve",
+    "s": 188.04,
+    "e": 188.2
+   },
+   {
+    "w": " keslerod",
+    "s": 188.2,
+    "e": 188.72
+   }
+  ]
+ },
+ {
+  "start": 188.72,
+  "end": 189.8,
+  "text": " basmanin pasliliğe",
+  "words": [
+   {
+    "w": " basmanin",
+    "s": 188.72,
+    "e": 189.18
+   },
+   {
+    "w": " pasliliğe",
+    "s": 189.18,
+    "e": 189.8
+   }
+  ]
+ },
+ {
+  "start": 189.8,
+  "end": 191.18,
+  "text": " insan erganizmü uçün",
+  "words": [
+   {
+    "w": " insan",
+    "s": 189.8,
+    "e": 190.16
+   },
+   {
+    "w": " erganizmü",
+    "s": 190.16,
+    "e": 190.98
+   },
+   {
+    "w": " uçün",
+    "s": 190.98,
+    "e": 191.18
+   }
+  ]
+ },
+ {
+  "start": 191.18,
+  "end": 192.66,
+  "text": " jiddi hıft qıldırada.",
+  "words": [
+   {
+    "w": " jiddi",
+    "s": 191.18,
+    "e": 191.9
+   },
+   {
+    "w": " hıft",
+    "s": 191.9,
+    "e": 192.26
+   },
+   {
+    "w": " qıldırada.",
+    "s": 192.26,
+    "e": 192.66
+   }
+  ]
+ },
+ {
+  "start": 193.34,
+  "end": 194.54,
+  "text": " Somaliyot yolaoçilere",
+  "words": [
+   {
+    "w": " Somaliyot",
+    "s": 193.34,
+    "e": 194.04
+   },
+   {
+    "w": " yolaoçilere",
+    "s": 194.04,
+    "e": 194.54
+   }
+  ]
+ },
+ {
+  "start": 194.54,
+  "end": 196.62,
+  "text": " taqlarada uzaq muddat yaşşı çün",
+  "words": [
+   {
+    "w": " taqlarada",
+    "s": 194.54,
+    "e": 195.34
+   },
+   {
+    "w": " uzaq",
+    "s": 195.34,
+    "e": 195.74
+   },
+   {
+    "w": " muddat",
+    "s": 195.74,
+    "e": 196.08
+   },
+   {
+    "w": " yaşşı",
+    "s": 196.08,
+    "e": 196.44
+   },
+   {
+    "w": " çün",
+    "s": 196.44,
+    "e": 196.62
+   }
+  ]
+ },
+ {
+  "start": 196.62,
+  "end": 198.52,
+  "text": " zarur jihazlar bilen taqminlen megen.",
+  "words": [
+   {
+    "w": " zarur",
+    "s": 196.62,
+    "e": 197.0
+   },
+   {
+    "w": " jihazlar",
+    "s": 197.0,
+    "e": 197.5
+   },
+   {
+    "w": " bilen",
+    "s": 197.5,
+    "e": 197.76
+   },
+   {
+    "w": " taqminlen",
+    "s": 197.76,
+    "e": 198.24
+   },
+   {
+    "w": " megen.",
+    "s": 198.24,
+    "e": 198.52
+   }
+  ]
+ },
+ {
+  "start": 199.06,
+  "end": 200.6,
+  "text": " Ular nin kiğimlere asasen",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 199.06,
+    "e": 199.52
+   },
+   {
+    "w": " nin",
+    "s": 199.52,
+    "e": 199.64
+   },
+   {
+    "w": " kiğimlere",
+    "s": 199.64,
+    "e": 200.08
+   },
+   {
+    "w": " asasen",
+    "s": 200.08,
+    "e": 200.6
+   }
+  ]
+ },
+ {
+  "start": 200.6,
+  "end": 202.52,
+  "text": " adati seyahat ve sport",
+  "words": [
+   {
+    "w": " adati",
+    "s": 200.6,
+    "e": 201.36
+   },
+   {
+    "w": " seyahat",
+    "s": 201.36,
+    "e": 201.98
+   },
+   {
+    "w": " ve",
+    "s": 201.98,
+    "e": 202.12
+   },
+   {
+    "w": " sport",
+    "s": 202.12,
+    "e": 202.52
+   }
+  ]
+ },
+ {
+  "start": 202.52,
+  "end": 203.74,
+  "text": " meşgulatlarge masbolgen.",
+  "words": [
+   {
+    "w": " meşgulatlarge",
+    "s": 202.52,
+    "e": 203.24
+   },
+   {
+    "w": " masbolgen.",
+    "s": 203.24,
+    "e": 203.74
+   }
+  ]
+ },
+ {
+  "start": 204.14,
+  "end": 206.58,
+  "text": " Aman qalgenler, somaliyot nin asasiy",
+  "words": [
+   {
+    "w": " Aman",
+    "s": 204.14,
+    "e": 204.82
+   },
+   {
+    "w": " qalgenler,",
+    "s": 204.82,
+    "e": 205.42
+   },
+   {
+    "w": " somaliyot",
+    "s": 205.58,
+    "e": 205.94
+   },
+   {
+    "w": " nin",
+    "s": 205.94,
+    "e": 206.02
+   },
+   {
+    "w": " asasiy",
+    "s": 206.02,
+    "e": 206.58
+   }
+  ]
+ },
+ {
+  "start": 206.58,
+  "end": 208.14,
+  "text": " korpusudan vaktin çelik",
+  "words": [
+   {
+    "w": " korpusudan",
+    "s": 206.58,
+    "e": 207.24
+   },
+   {
+    "w": " vaktin",
+    "s": 207.24,
+    "e": 207.86
+   },
+   {
+    "w": " çelik",
+    "s": 207.86,
+    "e": 208.14
+   }
+  ]
+ },
+ {
+  "start": 208.14,
+  "end": 209.58,
+  "text": " başbana sifatada faydalanışken.",
+  "words": [
+   {
+    "w": " başbana",
+    "s": 208.14,
+    "e": 208.56
+   },
+   {
+    "w": " sifatada",
+    "s": 208.56,
+    "e": 208.92
+   },
+   {
+    "w": " faydalanışken.",
+    "s": 208.92,
+    "e": 209.58
+   }
+  ]
+ },
+ {
+  "start": 210.3,
+  "end": 212.08,
+  "text": " Ular, somaliyot orundıkları ve",
+  "words": [
+   {
+    "w": " Ular,",
+    "s": 210.3,
+    "e": 210.54
+   },
+   {
+    "w": " somaliyot",
+    "s": 210.76,
+    "e": 211.34
+   },
+   {
+    "w": " orundıkları",
+    "s": 211.34,
+    "e": 211.92
+   },
+   {
+    "w": " ve",
+    "s": 211.92,
+    "e": 212.08
+   }
+  ]
+ },
+ {
+  "start": 212.08,
+  "end": 213.5,
+  "text": " başka materiallar yaradamada",
+  "words": [
+   {
+    "w": " başka",
+    "s": 212.08,
+    "e": 212.44
+   },
+   {
+    "w": " materiallar",
+    "s": 212.44,
+    "e": 213.0
+   },
+   {
+    "w": " yaradamada",
+    "s": 213.0,
+    "e": 213.5
+   }
+  ]
+ },
+ {
+  "start": 213.5,
+  "end": 215.1,
+  "text": " açık qısımlarını yapışke,",
+  "words": [
+   {
+    "w": " açık",
+    "s": 213.5,
+    "e": 214.12
+   },
+   {
+    "w": " qısımlarını",
+    "s": 214.12,
+    "e": 214.6
+   },
+   {
+    "w": " yapışke,",
+    "s": 214.6,
+    "e": 215.1
+   }
+  ]
+ },
+ {
+  "start": 215.38,
+  "end": 216.74,
+  "text": " soğuk havanin kirişini",
+  "words": [
+   {
+    "w": " soğuk",
+    "s": 215.38,
+    "e": 215.88
+   },
+   {
+    "w": " havanin",
+    "s": 215.88,
+    "e": 216.34
+   },
+   {
+    "w": " kirişini",
+    "s": 216.34,
+    "e": 216.74
+   }
+  ]
+ },
+ {
+  "start": 216.74,
+  "end": 217.9,
+  "text": " kemahitirişke orunışken.",
+  "words": [
+   {
+    "w": " kemahitirişke",
+    "s": 216.74,
+    "e": 217.42
+   },
+   {
+    "w": " orunışken.",
+    "s": 217.42,
+    "e": 217.9
+   }
+  ]
+ },
+ {
+  "start": 218.72,
+  "end": 220.04,
+  "text": " İçimlik su masalası,",
+  "words": [
+   {
+    "w": " İçimlik",
+    "s": 218.72,
+    "e": 219.3
+   },
+   {
+    "w": " su",
+    "s": 219.3,
+    "e": 219.46
+   },
+   {
+    "w": " masalası,",
+    "s": 219.46,
+    "e": 220.04
+   }
+  ]
+ },
+ {
+  "start": 220.44,
+  "end": 222.06,
+  "text": " kar eritiş arkalı halkı lingen.",
+  "words": [
+   {
+    "w": " kar",
+    "s": 220.44,
+    "e": 220.7
+   },
+   {
+    "w": " eritiş",
+    "s": 220.7,
+    "e": 221.18
+   },
+   {
+    "w": " arkalı",
+    "s": 221.18,
+    "e": 221.54
+   },
+   {
+    "w": " halkı",
+    "s": 221.54,
+    "e": 221.94
+   },
+   {
+    "w": " lingen.",
+    "s": 221.94,
+    "e": 222.06
+   }
+  ]
+ },
+ {
+  "start": 222.94,
+  "end": 224.06,
+  "text": " Somaliyot kaldıkları dage",
+  "words": [
+   {
+    "w": " Somaliyot",
+    "s": 222.94,
+    "e": 223.4
+   },
+   {
+    "w": " kaldıkları",
+    "s": 223.4,
+    "e": 223.84
+   },
+   {
+    "w": " dage",
+    "s": 223.84,
+    "e": 224.06
+   }
+  ]
+ },
+ {
+  "start": 224.06,
+  "end": 226.28,
+  "text": " metal buyumlar kuyaş nuru yaradamada",
+  "words": [
+   {
+    "w": " metal",
+    "s": 224.06,
+    "e": 224.38
+   },
+   {
+    "w": " buyumlar",
+    "s": 224.38,
+    "e": 224.86
+   },
+   {
+    "w": " kuyaş",
+    "s": 224.86,
+    "e": 225.54
+   },
+   {
+    "w": " nuru",
+    "s": 225.54,
+    "e": 225.84
+   },
+   {
+    "w": " yaradamada",
+    "s": 225.84,
+    "e": 226.28
+   }
+  ]
+ },
+ {
+  "start": 226.28,
+  "end": 227.78,
+  "text": " kar eritiş çün işletilgen.",
+  "words": [
+   {
+    "w": " kar",
+    "s": 226.28,
+    "e": 226.66
+   },
+   {
+    "w": " eritiş",
+    "s": 226.66,
+    "e": 227.08
+   },
+   {
+    "w": " çün",
+    "s": 227.08,
+    "e": 227.24
+   },
+   {
+    "w": " işletilgen.",
+    "s": 227.24,
+    "e": 227.78
+   }
+  ]
+ },
+ {
+  "start": 228.48,
+  "end": 230.5,
+  "text": " Ama azı qovqat masalası",
+  "words": [
+   {
+    "w": " Ama",
+    "s": 228.48,
+    "e": 228.94
+   },
+   {
+    "w": " azı",
+    "s": 228.94,
+    "e": 229.68
+   },
+   {
+    "w": " qovqat",
+    "s": 229.68,
+    "e": 230.0
+   },
+   {
+    "w": " masalası",
+    "s": 230.0,
+    "e": 230.5
+   }
+  ]
+ },
+ {
+  "start": 230.5,
+  "end": 232.02,
+  "text": " anca murakkep bolgen.",
+  "words": [
+   {
+    "w": " anca",
+    "s": 230.5,
+    "e": 231.08
+   },
+   {
+    "w": " murakkep",
+    "s": 231.08,
+    "e": 231.68
+   },
+   {
+    "w": " bolgen.",
+    "s": 231.68,
+    "e": 232.02
+   }
+  ]
+ },
+ {
+  "start": 232.62,
+  "end": 234.26,
+  "text": " Somaliyot da fakat az",
+  "words": [
+   {
+    "w": " Somaliyot",
+    "s": 232.62,
+    "e": 233.3
+   },
+   {
+    "w": " da",
+    "s": 233.3,
+    "e": 233.4
+   },
+   {
+    "w": " fakat",
+    "s": 233.4,
+    "e": 233.7
+   },
+   {
+    "w": " az",
+    "s": 233.7,
+    "e": 234.26
+   }
+  ]
+ },
+ {
+  "start": 234.26,
+  "end": 236.18,
+  "text": " miktarda şakalat, şirinlik",
+  "words": [
+   {
+    "w": " miktarda",
+    "s": 234.26,
+    "e": 234.7
+   },
+   {
+    "w": " şakalat,",
+    "s": 234.7,
+    "e": 235.34
+   },
+   {
+    "w": " şirinlik",
+    "s": 235.68,
+    "e": 236.18
+   }
+  ]
+ },
+ {
+  "start": 236.18,
+  "end": 237.84,
+  "text": " ve başka yegulikler mavgud yedir.",
+  "words": [
+   {
+    "w": " ve",
+    "s": 236.18,
+    "e": 236.32
+   },
+   {
+    "w": " başka",
+    "s": 236.32,
+    "e": 236.66
+   },
+   {
+    "w": " yegulikler",
+    "s": 236.66,
+    "e": 237.22
+   },
+   {
+    "w": " mavgud",
+    "s": 237.22,
+    "e": 237.64
+   },
+   {
+    "w": " yedir.",
+    "s": 237.64,
+    "e": 237.84
+   }
+  ]
+ },
+ {
+  "start": 238.52,
+  "end": 240.8,
+  "text": " Uşbu zahiralar uzaq vaxtge yetmegen.",
+  "words": [
+   {
+    "w": " Uşbu",
+    "s": 238.52,
+    "e": 238.88
+   },
+   {
+    "w": " zahiralar",
+    "s": 238.88,
+    "e": 239.46
+   },
+   {
+    "w": " uzaq",
+    "s": 239.46,
+    "e": 240.0
+   },
+   {
+    "w": " vaxtge",
+    "s": 240.0,
+    "e": 240.3
+   },
+   {
+    "w": " yetmegen.",
+    "s": 240.3,
+    "e": 240.8
+   }
+  ]
+ },
+ {
+  "start": 240.8,
+  "end": 243.54,
+  "text": " İnsan arganizmiz sağoq şaraitde",
+  "words": [
+   {
+    "w": " İnsan",
+    "s": 240.8,
+    "e": 242.12
+   },
+   {
+    "w": " arganizmiz",
+    "s": 242.12,
+    "e": 242.68
+   },
+   {
+    "w": " sağoq",
+    "s": 242.68,
+    "e": 243.02
+   },
+   {
+    "w": " şaraitde",
+    "s": 243.02,
+    "e": 243.54
+   }
+  ]
+ },
+ {
+  "start": 243.54,
+  "end": 245.22,
+  "text": " tanah hararatını saklaş şun",
+  "words": [
+   {
+    "w": " tanah",
+    "s": 243.54,
+    "e": 244.16
+   },
+   {
+    "w": " hararatını",
+    "s": 244.16,
+    "e": 244.64
+   },
+   {
+    "w": " saklaş",
+    "s": 244.64,
+    "e": 245.0
+   },
+   {
+    "w": " şun",
+    "s": 245.0,
+    "e": 245.22
+   }
+  ]
+ },
+ {
+  "start": 245.22,
+  "end": 246.72,
+  "text": " koşumçi energiye sarflaydı.",
+  "words": [
+   {
+    "w": " koşumçi",
+    "s": 245.22,
+    "e": 245.76
+   },
+   {
+    "w": " energiye",
+    "s": 245.76,
+    "e": 246.28
+   },
+   {
+    "w": " sarflaydı.",
+    "s": 246.28,
+    "e": 246.72
+   }
+  ]
+ },
+ {
+  "start": 247.48,
+  "end": 248.66,
+  "text": " Azı qovqat yetişmeganda",
+  "words": [
+   {
+    "w": " Azı",
+    "s": 247.48,
+    "e": 247.74
+   },
+   {
+    "w": " qovqat",
+    "s": 247.74,
+    "e": 248.04
+   },
+   {
+    "w": " yetişmeganda",
+    "s": 248.04,
+    "e": 248.66
+   }
+  ]
+ },
+ {
+  "start": 248.66,
+  "end": 251.2,
+  "text": " arganizm avval energiye zahiralardan,",
+  "words": [
+   {
+    "w": " arganizm",
+    "s": 248.66,
+    "e": 249.54
+   },
+   {
+    "w": " avval",
+    "s": 249.54,
+    "e": 249.92
+   },
+   {
+    "w": " energiye",
+    "s": 249.92,
+    "e": 250.46
+   },
+   {
+    "w": " zahiralardan,",
+    "s": 250.46,
+    "e": 251.2
+   }
+  ]
+ },
+ {
+  "start": 251.46,
+  "end": 252.88,
+  "text": " keyni ise yağva",
+  "words": [
+   {
+    "w": " keyni",
+    "s": 251.46,
+    "e": 251.9
+   },
+   {
+    "w": " ise",
+    "s": 251.9,
+    "e": 252.06
+   },
+   {
+    "w": " yağva",
+    "s": 252.06,
+    "e": 252.88
+   }
+  ]
+ },
+ {
+  "start": 252.88,
+  "end": 254.5,
+  "text": " muşak tokumalardan faydalanadı.",
+  "words": [
+   {
+    "w": " muşak",
+    "s": 252.88,
+    "e": 253.32
+   },
+   {
+    "w": " tokumalardan",
+    "s": 253.32,
+    "e": 253.92
+   },
+   {
+    "w": " faydalanadı.",
+    "s": 253.92,
+    "e": 254.5
+   }
+  ]
+ },
+ {
+  "start": 255.36,
+  "end": 257.04,
+  "text": " Bu cerayan uzaq davam etse",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 255.36,
+    "e": 255.54
+   },
+   {
+    "w": " cerayan",
+    "s": 255.54,
+    "e": 255.9
+   },
+   {
+    "w": " uzaq",
+    "s": 255.9,
+    "e": 256.44
+   },
+   {
+    "w": " davam",
+    "s": 256.44,
+    "e": 256.78
+   },
+   {
+    "w": " etse",
+    "s": 256.78,
+    "e": 257.04
+   }
+  ]
+ },
+ {
+  "start": 257.04,
+  "end": 259.0,
+  "text": " cismani kuvvet kemah yada.",
+  "words": [
+   {
+    "w": " cismani",
+    "s": 257.04,
+    "e": 257.96
+   },
+   {
+    "w": " kuvvet",
+    "s": 257.96,
+    "e": 258.46
+   },
+   {
+    "w": " kemah",
+    "s": 258.46,
+    "e": 258.82
+   },
+   {
+    "w": " yada.",
+    "s": 258.82,
+    "e": 259.0
+   }
+  ]
+ },
+ {
+  "start": 259.42,
+  "end": 260.66,
+  "text": " İmunitiyyat zayıflashadı",
+  "words": [
+   {
+    "w": " İmunitiyyat",
+    "s": 259.42,
+    "e": 259.98
+   },
+   {
+    "w": " zayıflashadı",
+    "s": 259.98,
+    "e": 260.66
+   }
+  ]
+ },
+ {
+  "start": 260.66,
+  "end": 262.46,
+  "text": " ve içki azalar faaliyyeti",
+  "words": [
+   {
+    "w": " ve",
+    "s": 260.66,
+    "e": 260.88
+   },
+   {
+    "w": " içki",
+    "s": 260.88,
+    "e": 261.3
+   },
+   {
+    "w": " azalar",
+    "s": 261.3,
+    "e": 261.78
+   },
+   {
+    "w": " faaliyyeti",
+    "s": 261.78,
+    "e": 262.46
+   }
+  ]
+ },
+ {
+  "start": 262.46,
+  "end": 263.92,
+  "text": " izden çıxışı mumkün.",
+  "words": [
+   {
+    "w": " izden",
+    "s": 262.46,
+    "e": 263.18
+   },
+   {
+    "w": " çıxışı",
+    "s": 263.18,
+    "e": 263.62
+   },
+   {
+    "w": " mumkün.",
+    "s": 263.62,
+    "e": 263.92
+   }
+  ]
+ },
+ {
+  "start": 263.92,
+  "end": 265.94,
+  "text": " An taqlaridegi yoloçlar",
+  "words": [
+   {
+    "w": " An",
+    "s": 263.92,
+    "e": 264.9
+   },
+   {
+    "w": " taqlaridegi",
+    "s": 264.9,
+    "e": 265.48
+   },
+   {
+    "w": " yoloçlar",
+    "s": 265.48,
+    "e": 265.94
+   }
+  ]
+ },
+ {
+  "start": 265.94,
+  "end": 268.04,
+  "text": " aynan şunday şaraitka duçkilgen.",
+  "words": [
+   {
+    "w": " aynan",
+    "s": 265.94,
+    "e": 266.48
+   },
+   {
+    "w": " şunday",
+    "s": 266.48,
+    "e": 266.98
+   },
+   {
+    "w": " şaraitka",
+    "s": 266.98,
+    "e": 267.52
+   },
+   {
+    "w": " duçkilgen.",
+    "s": 267.52,
+    "e": 268.04
+   }
+  ]
+ },
+ {
+  "start": 268.84,
+  "end": 270.68,
+  "text": " Qıdıru işlerinin tohtatılışı",
+  "words": [
+   {
+    "w": " Qıdıru",
+    "s": 268.84,
+    "e": 269.38
+   },
+   {
+    "w": " işlerinin",
+    "s": 269.38,
+    "e": 269.88
+   },
+   {
+    "w": " tohtatılışı",
+    "s": 269.88,
+    "e": 270.68
+   }
+  ]
+ },
+ {
+  "start": 270.68,
+  "end": 272.64,
+  "text": " Somaliyot yokolgeç",
+  "words": [
+   {
+    "w": " Somaliyot",
+    "s": 270.68,
+    "e": 272.06
+   },
+   {
+    "w": " yokolgeç",
+    "s": 272.06,
+    "e": 272.64
+   }
+  ]
+ },
+ {
+  "start": 272.64,
+  "end": 274.36,
+  "text": " Çili ve Argintina kutkaru",
+  "words": [
+   {
+    "w": " Çili",
+    "s": 272.64,
+    "e": 273.22
+   },
+   {
+    "w": " ve",
+    "s": 273.22,
+    "e": 273.42
+   },
+   {
+    "w": " Argintina",
+    "s": 273.42,
+    "e": 273.98
+   },
+   {
+    "w": " kutkaru",
+    "s": 273.98,
+    "e": 274.36
+   }
+  ]
+ },
+ {
+  "start": 274.36,
+  "end": 276.0,
+  "text": " hizmatları unu izleşke kirishgen.",
+  "words": [
+   {
+    "w": " hizmatları",
+    "s": 274.36,
+    "e": 274.9
+   },
+   {
+    "w": " unu",
+    "s": 274.9,
+    "e": 275.12
+   },
+   {
+    "w": " izleşke",
+    "s": 275.12,
+    "e": 275.58
+   },
+   {
+    "w": " kirishgen.",
+    "s": 275.58,
+    "e": 276.0
+   }
+  ]
+ },
+ {
+  "start": 276.38,
+  "end": 277.72,
+  "text": " Qıdıru somaliyotları",
+  "words": [
+   {
+    "w": " Qıdıru",
+    "s": 276.38,
+    "e": 276.98
+   },
+   {
+    "w": " somaliyotları",
+    "s": 276.98,
+    "e": 277.72
+   }
+  ]
+ },
+ {
+  "start": 277.72,
+  "end": 280.48,
+  "text": " an taqlarinin katta hududunu tekşirgen.",
+  "words": [
+   {
+    "w": " an",
+    "s": 277.72,
+    "e": 278.22
+   },
+   {
+    "w": " taqlarinin",
+    "s": 278.22,
+    "e": 278.9
+   },
+   {
+    "w": " katta",
+    "s": 278.9,
+    "e": 279.46
+   },
+   {
+    "w": " hududunu",
+    "s": 279.46,
+    "e": 279.92
+   },
+   {
+    "w": " tekşirgen.",
+    "s": 279.92,
+    "e": 280.48
+   }
+  ]
+ },
+ {
+  "start": 281.2,
+  "end": 282.44,
+  "text": " Bırak, somaliyotinin",
+  "words": [
+   {
+    "w": " Bırak,",
+    "s": 281.2,
+    "e": 281.5
+   },
+   {
+    "w": " somaliyotinin",
+    "s": 281.66,
+    "e": 282.44
+   }
+  ]
+ },
+ {
+  "start": 282.44,
+  "end": 283.8,
+  "text": " ak rengli korpusu",
+  "words": [
+   {
+    "w": " ak",
+    "s": 282.44,
+    "e": 282.8
+   },
+   {
+    "w": " rengli",
+    "s": 282.8,
+    "e": 283.16
+   },
+   {
+    "w": " korpusu",
+    "s": 283.16,
+    "e": 283.8
+   }
+  ]
+ },
+ {
+  "start": 283.8,
+  "end": 285.64,
+  "text": " kar blan kaplengen hududda",
+  "words": [
+   {
+    "w": " kar",
+    "s": 283.8,
+    "e": 284.32
+   },
+   {
+    "w": " blan",
+    "s": 284.32,
+    "e": 284.58
+   },
+   {
+    "w": " kaplengen",
+    "s": 284.58,
+    "e": 285.1
+   },
+   {
+    "w": " hududda",
+    "s": 285.1,
+    "e": 285.64
+   }
+  ]
+ },
+ {
+  "start": 285.64,
+  "end": 287.04,
+  "text": " deyarlı sezilmegen.",
+  "words": [
+   {
+    "w": " deyarlı",
+    "s": 285.64,
+    "e": 286.46
+   },
+   {
+    "w": " sezilmegen.",
+    "s": 286.46,
+    "e": 287.04
+   }
+  ]
+ },
+ {
+  "start": 287.58,
+  "end": 289.32,
+  "text": " Bundan tashkarı, ekipajinin",
+  "words": [
+   {
+    "w": " Bundan",
+    "s": 287.58,
+    "e": 288.02
+   },
+   {
+    "w": " tashkarı,",
+    "s": 288.02,
+    "e": 288.5
+   },
+   {
+    "w": " ekipajinin",
+    "s": 288.84,
+    "e": 289.32
+   }
+  ]
+ },
+ {
+  "start": 289.32,
+  "end": 290.9,
+  "text": " navigasyon hatası sebabli",
+  "words": [
+   {
+    "w": " navigasyon",
+    "s": 289.32,
+    "e": 290.06
+   },
+   {
+    "w": " hatası",
+    "s": 290.06,
+    "e": 290.46
+   },
+   {
+    "w": " sebabli",
+    "s": 290.46,
+    "e": 290.9
+   }
+  ]
+ },
+ {
+  "start": 290.9,
+  "end": 293.16,
+  "text": " somaliyotinin təxmini jaylaşıvi",
+  "words": [
+   {
+    "w": " somaliyotinin",
+    "s": 290.9,
+    "e": 291.88
+   },
+   {
+    "w": " təxmini",
+    "s": 291.88,
+    "e": 292.56
+   },
+   {
+    "w": " jaylaşıvi",
+    "s": 292.56,
+    "e": 293.16
+   }
+  ]
+ },
+ {
+  "start": 293.16,
+  "end": 294.56,
+  "text": " natoğru bahalengen.",
+  "words": [
+   {
+    "w": " natoğru",
+    "s": 293.16,
+    "e": 293.94
+   },
+   {
+    "w": " bahalengen.",
+    "s": 293.94,
+    "e": 294.56
+   }
+  ]
+ },
+ {
+  "start": 295.38,
+  "end": 296.8,
+  "text": " Khalaikatdan ki ingi",
+  "words": [
+   {
+    "w": " Khalaikatdan",
+    "s": 295.38,
+    "e": 296.26
+   },
+   {
+    "w": " ki",
+    "s": 296.26,
+    "e": 296.46
+   },
+   {
+    "w": " ingi",
+    "s": 296.46,
+    "e": 296.8
+   }
+  ]
+ },
+ {
+  "start": 296.8,
+  "end": 297.8,
+  "text": " on altinç kune,",
+  "words": [
+   {
+    "w": " on",
+    "s": 296.8,
+    "e": 297.02
+   },
+   {
+    "w": " altinç",
+    "s": 297.02,
+    "e": 297.58
+   },
+   {
+    "w": " kune,",
+    "s": 297.58,
+    "e": 297.8
+   }
+  ]
+ },
+ {
+  "start": 298.16,
+  "end": 299.12,
+  "text": " aman kalgaliler",
+  "words": [
+   {
+    "w": " aman",
+    "s": 298.16,
+    "e": 298.48
+   },
+   {
+    "w": " kalgaliler",
+    "s": 298.48,
+    "e": 299.12
+   }
+  ]
+ },
+ {
+  "start": 299.12,
+  "end": 300.56,
+  "text": " radiyodan qıdıru işleri",
+  "words": [
+   {
+    "w": " radiyodan",
+    "s": 299.12,
+    "e": 299.96
+   },
+   {
+    "w": " qıdıru",
+    "s": 299.96,
+    "e": 300.28
+   },
+   {
+    "w": " işleri",
+    "s": 300.28,
+    "e": 300.56
+   }
+  ]
+ },
+ {
+  "start": 300.56,
+  "end": 301.28,
+  "text": " tohtatılganı",
+  "words": [
+   {
+    "w": " tohtatılganı",
+    "s": 300.56,
+    "e": 301.28
+   }
+  ]
+ },
+ {
+  "start": 301.28,
+  "end": 302.48,
+  "text": " haqda gı khabar neyeştikken.",
+  "words": [
+   {
+    "w": " haqda",
+    "s": 301.28,
+    "e": 301.52
+   },
+   {
+    "w": " gı",
+    "s": 301.52,
+    "e": 301.68
+   },
+   {
+    "w": " khabar",
+    "s": 301.68,
+    "e": 301.98
+   },
+   {
+    "w": " neyeştikken.",
+    "s": 301.98,
+    "e": 302.48
+   }
+  ]
+ },
+ {
+  "start": 302.86,
+  "end": 304.28,
+  "text": " Rasmi qıdıru hizmatları",
+  "words": [
+   {
+    "w": " Rasmi",
+    "s": 302.86,
+    "e": 303.46
+   },
+   {
+    "w": " qıdıru",
+    "s": 303.46,
+    "e": 303.8
+   },
+   {
+    "w": " hizmatları",
+    "s": 303.8,
+    "e": 304.28
+   }
+  ]
+ },
+ {
+  "start": 304.28,
+  "end": 305.64,
+  "text": " bunday balantlik",
+  "words": [
+   {
+    "w": " bunday",
+    "s": 304.28,
+    "e": 305.02
+   },
+   {
+    "w": " balantlik",
+    "s": 305.02,
+    "e": 305.64
+   }
+  ]
+ },
+ {
+  "start": 305.64,
+  "end": 306.36,
+  "text": " ve sahuqta",
+  "words": [
+   {
+    "w": " ve",
+    "s": 305.64,
+    "e": 305.86
+   },
+   {
+    "w": " sahuqta",
+    "s": 305.86,
+    "e": 306.36
+   }
+  ]
+ },
+ {
+  "start": 306.36,
+  "end": 307.76,
+  "text": " adamlarının uzağ",
+  "words": [
+   {
+    "w": " adamlarının",
+    "s": 306.36,
+    "e": 307.34
+   },
+   {
+    "w": " uzağ",
+    "s": 307.34,
+    "e": 307.76
+   }
+  ]
+ },
+ {
+  "start": 307.76,
+  "end": 309.18,
+  "text": " ve trik kalış ihtimalini",
+  "words": [
+   {
+    "w": " ve",
+    "s": 307.76,
+    "e": 307.9
+   },
+   {
+    "w": " trik",
+    "s": 307.9,
+    "e": 308.32
+   },
+   {
+    "w": " kalış",
+    "s": 308.32,
+    "e": 308.56
+   },
+   {
+    "w": " ihtimalini",
+    "s": 308.56,
+    "e": 309.18
+   }
+  ]
+ },
+ {
+  "start": 309.18,
+  "end": 310.8,
+  "text": " cüda pastibkısab legen.",
+  "words": [
+   {
+    "w": " cüda",
+    "s": 309.18,
+    "e": 309.76
+   },
+   {
+    "w": " pastibkısab",
+    "s": 309.76,
+    "e": 310.58
+   },
+   {
+    "w": " legen.",
+    "s": 310.58,
+    "e": 310.8
+   }
+  ]
+ },
+ {
+  "start": 311.56,
+  "end": 312.3,
+  "text": " Şundan son,",
+  "words": [
+   {
+    "w": " Şundan",
+    "s": 311.56,
+    "e": 312.12
+   },
+   {
+    "w": " son,",
+    "s": 312.12,
+    "e": 312.3
+   }
+  ]
+ },
+ {
+  "start": 312.5,
+  "end": 313.62,
+  "text": " aman kalgaliler",
+  "words": [
+   {
+    "w": " aman",
+    "s": 312.5,
+    "e": 312.98
+   },
+   {
+    "w": " kalgaliler",
+    "s": 312.98,
+    "e": 313.62
+   }
+  ]
+ },
+ {
+  "start": 313.62,
+  "end": 314.7,
+  "text": " tashkı yardımga",
+  "words": [
+   {
+    "w": " tashkı",
+    "s": 313.62,
+    "e": 314.26
+   },
+   {
+    "w": " yardımga",
+    "s": 314.26,
+    "e": 314.7
+   }
+  ]
+ },
+ {
+  "start": 314.7,
+  "end": 315.62,
+  "text": " tayyanış imkaniyeti",
+  "words": [
+   {
+    "w": " tayyanış",
+    "s": 314.7,
+    "e": 315.1
+   },
+   {
+    "w": " imkaniyeti",
+    "s": 315.1,
+    "e": 315.62
+   }
+  ]
+ },
+ {
+  "start": 315.62,
+  "end": 316.76,
+  "text": " çiklengenini tüşünüp",
+  "words": [
+   {
+    "w": " çiklengenini",
+    "s": 315.62,
+    "e": 316.38
+   },
+   {
+    "w": " tüşünüp",
+    "s": 316.38,
+    "e": 316.76
+   }
+  ]
+ },
+ {
+  "start": 316.76,
+  "end": 318.38,
+  "text": " mustaqil çıxışı yollarını",
+  "words": [
+   {
+    "w": " mustaqil",
+    "s": 316.76,
+    "e": 317.56
+   },
+   {
+    "w": " çıxışı",
+    "s": 317.56,
+    "e": 317.94
+   },
+   {
+    "w": " yollarını",
+    "s": 317.94,
+    "e": 318.38
+   }
+  ]
+ },
+ {
+  "start": 318.38,
+  "end": 319.18,
+  "text": " izleyi başlaygen.",
+  "words": [
+   {
+    "w": " izleyi",
+    "s": 318.38,
+    "e": 318.78
+   },
+   {
+    "w": " başlaygen.",
+    "s": 318.78,
+    "e": 319.18
+   }
+  ]
+ },
+ {
+  "start": 319.86,
+  "end": 321.4,
+  "text": " History plus bar",
+  "words": [
+   {
+    "w": " History",
+    "s": 319.86,
+    "e": 320.58
+   },
+   {
+    "w": " plus",
+    "s": 320.58,
+    "e": 321.08
+   },
+   {
+    "w": " bar",
+    "s": 321.08,
+    "e": 321.4
+   }
+  ]
+ },
+ {
+  "start": 321.4,
+  "end": 323.04,
+  "text": " Açlik ve",
+  "words": [
+   {
+    "w": " Açlik",
+    "s": 321.4,
+    "e": 322.74
+   },
+   {
+    "w": " ve",
+    "s": 322.74,
+    "e": 323.04
+   }
+  ]
+ },
+ {
+  "start": 323.04,
+  "end": 324.42,
+  "text": " en ağır qarar",
+  "words": [
+   {
+    "w": " en",
+    "s": 323.04,
+    "e": 323.46
+   },
+   {
+    "w": " ağır",
+    "s": 323.46,
+    "e": 324.0
+   },
+   {
+    "w": " qarar",
+    "s": 324.0,
+    "e": 324.42
+   }
+  ]
+ },
+ {
+  "start": 324.42,
+  "end": 326.26,
+  "text": " Muzkur hadisinin",
+  "words": [
+   {
+    "w": " Muzkur",
+    "s": 324.42,
+    "e": 325.68
+   },
+   {
+    "w": " hadisinin",
+    "s": 325.68,
+    "e": 326.26
+   }
+  ]
+ },
+ {
+  "start": 326.26,
+  "end": 327.06,
+  "text": " en köp",
+  "words": [
+   {
+    "w": " en",
+    "s": 326.26,
+    "e": 326.64
+   },
+   {
+    "w": " köp",
+    "s": 326.64,
+    "e": 327.06
+   }
+  ]
+ },
+ {
+  "start": 327.06,
+  "end": 327.88,
+  "text": " muhakimə qılengen",
+  "words": [
+   {
+    "w": " muhakimə",
+    "s": 327.06,
+    "e": 327.58
+   },
+   {
+    "w": " qılengen",
+    "s": 327.58,
+    "e": 327.88
+   }
+  ]
+ },
+ {
+  "start": 327.88,
+  "end": 328.74,
+  "text": " jahatlardan beri",
+  "words": [
+   {
+    "w": " jahatlardan",
+    "s": 327.88,
+    "e": 328.36
+   },
+   {
+    "w": " beri",
+    "s": 328.36,
+    "e": 328.74
+   }
+  ]
+ },
+ {
+  "start": 328.74,
+  "end": 329.92,
+  "text": " aman kalgaliler",
+  "words": [
+   {
+    "w": " aman",
+    "s": 328.74,
+    "e": 329.34
+   },
+   {
+    "w": " kalgaliler",
+    "s": 329.34,
+    "e": 329.92
+   }
+  ]
+ },
+ {
+  "start": 329.92,
+  "end": 330.56,
+  "text": " ngin azıq",
+  "words": [
+   {
+    "w": " ngin",
+    "s": 329.92,
+    "e": 330.12
+   },
+   {
+    "w": " azıq",
+    "s": 330.12,
+    "e": 330.56
+   }
+  ]
+ },
+ {
+  "start": 330.56,
+  "end": 330.92,
+  "text": " oqat",
+  "words": [
+   {
+    "w": " oqat",
+    "s": 330.56,
+    "e": 330.92
+   }
+  ]
+ },
+ {
+  "start": 330.92,
+  "end": 331.52,
+  "text": " yetişmastilgi",
+  "words": [
+   {
+    "w": " yetişmastilgi",
+    "s": 330.92,
+    "e": 331.52
+   }
+  ]
+ },
+ {
+  "start": 331.52,
+  "end": 331.98,
+  "text": " şaraiti",
+  "words": [
+   {
+    "w": " şaraiti",
+    "s": 331.52,
+    "e": 331.98
+   }
+  ]
+ },
+ {
+  "start": 331.98,
+  "end": 332.38,
+  "text": " da qabul",
+  "words": [
+   {
+    "w": " da",
+    "s": 331.98,
+    "e": 332.0
+   },
+   {
+    "w": " qabul",
+    "s": 332.0,
+    "e": 332.38
+   }
+  ]
+ },
+ {
+  "start": 332.38,
+  "end": 332.74,
+  "text": " qılgen",
+  "words": [
+   {
+    "w": " qılgen",
+    "s": 332.38,
+    "e": 332.74
+   }
+  ]
+ },
+ {
+  "start": 332.74,
+  "end": 333.5,
+  "text": " qararadır.",
+  "words": [
+   {
+    "w": " qararadır.",
+    "s": 332.74,
+    "e": 333.5
+   }
+  ]
+ },
+ {
+  "start": 334.25,
+  "end": 334.7,
+  "text": " Tağli",
+  "words": [
+   {
+    "w": " Tağli",
+    "s": 334.25,
+    "e": 334.7
+   }
+  ]
+ },
+ {
+  "start": 334.7,
+  "end": 335.2,
+  "text": " muzlikte",
+  "words": [
+   {
+    "w": " muzlikte",
+    "s": 334.7,
+    "e": 335.2
+   }
+  ]
+ },
+ {
+  "start": 335.2,
+  "end": 336.12,
+  "text": " osumlikler,",
+  "words": [
+   {
+    "w": " osumlikler,",
+    "s": 335.2,
+    "e": 336.12
+   }
+  ]
+ },
+ {
+  "start": 336.34,
+  "end": 336.88,
+  "text": " hayvanler",
+  "words": [
+   {
+    "w": " hayvanler",
+    "s": 336.34,
+    "e": 336.88
+   }
+  ]
+ },
+ {
+  "start": 336.88,
+  "end": 337.14,
+  "text": " yaki",
+  "words": [
+   {
+    "w": " yaki",
+    "s": 336.88,
+    "e": 337.14
+   }
+  ]
+ },
+ {
+  "start": 337.14,
+  "end": 337.84,
+  "text": " başqa",
+  "words": [
+   {
+    "w": " başqa",
+    "s": 337.14,
+    "e": 337.84
+   }
+  ]
+ },
+ {
+  "start": 337.84,
+  "end": 338.18,
+  "text": " azıq",
+  "words": [
+   {
+    "w": " azıq",
+    "s": 337.84,
+    "e": 338.18
+   }
+  ]
+ },
+ {
+  "start": 338.18,
+  "end": 338.38,
+  "text": " oqat",
+  "words": [
+   {
+    "w": " oqat",
+    "s": 338.18,
+    "e": 338.38
+   }
+  ]
+ },
+ {
+  "start": 338.38,
+  "end": 338.8,
+  "text": " menbeleri",
+  "words": [
+   {
+    "w": " menbeleri",
+    "s": 338.38,
+    "e": 338.8
+   }
+  ]
+ },
+ {
+  "start": 338.8,
+  "end": 339.14,
+  "text": " mavgud",
+  "words": [
+   {
+    "w": " mavgud",
+    "s": 338.8,
+    "e": 339.14
+   }
+  ]
+ },
+ {
+  "start": 339.14,
+  "end": 339.52,
+  "text": " bulmegen.",
+  "words": [
+   {
+    "w": " bulmegen.",
+    "s": 339.14,
+    "e": 339.52
+   }
+  ]
+ },
+ {
+  "start": 339.8,
+  "end": 340.5,
+  "text": " Uzağ",
+  "words": [
+   {
+    "w": " Uzağ",
+    "s": 339.8,
+    "e": 340.5
+   }
+  ]
+ },
+ {
+  "start": 340.5,
+  "end": 340.88,
+  "text": " dvam",
+  "words": [
+   {
+    "w": " dvam",
+    "s": 340.5,
+    "e": 340.88
+   }
+  ]
+ },
+ {
+  "start": 340.88,
+  "end": 341.12,
+  "text": " yetken",
+  "words": [
+   {
+    "w": " yetken",
+    "s": 340.88,
+    "e": 341.12
+   }
+  ]
+ },
+ {
+  "start": 341.12,
+  "end": 341.5,
+  "text": " Açlik",
+  "words": [
+   {
+    "w": " Açlik",
+    "s": 341.12,
+    "e": 341.5
+   }
+  ]
+ },
+ {
+  "start": 341.5,
+  "end": 342.16,
+  "text": " neticesi",
+  "words": [
+   {
+    "w": " neticesi",
+    "s": 341.5,
+    "e": 342.16
+   }
+  ]
+ },
+ {
+  "start": 342.16,
+  "end": 342.22,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 342.16,
+    "e": 342.22
+   }
+  ]
+ },
+ {
+  "start": 342.22,
+  "end": 342.92,
+  "text": " yoloji",
+  "words": [
+   {
+    "w": " yoloji",
+    "s": 342.22,
+    "e": 342.92
+   }
+  ]
+ },
+ {
+  "start": 342.92,
+  "end": 343.1,
+  "text": " learning",
+  "words": [
+   {
+    "w": " learning",
+    "s": 342.92,
+    "e": 343.1
+   }
+  ]
+ },
+ {
+  "start": 343.1,
+  "end": 343.76,
+  "text": " jismani",
+  "words": [
+   {
+    "w": " jismani",
+    "s": 343.1,
+    "e": 343.76
+   }
+  ]
+ },
+ {
+  "start": 343.76,
+  "end": 344.26,
+  "text": " akhwal",
+  "words": [
+   {
+    "w": " akhwal",
+    "s": 343.76,
+    "e": 344.26
+   }
+  ]
+ },
+ {
+  "start": 344.26,
+  "end": 344.62,
+  "text": " yamal",
+  "words": [
+   {
+    "w": " yamal",
+    "s": 344.26,
+    "e": 344.62
+   }
+  ]
+ },
+ {
+  "start": 344.62,
+  "end": 344.9,
+  "text": " lşken.",
+  "words": [
+   {
+    "w": " lşken.",
+    "s": 344.62,
+    "e": 344.9
+   }
+  ]
+ },
+ {
+  "start": 345.44,
+  "end": 345.82,
+  "text": " Ular",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 345.44,
+    "e": 345.82
+   }
+  ]
+ },
+ {
+  "start": 345.82,
+  "end": 346.52,
+  "text": " ahir",
+  "words": [
+   {
+    "w": " ahir",
+    "s": 345.82,
+    "e": 346.52
+   }
+  ]
+ },
+ {
+  "start": 346.52,
+  "end": 347.0,
+  "text": " akibet",
+  "words": [
+   {
+    "w": " akibet",
+    "s": 346.52,
+    "e": 347.0
+   }
+  ]
+ },
+ {
+  "start": 347.0,
+  "end": 347.52,
+  "text": " halaket",
+  "words": [
+   {
+    "w": " halaket",
+    "s": 347.0,
+    "e": 347.52
+   }
+  ]
+ },
+ {
+  "start": 347.52,
+  "end": 348.18,
+  "text": " vefat etken",
+  "words": [
+   {
+    "w": " vefat",
+    "s": 347.52,
+    "e": 347.92
+   },
+   {
+    "w": " etken",
+    "s": 347.92,
+    "e": 348.18
+   }
+  ]
+ },
+ {
+  "start": 348.18,
+  "end": 348.82,
+  "text": " insanlarnin",
+  "words": [
+   {
+    "w": " insanlarnin",
+    "s": 348.18,
+    "e": 348.82
+   }
+  ]
+ },
+ {
+  "start": 348.82,
+  "end": 349.42,
+  "text": " jasadlardan",
+  "words": [
+   {
+    "w": " jasadlardan",
+    "s": 348.82,
+    "e": 349.42
+   }
+  ]
+ },
+ {
+  "start": 349.42,
+  "end": 350.2,
+  "text": " azıq",
+  "words": [
+   {
+    "w": " azıq",
+    "s": 349.42,
+    "e": 350.2
+   }
+  ]
+ },
+ {
+  "start": 350.2,
+  "end": 350.54,
+  "text": " sifatı",
+  "words": [
+   {
+    "w": " sifatı",
+    "s": 350.2,
+    "e": 350.54
+   }
+  ]
+ },
+ {
+  "start": 350.54,
+  "end": 350.58,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 350.54,
+    "e": 350.58
+   }
+  ]
+ },
+ {
+  "start": 350.58,
+  "end": 351.14,
+  "text": " faydalaniş",
+  "words": [
+   {
+    "w": " faydalaniş",
+    "s": 350.58,
+    "e": 351.14
+   }
+  ]
+ },
+ {
+  "start": 351.14,
+  "end": 351.22,
+  "text": " ki",
+  "words": [
+   {
+    "w": " ki",
+    "s": 351.14,
+    "e": 351.22
+   }
+  ]
+ },
+ {
+  "start": 351.22,
+  "end": 351.52,
+  "text": " qarar",
+  "words": [
+   {
+    "w": " qarar",
+    "s": 351.22,
+    "e": 351.52
+   }
+  ]
+ },
+ {
+  "start": 351.52,
+  "end": 351.9,
+  "text": " kalışgan.",
+  "words": [
+   {
+    "w": " kalışgan.",
+    "s": 351.52,
+    "e": 351.9
+   }
+  ]
+ },
+ {
+  "start": 352.45,
+  "end": 353.22,
+  "text": " Bu qarar",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 352.45,
+    "e": 352.82
+   },
+   {
+    "w": " qarar",
+    "s": 352.82,
+    "e": 353.22
+   }
+  ]
+ },
+ {
+  "start": 353.22,
+  "end": 354.08,
+  "text": " dini,",
+  "words": [
+   {
+    "w": " dini,",
+    "s": 353.22,
+    "e": 354.08
+   }
+  ]
+ },
+ {
+  "start": 354.24,
+  "end": 354.72,
+  "text": " ahlaqi",
+  "words": [
+   {
+    "w": " ahlaqi",
+    "s": 354.24,
+    "e": 354.72
+   }
+  ]
+ },
+ {
+  "start": 354.72,
+  "end": 355.26,
+  "text": " ve ruhi",
+  "words": [
+   {
+    "w": " ve",
+    "s": 354.72,
+    "e": 354.92
+   },
+   {
+    "w": " ruhi",
+    "s": 354.92,
+    "e": 355.26
+   }
+  ]
+ },
+ {
+  "start": 355.26,
+  "end": 355.64,
+  "text": " jihatten",
+  "words": [
+   {
+    "w": " jihatten",
+    "s": 355.26,
+    "e": 355.64
+   }
+  ]
+ },
+ {
+  "start": 355.64,
+  "end": 356.34,
+  "text": " jude",
+  "words": [
+   {
+    "w": " jude",
+    "s": 355.64,
+    "e": 356.34
+   }
+  ]
+ },
+ {
+  "start": 356.34,
+  "end": 356.72,
+  "text": " ağır",
+  "words": [
+   {
+    "w": " ağır",
+    "s": 356.34,
+    "e": 356.72
+   }
+  ]
+ },
+ {
+  "start": 356.72,
+  "end": 357.04,
+  "text": " bolgen.",
+  "words": [
+   {
+    "w": " bolgen.",
+    "s": 356.72,
+    "e": 357.04
+   }
+  ]
+ },
+ {
+  "start": 357.62,
+  "end": 358.58,
+  "text": " Aman kalgaliler",
+  "words": [
+   {
+    "w": " Aman",
+    "s": 357.62,
+    "e": 358.04
+   },
+   {
+    "w": " kalgaliler",
+    "s": 358.04,
+    "e": 358.58
+   }
+  ]
+ },
+ {
+  "start": 358.58,
+  "end": 358.72,
+  "text": " ngin",
+  "words": [
+   {
+    "w": " ngin",
+    "s": 358.58,
+    "e": 358.72
+   }
+  ]
+ },
+ {
+  "start": 358.72,
+  "end": 359.36,
+  "text": " akcariyatı",
+  "words": [
+   {
+    "w": " akcariyatı",
+    "s": 358.72,
+    "e": 359.36
+   }
+  ]
+ },
+ {
+  "start": 359.36,
+  "end": 360.1,
+  "text": " katolik",
+  "words": [
+   {
+    "w": " katolik",
+    "s": 359.36,
+    "e": 360.1
+   }
+  ]
+ },
+ {
+  "start": 360.1,
+  "end": 360.6,
+  "text": " ailelarda",
+  "words": [
+   {
+    "w": " ailelarda",
+    "s": 360.1,
+    "e": 360.6
+   }
+  ]
+ },
+ {
+  "start": 360.6,
+  "end": 361.0,
+  "text": " terbiye",
+  "words": [
+   {
+    "w": " terbiye",
+    "s": 360.6,
+    "e": 361.0
+   }
+  ]
+ },
+ {
+  "start": 361.0,
+  "end": 361.26,
+  "text": " lengan",
+  "words": [
+   {
+    "w": " lengan",
+    "s": 361.0,
+    "e": 361.26
+   }
+  ]
+ },
+ {
+  "start": 361.26,
+  "end": 361.46,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 361.26,
+    "e": 361.46
+   }
+  ]
+ },
+ {
+  "start": 361.46,
+  "end": 362.36,
+  "text": " vefat etken",
+  "words": [
+   {
+    "w": " vefat",
+    "s": 361.46,
+    "e": 362.1
+   },
+   {
+    "w": " etken",
+    "s": 362.1,
+    "e": 362.36
+   }
+  ]
+ },
+ {
+  "start": 362.36,
+  "end": 363.08,
+  "text": " insanlər",
+  "words": [
+   {
+    "w": " insanlər",
+    "s": 362.36,
+    "e": 363.08
+   }
+  ]
+ },
+ {
+  "start": 363.08,
+  "end": 363.48,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 363.08,
+    "e": 363.48
+   }
+  ]
+ },
+ {
+  "start": 363.48,
+  "end": 363.68,
+  "text": " ngin",
+  "words": [
+   {
+    "w": " ngin",
+    "s": 363.48,
+    "e": 363.68
+   }
+  ]
+ },
+ {
+  "start": 363.68,
+  "end": 364.12,
+  "text": " dostlar",
+  "words": [
+   {
+    "w": " dostlar",
+    "s": 363.68,
+    "e": 364.12
+   }
+  ]
+ },
+ {
+  "start": 364.12,
+  "end": 364.46,
+  "text": " ya ki",
+  "words": [
+   {
+    "w": " ya",
+    "s": 364.12,
+    "e": 364.3
+   },
+   {
+    "w": " ki",
+    "s": 364.3,
+    "e": 364.46
+   }
+  ]
+ },
+ {
+  "start": 364.46,
+  "end": 364.82,
+  "text": " yakın",
+  "words": [
+   {
+    "w": " yakın",
+    "s": 364.46,
+    "e": 364.82
+   }
+  ]
+ },
+ {
+  "start": 364.82,
+  "end": 365.08,
+  "text": " lari",
+  "words": [
+   {
+    "w": " lari",
+    "s": 364.82,
+    "e": 365.08
+   }
+  ]
+ },
+ {
+  "start": 365.08,
+  "end": 365.34,
+  "text": " bolgen.",
+  "words": [
+   {
+    "w": " bolgen.",
+    "s": 365.08,
+    "e": 365.34
+   }
+  ]
+ },
+ {
+  "start": 366.32,
+  "end": 366.5,
+  "text": " Ke",
+  "words": [
+   {
+    "w": " Ke",
+    "s": 366.32,
+    "e": 366.5
+   }
+  ]
+ },
+ {
+  "start": 366.5,
+  "end": 366.64,
+  "text": " in",
+  "words": [
+   {
+    "w": " in",
+    "s": 366.5,
+    "e": 366.64
+   }
+  ]
+ },
+ {
+  "start": 366.64,
+  "end": 366.9,
+  "text": " çelik",
+  "words": [
+   {
+    "w": " çelik",
+    "s": 366.64,
+    "e": 366.9
+   }
+  ]
+ },
+ {
+  "start": 366.9,
+  "end": 367.28,
+  "text": " berilgen",
+  "words": [
+   {
+    "w": " berilgen",
+    "s": 366.9,
+    "e": 367.28
+   }
+  ]
+ },
+ {
+  "start": 367.28,
+  "end": 367.68,
+  "text": " intervi",
+  "words": [
+   {
+    "w": " intervi",
+    "s": 367.28,
+    "e": 367.68
+   }
+  ]
+ },
+ {
+  "start": 367.68,
+  "end": 367.9,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 367.68,
+    "e": 367.9
+   }
+  ]
+ },
+ {
+  "start": 367.9,
+  "end": 368.06,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 367.9,
+    "e": 368.06
+   }
+  ]
+ },
+ {
+  "start": 368.06,
+  "end": 368.62,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 368.06,
+    "e": 368.62
+   }
+  ]
+ },
+ {
+  "start": 368.62,
+  "end": 368.78,
+  "text": " bu",
+  "words": [
+   {
+    "w": " bu",
+    "s": 368.62,
+    "e": 368.78
+   }
+  ]
+ },
+ {
+  "start": 368.78,
+  "end": 369.14,
+  "text": " karar",
+  "words": [
+   {
+    "w": " karar",
+    "s": 368.78,
+    "e": 369.14
+   }
+  ]
+ },
+ {
+  "start": 369.14,
+  "end": 369.82,
+  "text": " zav",
+  "words": [
+   {
+    "w": " zav",
+    "s": 369.14,
+    "e": 369.82
+   }
+  ]
+ },
+ {
+  "start": 369.82,
+  "end": 370.26,
+  "text": " ya ki",
+  "words": [
+   {
+    "w": " ya",
+    "s": 369.82,
+    "e": 370.04
+   },
+   {
+    "w": " ki",
+    "s": 370.04,
+    "e": 370.26
+   }
+  ]
+ },
+ {
+  "start": 370.26,
+  "end": 370.68,
+  "text": " istak",
+  "words": [
+   {
+    "w": " istak",
+    "s": 370.26,
+    "e": 370.68
+   }
+  ]
+ },
+ {
+  "start": 370.68,
+  "end": 370.94,
+  "text": " bilen",
+  "words": [
+   {
+    "w": " bilen",
+    "s": 370.68,
+    "e": 370.94
+   }
+  ]
+ },
+ {
+  "start": 370.94,
+  "end": 371.32,
+  "text": " imaz",
+  "words": [
+   {
+    "w": " imaz",
+    "s": 370.94,
+    "e": 371.32
+   }
+  ]
+ },
+ {
+  "start": 371.32,
+  "end": 371.84,
+  "text": " belki",
+  "words": [
+   {
+    "w": " belki",
+    "s": 371.32,
+    "e": 371.84
+   }
+  ]
+ },
+ {
+  "start": 371.84,
+  "end": 372.62,
+  "text": " hayatna",
+  "words": [
+   {
+    "w": " hayatna",
+    "s": 371.84,
+    "e": 372.62
+   }
+  ]
+ },
+ {
+  "start": 372.62,
+  "end": 373.06,
+  "text": " saklap",
+  "words": [
+   {
+    "w": " saklap",
+    "s": 372.62,
+    "e": 373.06
+   }
+  ]
+ },
+ {
+  "start": 373.06,
+  "end": 373.32,
+  "text": " kaliş",
+  "words": [
+   {
+    "w": " kaliş",
+    "s": 373.06,
+    "e": 373.32
+   }
+  ]
+ },
+ {
+  "start": 373.32,
+  "end": 373.68,
+  "text": " zarur",
+  "words": [
+   {
+    "w": " zarur",
+    "s": 373.32,
+    "e": 373.68
+   }
+  ]
+ },
+ {
+  "start": 373.68,
+  "end": 374.2,
+  "text": " tütfeyli",
+  "words": [
+   {
+    "w": " tütfeyli",
+    "s": 373.68,
+    "e": 374.2
+   }
+  ]
+ },
+ {
+  "start": 374.2,
+  "end": 374.66,
+  "text": " qabul",
+  "words": [
+   {
+    "w": " qabul",
+    "s": 374.2,
+    "e": 374.66
+   }
+  ]
+ },
+ {
+  "start": 374.66,
+  "end": 375.0,
+  "text": " kalingan",
+  "words": [
+   {
+    "w": " kalingan",
+    "s": 374.66,
+    "e": 375.0
+   }
+  ]
+ },
+ {
+  "start": 375.0,
+  "end": 375.22,
+  "text": " net",
+  "words": [
+   {
+    "w": " net",
+    "s": 375.0,
+    "e": 375.22
+   }
+  ]
+ },
+ {
+  "start": 375.22,
+  "end": 377.16,
+  "text": " uşbuhalat",
+  "words": [
+   {
+    "w": " uşbuhalat",
+    "s": 375.22,
+    "e": 377.16
+   }
+  ]
+ },
+ {
+  "start": 377.16,
+  "end": 378.1,
+  "text": " fauqladda",
+  "words": [
+   {
+    "w": " fauqladda",
+    "s": 377.16,
+    "e": 378.1
+   }
+  ]
+ },
+ {
+  "start": 378.1,
+  "end": 378.74,
+  "text": " vaziyyatlarda",
+  "words": [
+   {
+    "w": " vaziyyatlarda",
+    "s": 378.1,
+    "e": 378.74
+   }
+  ]
+ },
+ {
+  "start": 378.74,
+  "end": 379.36,
+  "text": " insanleng",
+  "words": [
+   {
+    "w": " insanleng",
+    "s": 378.74,
+    "e": 379.36
+   }
+  ]
+ },
+ {
+  "start": 379.36,
+  "end": 379.96,
+  "text": " ahlaqi",
+  "words": [
+   {
+    "w": " ahlaqi",
+    "s": 379.36,
+    "e": 379.96
+   }
+  ]
+ },
+ {
+  "start": 379.96,
+  "end": 380.62,
+  "text": " qararları",
+  "words": [
+   {
+    "w": " qararları",
+    "s": 379.96,
+    "e": 380.62
+   }
+  ]
+ },
+ {
+  "start": 380.62,
+  "end": 380.86,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 380.62,
+    "e": 380.86
+   }
+  ]
+ },
+ {
+  "start": 380.86,
+  "end": 381.72,
+  "text": " biyalagik",
+  "words": [
+   {
+    "w": " biyalagik",
+    "s": 380.86,
+    "e": 381.72
+   }
+  ]
+ },
+ {
+  "start": 381.72,
+  "end": 382.34,
+  "text": " aman kaliş",
+  "words": [
+   {
+    "w": " aman",
+    "s": 381.72,
+    "e": 381.98
+   },
+   {
+    "w": " kaliş",
+    "s": 381.98,
+    "e": 382.34
+   }
+  ]
+ },
+ {
+  "start": 382.34,
+  "end": 382.92,
+  "text": " ihtiyacı",
+  "words": [
+   {
+    "w": " ihtiyacı",
+    "s": 382.34,
+    "e": 382.92
+   }
+  ]
+ },
+ {
+  "start": 382.92,
+  "end": 383.44,
+  "text": " ortastagi",
+  "words": [
+   {
+    "w": " ortastagi",
+    "s": 382.92,
+    "e": 383.44
+   }
+  ]
+ },
+ {
+  "start": 383.44,
+  "end": 384.38,
+  "text": " murrakkab",
+  "words": [
+   {
+    "w": " murrakkab",
+    "s": 383.44,
+    "e": 384.38
+   }
+  ]
+ },
+ {
+  "start": 384.38,
+  "end": 385.0,
+  "text": " münasibetni",
+  "words": [
+   {
+    "w": " münasibetni",
+    "s": 384.38,
+    "e": 385.0
+   }
+  ]
+ },
+ {
+  "start": 385.0,
+  "end": 385.48,
+  "text": " korsatada.",
+  "words": [
+   {
+    "w": " korsatada.",
+    "s": 385.0,
+    "e": 385.48
+   }
+  ]
+ },
+ {
+  "start": 385.74,
+  "end": 386.58,
+  "text": " 29.",
+  "words": [
+   {
+    "w": " 29.",
+    "s": 385.74,
+    "e": 386.58
+   }
+  ]
+ },
+ {
+  "start": 387.1,
+  "end": 387.6,
+  "text": " akcabr",
+  "words": [
+   {
+    "w": " akcabr",
+    "s": 387.1,
+    "e": 387.6
+   }
+  ]
+ },
+ {
+  "start": 387.6,
+  "end": 387.86,
+  "text": " dagi",
+  "words": [
+   {
+    "w": " dagi",
+    "s": 387.6,
+    "e": 387.86
+   }
+  ]
+ },
+ {
+  "start": 387.86,
+  "end": 388.38,
+  "text": " qar",
+  "words": [
+   {
+    "w": " qar",
+    "s": 387.86,
+    "e": 388.38
+   }
+  ]
+ },
+ {
+  "start": 388.38,
+  "end": 388.88,
+  "text": " koçkisi",
+  "words": [
+   {
+    "w": " koçkisi",
+    "s": 388.38,
+    "e": 388.88
+   }
+  ]
+ },
+ {
+  "start": 388.88,
+  "end": 390.66,
+  "text": " xalaketden",
+  "words": [
+   {
+    "w": " xalaketden",
+    "s": 388.88,
+    "e": 390.66
+   }
+  ]
+ },
+ {
+  "start": 390.66,
+  "end": 391.56,
+  "text": " 16 gün",
+  "words": [
+   {
+    "w": " 16",
+    "s": 390.66,
+    "e": 391.28
+   },
+   {
+    "w": " gün",
+    "s": 391.28,
+    "e": 391.56
+   }
+  ]
+ },
+ {
+  "start": 391.56,
+  "end": 391.94,
+  "text": " otib",
+  "words": [
+   {
+    "w": " otib",
+    "s": 391.56,
+    "e": 391.94
+   }
+  ]
+ },
+ {
+  "start": 391.94,
+  "end": 392.54,
+  "text": " 29.",
+  "words": [
+   {
+    "w": " 29.",
+    "s": 391.94,
+    "e": 392.54
+   }
+  ]
+ },
+ {
+  "start": 393.0,
+  "end": 393.4,
+  "text": " akcabr",
+  "words": [
+   {
+    "w": " akcabr",
+    "s": 393.0,
+    "e": 393.4
+   }
+  ]
+ },
+ {
+  "start": 393.4,
+  "end": 393.62,
+  "text": " kunu",
+  "words": [
+   {
+    "w": " kunu",
+    "s": 393.4,
+    "e": 393.62
+   }
+  ]
+ },
+ {
+  "start": 393.62,
+  "end": 394.22,
+  "text": " aman",
+  "words": [
+   {
+    "w": " aman",
+    "s": 393.62,
+    "e": 394.22
+   }
+  ]
+ },
+ {
+  "start": 394.22,
+  "end": 394.76,
+  "text": " kalgellar",
+  "words": [
+   {
+    "w": " kalgellar",
+    "s": 394.22,
+    "e": 394.76
+   }
+  ]
+ },
+ {
+  "start": 394.76,
+  "end": 395.24,
+  "text": " yenabir",
+  "words": [
+   {
+    "w": " yenabir",
+    "s": 394.76,
+    "e": 395.24
+   }
+  ]
+ },
+ {
+  "start": 395.24,
+  "end": 395.6,
+  "text": " tabii",
+  "words": [
+   {
+    "w": " tabii",
+    "s": 395.24,
+    "e": 395.6
+   }
+  ]
+ },
+ {
+  "start": 395.6,
+  "end": 396.12,
+  "text": " afetke",
+  "words": [
+   {
+    "w": " afetke",
+    "s": 395.6,
+    "e": 396.12
+   }
+  ]
+ },
+ {
+  "start": 396.12,
+  "end": 396.6,
+  "text": " düçkilgen.",
+  "words": [
+   {
+    "w": " düçkilgen.",
+    "s": 396.12,
+    "e": 396.6
+   }
+  ]
+ },
+ {
+  "start": 397.2,
+  "end": 397.72,
+  "text": " Katta",
+  "words": [
+   {
+    "w": " Katta",
+    "s": 397.2,
+    "e": 397.72
+   }
+  ]
+ },
+ {
+  "start": 397.72,
+  "end": 398.02,
+  "text": " qar",
+  "words": [
+   {
+    "w": " qar",
+    "s": 397.72,
+    "e": 398.02
+   }
+  ]
+ },
+ {
+  "start": 398.02,
+  "end": 398.48,
+  "text": " koçkisi",
+  "words": [
+   {
+    "w": " koçkisi",
+    "s": 398.02,
+    "e": 398.48
+   }
+  ]
+ },
+ {
+  "start": 398.48,
+  "end": 399.24,
+  "text": " samaliyot",
+  "words": [
+   {
+    "w": " samaliyot",
+    "s": 398.48,
+    "e": 399.24
+   }
+  ]
+ },
+ {
+  "start": 399.24,
+  "end": 399.34,
+  "text": " ning",
+  "words": [
+   {
+    "w": " ning",
+    "s": 399.24,
+    "e": 399.34
+   }
+  ]
+ },
+ {
+  "start": 399.34,
+  "end": 399.8,
+  "text": " başbani",
+  "words": [
+   {
+    "w": " başbani",
+    "s": 399.34,
+    "e": 399.8
+   }
+  ]
+ },
+ {
+  "start": 399.8,
+  "end": 400.14,
+  "text": " sfatta",
+  "words": [
+   {
+    "w": " sfatta",
+    "s": 399.8,
+    "e": 400.14
+   }
+  ]
+ },
+ {
+  "start": 400.14,
+  "end": 400.64,
+  "text": " faydalan",
+  "words": [
+   {
+    "w": " faydalan",
+    "s": 400.14,
+    "e": 400.64
+   }
+  ]
+ },
+ {
+  "start": 400.64,
+  "end": 401.06,
+  "text": " leyatken",
+  "words": [
+   {
+    "w": " leyatken",
+    "s": 400.64,
+    "e": 401.06
+   }
+  ]
+ },
+ {
+  "start": 401.06,
+  "end": 401.6,
+  "text": " korpusini",
+  "words": [
+   {
+    "w": " korpusini",
+    "s": 401.06,
+    "e": 401.6
+   }
+  ]
+ },
+ {
+  "start": 401.6,
+  "end": 401.9,
+  "text": " basıb",
+  "words": [
+   {
+    "w": " basıb",
+    "s": 401.6,
+    "e": 401.9
+   }
+  ]
+ },
+ {
+  "start": 401.9,
+  "end": 402.18,
+  "text": " kalgen.",
+  "words": [
+   {
+    "w": " kalgen.",
+    "s": 401.9,
+    "e": 402.18
+   }
+  ]
+ },
+ {
+  "start": 402.76,
+  "end": 403.32,
+  "text": " Naticada",
+  "words": [
+   {
+    "w": " Naticada",
+    "s": 402.76,
+    "e": 403.32
+   }
+  ]
+ },
+ {
+  "start": 403.32,
+  "end": 404.18,
+  "text": " sakis",
+  "words": [
+   {
+    "w": " sakis",
+    "s": 403.32,
+    "e": 404.18
+   }
+  ]
+ },
+ {
+  "start": 404.18,
+  "end": 404.34,
+  "text": " kişi",
+  "words": [
+   {
+    "w": " kişi",
+    "s": 404.18,
+    "e": 404.34
+   }
+  ]
+ },
+ {
+  "start": 404.34,
+  "end": 404.72,
+  "text": " vefat",
+  "words": [
+   {
+    "w": " vefat",
+    "s": 404.34,
+    "e": 404.72
+   }
+  ]
+ },
+ {
+  "start": 404.72,
+  "end": 404.98,
+  "text": " etken.",
+  "words": [
+   {
+    "w": " etken.",
+    "s": 404.72,
+    "e": 404.98
+   }
+  ]
+ },
+ {
+  "start": 405.74,
+  "end": 406.06,
+  "text": " Trik",
+  "words": [
+   {
+    "w": " Trik",
+    "s": 405.74,
+    "e": 406.06
+   }
+  ]
+ },
+ {
+  "start": 406.06,
+  "end": 406.58,
+  "text": " kalgellar",
+  "words": [
+   {
+    "w": " kalgellar",
+    "s": 406.06,
+    "e": 406.58
+   }
+  ]
+ },
+ {
+  "start": 406.58,
+  "end": 406.78,
+  "text": " yasa",
+  "words": [
+   {
+    "w": " yasa",
+    "s": 406.58,
+    "e": 406.78
+   }
+  ]
+ },
+ {
+  "start": 406.78,
+  "end": 407.42,
+  "text": " qar",
+  "words": [
+   {
+    "w": " qar",
+    "s": 406.78,
+    "e": 407.42
+   }
+  ]
+ },
+ {
+  "start": 407.42,
+  "end": 407.82,
+  "text": " astıda",
+  "words": [
+   {
+    "w": " astıda",
+    "s": 407.42,
+    "e": 407.82
+   }
+  ]
+ },
+ {
+  "start": 407.82,
+  "end": 408.12,
+  "text": " kalgen",
+  "words": [
+   {
+    "w": " kalgen",
+    "s": 407.82,
+    "e": 408.12
+   }
+  ]
+ },
+ {
+  "start": 408.12,
+  "end": 408.62,
+  "text": " samaliyot",
+  "words": [
+   {
+    "w": " samaliyot",
+    "s": 408.12,
+    "e": 408.62
+   }
+  ]
+ },
+ {
+  "start": 408.62,
+  "end": 408.86,
+  "text": " içi",
+  "words": [
+   {
+    "w": " içi",
+    "s": 408.62,
+    "e": 408.86
+   }
+  ]
+ },
+ {
+  "start": 408.86,
+  "end": 408.92,
+  "text": " de",
+  "words": [
+   {
+    "w": " de",
+    "s": 408.86,
+    "e": 408.92
+   }
+  ]
+ },
+ {
+  "start": 408.92,
+  "end": 409.46,
+  "text": " bir",
+  "words": [
+   {
+    "w": " bir",
+    "s": 408.92,
+    "e": 409.46
+   }
+  ]
+ },
+ {
+  "start": 409.46,
+  "end": 409.88,
+  "text": " niçakun",
+  "words": [
+   {
+    "w": " niçakun",
+    "s": 409.46,
+    "e": 409.88
+   }
+  ]
+ },
+ {
+  "start": 409.88,
+  "end": 410.24,
+  "text": " davamı",
+  "words": [
+   {
+    "w": " davamı",
+    "s": 409.88,
+    "e": 410.24
+   }
+  ]
+ },
+ {
+  "start": 410.24,
+  "end": 410.38,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 410.24,
+    "e": 410.38
+   }
+  ]
+ },
+ {
+  "start": 410.38,
+  "end": 411.02,
+  "text": " qamal",
+  "words": [
+   {
+    "w": " qamal",
+    "s": 410.38,
+    "e": 411.02
+   }
+  ]
+ },
+ {
+  "start": 411.02,
+  "end": 411.44,
+  "text": " kalgen.",
+  "words": [
+   {
+    "w": " kalgen.",
+    "s": 411.02,
+    "e": 411.44
+   }
+  ]
+ },
+ {
+  "start": 411.96,
+  "end": 412.66,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 411.96,
+    "e": 412.66
+   }
+  ]
+ },
+ {
+  "start": 412.66,
+  "end": 413.12,
+  "text": " qar",
+  "words": [
+   {
+    "w": " qar",
+    "s": 412.66,
+    "e": 413.12
+   }
+  ]
+ },
+ {
+  "start": 413.12,
+  "end": 413.64,
+  "text": " astıdan",
+  "words": [
+   {
+    "w": " astıdan",
+    "s": 413.12,
+    "e": 413.64
+   }
+  ]
+ },
+ {
+  "start": 413.64,
+  "end": 414.06,
+  "text": " çıqış",
+  "words": [
+   {
+    "w": " çıqış",
+    "s": 413.64,
+    "e": 414.06
+   }
+  ]
+ },
+ {
+  "start": 414.06,
+  "end": 414.4,
+  "text": " yolunu",
+  "words": [
+   {
+    "w": " yolunu",
+    "s": 414.06,
+    "e": 414.4
+   }
+  ]
+ },
+ {
+  "start": 420.66,
+  "end": 420.92,
+  "text": " kalgen.",
+  "words": [
+   {
+    "w": " kalgen.",
+    "s": 420.66,
+    "e": 420.92
+   }
+  ]
+ },
+ {
+  "start": 421.22,
+  "end": 422.18,
+  "text": " Nayaab",
+  "words": [
+   {
+    "w": " Nayaab",
+    "s": 421.22,
+    "e": 422.18
+   }
+  ]
+ },
+ {
+  "start": 422.18,
+  "end": 422.48,
+  "text": " rayda",
+  "words": [
+   {
+    "w": " rayda",
+    "s": 422.18,
+    "e": 422.48
+   }
+  ]
+ },
+ {
+  "start": 422.48,
+  "end": 422.8,
+  "text": " yana",
+  "words": [
+   {
+    "w": " yana",
+    "s": 422.48,
+    "e": 422.8
+   }
+  ]
+ },
+ {
+  "start": 422.8,
+  "end": 423.12,
+  "text": " iki",
+  "words": [
+   {
+    "w": " iki",
+    "s": 422.8,
+    "e": 423.12
+   }
+  ]
+ },
+ {
+  "start": 423.12,
+  "end": 423.42,
+  "text": " kişi",
+  "words": [
+   {
+    "w": " kişi",
+    "s": 423.12,
+    "e": 423.42
+   }
+  ]
+ },
+ {
+  "start": 423.42,
+  "end": 424.14,
+  "text": " 11.",
+  "words": [
+   {
+    "w": " 11.",
+    "s": 423.42,
+    "e": 424.14
+   }
+  ]
+ },
+ {
+  "start": 424.4,
+  "end": 424.88,
+  "text": " dekabr",
+  "words": [
+   {
+    "w": " dekabr",
+    "s": 424.4,
+    "e": 424.88
+   }
+  ]
+ },
+ {
+  "start": 424.88,
+  "end": 425.2,
+  "text": " deyse",
+  "words": [
+   {
+    "w": " deyse",
+    "s": 424.88,
+    "e": 425.2
+   }
+  ]
+ },
+ {
+  "start": 425.2,
+  "end": 425.86,
+  "text": " yana",
+  "words": [
+   {
+    "w": " yana",
+    "s": 425.2,
+    "e": 425.86
+   }
+  ]
+ },
+ {
+  "start": 425.86,
+  "end": 426.08,
+  "text": " bir",
+  "words": [
+   {
+    "w": " bir",
+    "s": 425.86,
+    "e": 426.08
+   }
+  ]
+ },
+ {
+  "start": 426.08,
+  "end": 426.36,
+  "text": " kişi",
+  "words": [
+   {
+    "w": " kişi",
+    "s": 426.08,
+    "e": 426.36
+   }
+  ]
+ },
+ {
+  "start": 426.36,
+  "end": 427.04,
+  "text": " vafat",
+  "words": [
+   {
+    "w": " vafat",
+    "s": 426.36,
+    "e": 427.04
+   }
+  ]
+ },
+ {
+  "start": 427.04,
+  "end": 427.32,
+  "text": " etken.",
+  "words": [
+   {
+    "w": " etken.",
+    "s": 427.04,
+    "e": 427.32
+   }
+  ]
+ },
+ {
+  "start": 427.92,
+  "end": 428.64,
+  "text": " Naticada",
+  "words": [
+   {
+    "w": " Naticada",
+    "s": 427.92,
+    "e": 428.64
+   }
+  ]
+ },
+ {
+  "start": 428.64,
+  "end": 429.3,
+  "text": " 45",
+  "words": [
+   {
+    "w": " 45",
+    "s": 428.64,
+    "e": 429.3
+   }
+  ]
+ },
+ {
+  "start": 429.3,
+  "end": 430.0,
+  "text": " kişiden",
+  "words": [
+   {
+    "w": " kişiden",
+    "s": 429.3,
+    "e": 430.0
+   }
+  ]
+ },
+ {
+  "start": 430.0,
+  "end": 430.78,
+  "text": " 16",
+  "words": [
+   {
+    "w": " 16",
+    "s": 430.0,
+    "e": 430.78
+   }
+  ]
+ },
+ {
+  "start": 430.78,
+  "end": 431.22,
+  "text": " nifar",
+  "words": [
+   {
+    "w": " nifar",
+    "s": 430.78,
+    "e": 431.22
+   }
+  ]
+ },
+ {
+  "start": 431.22,
+  "end": 431.56,
+  "text": " trik",
+  "words": [
+   {
+    "w": " trik",
+    "s": 431.22,
+    "e": 431.56
+   }
+  ]
+ },
+ {
+  "start": 431.56,
+  "end": 431.9,
+  "text": " kalgen.",
+  "words": [
+   {
+    "w": " kalgen.",
+    "s": 431.56,
+    "e": 431.9
+   }
+  ]
+ },
+ {
+  "start": 432.58,
+  "end": 432.96,
+  "text": " Ular",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 432.58,
+    "e": 432.96
+   }
+  ]
+ },
+ {
+  "start": 432.96,
+  "end": 433.46,
+  "text": " arasıda",
+  "words": [
+   {
+    "w": " arasıda",
+    "s": 432.96,
+    "e": 433.46
+   }
+  ]
+ },
+ {
+  "start": 433.46,
+  "end": 433.98,
+  "text": " jismani",
+  "words": [
+   {
+    "w": " jismani",
+    "s": 433.46,
+    "e": 433.98
+   }
+  ]
+ },
+ {
+  "start": 433.98,
+  "end": 434.4,
+  "text": " cihatten",
+  "words": [
+   {
+    "w": " cihatten",
+    "s": 433.98,
+    "e": 434.4
+   }
+  ]
+ },
+ {
+  "start": 434.4,
+  "end": 435.4,
+  "text": " nisbeten",
+  "words": [
+   {
+    "w": " nisbeten",
+    "s": 434.4,
+    "e": 435.4
+   }
+  ]
+ },
+ {
+  "start": 435.4,
+  "end": 435.78,
+  "text": " küçüli",
+  "words": [
+   {
+    "w": " küçüli",
+    "s": 435.4,
+    "e": 435.78
+   }
+  ]
+ },
+ {
+  "start": 435.78,
+  "end": 436.12,
+  "text": " bolgen",
+  "words": [
+   {
+    "w": " bolgen",
+    "s": 435.78,
+    "e": 436.12
+   }
+  ]
+ },
+ {
+  "start": 436.12,
+  "end": 436.54,
+  "text": " kişiler",
+  "words": [
+   {
+    "w": " kişiler",
+    "s": 436.12,
+    "e": 436.54
+   }
+  ]
+ },
+ {
+  "start": 436.54,
+  "end": 437.4,
+  "text": " yardem",
+  "words": [
+   {
+    "w": " yardem",
+    "s": 436.54,
+    "e": 437.4
+   }
+  ]
+ },
+ {
+  "start": 437.4,
+  "end": 437.8,
+  "text": " izleş",
+  "words": [
+   {
+    "w": " izleş",
+    "s": 437.4,
+    "e": 437.8
+   }
+  ]
+ },
+ {
+  "start": 437.8,
+  "end": 438.04,
+  "text": " uçun",
+  "words": [
+   {
+    "w": " uçun",
+    "s": 437.8,
+    "e": 438.04
+   }
+  ]
+ },
+ {
+  "start": 438.04,
+  "end": 438.74,
+  "text": " tağırlardan",
+  "words": [
+   {
+    "w": " tağırlardan",
+    "s": 438.04,
+    "e": 438.74
+   }
+  ]
+ },
+ {
+  "start": 438.74,
+  "end": 439.2,
+  "text": " otiş",
+  "words": [
+   {
+    "w": " otiş",
+    "s": 438.74,
+    "e": 439.2
+   }
+  ]
+ },
+ {
+  "start": 439.2,
+  "end": 439.78,
+  "text": " rejəsini",
+  "words": [
+   {
+    "w": " rejəsini",
+    "s": 439.2,
+    "e": 439.78
+   }
+  ]
+ },
+ {
+  "start": 439.78,
+  "end": 440.48,
+  "text": " işlap",
+  "words": [
+   {
+    "w": " işlap",
+    "s": 439.78,
+    "e": 440.48
+   }
+  ]
+ },
+ {
+  "start": 440.48,
+  "end": 440.88,
+  "text": " çıkkan.",
+  "words": [
+   {
+    "w": " çıkkan.",
+    "s": 440.48,
+    "e": 440.88
+   }
+  ]
+ },
+ {
+  "start": 441.32,
+  "end": 441.88,
+  "text": " National",
+  "words": [
+   {
+    "w": " National",
+    "s": 441.32,
+    "e": 441.88
+   }
+  ]
+ },
+ {
+  "start": 441.88,
+  "end": 442.5,
+  "text": " Geographic",
+  "words": [
+   {
+    "w": " Geographic",
+    "s": 441.88,
+    "e": 442.5
+   }
+  ]
+ },
+ {
+  "start": 442.5,
+  "end": 442.9,
+  "text": " Plus",
+  "words": [
+   {
+    "w": " Plus",
+    "s": 442.5,
+    "e": 442.9
+   }
+  ]
+ },
+ {
+  "start": 442.9,
+  "end": 443.1,
+  "text": " bar.",
+  "words": [
+   {
+    "w": " bar.",
+    "s": 442.9,
+    "e": 443.1
+   }
+  ]
+ },
+ {
+  "start": 443.98,
+  "end": 444.94,
+  "text": " Qutqaruv",
+  "words": [
+   {
+    "w": " Qutqaruv",
+    "s": 443.98,
+    "e": 444.94
+   }
+  ]
+ },
+ {
+  "start": 444.94,
+  "end": 445.42,
+  "text": " yulini",
+  "words": [
+   {
+    "w": " yulini",
+    "s": 444.94,
+    "e": 445.42
+   }
+  ]
+ },
+ {
+  "start": 445.42,
+  "end": 446.16,
+  "text": " izleş",
+  "words": [
+   {
+    "w": " izleş",
+    "s": 445.42,
+    "e": 446.16
+   }
+  ]
+ },
+ {
+  "start": 446.16,
+  "end": 447.58,
+  "text": " Amon",
+  "words": [
+   {
+    "w": " Amon",
+    "s": 446.16,
+    "e": 447.58
+   }
+  ]
+ },
+ {
+  "start": 447.58,
+  "end": 448.22,
+  "text": " kalgellar",
+  "words": [
+   {
+    "w": " kalgellar",
+    "s": 447.58,
+    "e": 448.22
+   }
+  ]
+ },
+ {
+  "start": 448.22,
+  "end": 448.7,
+  "text": " avval",
+  "words": [
+   {
+    "w": " avval",
+    "s": 448.22,
+    "e": 448.7
+   }
+  ]
+ },
+ {
+  "start": 448.7,
+  "end": 449.38,
+  "text": " samaliyot",
+  "words": [
+   {
+    "w": " samaliyot",
+    "s": 448.7,
+    "e": 449.38
+   }
+  ]
+ },
+ {
+  "start": 449.38,
+  "end": 449.96,
+  "text": " atrafi dagi",
+  "words": [
+   {
+    "w": " atrafi",
+    "s": 449.38,
+    "e": 449.8
+   },
+   {
+    "w": " dagi",
+    "s": 449.8,
+    "e": 449.96
+   }
+  ]
+ },
+ {
+  "start": 449.96,
+  "end": 450.4,
+  "text": " khududnu",
+  "words": [
+   {
+    "w": " khududnu",
+    "s": 449.96,
+    "e": 450.4
+   }
+  ]
+ },
+ {
+  "start": 450.4,
+  "end": 450.94,
+  "text": " organişke",
+  "words": [
+   {
+    "w": " organişke",
+    "s": 450.4,
+    "e": 450.94
+   }
+  ]
+ },
+ {
+  "start": 450.94,
+  "end": 451.3,
+  "text": " oringen.",
+  "words": [
+   {
+    "w": " oringen.",
+    "s": 450.94,
+    "e": 451.3
+   }
+  ]
+ },
+ {
+  "start": 451.72,
+  "end": 452.26,
+  "text": " 15.",
+  "words": [
+   {
+    "w": " 15.",
+    "s": 451.72,
+    "e": 452.26
+   }
+  ]
+ },
+ {
+  "start": 452.54,
+  "end": 453.12,
+  "text": " nayaaburkun",
+  "words": [
+   {
+    "w": " nayaaburkun",
+    "s": 452.54,
+    "e": 453.12
+   }
+  ]
+ },
+ {
+  "start": 453.12,
+  "end": 453.44,
+  "text": " amalgi",
+  "words": [
+   {
+    "w": " amalgi",
+    "s": 453.12,
+    "e": 453.44
+   }
+  ]
+ },
+ {
+  "start": 453.44,
+  "end": 453.9,
+  "text": " aşırılgen",
+  "words": [
+   {
+    "w": " aşırılgen",
+    "s": 453.44,
+    "e": 453.9
+   }
+  ]
+ },
+ {
+  "start": 453.9,
+  "end": 454.72,
+  "text": " ekspeditsa",
+  "words": [
+   {
+    "w": " ekspeditsa",
+    "s": 453.9,
+    "e": 454.72
+   }
+  ]
+ },
+ {
+  "start": 454.72,
+  "end": 455.14,
+  "text": " davamda",
+  "words": [
+   {
+    "w": " davamda",
+    "s": 454.72,
+    "e": 455.14
+   }
+  ]
+ },
+ {
+  "start": 455.14,
+  "end": 456.04,
+  "text": " samaliyotning",
+  "words": [
+   {
+    "w": " samaliyotning",
+    "s": 455.14,
+    "e": 456.04
+   }
+  ]
+ },
+ {
+  "start": 456.04,
+  "end": 456.62,
+  "text": " ajralib",
+  "words": [
+   {
+    "w": " ajralib",
+    "s": 456.04,
+    "e": 456.62
+   }
+  ]
+ },
+ {
+  "start": 456.62,
+  "end": 456.96,
+  "text": " getgen",
+  "words": [
+   {
+    "w": " getgen",
+    "s": 456.62,
+    "e": 456.96
+   }
+  ]
+ },
+ {
+  "start": 456.96,
+  "end": 457.18,
+  "text": " dum",
+  "words": [
+   {
+    "w": " dum",
+    "s": 456.96,
+    "e": 457.18
+   }
+  ]
+ },
+ {
+  "start": 457.18,
+  "end": 457.56,
+  "text": " qısmı",
+  "words": [
+   {
+    "w": " qısmı",
+    "s": 457.18,
+    "e": 457.56
+   }
+  ]
+ },
+ {
+  "start": 457.56,
+  "end": 457.96,
+  "text": " tapilgen.",
+  "words": [
+   {
+    "w": " tapilgen.",
+    "s": 457.56,
+    "e": 457.96
+   }
+  ]
+ },
+ {
+  "start": 458.48,
+  "end": 459.0,
+  "text": " Uyerden",
+  "words": [
+   {
+    "w": " Uyerden",
+    "s": 458.48,
+    "e": 459.0
+   }
+  ]
+ },
+ {
+  "start": 459.0,
+  "end": 459.38,
+  "text": " ayrım",
+  "words": [
+   {
+    "w": " ayrım",
+    "s": 459.0,
+    "e": 459.38
+   }
+  ]
+ },
+ {
+  "start": 459.38,
+  "end": 459.76,
+  "text": " azok",
+  "words": [
+   {
+    "w": " azok",
+    "s": 459.38,
+    "e": 459.76
+   }
+  ]
+ },
+ {
+  "start": 459.76,
+  "end": 460.14,
+  "text": " avukat",
+  "words": [
+   {
+    "w": " avukat",
+    "s": 459.76,
+    "e": 460.14
+   }
+  ]
+ },
+ {
+  "start": 460.14,
+  "end": 460.32,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 460.14,
+    "e": 460.32
+   }
+  ]
+ },
+ {
+  "start": 460.32,
+  "end": 461.0,
+  "text": " faydali",
+  "words": [
+   {
+    "w": " faydali",
+    "s": 460.32,
+    "e": 461.0
+   }
+  ]
+ },
+ {
+  "start": 461.0,
+  "end": 461.48,
+  "text": " buyumlar",
+  "words": [
+   {
+    "w": " buyumlar",
+    "s": 461.0,
+    "e": 461.48
+   }
+  ]
+ },
+ {
+  "start": 461.48,
+  "end": 461.82,
+  "text": " alingen.",
+  "words": [
+   {
+    "w": " alingen.",
+    "s": 461.48,
+    "e": 461.82
+   }
+  ]
+ },
+ {
+  "start": 462.24,
+  "end": 462.64,
+  "text": " Amma",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 462.24,
+    "e": 462.64
+   }
+  ]
+ },
+ {
+  "start": 462.64,
+  "end": 462.82,
+  "text": " bu",
+  "words": [
+   {
+    "w": " bu",
+    "s": 462.64,
+    "e": 462.82
+   }
+  ]
+ },
+ {
+  "start": 462.82,
+  "end": 463.66,
+  "text": " ekspeditsa",
+  "words": [
+   {
+    "w": " ekspeditsa",
+    "s": 462.82,
+    "e": 463.66
+   }
+  ]
+ },
+ {
+  "start": 463.66,
+  "end": 464.34,
+  "text": " yardem",
+  "words": [
+   {
+    "w": " yardem",
+    "s": 463.66,
+    "e": 464.34
+   }
+  ]
+ },
+ {
+  "start": 464.34,
+  "end": 464.76,
+  "text": " tapışke",
+  "words": [
+   {
+    "w": " tapışke",
+    "s": 464.34,
+    "e": 464.76
+   }
+  ]
+ },
+ {
+  "start": 464.76,
+  "end": 464.96,
+  "text": " alib",
+  "words": [
+   {
+    "w": " alib",
+    "s": 464.76,
+    "e": 464.96
+   }
+  ]
+ },
+ {
+  "start": 464.96,
+  "end": 465.3,
+  "text": " kelime",
+  "words": [
+   {
+    "w": " kelime",
+    "s": 464.96,
+    "e": 465.3
+   }
+  ]
+ },
+ {
+  "start": 465.3,
+  "end": 465.44,
+  "text": " ken.",
+  "words": [
+   {
+    "w": " ken.",
+    "s": 465.3,
+    "e": 465.44
+   }
+  ]
+ },
+ {
+  "start": 466.02,
+  "end": 466.42,
+  "text": " Kein",
+  "words": [
+   {
+    "w": " Kein",
+    "s": 466.02,
+    "e": 466.42
+   }
+  ]
+ },
+ {
+  "start": 466.42,
+  "end": 466.72,
+  "text": " çalik",
+  "words": [
+   {
+    "w": " çalik",
+    "s": 466.42,
+    "e": 466.72
+   }
+  ]
+ },
+ {
+  "start": 466.72,
+  "end": 467.22,
+  "text": " uzaq",
+  "words": [
+   {
+    "w": " uzaq",
+    "s": 466.72,
+    "e": 467.22
+   }
+  ]
+ },
+ {
+  "start": 467.22,
+  "end": 467.74,
+  "text": " masafaga",
+  "words": [
+   {
+    "w": " masafaga",
+    "s": 467.22,
+    "e": 467.74
+   }
+  ]
+ },
+ {
+  "start": 467.74,
+  "end": 468.08,
+  "text": " yoruş",
+  "words": [
+   {
+    "w": " yoruş",
+    "s": 467.74,
+    "e": 468.08
+   }
+  ]
+ },
+ {
+  "start": 468.08,
+  "end": 468.3,
+  "text": " uçun",
+  "words": [
+   {
+    "w": " uçun",
+    "s": 468.08,
+    "e": 468.3
+   }
+  ]
+ },
+ {
+  "start": 468.3,
+  "end": 468.84,
+  "text": " maxsuz",
+  "words": [
+   {
+    "w": " maxsuz",
+    "s": 468.3,
+    "e": 468.84
+   }
+  ]
+ },
+ {
+  "start": 468.84,
+  "end": 469.3,
+  "text": " tayyar",
+  "words": [
+   {
+    "w": " tayyar",
+    "s": 468.84,
+    "e": 469.3
+   }
+  ]
+ },
+ {
+  "start": 469.3,
+  "end": 469.62,
+  "text": " garlik",
+  "words": [
+   {
+    "w": " garlik",
+    "s": 469.3,
+    "e": 469.62
+   }
+  ]
+ },
+ {
+  "start": 469.62,
+  "end": 470.18,
+  "text": " başlanggan.",
+  "words": [
+   {
+    "w": " başlanggan.",
+    "s": 469.62,
+    "e": 470.18
+   }
+  ]
+ },
+ {
+  "start": 470.56,
+  "end": 471.4,
+  "text": " Samaliyotning",
+  "words": [
+   {
+    "w": " Samaliyotning",
+    "s": 470.56,
+    "e": 471.4
+   }
+  ]
+ },
+ {
+  "start": 471.4,
+  "end": 472.02,
+  "text": " izaliyatsa",
+  "words": [
+   {
+    "w": " izaliyatsa",
+    "s": 471.4,
+    "e": 472.02
+   }
+  ]
+ },
+ {
+  "start": 472.02,
+  "end": 472.58,
+  "text": " materiallardan",
+  "words": [
+   {
+    "w": " materiallardan",
+    "s": 472.02,
+    "e": 472.58
+   }
+  ]
+ },
+ {
+  "start": 472.58,
+  "end": 473.22,
+  "text": " faydalanıb",
+  "words": [
+   {
+    "w": " faydalanıb",
+    "s": 472.58,
+    "e": 473.22
+   }
+  ]
+ },
+ {
+  "start": 473.22,
+  "end": 473.88,
+  "text": " soğukta",
+  "words": [
+   {
+    "w": " soğukta",
+    "s": 473.22,
+    "e": 473.88
+   }
+  ]
+ },
+ {
+  "start": 473.88,
+  "end": 474.22,
+  "text": " tunash",
+  "words": [
+   {
+    "w": " tunash",
+    "s": 473.88,
+    "e": 474.22
+   }
+  ]
+ },
+ {
+  "start": 474.22,
+  "end": 474.8,
+  "text": " imkanını",
+  "words": [
+   {
+    "w": " imkanını",
+    "s": 474.22,
+    "e": 474.8
+   }
+  ]
+ },
+ {
+  "start": 474.8,
+  "end": 475.3,
+  "text": " biradigən",
+  "words": [
+   {
+    "w": " biradigən",
+    "s": 474.8,
+    "e": 475.3
+   }
+  ]
+ },
+ {
+  "start": 475.3,
+  "end": 475.94,
+  "text": " uyku",
+  "words": [
+   {
+    "w": " uyku",
+    "s": 475.3,
+    "e": 475.94
+   }
+  ]
+ },
+ {
+  "start": 475.94,
+  "end": 476.36,
+  "text": " qapı",
+  "words": [
+   {
+    "w": " qapı",
+    "s": 475.94,
+    "e": 476.36
+   }
+  ]
+ },
+ {
+  "start": 476.36,
+  "end": 476.94,
+  "text": " tayyarlangan.",
+  "words": [
+   {
+    "w": " tayyarlangan.",
+    "s": 476.36,
+    "e": 476.94
+   }
+  ]
+ },
+ {
+  "start": 477.48,
+  "end": 479.56,
+  "text": " 1972 il",
+  "words": [
+   {
+    "w": " 1972",
+    "s": 477.48,
+    "e": 478.6
+   },
+   {
+    "w": " il",
+    "s": 478.6,
+    "e": 479.56
+   }
+  ]
+ },
+ {
+  "start": 479.56,
+  "end": 480.0,
+  "text": " 12.",
+  "words": [
+   {
+    "w": " 12.",
+    "s": 479.56,
+    "e": 480.0
+   }
+  ]
+ },
+ {
+  "start": 480.16,
+  "end": 480.88,
+  "text": " dekabrkuna",
+  "words": [
+   {
+    "w": " dekabrkuna",
+    "s": 480.16,
+    "e": 480.88
+   }
+  ]
+ },
+ {
+  "start": 480.88,
+  "end": 481.54,
+  "text": " Fernando",
+  "words": [
+   {
+    "w": " Fernando",
+    "s": 480.88,
+    "e": 481.54
+   }
+  ]
+ },
+ {
+  "start": 481.54,
+  "end": 482.2,
+  "text": " Parrado,",
+  "words": [
+   {
+    "w": " Parrado,",
+    "s": 481.54,
+    "e": 482.2
+   }
+  ]
+ },
+ {
+  "start": 482.48,
+  "end": 482.84,
+  "text": " Roberto",
+  "words": [
+   {
+    "w": " Roberto",
+    "s": 482.48,
+    "e": 482.84
+   }
+  ]
+ },
+ {
+  "start": 482.84,
+  "end": 483.4,
+  "text": " Canessa",
+  "words": [
+   {
+    "w": " Canessa",
+    "s": 482.84,
+    "e": 483.4
+   }
+  ]
+ },
+ {
+  "start": 483.4,
+  "end": 483.54,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 483.4,
+    "e": 483.54
+   }
+  ]
+ },
+ {
+  "start": 483.54,
+  "end": 484.26,
+  "text": " Antonio",
+  "words": [
+   {
+    "w": " Antonio",
+    "s": 483.54,
+    "e": 484.26
+   }
+  ]
+ },
+ {
+  "start": 484.26,
+  "end": 485.02,
+  "text": " Vizintin",
+  "words": [
+   {
+    "w": " Vizintin",
+    "s": 484.26,
+    "e": 485.02
+   }
+  ]
+ },
+ {
+  "start": 485.02,
+  "end": 485.8,
+  "text": " yardem",
+  "words": [
+   {
+    "w": " yardem",
+    "s": 485.02,
+    "e": 485.8
+   }
+  ]
+ },
+ {
+  "start": 485.8,
+  "end": 486.22,
+  "text": " izleş",
+  "words": [
+   {
+    "w": " izleş",
+    "s": 485.8,
+    "e": 486.22
+   }
+  ]
+ },
+ {
+  "start": 486.22,
+  "end": 486.5,
+  "text": " ucun",
+  "words": [
+   {
+    "w": " ucun",
+    "s": 486.22,
+    "e": 486.5
+   }
+  ]
+ },
+ {
+  "start": 486.5,
+  "end": 487.0,
+  "text": " yolge",
+  "words": [
+   {
+    "w": " yolge",
+    "s": 486.5,
+    "e": 487.0
+   }
+  ]
+ },
+ {
+  "start": 487.0,
+  "end": 487.4,
+  "text": " çıkkkan.",
+  "words": [
+   {
+    "w": " çıkkkan.",
+    "s": 487.0,
+    "e": 487.4
+   }
+  ]
+ },
+ {
+  "start": 487.72,
+  "end": 488.22,
+  "text": " Ular",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 487.72,
+    "e": 488.22
+   }
+  ]
+ },
+ {
+  "start": 488.22,
+  "end": 488.72,
+  "text": " tağlar",
+  "words": [
+   {
+    "w": " tağlar",
+    "s": 488.22,
+    "e": 488.72
+   }
+  ]
+ },
+ {
+  "start": 488.72,
+  "end": 489.14,
+  "text": " orkali",
+  "words": [
+   {
+    "w": " orkali",
+    "s": 488.72,
+    "e": 489.14
+   }
+  ]
+ },
+ {
+  "start": 489.14,
+  "end": 489.56,
+  "text": " çili",
+  "words": [
+   {
+    "w": " çili",
+    "s": 489.14,
+    "e": 489.56
+   }
+  ]
+ },
+ {
+  "start": 489.56,
+  "end": 490.0,
+  "text": " tomon",
+  "words": [
+   {
+    "w": " tomon",
+    "s": 489.56,
+    "e": 490.0
+   }
+  ]
+ },
+ {
+  "start": 490.0,
+  "end": 490.68,
+  "text": " xarakat",
+  "words": [
+   {
+    "w": " xarakat",
+    "s": 490.0,
+    "e": 490.68
+   }
+  ]
+ },
+ {
+  "start": 490.68,
+  "end": 490.92,
+  "text": " kılış",
+  "words": [
+   {
+    "w": " kılış",
+    "s": 490.68,
+    "e": 490.92
+   }
+  ]
+ },
+ {
+  "start": 490.92,
+  "end": 491.08,
+  "text": " nari",
+  "words": [
+   {
+    "w": " nari",
+    "s": 490.92,
+    "e": 491.08
+   }
+  ]
+ },
+ {
+  "start": 491.08,
+  "end": 491.7,
+  "text": " icel",
+  "words": [
+   {
+    "w": " icelleştirgen.",
+    "s": 491.08,
+    "e": 491.7
+   }
+  ]
+ },
+ {
+  "start": 492.12,
+  "end": 493.08,
+  "text": "leştirgen.",
+  "words": [
+   {
+    "w": " Uç",
+    "s": 492.12,
+    "e": 492.72
+   },
+   {
+    "w": " künlik",
+    "s": 492.72,
+    "e": 493.08
+   }
+  ]
+ },
+ {
+  "start": 493.08,
+  "end": 493.52,
+  "text": " Uç",
+  "words": [
+   {
+    "w": " yoruştan",
+    "s": 493.08,
+    "e": 493.52
+   }
+  ]
+ },
+ {
+  "start": 493.52,
+  "end": 494.32,
+  "text": " künlik",
+  "words": [
+   {
+    "w": " kein",
+    "s": 493.52,
+    "e": 493.84
+   },
+   {
+    "w": " Antonio",
+    "s": 493.84,
+    "e": 494.32
+   }
+  ]
+ },
+ {
+  "start": 494.32,
+  "end": 495.12,
+  "text": " yoruştan",
+  "words": [
+   {
+    "w": " Vizintin",
+    "s": 494.32,
+    "e": 495.12
+   }
+  ]
+ },
+ {
+  "start": 495.12,
+  "end": 495.74,
+  "text": " kein",
+  "words": [
+   {
+    "w": " kalgan",
+    "s": 495.12,
+    "e": 495.74
+   }
+  ]
+ },
+ {
+  "start": 495.74,
+  "end": 496.1,
+  "text": " Antonio",
+  "words": [
+   {
+    "w": " iki",
+    "s": 495.74,
+    "e": 496.1
+   }
+  ]
+ },
+ {
+  "start": 496.1,
+  "end": 496.94,
+  "text": " Vizintin",
+  "words": [
+   {
+    "w": " kişiga",
+    "s": 496.1,
+    "e": 496.52
+   },
+   {
+    "w": " azok",
+    "s": 496.52,
+    "e": 496.94
+   }
+  ]
+ },
+ {
+  "start": 496.94,
+  "end": 497.28,
+  "text": " kalgan",
+  "words": [
+   {
+    "w": " avukat",
+    "s": 496.94,
+    "e": 497.28
+   }
+  ]
+ },
+ {
+  "start": 497.28,
+  "end": 497.64,
+  "text": " iki",
+  "words": [
+   {
+    "w": " zahir",
+    "s": 497.28,
+    "e": 497.64
+   }
+  ]
+ },
+ {
+  "start": 497.64,
+  "end": 497.86,
+  "text": " kişiga",
+  "words": [
+   {
+    "w": " asını",
+    "s": 497.64,
+    "e": 497.86
+   }
+  ]
+ },
+ {
+  "start": 497.86,
+  "end": 498.3,
+  "text": " azok",
+  "words": [
+   {
+    "w": " kaldırıb",
+    "s": 497.86,
+    "e": 498.3
+   }
+  ]
+ },
+ {
+  "start": 498.3,
+  "end": 499.02,
+  "text": " avukat",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 498.3,
+    "e": 499.02
+   }
+  ]
+ },
+ {
+  "start": 499.02,
+  "end": 499.52,
+  "text": " zahir",
+  "words": [
+   {
+    "w": " ke",
+    "s": 499.02,
+    "e": 499.12
+   },
+   {
+    "w": " qayıtkan.",
+    "s": 499.12,
+    "e": 499.52
+   }
+  ]
+ },
+ {
+  "start": 500.08,
+  "end": 500.7,
+  "text": " asını",
+  "words": [
+   {
+    "w": " Parrado",
+    "s": 500.08,
+    "e": 500.7
+   }
+  ]
+ },
+ {
+  "start": 500.7,
+  "end": 502.58,
+  "text": " kaldırıb",
+  "words": [
+   {
+    "w": " ve",
+    "s": 500.7,
+    "e": 500.86
+   },
+   {
+    "w": " Canessa",
+    "s": 500.86,
+    "e": 501.26
+   },
+   {
+    "w": " ekspeditsanı",
+    "s": 501.26,
+    "e": 502.58
+   }
+  ]
+ },
+ {
+  "start": 502.58,
+  "end": 503.68,
+  "text": " Samaliyot",
+  "words": [
+   {
+    "w": " devam",
+    "s": 502.58,
+    "e": 503.14
+   },
+   {
+    "w": " ettirgen.",
+    "s": 503.14,
+    "e": 503.68
+   }
+  ]
+ },
+ {
+  "start": 504.26,
+  "end": 504.74,
+  "text": " ke",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 504.26,
+    "e": 504.74
+   }
+  ]
+ },
+ {
+  "start": 504.74,
+  "end": 505.64,
+  "text": " qayıtkan.",
+  "words": [
+   {
+    "w": " karli",
+    "s": 504.74,
+    "e": 505.3
+   },
+   {
+    "w": " çoq",
+    "s": 505.3,
+    "e": 505.64
+   }
+  ]
+ },
+ {
+  "start": 505.64,
+  "end": 505.84,
+  "text": " Parrado",
+  "words": [
+   {
+    "w": " lar,",
+    "s": 505.64,
+    "e": 505.84
+   }
+  ]
+ },
+ {
+  "start": 506.16,
+  "end": 506.56,
+  "text": " ve",
+  "words": [
+   {
+    "w": " balan",
+    "s": 506.16,
+    "e": 506.56
+   }
+  ]
+ },
+ {
+  "start": 506.56,
+  "end": 506.9,
+  "text": " Canessa",
+  "words": [
+   {
+    "w": " tağ",
+    "s": 506.56,
+    "e": 506.9
+   }
+  ]
+ },
+ {
+  "start": 506.9,
+  "end": 507.28,
+  "text": " ekspeditsanı",
+  "words": [
+   {
+    "w": " yolları",
+    "s": 506.9,
+    "e": 507.28
+   }
+  ]
+ },
+ {
+  "start": 502.62,
+  "end": 503.24,
+  "text": " devam",
+  "words": []
+ },
+ {
+  "start": 503.24,
+  "end": 503.72,
+  "text": " ettirgen.",
+  "words": []
+ },
+ {
+  "start": 504.48,
+  "end": 504.76,
+  "text": " Ular",
+  "words": []
+ },
+ {
+  "start": 504.76,
+  "end": 505.32,
+  "text": " karli",
+  "words": []
+ },
+ {
+  "start": 505.32,
+  "end": 505.64,
+  "text": " çoq",
+  "words": []
+ },
+ {
+  "start": 505.64,
+  "end": 505.94,
+  "text": " lar,",
+  "words": []
+ },
+ {
+  "start": 506.24,
+  "end": 506.6,
+  "text": " balan",
+  "words": []
+ },
+ {
+  "start": 506.6,
+  "end": 506.92,
+  "text": " tağ",
+  "words": []
+ },
+ {
+  "start": 506.92,
+  "end": 507.3,
+  "text": " yolları",
+  "words": []
+ },
+ {
+  "start": 507.28,
+  "end": 507.4,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 507.28,
+    "e": 507.4
+   }
+  ]
+ },
+ {
+  "start": 507.4,
+  "end": 508.18,
+  "text": " murakab",
+  "words": [
+   {
+    "w": " murakab",
+    "s": 507.4,
+    "e": 508.18
+   }
+  ]
+ },
+ {
+  "start": 508.18,
+  "end": 508.66,
+  "text": " reliyaf",
+  "words": [
+   {
+    "w": " reliyaf",
+    "s": 508.18,
+    "e": 508.66
+   }
+  ]
+ },
+ {
+  "start": 508.66,
+  "end": 509.1,
+  "text": " arqali",
+  "words": [
+   {
+    "w": " arqali",
+    "s": 508.66,
+    "e": 509.1
+   }
+  ]
+ },
+ {
+  "start": 509.1,
+  "end": 509.76,
+  "text": " xarakat",
+  "words": [
+   {
+    "w": " xarakat",
+    "s": 509.1,
+    "e": 509.76
+   }
+  ]
+ },
+ {
+  "start": 509.76,
+  "end": 510.02,
+  "text": " lengan.",
+  "words": [
+   {
+    "w": " lengan.",
+    "s": 509.76,
+    "e": 510.02
+   }
+  ]
+ },
+ {
+  "start": 510.3,
+  "end": 511.12,
+  "text": " Yoneliş",
+  "words": [
+   {
+    "w": " Yoneliş",
+    "s": 510.3,
+    "e": 511.12
+   }
+  ]
+ },
+ {
+  "start": 511.12,
+  "end": 511.56,
+  "text": " haritası",
+  "words": [
+   {
+    "w": " haritası",
+    "s": 511.12,
+    "e": 511.56
+   }
+  ]
+ },
+ {
+  "start": 511.56,
+  "end": 511.74,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 511.56,
+    "e": 511.74
+   }
+  ]
+ },
+ {
+  "start": 511.74,
+  "end": 512.64,
+  "text": " zamanıvi",
+  "words": [
+   {
+    "w": " zamanıvi",
+    "s": 511.74,
+    "e": 512.64
+   }
+  ]
+ },
+ {
+  "start": 512.64,
+  "end": 513.16,
+  "text": " navigats",
+  "words": [
+   {
+    "w": " navigats",
+    "s": 512.64,
+    "e": 513.16
+   }
+  ]
+ },
+ {
+  "start": 513.16,
+  "end": 513.74,
+  "text": " korulmaları",
+  "words": [
+   {
+    "w": " korulmaları",
+    "s": 513.16,
+    "e": 513.74
+   }
+  ]
+ },
+ {
+  "start": 513.74,
+  "end": 514.08,
+  "text": " mevgud",
+  "words": [
+   {
+    "w": " mevgud",
+    "s": 513.74,
+    "e": 514.08
+   }
+  ]
+ },
+ {
+  "start": 514.08,
+  "end": 514.3,
+  "text": " bol",
+  "words": [
+   {
+    "w": " bol",
+    "s": 514.08,
+    "e": 514.3
+   }
+  ]
+ },
+ {
+  "start": 514.3,
+  "end": 514.58,
+  "text": " magan.",
+  "words": [
+   {
+    "w": " magan.",
+    "s": 514.3,
+    "e": 514.58
+   }
+  ]
+ },
+ {
+  "start": 514.86,
+  "end": 515.4,
+  "text": " Pundan",
+  "words": [
+   {
+    "w": " Pundan",
+    "s": 514.86,
+    "e": 515.4
+   }
+  ]
+ },
+ {
+  "start": 515.4,
+  "end": 515.74,
+  "text": " tashkar",
+  "words": [
+   {
+    "w": " tashkar",
+    "s": 515.4,
+    "e": 515.74
+   }
+  ]
+ },
+ {
+  "start": 515.74,
+  "end": 516.54,
+  "text": " ikkele",
+  "words": [
+   {
+    "w": " ikkele",
+    "s": 515.74,
+    "e": 516.54
+   }
+  ]
+ },
+ {
+  "start": 516.54,
+  "end": 516.8,
+  "text": " insan",
+  "words": [
+   {
+    "w": " insan",
+    "s": 516.54,
+    "e": 516.8
+   }
+  ]
+ },
+ {
+  "start": 516.8,
+  "end": 517.0,
+  "text": " nin",
+  "words": [
+   {
+    "w": " nin",
+    "s": 516.8,
+    "e": 517.0
+   }
+  ]
+ },
+ {
+  "start": 517.0,
+  "end": 517.66,
+  "text": " erganizm",
+  "words": [
+   {
+    "w": " erganizm",
+    "s": 517.0,
+    "e": 517.66
+   }
+  ]
+ },
+ {
+  "start": 517.66,
+  "end": 517.84,
+  "text": " ham",
+  "words": [
+   {
+    "w": " ham",
+    "s": 517.66,
+    "e": 517.84
+   }
+  ]
+ },
+ {
+  "start": 517.84,
+  "end": 518.52,
+  "text": " ikke",
+  "words": [
+   {
+    "w": " ikke",
+    "s": 517.84,
+    "e": 518.52
+   }
+  ]
+ },
+ {
+  "start": 518.52,
+  "end": 518.88,
+  "text": " aydan",
+  "words": [
+   {
+    "w": " aydan",
+    "s": 518.52,
+    "e": 518.88
+   }
+  ]
+ },
+ {
+  "start": 518.88,
+  "end": 519.22,
+  "text": " artıq",
+  "words": [
+   {
+    "w": " artıq",
+    "s": 518.88,
+    "e": 519.22
+   }
+  ]
+ },
+ {
+  "start": 519.22,
+  "end": 519.78,
+  "text": " davam etken",
+  "words": [
+   {
+    "w": " davam",
+    "s": 519.22,
+    "e": 519.56
+   },
+   {
+    "w": " etken",
+    "s": 519.56,
+    "e": 519.78
+   }
+  ]
+ },
+ {
+  "start": 519.78,
+  "end": 520.46,
+  "text": " açlilik",
+  "words": [
+   {
+    "w": " açlilik",
+    "s": 519.78,
+    "e": 520.46
+   }
+  ]
+ },
+ {
+  "start": 520.46,
+  "end": 520.62,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 520.46,
+    "e": 520.62
+   }
+  ]
+ },
+ {
+  "start": 520.62,
+  "end": 521.06,
+  "text": " sovuk",
+  "words": [
+   {
+    "w": " sovuk",
+    "s": 520.62,
+    "e": 521.06
+   }
+  ]
+ },
+ {
+  "start": 521.06,
+  "end": 521.48,
+  "text": " tıfayli",
+  "words": [
+   {
+    "w": " tıfayli",
+    "s": 521.06,
+    "e": 521.48
+   }
+  ]
+ },
+ {
+  "start": 521.48,
+  "end": 522.18,
+  "text": " zayıf",
+  "words": [
+   {
+    "w": " zayıf",
+    "s": 521.48,
+    "e": 522.18
+   }
+  ]
+ },
+ {
+  "start": 522.18,
+  "end": 522.54,
+  "text": " lashken",
+  "words": [
+   {
+    "w": " lashken",
+    "s": 522.18,
+    "e": 522.54
+   }
+  ]
+ },
+ {
+  "start": 522.54,
+  "end": 522.72,
+  "text": " edhe.",
+  "words": [
+   {
+    "w": " edhe.",
+    "s": 522.54,
+    "e": 522.72
+   }
+  ]
+ },
+ {
+  "start": 523.38,
+  "end": 523.84,
+  "text": " Şunge",
+  "words": [
+   {
+    "w": " Şunge",
+    "s": 523.38,
+    "e": 523.84
+   }
+  ]
+ },
+ {
+  "start": 523.84,
+  "end": 524.26,
+  "text": " karamay",
+  "words": [
+   {
+    "w": " karamay",
+    "s": 523.84,
+    "e": 524.26
+   }
+  ]
+ },
+ {
+  "start": 524.26,
+  "end": 524.76,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 524.26,
+    "e": 524.76
+   }
+  ]
+ },
+ {
+  "start": 524.76,
+  "end": 525.18,
+  "text": " tağ",
+  "words": [
+   {
+    "w": " tağ",
+    "s": 524.76,
+    "e": 525.18
+   }
+  ]
+ },
+ {
+  "start": 525.18,
+  "end": 525.62,
+  "text": " tızması",
+  "words": [
+   {
+    "w": " tızması",
+    "s": 525.18,
+    "e": 525.62
+   }
+  ]
+ },
+ {
+  "start": 525.62,
+  "end": 525.72,
+  "text": " dan",
+  "words": [
+   {
+    "w": " dan",
+    "s": 525.62,
+    "e": 525.72
+   }
+  ]
+ },
+ {
+  "start": 525.72,
+  "end": 526.1,
+  "text": " otib",
+  "words": [
+   {
+    "w": " otib",
+    "s": 525.72,
+    "e": 526.1
+   }
+  ]
+ },
+ {
+  "start": 526.1,
+  "end": 526.82,
+  "text": " pastra",
+  "words": [
+   {
+    "w": " pastra",
+    "s": 526.1,
+    "e": 526.82
+   }
+  ]
+ },
+ {
+  "start": 526.82,
+  "end": 527.2,
+  "text": " khudud",
+  "words": [
+   {
+    "w": " khudud",
+    "s": 526.82,
+    "e": 527.2
+   }
+  ]
+ },
+ {
+  "start": 527.2,
+  "end": 527.38,
+  "text": " dar",
+  "words": [
+   {
+    "w": " dar",
+    "s": 527.2,
+    "e": 527.38
+   }
+  ]
+ },
+ {
+  "start": 527.38,
+  "end": 527.7,
+  "text": " giyid",
+  "words": [
+   {
+    "w": " giyid",
+    "s": 527.38,
+    "e": 527.7
+   }
+  ]
+ },
+ {
+  "start": 527.7,
+  "end": 528.12,
+  "text": " bargan.",
+  "words": [
+   {
+    "w": " bargan.",
+    "s": 527.7,
+    "e": 528.12
+   }
+  ]
+ },
+ {
+  "start": 528.96,
+  "end": 529.48,
+  "text": " Yigriman",
+  "words": [
+   {
+    "w": " Yigriman",
+    "s": 528.96,
+    "e": 529.48
+   }
+  ]
+ },
+ {
+  "start": 529.48,
+  "end": 529.62,
+  "text": " çi",
+  "words": [
+   {
+    "w": " çi",
+    "s": 529.48,
+    "e": 529.62
+   }
+  ]
+ },
+ {
+  "start": 529.62,
+  "end": 530.08,
+  "text": " dəkabr",
+  "words": [
+   {
+    "w": " dəkabr",
+    "s": 529.62,
+    "e": 530.08
+   }
+  ]
+ },
+ {
+  "start": 530.08,
+  "end": 530.92,
+  "text": " Brinç",
+  "words": [
+   {
+    "w": " Brinç",
+    "s": 530.08,
+    "e": 530.92
+   }
+  ]
+ },
+ {
+  "start": 530.92,
+  "end": 531.44,
+  "text": " alaqa",
+  "words": [
+   {
+    "w": " alaqa",
+    "s": 530.92,
+    "e": 531.44
+   }
+  ]
+ },
+ {
+  "start": 532.06,
+  "end": 532.68,
+  "text": " Brinç",
+  "words": [
+   {
+    "w": " Brinç",
+    "s": 532.06,
+    "e": 532.68
+   }
+  ]
+ },
+ {
+  "start": 532.68,
+  "end": 533.1,
+  "text": " kujiz",
+  "words": [
+   {
+    "w": " kujiz",
+    "s": 532.68,
+    "e": 533.1
+   }
+  ]
+ },
+ {
+  "start": 533.1,
+  "end": 533.38,
+  "text": " yetmiş",
+  "words": [
+   {
+    "w": " yetmiş",
+    "s": 533.1,
+    "e": 533.38
+   }
+  ]
+ },
+ {
+  "start": 533.38,
+  "end": 533.88,
+  "text": " kinçil",
+  "words": [
+   {
+    "w": " kinçil",
+    "s": 533.38,
+    "e": 533.88
+   }
+  ]
+ },
+ {
+  "start": 533.88,
+  "end": 534.34,
+  "text": " İgriman",
+  "words": [
+   {
+    "w": " İgriman",
+    "s": 533.88,
+    "e": 534.34
+   }
+  ]
+ },
+ {
+  "start": 534.34,
+  "end": 534.46,
+  "text": " çi",
+  "words": [
+   {
+    "w": " çi",
+    "s": 534.34,
+    "e": 534.46
+   }
+  ]
+ },
+ {
+  "start": 534.46,
+  "end": 534.82,
+  "text": " dəkabr",
+  "words": [
+   {
+    "w": " dəkabr",
+    "s": 534.46,
+    "e": 534.82
+   }
+  ]
+ },
+ {
+  "start": 534.82,
+  "end": 535.02,
+  "text": " kuna",
+  "words": [
+   {
+    "w": " kuna",
+    "s": 534.82,
+    "e": 535.02
+   }
+  ]
+ },
+ {
+  "start": 535.02,
+  "end": 535.74,
+  "text": " Fernando",
+  "words": [
+   {
+    "w": " Fernando",
+    "s": 535.02,
+    "e": 535.74
+   }
+  ]
+ },
+ {
+  "start": 535.74,
+  "end": 536.26,
+  "text": " Parrado",
+  "words": [
+   {
+    "w": " Parrado",
+    "s": 535.74,
+    "e": 536.26
+   }
+  ]
+ },
+ {
+  "start": 536.26,
+  "end": 536.78,
+  "text": " Vrabirto",
+  "words": [
+   {
+    "w": " Vrabirto",
+    "s": 536.26,
+    "e": 536.78
+   }
+  ]
+ },
+ {
+  "start": 536.78,
+  "end": 537.1,
+  "text": " Ganes",
+  "words": [
+   {
+    "w": " Ganes",
+    "s": 536.78,
+    "e": 537.1
+   }
+  ]
+ },
+ {
+  "start": 537.1,
+  "end": 537.88,
+  "text": " çili",
+  "words": [
+   {
+    "w": " çili",
+    "s": 537.1,
+    "e": 537.88
+   }
+  ]
+ },
+ {
+  "start": 537.88,
+  "end": 538.44,
+  "text": " hududda",
+  "words": [
+   {
+    "w": " hududda",
+    "s": 537.88,
+    "e": 538.44
+   }
+  ]
+ },
+ {
+  "start": 538.44,
+  "end": 539.2,
+  "text": " makhalli",
+  "words": [
+   {
+    "w": " makhalli",
+    "s": 538.44,
+    "e": 539.2
+   }
+  ]
+ },
+ {
+  "start": 539.2,
+  "end": 539.8,
+  "text": " çarvadar",
+  "words": [
+   {
+    "w": " çarvadar",
+    "s": 539.2,
+    "e": 539.8
+   }
+  ]
+ },
+ {
+  "start": 539.8,
+  "end": 540.4,
+  "text": " Sergio",
+  "words": [
+   {
+    "w": " Sergio",
+    "s": 539.8,
+    "e": 540.4
+   }
+  ]
+ },
+ {
+  "start": 540.4,
+  "end": 540.98,
+  "text": " Katalan",
+  "words": [
+   {
+    "w": " Katalan",
+    "s": 540.4,
+    "e": 540.98
+   }
+  ]
+ },
+ {
+  "start": 540.98,
+  "end": 541.64,
+  "text": " nöcretken.",
+  "words": [
+   {
+    "w": " nöcretken.",
+    "s": 540.98,
+    "e": 541.64
+   }
+  ]
+ },
+ {
+  "start": 542.28,
+  "end": 542.44,
+  "text": " Ular",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 542.28,
+    "e": 542.44
+   }
+  ]
+ },
+ {
+  "start": 542.44,
+  "end": 542.6,
+  "text": " dar",
+  "words": [
+   {
+    "w": " dar",
+    "s": 542.44,
+    "e": 542.6
+   }
+  ]
+ },
+ {
+  "start": 542.6,
+  "end": 542.86,
+  "text": " yon",
+  "words": [
+   {
+    "w": " yon",
+    "s": 542.6,
+    "e": 542.86
+   }
+  ]
+ },
+ {
+  "start": 542.86,
+  "end": 543.34,
+  "text": " karam",
+  "words": [
+   {
+    "w": " karam",
+    "s": 542.86,
+    "e": 543.34
+   }
+  ]
+ },
+ {
+  "start": 543.34,
+  "end": 543.7,
+  "text": " karşı",
+  "words": [
+   {
+    "w": " karşı",
+    "s": 543.34,
+    "e": 543.7
+   }
+  ]
+ },
+ {
+  "start": 543.7,
+  "end": 544.14,
+  "text": " tamanlard",
+  "words": [
+   {
+    "w": " tamanlard",
+    "s": 543.7,
+    "e": 544.14
+   }
+  ]
+ },
+ {
+  "start": 544.14,
+  "end": 544.46,
+  "text": " bolgan",
+  "words": [
+   {
+    "w": " bolgan",
+    "s": 544.14,
+    "e": 544.46
+   }
+  ]
+ },
+ {
+  "start": 544.46,
+  "end": 544.94,
+  "text": " sababli",
+  "words": [
+   {
+    "w": " sababli",
+    "s": 544.46,
+    "e": 544.94
+   }
+  ]
+ },
+ {
+  "start": 544.94,
+  "end": 545.76,
+  "text": " avaz",
+  "words": [
+   {
+    "w": " avaz",
+    "s": 544.94,
+    "e": 545.76
+   }
+  ]
+ },
+ {
+  "start": 545.76,
+  "end": 546.1,
+  "text": " arqali",
+  "words": [
+   {
+    "w": " arqali",
+    "s": 545.76,
+    "e": 546.1
+   }
+  ]
+ },
+ {
+  "start": 546.1,
+  "end": 546.58,
+  "text": " mulaqat",
+  "words": [
+   {
+    "w": " mulaqat",
+    "s": 546.1,
+    "e": 546.58
+   }
+  ]
+ },
+ {
+  "start": 546.58,
+  "end": 546.86,
+  "text": " kliş",
+  "words": [
+   {
+    "w": " kliş",
+    "s": 546.58,
+    "e": 546.86
+   }
+  ]
+ },
+ {
+  "start": 546.86,
+  "end": 547.38,
+  "text": " qiyin",
+  "words": [
+   {
+    "w": " qiyin",
+    "s": 546.86,
+    "e": 547.38
+   }
+  ]
+ },
+ {
+  "start": 547.38,
+  "end": 547.76,
+  "text": " keçken.",
+  "words": [
+   {
+    "w": " keçken.",
+    "s": 547.38,
+    "e": 547.76
+   }
+  ]
+ },
+ {
+  "start": 548.18,
+  "end": 548.6,
+  "text": " Şundan",
+  "words": [
+   {
+    "w": " Şundan",
+    "s": 548.18,
+    "e": 548.6
+   }
+  ]
+ },
+ {
+  "start": 548.6,
+  "end": 548.78,
+  "text": " son",
+  "words": [
+   {
+    "w": " son",
+    "s": 548.6,
+    "e": 548.78
+   }
+  ]
+ },
+ {
+  "start": 548.78,
+  "end": 549.62,
+  "text": " yazma",
+  "words": [
+   {
+    "w": " yazma",
+    "s": 548.78,
+    "e": 549.62
+   }
+  ]
+ },
+ {
+  "start": 549.62,
+  "end": 549.98,
+  "text": " khabar",
+  "words": [
+   {
+    "w": " khabar",
+    "s": 549.62,
+    "e": 549.98
+   }
+  ]
+ },
+ {
+  "start": 549.98,
+  "end": 550.34,
+  "text": " yardama",
+  "words": [
+   {
+    "w": " yardama",
+    "s": 549.98,
+    "e": 550.34
+   }
+  ]
+ },
+ {
+  "start": 550.34,
+  "end": 550.48,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 550.34,
+    "e": 550.48
+   }
+  ]
+ },
+ {
+  "start": 550.48,
+  "end": 551.06,
+  "text": " alaq",
+  "words": [
+   {
+    "w": " alaq",
+    "s": 550.48,
+    "e": 551.06
+   }
+  ]
+ },
+ {
+  "start": 551.06,
+  "end": 551.3,
+  "text": " ornat",
+  "words": [
+   {
+    "w": " ornat",
+    "s": 551.06,
+    "e": 551.3
+   }
+  ]
+ },
+ {
+  "start": 551.3,
+  "end": 552.66,
+  "text": " xabarda",
+  "words": [
+   {
+    "w": " xabarda",
+    "s": 551.3,
+    "e": 552.66
+   }
+  ]
+ },
+ {
+  "start": 552.66,
+  "end": 553.0,
+  "text": " ular",
+  "words": [
+   {
+    "w": " ular",
+    "s": 552.66,
+    "e": 553.0
+   }
+  ]
+ },
+ {
+  "start": 553.0,
+  "end": 553.92,
+  "text": " Uruguay",
+  "words": [
+   {
+    "w": " Uruguay",
+    "s": 553.0,
+    "e": 553.92
+   }
+  ]
+ },
+ {
+  "start": 553.92,
+  "end": 554.48,
+  "text": " Samaliyot",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 553.92,
+    "e": 554.48
+   }
+  ]
+ },
+ {
+  "start": 554.48,
+  "end": 555.24,
+  "text": " halakətidən",
+  "words": [
+   {
+    "w": " halakətidən",
+    "s": 554.48,
+    "e": 555.24
+   }
+  ]
+ },
+ {
+  "start": 555.24,
+  "end": 555.58,
+  "text": " aman",
+  "words": [
+   {
+    "w": " aman",
+    "s": 555.24,
+    "e": 555.58
+   }
+  ]
+ },
+ {
+  "start": 555.58,
+  "end": 556.26,
+  "text": " qalganini",
+  "words": [
+   {
+    "w": " qalganini",
+    "s": 555.58,
+    "e": 556.26
+   }
+  ]
+ },
+ {
+  "start": 556.26,
+  "end": 556.48,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 556.26,
+    "e": 556.48
+   }
+  ]
+ },
+ {
+  "start": 556.48,
+  "end": 557.4,
+  "text": " tağlarda",
+  "words": [
+   {
+    "w": " tağlarda",
+    "s": 556.48,
+    "e": 557.4
+   }
+  ]
+ },
+ {
+  "start": 557.4,
+  "end": 557.66,
+  "text": " yana",
+  "words": [
+   {
+    "w": " yana",
+    "s": 557.4,
+    "e": 557.66
+   }
+  ]
+ },
+ {
+  "start": 557.66,
+  "end": 558.64,
+  "text": " 14 kişi",
+  "words": [
+   {
+    "w": " 14",
+    "s": 557.66,
+    "e": 558.22
+   },
+   {
+    "w": " kişi",
+    "s": 558.22,
+    "e": 558.64
+   }
+  ]
+ },
+ {
+  "start": 558.64,
+  "end": 559.12,
+  "text": " qalganini",
+  "words": [
+   {
+    "w": " qalganini",
+    "s": 558.64,
+    "e": 559.12
+   }
+  ]
+ },
+ {
+  "start": 559.12,
+  "end": 559.52,
+  "text": " bildirgin.",
+  "words": [
+   {
+    "w": " bildirgin.",
+    "s": 559.12,
+    "e": 559.52
+   }
+  ]
+ },
+ {
+  "start": 560.52,
+  "end": 560.84,
+  "text": " Sergio",
+  "words": [
+   {
+    "w": " Sergio",
+    "s": 560.52,
+    "e": 560.84
+   }
+  ]
+ },
+ {
+  "start": 560.84,
+  "end": 561.4,
+  "text": " Katalan",
+  "words": [
+   {
+    "w": " Katalan",
+    "s": 560.84,
+    "e": 561.4
+   }
+  ]
+ },
+ {
+  "start": 561.4,
+  "end": 562.28,
+  "text": " Makhalli",
+  "words": [
+   {
+    "w": " Makhalli",
+    "s": 561.4,
+    "e": 562.28
+   }
+  ]
+ },
+ {
+  "start": 562.28,
+  "end": 562.86,
+  "text": " Hakimiyyat",
+  "words": [
+   {
+    "w": " Hakimiyyat",
+    "s": 562.28,
+    "e": 562.86
+   }
+  ]
+ },
+ {
+  "start": 562.86,
+  "end": 563.02,
+  "text": " ve",
+  "words": [
+   {
+    "w": " ve",
+    "s": 562.86,
+    "e": 563.02
+   }
+  ]
+ },
+ {
+  "start": 563.02,
+  "end": 563.44,
+  "text": " Qutqaro",
+  "words": [
+   {
+    "w": " Qutqaro",
+    "s": 563.02,
+    "e": 563.44
+   }
+  ]
+ },
+ {
+  "start": 563.44,
+  "end": 564.24,
+  "text": " xizmetlərigə",
+  "words": [
+   {
+    "w": " xizmetlərigə",
+    "s": 563.44,
+    "e": 564.24
+   }
+  ]
+ },
+ {
+  "start": 564.24,
+  "end": 564.78,
+  "text": " xabar",
+  "words": [
+   {
+    "w": " xabar",
+    "s": 564.24,
+    "e": 564.78
+   }
+  ]
+ },
+ {
+  "start": 564.78,
+  "end": 565.08,
+  "text": " bergin.",
+  "words": [
+   {
+    "w": " bergin.",
+    "s": 564.78,
+    "e": 565.08
+   }
+  ]
+ },
+ {
+  "start": 566.08,
+  "end": 566.28,
+  "text": " Bu",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 566.08,
+    "e": 566.28
+   }
+  ]
+ },
+ {
+  "start": 566.28,
+  "end": 566.86,
+  "text": " malumat",
+  "words": [
+   {
+    "w": " malumat",
+    "s": 566.28,
+    "e": 566.86
+   }
+  ]
+ },
+ {
+  "start": 566.86,
+  "end": 567.58,
+  "text": " dəslab",
+  "words": [
+   {
+    "w": " dəslab",
+    "s": 566.86,
+    "e": 567.58
+   }
+  ]
+ },
+ {
+  "start": 567.58,
+  "end": 567.98,
+  "text": " kette",
+  "words": [
+   {
+    "w": " kette",
+    "s": 567.58,
+    "e": 567.98
+   }
+  ]
+ },
+ {
+  "start": 567.98,
+  "end": 568.42,
+  "text": " hayrat",
+  "words": [
+   {
+    "w": " hayrat",
+    "s": 567.98,
+    "e": 568.42
+   }
+  ]
+ },
+ {
+  "start": 568.42,
+  "end": 568.66,
+  "text": " blan",
+  "words": [
+   {
+    "w": " blan",
+    "s": 568.42,
+    "e": 568.66
+   }
+  ]
+ },
+ {
+  "start": 568.66,
+  "end": 569.04,
+  "text": " qabul",
+  "words": [
+   {
+    "w": " qabul",
+    "s": 568.66,
+    "e": 569.04
+   }
+  ]
+ },
+ {
+  "start": 569.04,
+  "end": 569.28,
+  "text": " qilin",
+  "words": [
+   {
+    "w": " qilin",
+    "s": 569.04,
+    "e": 569.28
+   }
+  ]
+ },
+ {
+  "start": 569.28,
+  "end": 569.48,
+  "text": " gyan.",
+  "words": [
+   {
+    "w": " gyan.",
+    "s": 569.28,
+    "e": 569.48
+   }
+  ]
+ },
+ {
+  "start": 569.94,
+  "end": 570.28,
+  "text": " Çünki",
+  "words": [
+   {
+    "w": " Çünki",
+    "s": 569.94,
+    "e": 570.28
+   }
+  ]
+ },
+ {
+  "start": 570.28,
+  "end": 571.88,
+  "text": " 571-nç",
+  "words": [
+   {
+    "w": " 571",
+    "s": 570.28,
+    "e": 571.62
+   },
+   {
+    "w": "-nç",
+    "s": 571.62,
+    "e": 571.88
+   }
+  ]
+ },
+ {
+  "start": 571.88,
+  "end": 572.24,
+  "text": " reis",
+  "words": [
+   {
+    "w": " reis",
+    "s": 571.88,
+    "e": 572.24
+   }
+  ]
+ },
+ {
+  "start": 572.24,
+  "end": 572.96,
+  "text": " yulavucuları",
+  "words": [
+   {
+    "w": " yulavucuları",
+    "s": 572.24,
+    "e": 572.96
+   }
+  ]
+ },
+ {
+  "start": 572.96,
+  "end": 573.54,
+  "text": " 2",
+  "words": [
+   {
+    "w": " 2",
+    "s": 572.96,
+    "e": 573.54
+   }
+  ]
+ },
+ {
+  "start": 573.54,
+  "end": 574.02,
+  "text": " aydan",
+  "words": [
+   {
+    "w": " aydan",
+    "s": 573.54,
+    "e": 574.02
+   }
+  ]
+ },
+ {
+  "start": 574.02,
+  "end": 574.6,
+  "text": " artıq",
+  "words": [
+   {
+    "w": " artıq",
+    "s": 574.02,
+    "e": 574.6
+   }
+  ]
+ },
+ {
+  "start": 574.6,
+  "end": 574.9,
+  "text": " vaxt",
+  "words": [
+   {
+    "w": " vaxt",
+    "s": 574.6,
+    "e": 574.9
+   }
+  ]
+ },
+ {
+  "start": 574.9,
+  "end": 575.42,
+  "text": " davamıda",
+  "words": [
+   {
+    "w": " davamıda",
+    "s": 574.9,
+    "e": 575.42
+   }
+  ]
+ },
+ {
+  "start": 575.42,
+  "end": 576.18,
+  "text": " bedarak",
+  "words": [
+   {
+    "w": " bedarak",
+    "s": 575.42,
+    "e": 576.18
+   }
+  ]
+ },
+ {
+  "start": 576.18,
+  "end": 576.42,
+  "text": " yu",
+  "words": [
+   {
+    "w": " yu",
+    "s": 576.18,
+    "e": 576.42
+   }
+  ]
+ },
+ {
+  "start": 576.42,
+  "end": 576.68,
+  "text": " qalgan",
+  "words": [
+   {
+    "w": " qalgan",
+    "s": 576.42,
+    "e": 576.68
+   }
+  ]
+ },
+ {
+  "start": 576.68,
+  "end": 577.22,
+  "text": " xablangan.",
+  "words": [
+   {
+    "w": " xablangan.",
+    "s": 576.68,
+    "e": 577.22
+   }
+  ]
+ },
+ {
+  "start": 578.32,
+  "end": 578.72,
+  "text": " Xabar",
+  "words": [
+   {
+    "w": " Xabar",
+    "s": 578.32,
+    "e": 578.72
+   }
+  ]
+ },
+ {
+  "start": 578.72,
+  "end": 579.2,
+  "text": " tasdiklan",
+  "words": [
+   {
+    "w": " tasdiklan",
+    "s": 578.72,
+    "e": 579.2
+   }
+  ]
+ },
+ {
+  "start": 579.2,
+  "end": 579.52,
+  "text": " gəc",
+  "words": [
+   {
+    "w": " gəc",
+    "s": 579.2,
+    "e": 579.52
+   }
+  ]
+ },
+ {
+  "start": 579.52,
+  "end": 580.26,
+  "text": " Qutqaro",
+  "words": [
+   {
+    "w": " Qutqaro",
+    "s": 579.52,
+    "e": 580.26
+   }
+  ]
+ },
+ {
+  "start": 580.26,
+  "end": 581.26,
+  "text": " operasiyasigə",
+  "words": [
+   {
+    "w": " operasiyasigə",
+    "s": 580.26,
+    "e": 581.26
+   }
+  ]
+ },
+ {
+  "start": 581.26,
+  "end": 581.92,
+  "text": " tayyar",
+  "words": [
+   {
+    "w": " tayyar",
+    "s": 581.26,
+    "e": 581.92
+   }
+  ]
+ },
+ {
+  "start": 581.92,
+  "end": 582.22,
+  "text": " garlik",
+  "words": [
+   {
+    "w": " garlik",
+    "s": 581.92,
+    "e": 582.22
+   }
+  ]
+ },
+ {
+  "start": 582.22,
+  "end": 582.68,
+  "text": " başlangan.",
+  "words": [
+   {
+    "w": " başlangan.",
+    "s": 582.22,
+    "e": 582.68
+   }
+  ]
+ },
+ {
+  "start": 583.88,
+  "end": 585.3,
+  "text": " 22-23",
+  "words": [
+   {
+    "w": " 22",
+    "s": 583.88,
+    "e": 584.12
+   },
+   {
+    "w": "-23",
+    "s": 584.12,
+    "e": 585.3
+   }
+  ]
+ },
+ {
+  "start": 585.3,
+  "end": 586.0,
+  "text": " dekabr",
+  "words": [
+   {
+    "w": " dekabr",
+    "s": 585.3,
+    "e": 586.0
+   }
+  ]
+ },
+ {
+  "start": 586.0,
+  "end": 586.84,
+  "text": " Qutqaro",
+  "words": [
+   {
+    "w": " Qutqaro",
+    "s": 586.0,
+    "e": 586.84
+   }
+  ]
+ },
+ {
+  "start": 586.84,
+  "end": 587.62,
+  "text": " operasiyası",
+  "words": [
+   {
+    "w": " operasiyası",
+    "s": 586.84,
+    "e": 587.62
+   }
+  ]
+ },
+ {
+  "start": 587.62,
+  "end": 589.6,
+  "text": " Çili",
+  "words": [
+   {
+    "w": " Çili",
+    "s": 587.62,
+    "e": 589.6
+   }
+  ]
+ },
+ {
+  "start": 589.6,
+  "end": 590.06,
+  "text": " Qutqaro",
+  "words": [
+   {
+    "w": " Qutqaro",
+    "s": 589.6,
+    "e": 590.06
+   }
+  ]
+ },
+ {
+  "start": 590.06,
+  "end": 590.64,
+  "text": " xizmetləri",
+  "words": [
+   {
+    "w": " xizmetləri",
+    "s": 590.06,
+    "e": 590.64
+   }
+  ]
+ },
+ {
+  "start": 590.64,
+  "end": 591.44,
+  "text": " Samaliyot",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 590.64,
+    "e": 591.44
+   }
+  ]
+ },
+ {
+  "start": 591.44,
+  "end": 591.96,
+  "text": " qaldıqları",
+  "words": [
+   {
+    "w": " qaldıqları",
+    "s": 591.44,
+    "e": 591.96
+   }
+  ]
+ },
+ {
+  "start": 591.96,
+  "end": 592.46,
+  "text": " joylaşkən",
+  "words": [
+   {
+    "w": " joylaşkən",
+    "s": 591.96,
+    "e": 592.46
+   }
+  ]
+ },
+ {
+  "start": 592.46,
+  "end": 592.9,
+  "text": " xududke",
+  "words": [
+   {
+    "w": " xududke",
+    "s": 592.46,
+    "e": 592.9
+   }
+  ]
+ },
+ {
+  "start": 592.9,
+  "end": 593.88,
+  "text": " vertaliyotlar",
+  "words": [
+   {
+    "w": " vertaliyotlar",
+    "s": 592.9,
+    "e": 593.88
+   }
+  ]
+ },
+ {
+  "start": 593.88,
+  "end": 594.32,
+  "text": " yubargan.",
+  "words": [
+   {
+    "w": " yubargan.",
+    "s": 593.88,
+    "e": 594.32
+   }
+  ]
+ },
+ {
+  "start": 595.06,
+  "end": 595.66,
+  "text": " Balant",
+  "words": [
+   {
+    "w": " Balant",
+    "s": 595.06,
+    "e": 595.66
+   }
+  ]
+ },
+ {
+  "start": 595.66,
+  "end": 595.98,
+  "text": " tağlı",
+  "words": [
+   {
+    "w": " tağlı",
+    "s": 595.66,
+    "e": 595.98
+   }
+  ]
+ },
+ {
+  "start": 595.98,
+  "end": 596.44,
+  "text": " xudud",
+  "words": [
+   {
+    "w": " xudud",
+    "s": 595.98,
+    "e": 596.44
+   }
+  ]
+ },
+ {
+  "start": 596.44,
+  "end": 597.06,
+  "text": " küçli",
+  "words": [
+   {
+    "w": " küçli",
+    "s": 596.44,
+    "e": 597.06
+   }
+  ]
+ },
+ {
+  "start": 597.06,
+  "end": 597.54,
+  "text": " şəmal",
+  "words": [
+   {
+    "w": " şəmal",
+    "s": 597.06,
+    "e": 597.54
+   }
+  ]
+ },
+ {
+  "start": 597.54,
+  "end": 597.72,
+  "text": " va",
+  "words": [
+   {
+    "w": " va",
+    "s": 597.54,
+    "e": 597.72
+   }
+  ]
+ },
+ {
+  "start": 597.72,
+  "end": 598.38,
+  "text": " qonuş",
+  "words": [
+   {
+    "w": " qonuş",
+    "s": 597.72,
+    "e": 598.38
+   }
+  ]
+ },
+ {
+  "start": 598.38,
+  "end": 598.62,
+  "text": " uçun",
+  "words": [
+   {
+    "w": " uçun",
+    "s": 598.38,
+    "e": 598.62
+   }
+  ]
+ },
+ {
+  "start": 598.62,
+  "end": 598.94,
+  "text": " qulay",
+  "words": [
+   {
+    "w": " qulay",
+    "s": 598.62,
+    "e": 598.94
+   }
+  ]
+ },
+ {
+  "start": 598.94,
+  "end": 599.54,
+  "text": " joylərinin",
+  "words": [
+   {
+    "w": " joylərinin",
+    "s": 598.94,
+    "e": 599.54
+   }
+  ]
+ },
+ {
+  "start": 599.54,
+  "end": 600.0,
+  "text": " kəmləgi",
+  "words": [
+   {
+    "w": " kəmləgi",
+    "s": 599.54,
+    "e": 600.0
+   }
+  ]
+ },
+ {
+  "start": 600.0,
+  "end": 600.98,
+  "text": " operasiyanı",
+  "words": [
+   {
+    "w": " operasiyanı",
+    "s": 600.0,
+    "e": 600.98
+   }
+  ]
+ },
+ {
+  "start": 600.98,
+  "end": 601.48,
+  "text": " mürəkkəb",
+  "words": [
+   {
+    "w": " mürəkkəb",
+    "s": 600.98,
+    "e": 601.48
+   }
+  ]
+ },
+ {
+  "start": 601.48,
+  "end": 601.9,
+  "text": " ləştirgan.",
+  "words": [
+   {
+    "w": " ləştirgan.",
+    "s": 601.48,
+    "e": 601.9
+   }
+  ]
+ },
+ {
+  "start": 602.9,
+  "end": 603.6,
+  "text": " Fernando",
+  "words": [
+   {
+    "w": " Fernando",
+    "s": 602.9,
+    "e": 603.6
+   }
+  ]
+ },
+ {
+  "start": 603.6,
+  "end": 604.2,
+  "text": " Parrado",
+  "words": [
+   {
+    "w": " Parrado",
+    "s": 603.6,
+    "e": 604.2
+   }
+  ]
+ },
+ {
+  "start": 604.2,
+  "end": 604.8,
+  "text": " Qutqaro",
+  "words": [
+   {
+    "w": " Qutqaro",
+    "s": 604.2,
+    "e": 604.8
+   }
+  ]
+ },
+ {
+  "start": 604.8,
+  "end": 605.22,
+  "text": " uçilərgə",
+  "words": [
+   {
+    "w": " uçilərgə",
+    "s": 604.8,
+    "e": 605.22
+   }
+  ]
+ },
+ {
+  "start": 605.22,
+  "end": 605.72,
+  "text": " halakət",
+  "words": [
+   {
+    "w": " halakət",
+    "s": 605.22,
+    "e": 605.72
+   }
+  ]
+ },
+ {
+  "start": 605.72,
+  "end": 606.04,
+  "text": " joynə",
+  "words": [
+   {
+    "w": " joynə",
+    "s": 605.72,
+    "e": 606.04
+   }
+  ]
+ },
+ {
+  "start": 606.04,
+  "end": 606.56,
+  "text": " anıqləşta",
+  "words": [
+   {
+    "w": " anıqləşta",
+    "s": 606.04,
+    "e": 606.56
+   }
+  ]
+ },
+ {
+  "start": 606.56,
+  "end": 606.96,
+  "text": " yardan",
+  "words": [
+   {
+    "w": " yardan",
+    "s": 606.56,
+    "e": 606.96
+   }
+  ]
+ },
+ {
+  "start": 606.96,
+  "end": 607.3,
+  "text": " bergən.",
+  "words": [
+   {
+    "w": " bergən.",
+    "s": 606.96,
+    "e": 607.3
+   }
+  ]
+ },
+ {
+  "start": 608.3,
+  "end": 609.06,
+  "text": " 22-23",
+  "words": [
+   {
+    "w": " 22",
+    "s": 608.3,
+    "e": 608.56
+   },
+   {
+    "w": "-23",
+    "s": 608.56,
+    "e": 609.06
+   }
+  ]
+ },
+ {
+  "start": 609.06,
+  "end": 609.48,
+  "text": " dekabr",
+  "words": [
+   {
+    "w": " dekabr",
+    "s": 609.06,
+    "e": 609.48
+   }
+  ]
+ },
+ {
+  "start": 609.48,
+  "end": 609.66,
+  "text": " künü",
+  "words": [
+   {
+    "w": " künü",
+    "s": 609.48,
+    "e": 609.66
+   }
+  ]
+ },
+ {
+  "start": 609.66,
+  "end": 610.46,
+  "text": " Samaliyot",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 609.66,
+    "e": 610.46
+   }
+  ]
+ },
+ {
+  "start": 610.46,
+  "end": 610.94,
+  "text": " korpusta",
+  "words": [
+   {
+    "w": " korpusta",
+    "s": 610.46,
+    "e": 610.94
+   }
+  ]
+ },
+ {
+  "start": 610.94,
+  "end": 611.3,
+  "text": " qalgan",
+  "words": [
+   {
+    "w": " qalgan",
+    "s": 610.94,
+    "e": 611.3
+   }
+  ]
+ },
+ {
+  "start": 611.3,
+  "end": 611.9,
+  "text": " kishilərinin",
+  "words": [
+   {
+    "w": " kishilərinin",
+    "s": 611.3,
+    "e": 611.9
+   }
+  ]
+ },
+ {
+  "start": 611.9,
+  "end": 612.32,
+  "text": " birinci",
+  "words": [
+   {
+    "w": " birinci",
+    "s": 611.9,
+    "e": 612.32
+   }
+  ]
+ },
+ {
+  "start": 612.32,
+  "end": 612.72,
+  "text": " quruqı",
+  "words": [
+   {
+    "w": " quruqı",
+    "s": 612.32,
+    "e": 612.72
+   }
+  ]
+ },
+ {
+  "start": 612.72,
+  "end": 613.0,
+  "text": " alip",
+  "words": [
+   {
+    "w": " alip",
+    "s": 612.72,
+    "e": 613.0
+   }
+  ]
+ },
+ {
+  "start": 613.0,
+  "end": 613.42,
+  "text": " çıxılgən.",
+  "words": [
+   {
+    "w": " çıxılgən.",
+    "s": 613.0,
+    "e": 613.42
+   }
+  ]
+ },
+ {
+  "start": 614.38,
+  "end": 615.04,
+  "text": " Qalganlər",
+  "words": [
+   {
+    "w": " Qalganlər",
+    "s": 614.38,
+    "e": 615.04
+   }
+  ]
+ },
+ {
+  "start": 615.04,
+  "end": 616.12,
+  "text": " 23-23",
+  "words": [
+   {
+    "w": " 23",
+    "s": 615.04,
+    "e": 615.58
+   },
+   {
+    "w": "-23",
+    "s": 615.58,
+    "e": 616.12
+   }
+  ]
+ },
+ {
+  "start": 616.12,
+  "end": 616.52,
+  "text": " dekabr",
+  "words": [
+   {
+    "w": " dekabr",
+    "s": 616.12,
+    "e": 616.52
+   }
+  ]
+ },
+ {
+  "start": 616.52,
+  "end": 616.7,
+  "text": " künü",
+  "words": [
+   {
+    "w": " künü",
+    "s": 616.52,
+    "e": 616.7
+   }
+  ]
+ },
+ {
+  "start": 616.7,
+  "end": 617.3,
+  "text": " qutqarılgən.",
+  "words": [
+   {
+    "w": " qutqarılgən.",
+    "s": 616.7,
+    "e": 617.3
+   }
+  ]
+ },
+ {
+  "start": 618.18,
+  "end": 618.86,
+  "text": " Şu tariqə",
+  "words": [
+   {
+    "w": " Şu",
+    "s": 618.18,
+    "e": 618.36
+   },
+   {
+    "w": " tariqə",
+    "s": 618.36,
+    "e": 618.86
+   }
+  ]
+ },
+ {
+  "start": 618.86,
+  "end": 621.4,
+  "text": " 1972-13",
+  "words": [
+   {
+    "w": " 1972",
+    "s": 618.86,
+    "e": 619.8
+   },
+   {
+    "w": "-13",
+    "s": 619.8,
+    "e": 621.4
+   }
+  ]
+ },
+ {
+  "start": 621.4,
+  "end": 622.18,
+  "text": " oktyabr",
+  "words": [
+   {
+    "w": " oktyabr",
+    "s": 621.4,
+    "e": 622.18
+   }
+  ]
+ },
+ {
+  "start": 622.18,
+  "end": 622.26,
+  "text": " da",
+  "words": [
+   {
+    "w": " da",
+    "s": 622.18,
+    "e": 622.26
+   }
+  ]
+ },
+ {
+  "start": 622.26,
+  "end": 622.74,
+  "text": " başlangan",
+  "words": [
+   {
+    "w": " başlangan",
+    "s": 622.26,
+    "e": 622.74
+   }
+  ]
+ },
+ {
+  "start": 622.74,
+  "end": 623.52,
+  "text": " faqulada",
+  "words": [
+   {
+    "w": " faqulada",
+    "s": 622.74,
+    "e": 623.52
+   }
+  ]
+ },
+ {
+  "start": 623.52,
+  "end": 624.02,
+  "text": " vaziyyət",
+  "words": [
+   {
+    "w": " vaziyyət",
+    "s": 623.52,
+    "e": 624.02
+   }
+  ]
+ },
+ {
+  "start": 624.02,
+  "end": 625.08,
+  "text": " 23-23",
+  "words": [
+   {
+    "w": " 23",
+    "s": 624.02,
+    "e": 624.6
+   },
+   {
+    "w": "-23",
+    "s": 624.6,
+    "e": 625.08
+   }
+  ]
+ },
+ {
+  "start": 625.08,
+  "end": 625.52,
+  "text": " dekabr",
+  "words": [
+   {
+    "w": " dekabr",
+    "s": 625.08,
+    "e": 625.52
+   }
+  ]
+ },
+ {
+  "start": 625.52,
+  "end": 625.7,
+  "text": " künü",
+  "words": [
+   {
+    "w": " künü",
+    "s": 625.52,
+    "e": 625.7
+   }
+  ]
+ },
+ {
+  "start": 625.7,
+  "end": 626.32,
+  "text": " yakullangan.",
+  "words": [
+   {
+    "w": " yakullangan.",
+    "s": 625.7,
+    "e": 626.32
+   }
+  ]
+ },
+ {
+  "start": 627.4,
+  "end": 627.8,
+  "text": " Cami",
+  "words": [
+   {
+    "w": " Cami",
+    "s": 627.4,
+    "e": 627.8
+   }
+  ]
+ },
+ {
+  "start": 627.8,
+  "end": 628.7,
+  "text": " 45 kishidən",
+  "words": [
+   {
+    "w": " 45",
+    "s": 627.8,
+    "e": 628.14
+   },
+   {
+    "w": " kishidən",
+    "s": 628.14,
+    "e": 628.7
+   }
+  ]
+ },
+ {
+  "start": 628.7,
+  "end": 629.42,
+  "text": " 16",
+  "words": [
+   {
+    "w": " 16",
+    "s": 628.7,
+    "e": 629.42
+   }
+  ]
+ },
+ {
+  "start": 629.42,
+  "end": 629.94,
+  "text": " nəfəret",
+  "words": [
+   {
+    "w": " nəfəret",
+    "s": 629.42,
+    "e": 629.94
+   }
+  ]
+ },
+ {
+  "start": 629.94,
+  "end": 630.44,
+  "text": " qalgan.",
+  "words": [
+   {
+    "w": " qalgan.",
+    "s": 629.94,
+    "e": 630.44
+   }
+  ]
+ },
+ {
+  "start": 630.94,
+  "end": 631.86,
+  "text": " 21-23",
+  "words": [
+   {
+    "w": " 21",
+    "s": 630.94,
+    "e": 631.38
+   },
+   {
+    "w": "-23",
+    "s": 631.38,
+    "e": 631.86
+   }
+  ]
+ },
+ {
+  "start": 631.86,
+  "end": 632.22,
+  "text": " qishid",
+  "words": [
+   {
+    "w": " qishid",
+    "s": 631.86,
+    "e": 632.22
+   }
+  ]
+ },
+ {
+  "start": 632.22,
+  "end": 632.82,
+  "text": " xalak",
+  "words": [
+   {
+    "w": " xalak",
+    "s": 632.22,
+    "e": 632.82
+   }
+  ]
+ },
+ {
+  "start": 632.82,
+  "end": 633.12,
+  "text": " bolgan.",
+  "words": [
+   {
+    "w": " bolgan.",
+    "s": 632.82,
+    "e": 633.12
+   }
+  ]
+ },
+ {
+  "start": 633.72,
+  "end": 634.86,
+  "text": " Aman qalganlər",
+  "words": [
+   {
+    "w": " Aman",
+    "s": 633.72,
+    "e": 634.28
+   },
+   {
+    "w": " qalganlər",
+    "s": 634.28,
+    "e": 634.86
+   }
+  ]
+ },
+ {
+  "start": 634.86,
+  "end": 636.0,
+  "text": " nəfəri",
+  "words": [
+   {
+    "w": " nəfəri",
+    "s": 634.86,
+    "e": 636.0
+   }
+  ]
+ },
+ {
+  "start": 636.0,
+  "end": 636.74,
+  "text": " Samaliyot",
+  "words": [
+   {
+    "w": " Samaliyot",
+    "s": 636.0,
+    "e": 636.74
+   }
+  ]
+ },
+ {
+  "start": 636.74,
+  "end": 637.2,
+  "text": " jayləşkən",
+  "words": [
+   {
+    "w": " jayləşkən",
+    "s": 636.74,
+    "e": 637.2
+   }
+  ]
+ },
+ {
+  "start": 637.2,
+  "end": 637.66,
+  "text": " qududdan",
+  "words": [
+   {
+    "w": " qududdan",
+    "s": 637.2,
+    "e": 637.66
+   }
+  ]
+ },
+ {
+  "start": 637.66,
+  "end": 638.56,
+  "text": " vərtaliyot",
+  "words": [
+   {
+    "w": " vərtaliyot",
+    "s": 637.66,
+    "e": 638.56
+   }
+  ]
+ },
+ {
+  "start": 638.56,
+  "end": 638.9,
+  "text": " arqəli",
+  "words": [
+   {
+    "w": " arqəli",
+    "s": 638.56,
+    "e": 638.9
+   }
+  ]
+ },
+ {
+  "start": 638.9,
+  "end": 639.42,
+  "text": " evakuat",
+  "words": [
+   {
+    "w": " evakuat",
+    "s": 638.9,
+    "e": 639.42
+   }
+  ]
+ },
+ {
+  "start": 639.42,
+  "end": 639.86,
+  "text": " səhirlingən.",
+  "words": [
+   {
+    "w": " səhirlingən.",
+    "s": 639.42,
+    "e": 639.86
+   }
+  ]
+ },
+ {
+  "start": 640.68,
+  "end": 641.28,
+  "text": " Qalgan",
+  "words": [
+   {
+    "w": " Qalgan",
+    "s": 640.68,
+    "e": 641.28
+   }
+  ]
+ },
+ {
+  "start": 641.28,
+  "end": 641.9,
+  "text": " iki kishid",
+  "words": [
+   {
+    "w": " iki",
+    "s": 641.28,
+    "e": 641.52
+   },
+   {
+    "w": " kishid",
+    "s": 641.52,
+    "e": 641.9
+   }
+  ]
+ },
+ {
+  "start": 641.9,
+  "end": 642.68,
+  "text": " parrado",
+  "words": [
+   {
+    "w": " parrado",
+    "s": 641.9,
+    "e": 642.68
+   }
+  ]
+ },
+ {
+  "start": 642.68,
+  "end": 643.0,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 642.68,
+    "e": 643.0
+   }
+  ]
+ },
+ {
+  "start": 643.0,
+  "end": 643.54,
+  "text": " kənəsə",
+  "words": [
+   {
+    "w": " kənəsə",
+    "s": 643.0,
+    "e": 643.54
+   }
+  ]
+ },
+ {
+  "start": 643.54,
+  "end": 644.26,
+  "text": " yardan",
+  "words": [
+   {
+    "w": " yardan",
+    "s": 643.54,
+    "e": 644.26
+   }
+  ]
+ },
+ {
+  "start": 644.26,
+  "end": 644.64,
+  "text": " mızləb",
+  "words": [
+   {
+    "w": " mızləb",
+    "s": 644.26,
+    "e": 644.64
+   }
+  ]
+ },
+ {
+  "start": 644.64,
+  "end": 645.14,
+  "text": " tağlardan",
+  "words": [
+   {
+    "w": " tağlardan",
+    "s": 644.64,
+    "e": 645.14
+   }
+  ]
+ },
+ {
+  "start": 645.14,
+  "end": 645.76,
+  "text": " mustaqil",
+  "words": [
+   {
+    "w": " mustaqil",
+    "s": 645.14,
+    "e": 645.76
+   }
+  ]
+ },
+ {
+  "start": 645.76,
+  "end": 645.98,
+  "text": " çıxıb",
+  "words": [
+   {
+    "w": " çıxıb",
+    "s": 645.76,
+    "e": 645.98
+   }
+  ]
+ },
+ {
+  "start": 645.98,
+  "end": 646.3,
+  "text": " qitkən",
+  "words": [
+   {
+    "w": " qitkən",
+    "s": 645.98,
+    "e": 646.3
+   }
+  ]
+ },
+ {
+  "start": 646.3,
+  "end": 646.44,
+  "text": " edhe.",
+  "words": [
+   {
+    "w": " edhe.",
+    "s": 646.3,
+    "e": 646.44
+   }
+  ]
+ },
+ {
+  "start": 647.78,
+  "end": 648.78,
+  "text": " Vaqiyyədən",
+  "words": [
+   {
+    "w": " Vaqiyyədən",
+    "s": 647.78,
+    "e": 648.78
+   }
+  ]
+ },
+ {
+  "start": 648.78,
+  "end": 648.96,
+  "text": " ki",
+  "words": [
+   {
+    "w": " ki",
+    "s": 648.78,
+    "e": 648.96
+   }
+  ]
+ },
+ {
+  "start": 648.96,
+  "end": 649.32,
+  "text": " yingi",
+  "words": [
+   {
+    "w": " yingi",
+    "s": 648.96,
+    "e": 649.32
+   }
+  ]
+ },
+ {
+  "start": 649.32,
+  "end": 649.74,
+  "text": " xayyat.",
+  "words": [
+   {
+    "w": " xayyat.",
+    "s": 649.32,
+    "e": 649.74
+   }
+  ]
+ },
+ {
+  "start": 650.6,
+  "end": 651.4,
+  "text": " Qutqaruddan",
+  "words": [
+   {
+    "w": " Qutqaruddan",
+    "s": 650.6,
+    "e": 651.4
+   }
+  ]
+ },
+ {
+  "start": 651.4,
+  "end": 651.56,
+  "text": " son",
+  "words": [
+   {
+    "w": " son",
+    "s": 651.4,
+    "e": 651.56
+   }
+  ]
+ },
+ {
+  "start": 651.56,
+  "end": 652.82,
+  "text": " aman qalganlər",
+  "words": [
+   {
+    "w": " aman",
+    "s": 651.56,
+    "e": 652.16
+   },
+   {
+    "w": " qalganlər",
+    "s": 652.16,
+    "e": 652.82
+   }
+  ]
+ },
+ {
+  "start": 652.82,
+  "end": 653.18,
+  "text": " tibbi",
+  "words": [
+   {
+    "w": " tibbi",
+    "s": 652.82,
+    "e": 653.18
+   }
+  ]
+ },
+ {
+  "start": 653.18,
+  "end": 653.72,
+  "text": " korikdən",
+  "words": [
+   {
+    "w": " korikdən",
+    "s": 653.18,
+    "e": 653.72
+   }
+  ]
+ },
+ {
+  "start": 653.72,
+  "end": 654.22,
+  "text": " utkazılgən.",
+  "words": [
+   {
+    "w": " utkazılgən.",
+    "s": 653.72,
+    "e": 654.22
+   }
+  ]
+ },
+ {
+  "start": 654.22,
+  "end": 655.54,
+  "text": " Ulardə",
+  "words": [
+   {
+    "w": " Ulardə",
+    "s": 654.22,
+    "e": 655.54
+   }
+  ]
+ },
+ {
+  "start": 655.54,
+  "end": 656.24,
+  "text": " uzaq",
+  "words": [
+   {
+    "w": " uzaq",
+    "s": 655.54,
+    "e": 656.24
+   }
+  ]
+ },
+ {
+  "start": 656.24,
+  "end": 656.9,
+  "text": " davam etkən",
+  "words": [
+   {
+    "w": " davam",
+    "s": 656.24,
+    "e": 656.6
+   },
+   {
+    "w": " etkən",
+    "s": 656.6,
+    "e": 656.9
+   }
+  ]
+ },
+ {
+  "start": 656.9,
+  "end": 657.5,
+  "text": " açlik,",
+  "words": [
+   {
+    "w": " açlik,",
+    "s": 656.9,
+    "e": 657.5
+   }
+  ]
+ },
+ {
+  "start": 657.74,
+  "end": 658.12,
+  "text": " vəzni",
+  "words": [
+   {
+    "w": " vəzni",
+    "s": 657.74,
+    "e": 658.12
+   }
+  ]
+ },
+ {
+  "start": 658.12,
+  "end": 658.68,
+  "text": " yukatış,",
+  "words": [
+   {
+    "w": " yukatış,",
+    "s": 658.12,
+    "e": 658.68
+   }
+  ]
+ },
+ {
+  "start": 658.98,
+  "end": 659.4,
+  "text": " səhuq",
+  "words": [
+   {
+    "w": " səhuq",
+    "s": 658.98,
+    "e": 659.4
+   }
+  ]
+ },
+ {
+  "start": 659.4,
+  "end": 659.76,
+  "text": " təsiri",
+  "words": [
+   {
+    "w": " təsiri",
+    "s": 659.4,
+    "e": 659.76
+   }
+  ]
+ },
+ {
+  "start": 659.76,
+  "end": 659.98,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 659.76,
+    "e": 659.98
+   }
+  ]
+ },
+ {
+  "start": 659.98,
+  "end": 660.78,
+  "text": " cismani",
+  "words": [
+   {
+    "w": " cismani",
+    "s": 659.98,
+    "e": 660.78
+   }
+  ]
+ },
+ {
+  "start": 660.78,
+  "end": 661.3,
+  "text": " zəiflik",
+  "words": [
+   {
+    "w": " zəiflik",
+    "s": 660.78,
+    "e": 661.3
+   }
+  ]
+ },
+ {
+  "start": 661.3,
+  "end": 661.9,
+  "text": " aqibətləri",
+  "words": [
+   {
+    "w": " aqibətləri",
+    "s": 661.3,
+    "e": 661.9
+   }
+  ]
+ },
+ {
+  "start": 661.9,
+  "end": 662.44,
+  "text": " kuzatılgən.",
+  "words": [
+   {
+    "w": " kuzatılgən.",
+    "s": 661.9,
+    "e": 662.44
+   }
+  ]
+ },
+ {
+  "start": 663.16,
+  "end": 663.94,
+  "text": " Ulardə",
+  "words": [
+   {
+    "w": " Ulardə",
+    "s": 663.16,
+    "e": 663.94
+   }
+  ]
+ },
+ {
+  "start": 663.94,
+  "end": 664.42,
+  "text": " nəfəyat",
+  "words": [
+   {
+    "w": " nəfəyat",
+    "s": 663.94,
+    "e": 664.42
+   }
+  ]
+ },
+ {
+  "start": 664.42,
+  "end": 664.66,
+  "text": " uçun",
+  "words": [
+   {
+    "w": " uçun",
+    "s": 664.42,
+    "e": 664.66
+   }
+  ]
+ },
+ {
+  "start": 664.66,
+  "end": 665.1,
+  "text": " kürəşi",
+  "words": [
+   {
+    "w": " kürəşi",
+    "s": 664.66,
+    "e": 665.1
+   }
+  ]
+ },
+ {
+  "start": 665.1,
+  "end": 665.86,
+  "text": " halkara",
+  "words": [
+   {
+    "w": " halkara",
+    "s": 665.1,
+    "e": 665.86
+   }
+  ]
+ },
+ {
+  "start": 665.86,
+  "end": 666.42,
+  "text": " amməwi",
+  "words": [
+   {
+    "w": " amməwi",
+    "s": 665.86,
+    "e": 666.42
+   }
+  ]
+ },
+ {
+  "start": 666.42,
+  "end": 666.94,
+  "text": " ahbərat",
+  "words": [
+   {
+    "w": " ahbərat",
+    "s": 666.42,
+    "e": 666.94
+   }
+  ]
+ },
+ {
+  "start": 666.94,
+  "end": 667.66,
+  "text": " vasitələrdə",
+  "words": [
+   {
+    "w": " vasitələrdə",
+    "s": 666.94,
+    "e": 667.66
+   }
+  ]
+ },
+ {
+  "start": 667.66,
+  "end": 668.08,
+  "text": " kənq",
+  "words": [
+   {
+    "w": " kənq",
+    "s": 667.66,
+    "e": 668.08
+   }
+  ]
+ },
+ {
+  "start": 668.08,
+  "end": 668.58,
+  "text": " yardılgən.",
+  "words": [
+   {
+    "w": " yardılgən.",
+    "s": 668.08,
+    "e": 668.58
+   }
+  ]
+ },
+ {
+  "start": 669.3,
+  "end": 669.94,
+  "text": " Aynıqsa",
+  "words": [
+   {
+    "w": " Aynıqsa",
+    "s": 669.3,
+    "e": 669.94
+   }
+  ]
+ },
+ {
+  "start": 669.94,
+  "end": 670.74,
+  "text": " azıq",
+  "words": [
+   {
+    "w": " azıq",
+    "s": 669.94,
+    "e": 670.74
+   }
+  ]
+ },
+ {
+  "start": 670.74,
+  "end": 671.02,
+  "text": " qawqat",
+  "words": [
+   {
+    "w": " qawqat",
+    "s": 670.74,
+    "e": 671.02
+   }
+  ]
+ },
+ {
+  "start": 671.02,
+  "end": 671.54,
+  "text": " yetişməsləgi",
+  "words": [
+   {
+    "w": " yetişməsləgi",
+    "s": 671.02,
+    "e": 671.54
+   }
+  ]
+ },
+ {
+  "start": 671.54,
+  "end": 672.04,
+  "text": " şəraitidə",
+  "words": [
+   {
+    "w": " şəraitidə",
+    "s": 671.54,
+    "e": 672.04
+   }
+  ]
+ },
+ {
+  "start": 672.04,
+  "end": 672.34,
+  "text": " qabul",
+  "words": [
+   {
+    "w": " qabul",
+    "s": 672.04,
+    "e": 672.34
+   }
+  ]
+ },
+ {
+  "start": 672.34,
+  "end": 672.72,
+  "text": " qilinqən",
+  "words": [
+   {
+    "w": " qilinqən",
+    "s": 672.34,
+    "e": 672.72
+   }
+  ]
+ },
+ {
+  "start": 672.72,
+  "end": 673.22,
+  "text": " qararlar",
+  "words": [
+   {
+    "w": " qararlar",
+    "s": 672.72,
+    "e": 673.22
+   }
+  ]
+ },
+ {
+  "start": 673.22,
+  "end": 673.96,
+  "text": " kətta",
+  "words": [
+   {
+    "w": " kətta",
+    "s": 673.22,
+    "e": 673.96
+   }
+  ]
+ },
+ {
+  "start": 673.96,
+  "end": 674.66,
+  "text": " muhakəmələr",
+  "words": [
+   {
+    "w": " muhakəmələr",
+    "s": 673.96,
+    "e": 674.66
+   }
+  ]
+ },
+ {
+  "start": 674.66,
+  "end": 675.04,
+  "text": " qəsəbə",
+  "words": [
+   {
+    "w": " qəsəbə",
+    "s": 674.66,
+    "e": 675.04
+   }
+  ]
+ },
+ {
+  "start": 675.04,
+  "end": 675.4,
+  "text": " bulgən.",
+  "words": [
+   {
+    "w": " bulgən.",
+    "s": 675.04,
+    "e": 675.4
+   }
+  ]
+ },
+ {
+  "start": 676.46,
+  "end": 676.9,
+  "text": " Kəyəngi",
+  "words": [
+   {
+    "w": " Kəyəngi",
+    "s": 676.46,
+    "e": 676.9
+   }
+  ]
+ },
+ {
+  "start": 676.9,
+  "end": 677.28,
+  "text": " illərdə",
+  "words": [
+   {
+    "w": " illərdə",
+    "s": 676.9,
+    "e": 677.28
+   }
+  ]
+ },
+ {
+  "start": 677.28,
+  "end": 677.54,
+  "text": " ammə",
+  "words": [
+   {
+    "w": " ammə",
+    "s": 677.28,
+    "e": 677.54
+   }
+  ]
+ },
+ {
+  "start": 677.54,
+  "end": 678.06,
+  "text": " qalgənlər",
+  "words": [
+   {
+    "w": " qalgənlər",
+    "s": 677.54,
+    "e": 678.06
+   }
+  ]
+ },
+ {
+  "start": 678.06,
+  "end": 678.58,
+  "text": " uz",
+  "words": [
+   {
+    "w": " uz",
+    "s": 678.06,
+    "e": 678.58
+   }
+  ]
+ },
+ {
+  "start": 678.58,
+  "end": 679.28,
+  "text": " xatıralarını",
+  "words": [
+   {
+    "w": " xatıralarını",
+    "s": 678.58,
+    "e": 679.28
+   }
+  ]
+ },
+ {
+  "start": 679.28,
+  "end": 680.14,
+  "text": " kitaplar,",
+  "words": [
+   {
+    "w": " kitaplar,",
+    "s": 679.28,
+    "e": 680.14
+   }
+  ]
+ },
+ {
+  "start": 680.46,
+  "end": 681.1,
+  "text": " interviyular",
+  "words": [
+   {
+    "w": " interviyular",
+    "s": 680.46,
+    "e": 681.1
+   }
+  ]
+ },
+ {
+  "start": 681.1,
+  "end": 681.48,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 681.1,
+    "e": 681.48
+   }
+  ]
+ },
+ {
+  "start": 681.48,
+  "end": 682.18,
+  "text": " hüccətli",
+  "words": [
+   {
+    "w": " hüccətli",
+    "s": 681.48,
+    "e": 682.18
+   }
+  ]
+ },
+ {
+  "start": 682.18,
+  "end": 682.66,
+  "text": " filmlər",
+  "words": [
+   {
+    "w": " filmlər",
+    "s": 682.18,
+    "e": 682.66
+   }
+  ]
+ },
+ {
+  "start": 682.66,
+  "end": 683.02,
+  "text": " arqəli",
+  "words": [
+   {
+    "w": " arqəli",
+    "s": 682.66,
+    "e": 683.02
+   }
+  ]
+ },
+ {
+  "start": 683.02,
+  "end": 683.5,
+  "text": " amməgə",
+  "words": [
+   {
+    "w": " amməgə",
+    "s": 683.02,
+    "e": 683.5
+   }
+  ]
+ },
+ {
+  "start": 683.5,
+  "end": 684.14,
+  "text": " təqdim etkən.",
+  "words": [
+   {
+    "w": " təqdim",
+    "s": 683.5,
+    "e": 683.82
+   },
+   {
+    "w": " etkən.",
+    "s": 683.82,
+    "e": 684.14
+   }
+  ]
+ },
+ {
+  "start": 685.18,
+  "end": 686.76,
+  "text": " 1974-ci ildə",
+  "words": [
+   {
+    "w": " 1974",
+    "s": 685.18,
+    "e": 685.68
+   },
+   {
+    "w": "-ci",
+    "s": 685.68,
+    "e": 686.46
+   },
+   {
+    "w": " ildə",
+    "s": 686.46,
+    "e": 686.76
+   }
+  ]
+ },
+ {
+  "start": 686.76,
+  "end": 687.74,
+  "text": " Pierce Paul",
+  "words": [
+   {
+    "w": " Pierce",
+    "s": 686.76,
+    "e": 687.4
+   },
+   {
+    "w": " Paul",
+    "s": 687.4,
+    "e": 687.74
+   }
+  ]
+ },
+ {
+  "start": 687.74,
+  "end": 688.04,
+  "text": " Reed",
+  "words": [
+   {
+    "w": " Reed",
+    "s": 687.74,
+    "e": 688.04
+   }
+  ]
+ },
+ {
+  "start": 688.04,
+  "end": 688.2,
+  "text": " nin",
+  "words": [
+   {
+    "w": " nin",
+    "s": 688.04,
+    "e": 688.2
+   }
+  ]
+ },
+ {
+  "start": 688.2,
+  "end": 689.06,
+  "text": " Alive",
+  "words": [
+   {
+    "w": " Alive",
+    "s": 688.2,
+    "e": 689.06
+   }
+  ]
+ },
+ {
+  "start": 689.06,
+  "end": 689.48,
+  "text": " kitabı",
+  "words": [
+   {
+    "w": " kitabı",
+    "s": 689.06,
+    "e": 689.48
+   }
+  ]
+ },
+ {
+  "start": 689.48,
+  "end": 690.06,
+  "text": " nəşrətilgən.",
+  "words": [
+   {
+    "w": " nəşrətilgən.",
+    "s": 689.48,
+    "e": 690.06
+   }
+  ]
+ },
+ {
+  "start": 691.26,
+  "end": 693.0,
+  "text": " 1993-ci ildə",
+  "words": [
+   {
+    "w": " 1993",
+    "s": 691.26,
+    "e": 691.94
+   },
+   {
+    "w": "-ci",
+    "s": 691.94,
+    "e": 692.68
+   },
+   {
+    "w": " ildə",
+    "s": 692.68,
+    "e": 693.0
+   }
+  ]
+ },
+ {
+  "start": 693.0,
+  "end": 693.42,
+  "text": " şu",
+  "words": [
+   {
+    "w": " şu",
+    "s": 693.0,
+    "e": 693.42
+   }
+  ]
+ },
+ {
+  "start": 693.42,
+  "end": 693.76,
+  "text": " kitab",
+  "words": [
+   {
+    "w": " kitab",
+    "s": 693.42,
+    "e": 693.76
+   }
+  ]
+ },
+ {
+  "start": 693.76,
+  "end": 694.18,
+  "text": " asasıda",
+  "words": [
+   {
+    "w": " asasıda",
+    "s": 693.76,
+    "e": 694.18
+   }
+  ]
+ },
+ {
+  "start": 694.18,
+  "end": 694.98,
+  "text": " Alive",
+  "words": [
+   {
+    "w": " Alive",
+    "s": 694.18,
+    "e": 694.98
+   }
+  ]
+ },
+ {
+  "start": 694.98,
+  "end": 695.36,
+  "text": " body",
+  "words": [
+   {
+    "w": " body",
+    "s": 694.98,
+    "e": 695.36
+   }
+  ]
+ },
+ {
+  "start": 695.36,
+  "end": 695.78,
+  "text": " filmi",
+  "words": [
+   {
+    "w": " filmi",
+    "s": 695.36,
+    "e": 695.78
+   }
+  ]
+ },
+ {
+  "start": 695.78,
+  "end": 696.16,
+  "text": " ekranlar",
+  "words": [
+   {
+    "w": " ekranlar",
+    "s": 695.78,
+    "e": 696.16
+   }
+  ]
+ },
+ {
+  "start": 696.16,
+  "end": 696.32,
+  "text": " gə",
+  "words": [
+   {
+    "w": " gə",
+    "s": 696.16,
+    "e": 696.32
+   }
+  ]
+ },
+ {
+  "start": 696.32,
+  "end": 696.64,
+  "text": " çıqqqən.",
+  "words": [
+   {
+    "w": " çıqqqən.",
+    "s": 696.32,
+    "e": 696.64
+   }
+  ]
+ },
+ {
+  "start": 697.4,
+  "end": 698.92,
+  "text": " 2007-ci ildə",
+  "words": [
+   {
+    "w": " 2007",
+    "s": 697.4,
+    "e": 698.02
+   },
+   {
+    "w": "-ci",
+    "s": 698.02,
+    "e": 698.52
+   },
+   {
+    "w": " ildə",
+    "s": 698.52,
+    "e": 698.92
+   }
+  ]
+ },
+ {
+  "start": 698.92,
+  "end": 699.96,
+  "text": " Stranded",
+  "words": [
+   {
+    "w": " Stranded",
+    "s": 698.92,
+    "e": 699.96
+   }
+  ]
+ },
+ {
+  "start": 699.96,
+  "end": 700.9,
+  "text": " I've come",
+  "words": [
+   {
+    "w": " I've",
+    "s": 699.96,
+    "e": 700.76
+   },
+   {
+    "w": " come",
+    "s": 700.76,
+    "e": 700.9
+   }
+  ]
+ },
+ {
+  "start": 700.9,
+  "end": 701.64,
+  "text": " from a plane",
+  "words": [
+   {
+    "w": " from",
+    "s": 700.9,
+    "e": 701.18
+   },
+   {
+    "w": " a",
+    "s": 701.18,
+    "e": 701.34
+   },
+   {
+    "w": " plane",
+    "s": 701.34,
+    "e": 701.64
+   }
+  ]
+ },
+ {
+  "start": 701.64,
+  "end": 702.22,
+  "text": " that crashed",
+  "words": [
+   {
+    "w": " that",
+    "s": 701.64,
+    "e": 701.86
+   },
+   {
+    "w": " crashed",
+    "s": 701.86,
+    "e": 702.22
+   }
+  ]
+ },
+ {
+  "start": 702.22,
+  "end": 703.18,
+  "text": " on the mountains",
+  "words": [
+   {
+    "w": " on",
+    "s": 702.22,
+    "e": 702.48
+   },
+   {
+    "w": " the",
+    "s": 702.48,
+    "e": 702.62
+   },
+   {
+    "w": " mountains",
+    "s": 702.62,
+    "e": 703.18
+   }
+  ]
+ },
+ {
+  "start": 703.18,
+  "end": 704.0,
+  "text": " hüccətli",
+  "words": [
+   {
+    "w": " hüccətli",
+    "s": 703.18,
+    "e": 704.0
+   }
+  ]
+ },
+ {
+  "start": 704.0,
+  "end": 704.38,
+  "text": " filmi",
+  "words": [
+   {
+    "w": " filmi",
+    "s": 704.0,
+    "e": 704.38
+   }
+  ]
+ },
+ {
+  "start": 704.38,
+  "end": 704.84,
+  "text": " yaratılgən.",
+  "words": [
+   {
+    "w": " yaratılgən.",
+    "s": 704.38,
+    "e": 704.84
+   }
+  ]
+ },
+ {
+  "start": 705.08,
+  "end": 705.56,
+  "text": " Bitkimin",
+  "words": [
+   {
+    "w": " Bitkimin",
+    "s": 705.08,
+    "e": 705.56
+   }
+  ]
+ },
+ {
+  "start": 705.56,
+  "end": 706.68,
+  "text": " 23-ci ildə",
+  "words": [
+   {
+    "w": " 23",
+    "s": 705.56,
+    "e": 705.88
+   },
+   {
+    "w": "-ci",
+    "s": 705.88,
+    "e": 706.4
+   },
+   {
+    "w": " ildə",
+    "s": 706.4,
+    "e": 706.68
+   }
+  ]
+ },
+ {
+  "start": 706.68,
+  "end": 707.1,
+  "text": " isə",
+  "words": [
+   {
+    "w": " isə",
+    "s": 706.68,
+    "e": 707.1
+   }
+  ]
+ },
+ {
+  "start": 707.1,
+  "end": 708.02,
+  "text": " İspanyalik",
+  "words": [
+   {
+    "w": " İspanyalik",
+    "s": 707.1,
+    "e": 708.02
+   }
+  ]
+ },
+ {
+  "start": 708.02,
+  "end": 708.58,
+  "text": " rejissör",
+  "words": [
+   {
+    "w": " rejissör",
+    "s": 708.02,
+    "e": 708.58
+   }
+  ]
+ },
+ {
+  "start": 708.58,
+  "end": 709.24,
+  "text": " Juan",
+  "words": [
+   {
+    "w": " Juan",
+    "s": 708.58,
+    "e": 709.24
+   }
+  ]
+ },
+ {
+  "start": 709.24,
+  "end": 709.78,
+  "text": " Antonio",
+  "words": [
+   {
+    "w": " Antonio",
+    "s": 709.24,
+    "e": 709.78
+   }
+  ]
+ },
+ {
+  "start": 709.78,
+  "end": 710.32,
+  "text": " Bayon",
+  "words": [
+   {
+    "w": " Bayon",
+    "s": 709.78,
+    "e": 710.32
+   }
+  ]
+ },
+ {
+  "start": 710.32,
+  "end": 710.84,
+  "text": " Atamanıdan",
+  "words": [
+   {
+    "w": " Atamanıdan",
+    "s": 710.32,
+    "e": 710.84
+   }
+  ]
+ },
+ {
+  "start": 710.84,
+  "end": 712.06,
+  "text": " Society of",
+  "words": [
+   {
+    "w": " Society",
+    "s": 710.84,
+    "e": 711.6
+   },
+   {
+    "w": " of",
+    "s": 711.6,
+    "e": 712.06
+   }
+  ]
+ },
+ {
+  "start": 712.06,
+  "end": 712.52,
+  "text": " the Snow",
+  "words": [
+   {
+    "w": " the",
+    "s": 712.06,
+    "e": 712.24
+   },
+   {
+    "w": " Snow",
+    "s": 712.24,
+    "e": 712.52
+   }
+  ]
+ },
+ {
+  "start": 712.52,
+  "end": 713.02,
+  "text": " filmi",
+  "words": [
+   {
+    "w": " filmi",
+    "s": 712.52,
+    "e": 713.02
+   }
+  ]
+ },
+ {
+  "start": 713.02,
+  "end": 713.58,
+  "text": " surat",
+  "words": [
+   {
+    "w": " surat",
+    "s": 713.02,
+    "e": 713.58
+   }
+  ]
+ },
+ {
+  "start": 713.58,
+  "end": 713.88,
+  "text": " kalin",
+  "words": [
+   {
+    "w": " kalin",
+    "s": 713.58,
+    "e": 713.88
+   }
+  ]
+ },
+ {
+  "start": 713.88,
+  "end": 714.04,
+  "text": " gen.",
+  "words": [
+   {
+    "w": " gen.",
+    "s": 713.88,
+    "e": 714.04
+   }
+  ]
+ },
+ {
+  "start": 714.64,
+  "end": 715.2,
+  "text": " Maskur",
+  "words": [
+   {
+    "w": " Maskur",
+    "s": 714.64,
+    "e": 715.2
+   }
+  ]
+ },
+ {
+  "start": 715.2,
+  "end": 715.72,
+  "text": " asərlar",
+  "words": [
+   {
+    "w": " asərlar",
+    "s": 715.2,
+    "e": 715.72
+   }
+  ]
+ },
+ {
+  "start": 715.72,
+  "end": 716.62,
+  "text": " vaqiyyənin",
+  "words": [
+   {
+    "w": " vaqiyyənin",
+    "s": 715.72,
+    "e": 716.62
+   }
+  ]
+ },
+ {
+  "start": 716.62,
+  "end": 717.12,
+  "text": " turlij",
+  "words": [
+   {
+    "w": " turlij",
+    "s": 716.62,
+    "e": 717.12
+   }
+  ]
+ },
+ {
+  "start": 717.12,
+  "end": 717.7,
+  "text": " qatlarına",
+  "words": [
+   {
+    "w": " qatlarına",
+    "s": 717.12,
+    "e": 717.7
+   }
+  ]
+ },
+ {
+  "start": 717.7,
+  "end": 718.5,
+  "text": " jümladən",
+  "words": [
+   {
+    "w": " jümladən",
+    "s": 717.7,
+    "e": 718.5
+   }
+  ]
+ },
+ {
+  "start": 718.5,
+  "end": 719.24,
+  "text": " amməng",
+  "words": [
+   {
+    "w": " amməng",
+    "s": 718.5,
+    "e": 719.24
+   }
+  ]
+ },
+ {
+  "start": 719.24,
+  "end": 719.86,
+  "text": " kalginlərnin",
+  "words": [
+   {
+    "w": " kalginlərnin",
+    "s": 719.24,
+    "e": 719.86
+   }
+  ]
+ },
+ {
+  "start": 719.86,
+  "end": 720.28,
+  "text": " ruhi",
+  "words": [
+   {
+    "w": " ruhi",
+    "s": 719.86,
+    "e": 720.28
+   }
+  ]
+ },
+ {
+  "start": 720.28,
+  "end": 720.84,
+  "text": " halatı",
+  "words": [
+   {
+    "w": " halatı",
+    "s": 720.28,
+    "e": 720.84
+   }
+  ]
+ },
+ {
+  "start": 720.84,
+  "end": 721.5,
+  "text": " guru",
+  "words": [
+   {
+    "w": " guru",
+    "s": 720.84,
+    "e": 721.5
+   }
+  ]
+ },
+ {
+  "start": 721.5,
+  "end": 721.86,
+  "text": " içi",
+  "words": [
+   {
+    "w": " içi",
+    "s": 721.5,
+    "e": 721.86
+   }
+  ]
+ },
+ {
+  "start": 721.86,
+  "end": 722.02,
+  "text": " dəgi",
+  "words": [
+   {
+    "w": " dəgi",
+    "s": 721.86,
+    "e": 722.02
+   }
+  ]
+ },
+ {
+  "start": 722.02,
+  "end": 722.68,
+  "text": " hamkarlik",
+  "words": [
+   {
+    "w": " hamkarlik",
+    "s": 722.02,
+    "e": 722.68
+   }
+  ]
+ },
+ {
+  "start": 722.68,
+  "end": 723.02,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 722.68,
+    "e": 723.02
+   }
+  ]
+ },
+ {
+  "start": 723.02,
+  "end": 723.58,
+  "text": " qutqaru",
+  "words": [
+   {
+    "w": " qutqaru",
+    "s": 723.02,
+    "e": 723.58
+   }
+  ]
+ },
+ {
+  "start": 723.58,
+  "end": 724.22,
+  "text": " jarayanın",
+  "words": [
+   {
+    "w": " jarayanın",
+    "s": 723.58,
+    "e": 724.22
+   }
+  ]
+ },
+ {
+  "start": 724.22,
+  "end": 724.46,
+  "text": " yarat",
+  "words": [
+   {
+    "w": " yarat",
+    "s": 724.22,
+    "e": 724.46
+   }
+  ]
+ },
+ {
+  "start": 724.46,
+  "end": 724.72,
+  "text": " kən.",
+  "words": [
+   {
+    "w": " kən.",
+    "s": 724.46,
+    "e": 724.72
+   }
+  ]
+ },
+ {
+  "start": 725.2,
+  "end": 725.84,
+  "text": " PBS",
+  "words": [
+   {
+    "w": " PBS",
+    "s": 725.2,
+    "e": 725.84
+   }
+  ]
+ },
+ {
+  "start": 725.84,
+  "end": 726.36,
+  "text": " Plus",
+  "words": [
+   {
+    "w": " Plus",
+    "s": 725.84,
+    "e": 726.36
+   }
+  ]
+ },
+ {
+  "start": 726.36,
+  "end": 726.7,
+  "text": " 2",
+  "words": [
+   {
+    "w": " 2",
+    "s": 726.36,
+    "e": 726.7
+   }
+  ]
+ },
+ {
+  "start": 726.7,
+  "end": 728.3,
+  "text": " Tariqhi",
+  "words": [
+   {
+    "w": " Tariqhi",
+    "s": 726.7,
+    "e": 728.3
+   }
+  ]
+ },
+ {
+  "start": 728.3,
+  "end": 728.9,
+  "text": " Aqamiyat",
+  "words": [
+   {
+    "w": " Aqamiyat",
+    "s": 728.3,
+    "e": 728.9
+   }
+  ]
+ },
+ {
+  "start": 728.9,
+  "end": 729.46,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 728.9,
+    "e": 729.46
+   }
+  ]
+ },
+ {
+  "start": 729.46,
+  "end": 729.72,
+  "text": " khulas",
+  "words": [
+   {
+    "w": " khulas",
+    "s": 729.46,
+    "e": 729.72
+   }
+  ]
+ },
+ {
+  "start": 729.72,
+  "end": 731.12,
+  "text": " Berming",
+  "words": [
+   {
+    "w": " Berming",
+    "s": 729.72,
+    "e": 731.12
+   }
+  ]
+ },
+ {
+  "start": 731.12,
+  "end": 732.76,
+  "text": " 1972-ci ildəgi",
+  "words": [
+   {
+    "w": " 1972",
+    "s": 731.12,
+    "e": 731.52
+   },
+   {
+    "w": "-ci",
+    "s": 731.52,
+    "e": 732.38
+   },
+   {
+    "w": " ildəgi",
+    "s": 732.38,
+    "e": 732.76
+   }
+  ]
+ },
+ {
+  "start": 732.76,
+  "end": 733.44,
+  "text": " an tağlar",
+  "words": [
+   {
+    "w": " an",
+    "s": 732.76,
+    "e": 733.06
+   },
+   {
+    "w": " tağlar",
+    "s": 733.06,
+    "e": 733.44
+   }
+  ]
+ },
+ {
+  "start": 733.44,
+  "end": 734.12,
+  "text": " halaqatı",
+  "words": [
+   {
+    "w": " halaqatı",
+    "s": 733.44,
+    "e": 734.12
+   }
+  ]
+ },
+ {
+  "start": 734.12,
+  "end": 735.04,
+  "text": " berniçici",
+  "words": [
+   {
+    "w": " berniçici",
+    "s": 734.12,
+    "e": 735.04
+   }
+  ]
+ },
+ {
+  "start": 735.04,
+  "end": 735.5,
+  "text": " khatdan",
+  "words": [
+   {
+    "w": " khatdan",
+    "s": 735.04,
+    "e": 735.5
+   }
+  ]
+ },
+ {
+  "start": 735.5,
+  "end": 736.1,
+  "text": " tariqhi",
+  "words": [
+   {
+    "w": " tariqhi",
+    "s": 735.5,
+    "e": 736.1
+   }
+  ]
+ },
+ {
+  "start": 736.1,
+  "end": 736.58,
+  "text": " Aqamiyat",
+  "words": [
+   {
+    "w": " Aqamiyat",
+    "s": 736.1,
+    "e": 736.58
+   }
+  ]
+ },
+ {
+  "start": 736.58,
+  "end": 736.96,
+  "text": " kereyigə.",
+  "words": [
+   {
+    "w": " kereyigə.",
+    "s": 736.58,
+    "e": 736.96
+   }
+  ]
+ },
+ {
+  "start": 737.48,
+  "end": 738.0,
+  "text": " Birin",
+  "words": [
+   {
+    "w": " Birin",
+    "s": 737.48,
+    "e": 738.0
+   }
+  ]
+ },
+ {
+  "start": 738.0,
+  "end": 738.22,
+  "text": " chidan",
+  "words": [
+   {
+    "w": " chidan",
+    "s": 738.0,
+    "e": 738.22
+   }
+  ]
+ },
+ {
+  "start": 738.22,
+  "end": 739.48,
+  "text": " Hadisə",
+  "words": [
+   {
+    "w": " Hadisə",
+    "s": 738.22,
+    "e": 739.48
+   }
+  ]
+ },
+ {
+  "start": 739.48,
+  "end": 740.28,
+  "text": " murekkab",
+  "words": [
+   {
+    "w": " murekkab",
+    "s": 739.48,
+    "e": 740.28
+   }
+  ]
+ },
+ {
+  "start": 740.28,
+  "end": 740.64,
+  "text": " tağli",
+  "words": [
+   {
+    "w": " tağli",
+    "s": 740.28,
+    "e": 740.64
+   }
+  ]
+ },
+ {
+  "start": 740.64,
+  "end": 741.3,
+  "text": " hudududlərda",
+  "words": [
+   {
+    "w": " hudududlərda",
+    "s": 740.64,
+    "e": 741.3
+   }
+  ]
+ },
+ {
+  "start": 741.3,
+  "end": 742.14,
+  "text": " aviyatsi",
+  "words": [
+   {
+    "w": " aviyatsi",
+    "s": 741.3,
+    "e": 742.14
+   }
+  ]
+ },
+ {
+  "start": 742.14,
+  "end": 742.88,
+  "text": " navigatsiyası",
+  "words": [
+   {
+    "w": " navigatsiyası",
+    "s": 742.14,
+    "e": 742.88
+   }
+  ]
+ },
+ {
+  "start": 742.88,
+  "end": 743.38,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 742.88,
+    "e": 743.38
+   }
+  ]
+ },
+ {
+  "start": 743.38,
+  "end": 743.86,
+  "text": " parwas",
+  "words": [
+   {
+    "w": " parwas",
+    "s": 743.38,
+    "e": 743.86
+   }
+  ]
+ },
+ {
+  "start": 743.86,
+  "end": 744.52,
+  "text": " khafsızləginin",
+  "words": [
+   {
+    "w": " khafsızləginin",
+    "s": 743.86,
+    "e": 744.52
+   }
+  ]
+ },
+ {
+  "start": 744.52,
+  "end": 745.08,
+  "text": " nəqadar",
+  "words": [
+   {
+    "w": " nəqadar",
+    "s": 744.52,
+    "e": 745.08
+   }
+  ]
+ },
+ {
+  "start": 745.08,
+  "end": 745.38,
+  "text": " muhum",
+  "words": [
+   {
+    "w": " muhum",
+    "s": 745.08,
+    "e": 745.38
+   }
+  ]
+ },
+ {
+  "start": 745.38,
+  "end": 745.66,
+  "text": " ləgini",
+  "words": [
+   {
+    "w": " ləgini",
+    "s": 745.38,
+    "e": 745.66
+   }
+  ]
+ },
+ {
+  "start": 745.66,
+  "end": 746.1,
+  "text": " korsatkan.",
+  "words": [
+   {
+    "w": " korsatkan.",
+    "s": 745.66,
+    "e": 746.1
+   }
+  ]
+ },
+ {
+  "start": 746.8,
+  "end": 747.1,
+  "text": " İkin",
+  "words": [
+   {
+    "w": " İkin",
+    "s": 746.8,
+    "e": 747.1
+   }
+  ]
+ },
+ {
+  "start": 747.1,
+  "end": 747.4,
+  "text": " chidan",
+  "words": [
+   {
+    "w": " chidan",
+    "s": 747.1,
+    "e": 747.4
+   }
+  ]
+ },
+ {
+  "start": 747.4,
+  "end": 748.62,
+  "text": " Fauqulatda",
+  "words": [
+   {
+    "w": " Fauqulatda",
+    "s": 747.4,
+    "e": 748.62
+   }
+  ]
+ },
+ {
+  "start": 748.62,
+  "end": 749.28,
+  "text": " vaziyyətlərda",
+  "words": [
+   {
+    "w": " vaziyyətlərda",
+    "s": 748.62,
+    "e": 749.28
+   }
+  ]
+ },
+ {
+  "start": 749.28,
+  "end": 749.84,
+  "text": " jamaavi",
+  "words": [
+   {
+    "w": " jamaavi",
+    "s": 749.28,
+    "e": 749.84
+   }
+  ]
+ },
+ {
+  "start": 749.84,
+  "end": 750.46,
+  "text": " hamkarlik",
+  "words": [
+   {
+    "w": " hamkarlik",
+    "s": 749.84,
+    "e": 750.46
+   }
+  ]
+ },
+ {
+  "start": 750.46,
+  "end": 750.9,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 750.46,
+    "e": 750.9
+   }
+  ]
+ },
+ {
+  "start": 750.9,
+  "end": 751.32,
+  "text": " mوجud",
+  "words": [
+   {
+    "w": " mوجud",
+    "s": 750.9,
+    "e": 751.32
+   }
+  ]
+ },
+ {
+  "start": 751.32,
+  "end": 752.06,
+  "text": " resurslərddən",
+  "words": [
+   {
+    "w": " resurslərddən",
+    "s": 751.32,
+    "e": 752.06
+   }
+  ]
+ },
+ {
+  "start": 752.06,
+  "end": 752.64,
+  "text": " áqilana",
+  "words": [
+   {
+    "w": " áqilana",
+    "s": 752.06,
+    "e": 752.64
+   }
+  ]
+ },
+ {
+  "start": 752.64,
+  "end": 753.2,
+  "text": " faydalanış",
+  "words": [
+   {
+    "w": " faydalanış",
+    "s": 752.64,
+    "e": 753.2
+   }
+  ]
+ },
+ {
+  "start": 753.2,
+  "end": 753.86,
+  "text": " aman",
+  "words": [
+   {
+    "w": " aman",
+    "s": 753.2,
+    "e": 753.86
+   }
+  ]
+ },
+ {
+  "start": 753.86,
+  "end": 754.18,
+  "text": " qalış",
+  "words": [
+   {
+    "w": " qalış",
+    "s": 753.86,
+    "e": 754.18
+   }
+  ]
+ },
+ {
+  "start": 754.18,
+  "end": 754.9,
+  "text": " imkaniyətini",
+  "words": [
+   {
+    "w": " imkaniyətini",
+    "s": 754.18,
+    "e": 754.9
+   }
+  ]
+ },
+ {
+  "start": 754.9,
+  "end": 755.56,
+  "text": " áşirişi",
+  "words": [
+   {
+    "w": " áşirişi",
+    "s": 754.9,
+    "e": 755.56
+   }
+  ]
+ },
+ {
+  "start": 755.56,
+  "end": 756.22,
+  "text": " mümkünləgini",
+  "words": [
+   {
+    "w": " mümkünləgini",
+    "s": 755.56,
+    "e": 756.22
+   }
+  ]
+ },
+ {
+  "start": 756.22,
+  "end": 756.9,
+  "text": " namaayi",
+  "words": [
+   {
+    "w": " namaayi",
+    "s": 756.22,
+    "e": 756.9
+   }
+  ]
+ },
+ {
+  "start": 756.9,
+  "end": 757.26,
+  "text": " şedkən.",
+  "words": [
+   {
+    "w": " şedkən.",
+    "s": 756.9,
+    "e": 757.26
+   }
+  ]
+ },
+ {
+  "start": 757.8,
+  "end": 758.34,
+  "text": " Uçin",
+  "words": [
+   {
+    "w": " Uçin",
+    "s": 757.8,
+    "e": 758.34
+   }
+  ]
+ },
+ {
+  "start": 758.34,
+  "end": 758.58,
+  "text": " chidan",
+  "words": [
+   {
+    "w": " chidan",
+    "s": 758.34,
+    "e": 758.58
+   }
+  ]
+ },
+ {
+  "start": 758.58,
+  "end": 759.52,
+  "text": " Uzaq",
+  "words": [
+   {
+    "w": " Uzaq",
+    "s": 758.58,
+    "e": 759.52
+   }
+  ]
+ },
+ {
+  "start": 759.52,
+  "end": 760.04,
+  "text": " muddətli",
+  "words": [
+   {
+    "w": " muddətli",
+    "s": 759.52,
+    "e": 760.04
+   }
+  ]
+ },
+ {
+  "start": 760.04,
+  "end": 760.56,
+  "text": " áçlik",
+  "words": [
+   {
+    "w": " áçlik",
+    "s": 760.04,
+    "e": 760.56
+   }
+  ]
+ },
+ {
+  "start": 760.56,
+  "end": 761.46,
+  "text": " sahuq",
+  "words": [
+   {
+    "w": " sahuq",
+    "s": 760.56,
+    "e": 761.46
+   }
+  ]
+ },
+ {
+  "start": 761.46,
+  "end": 761.84,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 761.46,
+    "e": 761.84
+   }
+  ]
+ },
+ {
+  "start": 761.84,
+  "end": 762.2,
+  "text": " ruhi",
+  "words": [
+   {
+    "w": " ruhi",
+    "s": 761.84,
+    "e": 762.2
+   }
+  ]
+ },
+ {
+  "start": 762.2,
+  "end": 762.56,
+  "text": " basim",
+  "words": [
+   {
+    "w": " basim",
+    "s": 762.2,
+    "e": 762.56
+   }
+  ]
+ },
+ {
+  "start": 762.56,
+  "end": 763.28,
+  "text": " insan",
+  "words": [
+   {
+    "w": " insan",
+    "s": 762.56,
+    "e": 763.28
+   }
+  ]
+ },
+ {
+  "start": 763.28,
+  "end": 763.9,
+  "text": " arganizm",
+  "words": [
+   {
+    "w": " arganizm",
+    "s": 763.28,
+    "e": 763.9
+   }
+  ]
+ },
+ {
+  "start": 763.9,
+  "end": 764.3,
+  "text": " hamdə",
+  "words": [
+   {
+    "w": " hamdə",
+    "s": 763.9,
+    "e": 764.3
+   }
+  ]
+ },
+ {
+  "start": 764.3,
+  "end": 765.2,
+  "text": " qarar qabul",
+  "words": [
+   {
+    "w": " qarar",
+    "s": 764.3,
+    "e": 764.88
+   },
+   {
+    "w": " qabul",
+    "s": 764.88,
+    "e": 765.2
+   }
+  ]
+ },
+ {
+  "start": 765.2,
+  "end": 765.44,
+  "text": " qlish",
+  "words": [
+   {
+    "w": " qlish",
+    "s": 765.2,
+    "e": 765.44
+   }
+  ]
+ },
+ {
+  "start": 765.44,
+  "end": 765.92,
+  "text": " jariyani",
+  "words": [
+   {
+    "w": " jariyani",
+    "s": 765.44,
+    "e": 765.92
+   }
+  ]
+ },
+ {
+  "start": 765.92,
+  "end": 766.12,
+  "text": " gə",
+  "words": [
+   {
+    "w": " gə",
+    "s": 765.92,
+    "e": 766.12
+   }
+  ]
+ },
+ {
+  "start": 766.12,
+  "end": 766.66,
+  "text": " qandai",
+  "words": [
+   {
+    "w": " qandai",
+    "s": 766.12,
+    "e": 766.66
+   }
+  ]
+ },
+ {
+  "start": 766.66,
+  "end": 767.06,
+  "text": " təsir",
+  "words": [
+   {
+    "w": " təsir",
+    "s": 766.66,
+    "e": 767.06
+   }
+  ]
+ },
+ {
+  "start": 767.06,
+  "end": 767.62,
+  "text": " korsatşini",
+  "words": [
+   {
+    "w": " korsatşini",
+    "s": 767.06,
+    "e": 767.62
+   }
+  ]
+ },
+ {
+  "start": 767.62,
+  "end": 768.08,
+  "text": " organish",
+  "words": [
+   {
+    "w": " organish",
+    "s": 767.62,
+    "e": 768.08
+   }
+  ]
+ },
+ {
+  "start": 768.08,
+  "end": 768.32,
+  "text": " uçun",
+  "words": [
+   {
+    "w": " uçun",
+    "s": 768.08,
+    "e": 768.32
+   }
+  ]
+ },
+ {
+  "start": 768.32,
+  "end": 769.06,
+  "text": " muhum",
+  "words": [
+   {
+    "w": " muhum",
+    "s": 768.32,
+    "e": 769.06
+   }
+  ]
+ },
+ {
+  "start": 769.06,
+  "end": 769.68,
+  "text": " tariqhi",
+  "words": [
+   {
+    "w": " tariqhi",
+    "s": 769.06,
+    "e": 769.68
+   }
+  ]
+ },
+ {
+  "start": 769.68,
+  "end": 770.04,
+  "text": " misal",
+  "words": [
+   {
+    "w": " misal",
+    "s": 769.68,
+    "e": 770.04
+   }
+  ]
+ },
+ {
+  "start": 770.04,
+  "end": 770.28,
+  "text": " qolub",
+  "words": [
+   {
+    "w": " qolub",
+    "s": 770.04,
+    "e": 770.28
+   }
+  ]
+ },
+ {
+  "start": 770.28,
+  "end": 770.58,
+  "text": " qalgan.",
+  "words": [
+   {
+    "w": " qalgan.",
+    "s": 770.28,
+    "e": 770.58
+   }
+  ]
+ },
+ {
+  "start": 771.2,
+  "end": 771.66,
+  "text": " Turtun",
+  "words": [
+   {
+    "w": " Turtun",
+    "s": 771.2,
+    "e": 771.66
+   }
+  ]
+ },
+ {
+  "start": 771.66,
+  "end": 772.96,
+  "text": " Fernando",
+  "words": [
+   {
+    "w": " Fernando",
+    "s": 771.66,
+    "e": 772.96
+   }
+  ]
+ },
+ {
+  "start": 772.96,
+  "end": 773.46,
+  "text": " Parrado",
+  "words": [
+   {
+    "w": " Parrado",
+    "s": 772.96,
+    "e": 773.46
+   }
+  ]
+ },
+ {
+  "start": 773.46,
+  "end": 773.94,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 773.46,
+    "e": 773.94
+   }
+  ]
+ },
+ {
+  "start": 773.94,
+  "end": 774.28,
+  "text": " Roberto",
+  "words": [
+   {
+    "w": " Roberto",
+    "s": 773.94,
+    "e": 774.28
+   }
+  ]
+ },
+ {
+  "start": 774.28,
+  "end": 774.66,
+  "text": " Cane",
+  "words": [
+   {
+    "w": " Cane",
+    "s": 774.28,
+    "e": 774.66
+   }
+  ]
+ },
+ {
+  "start": 774.66,
+  "end": 774.92,
+  "text": " sənin",
+  "words": [
+   {
+    "w": " sənin",
+    "s": 774.66,
+    "e": 774.92
+   }
+  ]
+ },
+ {
+  "start": 774.92,
+  "end": 775.86,
+  "text": " ekspediəsə",
+  "words": [
+   {
+    "w": " ekspediəsə",
+    "s": 774.92,
+    "e": 775.86
+   }
+  ]
+ },
+ {
+  "start": 775.86,
+  "end": 776.76,
+  "text": " fauqlətta",
+  "words": [
+   {
+    "w": " fauqlətta",
+    "s": 775.86,
+    "e": 776.76
+   }
+  ]
+ },
+ {
+  "start": 776.76,
+  "end": 777.36,
+  "text": " şaraïtta",
+  "words": [
+   {
+    "w": " şaraïtta",
+    "s": 776.76,
+    "e": 777.36
+   }
+  ]
+ },
+ {
+  "start": 777.36,
+  "end": 777.94,
+  "text": " təshəbbus",
+  "words": [
+   {
+    "w": " təshəbbus",
+    "s": 777.36,
+    "e": 777.94
+   }
+  ]
+ },
+ {
+  "start": 777.94,
+  "end": 778.44,
+  "text": " korsatış",
+  "words": [
+   {
+    "w": " korsatış",
+    "s": 777.94,
+    "e": 778.44
+   }
+  ]
+ },
+ {
+  "start": 778.44,
+  "end": 778.96,
+  "text": " və",
+  "words": [
+   {
+    "w": " və",
+    "s": 778.44,
+    "e": 778.96
+   }
+  ]
+ },
+ {
+  "start": 778.96,
+  "end": 779.42,
+  "text": " yardəm",
+  "words": [
+   {
+    "w": " yardəm",
+    "s": 778.96,
+    "e": 779.42
+   }
+  ]
+ },
+ {
+  "start": 779.42,
+  "end": 779.8,
+  "text": " izləşnin",
+  "words": [
+   {
+    "w": " izləşnin",
+    "s": 779.42,
+    "e": 779.8
+   }
+  ]
+ },
+ {
+  "start": 779.8,
+  "end": 780.22,
+  "text": " halk",
+  "words": [
+   {
+    "w": " halk",
+    "s": 779.8,
+    "e": 780.22
+   }
+  ]
+ },
+ {
+  "start": 780.22,
+  "end": 780.54,
+  "text": " luç",
+  "words": [
+   {
+    "w": " luç",
+    "s": 780.22,
+    "e": 780.54
+   }
+  ]
+ },
+ {
+  "start": 780.54,
+  "end": 781.18,
+  "text": " ahəmiyyətini",
+  "words": [
+   {
+    "w": " ahəmiyyətini",
+    "s": 780.54,
+    "e": 781.18
+   }
+  ]
+ },
+ {
+  "start": 781.18,
+  "end": 781.94,
+  "text": " namaayy",
+  "words": [
+   {
+    "w": " namaayy",
+    "s": 781.18,
+    "e": 781.94
+   }
+  ]
+ },
+ {
+  "start": 781.94,
+  "end": 782.26,
+  "text": " anidkən.",
+  "words": [
+   {
+    "w": " anidkən.",
+    "s": 781.94,
+    "e": 782.26
+   }
+  ]
+ },
+ {
+  "start": 783.04,
+  "end": 783.22,
+  "text": " An",
+  "words": [
+   {
+    "w": " An",
+    "s": 783.04,
+    "e": 783.22
+   }
+  ]
+ },
+ {
+  "start": 783.22,
+  "end": 783.94,
+  "text": " tağlarədəgі",
+  "words": [
+   {
+    "w": " tağlarədəgі",
+    "s": 783.22,
+    "e": 783.94
+   }
+  ]
+ },
+ {
+  "start": 783.94,
+  "end": 784.28,
+  "text": " uçbú",
+  "words": [
+   {
+    "w": " uçbú",
+    "s": 783.94,
+    "e": 784.28
+   }
+  ]
+ },
+ {
+  "start": 784.28,
+  "end": 784.86,
+  "text": " xadīsə",
+  "words": [
+   {
+    "w": " xadīsə",
+    "s": 784.28,
+    "e": 784.86
+   }
+  ]
+ },
+ {
+  "start": 784.86,
+  "end": 785.52,
+  "text": " bugünkü",
+  "words": [
+   {
+    "w": " bugünkü",
+    "s": 784.86,
+    "e": 785.52
+   }
+  ]
+ },
+ {
+  "start": 785.52,
+  "end": 785.94,
+  "text": " kündə",
+  "words": [
+   {
+    "w": " kündə",
+    "s": 785.52,
+    "e": 785.94
+   }
+  ]
+ },
+ {
+  "start": 785.94,
+  "end": 786.04,
+  "text": " ham",
+  "words": [
+   {
+    "w": " ham",
+    "s": 785.94,
+    "e": 786.04
+   }
+  ]
+ },
+ {
+  "start": 786.04,
+  "end": 786.86,
+  "text": " insan",
+  "words": [
+   {
+    "w": " insan",
+    "s": 786.04,
+    "e": 786.86
+   }
+  ]
+ },
+ {
+  "start": 786.86,
+  "end": 787.66,
+  "text": " ekstrimal",
+  "words": [
+   {
+    "w": " ekstrimal",
+    "s": 786.86,
+    "e": 787.66
+   }
+  ]
+ },
+ {
+  "start": 787.66,
+  "end": 788.3,
+  "text": " şaraïtlərdə",
+  "words": [
+   {
+    "w": " şaraïtlərdə",
+    "s": 787.66,
+    "e": 788.3
+   }
+  ]
+ },
+ {
+  "start": 788.3,
+  "end": 788.64,
+  "text": " aman",
+  "words": [
+   {
+    "w": " aman",
+    "s": 788.3,
+    "e": 788.64
+   }
+  ]
+ },
+ {
+  "start": 788.64,
+  "end": 788.92,
+  "text": " qalış",
+  "words": [
+   {
+    "w": " qalış",
+    "s": 788.64,
+    "e": 788.92
+   }
+  ]
+ },
+ {
+  "start": 788.92,
+  "end": 789.6,
+  "text": " imkaniyətləri",
+  "words": [
+   {
+    "w": " imkaniyətləri",
+    "s": 788.92,
+    "e": 789.6
+   }
+  ]
+ },
+ {
+  "start": 789.6,
+  "end": 790.14,
+  "text": " xaqdəgі",
+  "words": [
+   {
+    "w": " xaqdəgі",
+    "s": 789.6,
+    "e": 790.14
+   }
+  ]
+ },
+ {
+  "start": 790.14,
+  "end": 790.52,
+  "text": " yeng",
+  "words": [
+   {
+    "w": " yeng",
+    "s": 790.14,
+    "e": 790.52
+   }
+  ]
+ },
+ {
+  "start": 790.52,
+  "end": 791.14,
+  "text": " mashhur",
+  "words": [
+   {
+    "w": " mashhur",
+    "s": 790.52,
+    "e": 791.14
+   }
+  ]
+ },
+ {
+  "start": 791.14,
+  "end": 791.74,
+  "text": " tariqhi",
+  "words": [
+   {
+    "w": " tariqhi",
+    "s": 791.14,
+    "e": 791.74
+   }
+  ]
+ },
+ {
+  "start": 791.74,
+  "end": 792.44,
+  "text": " vaqiyələrdən",
+  "words": [
+   {
+    "w": " vaqiyələrdən",
+    "s": 791.74,
+    "e": 792.44
+   }
+  ]
+ },
+ {
+  "start": 792.44,
+  "end": 793.08,
+  "text": " bir sıfatıda",
+  "words": [
+   {
+    "w": " bir",
+    "s": 792.44,
+    "e": 792.6
+   },
+   {
+    "w": " sıfatıda",
+    "s": 792.6,
+    "e": 793.08
+   }
+  ]
+ },
+ {
+  "start": 793.08,
+  "end": 794.02,
+  "text": " organilədi.",
+  "words": [
+   {
+    "w": " organilədi.",
+    "s": 793.08,
+    "e": 794.02
+   }
+  ]
+ },
+ {
+  "start": 794.76,
+  "end": 796.2,
+  "text": " 1972-ci",
+  "words": [
+   {
+    "w": " 1972",
+    "s": 794.76,
+    "e": 795.34
+   },
+   {
+    "w": "-ci",
+    "s": 795.34,
+    "e": 796.2
+   }
+  ]
+ },
+ {
+  "start": 796.2,
+  "end": 796.44,
+  "text": " yil",
+  "words": [
+   {
+    "w": " yil",
+    "s": 796.2,
+    "e": 796.44
+   }
+  ]
+ },
+ {
+  "start": 796.44,
+  "end": 797.22,
+  "text": " 13-ci",
+  "words": [
+   {
+    "w": " 13",
+    "s": 796.44,
+    "e": 796.98
+   },
+   {
+    "w": "-ci",
+    "s": 796.98,
+    "e": 797.22
+   }
+  ]
+ },
+ {
+  "start": 797.22,
+  "end": 797.78,
+  "text": " əktəbrda",
+  "words": [
+   {
+    "w": " əktəbrda",
+    "s": 797.22,
+    "e": 797.78
+   }
+  ]
+ },
+ {
+  "start": 797.78,
+  "end": 798.8,
+  "text": " 45 kişi",
+  "words": [
+   {
+    "w": " 45",
+    "s": 797.78,
+    "e": 798.38
+   },
+   {
+    "w": " kişi",
+    "s": 798.38,
+    "e": 798.8
+   }
+  ]
+ },
+ {
+  "start": 798.8,
+  "end": 799.0,
+  "text": " bələn",
+  "words": [
+   {
+    "w": " bələn",
+    "s": 798.8,
+    "e": 799.0
+   }
+  ]
+ },
+ {
+  "start": 799.0,
+  "end": 799.54,
+  "text": " başləngən",
+  "words": [
+   {
+    "w": " başləngən",
+    "s": 799.0,
+    "e": 799.54
+   }
+  ]
+ },
+ {
+  "start": 799.54,
+  "end": 800.0,
+  "text": " Parvas",
+  "words": [
+   {
+    "w": " Parvas",
+    "s": 799.54,
+    "e": 800.0
+   }
+  ]
+ },
+ {
+  "start": 800.0,
+  "end": 801.06,
+  "text": " 23-ci",
+  "words": [
+   {
+    "w": " 23",
+    "s": 800.0,
+    "e": 800.62
+   },
+   {
+    "w": "-ci",
+    "s": 800.62,
+    "e": 801.06
+   }
+  ]
+ },
+ {
+  "start": 801.06,
+  "end": 801.44,
+  "text": " dekəbr",
+  "words": [
+   {
+    "w": " dekəbr",
+    "s": 801.06,
+    "e": 801.44
+   }
+  ]
+ },
+ {
+  "start": 801.44,
+  "end": 801.7,
+  "text": " künü",
+  "words": [
+   {
+    "w": " künü",
+    "s": 801.44,
+    "e": 801.7
+   }
+  ]
+ },
+ {
+  "start": 801.7,
+  "end": 802.74,
+  "text": " 16 kişinin",
+  "words": [
+   {
+    "w": " 16",
+    "s": 801.7,
+    "e": 802.38
+   },
+   {
+    "w": " kişinin",
+    "s": 802.38,
+    "e": 802.74
+   }
+  ]
+ },
+ {
+  "start": 802.74,
+  "end": 803.38,
+  "text": " qutqarılışı",
+  "words": [
+   {
+    "w": " qutqarılışı",
+    "s": 802.74,
+    "e": 803.38
+   }
+  ]
+ },
+ {
+  "start": 803.38,
+  "end": 803.6,
+  "text": " bələn",
+  "words": [
+   {
+    "w": " bələn",
+    "s": 803.38,
+    "e": 803.6
+   }
+  ]
+ },
+ {
+  "start": 803.6,
+  "end": 804.28,
+  "text": " yəkürləngən.",
+  "words": [
+   {
+    "w": " yəkürləngən.",
+    "s": 803.6,
+    "e": 804.28
+   }
+  ]
+ },
+ {
+  "start": 804.86,
+  "end": 805.14,
+  "text": " Bu",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 804.86,
+    "e": 805.14
+   }
+  ]
+ },
+ {
+  "start": 805.14,
+  "end": 805.66,
+  "text": " hadisə",
+  "words": [
+   {
+    "w": " hadisə",
+    "s": 805.14,
+    "e": 805.66
+   }
+  ]
+ },
+ {
+  "start": 805.66,
+  "end": 806.28,
+  "text": " tariqdə",
+  "words": [
+   {
+    "w": " tariqdə",
+    "s": 805.66,
+    "e": 806.28
+   }
+  ]
+ },
+ {
+  "start": 806.28,
+  "end": 807.48,
+  "text": " 72 kün",
+  "words": [
+   {
+    "w": " 72",
+    "s": 806.28,
+    "e": 806.96
+   },
+   {
+    "w": " kün",
+    "s": 806.96,
+    "e": 807.48
+   }
+  ]
+ },
+ {
+  "start": 807.48,
+  "end": 808.18,
+  "text": " davam etkən",
+  "words": [
+   {
+    "w": " davam",
+    "s": 807.48,
+    "e": 807.86
+   },
+   {
+    "w": " etkən",
+    "s": 807.86,
+    "e": 808.18
+   }
+  ]
+ },
+ {
+  "start": 808.18,
+  "end": 808.52,
+  "text": " aman",
+  "words": [
+   {
+    "w": " aman",
+    "s": 808.18,
+    "e": 808.52
+   }
+  ]
+ },
+ {
+  "start": 808.52,
+  "end": 808.86,
+  "text": " qalış",
+  "words": [
+   {
+    "w": " qalış",
+    "s": 808.52,
+    "e": 808.86
+   }
+  ]
+ },
+ {
+  "start": 808.86,
+  "end": 809.28,
+  "text": " qüрашı",
+  "words": [
+   {
+    "w": " qüрашı",
+    "s": 808.86,
+    "e": 809.28
+   }
+  ]
+ },
+ {
+  "start": 809.28,
+  "end": 809.74,
+  "text": " va",
+  "words": [
+   {
+    "w": " va",
+    "s": 809.28,
+    "e": 809.74
+   }
+  ]
+ },
+ {
+  "start": 809.74,
+  "end": 810.22,
+  "text": " ant",
+  "words": [
+   {
+    "w": " ant",
+    "s": 809.74,
+    "e": 810.22
+   }
+  ]
+ },
+ {
+  "start": 810.22,
+  "end": 810.68,
+  "text": " tağları",
+  "words": [
+   {
+    "w": " tağları",
+    "s": 810.22,
+    "e": 810.68
+   }
+  ]
+ },
+ {
+  "start": 810.68,
+  "end": 811.28,
+  "text": " mucizası",
+  "words": [
+   {
+    "w": " mucizası",
+    "s": 810.68,
+    "e": 811.28
+   }
+  ]
+ },
+ {
+  "start": 811.28,
+  "end": 811.64,
+  "text": " namı",
+  "words": [
+   {
+    "w": " namı",
+    "s": 811.28,
+    "e": 811.64
+   }
+  ]
+ },
+ {
+  "start": 811.64,
+  "end": 812.04,
+  "text": " bələn",
+  "words": [
+   {
+    "w": " bələn",
+    "s": 811.64,
+    "e": 812.04
+   }
+  ]
+ },
+ {
+  "start": 812.04,
+  "end": 812.62,
+  "text": " səxlən",
+  "words": [
+   {
+    "w": " səxlən",
+    "s": 812.04,
+    "e": 812.62
+   }
+  ]
+ },
+ {
+  "start": 812.62,
+  "end": 812.98,
+  "text": " qalgan.",
+  "words": [
+   {
+    "w": " qalgan.",
+    "s": 812.62,
+    "e": 812.98
+   }
+  ]
+ }
+]

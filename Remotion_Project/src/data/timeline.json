@@ -1,0 +1,4838 @@
+{
+ "fps": 30,
+ "durationInFrames": 24399,
+ "shots": [
+  {
+   "idx": 0,
+   "scene": 0,
+   "src": "sWvdYQW0Bx8",
+   "t": 100.0,
+   "crop": [
+    0.21,
+    0.09,
+    0.66,
+    0.73
+   ],
+   "label": "Fuselaj, And tog'lari, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 122,
+   "file": "media/s000.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 100.0,
+   "from": 0
+  },
+  {
+   "idx": 1,
+   "scene": 0,
+   "src": "TKKHSc1kSiU",
+   "t": 9.5,
+   "crop": null,
+   "label": "And tog'lari, 1972 (arxiv)",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 121,
+   "file": "media/s001.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 9.5,
+   "from": 122
+  },
+  {
+   "idx": 2,
+   "scene": 0,
+   "src": "sWvdYQW0Bx8",
+   "t": 194.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Omon qolganlar, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 122,
+   "file": "media/s002.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 194.0,
+   "from": 243
+  },
+  {
+   "idx": 3,
+   "scene": 1,
+   "src": "sWvdYQW0Bx8",
+   "t": 1.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Halokatdan oldingi so'nggi surat",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 96,
+   "file": "media/s003.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1.0,
+   "from": 365
+  },
+  {
+   "idx": 4,
+   "scene": 2,
+   "src": "8q8GKalkCZg",
+   "t": 213.0,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.74
+   ],
+   "label": "Old Christians Club, 1972",
+   "credit": "BBC News",
+   "kind": "interview",
+   "dur": 88,
+   "file": "media/s004.mp4",
+   "lt": [
+    "Old Christians Club",
+    "Montevideo, Urug'vay • regbi jamoasi"
+   ],
+   "freeze": false,
+   "t_used": 213.0,
+   "from": 461
+  },
+  {
+   "idx": 5,
+   "scene": 2,
+   "src": "dWjfEqPdwmQ",
+   "t": 9.3,
+   "crop": null,
+   "label": "Jamoa samolyot oldida, 1972",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 87,
+   "file": "media/s005.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 9.3,
+   "from": 549
+  },
+  {
+   "idx": 6,
+   "scene": 2,
+   "src": "8q8GKalkCZg",
+   "t": 203.0,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.74
+   ],
+   "label": null,
+   "credit": "BBC News",
+   "kind": "interview",
+   "dur": 88,
+   "file": "media/s006.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 203.0,
+   "from": 636
+  },
+  {
+   "idx": 7,
+   "scene": 3,
+   "src": "dWjfEqPdwmQ",
+   "t": 0.5,
+   "crop": null,
+   "label": "Halokat joyi koordinatalari",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 136,
+   "file": "media/s007.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 0.5,
+   "from": 724
+  },
+  {
+   "idx": 8,
+   "scene": 3,
+   "src": "JnckFwa5zDs",
+   "t": 20.0,
+   "crop": null,
+   "label": "Ko'z yoshlari vodiysi muzligi",
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 135,
+   "file": "media/s008.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 20.0,
+   "from": 860
+  },
+  {
+   "idx": 9,
+   "scene": 4,
+   "src": "sWvdYQW0Bx8",
+   "t": 20.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Omon qolganlar, 1972-yil noyabr",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 139,
+   "file": "media/s009.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 20.0,
+   "from": 995
+  },
+  {
+   "idx": 10,
+   "scene": 4,
+   "src": "sWvdYQW0Bx8",
+   "t": 66.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 139,
+   "file": "media/s010.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 66.0,
+   "from": 1134
+  },
+  {
+   "idx": 11,
+   "scene": 5,
+   "src": "lo1T24khxXY",
+   "t": 40.5,
+   "crop": null,
+   "label": "\"Harbiy samolyotni qidirish rasman bekor qilindi\" — 1972",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 86,
+   "file": "media/s011.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 40.5,
+   "from": 1273
+  },
+  {
+   "idx": 12,
+   "scene": 5,
+   "src": "sWvdYQW0Bx8",
+   "t": 260.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 86,
+   "file": "media/s012.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 260.0,
+   "from": 1359
+  },
+  {
+   "idx": 13,
+   "scene": 6,
+   "src": "tFZX0vsbbTw",
+   "t": 33.0,
+   "crop": null,
+   "label": "Los Maytenes, 1972-yil dekabr",
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 111,
+   "file": "media/s013.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 33.0,
+   "from": 1445
+  },
+  {
+   "idx": 14,
+   "scene": 6,
+   "src": "tFZX0vsbbTw",
+   "t": 41.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 111,
+   "file": "media/s014.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 41.0,
+   "from": 1556
+  },
+  {
+   "idx": 15,
+   "scene": 7,
+   "src": "cDRzvf3PxtI",
+   "t": 57.0,
+   "crop": null,
+   "label": "1972-yil gazetalari: \"Mo'jiza! Tirik qolganlar bor\"",
+   "credit": "Apolo TV",
+   "kind": "archive",
+   "dur": 108,
+   "file": "media/s015.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 57.0,
+   "from": 1667
+  },
+  {
+   "idx": 16,
+   "scene": 7,
+   "src": "lo1T24khxXY",
+   "t": 13.6,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 108,
+   "file": "media/s016.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 13.6,
+   "from": 1775
+  },
+  {
+   "idx": 17,
+   "scene": 8,
+   "src": "uoXkaGZ-Cp8",
+   "t": 70.2,
+   "crop": null,
+   "label": "Museo Andes 1972, Montevideo",
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 106,
+   "file": "media/s017.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 70.2,
+   "from": 1883
+  },
+  {
+   "idx": 18,
+   "scene": 8,
+   "src": "uoXkaGZ-Cp8",
+   "t": 59.4,
+   "crop": null,
+   "label": null,
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 106,
+   "file": "media/s018.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 59.4,
+   "from": 1989
+  },
+  {
+   "idx": 19,
+   "scene": 8,
+   "src": "lo1T24khxXY",
+   "t": 10.2,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 105,
+   "file": "media/s019.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 10.2,
+   "from": 2095
+  },
+  {
+   "idx": 20,
+   "scene": 8,
+   "src": "uoXkaGZ-Cp8",
+   "t": 16.2,
+   "crop": null,
+   "label": null,
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 106,
+   "file": "media/s020.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 16.2,
+   "from": 2200
+  },
+  {
+   "idx": 21,
+   "scene": 9,
+   "src": "4RyZfmtovFQ",
+   "t": 8.0,
+   "crop": null,
+   "label": null,
+   "credit": "Fuerza Aérea Uruguaya / E. Luzardo",
+   "kind": "archive",
+   "dur": 137,
+   "file": "media/s021.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 8.0,
+   "from": 2306
+  },
+  {
+   "idx": 22,
+   "scene": 10,
+   "src": "4RyZfmtovFQ",
+   "t": 9.0,
+   "crop": null,
+   "label": "Urug'vay HHK FH-227 samolyoti (bir xil turdagi)",
+   "credit": "Fuerza Aérea Uruguaya / E. Luzardo",
+   "kind": "archive",
+   "dur": 122,
+   "file": "media/s022.mp4",
+   "lt": [
+    "Fairchild FH-227D",
+    "571-reys • ikki dvigatelli turbovintli samolyot"
+   ],
+   "freeze": false,
+   "t_used": 9.0,
+   "from": 2443
+  },
+  {
+   "idx": 23,
+   "scene": 10,
+   "src": "UWJid5np8BE",
+   "t": 26.0,
+   "crop": null,
+   "label": "Fairchild FH-227, 1967",
+   "credit": "Classic Airliners (1967)",
+   "kind": "archive",
+   "dur": 121,
+   "file": "media/s023.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 26.0,
+   "from": 2565
+  },
+  {
+   "idx": 24,
+   "scene": 11,
+   "src": "NZ8LzY3G3k4",
+   "t": 30.0,
+   "crop": null,
+   "label": "Montevideo, Urug'vay",
+   "credit": "Vista Aérea Uy",
+   "kind": "location",
+   "dur": 184,
+   "file": "media/s024.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 30.0,
+   "from": 2686
+  },
+  {
+   "idx": 25,
+   "scene": 12,
+   "src": "BDZtDJpIsiw",
+   "t": 1.0,
+   "crop": null,
+   "label": "Mendosa, Argentina",
+   "credit": "El Gringo Rojo",
+   "kind": "location",
+   "dur": 83,
+   "file": "media/s025.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1.0,
+   "from": 2870
+  },
+  {
+   "idx": 26,
+   "scene": 12,
+   "src": "lo1T24khxXY",
+   "t": 30.8,
+   "crop": null,
+   "label": "\"Mendosadagi so'nggi suratlar\" — 1972 gazetasi",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 84,
+   "file": "media/s026.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 30.8,
+   "from": 2953
+  },
+  {
+   "idx": 27,
+   "scene": 12,
+   "src": "2cM0Noskgnw",
+   "t": 299.0,
+   "crop": null,
+   "label": "\"Uruguay samolyoti Mendosadan uchdi\" — 1972",
+   "credit": "CGTN",
+   "kind": "interview",
+   "dur": 83,
+   "file": "media/s027.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 299.0,
+   "from": 3037
+  },
+  {
+   "idx": 28,
+   "scene": 13,
+   "src": "TKKHSc1kSiU",
+   "t": 28.5,
+   "crop": null,
+   "label": "Kabina, 1972 (arxiv)",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 121,
+   "file": "media/s028.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 28.5,
+   "from": 3120
+  },
+  {
+   "idx": 29,
+   "scene": 13,
+   "src": "TKKHSc1kSiU",
+   "t": 3.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 121,
+   "file": "media/s029.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 3.0,
+   "from": 3241
+  },
+  {
+   "idx": 30,
+   "scene": 14,
+   "src": "TKKHSc1kSiU",
+   "t": 14.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 143,
+   "file": "media/s030.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 14.0,
+   "from": 3362
+  },
+  {
+   "idx": 31,
+   "scene": 14,
+   "src": "TKKHSc1kSiU",
+   "t": 36.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 144,
+   "file": "media/s031.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 36.0,
+   "from": 3505
+  },
+  {
+   "idx": 32,
+   "scene": 14,
+   "src": "TKKHSc1kSiU",
+   "t": 6.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 143,
+   "file": "media/s032.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 6.0,
+   "from": 3649
+  },
+  {
+   "idx": 33,
+   "scene": 15,
+   "src": "TKKHSc1kSiU",
+   "t": 48.0,
+   "crop": null,
+   "label": "And tog'lari, 1972 (arxiv)",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 128,
+   "file": "media/s033.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 48.0,
+   "from": 3792
+  },
+  {
+   "idx": 34,
+   "scene": 16,
+   "src": "sWvdYQW0Bx8",
+   "t": 143.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Samolyotning dum qismi, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 135,
+   "file": "media/s034.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 143.0,
+   "from": 3920
+  },
+  {
+   "idx": 35,
+   "scene": 17,
+   "src": "sWvdYQW0Bx8",
+   "t": 120.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Fuselaj muzlikda, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 68,
+   "file": "media/s035.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 120.0,
+   "from": 4055
+  },
+  {
+   "idx": 36,
+   "scene": 17,
+   "src": "IwFoyh_JpsY",
+   "t": 42.0,
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ],
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 69,
+   "file": "media/s036.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 42.0,
+   "from": 4123
+  },
+  {
+   "idx": 37,
+   "scene": 18,
+   "src": "dWjfEqPdwmQ",
+   "t": 62.5,
+   "crop": null,
+   "label": "Halokat qurbonlari xotirasiga yodgorlik",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 164,
+   "file": "media/s037.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 62.5,
+   "from": 4192
+  },
+  {
+   "idx": 38,
+   "scene": 18,
+   "src": "dWjfEqPdwmQ",
+   "t": 66.0,
+   "crop": null,
+   "label": null,
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 164,
+   "file": "media/s038.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 66.0,
+   "from": 4356
+  },
+  {
+   "idx": 39,
+   "scene": 19,
+   "src": "sWvdYQW0Bx8",
+   "t": 160.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 136,
+   "file": "media/s039.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 160.0,
+   "from": 4520
+  },
+  {
+   "idx": 40,
+   "scene": 19,
+   "src": "2cM0Noskgnw",
+   "t": 322.5,
+   "crop": null,
+   "label": "Roberto Kanessa (o'ngda), 1970-yillar",
+   "credit": "CGTN",
+   "kind": "interview",
+   "dur": 137,
+   "file": "media/s040.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "tibbiyot talabasi, 19 yosh (1972)"
+   ],
+   "freeze": false,
+   "t_used": 322.5,
+   "from": 4656
+  },
+  {
+   "idx": 41,
+   "scene": 19,
+   "src": "uoXkaGZ-Cp8",
+   "t": 30.0,
+   "crop": null,
+   "label": null,
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 136,
+   "file": "media/s041.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "bugun — shifokor"
+   ],
+   "freeze": false,
+   "t_used": 30.0,
+   "from": 4793
+  },
+  {
+   "idx": 42,
+   "scene": 20,
+   "src": "sWvdYQW0Bx8",
+   "t": 160.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Omon qolganlar fuselaj ichida, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 239,
+   "file": "media/s042.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 160.0,
+   "from": 4929
+  },
+  {
+   "idx": 43,
+   "scene": 21,
+   "src": "JnckFwa5zDs",
+   "t": 40.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 138,
+   "file": "media/s043.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 40.0,
+   "from": 5168
+  },
+  {
+   "idx": 44,
+   "scene": 22,
+   "src": "dWjfEqPdwmQ",
+   "t": 47.0,
+   "crop": null,
+   "label": "Ko'z yoshlari vodiysi, Argentina (bugun)",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 80,
+   "file": "media/s044.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 47.0,
+   "from": 5306
+  },
+  {
+   "idx": 45,
+   "scene": 22,
+   "src": "dWjfEqPdwmQ",
+   "t": 53.0,
+   "crop": null,
+   "label": null,
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 81,
+   "file": "media/s045.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 53.0,
+   "from": 5386
+  },
+  {
+   "idx": 46,
+   "scene": 23,
+   "src": "JnckFwa5zDs",
+   "t": 0.5,
+   "crop": null,
+   "label": "Muzlik, halokat hududi",
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 111,
+   "file": "media/s046.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 0.5,
+   "from": 5467
+  },
+  {
+   "idx": 47,
+   "scene": 23,
+   "src": "JnckFwa5zDs",
+   "t": 62.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 111,
+   "file": "media/s047.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 62.0,
+   "from": 5578
+  },
+  {
+   "idx": 48,
+   "scene": 23,
+   "src": "JnckFwa5zDs",
+   "t": 112.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 111,
+   "file": "media/s048.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 112.0,
+   "from": 5689
+  },
+  {
+   "idx": 49,
+   "scene": 24,
+   "src": "sWvdYQW0Bx8",
+   "t": 48.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Old Christians o'yinchilari fuselaj yonida, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 162,
+   "file": "media/s049.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 48.0,
+   "from": 5800
+  },
+  {
+   "idx": 50,
+   "scene": 24,
+   "src": "sWvdYQW0Bx8",
+   "t": 28.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 162,
+   "file": "media/s050.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 28.0,
+   "from": 5962
+  },
+  {
+   "idx": 51,
+   "scene": 25,
+   "src": "sWvdYQW0Bx8",
+   "t": 103.0,
+   "crop": [
+    0.21,
+    0.09,
+    0.66,
+    0.73
+   ],
+   "label": "Fuselaj — vaqtinchalik boshpana, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 146,
+   "file": "media/s051.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 103.0,
+   "from": 6124
+  },
+  {
+   "idx": 52,
+   "scene": 25,
+   "src": "sWvdYQW0Bx8",
+   "t": 176.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 146,
+   "file": "media/s052.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 176.0,
+   "from": 6270
+  },
+  {
+   "idx": 53,
+   "scene": 25,
+   "src": "sWvdYQW0Bx8",
+   "t": 70.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 146,
+   "file": "media/s053.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 70.0,
+   "from": 6416
+  },
+  {
+   "idx": 54,
+   "scene": 26,
+   "src": "lo1T24khxXY",
+   "t": 71.4,
+   "crop": null,
+   "label": "Fuselaj maketi, Museo Andes 1972",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 146,
+   "file": "media/s054.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 71.4,
+   "from": 6562
+  },
+  {
+   "idx": 55,
+   "scene": 26,
+   "src": "sWvdYQW0Bx8",
+   "t": 67.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 146,
+   "file": "media/s055.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 67.0,
+   "from": 6708
+  },
+  {
+   "idx": 56,
+   "scene": 27,
+   "src": "sWvdYQW0Bx8",
+   "t": 36.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 185,
+   "file": "media/s056.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 36.0,
+   "from": 6854
+  },
+  {
+   "idx": 57,
+   "scene": 27,
+   "src": "lo1T24khxXY",
+   "t": 75.0,
+   "crop": null,
+   "label": "Museo Andes 1972",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 185,
+   "file": "media/s057.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 75.0,
+   "from": 7039
+  },
+  {
+   "idx": 58,
+   "scene": 28,
+   "src": "JnckFwa5zDs",
+   "t": 25.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 210,
+   "file": "media/s058.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 25.0,
+   "from": 7224
+  },
+  {
+   "idx": 59,
+   "scene": 28,
+   "src": "JnckFwa5zDs",
+   "t": 90.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 210,
+   "file": "media/s059.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 90.0,
+   "from": 7434
+  },
+  {
+   "idx": 60,
+   "scene": 28,
+   "src": "sWvdYQW0Bx8",
+   "t": 163.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 211,
+   "file": "media/s060.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 163.0,
+   "from": 7644
+  },
+  {
+   "idx": 61,
+   "scene": 28,
+   "src": "sWvdYQW0Bx8",
+   "t": 23.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 210,
+   "file": "media/s061.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 23.0,
+   "from": 7855
+  },
+  {
+   "idx": 62,
+   "scene": 29,
+   "src": "TKKHSc1kSiU",
+   "t": 9.0,
+   "crop": null,
+   "label": "Qidiruv parvozi, 1972-yil oktabr",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 124,
+   "file": "media/s062.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 9.0,
+   "from": 8065
+  },
+  {
+   "idx": 63,
+   "scene": 29,
+   "src": "TKKHSc1kSiU",
+   "t": 19.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 123,
+   "file": "media/s063.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 19.0,
+   "from": 8189
+  },
+  {
+   "idx": 64,
+   "scene": 29,
+   "src": "TKKHSc1kSiU",
+   "t": 64.0,
+   "crop": null,
+   "label": "Qidiruv guruhi, 1972",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 124,
+   "file": "media/s064.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 64.0,
+   "from": 8312
+  },
+  {
+   "idx": 65,
+   "scene": 30,
+   "src": "dHbEiZ-Im0s",
+   "t": 1256.0,
+   "crop": null,
+   "label": "Fuselaj qor ichida — havodan ko'rinish, 1972",
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 212,
+   "file": "media/s065.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1256.0,
+   "from": 8436
+  },
+  {
+   "idx": 66,
+   "scene": 30,
+   "src": "dHbEiZ-Im0s",
+   "t": 1047.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 213,
+   "file": "media/s066.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1047.0,
+   "from": 8648
+  },
+  {
+   "idx": 67,
+   "scene": 31,
+   "src": "lo1T24khxXY",
+   "t": 40.8,
+   "crop": null,
+   "label": "\"Qidiruv rasman bekor qilindi\" — 1972",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 112,
+   "file": "media/s067.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 40.8,
+   "from": 8861
+  },
+  {
+   "idx": 68,
+   "scene": 31,
+   "src": "lo1T24khxXY",
+   "t": 42.5,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 113,
+   "file": "media/s068.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 42.5,
+   "from": 8973
+  },
+  {
+   "idx": 69,
+   "scene": 32,
+   "src": "TKKHSc1kSiU",
+   "t": 52.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 130,
+   "file": "media/s069.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 52.0,
+   "from": 9086
+  },
+  {
+   "idx": 70,
+   "scene": 32,
+   "src": "TKKHSc1kSiU",
+   "t": 84.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 131,
+   "file": "media/s070.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 84.0,
+   "from": 9216
+  },
+  {
+   "idx": 71,
+   "scene": 33,
+   "src": "sWvdYQW0Bx8",
+   "t": 194.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 124,
+   "file": "media/s071.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 194.0,
+   "from": 9347
+  },
+  {
+   "idx": 72,
+   "scene": 33,
+   "src": "sWvdYQW0Bx8",
+   "t": 198.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 125,
+   "file": "media/s072.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 198.0,
+   "from": 9471
+  },
+  {
+   "idx": 73,
+   "scene": 34,
+   "src": "JnckFwa5zDs",
+   "t": 70.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 216,
+   "file": "media/s073.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 70.0,
+   "from": 9596
+  },
+  {
+   "idx": 74,
+   "scene": 34,
+   "src": "sWvdYQW0Bx8",
+   "t": 160.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 216,
+   "file": "media/s074.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 160.0,
+   "from": 9812
+  },
+  {
+   "idx": 75,
+   "scene": 35,
+   "src": "JnckFwa5zDs",
+   "t": 4.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 168,
+   "file": "media/s075.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 4.0,
+   "from": 10028
+  },
+  {
+   "idx": 76,
+   "scene": 35,
+   "src": "JnckFwa5zDs",
+   "t": 120.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 167,
+   "file": "media/s076.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 120.0,
+   "from": 10196
+  },
+  {
+   "idx": 77,
+   "scene": 36,
+   "src": "hxxaOYnudYE",
+   "t": 141.0,
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ],
+   "label": "1972-yil gazetasi",
+   "credit": "TVN Chile",
+   "kind": "archive",
+   "dur": 183,
+   "file": "media/s077.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 141.0,
+   "from": 10363
+  },
+  {
+   "idx": 78,
+   "scene": 36,
+   "src": "dWjfEqPdwmQ",
+   "t": 63.0,
+   "crop": null,
+   "label": "Yodgorlik, Ko'z yoshlari vodiysi",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 183,
+   "file": "media/s078.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 63.0,
+   "from": 10546
+  },
+  {
+   "idx": 79,
+   "scene": 37,
+   "src": "8q8GKalkCZg",
+   "t": 202.0,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.74
+   ],
+   "label": "Old Christians jamoasi, 1972",
+   "credit": "BBC News",
+   "kind": "interview",
+   "dur": 261,
+   "file": "media/s079.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 202.0,
+   "from": 10729
+  },
+  {
+   "idx": 80,
+   "scene": 38,
+   "src": "8q8GKalkCZg",
+   "t": 101.5,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.74
+   ],
+   "label": null,
+   "credit": "BBC News",
+   "kind": "interview",
+   "dur": 194,
+   "file": "media/s080.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "omon qolgan (BBC intervyusi)"
+   ],
+   "freeze": false,
+   "t_used": 101.5,
+   "from": 10990
+  },
+  {
+   "idx": 81,
+   "scene": 38,
+   "src": "kt-EFUdcjc4",
+   "t": 160.0,
+   "crop": [
+    0.18,
+    0.0,
+    0.64,
+    0.64
+   ],
+   "label": null,
+   "credit": "euronews",
+   "kind": "interview",
+   "dur": 194,
+   "file": "media/s081.mp4",
+   "lt": [
+    "Fernando Parrado",
+    "omon qolgan (euronews intervyusi)"
+   ],
+   "freeze": false,
+   "t_used": 160.0,
+   "from": 11184
+  },
+  {
+   "idx": 82,
+   "scene": 38,
+   "src": "1CXnPtoexHU",
+   "t": 47.0,
+   "crop": null,
+   "label": null,
+   "credit": "El País Uruguay",
+   "kind": "interview",
+   "dur": 194,
+   "file": "media/s082.mp4",
+   "lt": [
+    "Antonio Vizintin",
+    "omon qolgan (El País intervyusi)"
+   ],
+   "freeze": false,
+   "t_used": 47.0,
+   "from": 11378
+  },
+  {
+   "idx": 83,
+   "scene": 39,
+   "src": "JnckFwa5zDs",
+   "t": 10.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 172,
+   "file": "media/s083.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 10.0,
+   "from": 11572
+  },
+  {
+   "idx": 84,
+   "scene": 39,
+   "src": "JnckFwa5zDs",
+   "t": 100.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 172,
+   "file": "media/s084.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 100.0,
+   "from": 11744
+  },
+  {
+   "idx": 85,
+   "scene": 40,
+   "src": "sWvdYQW0Bx8",
+   "t": 120.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 128,
+   "file": "media/s085.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 120.0,
+   "from": 11916
+  },
+  {
+   "idx": 86,
+   "scene": 40,
+   "src": "IwFoyh_JpsY",
+   "t": 44.0,
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ],
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 128,
+   "file": "media/s086.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 44.0,
+   "from": 12044
+  },
+  {
+   "idx": 87,
+   "scene": 41,
+   "src": "JnckFwa5zDs",
+   "t": 130.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 155,
+   "file": "media/s087.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 130.0,
+   "from": 12172
+  },
+  {
+   "idx": 88,
+   "scene": 41,
+   "src": "sWvdYQW0Bx8",
+   "t": 104.0,
+   "crop": [
+    0.21,
+    0.09,
+    0.66,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 155,
+   "file": "media/s088.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 104.0,
+   "from": 12327
+  },
+  {
+   "idx": 89,
+   "scene": 41,
+   "src": "6X77qiqwbz0",
+   "t": 88.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 155,
+   "file": "media/s089.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 88.0,
+   "from": 12482
+  },
+  {
+   "idx": 90,
+   "scene": 42,
+   "src": "sWvdYQW0Bx8",
+   "t": 133.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 340,
+   "file": "media/s090.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 133.0,
+   "from": 12637
+  },
+  {
+   "idx": 91,
+   "scene": 43,
+   "src": "sWvdYQW0Bx8",
+   "t": 260.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "\"G'arbdagi cho'qqi\" — uch kishi oshib o'tgan tog'",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 342,
+   "file": "media/s091.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 260.0,
+   "from": 12977
+  },
+  {
+   "idx": 92,
+   "scene": 44,
+   "src": "sWvdYQW0Bx8",
+   "t": 147.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 233,
+   "file": "media/s092.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 147.0,
+   "from": 13319
+  },
+  {
+   "idx": 93,
+   "scene": 45,
+   "src": "sWvdYQW0Bx8",
+   "t": 143.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Samolyotning dum qismi, 1972-yil noyabr",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 214,
+   "file": "media/s093.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 143.0,
+   "from": 13552
+  },
+  {
+   "idx": 94,
+   "scene": 45,
+   "src": "sWvdYQW0Bx8",
+   "t": 21.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 215,
+   "file": "media/s094.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 21.0,
+   "from": 13766
+  },
+  {
+   "idx": 95,
+   "scene": 46,
+   "src": "lo1T24khxXY",
+   "t": 75.5,
+   "crop": null,
+   "label": "Museo Andes 1972 ekspozitsiyasi",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 172,
+   "file": "media/s095.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 75.5,
+   "from": 13981
+  },
+  {
+   "idx": 96,
+   "scene": 46,
+   "src": "lo1T24khxXY",
+   "t": 10.2,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 171,
+   "file": "media/s096.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 10.2,
+   "from": 14153
+  },
+  {
+   "idx": 97,
+   "scene": 47,
+   "src": "_FxE8ODZUyg",
+   "t": 83.0,
+   "crop": null,
+   "label": null,
+   "credit": "Nordic Business Forum",
+   "kind": "interview",
+   "dur": 110,
+   "file": "media/s097.mp4",
+   "lt": [
+    "Fernando Parrado",
+    "ekspeditsiya a'zosi, 22 yosh (1972)"
+   ],
+   "freeze": false,
+   "t_used": 83.0,
+   "from": 14324
+  },
+  {
+   "idx": 98,
+   "scene": 47,
+   "src": "2cM0Noskgnw",
+   "t": 347.5,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN",
+   "kind": "interview",
+   "dur": 110,
+   "file": "media/s098.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "ekspeditsiya a'zosi, 19 yosh (1972)"
+   ],
+   "freeze": false,
+   "t_used": 347.5,
+   "from": 14434
+  },
+  {
+   "idx": 99,
+   "scene": 47,
+   "src": "1CXnPtoexHU",
+   "t": 92.0,
+   "crop": null,
+   "label": null,
+   "credit": "El País Uruguay",
+   "kind": "interview",
+   "dur": 110,
+   "file": "media/s099.mp4",
+   "lt": [
+    "Antonio Vizintin",
+    "ekspeditsiya a'zosi, 19 yosh (1972)"
+   ],
+   "freeze": false,
+   "t_used": 92.0,
+   "from": 14544
+  },
+  {
+   "idx": 100,
+   "scene": 47,
+   "src": "sWvdYQW0Bx8",
+   "t": 264.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 110,
+   "file": "media/s100.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 264.0,
+   "from": 14654
+  },
+  {
+   "idx": 101,
+   "scene": 48,
+   "src": "1CXnPtoexHU",
+   "t": 140.0,
+   "crop": null,
+   "label": null,
+   "credit": "El País Uruguay",
+   "kind": "interview",
+   "dur": 182,
+   "file": "media/s101.mp4",
+   "lt": [
+    "Antonio Vizintin",
+    "3 kundan so'ng fuselajga qaytdi"
+   ],
+   "freeze": false,
+   "t_used": 140.0,
+   "from": 14764
+  },
+  {
+   "idx": 102,
+   "scene": 48,
+   "src": "_FxE8ODZUyg",
+   "t": 112.0,
+   "crop": null,
+   "label": null,
+   "credit": "Nordic Business Forum",
+   "kind": "interview",
+   "dur": 182,
+   "file": "media/s102.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 112.0,
+   "from": 14946
+  },
+  {
+   "idx": 103,
+   "scene": 49,
+   "src": "TKKHSc1kSiU",
+   "t": 37.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 143,
+   "file": "media/s103.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 37.0,
+   "from": 15128
+  },
+  {
+   "idx": 104,
+   "scene": 49,
+   "src": "dWjfEqPdwmQ",
+   "t": 75.0,
+   "crop": null,
+   "label": "And tog'lari, halokat hududi (bugun)",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 143,
+   "file": "media/s104.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 75.0,
+   "from": 15271
+  },
+  {
+   "idx": 105,
+   "scene": 49,
+   "src": "JnckFwa5zDs",
+   "t": 35.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 144,
+   "file": "media/s105.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 35.0,
+   "from": 15414
+  },
+  {
+   "idx": 106,
+   "scene": 49,
+   "src": "TKKHSc1kSiU",
+   "t": 50.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 143,
+   "file": "media/s106.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 50.0,
+   "from": 15558
+  },
+  {
+   "idx": 107,
+   "scene": 50,
+   "src": "dWjfEqPdwmQ",
+   "t": 80.0,
+   "crop": null,
+   "label": null,
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 168,
+   "file": "media/s107.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 80.0,
+   "from": 15701
+  },
+  {
+   "idx": 108,
+   "scene": 51,
+   "src": "dHbEiZ-Im0s",
+   "t": 896.0,
+   "crop": null,
+   "label": "Los Maytenes, Chili, 1972-yil dekabr",
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s108.mp4",
+   "lt": [
+    "Serxio Katalan",
+    "chililik cho'pon (arriero), 1972"
+   ],
+   "freeze": false,
+   "t_used": 896.0,
+   "from": 15869
+  },
+  {
+   "idx": 109,
+   "scene": 51,
+   "src": "dHbEiZ-Im0s",
+   "t": 899.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s109.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 899.0,
+   "from": 16002
+  },
+  {
+   "idx": 110,
+   "scene": 51,
+   "src": "dHbEiZ-Im0s",
+   "t": 906.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s110.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 906.0,
+   "from": 16135
+  },
+  {
+   "idx": 111,
+   "scene": 52,
+   "src": "GtAS4PD_kx8",
+   "t": 24.0,
+   "crop": null,
+   "label": "Arrierolar, Los Maytenes, 1972",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 88,
+   "file": "media/s111.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 24.0,
+   "from": 16268
+  },
+  {
+   "idx": 112,
+   "scene": 52,
+   "src": "9GfrarB7YOY",
+   "t": 0.5,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 89,
+   "file": "media/s112.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 0.5,
+   "from": 16356
+  },
+  {
+   "idx": 113,
+   "scene": 53,
+   "src": "6X77qiqwbz0",
+   "t": 132.6,
+   "crop": [
+    0.2,
+    0.0,
+    0.6,
+    0.82
+   ],
+   "label": "Omon qolganlar yordam so'rab yozgan xatlardan biri, 1972",
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 124,
+   "file": "media/s113.mp4",
+   "lt": null,
+   "freeze": true,
+   "t_used": 132.6,
+   "from": 16445
+  },
+  {
+   "idx": 114,
+   "scene": 53,
+   "src": "sWvdYQW0Bx8",
+   "t": 209.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Parrado va Kanessa, Serxio Katalan bilan",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 123,
+   "file": "media/s114.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 209.0,
+   "from": 16569
+  },
+  {
+   "idx": 115,
+   "scene": 53,
+   "src": "GtAS4PD_kx8",
+   "t": 7.0,
+   "crop": null,
+   "label": "Los Maytenes, 1972",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 124,
+   "file": "media/s115.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 7.0,
+   "from": 16692
+  },
+  {
+   "idx": 116,
+   "scene": 54,
+   "src": "dHbEiZ-Im0s",
+   "t": 910.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 141,
+   "file": "media/s116.mp4",
+   "lt": [
+    "Serxio Katalan",
+    "TVN intervyusi, 1972"
+   ],
+   "freeze": false,
+   "t_used": 910.0,
+   "from": 16816
+  },
+  {
+   "idx": 117,
+   "scene": 54,
+   "src": "dHbEiZ-Im0s",
+   "t": 952.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 141,
+   "file": "media/s117.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 952.0,
+   "from": 16957
+  },
+  {
+   "idx": 118,
+   "scene": 55,
+   "src": "dWjfEqPdwmQ",
+   "t": 24.8,
+   "crop": null,
+   "label": "\"Yo'qolgan samolyotdan iz yo'q\" — 1972",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 126,
+   "file": "media/s118.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 24.8,
+   "from": 17098
+  },
+  {
+   "idx": 119,
+   "scene": 55,
+   "src": "lo1T24khxXY",
+   "t": 14.0,
+   "crop": null,
+   "label": "\"16 kishi tirik\" — La Nación, 1972",
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 126,
+   "file": "media/s119.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 14.0,
+   "from": 17224
+  },
+  {
+   "idx": 120,
+   "scene": 56,
+   "src": "dHbEiZ-Im0s",
+   "t": 600.0,
+   "crop": null,
+   "label": "Chili rasmiylari bayonoti, 1972",
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 166,
+   "file": "media/s120.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 600.0,
+   "from": 17350
+  },
+  {
+   "idx": 121,
+   "scene": 57,
+   "src": "tFZX0vsbbTw",
+   "t": 16.0,
+   "crop": null,
+   "label": "Chili HHK vertolyoti, 1972-yil dekabr",
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 112,
+   "file": "media/s121.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 16.0,
+   "from": 17516
+  },
+  {
+   "idx": 122,
+   "scene": 57,
+   "src": "dHbEiZ-Im0s",
+   "t": 975.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 112,
+   "file": "media/s122.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 975.0,
+   "from": 17628
+  },
+  {
+   "idx": 123,
+   "scene": 57,
+   "src": "tFZX0vsbbTw",
+   "t": 20.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 112,
+   "file": "media/s123.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 20.0,
+   "from": 17740
+  },
+  {
+   "idx": 124,
+   "scene": 58,
+   "src": "dHbEiZ-Im0s",
+   "t": 1222.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 118,
+   "file": "media/s124.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1222.0,
+   "from": 17852
+  },
+  {
+   "idx": 125,
+   "scene": 58,
+   "src": "dHbEiZ-Im0s",
+   "t": 984.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 117,
+   "file": "media/s125.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 984.0,
+   "from": 17970
+  },
+  {
+   "idx": 126,
+   "scene": 59,
+   "src": "sWvdYQW0Bx8",
+   "t": 227.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Parrado va Kanessa, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 81,
+   "file": "media/s126.mp4",
+   "lt": [
+    "Fernando Parrado",
+    "vertolyotda yo'l ko'rsatdi"
+   ],
+   "freeze": false,
+   "t_used": 227.0,
+   "from": 18087
+  },
+  {
+   "idx": 127,
+   "scene": 59,
+   "src": "dHbEiZ-Im0s",
+   "t": 1230.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 81,
+   "file": "media/s127.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1230.0,
+   "from": 18168
+  },
+  {
+   "idx": 128,
+   "scene": 60,
+   "src": "6X77qiqwbz0",
+   "t": 143.0,
+   "crop": null,
+   "label": "Qutqaruv, halokat joyi, 1972-yil dekabr",
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 99,
+   "file": "media/s128.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 143.0,
+   "from": 18249
+  },
+  {
+   "idx": 129,
+   "scene": 60,
+   "src": "sWvdYQW0Bx8",
+   "t": 320.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Qutqaruv vertolyotlari, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 98,
+   "file": "media/s129.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 320.0,
+   "from": 18348
+  },
+  {
+   "idx": 130,
+   "scene": 60,
+   "src": "tFZX0vsbbTw",
+   "t": 36.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 99,
+   "file": "media/s130.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 36.0,
+   "from": 18446
+  },
+  {
+   "idx": 131,
+   "scene": 61,
+   "src": "tFZX0vsbbTw",
+   "t": 69.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 156,
+   "file": "media/s131.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 69.0,
+   "from": 18545
+  },
+  {
+   "idx": 132,
+   "scene": 61,
+   "src": "tFZX0vsbbTw",
+   "t": 75.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 155,
+   "file": "media/s132.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 75.0,
+   "from": 18701
+  },
+  {
+   "idx": 133,
+   "scene": 61,
+   "src": "tFZX0vsbbTw",
+   "t": 84.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 156,
+   "file": "media/s133.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 84.0,
+   "from": 18856
+  },
+  {
+   "idx": 134,
+   "scene": 62,
+   "src": "RMxj9cbCRo4",
+   "t": 370.0,
+   "crop": null,
+   "label": "Evakuatsiya, 1972",
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 140,
+   "file": "media/s134.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 370.0,
+   "from": 19012
+  },
+  {
+   "idx": 135,
+   "scene": 62,
+   "src": "GtAS4PD_kx8",
+   "t": 3.0,
+   "crop": null,
+   "label": "Parrado va Kanessa, Los Maytenes",
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 141,
+   "file": "media/s135.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 3.0,
+   "from": 19152
+  },
+  {
+   "idx": 136,
+   "scene": 62,
+   "src": "dHbEiZ-Im0s",
+   "t": 856.0,
+   "crop": null,
+   "label": null,
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 140,
+   "file": "media/s136.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 856.0,
+   "from": 19293
+  },
+  {
+   "idx": 137,
+   "scene": 63,
+   "src": "RMxj9cbCRo4",
+   "t": 80.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 85,
+   "file": "media/s137.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 80.0,
+   "from": 19433
+  },
+  {
+   "idx": 138,
+   "scene": 64,
+   "src": "dHbEiZ-Im0s",
+   "t": 1137.0,
+   "crop": null,
+   "label": "Tibbiy yordam, 1972",
+   "credit": "TVN Chile (1972)",
+   "kind": "archive",
+   "dur": 126,
+   "file": "media/s138.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1137.0,
+   "from": 19518
+  },
+  {
+   "idx": 139,
+   "scene": 64,
+   "src": "RMxj9cbCRo4",
+   "t": 1.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 125,
+   "file": "media/s139.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1.0,
+   "from": 19644
+  },
+  {
+   "idx": 140,
+   "scene": 64,
+   "src": "sWvdYQW0Bx8",
+   "t": 338.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": "Kasalxonada, 1972",
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 126,
+   "file": "media/s140.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 338.0,
+   "from": 19769
+  },
+  {
+   "idx": 141,
+   "scene": 65,
+   "src": "cDRzvf3PxtI",
+   "t": 57.5,
+   "crop": null,
+   "label": "1972-yil gazetalari",
+   "credit": "Apolo TV",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s141.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 57.5,
+   "from": 19895
+  },
+  {
+   "idx": 142,
+   "scene": 65,
+   "src": "RMxj9cbCRo4",
+   "t": 100.0,
+   "crop": null,
+   "label": "Matbuot, 1972-yil dekabr",
+   "credit": "Archivo 1972",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s142.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 100.0,
+   "from": 20028
+  },
+  {
+   "idx": 143,
+   "scene": 65,
+   "src": "hxxaOYnudYE",
+   "t": 141.5,
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ],
+   "label": null,
+   "credit": "TVN Chile",
+   "kind": "archive",
+   "dur": 133,
+   "file": "media/s143.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 141.5,
+   "from": 20161
+  },
+  {
+   "idx": 144,
+   "scene": 66,
+   "src": "cDRzvf3PxtI",
+   "t": 92.5,
+   "crop": null,
+   "label": null,
+   "credit": "Apolo TV",
+   "kind": "archive",
+   "dur": 130,
+   "file": "media/s144.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "CGTN intervyusi"
+   ],
+   "freeze": false,
+   "t_used": 92.5,
+   "from": 20294
+  },
+  {
+   "idx": 145,
+   "scene": 66,
+   "src": "2cM0Noskgnw",
+   "t": 1.0,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN",
+   "kind": "interview",
+   "dur": 131,
+   "file": "media/s145.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 1.0,
+   "from": 20424
+  },
+  {
+   "idx": 146,
+   "scene": 67,
+   "src": "aT8QnT_lvFU",
+   "t": 37.7,
+   "crop": null,
+   "label": "Piers Paul Read — \"Alive\" (1974)",
+   "credit": "Piers Paul Read",
+   "kind": "event",
+   "dur": 183,
+   "file": "media/s146.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 35.07,
+   "from": 20555
+  },
+  {
+   "idx": 147,
+   "scene": 68,
+   "src": "cDRzvf3PxtI",
+   "t": 99.5,
+   "crop": null,
+   "label": "Film afishalari",
+   "credit": "Apolo TV",
+   "kind": "archive",
+   "dur": 92,
+   "file": "media/s147.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 99.5,
+   "from": 20738
+  },
+  {
+   "idx": 148,
+   "scene": 68,
+   "src": "3P5N0kd6pYY",
+   "t": 10.0,
+   "crop": null,
+   "label": "\"Alive\" (1993) treyleri",
+   "credit": "Touchstone / Paramount",
+   "kind": "event",
+   "dur": 92,
+   "file": "media/s148.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 10.0,
+   "from": 20830
+  },
+  {
+   "idx": 149,
+   "scene": 69,
+   "src": "WNgU5Qn3fmY",
+   "t": 12.5,
+   "crop": null,
+   "label": "\"Stranded\" (2007) treyleri",
+   "credit": "Stranded (2007)",
+   "kind": "event",
+   "dur": 115,
+   "file": "media/s149.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 12.5,
+   "from": 20922
+  },
+  {
+   "idx": 150,
+   "scene": 69,
+   "src": "WNgU5Qn3fmY",
+   "t": 62.0,
+   "crop": null,
+   "label": null,
+   "credit": "Stranded (2007)",
+   "kind": "event",
+   "dur": 115,
+   "file": "media/s150.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 62.0,
+   "from": 21037
+  },
+  {
+   "idx": 151,
+   "scene": 70,
+   "src": "dWjfEqPdwmQ",
+   "t": 51.8,
+   "crop": null,
+   "label": "J. A. Bayona, \"La sociedad de la nieve\" premyerasi",
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 151,
+   "file": "media/s151.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 51.8,
+   "from": 21152
+  },
+  {
+   "idx": 152,
+   "scene": 70,
+   "src": "pDak4qLyF4Q",
+   "t": 131.0,
+   "crop": null,
+   "label": "\"Society of the Snow\" (2023) treyleri",
+   "credit": "Netflix",
+   "kind": "event",
+   "dur": 151,
+   "file": "media/s152.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 131.0,
+   "from": 21303
+  },
+  {
+   "idx": 153,
+   "scene": 70,
+   "src": "pDak4qLyF4Q",
+   "t": 100.0,
+   "crop": null,
+   "label": null,
+   "credit": "Netflix",
+   "kind": "event",
+   "dur": 151,
+   "file": "media/s153.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 100.0,
+   "from": 21454
+  },
+  {
+   "idx": 154,
+   "scene": 70,
+   "src": "cDRzvf3PxtI",
+   "t": 101.0,
+   "crop": null,
+   "label": null,
+   "credit": "Apolo TV",
+   "kind": "archive",
+   "dur": 151,
+   "file": "media/s154.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 101.0,
+   "from": 21605
+  },
+  {
+   "idx": 155,
+   "scene": 71,
+   "src": "uoXkaGZ-Cp8",
+   "t": 66.0,
+   "crop": null,
+   "label": null,
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 184,
+   "file": "media/s155.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 66.0,
+   "from": 21756
+  },
+  {
+   "idx": 156,
+   "scene": 71,
+   "src": "uoXkaGZ-Cp8",
+   "t": 70.5,
+   "crop": null,
+   "label": null,
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 184,
+   "file": "media/s156.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 70.5,
+   "from": 21940
+  },
+  {
+   "idx": 157,
+   "scene": 72,
+   "src": "UWJid5np8BE",
+   "t": 14.0,
+   "crop": null,
+   "label": null,
+   "credit": "Classic Airliners (1967)",
+   "kind": "archive",
+   "dur": 140,
+   "file": "media/s157.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 14.0,
+   "from": 22124
+  },
+  {
+   "idx": 158,
+   "scene": 72,
+   "src": "TKKHSc1kSiU",
+   "t": 30.0,
+   "crop": null,
+   "label": null,
+   "credit": "Archivo DiFilm",
+   "kind": "archive",
+   "dur": 140,
+   "file": "media/s158.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 30.0,
+   "from": 22264
+  },
+  {
+   "idx": 159,
+   "scene": 73,
+   "src": "sWvdYQW0Bx8",
+   "t": 50.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 165,
+   "file": "media/s159.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 50.0,
+   "from": 22404
+  },
+  {
+   "idx": 160,
+   "scene": 73,
+   "src": "sWvdYQW0Bx8",
+   "t": 133.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 165,
+   "file": "media/s160.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 133.0,
+   "from": 22569
+  },
+  {
+   "idx": 161,
+   "scene": 74,
+   "src": "JnckFwa5zDs",
+   "t": 45.0,
+   "crop": null,
+   "label": null,
+   "credit": "F. Martínez Luque",
+   "kind": "location",
+   "dur": 201,
+   "file": "media/s161.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 45.0,
+   "from": 22734
+  },
+  {
+   "idx": 162,
+   "scene": 74,
+   "src": "sWvdYQW0Bx8",
+   "t": 260.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 201,
+   "file": "media/s162.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 260.0,
+   "from": 22935
+  },
+  {
+   "idx": 163,
+   "scene": 75,
+   "src": "_FxE8ODZUyg",
+   "t": 222.0,
+   "crop": null,
+   "label": null,
+   "credit": "Nordic Business Forum",
+   "kind": "interview",
+   "dur": 118,
+   "file": "media/s163.mp4",
+   "lt": [
+    "Fernando Parrado",
+    "omon qolgan"
+   ],
+   "freeze": false,
+   "t_used": 222.0,
+   "from": 23136
+  },
+  {
+   "idx": 164,
+   "scene": 75,
+   "src": "2cM0Noskgnw",
+   "t": 254.0,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN",
+   "kind": "interview",
+   "dur": 119,
+   "file": "media/s164.mp4",
+   "lt": [
+    "Roberto Kanessa",
+    "omon qolgan, shifokor"
+   ],
+   "freeze": false,
+   "t_used": 254.0,
+   "from": 23254
+  },
+  {
+   "idx": 165,
+   "scene": 75,
+   "src": "FiiNBZgdhKs",
+   "t": 87.5,
+   "crop": null,
+   "label": "Qutqaruvchilar taqdirlanishi, Santyago",
+   "credit": "AP Archive",
+   "kind": "event",
+   "dur": 118,
+   "file": "media/s165.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 87.5,
+   "from": 23373
+  },
+  {
+   "idx": 166,
+   "scene": 76,
+   "src": "uoXkaGZ-Cp8",
+   "t": 64.8,
+   "crop": null,
+   "label": "Museo Andes 1972, Montevideo",
+   "credit": "Museo Andes 1972",
+   "kind": "location",
+   "dur": 176,
+   "file": "media/s166.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 64.8,
+   "from": 23491
+  },
+  {
+   "idx": 167,
+   "scene": 76,
+   "src": "lo1T24khxXY",
+   "t": 64.6,
+   "crop": null,
+   "label": null,
+   "credit": "CGTN America",
+   "kind": "event",
+   "dur": 176,
+   "file": "media/s167.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 64.6,
+   "from": 23667
+  },
+  {
+   "idx": 168,
+   "scene": 77,
+   "src": "dWjfEqPdwmQ",
+   "t": 63.0,
+   "crop": null,
+   "label": null,
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 139,
+   "file": "media/s168.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 63.0,
+   "from": 23843
+  },
+  {
+   "idx": 169,
+   "scene": 77,
+   "src": "sWvdYQW0Bx8",
+   "t": 194.0,
+   "crop": [
+    0.02,
+    0.09,
+    0.88,
+    0.73
+   ],
+   "label": null,
+   "credit": "Arxiv fotosurati, 1972",
+   "kind": "archive",
+   "dur": 139,
+   "file": "media/s169.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 194.0,
+   "from": 23982
+  },
+  {
+   "idx": 170,
+   "scene": 77,
+   "src": "tFZX0vsbbTw",
+   "t": 87.0,
+   "crop": null,
+   "label": null,
+   "credit": "AP Archive",
+   "kind": "archive",
+   "dur": 139,
+   "file": "media/s170.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 86.79,
+   "from": 24121
+  },
+  {
+   "idx": 171,
+   "scene": 77,
+   "src": "dWjfEqPdwmQ",
+   "t": 69.0,
+   "crop": null,
+   "label": null,
+   "credit": "CNN en Español",
+   "kind": "location",
+   "dur": 139,
+   "file": "media/s171.mp4",
+   "lt": null,
+   "freeze": false,
+   "t_used": 69.0,
+   "from": 24260
+  }
+ ],
+ "scenes": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 11.82,
+   "vFrom": 0,
+   "vTo": 365,
+   "text": "1972-yil 13-oktabr kuni Janubiy Amerikadagi And tog'larida Urug'vay harbiy-havo kuchlariga tegishli samolyot halokatga uchradi.",
+   "extras": {
+    "title": {
+     "main": "AND TOG'LARI MO'JIZASI",
+     "sub": "571-reys • 13.10.1972 — 23.12.1972"
+    }
+   }
+  },
+  {
+   "i": 1,
+   "start": 12.16,
+   "end": 14.82,
+   "vFrom": 365,
+   "vTo": 461,
+   "text": "Samolyot bortida 45 kishi bo'lgan.",
+   "extras": {
+    "counter": {
+     "value": 45,
+     "label": "kishi bortda"
+    }
+   }
+  },
+  {
+   "i": 2,
+   "start": 15.36,
+   "end": 24.14,
+   "vFrom": 461,
+   "vTo": 724,
+   "text": "Ularning asosiy qismini Urug'vayning Old Christians Club regbi jamoasi a'zolari, shuningdek, ularning do'stlari va yaqinlari tashkil etgan.",
+   "extras": {}
+  },
+  {
+   "i": 3,
+   "start": 24.14,
+   "end": 32.34,
+   "vFrom": 724,
+   "vTo": 995,
+   "text": "Halokatdan keyin yo'lovchilar dengiz sathidan taxminan 3 500 metr balandlikdagi muzlik hududida qolib ketishgan.",
+   "extras": {
+    "counter": {
+     "value": 3500,
+     "label": "metr balandlik",
+     "suffix": " m"
+    }
+   }
+  },
+  {
+   "i": 4,
+   "start": 33.18,
+   "end": 41.64,
+   "vFrom": 995,
+   "vTo": 1273,
+   "text": "Ular oziq-ovqat yetishmasligi, kuchli sovuq, jarohatlar va tashqi dunyo bilan aloqa yo'qligi sharoitida yashashga majbur bo'lgan.",
+   "extras": {}
+  },
+  {
+   "i": 5,
+   "start": 42.44,
+   "end": 48.16,
+   "vFrom": 1273,
+   "vTo": 1445,
+   "text": "Qidiruv ishlari to'xtatilganiga qaramay, omon qolganlar mustaqil ravishda qutulish yo'lini izlashgan.",
+   "extras": {}
+  },
+  {
+   "i": 6,
+   "start": 48.16,
+   "end": 54.78,
+   "vFrom": 1445,
+   "vTo": 1667,
+   "text": "72 kun davom etgan favqulodda vaziyat yakunida 16 kishi qutqarilgan.",
+   "extras": {
+    "counter": {
+     "value": 16,
+     "label": "kishi qutqarildi",
+     "pre": "72 kun"
+    }
+   }
+  },
+  {
+   "i": 7,
+   "start": 55.58,
+   "end": 62.0,
+   "vFrom": 1667,
+   "vTo": 1883,
+   "text": "Tarixda ushbu hodisa \"And tog'lari mo'jizasi\", ya'ni \"Miracle of the Andes\" nomi bilan tanilgan.",
+   "extras": {
+    "quote": "\"Miracle of the Andes\""
+   }
+  },
+  {
+   "i": 8,
+   "start": 62.76,
+   "end": 76.86,
+   "vFrom": 1883,
+   "vTo": 2306,
+   "text": "Bu voqea aviatsiya xavfsizligi, inson organizmining ekstremal sharoitlarga moslashuvi, guruh bo'lib omon qolish va favqulodda vaziyatlarda qaror qabul qilish masalalarini o'rganishda muhim tarixiy saboqlardan biri hisoblanadi.",
+   "extras": {}
+  },
+  {
+   "i": 9,
+   "start": 76.86,
+   "end": 80.56,
+   "vFrom": 2306,
+   "vTo": 2443,
+   "text": "Samolyot halokatining asosiy sabablari.",
+   "extras": {
+    "chapter": [
+     "I",
+     "SAMOLYOT HALOKATINING ASOSIY SABABLARI"
+    ]
+   }
+  },
+  {
+   "i": 10,
+   "start": 81.44,
+   "end": 88.82,
+   "vFrom": 2443,
+   "vTo": 2686,
+   "text": "571-reys Fairchild FH-227D rusumli ikki dvigatelli samolyotda amalga oshirilgan.",
+   "extras": {}
+  },
+  {
+   "i": 11,
+   "start": 89.52,
+   "end": 95.1,
+   "vFrom": 2686,
+   "vTo": 2870,
+   "text": "Parvoz Urug'vay poytaxti Montevideodan Chilining Santyago shahriga rejalashtirilgan.",
+   "extras": {
+    "map": "route"
+   }
+  },
+  {
+   "i": 12,
+   "start": 95.68,
+   "end": 104.0,
+   "vFrom": 2870,
+   "vTo": 3120,
+   "text": "Noqulay ob-havo sababli samolyot Argentina hududidagi Mendosa shahrida to'xtagan va safarini ertasi kuni davom ettirgan.",
+   "extras": {}
+  },
+  {
+   "i": 13,
+   "start": 104.0,
+   "end": 111.18,
+   "vFrom": 3120,
+   "vTo": 3362,
+   "text": "13-oktabr kuni And tog'lari ustidan uchish vaqtida ekipaj navigatsiya xatosiga yo'l qo'ygan.",
+   "extras": {
+    "map": "error"
+   }
+  },
+  {
+   "i": 14,
+   "start": 112.06,
+   "end": 125.74,
+   "vFrom": 3362,
+   "vTo": 3792,
+   "text": "Samolyot boshqa yo'nalishda bo'lgan; ikkinchi uchuvchi tog' tizmasidan o'tib bo'lingan, deb hisoblagan. Aslida esa samolyot hali ham xavfli tog'li hududda bo'lgan. Ko'rish imkoniyati bulutlar sababli cheklangan.",
+   "extras": {
+    "map": "error"
+   }
+  },
+  {
+   "i": 15,
+   "start": 126.4,
+   "end": 129.86,
+   "vFrom": 3792,
+   "vTo": 3920,
+   "text": "Ekipaj pasayishni boshlaganida samolyot toqqa urilgan.",
+   "extras": {}
+  },
+  {
+   "i": 16,
+   "start": 130.68,
+   "end": 134.52,
+   "vFrom": 3920,
+   "vTo": 4055,
+   "text": "Zarba natijasida samolyotning qanotlari va dum qismi ajralib ketgan.",
+   "extras": {}
+  },
+  {
+   "i": 17,
+   "start": 135.18,
+   "end": 139.72,
+   "vFrom": 4055,
+   "vTo": 4192,
+   "text": "Asosiy korpus esa qorli yonbag'ir bo'ylab sirpanib, muzlikda to'xtagan.",
+   "extras": {}
+  },
+  {
+   "i": 18,
+   "start": 139.72,
+   "end": 150.02,
+   "vFrom": 4192,
+   "vTo": 4520,
+   "text": "Halokat vaqtida 12 kishi vafot etgan. Keyingi kunlarda yana 5 kishi olgan jarohatlari oqibatida hayotdan ko'z yumgan.",
+   "extras": {
+    "counter": {
+     "value": 12,
+     "label": "kishi halokatda vafot etdi",
+     "then": {
+      "value": 5,
+      "label": "keyingi kunlarda"
+     }
+    }
+   }
+  },
+  {
+   "i": 19,
+   "start": 150.66,
+   "end": 163.76,
+   "vFrom": 4520,
+   "vTo": 4929,
+   "text": "Dastlabki zarbadan omon qolganlar orasida tibbiy yordam ko'rsatish imkoniyatiga ega bo'lganlar ham bor edi. Tibbiyot talabasi Roberto Kanessa va boshqa yo'lovchilar jarohatlanganlarga yordam berishga harakat qilgan.",
+   "extras": {}
+  },
+  {
+   "i": 20,
+   "start": 164.3,
+   "end": 171.8,
+   "vFrom": 4929,
+   "vTo": 5168,
+   "text": "Biroq professional tibbiy jihozlar, dori-darmon va zarur sharoitlarning yetishmasligi vaziyatni murakkablashtirgan.",
+   "extras": {}
+  },
+  {
+   "i": 21,
+   "start": 172.26,
+   "end": 176.5,
+   "vFrom": 5168,
+   "vTo": 5306,
+   "text": "Muzlikda omon qolish sharoitlari.",
+   "extras": {
+    "chapter": [
+     "II",
+     "MUZLIKDA OMON QOLISH SHAROITLARI"
+    ]
+   }
+  },
+  {
+   "i": 22,
+   "start": 176.86,
+   "end": 181.54,
+   "vFrom": 5306,
+   "vTo": 5467,
+   "text": "Halokat joyi Argentina hududidagi baland tog'li muzlikda joylashgan edi.",
+   "extras": {}
+  },
+  {
+   "i": 23,
+   "start": 182.24,
+   "end": 192.66,
+   "vFrom": 5467,
+   "vTo": 5800,
+   "text": "Bunday hududlarda havo harorati keskin pasayishi, kuchli shamollar, qor bo'ronlari va kislorod bosimining pastligi inson organizmi uchun jiddiy xavf tug'diradi.",
+   "extras": {
+    "info": [
+     "Harorat: −30 °C gacha",
+     "Kuchli shamol va qor bo'ronlari",
+     "Kislorod bosimi past"
+    ]
+   }
+  },
+  {
+   "i": 24,
+   "start": 193.34,
+   "end": 203.74,
+   "vFrom": 5800,
+   "vTo": 6124,
+   "text": "Samolyot yo'lovchilari tog'larda uzoq muddat yashash uchun zarur jihozlar bilan ta'minlanmagan. Ularning kiyimlari asosan oddiy sayohat va sport mashg'ulotlariga mos bo'lgan.",
+   "extras": {}
+  },
+  {
+   "i": 25,
+   "start": 204.14,
+   "end": 217.9,
+   "vFrom": 6124,
+   "vTo": 6562,
+   "text": "Omon qolganlar samolyotning asosiy korpusidan vaqtinchalik boshpana sifatida foydalanishgan. Ular samolyot o'rindiqlari va boshqa materiallar yordamida ochiq qismlarni yopishga, sovuq havoning kirishini kamaytirishga urinishgan.",
+   "extras": {}
+  },
+  {
+   "i": 26,
+   "start": 218.72,
+   "end": 227.78,
+   "vFrom": 6562,
+   "vTo": 6854,
+   "text": "Ichimlik suvi masalasi qor eritish orqali hal qilingan. Samolyot qoldiqlaridagi metall buyumlar quyosh nuri yordamida qor eritish uchun ishlatilgan.",
+   "extras": {}
+  },
+  {
+   "i": 27,
+   "start": 228.48,
+   "end": 240.8,
+   "vFrom": 6854,
+   "vTo": 7224,
+   "text": "Ammo oziq-ovqat masalasi ancha murakkab bo'lgan. Samolyotda faqat oz miqdorda shokolad, shirinlik va boshqa yeguliklar mavjud edi. Ushbu zaxiralar uzoq vaqtga yetmagan.",
+   "extras": {
+    "info": [
+     "Shokolad",
+     "Shirinliklar",
+     "Oz miqdordagi yeguliklar"
+    ]
+   }
+  },
+  {
+   "i": 28,
+   "start": 240.8,
+   "end": 268.04,
+   "vFrom": 7224,
+   "vTo": 8065,
+   "text": "Inson organizmi sovuq sharoitda tana haroratini saqlash uchun qo'shimcha energiya sarflaydi. Oziq-ovqat yetishmaganda organizm avval energiya zaxiralaridan, keyin esa yog' va mushak to'qimalaridan foydalanadi. Bu jarayon uzoq davom etsa, jismoniy kuch kamayadi. Immunitet zaiflashadi va ichki a'zolar faoliyati izdan chiqishi mumkin. And tog'laridagi yo'lovchilar aynan shunday sharoitga duch kelgan.",
+   "extras": {
+    "body": true
+   }
+  },
+  {
+   "i": 29,
+   "start": 268.84,
+   "end": 280.48,
+   "vFrom": 8065,
+   "vTo": 8436,
+   "text": "Qidiruv ishlarining to'xtatilishi. Samolyot yo'qolgach, Chili va Argentina qutqaruv xizmatlari uni izlashga kirishgan. Qidiruv samolyotlari And tog'larining katta hududini tekshirgan.",
+   "extras": {
+    "sub_chapter": "QIDIRUV ISHLARINING TO'XTATILISHI"
+   }
+  },
+  {
+   "i": 30,
+   "start": 281.2,
+   "end": 294.56,
+   "vFrom": 8436,
+   "vTo": 8861,
+   "text": "Biroq samolyotning oq rangli korpusi qor bilan qoplangan hududda deyarli sezilmagan. Bundan tashqari, ekipajning navigatsiya xatosi sababli samolyotning taxminiy joylashuvi noto'g'ri baholangan.",
+   "extras": {
+    "map": "search"
+   }
+  },
+  {
+   "i": 31,
+   "start": 295.38,
+   "end": 302.48,
+   "vFrom": 8861,
+   "vTo": 9086,
+   "text": "Halokatdan keyingi o'n birinchi kuni omon qolganlar radiodan qidiruv ishlari to'xtatilgani haqidagi xabarni eshitishgan.",
+   "extras": {}
+  },
+  {
+   "i": 32,
+   "start": 302.86,
+   "end": 310.8,
+   "vFrom": 9086,
+   "vTo": 9347,
+   "text": "Rasmiy qidiruv xizmatlari bunday balandlik va sovuqda odamlarning uzoq vaqt tirik qolish ehtimolini juda past deb hisoblagan.",
+   "extras": {}
+  },
+  {
+   "i": 33,
+   "start": 311.56,
+   "end": 319.18,
+   "vFrom": 9347,
+   "vTo": 9596,
+   "text": "Shundan so'ng omon qolganlar tashqi yordamga tayanish imkoniyati cheklanganini tushunib, mustaqil chiqish yo'llarini izlay boshlagan.",
+   "extras": {}
+  },
+  {
+   "i": 34,
+   "start": 319.86,
+   "end": 333.5,
+   "vFrom": 9596,
+   "vTo": 10028,
+   "text": "Ochlik va eng og'ir qaror. Mazkur hodisaning eng ko'p muhokama qilingan jihatlaridan biri — omon qolganlarning oziq-ovqat yetishmasligi sharoitida qabul qilgan qaroridir.",
+   "extras": {
+    "chapter": [
+     "III",
+     "OCHLIK VA ENG OG'IR QAROR"
+    ],
+    "chapter_len": 4.0
+   }
+  },
+  {
+   "i": 35,
+   "start": 334.25,
+   "end": 344.9,
+   "vFrom": 10028,
+   "vTo": 10363,
+   "text": "Tog'li muzlikda o'simliklar, hayvonlar yoki boshqa oziq-ovqat manbalari mavjud bo'lmagan. Uzoq davom etgan ochlik natijasida yo'lovchilarning jismoniy ahvoli yomonlashgan.",
+   "extras": {}
+  },
+  {
+   "i": 36,
+   "start": 345.44,
+   "end": 357.04,
+   "vFrom": 10363,
+   "vTo": 10729,
+   "text": "Ular oxir-oqibat halokatda vafot etgan insonlarning jasadlaridan oziq sifatida foydalanish qaroriga kelishgan. Bu qaror diniy, axloqiy va ruhiy jihatdan juda og'ir bo'lgan.",
+   "extras": {}
+  },
+  {
+   "i": 37,
+   "start": 357.62,
+   "end": 365.34,
+   "vFrom": 10729,
+   "vTo": 10990,
+   "text": "Omon qolganlarning aksariyati katolik oilalarda tarbiyalangan va vafot etgan insonlar ularning do'stlari yoki yaqinlari bo'lgan.",
+   "extras": {}
+  },
+  {
+   "i": 38,
+   "start": 366.32,
+   "end": 385.48,
+   "vFrom": 10990,
+   "vTo": 11572,
+   "text": "Keyinchalik berilgan intervyularda ular bu qaror zavq yoki istak bilan emas, balki hayotni saqlab qolish zarurati tufayli qabul qilinganini ta'kidlagan. Ushbu holat favqulodda vaziyatlarda insonlarning axloqiy qarorlari va biologik omon qolish ehtiyoji o'rtasidagi murakkab munosabatni ko'rsatadi.",
+   "extras": {}
+  },
+  {
+   "i": 39,
+   "start": 385.74,
+   "end": 396.6,
+   "vFrom": 11572,
+   "vTo": 11916,
+   "text": "29-oktabrdagi qor ko'chkisi. Halokatdan 16 kun o'tib, 29-oktabr kuni omon qolganlar yana bir tabiiy ofatga duch kelgan.",
+   "extras": {
+    "sub_chapter": "29-OKTABR: QOR KO'CHKISI"
+   }
+  },
+  {
+   "i": 40,
+   "start": 397.2,
+   "end": 404.98,
+   "vFrom": 11916,
+   "vTo": 12172,
+   "text": "Katta qor ko'chkisi samolyotning boshpana sifatida foydalanilayotgan korpusini bosib qolgan. Natijada 8 kishi vafot etgan.",
+   "extras": {
+    "counter": {
+     "value": 8,
+     "label": "kishi qor ko'chkisida halok bo'ldi"
+    }
+   }
+  },
+  {
+   "i": 41,
+   "start": 405.74,
+   "end": 420.92,
+   "vFrom": 12172,
+   "vTo": 12637,
+   "text": "Tirik qolganlar esa qor ostida qolgan samolyot ichida bir necha kun davomida qamalib qolgan. Ular qor ostidan chiqish yo'lini topishgan.",
+   "extras": {}
+  },
+  {
+   "i": 42,
+   "start": 421.22,
+   "end": 431.9,
+   "vFrom": 12637,
+   "vTo": 12977,
+   "text": "Noyabrda yana ikki kishi, 11-dekabrda esa yana bir kishi vafot etgan. Natijada 45 kishidan 16 nafari tirik qolgan.",
+   "extras": {
+    "timeline": true
+   }
+  },
+  {
+   "i": 43,
+   "start": 432.58,
+   "end": 440.88,
+   "vFrom": 12977,
+   "vTo": 13319,
+   "text": "Ular orasida jismoniy jihatdan nisbatan kuchliroq bo'lgan kishilar yordam izlash uchun tog'lardan o'tish rejasini ishlab chiqqan.",
+   "extras": {}
+  },
+  {
+   "i": 44,
+   "start": 443.98,
+   "end": 451.3,
+   "vFrom": 13319,
+   "vTo": 13552,
+   "text": "Qutqaruv yo'lini izlash. Omon qolganlar avval samolyot atrofidagi hududni o'rganishga urinishgan.",
+   "extras": {
+    "chapter": [
+     "IV",
+     "QUTQARUV YO'LINI IZLASH"
+    ]
+   }
+  },
+  {
+   "i": 45,
+   "start": 451.72,
+   "end": 465.44,
+   "vFrom": 13552,
+   "vTo": 13981,
+   "text": "15-noyabrda amalga oshirilgan ekspeditsiya davomida samolyotning ajralib ketgan dum qismi topilgan. U yerdan ayrim oziq-ovqat va foydali buyumlar olingan. Ammo bu ekspeditsiya yordam topishga olib kelmagan.",
+   "extras": {}
+  },
+  {
+   "i": 46,
+   "start": 466.02,
+   "end": 476.94,
+   "vFrom": 13981,
+   "vTo": 14324,
+   "text": "Keyinchalik uzoq masofaga yurish uchun maxsus tayyorgarlik boshlangan. Samolyotning izolyatsiya materiallaridan foydalanib, sovuqda tunash imkonini beradigan uyqu qopi tayyorlangan.",
+   "extras": {}
+  },
+  {
+   "i": 47,
+   "start": 477.48,
+   "end": 491.7,
+   "vFrom": 14324,
+   "vTo": 14764,
+   "text": "1972-yil 12-dekabr kuni Fernando Parrado, Roberto Kanessa va Antonio Vizintin yordam izlash uchun yo'lga chiqqan. Ular tog'lar orqali Chili tomon harakat qilishni rejalashtirgan.",
+   "extras": {
+    "map": "trek"
+   }
+  },
+  {
+   "i": 48,
+   "start": 492.12,
+   "end": 503.68,
+   "vFrom": 14764,
+   "vTo": 15128,
+   "text": "Uch kunlik yurishdan keyin Antonio Vizintin qolgan ikki kishiga oziq-ovqat zaxirasini qoldirib, samolyotga qaytgan. Parrado va Kanessa ekspeditsiyani davom ettirgan.",
+   "extras": {
+    "map": "trek"
+   }
+  },
+  {
+   "i": 49,
+   "start": 504.26,
+   "end": 522.72,
+   "vFrom": 15128,
+   "vTo": 15701,
+   "text": "Ular qorli cho'qqilar, baland tog' yo'llari va murakkab relyef orqali harakatlangan. Yo'nalish xaritasi va zamonaviy navigatsiya qurollari mavjud bo'lmagan. Bundan tashqari, ikkala insonning organizmi ham ikki oydan ortiq davom etgan ochlik va sovuq tufayli zaiflashgan edi.",
+   "extras": {}
+  },
+  {
+   "i": 50,
+   "start": 523.38,
+   "end": 528.12,
+   "vFrom": 15701,
+   "vTo": 15869,
+   "text": "Shunga qaramay, ular tog' tizmasidan o'tib, pastroq hududlarga yetib borgan.",
+   "extras": {}
+  },
+  {
+   "i": 51,
+   "start": 528.96,
+   "end": 541.64,
+   "vFrom": 15869,
+   "vTo": 16268,
+   "text": "Birinchi aloqa. 1972-yil 20-dekabr kuni Fernando Parrado va Roberto Kanessa Chili hududida mahalliy cho'pon Serxio Katalanni uchratgan.",
+   "extras": {
+    "sub_chapter": "BIRINCHI ALOQA • 20-DEKABR 1972"
+   }
+  },
+  {
+   "i": 52,
+   "start": 542.28,
+   "end": 547.76,
+   "vFrom": 16268,
+   "vTo": 16445,
+   "text": "Ular daryoning qarama-qarshi tomonlarida bo'lgan sababli ovoz orqali muloqot qilish qiyin kechgan.",
+   "extras": {}
+  },
+  {
+   "i": 53,
+   "start": 548.18,
+   "end": 559.52,
+   "vFrom": 16445,
+   "vTo": 16816,
+   "text": "Shundan so'ng yozma xabar yordamida aloqa o'rnatilgan. Xabarda ular Urug'vay samolyoti halokatidan omon qolganini va tog'larda yana 14 kishi qolganini bildirgan.",
+   "extras": {
+    "quote": "\"...tog'larda yana 14 kishi qoldi\""
+   }
+  },
+  {
+   "i": 54,
+   "start": 560.52,
+   "end": 569.48,
+   "vFrom": 16816,
+   "vTo": 17098,
+   "text": "Serxio Katalan mahalliy hokimiyat va qutqaruv xizmatlariga xabar bergan. Bu ma'lumot dastlab katta hayrat bilan qabul qilingan.",
+   "extras": {}
+  },
+  {
+   "i": 55,
+   "start": 569.94,
+   "end": 577.22,
+   "vFrom": 17098,
+   "vTo": 17350,
+   "text": "Chunki 571-reys yo'lovchilari ikki oydan ortiq vaqt davomida bedarak yo'qolgan deb hisoblangan.",
+   "extras": {}
+  },
+  {
+   "i": 56,
+   "start": 578.32,
+   "end": 582.68,
+   "vFrom": 17350,
+   "vTo": 17516,
+   "text": "Xabar tasdiqlangach, qutqaruv operatsiyasiga tayyorgarlik boshlangan.",
+   "extras": {}
+  },
+  {
+   "i": 57,
+   "start": 583.88,
+   "end": 594.32,
+   "vFrom": 17516,
+   "vTo": 17852,
+   "text": "22–23-dekabr: qutqaruv operatsiyasi. Chili qutqaruv xizmatlari samolyot qoldiqlari joylashgan hududga vertolyotlar yuborgan.",
+   "extras": {
+    "chapter": [
+     "V",
+     "QUTQARUV OPERATSIYASI • 22–23 DEKABR"
+    ]
+   }
+  },
+  {
+   "i": 58,
+   "start": 595.06,
+   "end": 601.9,
+   "vFrom": 17852,
+   "vTo": 18087,
+   "text": "Baland tog'li hudud, kuchli shamol va qo'nish uchun qulay joylarning kamligi operatsiyani murakkablashtirgan.",
+   "extras": {}
+  },
+  {
+   "i": 59,
+   "start": 602.9,
+   "end": 607.3,
+   "vFrom": 18087,
+   "vTo": 18249,
+   "text": "Fernando Parrado qutqaruvchilarga halokat joyini aniqlashda yordam bergan.",
+   "extras": {}
+  },
+  {
+   "i": 60,
+   "start": 608.3,
+   "end": 617.3,
+   "vFrom": 18249,
+   "vTo": 18545,
+   "text": "22-dekabr kuni samolyot korpusida qolgan kishilarning birinchi guruhi olib chiqilgan. Qolganlar 23-dekabr kuni qutqarilgan.",
+   "extras": {}
+  },
+  {
+   "i": 61,
+   "start": 618.18,
+   "end": 633.12,
+   "vFrom": 18545,
+   "vTo": 19012,
+   "text": "Shu tariqa 1972-yil 13-oktabrda boshlangan favqulodda vaziyat 23-dekabr kuni yakunlangan. Jami 45 kishidan 16 nafari tirik qolgan, 29 kishi halok bo'lgan.",
+   "extras": {
+    "stats": [
+     [
+      45,
+      "bortda"
+     ],
+     [
+      16,
+      "tirik qoldi"
+     ],
+     [
+      29,
+      "halok bo'ldi"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 62,
+   "start": 633.72,
+   "end": 646.44,
+   "vFrom": 19012,
+   "vTo": 19433,
+   "text": "Omon qolganlarning 14 nafari samolyot joylashgan hududdan vertolyot orqali evakuatsiya qilingan. Qolgan ikki kishi — Parrado va Kanessa — yordam izlab tog'lardan mustaqil chiqib ketgan edi.",
+   "extras": {}
+  },
+  {
+   "i": 63,
+   "start": 647.78,
+   "end": 649.74,
+   "vFrom": 19433,
+   "vTo": 19518,
+   "text": "Voqeadan keyingi hayot.",
+   "extras": {
+    "chapter": [
+     "VI",
+     "VOQEADAN KEYINGI HAYOT"
+    ]
+   }
+  },
+  {
+   "i": 64,
+   "start": 650.6,
+   "end": 662.44,
+   "vFrom": 19518,
+   "vTo": 19895,
+   "text": "Qutqaruvdan so'ng omon qolganlar tibbiy ko'rikdan o'tkazilgan. Ularda uzoq davom etgan ochlik, vazn yo'qotish, sovuq ta'siri va jismoniy zaiflik oqibatlari kuzatilgan.",
+   "extras": {}
+  },
+  {
+   "i": 65,
+   "start": 663.16,
+   "end": 675.4,
+   "vFrom": 19895,
+   "vTo": 20294,
+   "text": "Ularning hayot uchun kurashi xalqaro ommaviy axborot vositalarida keng yoritilgan. Ayniqsa, oziq-ovqat yetishmasligi sharoitida qabul qilingan qarorlar katta muhokamalarga sabab bo'lgan.",
+   "extras": {}
+  },
+  {
+   "i": 66,
+   "start": 676.46,
+   "end": 684.14,
+   "vFrom": 20294,
+   "vTo": 20555,
+   "text": "Keyingi yillarda omon qolganlar o'z xotiralarini kitoblar, intervyular va hujjatli filmlar orqali ommaga taqdim etgan.",
+   "extras": {}
+  },
+  {
+   "i": 67,
+   "start": 685.18,
+   "end": 690.06,
+   "vFrom": 20555,
+   "vTo": 20738,
+   "text": "1974-yilda Pirs Pol Ridning \"Alive\" kitobi nashr etilgan.",
+   "extras": {
+    "year": "1974"
+   }
+  },
+  {
+   "i": 68,
+   "start": 691.26,
+   "end": 696.64,
+   "vFrom": 20738,
+   "vTo": 20922,
+   "text": "1993-yilda shu kitob asosida \"Alive\" badiiy filmi ekranlarga chiqqan.",
+   "extras": {
+    "year": "1993"
+   }
+  },
+  {
+   "i": 69,
+   "start": 697.4,
+   "end": 704.84,
+   "vFrom": 20922,
+   "vTo": 21152,
+   "text": "2007-yilda \"Stranded: I've Come from a Plane that Crashed on the Mountains\" hujjatli filmi yaratilgan.",
+   "extras": {
+    "year": "2007"
+   }
+  },
+  {
+   "i": 70,
+   "start": 705.08,
+   "end": 724.72,
+   "vFrom": 21152,
+   "vTo": 21756,
+   "text": "2023-yilda esa ispaniyalik rejissyor Xuan Antonio Bayona tomonidan \"Society of the Snow\" filmi suratga olingan. Mazkur asarlar voqeaning turli qatlamlarini, jumladan omon qolganlarning ruhiy holati, guruh ichidagi hamkorlik va qutqaruv jarayonini yoritgan.",
+   "extras": {
+    "year": "2023"
+   }
+  },
+  {
+   "i": 71,
+   "start": 725.2,
+   "end": 736.96,
+   "vFrom": 21756,
+   "vTo": 22124,
+   "text": "Tarixiy ahamiyat va xulosa. 1972-yildagi And tog'lari halokati bir nechta jihatdan tarixiy ahamiyatga ega.",
+   "extras": {
+    "chapter": [
+     "VII",
+     "TARIXIY AHAMIYAT VA XULOSA"
+    ]
+   }
+  },
+  {
+   "i": 72,
+   "start": 737.48,
+   "end": 746.1,
+   "vFrom": 22124,
+   "vTo": 22404,
+   "text": "Birinchidan, hodisa murakkab tog'li hududlarda aviatsiya navigatsiyasi va parvoz xavfsizligining naqadar muhimligini ko'rsatgan.",
+   "extras": {
+    "point": 1
+   }
+  },
+  {
+   "i": 73,
+   "start": 746.8,
+   "end": 757.26,
+   "vFrom": 22404,
+   "vTo": 22734,
+   "text": "Ikkinchidan, favqulodda vaziyatlarda jamoaviy hamkorlik va mavjud resurslardan oqilona foydalanish omon qolish imkoniyatini oshirishi mumkinligini namoyish etgan.",
+   "extras": {
+    "point": 2
+   }
+  },
+  {
+   "i": 74,
+   "start": 757.8,
+   "end": 770.58,
+   "vFrom": 22734,
+   "vTo": 23136,
+   "text": "Uchinchidan, uzoq muddatli ochlik, sovuq va ruhiy bosim inson organizmi hamda qaror qabul qilish jarayoniga qanday ta'sir ko'rsatishini o'rganish uchun muhim tarixiy misol bo'lib qolgan.",
+   "extras": {
+    "point": 3
+   }
+  },
+  {
+   "i": 75,
+   "start": 771.2,
+   "end": 782.26,
+   "vFrom": 23136,
+   "vTo": 23491,
+   "text": "To'rtinchidan, Fernando Parrado va Roberto Kanessaning ekspeditsiyasi favqulodda sharoitda tashabbus ko'rsatish va yordam izlashning hal qiluvchi ahamiyatini namoyon etgan.",
+   "extras": {
+    "point": 4
+   }
+  },
+  {
+   "i": 76,
+   "start": 783.04,
+   "end": 794.02,
+   "vFrom": 23491,
+   "vTo": 23843,
+   "text": "And tog'laridagi ushbu hodisa bugungi kunda ham insonning ekstremal sharoitlarda omon qolish imkoniyatlari haqidagi eng mashhur tarixiy voqealardan biri sifatida o'rganiladi.",
+   "extras": {}
+  },
+  {
+   "i": 77,
+   "start": 794.76,
+   "end": 813.31,
+   "vFrom": 23843,
+   "vTo": 24399,
+   "text": "1972-yil 13-oktabrda 45 kishi bilan boshlangan parvoz 23-dekabr kuni 16 kishining qutqarilishi bilan yakunlangan. Bu hodisa tarixda 72 kun davom etgan omon qolish kurashi va \"And tog'lari mo'jizasi\" nomi bilan saqlanib qolgan.",
+   "extras": {
+    "end_title": true
+   }
+  }
+ ],
+ "subs": [
+  {
+   "start": 0.0,
+   "end": 7.41,
+   "text": "1972-yil 13-oktabr kuni Janubiy Amerikadagi And tog'larida Urug'vay harbiy-havo"
+  },
+  {
+   "start": 7.41,
+   "end": 11.82,
+   "text": "kuchlariga tegishli samolyot halokatga uchradi."
+  },
+  {
+   "start": 12.16,
+   "end": 14.82,
+   "text": "Samolyot bortida 45 kishi bo'lgan."
+  },
+  {
+   "start": 15.36,
+   "end": 20.45,
+   "text": "Ularning asosiy qismini Urug'vayning Old Christians Club regbi jamoasi a'zolari,"
+  },
+  {
+   "start": 20.45,
+   "end": 24.14,
+   "text": "shuningdek, ularning do'stlari va yaqinlari tashkil etgan."
+  },
+  {
+   "start": 24.14,
+   "end": 29.98,
+   "text": "Halokatdan keyin yo'lovchilar dengiz sathidan taxminan 3 500 metr balandlikdagi"
+  },
+  {
+   "start": 29.98,
+   "end": 32.34,
+   "text": "muzlik hududida qolib ketishgan."
+  },
+  {
+   "start": 33.18,
+   "end": 36.09,
+   "text": "Ular oziq-ovqat yetishmasligi, kuchli sovuq,"
+  },
+  {
+   "start": 36.09,
+   "end": 41.64,
+   "text": "jarohatlar va tashqi dunyo bilan aloqa yo'qligi sharoitida yashashga majbur bo'lgan."
+  },
+  {
+   "start": 42.44,
+   "end": 44.73,
+   "text": "Qidiruv ishlari to'xtatilganiga qaramay,"
+  },
+  {
+   "start": 44.73,
+   "end": 48.16,
+   "text": "omon qolganlar mustaqil ravishda qutulish yo'lini izlashgan."
+  },
+  {
+   "start": 48.16,
+   "end": 54.78,
+   "text": "72 kun davom etgan favqulodda vaziyat yakunida 16 kishi qutqarilgan."
+  },
+  {
+   "start": 55.58,
+   "end": 58.69,
+   "text": "Tarixda ushbu hodisa \"And tog'lari mo'jizasi\","
+  },
+  {
+   "start": 58.69,
+   "end": 62.0,
+   "text": "ya'ni \"Miracle of the Andes\" nomi bilan tanilgan."
+  },
+  {
+   "start": 62.76,
+   "end": 64.72,
+   "text": "Bu voqea aviatsiya xavfsizligi,"
+  },
+  {
+   "start": 64.72,
+   "end": 68.13,
+   "text": "inson organizmining ekstremal sharoitlarga moslashuvi,"
+  },
+  {
+   "start": 68.13,
+   "end": 73.38,
+   "text": "guruh bo'lib omon qolish va favqulodda vaziyatlarda qaror qabul qilish masalalarini"
+  },
+  {
+   "start": 73.38,
+   "end": 76.86,
+   "text": "o'rganishda muhim tarixiy saboqlardan biri hisoblanadi."
+  },
+  {
+   "start": 76.86,
+   "end": 80.56,
+   "text": "Samolyot halokatining asosiy sabablari."
+  },
+  {
+   "start": 81.44,
+   "end": 88.82,
+   "text": "571-reys Fairchild FH-227D rusumli ikki dvigatelli samolyotda amalga oshirilgan."
+  },
+  {
+   "start": 89.52,
+   "end": 95.1,
+   "text": "Parvoz Urug'vay poytaxti Montevideodan Chilining Santyago shahriga rejalashtirilgan."
+  },
+  {
+   "start": 95.68,
+   "end": 101.48,
+   "text": "Noqulay ob-havo sababli samolyot Argentina hududidagi Mendosa shahrida to'xtagan va"
+  },
+  {
+   "start": 101.48,
+   "end": 104.0,
+   "text": "safarini ertasi kuni davom ettirgan."
+  },
+  {
+   "start": 104.0,
+   "end": 110.55,
+   "text": "13-oktabr kuni And tog'lari ustidan uchish vaqtida ekipaj navigatsiya xatosiga yo'l"
+  },
+  {
+   "start": 110.55,
+   "end": 111.18,
+   "text": "qo'ygan."
+  },
+  {
+   "start": 112.06,
+   "end": 114.43,
+   "text": "Samolyot boshqa yo'nalishda bo'lgan;"
+  },
+  {
+   "start": 114.43,
+   "end": 118.77,
+   "text": "ikkinchi uchuvchi tog' tizmasidan o'tib bo'lingan, deb hisoblagan."
+  },
+  {
+   "start": 118.77,
+   "end": 122.65,
+   "text": "Aslida esa samolyot hali ham xavfli tog'li hududda bo'lgan."
+  },
+  {
+   "start": 122.65,
+   "end": 125.74,
+   "text": "Ko'rish imkoniyati bulutlar sababli cheklangan."
+  },
+  {
+   "start": 126.4,
+   "end": 129.86,
+   "text": "Ekipaj pasayishni boshlaganida samolyot toqqa urilgan."
+  },
+  {
+   "start": 130.68,
+   "end": 134.52,
+   "text": "Zarba natijasida samolyotning qanotlari va dum qismi ajralib ketgan."
+  },
+  {
+   "start": 135.18,
+   "end": 139.72,
+   "text": "Asosiy korpus esa qorli yonbag'ir bo'ylab sirpanib, muzlikda to'xtagan."
+  },
+  {
+   "start": 139.72,
+   "end": 143.01,
+   "text": "Halokat vaqtida 12 kishi vafot etgan."
+  },
+  {
+   "start": 143.01,
+   "end": 150.02,
+   "text": "Keyingi kunlarda yana 5 kishi olgan jarohatlari oqibatida hayotdan ko'z yumgan."
+  },
+  {
+   "start": 150.66,
+   "end": 155.79,
+   "text": "Dastlabki zarbadan omon qolganlar orasida tibbiy yordam ko'rsatish imkoniyatiga ega"
+  },
+  {
+   "start": 155.79,
+   "end": 157.21,
+   "text": "bo'lganlar ham bor edi."
+  },
+  {
+   "start": 157.21,
+   "end": 162.28,
+   "text": "Tibbiyot talabasi Roberto Kanessa va boshqa yo'lovchilar jarohatlanganlarga yordam"
+  },
+  {
+   "start": 162.28,
+   "end": 163.76,
+   "text": "berishga harakat qilgan."
+  },
+  {
+   "start": 164.3,
+   "end": 166.6,
+   "text": "Biroq professional tibbiy jihozlar,"
+  },
+  {
+   "start": 166.6,
+   "end": 171.8,
+   "text": "dori-darmon va zarur sharoitlarning yetishmasligi vaziyatni murakkablashtirgan."
+  },
+  {
+   "start": 172.26,
+   "end": 176.5,
+   "text": "Muzlikda omon qolish sharoitlari."
+  },
+  {
+   "start": 176.86,
+   "end": 181.54,
+   "text": "Halokat joyi Argentina hududidagi baland tog'li muzlikda joylashgan edi."
+  },
+  {
+   "start": 182.24,
+   "end": 186.66,
+   "text": "Bunday hududlarda havo harorati keskin pasayishi, kuchli shamollar,"
+  },
+  {
+   "start": 186.66,
+   "end": 191.93,
+   "text": "qor bo'ronlari va kislorod bosimining pastligi inson organizmi uchun jiddiy xavf"
+  },
+  {
+   "start": 191.93,
+   "end": 192.66,
+   "text": "tug'diradi."
+  },
+  {
+   "start": 193.34,
+   "end": 198.12,
+   "text": "Samolyot yo'lovchilari tog'larda uzoq muddat yashash uchun zarur jihozlar bilan"
+  },
+  {
+   "start": 198.12,
+   "end": 199.02,
+   "text": "ta'minlanmagan."
+  },
+  {
+   "start": 199.02,
+   "end": 203.74,
+   "text": "Ularning kiyimlari asosan oddiy sayohat va sport mashg'ulotlariga mos bo'lgan."
+  },
+  {
+   "start": 204.14,
+   "end": 208.79,
+   "text": "Omon qolganlar samolyotning asosiy korpusidan vaqtinchalik boshpana sifatida"
+  },
+  {
+   "start": 208.79,
+   "end": 209.71,
+   "text": "foydalanishgan."
+  },
+  {
+   "start": 209.71,
+   "end": 214.84,
+   "text": "Ular samolyot o'rindiqlari va boshqa materiallar yordamida ochiq qismlarni yopishga,"
+  },
+  {
+   "start": 214.84,
+   "end": 217.9,
+   "text": "sovuq havoning kirishini kamaytirishga urinishgan."
+  },
+  {
+   "start": 218.72,
+   "end": 222.13,
+   "text": "Ichimlik suvi masalasi qor eritish orqali hal qilingan."
+  },
+  {
+   "start": 222.13,
+   "end": 227.04,
+   "text": "Samolyot qoldiqlaridagi metall buyumlar quyosh nuri yordamida qor eritish uchun"
+  },
+  {
+   "start": 227.04,
+   "end": 227.78,
+   "text": "ishlatilgan."
+  },
+  {
+   "start": 228.48,
+   "end": 232.04,
+   "text": "Ammo oziq-ovqat masalasi ancha murakkab bo'lgan."
+  },
+  {
+   "start": 232.04,
+   "end": 238.05,
+   "text": "Samolyotda faqat oz miqdorda shokolad, shirinlik va boshqa yeguliklar mavjud edi."
+  },
+  {
+   "start": 238.05,
+   "end": 240.8,
+   "text": "Ushbu zaxiralar uzoq vaqtga yetmagan."
+  },
+  {
+   "start": 240.8,
+   "end": 246.39,
+   "text": "Inson organizmi sovuq sharoitda tana haroratini saqlash uchun qo'shimcha energiya"
+  },
+  {
+   "start": 246.39,
+   "end": 251.49,
+   "text": "sarflaydi. Oziq-ovqat yetishmaganda organizm avval energiya zaxiralaridan,"
+  },
+  {
+   "start": 251.49,
+   "end": 257.01,
+   "text": "keyin esa yog' va mushak to'qimalaridan foydalanadi. Bu jarayon uzoq davom etsa,"
+  },
+  {
+   "start": 257.01,
+   "end": 258.59,
+   "text": "jismoniy kuch kamayadi."
+  },
+  {
+   "start": 258.59,
+   "end": 263.49,
+   "text": "Immunitet zaiflashadi va ichki a'zolar faoliyati izdan chiqishi mumkin."
+  },
+  {
+   "start": 263.49,
+   "end": 268.04,
+   "text": "And tog'laridagi yo'lovchilar aynan shunday sharoitga duch kelgan."
+  },
+  {
+   "start": 268.84,
+   "end": 272.38,
+   "text": "Qidiruv ishlarining to'xtatilishi. Samolyot yo'qolgach,"
+  },
+  {
+   "start": 272.38,
+   "end": 276.36,
+   "text": "Chili va Argentina qutqaruv xizmatlari uni izlashga kirishgan."
+  },
+  {
+   "start": 276.36,
+   "end": 280.48,
+   "text": "Qidiruv samolyotlari And tog'larining katta hududini tekshirgan."
+  },
+  {
+   "start": 281.2,
+   "end": 287.08,
+   "text": "Biroq samolyotning oq rangli korpusi qor bilan qoplangan hududda deyarli sezilmagan."
+  },
+  {
+   "start": 287.08,
+   "end": 288.19,
+   "text": "Bundan tashqari,"
+  },
+  {
+   "start": 288.19,
+   "end": 293.79,
+   "text": "ekipajning navigatsiya xatosi sababli samolyotning taxminiy joylashuvi noto'g'ri"
+  },
+  {
+   "start": 293.79,
+   "end": 294.56,
+   "text": "baholangan."
+  },
+  {
+   "start": 295.38,
+   "end": 299.91,
+   "text": "Halokatdan keyingi o'n birinchi kuni omon qolganlar radiodan qidiruv ishlari"
+  },
+  {
+   "start": 299.91,
+   "end": 302.48,
+   "text": "to'xtatilgani haqidagi xabarni eshitishgan."
+  },
+  {
+   "start": 302.86,
+   "end": 308.05,
+   "text": "Rasmiy qidiruv xizmatlari bunday balandlik va sovuqda odamlarning uzoq vaqt tirik"
+  },
+  {
+   "start": 308.05,
+   "end": 310.8,
+   "text": "qolish ehtimolini juda past deb hisoblagan."
+  },
+  {
+   "start": 311.56,
+   "end": 316.06,
+   "text": "Shundan so'ng omon qolganlar tashqi yordamga tayanish imkoniyati cheklanganini"
+  },
+  {
+   "start": 316.06,
+   "end": 319.18,
+   "text": "tushunib, mustaqil chiqish yo'llarini izlay boshlagan."
+  },
+  {
+   "start": 319.86,
+   "end": 321.97,
+   "text": "Ochlik va eng og'ir qaror."
+  },
+  {
+   "start": 321.97,
+   "end": 327.17,
+   "text": "Mazkur hodisaning eng ko'p muhokama qilingan jihatlaridan biri —"
+  },
+  {
+   "start": 327.17,
+   "end": 333.5,
+   "text": "omon qolganlarning oziq-ovqat yetishmasligi sharoitida qabul qilgan qaroridir."
+  },
+  {
+   "start": 334.25,
+   "end": 336.01,
+   "text": "Tog'li muzlikda o'simliklar,"
+  },
+  {
+   "start": 336.01,
+   "end": 339.8,
+   "text": "hayvonlar yoki boshqa oziq-ovqat manbalari mavjud bo'lmagan."
+  },
+  {
+   "start": 339.8,
+   "end": 344.9,
+   "text": "Uzoq davom etgan ochlik natijasida yo'lovchilarning jismoniy ahvoli yomonlashgan."
+  },
+  {
+   "start": 345.44,
+   "end": 350.76,
+   "text": "Ular oxir-oqibat halokatda vafot etgan insonlarning jasadlaridan oziq sifatida"
+  },
+  {
+   "start": 350.76,
+   "end": 353.97,
+   "text": "foydalanish qaroriga kelishgan. Bu qaror diniy,"
+  },
+  {
+   "start": 353.97,
+   "end": 357.04,
+   "text": "axloqiy va ruhiy jihatdan juda og'ir bo'lgan."
+  },
+  {
+   "start": 357.62,
+   "end": 362.24,
+   "text": "Omon qolganlarning aksariyati katolik oilalarda tarbiyalangan va vafot etgan"
+  },
+  {
+   "start": 362.24,
+   "end": 365.34,
+   "text": "insonlar ularning do'stlari yoki yaqinlari bo'lgan."
+  },
+  {
+   "start": 366.32,
+   "end": 371.27,
+   "text": "Keyinchalik berilgan intervyularda ular bu qaror zavq yoki istak bilan emas,"
+  },
+  {
+   "start": 371.27,
+   "end": 376.16,
+   "text": "balki hayotni saqlab qolish zarurati tufayli qabul qilinganini ta'kidlagan."
+  },
+  {
+   "start": 376.16,
+   "end": 381.57,
+   "text": "Ushbu holat favqulodda vaziyatlarda insonlarning axloqiy qarorlari va biologik omon"
+  },
+  {
+   "start": 381.57,
+   "end": 385.48,
+   "text": "qolish ehtiyoji o'rtasidagi murakkab munosabatni ko'rsatadi."
+  },
+  {
+   "start": 385.74,
+   "end": 390.62,
+   "text": "29-oktabrdagi qor ko'chkisi. Halokatdan 16 kun o'tib,"
+  },
+  {
+   "start": 390.62,
+   "end": 396.6,
+   "text": "29-oktabr kuni omon qolganlar yana bir tabiiy ofatga duch kelgan."
+  },
+  {
+   "start": 397.2,
+   "end": 402.22,
+   "text": "Katta qor ko'chkisi samolyotning boshpana sifatida foydalanilayotgan korpusini"
+  },
+  {
+   "start": 402.22,
+   "end": 404.98,
+   "text": "bosib qolgan. Natijada 8 kishi vafot etgan."
+  },
+  {
+   "start": 405.74,
+   "end": 414.29,
+   "text": "Tirik qolganlar esa qor ostida qolgan samolyot ichida bir necha kun davomida"
+  },
+  {
+   "start": 414.29,
+   "end": 420.92,
+   "text": "qamalib qolgan. Ular qor ostidan chiqish yo'lini topishgan."
+  },
+  {
+   "start": 421.22,
+   "end": 427.74,
+   "text": "Noyabrda yana ikki kishi, 11-dekabrda esa yana bir kishi vafot etgan."
+  },
+  {
+   "start": 427.74,
+   "end": 431.9,
+   "text": "Natijada 45 kishidan 16 nafari tirik qolgan."
+  },
+  {
+   "start": 432.58,
+   "end": 437.77,
+   "text": "Ular orasida jismoniy jihatdan nisbatan kuchliroq bo'lgan kishilar yordam izlash"
+  },
+  {
+   "start": 437.77,
+   "end": 440.88,
+   "text": "uchun tog'lardan o'tish rejasini ishlab chiqqan."
+  },
+  {
+   "start": 443.98,
+   "end": 445.81,
+   "text": "Qutqaruv yo'lini izlash."
+  },
+  {
+   "start": 445.81,
+   "end": 451.3,
+   "text": "Omon qolganlar avval samolyot atrofidagi hududni o'rganishga urinishgan."
+  },
+  {
+   "start": 451.72,
+   "end": 457.3,
+   "text": "15-noyabrda amalga oshirilgan ekspeditsiya davomida samolyotning ajralib ketgan dum"
+  },
+  {
+   "start": 457.3,
+   "end": 462.01,
+   "text": "qismi topilgan. U yerdan ayrim oziq-ovqat va foydali buyumlar olingan."
+  },
+  {
+   "start": 462.01,
+   "end": 465.44,
+   "text": "Ammo bu ekspeditsiya yordam topishga olib kelmagan."
+  },
+  {
+   "start": 466.02,
+   "end": 470.29,
+   "text": "Keyinchalik uzoq masofaga yurish uchun maxsus tayyorgarlik boshlangan."
+  },
+  {
+   "start": 470.29,
+   "end": 473.46,
+   "text": "Samolyotning izolyatsiya materiallaridan foydalanib,"
+  },
+  {
+   "start": 473.46,
+   "end": 476.94,
+   "text": "sovuqda tunash imkonini beradigan uyqu qopi tayyorlangan."
+  },
+  {
+   "start": 477.48,
+   "end": 480.79,
+   "text": "1972-yil 12-dekabr kuni Fernando Parrado,"
+  },
+  {
+   "start": 480.79,
+   "end": 486.53,
+   "text": "Roberto Kanessa va Antonio Vizintin yordam izlash uchun yo'lga chiqqan."
+  },
+  {
+   "start": 486.53,
+   "end": 491.7,
+   "text": "Ular tog'lar orqali Chili tomon harakat qilishni rejalashtirgan."
+  },
+  {
+   "start": 492.12,
+   "end": 497.37,
+   "text": "Uch kunlik yurishdan keyin Antonio Vizintin qolgan ikki kishiga oziq-ovqat"
+  },
+  {
+   "start": 497.37,
+   "end": 500.2,
+   "text": "zaxirasini qoldirib, samolyotga qaytgan."
+  },
+  {
+   "start": 500.2,
+   "end": 503.68,
+   "text": "Parrado va Kanessa ekspeditsiyani davom ettirgan."
+  },
+  {
+   "start": 504.26,
+   "end": 510.0,
+   "text": "Ular qorli cho'qqilar, baland tog' yo'llari va murakkab relyef orqali harakatlangan."
+  },
+  {
+   "start": 510.0,
+   "end": 514.86,
+   "text": "Yo'nalish xaritasi va zamonaviy navigatsiya qurollari mavjud bo'lmagan."
+  },
+  {
+   "start": 514.86,
+   "end": 515.95,
+   "text": "Bundan tashqari,"
+  },
+  {
+   "start": 515.95,
+   "end": 521.63,
+   "text": "ikkala insonning organizmi ham ikki oydan ortiq davom etgan ochlik va sovuq tufayli"
+  },
+  {
+   "start": 521.63,
+   "end": 522.72,
+   "text": "zaiflashgan edi."
+  },
+  {
+   "start": 523.38,
+   "end": 528.12,
+   "text": "Shunga qaramay, ular tog' tizmasidan o'tib, pastroq hududlarga yetib borgan."
+  },
+  {
+   "start": 528.96,
+   "end": 530.39,
+   "text": "Birinchi aloqa."
+  },
+  {
+   "start": 530.39,
+   "end": 538.3,
+   "text": "1972-yil 20-dekabr kuni Fernando Parrado va Roberto Kanessa Chili hududida mahalliy"
+  },
+  {
+   "start": 538.3,
+   "end": 541.64,
+   "text": "cho'pon Serxio Katalanni uchratgan."
+  },
+  {
+   "start": 542.28,
+   "end": 546.97,
+   "text": "Ular daryoning qarama-qarshi tomonlarida bo'lgan sababli ovoz orqali muloqot qilish"
+  },
+  {
+   "start": 546.97,
+   "end": 547.76,
+   "text": "qiyin kechgan."
+  },
+  {
+   "start": 548.18,
+   "end": 552.03,
+   "text": "Shundan so'ng yozma xabar yordamida aloqa o'rnatilgan."
+  },
+  {
+   "start": 552.03,
+   "end": 557.67,
+   "text": "Xabarda ular Urug'vay samolyoti halokatidan omon qolganini va tog'larda yana 14"
+  },
+  {
+   "start": 557.67,
+   "end": 559.52,
+   "text": "kishi qolganini bildirgan."
+  },
+  {
+   "start": 560.52,
+   "end": 565.64,
+   "text": "Serxio Katalan mahalliy hokimiyat va qutqaruv xizmatlariga xabar bergan."
+  },
+  {
+   "start": 565.64,
+   "end": 569.48,
+   "text": "Bu ma'lumot dastlab katta hayrat bilan qabul qilingan."
+  },
+  {
+   "start": 569.94,
+   "end": 576.29,
+   "text": "Chunki 571-reys yo'lovchilari ikki oydan ortiq vaqt davomida bedarak yo'qolgan deb"
+  },
+  {
+   "start": 576.29,
+   "end": 577.22,
+   "text": "hisoblangan."
+  },
+  {
+   "start": 578.32,
+   "end": 582.68,
+   "text": "Xabar tasdiqlangach, qutqaruv operatsiyasiga tayyorgarlik boshlangan."
+  },
+  {
+   "start": 583.88,
+   "end": 586.96,
+   "text": "22–23-dekabr: qutqaruv operatsiyasi."
+  },
+  {
+   "start": 586.96,
+   "end": 593.55,
+   "text": "Chili qutqaruv xizmatlari samolyot qoldiqlari joylashgan hududga vertolyotlar"
+  },
+  {
+   "start": 593.55,
+   "end": 594.32,
+   "text": "yuborgan."
+  },
+  {
+   "start": 595.06,
+   "end": 596.34,
+   "text": "Baland tog'li hudud,"
+  },
+  {
+   "start": 596.34,
+   "end": 600.69,
+   "text": "kuchli shamol va qo'nish uchun qulay joylarning kamligi operatsiyani"
+  },
+  {
+   "start": 600.69,
+   "end": 601.9,
+   "text": "murakkablashtirgan."
+  },
+  {
+   "start": 602.9,
+   "end": 607.3,
+   "text": "Fernando Parrado qutqaruvchilarga halokat joyini aniqlashda yordam bergan."
+  },
+  {
+   "start": 608.3,
+   "end": 613.76,
+   "text": "22-dekabr kuni samolyot korpusida qolgan kishilarning birinchi guruhi olib"
+  },
+  {
+   "start": 613.76,
+   "end": 617.3,
+   "text": "chiqilgan. Qolganlar 23-dekabr kuni qutqarilgan."
+  },
+  {
+   "start": 618.18,
+   "end": 625.6,
+   "text": "Shu tariqa 1972-yil 13-oktabrda boshlangan favqulodda vaziyat 23-dekabr kuni"
+  },
+  {
+   "start": 625.6,
+   "end": 633.12,
+   "text": "yakunlangan. Jami 45 kishidan 16 nafari tirik qolgan, 29 kishi halok bo'lgan."
+  },
+  {
+   "start": 633.72,
+   "end": 638.75,
+   "text": "Omon qolganlarning 14 nafari samolyot joylashgan hududdan vertolyot orqali"
+  },
+  {
+   "start": 638.75,
+   "end": 642.97,
+   "text": "evakuatsiya qilingan. Qolgan ikki kishi — Parrado va Kanessa —"
+  },
+  {
+   "start": 642.97,
+   "end": 646.44,
+   "text": "yordam izlab tog'lardan mustaqil chiqib ketgan edi."
+  },
+  {
+   "start": 647.78,
+   "end": 649.74,
+   "text": "Voqeadan keyingi hayot."
+  },
+  {
+   "start": 650.6,
+   "end": 655.05,
+   "text": "Qutqaruvdan so'ng omon qolganlar tibbiy ko'rikdan o'tkazilgan."
+  },
+  {
+   "start": 655.05,
+   "end": 658.42,
+   "text": "Ularda uzoq davom etgan ochlik, vazn yo'qotish,"
+  },
+  {
+   "start": 658.42,
+   "end": 662.44,
+   "text": "sovuq ta'siri va jismoniy zaiflik oqibatlari kuzatilgan."
+  },
+  {
+   "start": 663.16,
+   "end": 668.64,
+   "text": "Ularning hayot uchun kurashi xalqaro ommaviy axborot vositalarida keng yoritilgan."
+  },
+  {
+   "start": 668.64,
+   "end": 669.18,
+   "text": "Ayniqsa,"
+  },
+  {
+   "start": 669.18,
+   "end": 674.46,
+   "text": "oziq-ovqat yetishmasligi sharoitida qabul qilingan qarorlar katta muhokamalarga"
+  },
+  {
+   "start": 674.46,
+   "end": 675.4,
+   "text": "sabab bo'lgan."
+  },
+  {
+   "start": 676.46,
+   "end": 680.27,
+   "text": "Keyingi yillarda omon qolganlar o'z xotiralarini kitoblar,"
+  },
+  {
+   "start": 680.27,
+   "end": 684.14,
+   "text": "intervyular va hujjatli filmlar orqali ommaga taqdim etgan."
+  },
+  {
+   "start": 685.18,
+   "end": 690.06,
+   "text": "1974-yilda Pirs Pol Ridning \"Alive\" kitobi nashr etilgan."
+  },
+  {
+   "start": 691.26,
+   "end": 696.64,
+   "text": "1993-yilda shu kitob asosida \"Alive\" badiiy filmi ekranlarga chiqqan."
+  },
+  {
+   "start": 697.4,
+   "end": 698.95,
+   "text": "2007-yilda \"Stranded:"
+  },
+  {
+   "start": 698.95,
+   "end": 704.84,
+   "text": "I've Come from a Plane that Crashed on the Mountains\" hujjatli filmi yaratilgan."
+  },
+  {
+   "start": 705.08,
+   "end": 711.45,
+   "text": "2023-yilda esa ispaniyalik rejissyor Xuan Antonio Bayona tomonidan \"Society of the"
+  },
+  {
+   "start": 711.45,
+   "end": 717.11,
+   "text": "Snow\" filmi suratga olingan. Mazkur asarlar voqeaning turli qatlamlarini,"
+  },
+  {
+   "start": 717.11,
+   "end": 720.3,
+   "text": "jumladan omon qolganlarning ruhiy holati,"
+  },
+  {
+   "start": 720.3,
+   "end": 724.72,
+   "text": "guruh ichidagi hamkorlik va qutqaruv jarayonini yoritgan."
+  },
+  {
+   "start": 725.2,
+   "end": 728.22,
+   "text": "Tarixiy ahamiyat va xulosa."
+  },
+  {
+   "start": 728.22,
+   "end": 736.96,
+   "text": "1972-yildagi And tog'lari halokati bir nechta jihatdan tarixiy ahamiyatga ega."
+  },
+  {
+   "start": 737.48,
+   "end": 738.3,
+   "text": "Birinchidan,"
+  },
+  {
+   "start": 738.3,
+   "end": 743.98,
+   "text": "hodisa murakkab tog'li hududlarda aviatsiya navigatsiyasi va parvoz xavfsizligining"
+  },
+  {
+   "start": 743.98,
+   "end": 746.1,
+   "text": "naqadar muhimligini ko'rsatgan."
+  },
+  {
+   "start": 746.8,
+   "end": 747.58,
+   "text": "Ikkinchidan,"
+  },
+  {
+   "start": 747.58,
+   "end": 752.36,
+   "text": "favqulodda vaziyatlarda jamoaviy hamkorlik va mavjud resurslardan oqilona"
+  },
+  {
+   "start": 752.36,
+   "end": 757.26,
+   "text": "foydalanish omon qolish imkoniyatini oshirishi mumkinligini namoyish etgan."
+  },
+  {
+   "start": 757.8,
+   "end": 760.16,
+   "text": "Uchinchidan, uzoq muddatli ochlik,"
+  },
+  {
+   "start": 760.16,
+   "end": 765.65,
+   "text": "sovuq va ruhiy bosim inson organizmi hamda qaror qabul qilish jarayoniga qanday"
+  },
+  {
+   "start": 765.65,
+   "end": 770.58,
+   "text": "ta'sir ko'rsatishini o'rganish uchun muhim tarixiy misol bo'lib qolgan."
+  },
+  {
+   "start": 771.2,
+   "end": 772.11,
+   "text": "To'rtinchidan,"
+  },
+  {
+   "start": 772.11,
+   "end": 776.99,
+   "text": "Fernando Parrado va Roberto Kanessaning ekspeditsiyasi favqulodda sharoitda"
+  },
+  {
+   "start": 776.99,
+   "end": 782.26,
+   "text": "tashabbus ko'rsatish va yordam izlashning hal qiluvchi ahamiyatini namoyon etgan."
+  },
+  {
+   "start": 783.04,
+   "end": 788.15,
+   "text": "And tog'laridagi ushbu hodisa bugungi kunda ham insonning ekstremal sharoitlarda"
+  },
+  {
+   "start": 788.15,
+   "end": 793.25,
+   "text": "omon qolish imkoniyatlari haqidagi eng mashhur tarixiy voqealardan biri sifatida"
+  },
+  {
+   "start": 793.25,
+   "end": 794.02,
+   "text": "o'rganiladi."
+  },
+  {
+   "start": 794.76,
+   "end": 801.5,
+   "text": "1972-yil 13-oktabrda 45 kishi bilan boshlangan parvoz 23-dekabr kuni 16 kishining"
+  },
+  {
+   "start": 801.5,
+   "end": 804.08,
+   "text": "qutqarilishi bilan yakunlangan."
+  },
+  {
+   "start": 804.08,
+   "end": 810.15,
+   "text": "Bu hodisa tarixda 72 kun davom etgan omon qolish kurashi va \"And tog'lari"
+  },
+  {
+   "start": 810.15,
+   "end": 813.31,
+   "text": "mo'jizasi\" nomi bilan saqlanib qolgan."
+  }
+ ]
+}
