@@ -6,7 +6,7 @@ import {AMIRI as amiri, CORMORANT as cormorant} from '../fonts';
 /**
  * Small verse-reference plate (surah + ayah number only). It is a graphic reference,
  * not a subtitle: none of the narration is written on screen.
- * Positioned in the upper safe zone, clear of platform UI at the top, right and bottom.
+ * Positioned top-centre, clear of the player controls at the bottom of a 16:9 frame.
  */
 export const VerseBadge: React.FC<{ar: string; uz: string; dur: number}> = ({ar, uz, dur}) => {
   const frame = useCurrentFrame();
@@ -19,7 +19,7 @@ export const VerseBadge: React.FC<{ar: string; uz: string; dur: number}> = ({ar,
     <div
       style={{
         position: 'absolute',
-        top: 300,
+        top: 70,
         left: 0,
         right: 0,
         display: 'flex',
@@ -35,8 +35,8 @@ export const VerseBadge: React.FC<{ar: string; uz: string; dur: number}> = ({ar,
         <StarOrnament size={34} />
         <div style={{width: line, height: 2, background: 'linear-gradient(270deg, transparent, #e6b85c)'}} />
       </div>
-      <div style={{fontFamily: amiri, fontSize: 64, color: '#f6dfa4', direction: 'rtl', marginTop: 8, lineHeight: 1.25}}>{ar}</div>
-      <div style={{fontFamily: cormorant, fontSize: 34, letterSpacing: 6, color: '#e9d7b0', textTransform: 'uppercase', marginTop: 2}}>{uz}</div>
+      <div style={{fontFamily: amiri, fontSize: 56, color: '#f6dfa4', direction: 'rtl', marginTop: 8, lineHeight: 1.25}}>{ar}</div>
+      <div style={{fontFamily: cormorant, fontSize: 30, letterSpacing: 6, color: '#e9d7b0', textTransform: 'uppercase', marginTop: 2}}>{uz}</div>
     </div>
   );
 };

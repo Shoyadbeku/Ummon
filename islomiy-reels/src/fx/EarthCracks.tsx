@@ -15,9 +15,9 @@ const makeCracks = (seed: string, cy: number): Seg[] => {
       ang += (random(`${seed}${id}a${i}`) - 0.5) * 1.1;
       // keep the fracture travelling roughly horizontally across the ground plane
       ang = ang * 0.85 + (Math.cos(ang) > 0 ? 0 : Math.PI) * 0.15;
-      const st = 18 + random(`${seed}${id}s${i}`) * 26;
+      const st = 26 + random(`${seed}${id}s${i}`) * 34;
       const nx = x + Math.cos(ang) * st;
-      const ny = y + Math.sin(ang) * st * 0.5;
+      const ny = y + Math.sin(ang) * st * 0.38;
       const k = i / steps;
       segs.push({x1: x, y1: y, x2: nx, y2: ny, w: Math.max(2, w * (1 - k * 0.85)), t: t0 + i * 1.05});
       x = nx;
@@ -28,15 +28,15 @@ const makeCracks = (seed: string, cy: number): Seg[] => {
       }
     }
   };
-  walk(540, cy, Math.PI + 0.05, 30, 34, 0, 0, 'L');
-  walk(540, cy, -0.05, 30, 34, 0, 0, 'R');
-  walk(540, cy, Math.PI * 0.62, 10, 18, 6, 1, 'D');
-  walk(540, cy, -Math.PI * 0.4, 9, 16, 8, 1, 'U');
+  walk(960, cy, Math.PI + 0.05, 34, 34, 0, 0, 'L');
+  walk(960, cy, -0.05, 34, 34, 0, 0, 'R');
+  walk(960, cy, Math.PI * 0.62, 8, 18, 6, 1, 'D');
+  walk(960, cy, -Math.PI * 0.4, 7, 16, 8, 1, 'U');
   return segs;
 };
 
 /** Ground splitting open: tapered dark fissures with sun-lit rims and a widening pit of darkness. */
-export const EarthCracks: React.FC<{seed: string; cy?: number}> = ({seed, cy = 1260}) => {
+export const EarthCracks: React.FC<{seed: string; cy?: number}> = ({seed, cy = 760}) => {
   const frame = useCurrentFrame();
   const segs = useMemo(() => makeCracks(seed, cy), [seed, cy]);
   const pit = interpolate(frame, [18, 105], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.quad)});
@@ -51,7 +51,7 @@ export const EarthCracks: React.FC<{seed: string; cy?: number}> = ({seed, cy = 1
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{background: `rgba(0,0,0,${dark})`}} />
-      <svg width="100%" height="100%" viewBox="0 0 1080 1920">
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080">
         <defs>
           <radialGradient id={`pit${seed}`} cx="50%" cy="50%" r="50%">
             <stop offset="0" stopColor="#000" stopOpacity="1" />
@@ -79,7 +79,7 @@ export const EarthCracks: React.FC<{seed: string; cy?: number}> = ({seed, cy = 1
           const p = pt(s);
           return <line key={`v${i}`} x1={s.x1} y1={s.y1} x2={p.x2} y2={p.y2} stroke="#050201" strokeWidth={s.w * widen} strokeLinecap="round" />;
         })}
-        <ellipse cx={540} cy={cy + 6} rx={360 * pit} ry={120 * pit} fill={`url(#pit${seed})`} />
+        <ellipse cx={960} cy={cy + 6} rx={560 * pit} ry={130 * pit} fill={`url(#pit${seed})`} />
       </svg>
     </AbsoluteFill>
   );

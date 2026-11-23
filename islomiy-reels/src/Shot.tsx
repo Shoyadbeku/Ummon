@@ -17,7 +17,7 @@ const ParallaxImage: React.FC<{file: string; mv: ShotData['mv']; dur: number; se
   const fgS = interpolate(p, [0, 1], [mv === 'pullOut' ? 1.1 : 0.98, mv === 'pullOut' ? 0.98 : 1.1]);
   const fgX = mv === 'panL' ? interpolate(p, [0, 1], [3, -3]) : mv === 'panR' ? interpolate(p, [0, 1], [-3, 3]) : 0;
   const fgY = mv === 'rise' ? interpolate(p, [0, 1], [2.5, -2.5]) : mv === 'sink' ? interpolate(p, [0, 1], [-2.5, 2.5]) : 0;
-  const rotY = interpolate(p, [0, 1], [-5, 5]);
+  const rotY = interpolate(p, [0, 1], [-7, 7]);
   const sweep = interpolate(frame, [0, Math.max(30, dur)], [-40, 140]);
   return (
     <AbsoluteFill style={{background: '#050403'}}>
@@ -27,8 +27,8 @@ const ParallaxImage: React.FC<{file: string; mv: ShotData['mv']; dur: number; se
       <AbsoluteFill style={{perspective: 1600, alignItems: 'center', justifyContent: 'center'}}>
         <div
           style={{
-            width: '90%',
-            height: '66%',
+            width: '38%',
+            height: '86%',
             transform: `translate(${fgX}%, ${fgY}%) scale(${fgS}) rotateY(${rotY}deg)`,
             boxShadow: '0 40px 90px rgba(0,0,0,0.75)',
             position: 'relative',

@@ -1,6 +1,6 @@
 # Islomiy Reels — "Qorun qissasi" (Remotion)
 
-Ovozli yozuv asosida yaratilgan cinematic islomiy vertikal video (YouTube Shorts / Instagram Reels / TikTok / Facebook Reels).
+Ovozli yozuv asosida yaratilgan cinematic islomiy video, 16:9 (1920×1080, 30 fps).
 Subtitr va captionlar yo'q — ekranda faqat oyat raqami ko'rsatkichi (sura + oyat) chiqadi, uni ham o'chirish mumkin.
 
 ## Tuzilishi
@@ -8,7 +8,7 @@ Subtitr va captionlar yo'q — ekranda faqat oyat raqami ko'rsatkichi (sura + oy
 ```
 scripts/
   storyboard.py     # audio vaqtlariga bog'langan sahna rejasi (137 sahna)
-  prep_assets.py    # kliplarni kesish, 9:16 reframe, yagona color grade, 30 fps
+  prep_assets.py    # kliplarni kesish, 16:9 reframe, yagona color grade, 30 fps
   synth_sfx.py      # ovoz effektlarini sintez qilish (tashqi namunasiz)
   make_docs.py      # SOURCES.md va EDIT_PLAN.md ni avtomatik yaratish
   data/             # litsenziya tekshiruvi natijalari

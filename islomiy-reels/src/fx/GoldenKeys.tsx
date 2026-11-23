@@ -29,8 +29,8 @@ export const GoldenKeys: React.FC<{seed: string}> = ({seed}) => {
   const keys = useMemo(
     () =>
       new Array(N).fill(0).map((_, i) => ({
-        x: 540 + (random(`${seed}k${i}`) - 0.5) * 620,
-        y: 1080 + (random(`${seed}ky${i}`) - 0.3) * 380 - (i / N) * 160,
+        x: 960 + (random(`${seed}k${i}`) - 0.5) * 1100,
+        y: 640 + (random(`${seed}ky${i}`) - 0.3) * 260 - (i / N) * 120,
         rot: (random(`${seed}kr${i}`) - 0.5) * 300,
         sc: 0.55 + random(`${seed}ks${i}`) * 0.5,
         delay: Math.floor(i * 3.2 + random(`${seed}kd${i}`) * 4),
@@ -38,14 +38,14 @@ export const GoldenKeys: React.FC<{seed: string}> = ({seed}) => {
     [seed],
   );
   const glint = interpolate(frame, [20, 70], [-600, 1700], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const sink = interpolate(frame, [0, 110], [0, 40], {extrapolateRight: 'clamp'});
+  const sink = interpolate(frame, [0, 110], [0, 25], {extrapolateRight: 'clamp'});
   const camS = interpolate(frame, [0, 120], [1.12, 1.0], {extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{background: 'radial-gradient(ellipse 80% 60% at 50% 55%, #3a2408 0%, #140b03 55%, #040201 100%)'}}>
       <IslamicPattern opacity={0.12} reveal={40} />
       <LightRays intensity={0.9} />
       <AbsoluteFill style={{transform: `translateY(${sink}px) scale(${camS})`}}>
-        <svg width="100%" height="100%" viewBox="0 0 1080 1920">
+        <svg width="100%" height="100%" viewBox="0 0 1920 1080">
           <defs>
             {keys.map((_, i) => (
               <linearGradient key={i} id={`kg${seed}${i}`} x1="0" y1="0" x2="1" y2="1">
@@ -60,7 +60,7 @@ export const GoldenKeys: React.FC<{seed: string}> = ({seed}) => {
               <stop offset="1" stopColor="#000" stopOpacity="0" />
             </radialGradient>
           </defs>
-          <ellipse cx={540} cy={1290} rx={480} ry={110} fill={`url(#shadow${seed})`} />
+          <ellipse cx={960} cy={820} rx={760} ry={110} fill={`url(#shadow${seed})`} />
           {keys.map((k, i) => {
             const sp = spring({frame: frame - k.delay, fps, config: {damping: 11, mass: 0.9, stiffness: 140}});
             if (frame < k.delay) return null;

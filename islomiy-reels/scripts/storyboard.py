@@ -5,7 +5,8 @@ Fields per shot:
   src    -> 'mk:<id>'  Mixkit clip, 'wm:<key>' Wikimedia Commons video,
             'img:<key>' Wikimedia image (manuscript), 'gfx:<name>' pure motion graphics
   at     -> in-point inside the source clip (seconds)
-  cx     -> horizontal focus for the 9:16 crop of a 16:9 source (0 = left, 1 = right)
+  cx     -> horizontal focus when a source is wider than 16:9 (0 = left, 1 = right)
+  cy     -> vertical focus when a portrait source is cropped to 16:9 (0 = top, 1 = bottom)
   mv     -> camera move: pushIn | pullOut | panL | panR | rise | sink | drift | punch
   tr     -> transition INTO this shot: dissolve | cut | flash | zoom | dip | whip
   fx     -> extra layers: cracks, shake, gold, rays, dust, rain, glow, pattern, keys, lightning
@@ -65,7 +66,7 @@ S = [
  dict(t=130.40, src='mk:4311', at=1.0, cx=.55, mv='rise', tr='dissolve', fx=['rays'], note='Qur\'on tanqid qiladi'),
  dict(t=134.00, src='wm:mihrimah', at=270.0, cx=.5, mv='pushIn', tr='dissolve', fx=['rays'], note='qilgan ishlari sababli'),
  # ---------------- NASIHAT ----------------
- dict(t=138.40, src='wm:adhan_vertical', at=150.0, cx=.5, mv='drift', tr='dissolve', fx=['rays', 'dust'], note='qavmi nasihat qilgan'),
+ dict(t=138.40, src='wm:adhan_vertical', at=150.0, cy=.35, cx=.5, mv='drift', tr='dissolve', fx=['rays', 'dust'], note='qavmi nasihat qilgan'),
  dict(t=143.50, src='mk:4059', at=3.0, cx=.5, mv='pushIn', tr='dissolve', fx=['lightning'], note='haddan tashqari quvonib'),
  dict(t=147.80, src='mk:4081', at=8.0, cx=.62, mv='pushIn', tr='dip', sp=0.75, note='Alloh kibrlilarni sevmaydi'),
  dict(t=152.80, src='mk:1944', at=10.0, cx=.5, mv='rise', tr='dissolve', fx=['rays'], note='qanday foydalanish'),
@@ -101,7 +102,7 @@ S = [
  dict(t=268.40, src='wm:kaaba_night', at=15.0, cx=.5, mv='pushIn', tr='dissolve', fx=['glow'], note='Allohning savobi yaxshiroq'),
  dict(t=275.40, src='mk:49846', at=4.0, cx=.5, mv='drift', tr='dip', note='ikki qarash'),
  dict(t=278.40, src='mk:18302', at=10.0, cx=.5, mv='pushIn', tr='cut', note='dunyoviy boylik'),
- dict(t=281.50, src='mk:3133', at=1.0, cx=.5, mv='rise', tr='flash', fx=['rays'], note='oxiratdagi mukofot'),
+ dict(t=281.50, src='mk:3133', at=1.0, cy=.55, cx=.5, mv='rise', tr='flash', fx=['rays'], note='oxiratdagi mukofot'),
  dict(t=284.70, src='mk:2889', at=6.0, cx=.4, mv='panL', tr='dissolve', note="tashqi ko'rinish"),
  dict(t=289.60, src='mk:28890', at=3.0, cx=.5, mv='pushIn', tr='dissolve', note='sinovga aylangani'),
  # ---------------- YERGA YUTILISH ----------------
@@ -111,7 +112,7 @@ S = [
  dict(t=304.00, src='mk:2093', at=6.0, cx=.5, mv='sink', tr='cut', fx=['cracks', 'dust'], note='himoya qiladigan jamoa'),
  dict(t=307.60, src='mk:4423', at=6.0, cx=.4, mv='drift', tr='dissolve', fx=['lightning'], note="o'zini qutqara olmadi"),
  dict(t=311.60, src='img:ms3', mv='panR', tr='dip', fx=['glow'], note='aniq bayon'),
- dict(t=314.60, src='mk:51793', at=1.0, cx=.5, mv='sink', tr='dissolve', note='qaysi shaharda'),
+ dict(t=314.60, src='mk:51793', at=1.0, cy=.3, cx=.5, mv='sink', tr='dissolve', note='qaysi shaharda'),
  dict(t=320.40, src='mk:51795', at=1.0, cx=.5, mv='pushIn', tr='dissolve', note='yer ostida saqlangan'),
  dict(t=324.40, src='mk:2092', at=1.0, cx=.5, mv='panL', tr='dissolve', note='dalil yo\'q'),
  dict(t=328.00, src='mk:40746', at=0.5, cx=.5, mv='rise', tr='whip', note='internetda xabarlar'),
@@ -124,7 +125,7 @@ S = [
  dict(t=354.20, src='mk:1944', at=30.0, cx=.5, mv='rise', tr='flash', fx=['rays'], badge=('سورة القصص ٨٢', 'Qasas surasi, 82'), note='fikri o\'zgargan'),
  dict(t=358.20, src='mk:4357', at=0.0, cx=.5, mv='rise', tr='dissolve', sp=0.8, note='rizqni keng qiladi'),
  dict(t=362.00, src='mk:1518', at=0.5, cx=.5, mv='drift', tr='dissolve', note='tor qiladi'),
- dict(t=365.00, src='mk:1191', at=3.0, cx=.5, mv='pushIn', tr='dissolve', note='xohlagan bandalari'),
+ dict(t=365.00, src='mk:1191', at=3.0, cy=.55, cx=.5, mv='pushIn', tr='dissolve', note='xohlagan bandalari'),
  dict(t=367.80, src='mk:2093', at=9.0, cx=.5, mv='sink', tr='cut', fx=['cracks', 'shake'], note='bizni ham yuttirgan bo\'lardi'),
  dict(t=370.60, src='mk:4433', at=5.0, cx=.5, mv='pushIn', tr='dip', note='marhamati'),
  dict(t=374.20, src='mk:3458', at=6.0, cx=.5, mv='pushIn', tr='dissolve', note='muhim xulosa'),
@@ -165,7 +166,7 @@ S = [
  dict(t=500.80, src='mk:18263', at=3.0, cx=.5, mv='pushIn', tr='dip', note="qo'lidagi ne'mat"),
  dict(t=505.00, src='mk:1944', at=40.0, cx=.5, mv='rise', tr='dissolve', fx=['rays'], note='qalbini egallab'),
  dict(t=508.80, src='wm:kaaba_night', at=36.0, cx=.5, mv='pushIn', tr='dissolve', fx=['glow'], note='katta yo\'qotish'),
- dict(t=512.90, src='wm:adhan_vertical', at=20.0, cx=.5, mv='pullOut', tr='flash', fx=['pattern', 'rays'], note='asosiy saboqlar'),
+ dict(t=512.90, src='wm:adhan_vertical', at=20.0, cy=.4, cx=.5, mv='pullOut', tr='flash', fx=['pattern', 'rays'], note='asosiy saboqlar'),
 ]
 
 # Fallbacks if a Wikimedia download is not available (Wikimedia rate-limits shared IPs)
@@ -182,7 +183,7 @@ def build():
     for i, s in enumerate(S):
         e = S[i+1]['t'] if i+1 < len(S) else END
         d = dict(id=f's{i:03d}', start=s['t'], end=e, src=s['src'], at=s.get('at', 0.0), cx=s.get('cx', .5),
-                 mv=s.get('mv', 'drift'), tr=s.get('tr', 'dissolve'), fx=s.get('fx', []), sp=s.get('sp', 1.0),
+                 cy=s.get('cy', .45), mv=s.get('mv', 'drift'), tr=s.get('tr', 'dissolve'), fx=s.get('fx', []), sp=s.get('sp', 1.0),
                  badge=s.get('badge'), note=s.get('note', ''))
         shots.append(d)
     return shots

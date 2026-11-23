@@ -27,7 +27,7 @@ export const IslamicPattern: React.FC<{opacity?: number; reveal?: number}> = ({o
         WebkitMaskImage: `radial-gradient(circle at 50% 45%, black ${rad * 0.6}%, transparent ${rad}%)`,
       }}
     >
-      <svg width="100%" height="100%" viewBox="0 0 1080 1920" style={{transform: `rotate(${rot}deg) scale(1.5)`}}>
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{transform: `rotate(${rot}deg) scale(1.5)`}}>
         <defs>
           <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0" stopColor="#fff1c9" />
@@ -46,7 +46,7 @@ export const IslamicPattern: React.FC<{opacity?: number; reveal?: number}> = ({o
             </g>
           </pattern>
         </defs>
-        <rect x={-1080} y={-1920} width={3240} height={5760} fill="url(#lattice)" />
+        <rect x={-1920} y={-1080} width={5760} height={3240} fill="url(#lattice)" />
       </svg>
     </AbsoluteFill>
   );

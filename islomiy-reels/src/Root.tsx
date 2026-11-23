@@ -8,8 +8,8 @@ export const RemotionRoot: React.FC = () => {
     <Composition
       id="IslamicReel"
       component={IslamicReel}
-      width={1080}
-      height={1920}
+      width={1920}
+      height={1080}
       fps={timeline.fps}
       durationInFrames={Math.round(timeline.duration * timeline.fps)}
       defaultProps={reelSchemaDefaults}

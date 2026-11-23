@@ -1,4 +1,4 @@
-"""Asset preparation: cut, reframe to 9:16, unify colour grade and conform to 30 fps.
+"""Asset preparation: cut, reframe to 16:9, unify colour grade and conform to 30 fps.
 
 usage: python3 prep_assets.py <storyboard.json> <raw_dir> <public_dir>
 raw_dir must contain  mixkit/<id>.mp4, wm/<key>.webm|jpg|png
@@ -11,7 +11,7 @@ sb_path, RAW, PUB = sys.argv[1:4]
 sb = json.load(open(sb_path))
 FPS = sb['fps']
 TAIL = 0.7          # extra seconds so the next shot can dissolve over this one
-W, H = 1080, 1920
+W, H = 1920, 1080
 os.makedirs(f'{PUB}/shots', exist_ok=True)
 os.makedirs(f'{PUB}/images', exist_ok=True)
 
@@ -60,7 +60,7 @@ def probe(p):
 
 def prep_video(shot, src, at):
     out = f"{PUB}/shots/{shot['id']}.mp4"
-    sig = json.dumps([src, at, shot['start'], shot['end'], shot['cx'], shot['sp'], GRADE])
+    sig = json.dumps([src, at, shot['start'], shot['end'], shot['cx'], shot.get('cy', 0.45), shot['sp'], GRADE, W, H])
     sigf = f"{PUB}/shots/.{shot['id']}.sig"
     if os.path.exists(out) and os.path.exists(sigf) and open(sigf).read() == sig:
         return out + ' (cached)'
@@ -75,12 +75,16 @@ def prep_video(shot, src, at):
         at = 0.0
         sp = max(0.4, (L - 0.15) / need)
     hold = max(0.0, need - (L - at - 0.1) / sp)
-    if w >= h:
+    if w / h >= W / H - 0.01:
+        # landscape source -> 16:9 frame (crop sides only if wider than 16:9)
         sw = int(round(w * H / h / 2) * 2)
         x = int((sw - W) * shot['cx'])
         geo = f"scale={sw}:{H}:flags=lanczos,crop={W}:{H}:{x}:0"
     else:
-        geo = f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}"
+        # portrait source -> fill width, choose vertical window with 'cy'
+        sh = int(round(h * W / w / 2) * 2)
+        y = int((sh - H) * shot.get('cy', 0.45))
+        geo = f"scale={W}:{sh}:flags=lanczos,crop={W}:{H}:0:{y}"
     vf = f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo},unsharp=5:5:0.45,{GRADE}"
     if hold > 0:
         vf += f",tpad=stop_mode=clone:stop_duration={hold + 0.1:.2f}"
