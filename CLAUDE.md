@@ -237,3 +237,19 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Laying_Idle` (inplace=False): Hips 1.08, bosh +Y da 0.55; operatsiya stoli 0.88 da root z = -0.1.
 - Shaffof (transmission ≥ 0.7) yupqa shox parda qora fonda ko'rinmay qoladi: 0.4 + emissiya.
 - 40% (432x768), 8 sample: xona/rentgen/kesim ~10 s/kadr (1056 kadr ≈ 3 soat).
+
+- Keskin turish (ortostatik gipotenziya) misoli: `zack_test/tools/get_turish.sh`, sahna `zack_test/turish/turish.py` (ertalabki yotoqxona,
+  rentgen tana + **Megan skeletiga Armature bilan bog'langan arteriyalar** (`vessel()`: suyak fazosidagi nuqtalar `bone.matrix_local @ off*100`,
+  har vertex eng yaqin suyakka), "s" atributi = yurakdan masofa; shader `vessel_mat`: `phase` (har yurak urishida +1), `lvl`/`drain`
+  (dunyo Z bo'yicha qon "to'kilishi"), `low`/`lowz` (oyoq/qoringa yig'ilish); makro qon tomiri kesimi + bikonkav qon tanachalari).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh..." -> keskin turishda bosh aylanishi): har doim Whisper bilan tekshir.
+- `Sit_To_Stand`: o'tirishda Hips 0.56 m, ko'tarilish asl 24fps-kadr ~15–40; `inplace=False` ishlat (aks holda son karavot ichida qoladi).
+  Boshini kesish uchun `add_strip(src=(start+offset, end))`, oxirgi pozani ushlash: 1 kadrli bo'lakni katta `scale` bilan cho'z (`turish.py: seg`).
+- `Laying_Idle` (yotgan, bosh +Y): Hips 1.08; `Dying_10`: tizzaga ~25–37, yuz bilan yerga ~55-kadr (24fps); `Injured_Stumble_Idle` gandiraklash.
+- Armatura fazosi Mixamo'da sm (obj scale 0.01): armaturaga bog'langan mesh'ni `parent = arm`, `matrix_parent_inverse = Identity`, koordinatalarni sm da ber.
+- `mat(..., emit=0)` Emission Color ni o'rnatmaydi (oq qoladi): keyin emission kuchini kalitlasang ob'ekt oq bo'lib chiqadi — rangni alohida ber.
+- Poly Haven `alarm_clock_01`: oyna materiali (`*_Glass`) alpha teksturasi bilan ciferblatni qoraytiradi: alpha linkini uzib 0.06 qo'y;
+  ciferblat model yo'nalishida 180° teskari (import burilishi 160° atrofida kameraga qaraydi).
+- POV "ko'z oldi qorong'ilashuvi"ni kamera oldidagi tekislik bilan qilma (DOF uni yuvib yuboradi): montajda ffmpeg
+  `vignette=angle='...':eval=frame` + `eq=brightness=...:eval=frame` + `boxblur` (`turish/montaj.sh`).
+- 40% (432x768), 8 sample: yotoqxona/rentgen/makro tomir ~8 s/kadr (821 kadr ≈ 1.8 soat).
