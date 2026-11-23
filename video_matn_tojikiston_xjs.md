@@ -18,6 +18,8 @@ Bu oddiy diplomatik qaror emas. Uning ortida Rossiya prezidentiga chiqarilgan hi
 
 Avval qisqacha: Xalqaro jinoyat sudi nima? U Niderlandiyaning Gaaga shahrida joylashgan. Sud genotsid, urush jinoyatlari va insoniyatga qarshi jinoyatlarda ayblangan shaxslarni sudlaydi. Uning asosi — 1998-yilda qabul qilingan Rim statuti. Bugun unga 120 dan ortiq davlat a’zo.
 
+Bu suddan oldin ham bunday jinoyatlar uchun maxsus tribunallar tuzilgan edi. Masalan, sobiq Yugoslaviya va Ruanda bo‘yicha tribunallar. Ammo ular vaqtinchalik edi. Xalqaro jinoyat sudi esa tarixdagi birinchi doimiy xalqaro jinoiy sud bo‘ldi.
+
 Muhim jihati shundaki, sudning o‘z politsiyasi yo‘q. U ayblanuvchini hibsga olish uchun a’zo davlatlarga tayanadi. Bu a’zo davlat order chiqarilgan shaxs o‘z hududiga kelsa, uni hibsga olishi shart, degani.
 
 Tojikiston Rim statutini 1998-yil 30-noyabrda imzolagan va 2000-yil 5-mayda ratifikatsiya qilgan edi.
@@ -49,6 +51,8 @@ Uchinchidan, global tendensiya. Tojikiston yolg‘iz emas. So‘nggi ikki yilda 
 Xo‘sh, endi nima bo‘ladi?
 
 Avvalo, Tojikiston yana bir yil sud a’zosi bo‘lib qoladi. Bu davrda statut bo‘yicha barcha majburiyatlar o‘z kuchida. Bundan tashqari, chiqish davlatni a’zolik davrida boshlangan ishlar bo‘yicha majburiyatlardan avtomatik ravishda ozod qilmaydi.
+
+Amalda bu nimani anglatadi? 2027-yil noyabridan keyin Tojikiston sud orderlarini ijro etish majburiyatidan qonuniy ravishda ozod bo‘ladi. Ya’ni xalqaro qidiruvdagi har qanday davlat rahbari yoki rasmiy Dushanbega sud orderi bo‘yicha hibsga olinish xavfisiz tashrif buyura oladi. Ayni paytda Tojikiston hududida sodir etilishi mumkin bo‘lgan og‘ir jinoyatlar bo‘yicha xalqaro sudga murojaat qilish imkoniyati ham yo‘qoladi. Huquq himoyachilari aynan shu jihatdan xavotirda: sud ko‘pincha o‘z mamlakatida adolat topa olmagan oddiy odamlar uchun so‘nggi umid bo‘lib kelgan.
 
 Xalqaro reaksiya ham boshlandi. Xabarlarga ko‘ra, Rim statuti a’zo davlatlari assambleyasi byurosi xavotir bildirib, Dushanbeni qarorni qayta ko‘rib chiqishga chaqirdi. Yevropa Ittifoqi ham qarorni qoraladi.
 
