@@ -1,3 +1,4 @@
 # Ovoz modellari ochiq repozitoriyga qo'yilmaydi
 *.pth
 *.index
+deliverables/*.mp4
