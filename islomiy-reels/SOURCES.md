@@ -50,7 +50,7 @@ Litsenziya: https://mixkit.co/license/#videoFree
 | many stars in the night sky | https://mixkit.co/free-stock-video/many-stars-in-the-night-sky-4124/ | 3:36.80 |
 | tour high above a city at dusk | https://mixkit.co/free-stock-video/tour-high-above-a-city-at-dusk-41375/ | 6:37.40, 8:12.10 |
 | milky way seen at night | https://mixkit.co/free-stock-video/milky-way-seen-at-night-4148/ | 1:31.20, 5:42.00, 7:57.30 |
-| dunes in the sahara desert | https://mixkit.co/free-stock-video/dunes-in-the-sahara-desert-4149/ | 0:02.55, 4:59.60, 8:08.40 |
+| dunes in the sahara desert | https://mixkit.co/free-stock-video/dunes-in-the-sahara-desert-4149/ | 0:02.55 |
 | the moon and the stars at sea | https://mixkit.co/free-stock-video/the-moon-and-the-stars-at-sea-4166/ | 7:55.00 |
 | luxury hotel room panning shot | https://mixkit.co/free-stock-video/luxury-hotel-room-panning-shot-4196/ | 3:23.20, 6:48.10 |
 | movement in a city at night in an aerial shot | https://mixkit.co/free-stock-video/movement-in-a-city-at-night-in-an-aerial-shot-42343/ | 4:14.00, 6:45.50 |
@@ -68,16 +68,17 @@ Litsenziya: https://mixkit.co/license/#videoFree
 | two cars followed each other on the road at sunset | https://mixkit.co/free-stock-video/two-cars-followed-each-other-on-the-road-at-sunset-50134/ | 6:21.00, 6:50.60 |
 | vast and flat desert in a view from above | https://mixkit.co/free-stock-video/vast-and-flat-desert-in-a-view-from-above-51793/ | 5:14.60 |
 | huge arid plateau in a view from above | https://mixkit.co/free-stock-video/huge-arid-plateau-in-a-view-from-above-51795/ | 5:20.40 |
-| flying over an arid land with the sun shining over | https://mixkit.co/free-stock-video/flying-over-an-arid-land-with-the-sun-shining-over-52009/ | 0:04.45 |
+| flying over an arid land with the sun shining over | https://mixkit.co/free-stock-video/flying-over-an-arid-land-with-the-sun-shining-over-52009/ | 0:04.45, 8:08.40 |
+| flying over a landscape of sun soaked desert land with | https://mixkit.co/free-stock-video/flying-over-a-landscape-of-sun-soaked-desert-land-with-52012/ | 4:59.60 |
 
 ## 2. Video — Wikimedia Commons
 
 | Fayl | Muallif | Litsenziya | Videoda |
 |---|---|---|---|
-| [Time of Adhan, Great Mosque of Mecca - Jan 6, 2018 .webm](https://commons.wikimedia.org/wiki/File:Time_of_Adhan,_Great_Mosque_of_Mecca_-_Jan_6,_2018_.webm) | M SOHAIL Ahmad | CC BY 3.0 | 2:18.40, 8:32.90 |
+| [Time of Adhan, Great Mosque of Mecca - Jan 6, 2018 .webm](https://commons.wikimedia.org/wiki/File:Time_of_Adhan,_Great_Mosque_of_Mecca_-_Jan_6,_2018_.webm) | M SOHAIL Ahmad | CC BY 3.0 | 2:18.40 |
 | [Time lapse of Masjid al-Ḥarām (kaaba) & hajj rites.webm](https://commons.wikimedia.org/wiki/File:Time_lapse_of_Masjid_al-%E1%B8%A4ar%C4%81m_(kaaba)_%26_hajj_rites.webm) | Masajida Allah | CC BY 3.0 | 2:58.60, 7:06.50 |
 | [Kaaba at Night (video) - Sep 28, 2016.webm](https://commons.wikimedia.org/wiki/File:Kaaba_at_Night_(video)_-_Sep_28,_2016.webm) | Hamza Khan | CC BY 3.0 | 4:28.40, 8:28.80 |
-| [Makkah Al-Mukarramah -Kaaba- Ramadan 2016.webm](https://commons.wikimedia.org/wiki/File:Makkah_Al-Mukarramah_-Kaaba-_Ramadan_2016.webm) | World of Travel | CC BY 3.0 | 2:49.30, 6:55.90, 7:01.00 |
+| [Makkah Al-Mukarramah -Kaaba- Ramadan 2016.webm](https://commons.wikimedia.org/wiki/File:Makkah_Al-Mukarramah_-Kaaba-_Ramadan_2016.webm) | World of Travel | CC BY 3.0 | 2:49.30, 6:55.90, 7:01.00, 8:32.90 |
 | [Mihrimah Sultan Camii │Üsküdar - İstanbul.webm](https://commons.wikimedia.org/wiki/File:Mihrimah_Sultan_Camii_%E2%94%82%C3%9Csk%C3%BCdar_-_%C4%B0stanbul.webm) | Gezen Adam | CC BY 3.0 | 2:14.00, 4:22.90 |
 | [VIDEO - Wadi Rum.webm](https://commons.wikimedia.org/wiki/File:VIDEO_-_Wadi_Rum.webm) | Jorge Láscar | CC BY 2.0 | 0:40.30, 7:31.00 |
 | [Wadi Rum,video 2014.webm](https://commons.wikimedia.org/wiki/File:Wadi_Rum,video_2014.webm) | jlascar | CC BY 2.0 | 3:32.40 |

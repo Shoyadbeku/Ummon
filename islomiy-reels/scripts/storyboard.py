@@ -108,7 +108,7 @@ S = [
  # ---------------- YERGA YUTILISH ----------------
  dict(t=294.30, src='mk:4060', at=10.0, cx=.5, mv='pushIn', tr='dip', fx=['lightning'], note='eng muhim voqea'),
  dict(t=297.00, src='img:ms8', mv='pushIn', tr='flash', fx=['glow'], badge=('سورة القصص ٨١', 'Qasas surasi, 81'), note='81-oyat'),
- dict(t=299.60, src='mk:4149', at=5.0, cx=.4, mv='sink', tr='cut', fx=['cracks', 'shake', 'dust'], note='yerga yuttirdi'),
+ dict(t=299.60, src='mk:52012', at=5.0, cx=.4, mv='sink', tr='cut', fx=['cracks', 'shake', 'dust'], note='yerga yuttirdi'),
  dict(t=304.00, src='mk:2093', at=6.0, cx=.5, mv='sink', tr='cut', fx=['cracks', 'dust'], note='himoya qiladigan jamoa'),
  dict(t=307.60, src='mk:4423', at=6.0, cx=.4, mv='drift', tr='dissolve', fx=['lightning'], note="o'zini qutqara olmadi"),
  dict(t=311.60, src='img:ms3', mv='panR', tr='dip', fx=['glow'], note='aniq bayon'),
@@ -160,13 +160,13 @@ S = [
  dict(t=477.30, src='mk:4148', at=12.0, cx=.5, mv='rise', tr='dip', fx=['pattern'], note='Xulosa'),
  dict(t=481.50, src='mk:4312', at=3.0, cx=.5, mv='pushIn', tr='dissolve', fx=['glow'], note="mas'uliyat"),
  dict(t=485.60, src='mk:2862', at=8.0, cx=.5, mv='pushIn', tr='dissolve', fx=['gold'], note='ulkan xazinalari'),
- dict(t=488.40, src='mk:4149', at=8.0, cx=.55, mv='sink', tr='cut', fx=['cracks', 'shake', 'dust'], note='azobdan saqlay olmadi'),
+ dict(t=488.40, src='mk:52009', at=10.0, cx=.55, mv='sink', tr='cut', fx=['cracks', 'shake', 'dust'], note='azobdan saqlay olmadi'),
  dict(t=492.10, src='mk:41375', at=8.0, cx=.5, mv='panL', tr='dip', note="o'zini ustun bilgan"),
  dict(t=496.40, src='mk:2093', at=3.0, cx=.5, mv='sink', tr='dissolve', fx=['cracks'], note='ziyon va halokat'),
  dict(t=500.80, src='mk:18263', at=3.0, cx=.5, mv='pushIn', tr='dip', note="qo'lidagi ne'mat"),
  dict(t=505.00, src='mk:1944', at=40.0, cx=.5, mv='rise', tr='dissolve', fx=['rays'], note='qalbini egallab'),
  dict(t=508.80, src='wm:kaaba_night', at=36.0, cx=.5, mv='pushIn', tr='dissolve', fx=['glow'], note='katta yo\'qotish'),
- dict(t=512.90, src='wm:adhan_vertical', at=20.0, cy=.4, cx=.5, mv='pullOut', tr='flash', fx=['pattern', 'rays'], note='asosiy saboqlar'),
+ dict(t=512.90, src='wm:kaaba_ramadan', at=77.0, cx=.5, mv='pullOut', tr='flash', fx=['pattern', 'rays'], note='asosiy saboqlar'),
 ]
 
 # Fallbacks if a Wikimedia download is not available (Wikimedia rate-limits shared IPs)

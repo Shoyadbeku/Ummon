@@ -30,6 +30,18 @@ export const VerseBadge: React.FC<{ar: string; uz: string; dur: number}> = ({ar,
         filter: 'drop-shadow(0 4px 18px rgba(0,0,0,0.85))',
       }}
     >
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          padding: '18px 64px 22px',
+          borderRadius: 14,
+          background: 'radial-gradient(ellipse at 50% 50%, rgba(8,6,3,0.82) 0%, rgba(8,6,3,0.68) 60%, rgba(8,6,3,0.0) 100%)',
+          border: '1px solid rgba(230,184,92,0.35)',
+          backdropFilter: 'blur(6px)',
+        }}
+      >
       <div style={{display: 'flex', alignItems: 'center', gap: 18}}>
         <div style={{width: line, height: 2, background: 'linear-gradient(90deg, transparent, #e6b85c)'}} />
         <StarOrnament size={34} />
@@ -37,6 +49,7 @@ export const VerseBadge: React.FC<{ar: string; uz: string; dur: number}> = ({ar,
       </div>
       <div style={{fontFamily: amiri, fontSize: 56, color: '#f6dfa4', direction: 'rtl', marginTop: 8, lineHeight: 1.25}}>{ar}</div>
       <div style={{fontFamily: cormorant, fontSize: 30, letterSpacing: 6, color: '#e9d7b0', textTransform: 'uppercase', marginTop: 2}}>{uz}</div>
+      </div>
     </div>
   );
 };

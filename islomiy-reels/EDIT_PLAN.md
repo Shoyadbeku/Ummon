@@ -1,6 +1,6 @@
 # Montaj rejasi / Edit decision list
 
-Davomiylik: 8:40.15 · 137 ta sahna · 1080×1920 · 30 fps
+Davomiylik: 8:40.15 · 137 ta sahna · 1920×1080 · 30 fps
 
 | # | Vaqt | Ovozda (qisqacha) | Kadr | Kamera | O‘tish | Effektlar |
 |---|---|---|---|---|---|---|
@@ -86,7 +86,7 @@ Davomiylik: 8:40.15 · 137 ta sahna · 1080×1920 · 30 fps
 | 80 | 4:49.60–4:54.30 | sinovga aylangani | `mk:28890` | pushIn | dissolve |  |
 | 81 | 4:54.30–4:57.00 | eng muhim voqea | `mk:4060` | pushIn | dip | lightning |
 | 82 | 4:57.00–4:59.60 | 81-oyat | `img:ms8` | pushIn | flash | glow · Qasas surasi, 81 |
-| 83 | 4:59.60–5:04.00 | yerga yuttirdi | `mk:4149` | sink | cut | cracks, shake, dust |
+| 83 | 4:59.60–5:04.00 | yerga yuttirdi | `mk:52012` | sink | cut | cracks, shake, dust |
 | 84 | 5:04.00–5:07.60 | himoya qiladigan jamoa | `mk:2093` | sink | cut | cracks, dust |
 | 85 | 5:07.60–5:11.60 | o'zini qutqara olmadi | `mk:4423` | drift | dissolve | lightning |
 | 86 | 5:11.60–5:14.60 | aniq bayon | `img:ms3` | panR | dip | glow |
@@ -134,10 +134,10 @@ Davomiylik: 8:40.15 · 137 ta sahna · 1080×1920 · 30 fps
 | 128 | 7:57.30–8:01.50 | Xulosa | `mk:4148` | rise | dip | pattern |
 | 129 | 8:01.50–8:05.60 | mas'uliyat | `mk:4312` | pushIn | dissolve | glow |
 | 130 | 8:05.60–8:08.40 | ulkan xazinalari | `mk:2862` | pushIn | dissolve | gold |
-| 131 | 8:08.40–8:12.10 | azobdan saqlay olmadi | `mk:4149` | sink | cut | cracks, shake, dust |
+| 131 | 8:08.40–8:12.10 | azobdan saqlay olmadi | `mk:52009` | sink | cut | cracks, shake, dust |
 | 132 | 8:12.10–8:16.40 | o'zini ustun bilgan | `mk:41375` | panL | dip |  |
 | 133 | 8:16.40–8:20.80 | ziyon va halokat | `mk:2093` | sink | dissolve | cracks |
 | 134 | 8:20.80–8:25.00 | qo'lidagi ne'mat | `mk:18263` | pushIn | dip |  |
 | 135 | 8:25.00–8:28.80 | qalbini egallab | `mk:1944` | rise | dissolve | rays |
 | 136 | 8:28.80–8:32.90 | katta yo'qotish | `wm:kaaba_night` | pushIn | dissolve | glow |
-| 137 | 8:32.90–8:40.15 | asosiy saboqlar | `wm:adhan_vertical` | pullOut | flash | pattern, rays |
+| 137 | 8:32.90–8:40.15 | asosiy saboqlar | `wm:kaaba_ramadan` | pullOut | flash | pattern, rays |
