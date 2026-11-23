@@ -47,6 +47,7 @@ python3 -m venv /tmp/claude-0/bvenv && /tmp/claude-0/bvenv/bin/pip install -q bp
 zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + harakatlar, HF to'plami
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ko'zdagi qizil dog' misoli: zack_test/tools/get_koz_qon.sh, sahna zack_test/koz_qon/koz_qon.py: makro ko'z + qon dog'i, tomir kesimi, rentgen, manometr)
+# (Quyoshga tikilish misoli: zack_test/tools/get_quyosh.sh, sahna zack_test/quyosh/quyosh.py: lupa+qog'oz kuyishi, ko'z kesimi, Quyosh, to'r parda hujayralari, POV qora dog')
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
@@ -113,3 +114,15 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   (`koz_qon.py: pose_layer`). Suyak mahalliy +X atrofida musbat burchak = oldinga egilish; 60° dan oshsa kamera faqat sochni ko'radi.
 - Shaffof tomir devori: Transmission ichidagi narsalarni kulrang qiladi; Transparent + Principled ni Layer Weight (Facing) bilan aralashtir.
 - 540x960, 10 sample, makro ko'z kadrlari (kipriklar + DOF): ~20 s/kadr.
+- To'rtinchi marta: "Quyosh qancha jarang" nomli boshqa wav (41.7 s) Quyoshga tikilish/to'r parda kuyishi haqida chiqdi. Har doim Whisper.
+- Bitta `bmesh` ga minglab `create_cone`/`create_uvsphere` qo'shish juda sekin (10+ daqiqa): bitta prototip yasab,
+  vertex/face'larni ro'yxatga yig'ib `me.from_pydata` qil (`quyosh.py: proto`), 3000 hujayra ~4 s.
+- Sahnani qurish sekin bo'lsa: `TRACE=60` (faulthandler) qaysi qatorda turganini ko'rsatadi; py-spy bpy bilan ishlamaydi.
+- `vis()` bir ob'ektga ikki marta chaqirilsa (avval ota-ona recursive, keyin bola), eski kalitlar qoladi: kalitlarni har doim barcha
+  kadr chegaralarida qo'y (`quyosh.py: vis`), keyingi chaqiruv to'liq bosib yozadi.
+- Emission 20+ kuchli rangli nurlar AgX'da oq bo'lib ketadi: binafsha uchun (0.35, 0.08, 1.0) va kuch 4–6.
+- Mixamo boshi tepaga qaraganda (Head/Neck -X) `Head` suyagining Y o'qi oldinga og'adi: ko'zoynak (0, 0.1, 0.142), yon tomondan
+  emas, old-yon tomondan suratga ol (yon tomondan linza ko'rinmaydi).
+- POV "qora dog'": kameraga 0.02 m da yopishgan tekislik, o'lchami 0.02*6.75/lens; o'sha kamerada DOF o'chiq bo'lsin, aks holda dog' yo'qoladi.
+- Lupa/qog'oz kadrlarida Quyosh lampasini tik tepaga bur va nuqtadagi point light'ni 0.3 W dan oshirma, aks holda kadr oqarib ketadi.
+- 540x960, 10 sample, bu loyiha: ~18 s/kadr (1001 kadr ~5 soat).
