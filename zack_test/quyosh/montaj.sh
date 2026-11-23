@@ -8,9 +8,9 @@ FR=${1:-/tmp/claude-0/frames}; VO=${2:-/tmp/claude-0/work/ovoz.wav}; OUT=${3:-za
 SFX=${4:-/tmp/claude-0/audio/sfx_quyosh.wav}
 [ -f "$SFX" ] || /tmp/claude-0/wvenv/bin/python -I "$(dirname "$0")/sfx.py" "$SFX"
 ffmpeg -y -v error -framerate 24 -i "$FR/%04d.png" -i "$VO" -i "$SFX" -frames:v 1001 \
-  -filter_complex "[0:v]scale=1080:1920:flags=lanczos,split[base][hi];
-      [hi]lutyuv=y='max(0,(val-190)*4)':u=128:v=128,gblur=sigma=28[glow];
-      [base][glow]blend=all_mode=screen:all_opacity=0.55,
+  -filter_complex "[0:v]scale=1080:1920:flags=lanczos,format=gbrp,split[base][hi];
+      [hi]lutrgb=r='max(0,(val-190)*4)':g='max(0,(val-190)*4)':b='max(0,(val-190)*4)',gblur=sigma=28[glow];
+      [base][glow]blend=all_mode=screen:all_opacity=0.55,format=yuv420p,
       lutyuv=y='min(255,val*1.8+80)':enable='between(t,5.41,5.50)+between(t,16.20,16.29)+between(t,25.45,25.54)+between(t,33.53,33.62)',
       vignette=PI/5,noise=alls=5:allf=t,
       fade=t=out:st=41.3:d=0.4,format=yuv420p[v];

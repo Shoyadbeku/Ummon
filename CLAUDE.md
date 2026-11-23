@@ -126,3 +126,5 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - POV "qora dog'": kameraga 0.02 m da yopishgan tekislik, o'lchami 0.02*6.75/lens; o'sha kamerada DOF o'chiq bo'lsin, aks holda dog' yo'qoladi.
 - Lupa/qog'oz kadrlarida Quyosh lampasini tik tepaga bur va nuqtadagi point light'ni 0.3 W dan oshirma, aks holda kadr oqarib ketadi.
 - 540x960, 10 sample, bu loyiha: ~18 s/kadr (1001 kadr ~5 soat).
+- ffmpeg bloom: `blend=all_mode=screen` ni YUV da qilma (U/V kanallar ham "screen" bo'lib, butun video binafsha bo'ladi):
+  avval `format=gbrp`, yorqin qismni `lutrgb` bilan ajrat, blenddan keyin `format=yuv420p` (`quyosh/montaj.sh`).
