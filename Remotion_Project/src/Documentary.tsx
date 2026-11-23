@@ -1,7 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, interpolate, staticFile} from 'remotion';
 import {Grade, Grain} from './components/Primitives';
-import {Subtitles} from './components/Subtitles';
 import {SCENES, SceneTrack} from './data/scenes';
 import {TRANSCRIPT} from './data/transcript';
 import {C, FPS, s} from './theme';
@@ -22,7 +21,7 @@ export const Documentary: React.FC = () => {
 			<SceneTrack />
 			<Grade />
 			<Grain />
-			<Subtitles />
+			{/* Burned-in subtitles removed by request; use Deliverables/Subtitles.srt on YouTube if needed */}
 
 			{/* Original voice — cleaned and normalized, never altered in content or timing */}
 			<Audio src={staticFile('audio/voice.wav')} volume={1} />
