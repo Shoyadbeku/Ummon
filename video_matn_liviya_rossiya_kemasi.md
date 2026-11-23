@@ -10,7 +10,7 @@
 
 ## VIDEO SSENARIYSI
 
-Ukrainadagi front chizig‘idan taxminan 2400 kilometr uzoqda. Afrika qirg‘og‘i, Liviya. Tunda portda kuchli portlashlar eshitiladi va harbiy-dengiz bazasida olov ko‘tariladi.
+Ukrainadagi front chizig‘idan taxminan 2400 kilometr uzoqda. Afrika qirg‘og‘i, Liviya. Yakshanba kuni portda kuchli portlashlar eshitiladi va harbiy-dengiz bazasida olov ko‘tariladi.
 
 Nishon — Rossiya harbiy-dengiz flotining eng yangi kemalaridan biri, «Merkuriy» korveti.
 
