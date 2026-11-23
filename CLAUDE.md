@@ -133,3 +133,5 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   Principled Volume qorong'i chiqsa `Absorption Color` ni ochroq qil va ozgina Emission ber.
 - Mixamo `Smoking`: qo'l iyak yonida turadi, barmoqdagi sigaret kadrda ko'rinmaydi: sigaretni `Head` bo'g'imiga (lablar orasiga) yopishtir.
 - `WL` (osmon) jadvalida har bir kadr turi bo'lsin: yo'q bo'lsa oldingi kadr sozlamasi qoladi (rentgenda osmon ko'rinib qoldi).
+- Bulut muhitida turnni tugatib uzoq kutish (ScheduleWakeup) paytida konteyner uxlab qoladi va fondagi render o'ladi (`nohup setsid` ham yordam bermaydi).
+  Render tugaguncha turn ichida qol: 9–10 daqiqalik `while pgrep ...; sleep` sikllari bilan kuzat. To'xtasa, 0 baytli placeholder'ni o'chirib `RANGE=` bilan davom ettir.
