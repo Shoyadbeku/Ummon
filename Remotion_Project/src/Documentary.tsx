@@ -76,7 +76,7 @@ const Grain: React.FC = () => {
   );
 };
 
-export const Documentary: React.FC<{ showSubtitles?: boolean }> = ({ showSubtitles = false }) => {
+export const Documentary: React.FC<{ showSubtitles?: boolean }> = ({ showSubtitles = true }) => {
   const shots = timeline.shots as unknown as Shot[];
   const scenes = timeline.scenes as any[];
   return (
@@ -92,7 +92,7 @@ export const Documentary: React.FC<{ showSubtitles?: boolean }> = ({ showSubtitl
           <SceneOverlay scene={sc} />
         </Sequence>
       ))}
-      {/* Burned-in subtitles are off by default; upload Subtitles.srt to YouTube as captions instead */}
+      {/* Burned-in subtitles (set showSubtitles=false to render a clean version) */}
       {showSubtitles ? <Subtitles subs={timeline.subs as any[]} scenes={scenes} /> : null}
       <Audio src={staticFile("soundtrack.wav")} />
     </AbsoluteFill>
