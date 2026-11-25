@@ -105,3 +105,12 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - Makro (1–10 sm) kadrlarda f/4–11 da fokus juda yupqa: f/22 qo'y, lens ≤ 50 mm.
 - Og'ir GN/Solidify modifikatorlarini `show_viewport=False` qil: skriptdagi `frame_set` sikllari 6 daqiqadan bir necha soniyaga tushadi.
 - Ovoz fayl nomi yana mos kelmadi ("Neytron yulduzi..." -> barmoqlar burishishi): har doim Whisper bilan tekshir.
+- Ovoz fayl nomi uchinchi marta mos kelmadi ("Koinotdagi ovoz: Quyosh..." -> gazli ichimlikning tanaga ta'siri, `zack_test/gazli/`).
+- `scene3.py`dagi `box()` `transform_apply(scale=True)` qiladi, lekin `location`/`rotation` ham sukut bo'yicha True: joylashuv mesh ichiga
+  qo'llanadi. Keyin keyframe bilan suriladigan ob'ektni (0,0,0) da yarat, aks holda u ikki baravar uzoqqa ketadi.
+- `origin_set(ORIGIN_CURSOR)` uchun 3D kursorni siljitsang, keyin `sc.cursor.location = (0,0,0)` qil: `eye.py`dagi
+  `primitive_uv_sphere_add` joylashuvsiz chaqiriladi va ko'z olmasi kursor joyida (boshqa sahnada) yaratiladi.
+- Mixamo `Drinking` (erkak, stakan) — banka chap qo'lda, lekin og'izdan ~15 sm chetda: og'izga yaqinlashganda bankani lablarga tortib,
+  qiyshaytirish kerak (`gazli.py: can_in_hand`). Stoldan narsa olish uchun `Picking_Up` (qo'l ~45 sm oldinga, 0.35–0.47 m gacha tushadi);
+  `Picking_Up_Object` esa qo'lni yelka balandligiga ko'taradi.
+- Render tezligi (4 yadro, 540x960, 10 sample): xona ~19 s, rentgen ~8 s, qon tomiri (SSS eritrotsitlar) ~37 s/kadr.

@@ -552,7 +552,7 @@ for i in range(140):
 cubes_in = []
 CUBE_P = [Vector((0.0, 0.6, 0.2)), Vector((-0.9, 1.8, 0.9)), Vector((1.0, 2.4, -0.4)), Vector((-0.6, 3.2, -1.0))]
 for i, p in enumerate(CUBE_P):
-    c = sugar_cube("cube_in", 0.6, tuple(IS + p))
+    c = sugar_cube("cube_in", 0.6, (0, 0, 0))      # box() joylashuvni mesh ichiga qo'llaydi: (0,0,0) da yaratib, keyin suramiz
     key(c, f0 - 1, loc=tuple(IS + p + Vector((0, 0, 0.4))), rot=(10 + i * 20, 15, i * 30))
     key(c, f1 + 1, loc=tuple(IS + p + Vector((0, 0, -0.5))), rot=(40 + i * 20, 55, i * 30 + 40))
     interp(c)
