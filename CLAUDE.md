@@ -237,3 +237,26 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - `Laying_Idle` (inplace=False): Hips 1.08, bosh +Y da 0.55; operatsiya stoli 0.88 da root z = -0.1.
 - Shaffof (transmission ≥ 0.7) yupqa shox parda qora fonda ko'rinmay qoladi: 0.4 + emissiya.
 - 40% (432x768), 8 sample: xona/rentgen/kesim ~10 s/kadr (1056 kadr ≈ 3 soat).
+
+- Nafasni ushlab turish misoli: `zack_test/tools/get_nafas.sh`, sahna `zack_test/nafas/nafas.py` (xona + noutbukda sekundomer (`frame_change_pre`),
+  rentgen ko'krak: o'pkalar/bronxlar/qovurg'alar/yurak/diafragma `Spine2` fazosida, miya ustunidagi CO2 sensori va signal halqalari;
+  qon tomiri ichi: eritrotsitlar, O2/CO2 molekulalari; basseyn suvi osti: hajmli suv, kaustika, pufakchalar).
+- Ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh..." studio_6 -> nafasni ushlab turish): har doim Whisper bilan tekshir.
+- Mixamo `Spine2` fazosi (dam holatida): X = qahramonning chapi, Y = tepa, Z = old; Spine2 ~1.32 m, ko'krak bo'shlig'i markazi
+  mahalliy (0, -0.04, 0.068), ko'krak oldi z ≈ 0.17. O'pka: yarim o'qlar (0.062, 0.13, 0.08), markaz (±0.062, 0, 0.068);
+  qovurg'alar o'pkadan kengroq bo'lsin (ax ≤ 0.155, az 0.112), aks holda o'pka ichida yo'qoladi.
+- Mesh o'lchovlari (shape key, orollar) ni `o.matrix_world` bilan qilsang, oxirgi `frame_set` dagi root joylashuvi ham qo'shiladi
+  (Megan basseynga ko'chirilgan kadrda 60 m siljigan, yonoq shishishi umuman ishlamadi): `mroot.matrix_world.inverted() @ o.matrix_world` ishlat.
+- Megan yonoq shishishi (`nafas.py: add_puff`): markazlar (±0.043, -0.13, 1.553), radius 0.032, siljish 0.013 m (dam holati, root'siz).
+- Yumilgan ko'z uchun ko'z soqqasi orolini nusxalash (yelim.py usuli) suv ostidagi tepa yorug'likda oq yoki qop-qora "bo'sh ko'z" bo'lib
+  chiqdi (qovoqlar soyasi) — yaqin planda ishlatma.
+- `Sitting_Disbelief` da ikki qo'l boshga ko'tarilib yuzni to'sadi: havo yutish uchun Spine/Neck/Head ga COMBINE burilish kalitlari yetarli
+  (`nafas.py: pose_action`, Spine2/Neck X manfiy = orqaga, Head X manfiy = tepaga qarash).
+- Suv osti: `ShaderNodeVolumePrincipled` (Color (0.02,0.22,0.38), Density 0.3, Absorption (0,0.28,0.5)), world to'q ko'k; Density 0.12 va
+  och rang hammasini sutdek oqartiradi. Kaustika: Voronoi 4D `DISTANCE_TO_EDGE` (W kalitlanadi), kuch ≤ 0.7, masshtab 4.5;
+  sirt pastdan: Noise 4D `^4` + kuchsiz Voronoi chegarasi (faqat Voronoi "muz yorig'i"ga o'xshaydi).
+- Pufakchalar ko'tarilish tezligi ≤ 0.005 + r·0.35 m/kadr: tezroq bo'lsa motion blur'da shisha tayoqchalarga aylanadi.
+- Tomir ichi: kamera "tashuvchi" (carrier) oqimdan sekinroq yuradi (0.05 va 0.065 m/kadr); kech paydo bo'ladigan molekulalarni
+  paydo bo'lish kadrida kamera oldiga (0.3–6 m) joylashtir, aks holda tekis taqsimlangan 300+ ob'ektdan kadrda bir nechtasi qoladi.
+  Ko'k emissiya ≥ 3 AgX'da oq bo'lib ketadi: O2 uchun base (0.02,0.2,1), emissiya 1.0.
+- 40% (432x768), 8 sample: xona/rentgen ~10 s, tomir ichi (~1000 ob'ekt) ~20 s, suv osti (hajm) ~15 s/kadr.
