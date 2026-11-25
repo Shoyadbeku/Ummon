@@ -1,0 +1,4553 @@
+[
+ {
+  "start": 0.0,
+  "end": 3.3,
+  "text": "Uzbekistanda maktab talimi 11 ildan 12 ilgi uzaytirilmogda.",
+  "words": [
+   [
+    0.0,
+    0.44,
+    " Uzbekistanda"
+   ],
+   [
+    0.44,
+    0.92,
+    " maktab"
+   ],
+   [
+    0.92,
+    1.26,
+    " talimi"
+   ],
+   [
+    1.26,
+    1.52,
+    " 11"
+   ],
+   [
+    1.52,
+    2.02,
+    " ildan"
+   ],
+   [
+    2.02,
+    2.36,
+    " 12"
+   ],
+   [
+    2.36,
+    2.66,
+    " ilgi"
+   ],
+   [
+    2.66,
+    3.3,
+    " uzaytirilmogda."
+   ]
+  ]
+ },
+ {
+  "start": 3.52,
+  "end": 6.46,
+  "text": "Parlament quyu palatasi bu xaqdagi qanunni qabul kildi.",
+  "words": [
+   [
+    3.52,
+    4.2,
+    " Parlament"
+   ],
+   [
+    4.2,
+    4.5,
+    " quyu"
+   ],
+   [
+    4.5,
+    4.96,
+    " palatasi"
+   ],
+   [
+    4.96,
+    5.1,
+    " bu"
+   ],
+   [
+    5.1,
+    5.46,
+    " xaqdagi"
+   ],
+   [
+    5.46,
+    5.94,
+    " qanunni"
+   ],
+   [
+    5.94,
+    6.18,
+    " qabul"
+   ],
+   [
+    6.18,
+    6.46,
+    " kildi."
+   ]
+  ]
+ },
+ {
+  "start": 6.52,
+  "end": 11.9,
+  "text": "Qabchilik buni eshtib, darxal, demek farzandim endi 12-nci sınıfkechi oqiydi, digan xulasigi keradi.",
+  "words": [
+   [
+    6.52,
+    7.08,
+    " Qabchilik"
+   ],
+   [
+    7.08,
+    7.32,
+    " buni"
+   ],
+   [
+    7.32,
+    7.66,
+    " eshtib,"
+   ],
+   [
+    7.68,
+    7.98,
+    " darxal,"
+   ],
+   [
+    8.06,
+    8.58,
+    " demek"
+   ],
+   [
+    8.58,
+    9.1,
+    " farzandim"
+   ],
+   [
+    9.1,
+    9.36,
+    " endi"
+   ],
+   [
+    9.36,
+    9.66,
+    " 12"
+   ],
+   [
+    9.66,
+    9.92,
+    "-nci"
+   ],
+   [
+    9.92,
+    10.26,
+    " sınıfkechi"
+   ],
+   [
+    10.26,
+    10.68,
+    " oqiydi,"
+   ],
+   [
+    10.82,
+    11.2,
+    " digan"
+   ],
+   [
+    11.2,
+    11.58,
+    " xulasigi"
+   ],
+   [
+    11.58,
+    11.9,
+    " keradi."
+   ]
+  ]
+ },
+ {
+  "start": 12.04,
+  "end": 13.74,
+  "text": "Lekin aslada xammasi boshqa cha.",
+  "words": [
+   [
+    12.04,
+    12.52,
+    " Lekin"
+   ],
+   [
+    12.52,
+    12.98,
+    " aslada"
+   ],
+   [
+    12.98,
+    13.38,
+    " xammasi"
+   ],
+   [
+    13.38,
+    13.64,
+    " boshqa"
+   ],
+   [
+    13.64,
+    13.74,
+    " cha."
+   ]
+  ]
+ },
+ {
+  "start": 14.16,
+  "end": 17.5,
+  "text": "Qoshiliyotgan yil maktab aqirdaymaz, uning boshida boladi.",
+  "words": [
+   [
+    14.16,
+    14.84,
+    " Qoshiliyotgan"
+   ],
+   [
+    14.84,
+    15.12,
+    " yil"
+   ],
+   [
+    15.12,
+    15.6,
+    " maktab"
+   ],
+   [
+    15.6,
+    16.2,
+    " aqirdaymaz,"
+   ],
+   [
+    16.36,
+    16.7,
+    " uning"
+   ],
+   [
+    16.7,
+    17.2,
+    " boshida"
+   ],
+   [
+    17.2,
+    17.5,
+    " boladi."
+   ]
+  ]
+ },
+ {
+  "start": 17.68,
+  "end": 22.36,
+  "text": "Bu ozgarish altiyashli xarbirbanagi, yani yuzminilab ailegi tegishli.",
+  "words": [
+   [
+    17.68,
+    18.28,
+    " Bu"
+   ],
+   [
+    18.28,
+    18.66,
+    " ozgarish"
+   ],
+   [
+    18.66,
+    19.2,
+    " altiyashli"
+   ],
+   [
+    19.2,
+    20.0,
+    " xarbirbanagi,"
+   ],
+   [
+    20.1,
+    20.52,
+    " yani"
+   ],
+   [
+    20.52,
+    21.54,
+    " yuzminilab"
+   ],
+   [
+    21.54,
+    21.98,
+    " ailegi"
+   ],
+   [
+    21.98,
+    22.36,
+    " tegishli."
+   ]
+  ]
+ },
+ {
+  "start": 22.52,
+  "end": 27.46,
+  "text": "Xosh, anix nimozgari yapti, kimgi qanday tasirqiladi, va xali nimalar namalom.",
+  "words": [
+   [
+    22.52,
+    23.2,
+    " Xosh,"
+   ],
+   [
+    23.26,
+    23.56,
+    " anix"
+   ],
+   [
+    23.56,
+    24.14,
+    " nimozgari"
+   ],
+   [
+    24.14,
+    24.42,
+    " yapti,"
+   ],
+   [
+    24.44,
+    24.88,
+    " kimgi"
+   ],
+   [
+    24.88,
+    25.22,
+    " qanday"
+   ],
+   [
+    25.22,
+    25.78,
+    " tasirqiladi,"
+   ],
+   [
+    25.82,
+    26.28,
+    " va"
+   ],
+   [
+    26.28,
+    26.64,
+    " xali"
+   ],
+   [
+    26.64,
+    27.1,
+    " nimalar"
+   ],
+   [
+    27.1,
+    27.46,
+    " namalom."
+   ]
+  ]
+ },
+ {
+  "start": 27.76,
+  "end": 29.5,
+  "text": "Xamasini tartib bilan korib chikamiz.",
+  "words": [
+   [
+    27.76,
+    28.44,
+    " Xamasini"
+   ],
+   [
+    28.44,
+    28.76,
+    " tartib"
+   ],
+   [
+    28.76,
+    28.9,
+    " bilan"
+   ],
+   [
+    28.9,
+    29.14,
+    " korib"
+   ],
+   [
+    29.14,
+    29.5,
+    " chikamiz."
+   ]
+  ]
+ },
+ {
+  "start": 30.0,
+  "end": 31.2,
+  "text": "Awal, asasi faktlar.",
+  "words": [
+   [
+    30.0,
+    30.34,
+    " Awal,"
+   ],
+   [
+    30.34,
+    30.68,
+    " asasi"
+   ],
+   [
+    30.68,
+    31.2,
+    " faktlar."
+   ]
+  ]
+ },
+ {
+  "start": 31.36,
+  "end": 36.0,
+  "text": "24-nci nayabrkunu Ali Majlis Qanunchilik Palatasi bu qanunni uqinchi,",
+  "words": [
+   [
+    31.36,
+    32.12,
+    " 24"
+   ],
+   [
+    32.12,
+    32.52,
+    "-nci"
+   ],
+   [
+    32.52,
+    33.04,
+    " nayabrkunu"
+   ],
+   [
+    33.04,
+    33.36,
+    " Ali"
+   ],
+   [
+    33.36,
+    33.76,
+    " Majlis"
+   ],
+   [
+    33.76,
+    34.24,
+    " Qanunchilik"
+   ],
+   [
+    34.24,
+    34.68,
+    " Palatasi"
+   ],
+   [
+    34.68,
+    35.02,
+    " bu"
+   ],
+   [
+    35.02,
+    35.58,
+    " qanunni"
+   ],
+   [
+    35.58,
+    36.0,
+    " uqinchi,"
+   ]
+  ]
+ },
+ {
+  "start": 36.06,
+  "end": 38.98,
+  "text": "yani yakuni oqishta qabul kildi va senatke yubardi.",
+  "words": [
+   [
+    36.06,
+    36.44,
+    " yani"
+   ],
+   [
+    36.44,
+    37.12,
+    " yakuni"
+   ],
+   [
+    37.12,
+    37.5,
+    " oqishta"
+   ],
+   [
+    37.5,
+    37.84,
+    " qabul"
+   ],
+   [
+    37.84,
+    38.1,
+    " kildi"
+   ],
+   [
+    38.1,
+    38.2,
+    " va"
+   ],
+   [
+    38.2,
+    38.72,
+    " senatke"
+   ],
+   [
+    38.72,
+    38.98,
+    " yubardi."
+   ]
+  ]
+ },
+ {
+  "start": 39.18,
+  "end": 44.44,
+  "text": "Qanun bir yillik maktabke tayarlawini macburi umumi orta taliminin birinci bozkichi debirgiliydi.",
+  "words": [
+   [
+    39.18,
+    39.92,
+    " Qanun"
+   ],
+   [
+    39.92,
+    40.06,
+    " bir"
+   ],
+   [
+    40.06,
+    40.4,
+    " yillik"
+   ],
+   [
+    40.4,
+    40.76,
+    " maktabke"
+   ],
+   [
+    40.76,
+    41.28,
+    " tayarlawini"
+   ],
+   [
+    41.28,
+    41.8,
+    " macburi"
+   ],
+   [
+    41.8,
+    42.34,
+    " umumi"
+   ],
+   [
+    42.34,
+    42.62,
+    " orta"
+   ],
+   [
+    42.62,
+    43.1,
+    " taliminin"
+   ],
+   [
+    43.1,
+    43.46,
+    " birinci"
+   ],
+   [
+    43.46,
+    43.86,
+    " bozkichi"
+   ],
+   [
+    43.86,
+    44.44,
+    " debirgiliydi."
+   ]
+  ]
+ },
+ {
+  "start": 44.62,
+  "end": 48.06,
+  "text": "Suad Daqlibayt kanda, altiyashli balanin bir yillik tayarlaw mashkulati,",
+  "words": [
+   [
+    44.62,
+    45.06,
+    " Suad"
+   ],
+   [
+    45.06,
+    45.4,
+    " Daqlibayt"
+   ],
+   [
+    45.4,
+    45.62,
+    " kanda,"
+   ],
+   [
+    45.74,
+    46.32,
+    " altiyashli"
+   ],
+   [
+    46.32,
+    46.66,
+    " balanin"
+   ],
+   [
+    46.66,
+    46.84,
+    " bir"
+   ],
+   [
+    46.84,
+    47.22,
+    " yillik"
+   ],
+   [
+    47.22,
+    47.58,
+    " tayarlaw"
+   ],
+   [
+    47.58,
+    48.06,
+    " mashkulati,"
+   ]
+  ]
+ },
+ {
+  "start": 48.16,
+  "end": 51.3,
+  "text": "enda rasman maktab taliminin bir kismi xosoplani.",
+  "words": [
+   [
+    48.16,
+    48.62,
+    " enda"
+   ],
+   [
+    48.62,
+    49.08,
+    " rasman"
+   ],
+   [
+    49.08,
+    49.86,
+    " maktab"
+   ],
+   [
+    49.86,
+    50.3,
+    " taliminin"
+   ],
+   [
+    50.3,
+    50.48,
+    " bir"
+   ],
+   [
+    50.48,
+    50.9,
+    " kismi"
+   ],
+   [
+    50.9,
+    51.3,
+    " xosoplani."
+   ]
+  ]
+ },
+ {
+  "start": 51.42,
+  "end": 55.22,
+  "text": "Shu tariqaya umumi talim mudatu 11 yildan 12 yilga chikadi.",
+  "words": [
+   [
+    51.42,
+    51.98,
+    " Shu"
+   ],
+   [
+    51.98,
+    52.3,
+    " tariqaya"
+   ],
+   [
+    52.3,
+    52.7,
+    " umumi"
+   ],
+   [
+    52.7,
+    53.04,
+    " talim"
+   ],
+   [
+    53.04,
+    53.36,
+    " mudatu"
+   ],
+   [
+    53.36,
+    53.62,
+    " 11"
+   ],
+   [
+    53.62,
+    54.06,
+    " yildan"
+   ],
+   [
+    54.06,
+    54.48,
+    " 12"
+   ],
+   [
+    54.48,
+    54.96,
+    " yilga"
+   ],
+   [
+    54.96,
+    55.22,
+    " chikadi."
+   ]
+  ]
+ },
+ {
+  "start": 55.32,
+  "end": 57.0,
+  "text": "Bu tayarlaw qayirdo odadi.",
+  "words": [
+   [
+    55.32,
+    55.88,
+    " Bu"
+   ],
+   [
+    55.88,
+    56.28,
+    " tayarlaw"
+   ],
+   [
+    56.28,
+    56.8,
+    " qayirdo"
+   ],
+   [
+    56.8,
+    57.0,
+    " odadi."
+   ]
+  ]
+ },
+ {
+  "start": 57.18,
+  "end": 59.86,
+  "text": "Qanungi kura, baxchagi baradigan bala onu baxchadi.",
+  "words": [
+   [
+    57.18,
+    57.94,
+    " Qanungi"
+   ],
+   [
+    57.94,
+    58.08,
+    " kura,"
+   ],
+   [
+    58.16,
+    58.54,
+    " baxchagi"
+   ],
+   [
+    58.54,
+    58.94,
+    " baradigan"
+   ],
+   [
+    58.94,
+    59.28,
+    " bala"
+   ],
+   [
+    59.28,
+    59.36,
+    " onu"
+   ],
+   [
+    59.36,
+    59.86,
+    " baxchadi."
+   ]
+  ]
+ },
+ {
+  "start": 60.0,
+  "end": 61.66,
+  "text": "Varmay digan balaysan maktab totaydi.",
+  "words": [
+   [
+    60.0,
+    60.44,
+    " Varmay"
+   ],
+   [
+    60.44,
+    60.64,
+    " digan"
+   ],
+   [
+    60.64,
+    61.02,
+    " balaysan"
+   ],
+   [
+    61.02,
+    61.34,
+    " maktab"
+   ],
+   [
+    61.34,
+    61.66,
+    " totaydi."
+   ]
+  ]
+ },
+ {
+  "start": 61.76,
+  "end": 65.78,
+  "text": "Uzaq khududlarda tayarlaw ishtimai muassasalarda xam tashkil qilinishi mumkun.",
+  "words": [
+   [
+    61.76,
+    62.44,
+    " Uzaq"
+   ],
+   [
+    62.44,
+    62.88,
+    " khududlarda"
+   ],
+   [
+    62.88,
+    63.44,
+    " tayarlaw"
+   ],
+   [
+    63.44,
+    63.96,
+    " ishtimai"
+   ],
+   [
+    63.96,
+    64.66,
+    " muassasalarda"
+   ],
+   [
+    64.66,
+    64.82,
+    " xam"
+   ],
+   [
+    64.82,
+    65.14,
+    " tashkil"
+   ],
+   [
+    65.14,
+    65.48,
+    " qilinishi"
+   ],
+   [
+    65.48,
+    65.78,
+    " mumkun."
+   ]
+  ]
+ },
+ {
+  "start": 65.9,
+  "end": 70.36,
+  "text": "Xososi baxcha va maktablar xam oz dastura asasta tayarlaw guruklari achishi mumkun boladi.",
+  "words": [
+   [
+    65.9,
+    66.58,
+    " Xososi"
+   ],
+   [
+    66.58,
+    66.92,
+    " baxcha"
+   ],
+   [
+    66.92,
+    67.04,
+    " va"
+   ],
+   [
+    67.04,
+    67.42,
+    " maktablar"
+   ],
+   [
+    67.42,
+    67.7,
+    " xam"
+   ],
+   [
+    67.7,
+    67.88,
+    " oz"
+   ],
+   [
+    67.88,
+    68.28,
+    " dastura"
+   ],
+   [
+    68.28,
+    68.58,
+    " asasta"
+   ],
+   [
+    68.58,
+    69.08,
+    " tayarlaw"
+   ],
+   [
+    69.08,
+    69.6,
+    " guruklari"
+   ],
+   [
+    69.6,
+    69.8,
+    " achishi"
+   ],
+   [
+    69.8,
+    70.1,
+    " mumkun"
+   ],
+   [
+    70.1,
+    70.36,
+    " boladi."
+   ]
+  ]
+ },
+ {
+  "start": 70.7,
+  "end": 72.44,
+  "text": "Bu maksabda talim tohristagi,",
+  "words": [
+   [
+    70.7,
+    71.04,
+    " Bu"
+   ],
+   [
+    71.04,
+    71.46,
+    " maksabda"
+   ],
+   [
+    71.46,
+    71.98,
+    " talim"
+   ],
+   [
+    71.98,
+    72.44,
+    " tohristagi,"
+   ]
+  ]
+ },
+ {
+  "start": 72.54,
+  "end": 76.62,
+  "text": "va maktabkechi talim va tarbiya tohristagi qanullargi oz gartirish kirtilmakti.",
+  "words": [
+   [
+    72.54,
+    72.88,
+    " va"
+   ],
+   [
+    72.88,
+    73.62,
+    " maktabkechi"
+   ],
+   [
+    73.62,
+    74.04,
+    " talim"
+   ],
+   [
+    74.04,
+    74.08,
+    " va"
+   ],
+   [
+    74.08,
+    74.44,
+    " tarbiya"
+   ],
+   [
+    74.44,
+    74.84,
+    " tohristagi"
+   ],
+   [
+    74.84,
+    75.46,
+    " qanullargi"
+   ],
+   [
+    75.46,
+    75.74,
+    " oz"
+   ],
+   [
+    75.74,
+    76.12,
+    " gartirish"
+   ],
+   [
+    76.12,
+    76.62,
+    " kirtilmakti."
+   ]
+  ]
+ },
+ {
+  "start": 77.34,
+  "end": 79.32,
+  "text": "Bu islakhat bir kunda fayda bolgani yok.",
+  "words": [
+   [
+    77.34,
+    77.68,
+    " Bu"
+   ],
+   [
+    77.68,
+    78.12,
+    " islakhat"
+   ],
+   [
+    78.12,
+    78.36,
+    " bir"
+   ],
+   [
+    78.36,
+    78.58,
+    " kunda"
+   ],
+   [
+    78.58,
+    78.82,
+    " fayda"
+   ],
+   [
+    78.82,
+    79.2,
+    " bolgani"
+   ],
+   [
+    79.2,
+    79.32,
+    " yok."
+   ]
+  ]
+ },
+ {
+  "start": 79.32,
+  "end": 83.32,
+  "text": "2025 il sentyabrda prezident rayisligida otgan higilishtan soyn,",
+  "words": [
+   [
+    79.32,
+    79.98,
+    " 2025"
+   ],
+   [
+    79.98,
+    80.68,
+    " il"
+   ],
+   [
+    80.68,
+    81.3,
+    " sentyabrda"
+   ],
+   [
+    81.3,
+    81.92,
+    " prezident"
+   ],
+   [
+    81.92,
+    82.4,
+    " rayisligida"
+   ],
+   [
+    82.4,
+    82.6,
+    " otgan"
+   ],
+   [
+    82.6,
+    83.1,
+    " higilishtan"
+   ],
+   [
+    83.1,
+    83.32,
+    " soyn,"
+   ]
+  ]
+ },
+ {
+  "start": 83.4,
+  "end": 88.32,
+  "text": "wazir orumbasari Sardar Rajabov 12 yillik tizmgi otish baxlanganini eylan qilgan edi.",
+  "words": [
+   [
+    83.4,
+    84.04,
+    " wazir"
+   ],
+   [
+    84.04,
+    84.48,
+    " orumbasari"
+   ],
+   [
+    84.48,
+    84.9,
+    " Sardar"
+   ],
+   [
+    84.9,
+    85.38,
+    " Rajabov"
+   ],
+   [
+    85.38,
+    85.84,
+    " 12"
+   ],
+   [
+    85.84,
+    86.34,
+    " yillik"
+   ],
+   [
+    86.34,
+    86.64,
+    " tizmgi"
+   ],
+   [
+    86.64,
+    86.86,
+    " otish"
+   ],
+   [
+    86.86,
+    87.56,
+    " baxlanganini"
+   ],
+   [
+    87.56,
+    87.84,
+    " eylan"
+   ],
+   [
+    87.84,
+    88.16,
+    " qilgan"
+   ],
+   [
+    88.16,
+    88.32,
+    " edi."
+   ]
+  ]
+ },
+ {
+  "start": 88.42,
+  "end": 90.8,
+  "text": "Oshanda Yangi Tuzulmahan malum qilingan.",
+  "words": [
+   [
+    88.42,
+    89.14,
+    " Oshanda"
+   ],
+   [
+    89.14,
+    89.62,
+    " Yangi"
+   ],
+   [
+    89.62,
+    90.0,
+    " Tuzulmahan"
+   ],
+   [
+    90.0,
+    90.44,
+    " malum"
+   ],
+   [
+    90.44,
+    90.8,
+    " qilingan."
+   ]
+  ]
+ },
+ {
+  "start": 90.86,
+  "end": 96.82,
+  "text": "1 yillik tayarlaw, 4 yillik baxlangish talim, 5 yillik tayyanch talim, va 2 yillik yukari sınıflar.",
+  "words": [
+   [
+    90.86,
+    91.24,
+    " 1"
+   ],
+   [
+    91.24,
+    91.62,
+    " yillik"
+   ],
+   [
+    91.62,
+    92.02,
+    " tayarlaw,"
+   ],
+   [
+    92.16,
+    92.56,
+    " 4"
+   ],
+   [
+    92.56,
+    92.94,
+    " yillik"
+   ],
+   [
+    92.94,
+    93.42,
+    " baxlangish"
+   ],
+   [
+    93.42,
+    93.76,
+    " talim,"
+   ],
+   [
+    93.8,
+    94.08,
+    " 5"
+   ],
+   [
+    94.08,
+    94.38,
+    " yillik"
+   ],
+   [
+    94.38,
+    94.72,
+    " tayyanch"
+   ],
+   [
+    94.72,
+    95.06,
+    " talim,"
+   ],
+   [
+    95.06,
+    95.16,
+    " va"
+   ],
+   [
+    95.16,
+    95.5,
+    " 2"
+   ],
+   [
+    95.5,
+    96.06,
+    " yillik"
+   ],
+   [
+    96.06,
+    96.42,
+    " yukari"
+   ],
+   [
+    96.42,
+    96.82,
+    " sınıflar."
+   ]
+  ]
+ },
+ {
+  "start": 96.9,
+  "end": 98.32,
+  "text": "Bir qizix chikadi var.",
+  "words": [
+   [
+    96.9,
+    97.54,
+    " Bir"
+   ],
+   [
+    97.54,
+    97.82,
+    " qizix"
+   ],
+   [
+    97.82,
+    98.14,
+    " chikadi"
+   ],
+   [
+    98.14,
+    98.32,
+    " var."
+   ]
+  ]
+ },
+ {
+  "start": 98.58,
+  "end": 101.5,
+  "text": "Ozbikistan 12 yillik talimni ilgari xam sinab gurgan.",
+  "words": [
+   [
+    98.58,
+    99.3,
+    " Ozbikistan"
+   ],
+   [
+    99.3,
+    99.64,
+    " 12"
+   ],
+   [
+    99.64,
+    100.08,
+    " yillik"
+   ],
+   [
+    100.08,
+    100.36,
+    " talimni"
+   ],
+   [
+    100.36,
+    100.78,
+    " ilgari"
+   ],
+   [
+    100.78,
+    100.98,
+    " xam"
+   ],
+   [
+    100.98,
+    101.2,
+    " sinab"
+   ],
+   [
+    101.2,
+    101.5,
+    " gurgan."
+   ]
+  ]
+ },
+ {
+  "start": 101.64,
+  "end": 107.18,
+  "text": "2017 il gechi, 9 yillik maktabdan keyin 3 yil college yaki lisedi oqlardi.",
+  "words": [
+   [
+    101.64,
+    102.3,
+    " 2017"
+   ],
+   [
+    102.3,
+    102.94,
+    " il"
+   ],
+   [
+    102.94,
+    103.24,
+    " gechi,"
+   ],
+   [
+    103.32,
+    103.58,
+    " 9"
+   ],
+   [
+    103.58,
+    104.2,
+    " yillik"
+   ],
+   [
+    104.2,
+    104.68,
+    " maktabdan"
+   ],
+   [
+    104.68,
+    104.98,
+    " keyin"
+   ],
+   [
+    104.98,
+    105.24,
+    " 3"
+   ],
+   [
+    105.24,
+    105.58,
+    " yil"
+   ],
+   [
+    105.58,
+    105.9,
+    " college"
+   ],
+   [
+    105.9,
+    106.26,
+    " yaki"
+   ],
+   [
+    106.26,
+    106.76,
+    " lisedi"
+   ],
+   [
+    106.76,
+    107.18,
+    " oqlardi."
+   ]
+  ]
+ },
+ {
+  "start": 107.32,
+  "end": 109.3,
+  "text": "Keyin 11 yillik maktabi var.",
+  "words": [
+   [
+    107.32,
+    108.02,
+    " Keyin"
+   ],
+   [
+    108.02,
+    108.52,
+    " 11"
+   ],
+   [
+    108.52,
+    108.98,
+    " yillik"
+   ],
+   [
+    108.98,
+    109.3,
+    " maktabi"
+   ],
+   [
+    109.3,
+    109.3,
+    " var."
+   ]
+  ]
+ },
+ {
+  "start": 109.3,
+  "end": 109.86,
+  "text": "Maktabka qaitildi.",
+  "words": [
+   [
+    109.3,
+    109.3,
+    " Maktabka"
+   ],
+   [
+    109.3,
+    109.86,
+    " qaitildi."
+   ]
+  ]
+ },
+ {
+  "start": 109.86,
+  "end": 112.4,
+  "text": "Endesi, 12 yillik yana qaitmoxti.",
+  "words": [
+   [
+    109.86,
+    110.44,
+    " Endesi,"
+   ],
+   [
+    110.64,
+    111.14,
+    " 12"
+   ],
+   [
+    111.14,
+    111.68,
+    " yillik"
+   ],
+   [
+    111.68,
+    111.86,
+    " yana"
+   ],
+   [
+    111.86,
+    112.4,
+    " qaitmoxti."
+   ]
+  ]
+ },
+ {
+  "start": 112.48,
+  "end": 114.38,
+  "text": "Lekin, butunlayi boshka shakildi.",
+  "words": [
+   [
+    112.48,
+    112.96,
+    " Lekin,"
+   ],
+   [
+    112.96,
+    113.74,
+    " butunlayi"
+   ],
+   [
+    113.74,
+    113.94,
+    " boshka"
+   ],
+   [
+    113.94,
+    114.38,
+    " shakildi."
+   ]
+  ]
+ },
+ {
+  "start": 114.44,
+  "end": 116.4,
+  "text": "Xosh, davlat bungi tayyarmi?",
+  "words": [
+   [
+    114.44,
+    114.98,
+    " Xosh,"
+   ],
+   [
+    115.06,
+    115.64,
+    " davlat"
+   ],
+   [
+    115.64,
+    115.92,
+    " bungi"
+   ],
+   [
+    115.92,
+    116.4,
+    " tayyarmi?"
+   ]
+  ]
+ },
+ {
+  "start": 116.82,
+  "end": 119.46,
+  "text": "Parlamenttagi muhakemada aniq rakamlar kildirildi.",
+  "words": [
+   [
+    116.82,
+    117.62,
+    " Parlamenttagi"
+   ],
+   [
+    117.62,
+    118.14,
+    " muhakemada"
+   ],
+   [
+    118.14,
+    118.52,
+    " aniq"
+   ],
+   [
+    118.52,
+    118.94,
+    " rakamlar"
+   ],
+   [
+    118.94,
+    119.46,
+    " kildirildi."
+   ]
+  ]
+ },
+ {
+  "start": 119.5,
+  "end": 121.6,
+  "text": "Deputat Saryari Imamovanin sozlargi kore,",
+  "words": [
+   [
+    119.5,
+    120.06,
+    " Deputat"
+   ],
+   [
+    120.06,
+    120.42,
+    " Saryari"
+   ],
+   [
+    120.42,
+    120.96,
+    " Imamovanin"
+   ],
+   [
+    120.96,
+    121.38,
+    " sozlargi"
+   ],
+   [
+    121.38,
+    121.6,
+    " kore,"
+   ]
+  ]
+ },
+ {
+  "start": 121.7,
+  "end": 126.12,
+  "text": "hazir boralarinin 78 faizi maktabkechi talim bilan qamra balingan.",
+  "words": [
+   [
+    121.7,
+    122.36,
+    " hazir"
+   ],
+   [
+    122.36,
+    122.78,
+    " boralarinin"
+   ],
+   [
+    122.78,
+    123.18,
+    " 78"
+   ],
+   [
+    123.18,
+    124.0,
+    " faizi"
+   ],
+   [
+    124.0,
+    124.9,
+    " maktabkechi"
+   ],
+   [
+    124.9,
+    125.24,
+    " talim"
+   ],
+   [
+    125.24,
+    125.44,
+    " bilan"
+   ],
+   [
+    125.44,
+    125.7,
+    " qamra"
+   ],
+   [
+    125.7,
+    126.12,
+    " balingan."
+   ]
+  ]
+ },
+ {
+  "start": 126.26,
+  "end": 129.86,
+  "text": "6 yashli ballar arasta bu korsatkech 98 faiz.",
+  "words": [
+   [
+    126.26,
+    126.64,
+    " 6"
+   ],
+   [
+    126.64,
+    126.98,
+    " yashli"
+   ],
+   [
+    126.98,
+    127.3,
+    " ballar"
+   ],
+   [
+    127.3,
+    127.62,
+    " arasta"
+   ],
+   [
+    127.62,
+    128.1,
+    " bu"
+   ],
+   [
+    128.1,
+    128.66,
+    " korsatkech"
+   ],
+   [
+    128.66,
+    129.12,
+    " 98"
+   ],
+   [
+    129.12,
+    129.86,
+    " faiz."
+   ]
+  ]
+ },
+ {
+  "start": 130.0,
+  "end": 133.82,
+  "text": "Macburi, 1 yillik tayyarlaw 2018 inchi ildan beri mavcud.",
+  "words": [
+   [
+    130.0,
+    130.8,
+    " Macburi,"
+   ],
+   [
+    130.82,
+    130.96,
+    " 1"
+   ],
+   [
+    130.96,
+    131.32,
+    " yillik"
+   ],
+   [
+    131.32,
+    131.78,
+    " tayyarlaw"
+   ],
+   [
+    131.78,
+    132.18,
+    " 2018"
+   ],
+   [
+    132.18,
+    133.04,
+    " inchi"
+   ],
+   [
+    133.04,
+    133.32,
+    " ildan"
+   ],
+   [
+    133.32,
+    133.52,
+    " beri"
+   ],
+   [
+    133.52,
+    133.82,
+    " mavcud."
+   ]
+  ]
+ },
+ {
+  "start": 133.92,
+  "end": 138.7,
+  "text": "Hazirning ozada, 4 mindan artig maktabnin bosh khanalarda tayyarlaw guruklari achilgan.",
+  "words": [
+   [
+    133.92,
+    134.62,
+    " Hazirning"
+   ],
+   [
+    134.62,
+    134.86,
+    " ozada,"
+   ],
+   [
+    135.02,
+    135.4,
+    " 4"
+   ],
+   [
+    135.4,
+    135.84,
+    " mindan"
+   ],
+   [
+    135.84,
+    136.14,
+    " artig"
+   ],
+   [
+    136.14,
+    136.56,
+    " maktabnin"
+   ],
+   [
+    136.56,
+    136.92,
+    " bosh"
+   ],
+   [
+    136.92,
+    137.42,
+    " khanalarda"
+   ],
+   [
+    137.42,
+    137.94,
+    " tayyarlaw"
+   ],
+   [
+    137.94,
+    138.38,
+    " guruklari"
+   ],
+   [
+    138.38,
+    138.7,
+    " achilgan."
+   ]
+  ]
+ },
+ {
+  "start": 138.8,
+  "end": 139.28,
+  "text": "Yana,",
+  "words": [
+   [
+    138.8,
+    139.28,
+    " Yana,"
+   ]
+  ]
+ },
+ {
+  "start": 139.3,
+  "end": 141.04,
+  "text": "191 ta maktabda,",
+  "words": [
+   [
+    139.3,
+    140.36,
+    " 191"
+   ],
+   [
+    140.36,
+    140.58,
+    " ta"
+   ],
+   [
+    140.58,
+    141.04,
+    " maktabda,"
+   ]
+  ]
+ },
+ {
+  "start": 141.08,
+  "end": 144.08,
+  "text": "246 ta guruk tashkil qilinishi ricalashtirilgan.",
+  "words": [
+   [
+    141.08,
+    142.14,
+    " 246"
+   ],
+   [
+    142.14,
+    142.4,
+    " ta"
+   ],
+   [
+    142.4,
+    142.62,
+    " guruk"
+   ],
+   [
+    142.62,
+    142.96,
+    " tashkil"
+   ],
+   [
+    142.96,
+    143.3,
+    " qilinishi"
+   ],
+   [
+    143.3,
+    144.08,
+    " ricalashtirilgan."
+   ]
+  ]
+ },
+ {
+  "start": 144.28,
+  "end": 145.24,
+  "text": "Maksad isa,",
+  "words": [
+   [
+    144.28,
+    144.96,
+    " Maksad"
+   ],
+   [
+    144.96,
+    145.24,
+    " isa,"
+   ]
+  ]
+ },
+ {
+  "start": 145.24,
+  "end": 149.6,
+  "text": "2027 inchi ilda 6 yashli ballalarini 100 faiz qamra balish.",
+  "words": [
+   [
+    145.24,
+    146.12,
+    " 2027"
+   ],
+   [
+    146.12,
+    146.52,
+    " inchi"
+   ],
+   [
+    146.52,
+    146.84,
+    " ilda"
+   ],
+   [
+    146.84,
+    147.14,
+    " 6"
+   ],
+   [
+    147.14,
+    147.52,
+    " yashli"
+   ],
+   [
+    147.52,
+    148.02,
+    " ballalarini"
+   ],
+   [
+    148.02,
+    148.5,
+    " 100"
+   ],
+   [
+    148.5,
+    148.96,
+    " faiz"
+   ],
+   [
+    148.96,
+    149.3,
+    " qamra"
+   ],
+   [
+    149.3,
+    149.6,
+    " balish."
+   ]
+  ]
+ },
+ {
+  "start": 149.76,
+  "end": 150.38,
+  "text": "Bunin uchun,",
+  "words": [
+   [
+    149.76,
+    150.12,
+    " Bunin"
+   ],
+   [
+    150.12,
+    150.38,
+    " uchun,"
+   ]
+  ]
+ },
+ {
+  "start": 150.38,
+  "end": 154.56,
+  "text": "yana 800ga yakhin guruk va tahminan 20 min yangi oran kerek balladi.",
+  "words": [
+   [
+    150.38,
+    150.76,
+    " yana"
+   ],
+   [
+    150.76,
+    151.48,
+    " 800ga"
+   ],
+   [
+    151.48,
+    151.74,
+    " yakhin"
+   ],
+   [
+    151.74,
+    152.0,
+    " guruk"
+   ],
+   [
+    152.0,
+    152.14,
+    " va"
+   ],
+   [
+    152.14,
+    152.66,
+    " tahminan"
+   ],
+   [
+    152.66,
+    153.06,
+    " 20"
+   ],
+   [
+    153.06,
+    153.4,
+    " min"
+   ],
+   [
+    153.4,
+    153.82,
+    " yangi"
+   ],
+   [
+    153.82,
+    154.0,
+    " oran"
+   ],
+   [
+    154.0,
+    154.24,
+    " kerek"
+   ],
+   [
+    154.24,
+    154.56,
+    " balladi."
+   ]
+  ]
+ },
+ {
+  "start": 154.9,
+  "end": 155.58,
+  "text": "Kharacantlar,",
+  "words": [
+   [
+    154.9,
+    155.58,
+    " Kharacantlar,"
+   ]
+  ]
+ },
+ {
+  "start": 155.62,
+  "end": 158.66,
+  "text": "2027 inchi ilgi davlat budjetida xisabki alini shaytildi.",
+  "words": [
+   [
+    155.62,
+    156.18,
+    " 2027"
+   ],
+   [
+    156.18,
+    156.56,
+    " inchi"
+   ],
+   [
+    156.56,
+    156.78,
+    " ilgi"
+   ],
+   [
+    156.78,
+    157.04,
+    " davlat"
+   ],
+   [
+    157.04,
+    157.48,
+    " budjetida"
+   ],
+   [
+    157.48,
+    157.96,
+    " xisabki"
+   ],
+   [
+    157.96,
+    158.14,
+    " alini"
+   ],
+   [
+    158.14,
+    158.66,
+    " shaytildi."
+   ]
+  ]
+ },
+ {
+  "start": 158.8,
+  "end": 159.76,
+  "text": "Atahanalar uchun,",
+  "words": [
+   [
+    158.8,
+    159.44,
+    " Atahanalar"
+   ],
+   [
+    159.44,
+    159.76,
+    " uchun,"
+   ]
+  ]
+ },
+ {
+  "start": 159.76,
+  "end": 161.0,
+  "text": "eni muhumchikati shuki,",
+  "words": [
+   [
+    159.76,
+    160.24,
+    " eni"
+   ],
+   [
+    160.24,
+    160.8,
+    " muhumchikati"
+   ],
+   [
+    160.8,
+    161.0,
+    " shuki,"
+   ]
+  ]
+ },
+ {
+  "start": 161.16,
+  "end": 163.92,
+  "text": "davlat masasalarda tayyarlaw B puli balladi.",
+  "words": [
+   [
+    161.16,
+    161.8,
+    " davlat"
+   ],
+   [
+    161.8,
+    162.46,
+    " masasalarda"
+   ],
+   [
+    162.46,
+    163.04,
+    " tayyarlaw"
+   ],
+   [
+    163.04,
+    163.34,
+    " B"
+   ],
+   [
+    163.34,
+    163.7,
+    " puli"
+   ],
+   [
+    163.7,
+    163.92,
+    " balladi."
+   ]
+  ]
+ },
+ {
+  "start": 164.12,
+  "end": 165.92,
+  "text": "Endi muh negi muhumligigi otisag?",
+  "words": [
+   [
+    164.12,
+    164.62,
+    " Endi"
+   ],
+   [
+    164.62,
+    164.76,
+    " muh"
+   ],
+   [
+    164.76,
+    165.06,
+    " negi"
+   ],
+   [
+    165.06,
+    165.56,
+    " muhumligigi"
+   ],
+   [
+    165.56,
+    165.92,
+    " otisag?"
+   ]
+  ]
+ },
+ {
+  "start": 166.22,
+  "end": 167.64,
+  "text": "Rasminilarinin asasi dalili,",
+  "words": [
+   [
+    166.22,
+    166.9,
+    " Rasminilarinin"
+   ],
+   [
+    166.9,
+    167.32,
+    " asasi"
+   ],
+   [
+    167.32,
+    167.64,
+    " dalili,"
+   ]
+  ]
+ },
+ {
+  "start": 167.76,
+  "end": 168.94,
+  "text": "xalqaraz standartlar.",
+  "words": [
+   [
+    167.76,
+    168.44,
+    " xalqaraz"
+   ],
+   [
+    168.44,
+    168.94,
+    " standartlar."
+   ]
+  ]
+ },
+ {
+  "start": 168.94,
+  "end": 172.44,
+  "text": "Duniyanin kopilab davlatlarda maktab talimi 12 il davam etadi.",
+  "words": [
+   [
+    168.94,
+    169.7,
+    " Duniyanin"
+   ],
+   [
+    169.7,
+    170.04,
+    " kopilab"
+   ],
+   [
+    170.04,
+    170.48,
+    " davlatlarda"
+   ],
+   [
+    170.48,
+    170.96,
+    " maktab"
+   ],
+   [
+    170.96,
+    171.24,
+    " talimi"
+   ],
+   [
+    171.24,
+    171.54,
+    " 12"
+   ],
+   [
+    171.54,
+    171.94,
+    " il"
+   ],
+   [
+    171.94,
+    172.22,
+    " davam"
+   ],
+   [
+    172.22,
+    172.44,
+    " etadi."
+   ]
+  ]
+ },
+ {
+  "start": 172.58,
+  "end": 176.02,
+  "text": "11 yillik atisdat bulan xarici universiyetki kirmakchi bolgan yashlar,",
+  "words": [
+   [
+    172.58,
+    173.08,
+    " 11"
+   ],
+   [
+    173.08,
+    173.5,
+    " yillik"
+   ],
+   [
+    173.5,
+    173.86,
+    " atisdat"
+   ],
+   [
+    173.86,
+    174.12,
+    " bulan"
+   ],
+   [
+    174.12,
+    174.46,
+    " xarici"
+   ],
+   [
+    174.46,
+    175.06,
+    " universiyetki"
+   ],
+   [
+    175.06,
+    175.42,
+    " kirmakchi"
+   ],
+   [
+    175.42,
+    175.68,
+    " bolgan"
+   ],
+   [
+    175.68,
+    176.02,
+    " yashlar,"
+   ]
+  ]
+ },
+ {
+  "start": 176.1,
+  "end": 178.78,
+  "text": "kopinchi avval 1 yillik tayyarlaw kursida,",
+  "words": [
+   [
+    176.1,
+    176.74,
+    " kopinchi"
+   ],
+   [
+    176.74,
+    177.24,
+    " avval"
+   ],
+   [
+    177.24,
+    177.5,
+    " 1"
+   ],
+   [
+    177.5,
+    177.94,
+    " yillik"
+   ],
+   [
+    177.94,
+    178.4,
+    " tayyarlaw"
+   ],
+   [
+    178.4,
+    178.78,
+    " kursida,"
+   ]
+  ]
+ },
+ {
+  "start": 178.88,
+  "end": 181.14,
+  "text": "yani foundationda oqishka macbur balladi.",
+  "words": [
+   [
+    178.88,
+    179.26,
+    " yani"
+   ],
+   [
+    179.26,
+    180.32,
+    " foundationda"
+   ],
+   [
+    180.32,
+    180.64,
+    " oqishka"
+   ],
+   [
+    180.64,
+    180.88,
+    " macbur"
+   ],
+   [
+    180.88,
+    181.14,
+    " balladi."
+   ]
+  ]
+ },
+ {
+  "start": 181.22,
+  "end": 181.62,
+  "text": "Bu,",
+  "words": [
+   [
+    181.22,
+    181.62,
+    " Bu,"
+   ]
+  ]
+ },
+ {
+  "start": 181.7,
+  "end": 182.82,
+  "text": "ailelargi qoshimchi,",
+  "words": [
+   [
+    181.7,
+    182.3,
+    " ailelargi"
+   ],
+   [
+    182.3,
+    182.82,
+    " qoshimchi,"
+   ]
+  ]
+ },
+ {
+  "start": 182.9,
+  "end": 183.98,
+  "text": "wakt va pul digani.",
+  "words": [
+   [
+    182.9,
+    183.24,
+    " wakt"
+   ],
+   [
+    183.24,
+    183.42,
+    " va"
+   ],
+   [
+    183.42,
+    183.64,
+    " pul"
+   ],
+   [
+    183.64,
+    183.98,
+    " digani."
+   ]
+  ]
+ },
+ {
+  "start": 184.3,
+  "end": 187.66,
+  "text": "Islahat muhaliflari 12 yillik tizin bu tosqini kemaytiradi,",
+  "words": [
+   [
+    184.3,
+    184.88,
+    " Islahat"
+   ],
+   [
+    184.88,
+    185.44,
+    " muhaliflari"
+   ],
+   [
+    185.44,
+    185.72,
+    " 12"
+   ],
+   [
+    185.72,
+    186.28,
+    " yillik"
+   ],
+   [
+    186.28,
+    186.46,
+    " tizin"
+   ],
+   [
+    186.46,
+    186.68,
+    " bu"
+   ],
+   [
+    186.68,
+    187.1,
+    " tosqini"
+   ],
+   [
+    187.1,
+    187.66,
+    " kemaytiradi,"
+   ]
+  ]
+ },
+ {
+  "start": 187.74,
+  "end": 190.24,
+  "text": "va bitir uchlargi chayt ildi oqishni asanlashtiradi,",
+  "words": [
+   [
+    187.74,
+    188.08,
+    " va"
+   ],
+   [
+    188.08,
+    188.26,
+    " bitir"
+   ],
+   [
+    188.26,
+    188.62,
+    " uchlargi"
+   ],
+   [
+    188.62,
+    188.92,
+    " chayt"
+   ],
+   [
+    188.92,
+    189.16,
+    " ildi"
+   ],
+   [
+    189.16,
+    189.46,
+    " oqishni"
+   ],
+   [
+    189.46,
+    190.24,
+    " asanlashtiradi,"
+   ]
+  ]
+ },
+ {
+  "start": 190.32,
+  "end": 190.8,
+  "text": "daya xisablaydi.",
+  "words": [
+   [
+    190.32,
+    190.4,
+    " daya"
+   ],
+   [
+    190.4,
+    190.8,
+    " xisablaydi."
+   ]
+  ]
+ },
+ {
+  "start": 191.12,
+  "end": 192.46,
+  "text": "Ikinchi muhumchi xat,",
+  "words": [
+   [
+    191.12,
+    191.8,
+    " Ikinchi"
+   ],
+   [
+    191.8,
+    192.16,
+    " muhumchi"
+   ],
+   [
+    192.16,
+    192.46,
+    " xat,"
+   ]
+  ]
+ },
+ {
+  "start": 192.48,
+  "end": 194.14,
+  "text": "ballanin maktabka tayyargarligi.",
+  "words": [
+   [
+    192.48,
+    193.02,
+    " ballanin"
+   ],
+   [
+    193.02,
+    193.5,
+    " maktabka"
+   ],
+   [
+    193.5,
+    194.14,
+    " tayyargarligi."
+   ]
+  ]
+ },
+ {
+  "start": 194.14,
+  "end": 196.96,
+  "text": "Bakhchabilan maktab ortastagi baghliglik kuchaysa,",
+  "words": [
+   [
+    194.14,
+    195.2,
+    " Bakhchabilan"
+   ],
+   [
+    195.2,
+    195.56,
+    " maktab"
+   ],
+   [
+    195.56,
+    196.02,
+    " ortastagi"
+   ],
+   [
+    196.02,
+    196.52,
+    " baghliglik"
+   ],
+   [
+    196.52,
+    196.96,
+    " kuchaysa,"
+   ]
+  ]
+ },
+ {
+  "start": 196.96,
+  "end": 200.8,
+  "text": "birinchi sinifki kirgan bala oqishka asanrakh masla chadadagan fikir bildirilmakti.",
+  "words": [
+   [
+    196.96,
+    197.48,
+    " birinchi"
+   ],
+   [
+    197.48,
+    197.78,
+    " sinifki"
+   ],
+   [
+    197.78,
+    198.04,
+    " kirgan"
+   ],
+   [
+    198.04,
+    198.36,
+    " bala"
+   ],
+   [
+    198.36,
+    198.74,
+    " oqishka"
+   ],
+   [
+    198.74,
+    199.36,
+    " asanrakh"
+   ],
+   [
+    199.36,
+    199.6,
+    " masla"
+   ],
+   [
+    199.6,
+    199.98,
+    " chadadagan"
+   ],
+   [
+    199.98,
+    200.22,
+    " fikir"
+   ],
+   [
+    200.22,
+    200.8,
+    " bildirilmakti."
+   ]
+  ]
+ },
+ {
+  "start": 200.9,
+  "end": 203.76,
+  "text": "Amma parlamenttagi muhakema asan kechmadi.",
+  "words": [
+   [
+    200.9,
+    201.58,
+    " Amma"
+   ],
+   [
+    201.58,
+    202.44,
+    " parlamenttagi"
+   ],
+   [
+    202.44,
+    203.0,
+    " muhakema"
+   ],
+   [
+    203.0,
+    203.36,
+    " asan"
+   ],
+   [
+    203.36,
+    203.76,
+    " kechmadi."
+   ]
+  ]
+ },
+ {
+  "start": 203.86,
+  "end": 205.76,
+  "text": "Va bu yerda ciddii saballar bar.",
+  "words": [
+   [
+    203.86,
+    204.12,
+    " Va"
+   ],
+   [
+    204.12,
+    204.22,
+    " bu"
+   ],
+   [
+    204.22,
+    204.48,
+    " yerda"
+   ],
+   [
+    204.48,
+    205.2,
+    " ciddii"
+   ],
+   [
+    205.2,
+    205.62,
+    " saballar"
+   ],
+   [
+    205.62,
+    205.76,
+    " bar."
+   ]
+  ]
+ },
+ {
+  "start": 205.9,
+  "end": 208.54,
+  "text": "Deputat Saydollah Azimov togradan togru soradi,",
+  "words": [
+   [
+    205.9,
+    206.52,
+    " Deputat"
+   ],
+   [
+    206.52,
+    206.98,
+    " Saydollah"
+   ],
+   [
+    206.98,
+    207.46,
+    " Azimov"
+   ],
+   [
+    207.46,
+    207.88,
+    " togradan"
+   ],
+   [
+    207.88,
+    208.22,
+    " togru"
+   ],
+   [
+    208.22,
+    208.54,
+    " soradi,"
+   ]
+  ]
+ },
+ {
+  "start": 208.66,
+  "end": 210.52,
+  "text": "6 yashli bala kim xisaplanadi?",
+  "words": [
+   [
+    208.66,
+    209.12,
+    " 6"
+   ],
+   [
+    209.12,
+    209.5,
+    " yashli"
+   ],
+   [
+    209.5,
+    209.82,
+    " bala"
+   ],
+   [
+    209.82,
+    209.96,
+    " kim"
+   ],
+   [
+    209.96,
+    210.52,
+    " xisaplanadi?"
+   ]
+  ]
+ },
+ {
+  "start": 210.66,
+  "end": 211.88,
+  "text": "Maktab oq uchisi mi?",
+  "words": [
+   [
+    210.66,
+    211.3,
+    " Maktab"
+   ],
+   [
+    211.3,
+    211.46,
+    " oq"
+   ],
+   [
+    211.46,
+    211.7,
+    " uchisi"
+   ],
+   [
+    211.7,
+    211.88,
+    " mi?"
+   ]
+  ]
+ },
+ {
+  "start": 211.9,
+  "end": 213.26,
+  "text": "Ya ki, bakhcha tarbiyalan uchisi?",
+  "words": [
+   [
+    211.9,
+    212.0,
+    " Ya"
+   ],
+   [
+    212.0,
+    212.2,
+    " ki,"
+   ],
+   [
+    212.24,
+    212.58,
+    " bakhcha"
+   ],
+   [
+    212.58,
+    212.98,
+    " tarbiyalan"
+   ],
+   [
+    212.98,
+    213.26,
+    " uchisi?"
+   ]
+  ]
+ },
+ {
+  "start": 213.76,
+  "end": 216.1,
+  "text": "Tarbiyacilar maktab dasturuna oqchishki tayyar mi?",
+  "words": [
+   [
+    213.76,
+    214.48,
+    " Tarbiyacilar"
+   ],
+   [
+    214.48,
+    214.88,
+    " maktab"
+   ],
+   [
+    214.88,
+    215.28,
+    " dasturuna"
+   ],
+   [
+    215.28,
+    215.64,
+    " oqchishki"
+   ],
+   [
+    215.64,
+    216.0,
+    " tayyar"
+   ],
+   [
+    216.0,
+    216.1,
+    " mi?"
+   ]
+  ]
+ },
+ {
+  "start": 216.94,
+  "end": 218.52,
+  "text": "Vazirlik wakili Erkim Muradovesi,",
+  "words": [
+   [
+    216.94,
+    217.3,
+    " Vazirlik"
+   ],
+   [
+    217.3,
+    217.62,
+    " wakili"
+   ],
+   [
+    217.62,
+    217.98,
+    " Erkim"
+   ],
+   [
+    217.98,
+    218.52,
+    " Muradovesi,"
+   ]
+  ]
+ },
+ {
+  "start": 218.96,
+  "end": 220.68,
+  "text": "maktabkechi yash cheygarasini ozgardirish,",
+  "words": [
+   [
+    218.96,
+    219.32,
+    " maktabkechi"
+   ],
+   [
+    219.32,
+    219.56,
+    " yash"
+   ],
+   [
+    219.56,
+    220.02,
+    " cheygarasini"
+   ],
+   [
+    220.02,
+    220.68,
+    " ozgardirish,"
+   ]
+  ]
+ },
+ {
+  "start": 220.68,
+  "end": 224.5,
+  "text": "600 minge yaqin ota ana uchun qinchilik togdurishi munkulligina itdi.",
+  "words": [
+   [
+    220.68,
+    221.14,
+    " 600"
+   ],
+   [
+    221.14,
+    221.68,
+    " minge"
+   ],
+   [
+    221.68,
+    222.02,
+    " yaqin"
+   ],
+   [
+    222.02,
+    222.28,
+    " ota"
+   ],
+   [
+    222.28,
+    222.52,
+    " ana"
+   ],
+   [
+    222.52,
+    222.74,
+    " uchun"
+   ],
+   [
+    222.74,
+    223.2,
+    " qinchilik"
+   ],
+   [
+    223.2,
+    223.64,
+    " togdurishi"
+   ],
+   [
+    223.64,
+    224.24,
+    " munkulligina"
+   ],
+   [
+    224.24,
+    224.5,
+    " itdi."
+   ]
+  ]
+ },
+ {
+  "start": 224.68,
+  "end": 227.92,
+  "text": "Birinchi oqishda talin tili masalaskham keski muhakema qilindi.",
+  "words": [
+   [
+    224.68,
+    225.4,
+    " Birinchi"
+   ],
+   [
+    225.4,
+    225.74,
+    " oqishda"
+   ],
+   [
+    225.74,
+    226.12,
+    " talin"
+   ],
+   [
+    226.12,
+    226.26,
+    " tili"
+   ],
+   [
+    226.26,
+    226.8,
+    " masalaskham"
+   ],
+   [
+    226.8,
+    227.14,
+    " keski"
+   ],
+   [
+    227.14,
+    227.64,
+    " muhakema"
+   ],
+   [
+    227.64,
+    227.92,
+    " qilindi."
+   ]
+  ]
+ },
+ {
+  "start": 228.04,
+  "end": 231.52,
+  "text": "Ayrim deputatlar, ishtimaii masasalarda tayyarli ootkezish,",
+  "words": [
+   [
+    228.04,
+    228.62,
+    " Ayrim"
+   ],
+   [
+    228.62,
+    229.2,
+    " deputatlar,"
+   ],
+   [
+    229.28,
+    229.98,
+    " ishtimaii"
+   ],
+   [
+    229.98,
+    230.58,
+    " masasalarda"
+   ],
+   [
+    230.58,
+    230.98,
+    " tayyarli"
+   ],
+   [
+    230.98,
+    231.52,
+    " ootkezish,"
+   ]
+  ]
+ },
+ {
+  "start": 231.58,
+  "end": 234.92,
+  "text": "ana tiledagi talimga zarar getkezishi munkulligidan hawatir bildirdi.",
+  "words": [
+   [
+    231.58,
+    231.86,
+    " ana"
+   ],
+   [
+    231.86,
+    232.26,
+    " tiledagi"
+   ],
+   [
+    232.26,
+    232.68,
+    " talimga"
+   ],
+   [
+    232.68,
+    233.08,
+    " zarar"
+   ],
+   [
+    233.08,
+    233.48,
+    " getkezishi"
+   ],
+   [
+    233.48,
+    234.1,
+    " munkulligidan"
+   ],
+   [
+    234.1,
+    234.62,
+    " hawatir"
+   ],
+   [
+    234.62,
+    234.92,
+    " bildirdi."
+   ]
+  ]
+ },
+ {
+  "start": 235.18,
+  "end": 236.66,
+  "text": "Xoş, endinime boladi.",
+  "words": [
+   [
+    235.18,
+    235.72,
+    " Xoş,"
+   ],
+   [
+    235.86,
+    236.38,
+    " endinime"
+   ],
+   [
+    236.38,
+    236.66,
+    " boladi."
+   ]
+  ]
+ },
+ {
+  "start": 236.9,
+  "end": 238.4,
+  "text": "Qanun xali kuchka kirmagan.",
+  "words": [
+   [
+    236.9,
+    237.62,
+    " Qanun"
+   ],
+   [
+    237.62,
+    237.84,
+    " xali"
+   ],
+   [
+    237.84,
+    238.1,
+    " kuchka"
+   ],
+   [
+    238.1,
+    238.4,
+    " kirmagan."
+   ]
+  ]
+ },
+ {
+  "start": 238.62,
+  "end": 241.72,
+  "text": "Una avval senat maqullashi, son prezident imzalashi kerek.",
+  "words": [
+   [
+    238.62,
+    239.08,
+    " Una"
+   ],
+   [
+    239.08,
+    239.36,
+    " avval"
+   ],
+   [
+    239.36,
+    239.72,
+    " senat"
+   ],
+   [
+    239.72,
+    240.24,
+    " maqullashi,"
+   ],
+   [
+    240.32,
+    240.48,
+    " son"
+   ],
+   [
+    240.48,
+    241.0,
+    " prezident"
+   ],
+   [
+    241.0,
+    241.46,
+    " imzalashi"
+   ],
+   [
+    241.46,
+    241.72,
+    " kerek."
+   ]
+  ]
+ },
+ {
+  "start": 241.9,
+  "end": 245.26,
+  "text": "Senatning navvattagi yalipi majlisi 27-chin ayabirgi berigilangan.",
+  "words": [
+   [
+    241.9,
+    242.62,
+    " Senatning"
+   ],
+   [
+    242.62,
+    243.08,
+    " navvattagi"
+   ],
+   [
+    243.08,
+    243.36,
+    " yalipi"
+   ],
+   [
+    243.36,
+    243.7,
+    " majlisi"
+   ],
+   [
+    243.7,
+    243.96,
+    " 27"
+   ],
+   [
+    243.96,
+    244.44,
+    "-chin"
+   ],
+   [
+    244.44,
+    244.88,
+    " ayabirgi"
+   ],
+   [
+    244.88,
+    245.26,
+    " berigilangan."
+   ]
+  ]
+ },
+ {
+  "start": 245.46,
+  "end": 249.58,
+  "text": "Biroq, bu qanun aynan shu majlisti gorlisxakida rasmimi malamat hazirchi yox.",
+  "words": [
+   [
+    245.46,
+    245.94,
+    " Biroq,"
+   ],
+   [
+    245.96,
+    246.2,
+    " bu"
+   ],
+   [
+    246.2,
+    246.7,
+    " qanun"
+   ],
+   [
+    246.7,
+    247.1,
+    " aynan"
+   ],
+   [
+    247.1,
+    247.28,
+    " shu"
+   ],
+   [
+    247.28,
+    247.72,
+    " majlisti"
+   ],
+   [
+    247.72,
+    248.26,
+    " gorlisxakida"
+   ],
+   [
+    248.26,
+    248.62,
+    " rasmimi"
+   ],
+   [
+    248.62,
+    248.98,
+    " malamat"
+   ],
+   [
+    248.98,
+    249.36,
+    " hazirchi"
+   ],
+   [
+    249.36,
+    249.58,
+    " yox."
+   ]
+  ]
+ },
+ {
+  "start": 250.68,
+  "end": 252.22,
+  "text": "Edda naanixlik muddatlarida.",
+  "words": [
+   [
+    250.68,
+    250.76,
+    " Edda"
+   ],
+   [
+    250.76,
+    251.38,
+    " naanixlik"
+   ],
+   [
+    251.38,
+    252.22,
+    " muddatlarida."
+   ]
+  ]
+ },
+ {
+  "start": 252.42,
+  "end": 255.08,
+  "text": "Bugunki kunda qanun aynan qachandan kuchka kirishi,",
+  "words": [
+   [
+    252.42,
+    253.06,
+    " Bugunki"
+   ],
+   [
+    253.06,
+    253.26,
+    " kunda"
+   ],
+   [
+    253.26,
+    253.66,
+    " qanun"
+   ],
+   [
+    253.66,
+    254.06,
+    " aynan"
+   ],
+   [
+    254.06,
+    254.46,
+    " qachandan"
+   ],
+   [
+    254.46,
+    254.82,
+    " kuchka"
+   ],
+   [
+    254.82,
+    255.08,
+    " kirishi,"
+   ]
+  ]
+ },
+ {
+  "start": 255.2,
+  "end": 259.1,
+  "text": "va qaysi ilgi balilar yangi tizmda birinchi bolib oqishi rasmiman eylan qilinmagan.",
+  "words": [
+   [
+    255.2,
+    255.44,
+    " va"
+   ],
+   [
+    255.44,
+    255.86,
+    " qaysi"
+   ],
+   [
+    255.86,
+    256.08,
+    " ilgi"
+   ],
+   [
+    256.08,
+    256.4,
+    " balilar"
+   ],
+   [
+    256.4,
+    256.74,
+    " yangi"
+   ],
+   [
+    256.74,
+    257.12,
+    " tizmda"
+   ],
+   [
+    257.12,
+    257.42,
+    " birinchi"
+   ],
+   [
+    257.42,
+    257.66,
+    " bolib"
+   ],
+   [
+    257.66,
+    257.92,
+    " oqishi"
+   ],
+   [
+    257.92,
+    258.38,
+    " rasmiman"
+   ],
+   [
+    258.38,
+    258.7,
+    " eylan"
+   ],
+   [
+    258.7,
+    259.1,
+    " qilinmagan."
+   ]
+  ]
+ },
+ {
+  "start": 259.62,
+  "end": 263.74,
+  "text": "Deputatlar, maktablarga tayyargarlik gorux uchun kamida 6 ay kirekligini takitlagan.",
+  "words": [
+   [
+    259.62,
+    260.26,
+    " Deputatlar,"
+   ],
+   [
+    260.26,
+    260.74,
+    " maktablarga"
+   ],
+   [
+    260.74,
+    261.34,
+    " tayyargarlik"
+   ],
+   [
+    261.34,
+    261.58,
+    " gorux"
+   ],
+   [
+    261.58,
+    261.84,
+    " uchun"
+   ],
+   [
+    261.84,
+    262.16,
+    " kamida"
+   ],
+   [
+    262.16,
+    262.48,
+    " 6"
+   ],
+   [
+    262.48,
+    262.74,
+    " ay"
+   ],
+   [
+    262.74,
+    263.3,
+    " kirekligini"
+   ],
+   [
+    263.3,
+    263.74,
+    " takitlagan."
+   ]
+  ]
+ },
+ {
+  "start": 264.22,
+  "end": 266.06,
+  "text": "Malum boligan yagana anixsana,",
+  "words": [
+   [
+    264.22,
+    264.72,
+    " Malum"
+   ],
+   [
+    264.72,
+    265.02,
+    " boligan"
+   ],
+   [
+    265.02,
+    265.52,
+    " yagana"
+   ],
+   [
+    265.52,
+    266.06,
+    " anixsana,"
+   ]
+  ]
+ },
+ {
+  "start": 266.22,
+  "end": 270.7,
+  "text": "2027-chi yil, yani 6 yashli balilarini toliq qamra balish reycasi.",
+  "words": [
+   [
+    266.22,
+    267.0,
+    " 2027"
+   ],
+   [
+    267.0,
+    267.42,
+    "-chi"
+   ],
+   [
+    267.42,
+    267.66,
+    " yil,"
+   ],
+   [
+    267.7,
+    268.08,
+    " yani"
+   ],
+   [
+    268.08,
+    268.52,
+    " 6"
+   ],
+   [
+    268.52,
+    268.9,
+    " yashli"
+   ],
+   [
+    268.9,
+    269.38,
+    " balilarini"
+   ],
+   [
+    269.38,
+    269.76,
+    " toliq"
+   ],
+   [
+    269.76,
+    270.08,
+    " qamra"
+   ],
+   [
+    270.08,
+    270.36,
+    " balish"
+   ],
+   [
+    270.36,
+    270.7,
+    " reycasi."
+   ]
+  ]
+ },
+ {
+  "start": 270.94,
+  "end": 273.86,
+  "text": "Shuring uchun, hazir ota anilar uchun eng togri yol,",
+  "words": [
+   [
+    270.94,
+    271.56,
+    " Shuring"
+   ],
+   [
+    271.56,
+    271.82,
+    " uchun,"
+   ],
+   [
+    271.82,
+    272.22,
+    " hazir"
+   ],
+   [
+    272.22,
+    272.44,
+    " ota"
+   ],
+   [
+    272.44,
+    272.72,
+    " anilar"
+   ],
+   [
+    272.72,
+    273.02,
+    " uchun"
+   ],
+   [
+    273.02,
+    273.28,
+    " eng"
+   ],
+   [
+    273.28,
+    273.66,
+    " togri"
+   ],
+   [
+    273.66,
+    273.86,
+    " yol,"
+   ]
+  ]
+ },
+ {
+  "start": 274.0,
+  "end": 277.46,
+  "text": "mish-mishlar geymaz, senat qarari va rasmi eylanlarga tayanish.",
+  "words": [
+   [
+    274.0,
+    274.3,
+    " mish"
+   ],
+   [
+    274.3,
+    274.54,
+    "-mishlar"
+   ],
+   [
+    274.54,
+    275.0,
+    " geymaz,"
+   ],
+   [
+    275.06,
+    275.68,
+    " senat"
+   ],
+   [
+    275.68,
+    276.02,
+    " qarari"
+   ],
+   [
+    276.02,
+    276.12,
+    " va"
+   ],
+   [
+    276.12,
+    276.44,
+    " rasmi"
+   ],
+   [
+    276.44,
+    277.1,
+    " eylanlarga"
+   ],
+   [
+    277.1,
+    277.46,
+    " tayanish."
+   ]
+  ]
+ },
+ {
+  "start": 277.62,
+  "end": 279.44,
+  "text": "Yana iki saval axiq qolmakti.",
+  "words": [
+   [
+    277.62,
+    278.24,
+    " Yana"
+   ],
+   [
+    278.24,
+    278.36,
+    " iki"
+   ],
+   [
+    278.36,
+    278.7,
+    " saval"
+   ],
+   [
+    278.7,
+    279.0,
+    " axiq"
+   ],
+   [
+    279.0,
+    279.44,
+    " qolmakti."
+   ]
+  ]
+ },
+ {
+  "start": 279.44,
+  "end": 282.06,
+  "text": "Yigribamin yangi orin oz vaqtida yaradiladi mi?",
+  "words": [
+   [
+    279.44,
+    280.3,
+    " Yigribamin"
+   ],
+   [
+    280.3,
+    280.6,
+    " yangi"
+   ],
+   [
+    280.6,
+    280.9,
+    " orin"
+   ],
+   [
+    280.9,
+    281.12,
+    " oz"
+   ],
+   [
+    281.12,
+    281.42,
+    " vaqtida"
+   ],
+   [
+    281.42,
+    281.96,
+    " yaradiladi"
+   ],
+   [
+    281.96,
+    282.06,
+    " mi?"
+   ]
+  ]
+ },
+ {
+  "start": 282.12,
+  "end": 285.44,
+  "text": "Va, baxchilardagi tayyarlov sifati maktabdagidan qalishmaydi mi?",
+  "words": [
+   [
+    282.12,
+    282.44,
+    " Va,"
+   ],
+   [
+    282.52,
+    283.34,
+    " baxchilardagi"
+   ],
+   [
+    283.34,
+    283.84,
+    " tayyarlov"
+   ],
+   [
+    283.84,
+    284.14,
+    " sifati"
+   ],
+   [
+    284.14,
+    284.84,
+    " maktabdagidan"
+   ],
+   [
+    284.84,
+    285.3,
+    " qalishmaydi"
+   ],
+   [
+    285.3,
+    285.44,
+    " mi?"
+   ]
+  ]
+ },
+ {
+  "start": 285.78,
+  "end": 288.04,
+  "text": "Bu savalarga qazdagi qanun emas,",
+  "words": [
+   [
+    285.78,
+    286.02,
+    " Bu"
+   ],
+   [
+    286.02,
+    286.54,
+    " savalarga"
+   ],
+   [
+    286.54,
+    287.32,
+    " qazdagi"
+   ],
+   [
+    287.32,
+    287.72,
+    " qanun"
+   ],
+   [
+    287.72,
+    288.04,
+    " emas,"
+   ]
+  ]
+ },
+ {
+  "start": 288.14,
+  "end": 290.36,
+  "text": "unin amalda qanda ishlashi jawab beradi.",
+  "words": [
+   [
+    288.14,
+    288.46,
+    " unin"
+   ],
+   [
+    288.46,
+    288.94,
+    " amalda"
+   ],
+   [
+    288.94,
+    289.3,
+    " qanda"
+   ],
+   [
+    289.3,
+    289.82,
+    " ishlashi"
+   ],
+   [
+    289.82,
+    290.08,
+    " jawab"
+   ],
+   [
+    290.08,
+    290.36,
+    " beradi."
+   ]
+  ]
+ },
+ {
+  "start": 290.56,
+  "end": 295.0,
+  "text": "Xulasa xilsek, Uzbekistan farzantlarimizni 12-ci sinifkechi oqitmaqchi emas.",
+  "words": [
+   [
+    290.56,
+    291.28,
+    " Xulasa"
+   ],
+   [
+    291.28,
+    291.64,
+    " xilsek,"
+   ],
+   [
+    291.74,
+    292.42,
+    " Uzbekistan"
+   ],
+   [
+    292.42,
+    293.22,
+    " farzantlarimizni"
+   ],
+   [
+    293.22,
+    293.46,
+    " 12"
+   ],
+   [
+    293.46,
+    293.76,
+    "-ci"
+   ],
+   [
+    293.76,
+    294.1,
+    " sinifkechi"
+   ],
+   [
+    294.1,
+    294.68,
+    " oqitmaqchi"
+   ],
+   [
+    294.68,
+    295.0,
+    " emas."
+   ]
+  ]
+ },
+ {
+  "start": 295.14,
+  "end": 298.38,
+  "text": "U, bala maktab astanasi ge qadam koyishtan aldingi biriyilini",
+  "words": [
+   [
+    295.14,
+    295.48,
+    " U,"
+   ],
+   [
+    295.62,
+    296.12,
+    " bala"
+   ],
+   [
+    296.12,
+    296.5,
+    " maktab"
+   ],
+   [
+    296.5,
+    296.86,
+    " astanasi"
+   ],
+   [
+    296.86,
+    297.0,
+    " ge"
+   ],
+   [
+    297.0,
+    297.22,
+    " qadam"
+   ],
+   [
+    297.22,
+    297.58,
+    " koyishtan"
+   ],
+   [
+    297.58,
+    298.0,
+    " aldingi"
+   ],
+   [
+    298.0,
+    298.38,
+    " biriyilini"
+   ]
+  ]
+ },
+ {
+  "start": 298.38,
+  "end": 300.96,
+  "text": "talin tizminin rasmi basxishiga eylan turmakti.",
+  "words": [
+   [
+    298.38,
+    299.02,
+    " talin"
+   ],
+   [
+    299.02,
+    299.46,
+    " tizminin"
+   ],
+   [
+    299.46,
+    299.84,
+    " rasmi"
+   ],
+   [
+    299.84,
+    300.38,
+    " basxishiga"
+   ],
+   [
+    300.38,
+    300.56,
+    " eylan"
+   ],
+   [
+    300.56,
+    300.96,
+    " turmakti."
+   ]
+  ]
+ },
+ {
+  "start": 301.1,
+  "end": 304.44,
+  "text": "Gaya anix, balilar maktabka tayyar raq gilsin,",
+  "words": [
+   [
+    301.1,
+    301.72,
+    " Gaya"
+   ],
+   [
+    301.72,
+    302.12,
+    " anix,"
+   ],
+   [
+    302.32,
+    302.92,
+    " balilar"
+   ],
+   [
+    302.92,
+    303.44,
+    " maktabka"
+   ],
+   [
+    303.44,
+    303.86,
+    " tayyar"
+   ],
+   [
+    303.86,
+    304.06,
+    " raq"
+   ],
+   [
+    304.06,
+    304.44,
+    " gilsin,"
+   ]
+  ]
+ },
+ {
+  "start": 304.48,
+  "end": 307.44,
+  "text": "bitir uchilarinin atistati isa duniyada tan alinsin.",
+  "words": [
+   [
+    304.48,
+    304.94,
+    " bitir"
+   ],
+   [
+    304.94,
+    305.34,
+    " uchilarinin"
+   ],
+   [
+    305.34,
+    305.84,
+    " atistati"
+   ],
+   [
+    305.84,
+    306.06,
+    " isa"
+   ],
+   [
+    306.06,
+    306.7,
+    " duniyada"
+   ],
+   [
+    306.7,
+    306.96,
+    " tan"
+   ],
+   [
+    306.96,
+    307.44,
+    " alinsin."
+   ]
+  ]
+ },
+ {
+  "start": 307.44,
+  "end": 310.26,
+  "text": "Lekin, har qanda islakhat, sinif khanasi da,",
+  "words": [
+   [
+    307.44,
+    308.28,
+    " Lekin,"
+   ],
+   [
+    308.28,
+    308.5,
+    " har"
+   ],
+   [
+    308.5,
+    308.78,
+    " qanda"
+   ],
+   [
+    308.78,
+    309.3,
+    " islakhat,"
+   ],
+   [
+    309.34,
+    309.84,
+    " sinif"
+   ],
+   [
+    309.84,
+    310.1,
+    " khanasi"
+   ],
+   [
+    310.1,
+    310.26,
+    " da,"
+   ]
+  ]
+ },
+ {
+  "start": 310.34,
+  "end": 313.1,
+  "text": "tarbiachi va oxtu uchi mehnati da sinabdan otada.",
+  "words": [
+   [
+    310.34,
+    310.96,
+    " tarbiachi"
+   ],
+   [
+    310.96,
+    311.14,
+    " va"
+   ],
+   [
+    311.14,
+    311.54,
+    " oxtu"
+   ],
+   [
+    311.54,
+    311.66,
+    " uchi"
+   ],
+   [
+    311.66,
+    312.04,
+    " mehnati"
+   ],
+   [
+    312.04,
+    312.18,
+    " da"
+   ],
+   [
+    312.18,
+    312.82,
+    " sinabdan"
+   ],
+   [
+    312.82,
+    313.1,
+    " otada."
+   ]
+  ]
+ },
+ {
+  "start": 313.28,
+  "end": 314.66,
+  "text": "Siz qanda yo ilaysiz?",
+  "words": [
+   [
+    313.28,
+    313.86,
+    " Siz"
+   ],
+   [
+    313.86,
+    314.18,
+    " qanda"
+   ],
+   [
+    314.18,
+    314.32,
+    " yo"
+   ],
+   [
+    314.32,
+    314.66,
+    " ilaysiz?"
+   ]
+  ]
+ },
+ {
+  "start": 314.82,
+  "end": 319.22,
+  "text": "Alti yashli bala uchun tayyarlov yili baxchida otkani yakshi mi, ya ki maktabda mi?",
+  "words": [
+   [
+    314.82,
+    315.34,
+    " Alti"
+   ],
+   [
+    315.34,
+    315.74,
+    " yashli"
+   ],
+   [
+    315.74,
+    316.04,
+    " bala"
+   ],
+   [
+    316.04,
+    316.28,
+    " uchun"
+   ],
+   [
+    316.28,
+    316.88,
+    " tayyarlov"
+   ],
+   [
+    316.88,
+    317.06,
+    " yili"
+   ],
+   [
+    317.06,
+    317.58,
+    " baxchida"
+   ],
+   [
+    317.58,
+    317.96,
+    " otkani"
+   ],
+   [
+    317.96,
+    318.22,
+    " yakshi"
+   ],
+   [
+    318.22,
+    318.3,
+    " mi,"
+   ],
+   [
+    318.34,
+    318.48,
+    " ya"
+   ],
+   [
+    318.48,
+    318.62,
+    " ki"
+   ],
+   [
+    318.62,
+    319.08,
+    " maktabda"
+   ],
+   [
+    319.08,
+    319.22,
+    " mi?"
+   ]
+  ]
+ },
+ {
+  "start": 319.4,
+  "end": 321.58,
+  "text": "Oz fikiringizini izaxlarida yazib qaldirin.",
+  "words": [
+   [
+    319.4,
+    319.82,
+    " Oz"
+   ],
+   [
+    319.82,
+    320.42,
+    " fikiringizini"
+   ],
+   [
+    320.42,
+    321.0,
+    " izaxlarida"
+   ],
+   [
+    321.0,
+    321.26,
+    " yazib"
+   ],
+   [
+    321.26,
+    321.58,
+    " qaldirin."
+   ]
+  ]
+ },
+ {
+  "start": 321.68,
+  "end": 324.86,
+  "text": "Agar farzandingiz yakin yillarda maktabke chikadigan bolsa,",
+  "words": [
+   [
+    321.68,
+    322.32,
+    " Agar"
+   ],
+   [
+    322.32,
+    323.04,
+    " farzandingiz"
+   ],
+   [
+    323.04,
+    323.36,
+    " yakin"
+   ],
+   [
+    323.36,
+    323.74,
+    " yillarda"
+   ],
+   [
+    323.74,
+    324.24,
+    " maktabke"
+   ],
+   [
+    324.24,
+    324.56,
+    " chikadigan"
+   ],
+   [
+    324.56,
+    324.86,
+    " bolsa,"
+   ]
+  ]
+ },
+ {
+  "start": 324.98,
+  "end": 327.82,
+  "text": "kaysi saval sizni koprak qiniyotkanini xamiyazin.",
+  "words": [
+   [
+    324.98,
+    325.64,
+    " kaysi"
+   ],
+   [
+    325.64,
+    325.92,
+    " saval"
+   ],
+   [
+    325.92,
+    326.26,
+    " sizni"
+   ],
+   [
+    326.26,
+    326.64,
+    " koprak"
+   ],
+   [
+    326.64,
+    327.36,
+    " qiniyotkanini"
+   ],
+   [
+    327.36,
+    327.82,
+    " xamiyazin."
+   ]
+  ]
+ }
+]
