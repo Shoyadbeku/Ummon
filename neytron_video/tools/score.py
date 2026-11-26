@@ -140,7 +140,7 @@ def main():
     e = env_follow(v, 250)
     e = e / (e.max() + 1e-9)
     duck = 1 - 0.55 * np.clip(e * 6, 0, 1)
-    music_gain = 10 ** (-17 / 20)  # music sits well below the narration
+    music_gain = 10 ** (-6 / 20)  # bed sits ~18 dB below the narration
     L *= duck * music_gain
     R *= duck * music_gain
 
@@ -150,8 +150,9 @@ def main():
     L *= fi * fo
     R *= fi * fo
 
-    outL = L + v
-    outR = R + v
+    vg = 10 ** (-0.9 / 20)  # mono voice on both channels → trim to ~-14 LUFS master
+    outL = L + v * vg
+    outR = R + v * vg
     peak = max(np.abs(outL).max(), np.abs(outR).max())
     if peak > 0.97:
         outL /= peak / 0.97

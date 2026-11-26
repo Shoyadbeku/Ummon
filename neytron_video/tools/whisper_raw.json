@@ -1,0 +1,9108 @@
+[
+ {
+  "start": 0.0,
+  "end": 4.4,
+  "text": "Kimchen innin qorongisirlari, akasinin olimi wa xoqimiyat uchun kurash.",
+  "words": [
+   {
+    "w": " Kimchen",
+    "s": 0.0,
+    "e": 0.36
+   },
+   {
+    "w": " innin",
+    "s": 0.36,
+    "e": 0.78
+   },
+   {
+    "w": " qorongisirlari,",
+    "s": 0.78,
+    "e": 1.64
+   },
+   {
+    "w": " akasinin",
+    "s": 1.72,
+    "e": 2.4
+   },
+   {
+    "w": " olimi",
+    "s": 2.4,
+    "e": 2.82
+   },
+   {
+    "w": " wa",
+    "s": 2.82,
+    "e": 3.14
+   },
+   {
+    "w": " xoqimiyat",
+    "s": 3.14,
+    "e": 3.82
+   },
+   {
+    "w": " uchun",
+    "s": 3.82,
+    "e": 4.1
+   },
+   {
+    "w": " kurash.",
+    "s": 4.1,
+    "e": 4.4
+   }
+  ]
+ },
+ {
+  "start": 5.1,
+  "end": 8.26,
+  "text": "2017-ci il 13-ci fevral, Malaysia.",
+  "words": [
+   {
+    "w": " 2017",
+    "s": 5.1,
+    "e": 5.82
+   },
+   {
+    "w": "-ci",
+    "s": 5.82,
+    "e": 6.46
+   },
+   {
+    "w": " il",
+    "s": 6.46,
+    "e": 6.68
+   },
+   {
+    "w": " 13",
+    "s": 6.68,
+    "e": 6.98
+   },
+   {
+    "w": "-ci",
+    "s": 6.98,
+    "e": 7.3
+   },
+   {
+    "w": " fevral,",
+    "s": 7.3,
+    "e": 7.6
+   },
+   {
+    "w": " Malaysia.",
+    "s": 7.72,
+    "e": 8.26
+   }
+  ]
+ },
+ {
+  "start": 8.6,
+  "end": 10.74,
+  "text": "Kuala Lumpur halkara aeroporti.",
+  "words": [
+   {
+    "w": " Kuala",
+    "s": 8.6,
+    "e": 9.32
+   },
+   {
+    "w": " Lumpur",
+    "s": 9.32,
+    "e": 9.72
+   },
+   {
+    "w": " halkara",
+    "s": 9.72,
+    "e": 10.1
+   },
+   {
+    "w": " aeroporti.",
+    "s": 10.1,
+    "e": 10.74
+   }
+  ]
+ },
+ {
+  "start": 11.32,
+  "end": 15.8,
+  "text": "Ertelabki saatlarda aeroportta adatta gidik minlab yolochilar xaragatlan moqta.",
+  "words": [
+   {
+    "w": " Ertelabki",
+    "s": 11.32,
+    "e": 12.04
+   },
+   {
+    "w": " saatlarda",
+    "s": 12.04,
+    "e": 12.48
+   },
+   {
+    "w": " aeroportta",
+    "s": 12.48,
+    "e": 13.26
+   },
+   {
+    "w": " adatta",
+    "s": 13.26,
+    "e": 13.62
+   },
+   {
+    "w": " gidik",
+    "s": 13.62,
+    "e": 13.98
+   },
+   {
+    "w": " minlab",
+    "s": 13.98,
+    "e": 14.5
+   },
+   {
+    "w": " yolochilar",
+    "s": 14.5,
+    "e": 15.0
+   },
+   {
+    "w": " xaragatlan",
+    "s": 15.0,
+    "e": 15.54
+   },
+   {
+    "w": " moqta.",
+    "s": 15.54,
+    "e": 15.8
+   }
+  ]
+ },
+ {
+  "start": 15.94,
+  "end": 19.24,
+  "text": "Kimdir samaliyotka shashil moqta, kimdir royxat tanot moqta.",
+  "words": [
+   {
+    "w": " Kimdir",
+    "s": 15.94,
+    "e": 16.66
+   },
+   {
+    "w": " samaliyotka",
+    "s": 16.66,
+    "e": 17.22
+   },
+   {
+    "w": " shashil",
+    "s": 17.22,
+    "e": 17.56
+   },
+   {
+    "w": " moqta,",
+    "s": 17.56,
+    "e": 17.8
+   },
+   {
+    "w": " kimdir",
+    "s": 17.92,
+    "e": 18.36
+   },
+   {
+    "w": " royxat",
+    "s": 18.36,
+    "e": 18.72
+   },
+   {
+    "w": " tanot",
+    "s": 18.72,
+    "e": 18.98
+   },
+   {
+    "w": " moqta.",
+    "s": 18.98,
+    "e": 19.24
+   }
+  ]
+ },
+ {
+  "start": 19.92,
+  "end": 22.96,
+  "text": "Shupayit bir erkek aeroport terminali boylab yorub boradi.",
+  "words": [
+   {
+    "w": " Shupayit",
+    "s": 19.92,
+    "e": 20.64
+   },
+   {
+    "w": " bir",
+    "s": 20.64,
+    "e": 20.78
+   },
+   {
+    "w": " erkek",
+    "s": 20.78,
+    "e": 21.06
+   },
+   {
+    "w": " aeroport",
+    "s": 21.06,
+    "e": 21.7
+   },
+   {
+    "w": " terminali",
+    "s": 21.7,
+    "e": 22.24
+   },
+   {
+    "w": " boylab",
+    "s": 22.24,
+    "e": 22.48
+   },
+   {
+    "w": " yorub",
+    "s": 22.48,
+    "e": 22.7
+   },
+   {
+    "w": " boradi.",
+    "s": 22.7,
+    "e": 22.96
+   }
+  ]
+ },
+ {
+  "start": 23.08,
+  "end": 25.36,
+  "text": "Tosattan unge iki ayol yakinlashadi.",
+  "words": [
+   {
+    "w": " Tosattan",
+    "s": 23.08,
+    "e": 23.8
+   },
+   {
+    "w": " unge",
+    "s": 23.8,
+    "e": 24.1
+   },
+   {
+    "w": " iki",
+    "s": 24.1,
+    "e": 24.36
+   },
+   {
+    "w": " ayol",
+    "s": 24.36,
+    "e": 24.78
+   },
+   {
+    "w": " yakinlashadi.",
+    "s": 24.78,
+    "e": 25.36
+   }
+  ]
+ },
+ {
+  "start": 25.76,
+  "end": 28.28,
+  "text": "Ayollardan biri unim yüzügi kollarini tek gizadi.",
+  "words": [
+   {
+    "w": " Ayollardan",
+    "s": 25.76,
+    "e": 26.48
+   },
+   {
+    "w": " biri",
+    "s": 26.48,
+    "e": 26.7
+   },
+   {
+    "w": " unim",
+    "s": 26.7,
+    "e": 26.98
+   },
+   {
+    "w": " yüzügi",
+    "s": 26.98,
+    "e": 27.22
+   },
+   {
+    "w": " kollarini",
+    "s": 27.22,
+    "e": 27.8
+   },
+   {
+    "w": " tek",
+    "s": 27.8,
+    "e": 27.98
+   },
+   {
+    "w": " gizadi.",
+    "s": 27.98,
+    "e": 28.28
+   }
+  ]
+ },
+ {
+  "start": 28.28,
+  "end": 30.62,
+  "text": "Xammasi bir nechi saniyechidi sadur boladi.",
+  "words": [
+   {
+    "w": " Xammasi",
+    "s": 28.28,
+    "e": 29.28
+   },
+   {
+    "w": " bir",
+    "s": 29.28,
+    "e": 29.36
+   },
+   {
+    "w": " nechi",
+    "s": 29.36,
+    "e": 29.6
+   },
+   {
+    "w": " saniyechidi",
+    "s": 29.6,
+    "e": 30.08
+   },
+   {
+    "w": " sadur",
+    "s": 30.08,
+    "e": 30.38
+   },
+   {
+    "w": " boladi.",
+    "s": 30.38,
+    "e": 30.62
+   }
+  ]
+ },
+ {
+  "start": 31.08,
+  "end": 32.94,
+  "text": "Erkek daslabdimi bolganini qushunmaydi.",
+  "words": [
+   {
+    "w": " Erkek",
+    "s": 31.08,
+    "e": 31.5
+   },
+   {
+    "w": " daslabdimi",
+    "s": 31.5,
+    "e": 32.02
+   },
+   {
+    "w": " bolganini",
+    "s": 32.02,
+    "e": 32.48
+   },
+   {
+    "w": " qushunmaydi.",
+    "s": 32.48,
+    "e": 32.94
+   }
+  ]
+ },
+ {
+  "start": 33.02,
+  "end": 36.26,
+  "text": "Amma kop otmay, uning akhvali yomanlasha boshlaydi.",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 33.02,
+    "e": 33.62
+   },
+   {
+    "w": " kop",
+    "s": 33.62,
+    "e": 33.92
+   },
+   {
+    "w": " otmay,",
+    "s": 33.92,
+    "e": 34.34
+   },
+   {
+    "w": " uning",
+    "s": 34.4,
+    "e": 34.86
+   },
+   {
+    "w": " akhvali",
+    "s": 34.86,
+    "e": 35.42
+   },
+   {
+    "w": " yomanlasha",
+    "s": 35.42,
+    "e": 35.84
+   },
+   {
+    "w": " boshlaydi.",
+    "s": 35.84,
+    "e": 36.26
+   }
+  ]
+ },
+ {
+  "start": 36.5,
+  "end": 38.7,
+  "text": "U aeroport khadimlardan yordam soraydi.",
+  "words": [
+   {
+    "w": " U",
+    "s": 36.5,
+    "e": 37.04
+   },
+   {
+    "w": " aeroport",
+    "s": 37.04,
+    "e": 37.52
+   },
+   {
+    "w": " khadimlardan",
+    "s": 37.52,
+    "e": 37.94
+   },
+   {
+    "w": " yordam",
+    "s": 37.94,
+    "e": 38.4
+   },
+   {
+    "w": " soraydi.",
+    "s": 38.4,
+    "e": 38.7
+   }
+  ]
+ },
+ {
+  "start": 38.88,
+  "end": 40.76,
+  "text": "Shifakarlar unu qutqarishki ulgurmaydi.",
+  "words": [
+   {
+    "w": " Shifakarlar",
+    "s": 38.88,
+    "e": 39.66
+   },
+   {
+    "w": " unu",
+    "s": 39.66,
+    "e": 39.8
+   },
+   {
+    "w": " qutqarishki",
+    "s": 39.8,
+    "e": 40.3
+   },
+   {
+    "w": " ulgurmaydi.",
+    "s": 40.3,
+    "e": 40.76
+   }
+  ]
+ },
+ {
+  "start": 40.94,
+  "end": 42.34,
+  "text": "Erkek wafat yedadi.",
+  "words": [
+   {
+    "w": " Erkek",
+    "s": 40.94,
+    "e": 41.58
+   },
+   {
+    "w": " wafat",
+    "s": 41.58,
+    "e": 42.1
+   },
+   {
+    "w": " yedadi.",
+    "s": 42.1,
+    "e": 42.34
+   }
+  ]
+ },
+ {
+  "start": 43.22,
+  "end": 45.44,
+  "text": "Daslab bu addi qatillik taytiyunishi mumkun yedi.",
+  "words": [
+   {
+    "w": " Daslab",
+    "s": 43.22,
+    "e": 43.64
+   },
+   {
+    "w": " bu",
+    "s": 43.64,
+    "e": 43.74
+   },
+   {
+    "w": " addi",
+    "s": 43.74,
+    "e": 44.06
+   },
+   {
+    "w": " qatillik",
+    "s": 44.06,
+    "e": 44.6
+   },
+   {
+    "w": " taytiyunishi",
+    "s": 44.6,
+    "e": 45.0
+   },
+   {
+    "w": " mumkun",
+    "s": 45.0,
+    "e": 45.3
+   },
+   {
+    "w": " yedi.",
+    "s": 45.3,
+    "e": 45.44
+   }
+  ]
+ },
+ {
+  "start": 45.56,
+  "end": 47.96,
+  "text": "Amma palitsi uning shaksini anqilagani di,",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 45.56,
+    "e": 46.24
+   },
+   {
+    "w": " palitsi",
+    "s": 46.24,
+    "e": 46.62
+   },
+   {
+    "w": " uning",
+    "s": 46.62,
+    "e": 46.9
+   },
+   {
+    "w": " shaksini",
+    "s": 46.9,
+    "e": 47.32
+   },
+   {
+    "w": " anqilagani",
+    "s": 47.32,
+    "e": 47.8
+   },
+   {
+    "w": " di,",
+    "s": 47.8,
+    "e": 47.96
+   }
+  ]
+ },
+ {
+  "start": 48.02,
+  "end": 50.5,
+  "text": "butun duniya etibari Malaysia ki qiradildi.",
+  "words": [
+   {
+    "w": " butun",
+    "s": 48.02,
+    "e": 48.54
+   },
+   {
+    "w": " duniya",
+    "s": 48.54,
+    "e": 48.9
+   },
+   {
+    "w": " etibari",
+    "s": 48.9,
+    "e": 49.42
+   },
+   {
+    "w": " Malaysia",
+    "s": 49.42,
+    "e": 49.74
+   },
+   {
+    "w": " ki",
+    "s": 49.74,
+    "e": 50.04
+   },
+   {
+    "w": " qiradildi.",
+    "s": 50.04,
+    "e": 50.5
+   }
+  ]
+ },
+ {
+  "start": 50.78,
+  "end": 53.38,
+  "text": "Chunki oldiralgan insan shumali karey raqbari",
+  "words": [
+   {
+    "w": " Chunki",
+    "s": 50.78,
+    "e": 51.2
+   },
+   {
+    "w": " oldiralgan",
+    "s": 51.2,
+    "e": 51.76
+   },
+   {
+    "w": " insan",
+    "s": 51.76,
+    "e": 52.08
+   },
+   {
+    "w": " shumali",
+    "s": 52.08,
+    "e": 52.58
+   },
+   {
+    "w": " karey",
+    "s": 52.58,
+    "e": 52.96
+   },
+   {
+    "w": " raqbari",
+    "s": 52.96,
+    "e": 53.38
+   }
+  ]
+ },
+ {
+  "start": 53.38,
+  "end": 56.04,
+  "text": "kimchen inning akasri, kimchen nam yedi.",
+  "words": [
+   {
+    "w": " kimchen",
+    "s": 53.38,
+    "e": 54.02
+   },
+   {
+    "w": " inning",
+    "s": 54.02,
+    "e": 54.46
+   },
+   {
+    "w": " akasri,",
+    "s": 54.46,
+    "e": 54.98
+   },
+   {
+    "w": " kimchen",
+    "s": 55.04,
+    "e": 55.6
+   },
+   {
+    "w": " nam",
+    "s": 55.6,
+    "e": 55.84
+   },
+   {
+    "w": " yedi.",
+    "s": 55.84,
+    "e": 56.04
+   }
+  ]
+ },
+ {
+  "start": 56.2,
+  "end": 57.34,
+  "text": "En xayratlanarlisi,",
+  "words": [
+   {
+    "w": " En",
+    "s": 56.2,
+    "e": 56.92
+   },
+   {
+    "w": " xayratlanarlisi,",
+    "s": 56.92,
+    "e": 57.34
+   }
+  ]
+ },
+ {
+  "start": 57.34,
+  "end": 60.26,
+  "text": "tergochilar uning tanasidi VX namli",
+  "words": [
+   {
+    "w": " tergochilar",
+    "s": 57.34,
+    "e": 58.52
+   },
+   {
+    "w": " uning",
+    "s": 58.52,
+    "e": 58.78
+   },
+   {
+    "w": " tanasidi",
+    "s": 58.78,
+    "e": 59.22
+   },
+   {
+    "w": " VX",
+    "s": 59.22,
+    "e": 59.9
+   },
+   {
+    "w": " namli",
+    "s": 59.9,
+    "e": 60.26
+   }
+  ]
+ },
+ {
+  "start": 60.26,
+  "end": 62.86,
+  "text": "otazaharli kimyavi madda zinaniqlashdi.",
+  "words": [
+   {
+    "w": " otazaharli",
+    "s": 60.26,
+    "e": 61.2
+   },
+   {
+    "w": " kimyavi",
+    "s": 61.2,
+    "e": 61.74
+   },
+   {
+    "w": " madda",
+    "s": 61.74,
+    "e": 62.18
+   },
+   {
+    "w": " zinaniqlashdi.",
+    "s": 62.18,
+    "e": 62.86
+   }
+  ]
+ },
+ {
+  "start": 63.16,
+  "end": 65.82,
+  "text": "Bu madda xalqara konventsalar bilan takiklangan",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 63.16,
+    "e": 63.58
+   },
+   {
+    "w": " madda",
+    "s": 63.58,
+    "e": 63.94
+   },
+   {
+    "w": " xalqara",
+    "s": 63.94,
+    "e": 64.32
+   },
+   {
+    "w": " konventsalar",
+    "s": 64.32,
+    "e": 64.94
+   },
+   {
+    "w": " bilan",
+    "s": 64.94,
+    "e": 65.22
+   },
+   {
+    "w": " takiklangan",
+    "s": 65.22,
+    "e": 65.82
+   }
+  ]
+ },
+ {
+  "start": 65.82,
+  "end": 67.7,
+  "text": "kimyavi qurallar qatarga keredi.",
+  "words": [
+   {
+    "w": " kimyavi",
+    "s": 65.82,
+    "e": 66.5
+   },
+   {
+    "w": " qurallar",
+    "s": 66.5,
+    "e": 67.02
+   },
+   {
+    "w": " qatarga",
+    "s": 67.02,
+    "e": 67.38
+   },
+   {
+    "w": " keredi.",
+    "s": 67.38,
+    "e": 67.7
+   }
+  ]
+ },
+ {
+  "start": 68.28,
+  "end": 70.12,
+  "text": "Amma sawallar shobilan tugemadi.",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 68.28,
+    "e": 68.7
+   },
+   {
+    "w": " sawallar",
+    "s": 68.7,
+    "e": 69.38
+   },
+   {
+    "w": " shobilan",
+    "s": 69.38,
+    "e": 69.74
+   },
+   {
+    "w": " tugemadi.",
+    "s": 69.74,
+    "e": 70.12
+   }
+  ]
+ },
+ {
+  "start": 70.52,
+  "end": 72.74,
+  "text": "Negi shumali karey raqbarinin akasi",
+  "words": [
+   {
+    "w": " Negi",
+    "s": 70.52,
+    "e": 71.2
+   },
+   {
+    "w": " shumali",
+    "s": 71.2,
+    "e": 71.58
+   },
+   {
+    "w": " karey",
+    "s": 71.58,
+    "e": 71.86
+   },
+   {
+    "w": " raqbarinin",
+    "s": 71.86,
+    "e": 72.32
+   },
+   {
+    "w": " akasi",
+    "s": 72.32,
+    "e": 72.74
+   }
+  ]
+ },
+ {
+  "start": 72.74,
+  "end": 74.88,
+  "text": "Malaysia di yashrincha xarekatlaniyot kenedi?",
+  "words": [
+   {
+    "w": " Malaysia",
+    "s": 72.74,
+    "e": 73.24
+   },
+   {
+    "w": " di",
+    "s": 73.24,
+    "e": 73.54
+   },
+   {
+    "w": " yashrincha",
+    "s": 73.54,
+    "e": 73.96
+   },
+   {
+    "w": " xarekatlaniyot",
+    "s": 73.96,
+    "e": 74.6
+   },
+   {
+    "w": " kenedi?",
+    "s": 74.6,
+    "e": 74.88
+   }
+  ]
+ },
+ {
+  "start": 75.32,
+  "end": 77.14,
+  "text": "Aeroportdagi ikki ayol kimyedi?",
+  "words": [
+   {
+    "w": " Aeroportdagi",
+    "s": 75.32,
+    "e": 76.16
+   },
+   {
+    "w": " ikki",
+    "s": 76.16,
+    "e": 76.54
+   },
+   {
+    "w": " ayol",
+    "s": 76.54,
+    "e": 76.86
+   },
+   {
+    "w": " kimyedi?",
+    "s": 76.86,
+    "e": 77.14
+   }
+  ]
+ },
+ {
+  "start": 77.32,
+  "end": 79.52,
+  "text": "Ular hakikattan xam qatillik rejastan",
+  "words": [
+   {
+    "w": " Ular",
+    "s": 77.32,
+    "e": 77.88
+   },
+   {
+    "w": " hakikattan",
+    "s": 77.88,
+    "e": 78.4
+   },
+   {
+    "w": " xam",
+    "s": 78.4,
+    "e": 78.68
+   },
+   {
+    "w": " qatillik",
+    "s": 78.68,
+    "e": 79.1
+   },
+   {
+    "w": " rejastan",
+    "s": 79.1,
+    "e": 79.52
+   }
+  ]
+ },
+ {
+  "start": 79.52,
+  "end": 80.38,
+  "text": "xabardar bolganmi?",
+  "words": [
+   {
+    "w": " xabardar",
+    "s": 79.52,
+    "e": 79.96
+   },
+   {
+    "w": " bolganmi?",
+    "s": 79.96,
+    "e": 80.38
+   }
+  ]
+ },
+ {
+  "start": 80.74,
+  "end": 83.28,
+  "text": "Va en mokhimi kimchen namning olimadan",
+  "words": [
+   {
+    "w": " Va",
+    "s": 80.74,
+    "e": 81.16
+   },
+   {
+    "w": " en",
+    "s": 81.16,
+    "e": 81.4
+   },
+   {
+    "w": " mokhimi",
+    "s": 81.4,
+    "e": 81.72
+   },
+   {
+    "w": " kimchen",
+    "s": 81.72,
+    "e": 82.4
+   },
+   {
+    "w": " namning",
+    "s": 82.4,
+    "e": 82.84
+   },
+   {
+    "w": " olimadan",
+    "s": 82.84,
+    "e": 83.28
+   }
+  ]
+ },
+ {
+  "start": 83.28,
+  "end": 84.24,
+  "text": "kim manfaat daridi?",
+  "words": [
+   {
+    "w": " kim",
+    "s": 83.28,
+    "e": 83.56
+   },
+   {
+    "w": " manfaat",
+    "s": 83.56,
+    "e": 83.98
+   },
+   {
+    "w": " daridi?",
+    "s": 83.98,
+    "e": 84.24
+   }
+  ]
+ },
+ {
+  "start": 84.88,
+  "end": 86.76,
+  "text": "Bugun biz shumali karey yadagi",
+  "words": [
+   {
+    "w": " Bugun",
+    "s": 84.88,
+    "e": 85.72
+   },
+   {
+    "w": " biz",
+    "s": 85.72,
+    "e": 85.82
+   },
+   {
+    "w": " shumali",
+    "s": 85.82,
+    "e": 86.22
+   },
+   {
+    "w": " karey",
+    "s": 86.22,
+    "e": 86.52
+   },
+   {
+    "w": " yadagi",
+    "s": 86.52,
+    "e": 86.76
+   }
+  ]
+ },
+ {
+  "start": 86.76,
+  "end": 87.32,
+  "text": "xakimiyatda,",
+  "words": [
+   {
+    "w": " xakimiyatda,",
+    "s": 86.76,
+    "e": 87.32
+   }
+  ]
+ },
+ {
+  "start": 87.34,
+  "end": 87.9,
+  "text": "kimyat uchun kurash,",
+  "words": [
+   {
+    "w": " kimyat",
+    "s": 87.34,
+    "e": 87.34
+   },
+   {
+    "w": " uchun",
+    "s": 87.34,
+    "e": 87.58
+   },
+   {
+    "w": " kurash,",
+    "s": 87.58,
+    "e": 87.9
+   }
+  ]
+ },
+ {
+  "start": 88.06,
+  "end": 90.06,
+  "text": "kimlar ailesinin sirli tarixi",
+  "words": [
+   {
+    "w": " kimlar",
+    "s": 88.06,
+    "e": 88.62
+   },
+   {
+    "w": " ailesinin",
+    "s": 88.62,
+    "e": 89.04
+   },
+   {
+    "w": " sirli",
+    "s": 89.04,
+    "e": 89.46
+   },
+   {
+    "w": " tarixi",
+    "s": 89.46,
+    "e": 90.06
+   }
+  ]
+ },
+ {
+  "start": 90.06,
+  "end": 92.94,
+  "text": "va xalqara siyasattagi en shoushuli suikazlardan",
+  "words": [
+   {
+    "w": " va",
+    "s": 90.06,
+    "e": 90.46
+   },
+   {
+    "w": " xalqara",
+    "s": 90.46,
+    "e": 90.92
+   },
+   {
+    "w": " siyasattagi",
+    "s": 90.92,
+    "e": 91.54
+   },
+   {
+    "w": " en",
+    "s": 91.54,
+    "e": 91.78
+   },
+   {
+    "w": " shoushuli",
+    "s": 91.78,
+    "e": 92.38
+   },
+   {
+    "w": " suikazlardan",
+    "s": 92.38,
+    "e": 92.94
+   }
+  ]
+ },
+ {
+  "start": 92.94,
+  "end": 93.86,
+  "text": "birini korib chigamiz.",
+  "words": [
+   {
+    "w": " birini",
+    "s": 92.94,
+    "e": 93.28
+   },
+   {
+    "w": " korib",
+    "s": 93.28,
+    "e": 93.5
+   },
+   {
+    "w": " chigamiz.",
+    "s": 93.5,
+    "e": 93.86
+   }
+  ]
+ },
+ {
+  "start": 93.92,
+  "end": 95.98,
+  "text": "Bu vaqiya real hadisalar,",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 93.92,
+    "e": 94.48
+   },
+   {
+    "w": " vaqiya",
+    "s": 94.48,
+    "e": 94.86
+   },
+   {
+    "w": " real",
+    "s": 94.86,
+    "e": 95.36
+   },
+   {
+    "w": " hadisalar,",
+    "s": 95.36,
+    "e": 95.98
+   }
+  ]
+ },
+ {
+  "start": 96.14,
+  "end": 98.94,
+  "text": "sudjaryanlari va xalqara jurnalistik surushtirulargi",
+  "words": [
+   {
+    "w": " sudjaryanlari",
+    "s": 96.14,
+    "e": 97.1
+   },
+   {
+    "w": " va",
+    "s": 97.1,
+    "e": 97.22
+   },
+   {
+    "w": " xalqara",
+    "s": 97.22,
+    "e": 97.62
+   },
+   {
+    "w": " jurnalistik",
+    "s": 97.62,
+    "e": 98.34
+   },
+   {
+    "w": " surushtirulargi",
+    "s": 98.34,
+    "e": 98.94
+   }
+  ]
+ },
+ {
+  "start": 98.94,
+  "end": 99.46,
+  "text": "asoslanadi.",
+  "words": [
+   {
+    "w": " asoslanadi.",
+    "s": 98.94,
+    "e": 99.46
+   }
+  ]
+ },
+ {
+  "start": 99.94,
+  "end": 102.76,
+  "text": "1948-ci ildi karey yarimoralinin",
+  "words": [
+   {
+    "w": " 1948",
+    "s": 99.94,
+    "e": 100.7
+   },
+   {
+    "w": "-ci",
+    "s": 100.7,
+    "e": 101.5
+   },
+   {
+    "w": " ildi",
+    "s": 101.5,
+    "e": 101.8
+   },
+   {
+    "w": " karey",
+    "s": 101.8,
+    "e": 102.16
+   },
+   {
+    "w": " yarimoralinin",
+    "s": 102.16,
+    "e": 102.76
+   }
+  ]
+ },
+ {
+  "start": 102.76,
+  "end": 104.42,
+  "text": "shumali qismidi karey xalq",
+  "words": [
+   {
+    "w": " shumali",
+    "s": 102.76,
+    "e": 103.16
+   },
+   {
+    "w": " qismidi",
+    "s": 103.16,
+    "e": 103.5
+   },
+   {
+    "w": " karey",
+    "s": 103.5,
+    "e": 104.06
+   },
+   {
+    "w": " xalq",
+    "s": 104.06,
+    "e": 104.42
+   }
+  ]
+ },
+ {
+  "start": 104.42,
+  "end": 106.08,
+  "text": "demokratik respublikasi tashkil tabdi.",
+  "words": [
+   {
+    "w": " demokratik",
+    "s": 104.42,
+    "e": 104.98
+   },
+   {
+    "w": " respublikasi",
+    "s": 104.98,
+    "e": 105.46
+   },
+   {
+    "w": " tashkil",
+    "s": 105.46,
+    "e": 105.82
+   },
+   {
+    "w": " tabdi.",
+    "s": 105.82,
+    "e": 106.08
+   }
+  ]
+ },
+ {
+  "start": 106.22,
+  "end": 108.38,
+  "text": "Uning birinchi raqbari Kim Irsen edi.",
+  "words": [
+   {
+    "w": " Uning",
+    "s": 106.22,
+    "e": 106.8
+   },
+   {
+    "w": " birinchi",
+    "s": 106.8,
+    "e": 107.08
+   },
+   {
+    "w": " raqbari",
+    "s": 107.08,
+    "e": 107.42
+   },
+   {
+    "w": " Kim",
+    "s": 107.42,
+    "e": 107.82
+   },
+   {
+    "w": " Irsen",
+    "s": 107.82,
+    "e": 108.14
+   },
+   {
+    "w": " edi.",
+    "s": 108.14,
+    "e": 108.38
+   }
+  ]
+ },
+ {
+  "start": 108.48,
+  "end": 110.54,
+  "text": "U memleketde kuchli markezlashkan",
+  "words": [
+   {
+    "w": " U",
+    "s": 108.48,
+    "e": 109.02
+   },
+   {
+    "w": " memleketde",
+    "s": 109.02,
+    "e": 109.56
+   },
+   {
+    "w": " kuchli",
+    "s": 109.56,
+    "e": 109.86
+   },
+   {
+    "w": " markezlashkan",
+    "s": 109.86,
+    "e": 110.54
+   }
+  ]
+ },
+ {
+  "start": 110.54,
+  "end": 111.56,
+  "text": "siyositizm yaraddi.",
+  "words": [
+   {
+    "w": " siyositizm",
+    "s": 110.54,
+    "e": 111.2
+   },
+   {
+    "w": " yaraddi.",
+    "s": 111.2,
+    "e": 111.56
+   }
+  ]
+ },
+ {
+  "start": 111.76,
+  "end": 114.54,
+  "text": "1994-ci ildi Kim Irsen",
+  "words": [
+   {
+    "w": " 1994",
+    "s": 111.76,
+    "e": 112.52
+   },
+   {
+    "w": "-ci",
+    "s": 112.52,
+    "e": 113.48
+   },
+   {
+    "w": " ildi",
+    "s": 113.48,
+    "e": 113.82
+   },
+   {
+    "w": " Kim",
+    "s": 113.82,
+    "e": 114.08
+   },
+   {
+    "w": " Irsen",
+    "s": 114.08,
+    "e": 114.54
+   }
+  ]
+ },
+ {
+  "start": 114.54,
+  "end": 116.58,
+  "text": "vafat etkaç, xakimiyat uning oğli",
+  "words": [
+   {
+    "w": " vafat",
+    "s": 114.54,
+    "e": 115.0
+   },
+   {
+    "w": " etkaç,",
+    "s": 115.0,
+    "e": 115.32
+   },
+   {
+    "w": " xakimiyat",
+    "s": 115.46,
+    "e": 116.14
+   },
+   {
+    "w": " uning",
+    "s": 116.14,
+    "e": 116.32
+   },
+   {
+    "w": " oğli",
+    "s": 116.32,
+    "e": 116.58
+   }
+  ]
+ },
+ {
+  "start": 116.58,
+  "end": 117.32,
+  "text": "Kim Chen Ersen,",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 116.58,
+    "e": 116.8
+   },
+   {
+    "w": " Chen",
+    "s": 116.8,
+    "e": 117.08
+   },
+   {
+    "w": " Ersen,",
+    "s": 117.08,
+    "e": 117.32
+   }
+  ]
+ },
+ {
+  "start": 117.34,
+  "end": 119.64,
+  "text": "shu tariqa shumali kareye de",
+  "words": [
+   {
+    "w": " shu",
+    "s": 117.34,
+    "e": 118.44
+   },
+   {
+    "w": " tariqa",
+    "s": 118.44,
+    "e": 118.76
+   },
+   {
+    "w": " shumali",
+    "s": 118.76,
+    "e": 119.14
+   },
+   {
+    "w": " kareye",
+    "s": 119.14,
+    "e": 119.48
+   },
+   {
+    "w": " de",
+    "s": 119.48,
+    "e": 119.64
+   }
+  ]
+ },
+ {
+  "start": 119.64,
+  "end": 122.14,
+  "text": "xakimiyat bir ailenin kiyingi avladi ge otdi.",
+  "words": [
+   {
+    "w": " xakimiyat",
+    "s": 119.64,
+    "e": 120.4
+   },
+   {
+    "w": " bir",
+    "s": 120.4,
+    "e": 120.56
+   },
+   {
+    "w": " ailenin",
+    "s": 120.56,
+    "e": 121.06
+   },
+   {
+    "w": " kiyingi",
+    "s": 121.06,
+    "e": 121.5
+   },
+   {
+    "w": " avladi",
+    "s": 121.5,
+    "e": 121.76
+   },
+   {
+    "w": " ge",
+    "s": 121.76,
+    "e": 121.92
+   },
+   {
+    "w": " otdi.",
+    "s": 121.92,
+    "e": 122.14
+   }
+  ]
+ },
+ {
+  "start": 122.68,
+  "end": 123.58,
+  "text": "Kim Chen Ersenin",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 122.68,
+    "e": 123.02
+   },
+   {
+    "w": " Chen",
+    "s": 123.02,
+    "e": 123.24
+   },
+   {
+    "w": " Ersenin",
+    "s": 123.24,
+    "e": 123.58
+   }
+  ]
+ },
+ {
+  "start": 123.58,
+  "end": 124.72,
+  "text": "bir neçte farzandi bar edi.",
+  "words": [
+   {
+    "w": " bir",
+    "s": 123.58,
+    "e": 123.74
+   },
+   {
+    "w": " neçte",
+    "s": 123.74,
+    "e": 123.98
+   },
+   {
+    "w": " farzandi",
+    "s": 123.98,
+    "e": 124.38
+   },
+   {
+    "w": " bar",
+    "s": 124.38,
+    "e": 124.54
+   },
+   {
+    "w": " edi.",
+    "s": 124.54,
+    "e": 124.72
+   }
+  ]
+ },
+ {
+  "start": 124.84,
+  "end": 126.82,
+  "text": "Ulardan biri Kim Chen Nam edi.",
+  "words": [
+   {
+    "w": " Ulardan",
+    "s": 124.84,
+    "e": 125.52
+   },
+   {
+    "w": " biri",
+    "s": 125.52,
+    "e": 125.78
+   },
+   {
+    "w": " Kim",
+    "s": 125.78,
+    "e": 126.04
+   },
+   {
+    "w": " Chen",
+    "s": 126.04,
+    "e": 126.3
+   },
+   {
+    "w": " Nam",
+    "s": 126.3,
+    "e": 126.52
+   },
+   {
+    "w": " edi.",
+    "s": 126.52,
+    "e": 126.82
+   }
+  ]
+ },
+ {
+  "start": 126.84,
+  "end": 129.32,
+  "text": "U 1971-ci ilde togulgan",
+  "words": [
+   {
+    "w": " U",
+    "s": 126.84,
+    "e": 127.36
+   },
+   {
+    "w": " 1971",
+    "s": 127.36,
+    "e": 128.02
+   },
+   {
+    "w": "-ci",
+    "s": 128.02,
+    "e": 128.76
+   },
+   {
+    "w": " ilde",
+    "s": 128.76,
+    "e": 128.94
+   },
+   {
+    "w": " togulgan",
+    "s": 128.94,
+    "e": 129.32
+   }
+  ]
+ },
+ {
+  "start": 129.32,
+  "end": 131.34,
+  "text": "va Kim Chen Ersenin tongiç oğluq",
+  "words": [
+   {
+    "w": " va",
+    "s": 129.32,
+    "e": 129.76
+   },
+   {
+    "w": " Kim",
+    "s": 129.76,
+    "e": 130.04
+   },
+   {
+    "w": " Chen",
+    "s": 130.04,
+    "e": 130.26
+   },
+   {
+    "w": " Ersenin",
+    "s": 130.26,
+    "e": 130.6
+   },
+   {
+    "w": " tongiç",
+    "s": 130.6,
+    "e": 131.08
+   },
+   {
+    "w": " oğluq",
+    "s": 131.08,
+    "e": 131.34
+   }
+  ]
+ },
+ {
+  "start": 131.34,
+  "end": 133.36,
+  "text": "soplangan. Uzaq vaqt davamida",
+  "words": [
+   {
+    "w": " soplangan.",
+    "s": 131.34,
+    "e": 131.7
+   },
+   {
+    "w": " Uzaq",
+    "s": 132.06,
+    "e": 132.74
+   },
+   {
+    "w": " vaqt",
+    "s": 132.74,
+    "e": 132.98
+   },
+   {
+    "w": " davamida",
+    "s": 132.98,
+    "e": 133.36
+   }
+  ]
+ },
+ {
+  "start": 133.36,
+  "end": 134.94,
+  "text": "xalqara kuzatochilar unu",
+  "words": [
+   {
+    "w": " xalqara",
+    "s": 133.36,
+    "e": 133.78
+   },
+   {
+    "w": " kuzatochilar",
+    "s": 133.78,
+    "e": 134.38
+   },
+   {
+    "w": " unu",
+    "s": 134.38,
+    "e": 134.94
+   }
+  ]
+ },
+ {
+  "start": 134.94,
+  "end": 137.2,
+  "text": "atasinin ihtimali varislardan bir sfatida",
+  "words": [
+   {
+    "w": " atasinin",
+    "s": 134.94,
+    "e": 135.44
+   },
+   {
+    "w": " ihtimali",
+    "s": 135.44,
+    "e": 135.96
+   },
+   {
+    "w": " varislardan",
+    "s": 135.96,
+    "e": 136.5
+   },
+   {
+    "w": " bir",
+    "s": 136.5,
+    "e": 136.76
+   },
+   {
+    "w": " sfatida",
+    "s": 136.76,
+    "e": 137.2
+   }
+  ]
+ },
+ {
+  "start": 137.2,
+  "end": 139.14,
+  "text": "korushkan. Amma unin hayati",
+  "words": [
+   {
+    "w": " korushkan.",
+    "s": 137.2,
+    "e": 137.6
+   },
+   {
+    "w": " Amma",
+    "s": 137.9,
+    "e": 138.58
+   },
+   {
+    "w": " unin",
+    "s": 138.58,
+    "e": 138.8
+   },
+   {
+    "w": " hayati",
+    "s": 138.8,
+    "e": 139.14
+   }
+  ]
+ },
+ {
+  "start": 139.14,
+  "end": 140.92,
+  "text": "kutulmagan yunalishta ozgerdi.",
+  "words": [
+   {
+    "w": " kutulmagan",
+    "s": 139.14,
+    "e": 139.96
+   },
+   {
+    "w": " yunalishta",
+    "s": 139.96,
+    "e": 140.5
+   },
+   {
+    "w": " ozgerdi.",
+    "s": 140.5,
+    "e": 140.92
+   }
+  ]
+ },
+ {
+  "start": 141.14,
+  "end": 143.26,
+  "text": "2001-ci ilde Kim Chen Nam",
+  "words": [
+   {
+    "w": " 2001",
+    "s": 141.14,
+    "e": 141.82
+   },
+   {
+    "w": "-ci",
+    "s": 141.82,
+    "e": 142.14
+   },
+   {
+    "w": " ilde",
+    "s": 142.14,
+    "e": 142.4
+   },
+   {
+    "w": " Kim",
+    "s": 142.4,
+    "e": 142.82
+   },
+   {
+    "w": " Chen",
+    "s": 142.82,
+    "e": 143.04
+   },
+   {
+    "w": " Nam",
+    "s": 143.04,
+    "e": 143.26
+   }
+  ]
+ },
+ {
+  "start": 143.26,
+  "end": 145.2,
+  "text": "yaponiyege sahta pasportlan kirishki",
+  "words": [
+   {
+    "w": " yaponiyege",
+    "s": 143.26,
+    "e": 143.92
+   },
+   {
+    "w": " sahta",
+    "s": 143.92,
+    "e": 144.26
+   },
+   {
+    "w": " pasportlan",
+    "s": 144.26,
+    "e": 144.88
+   },
+   {
+    "w": " kirishki",
+    "s": 144.88,
+    "e": 145.2
+   }
+  ]
+ },
+ {
+  "start": 145.2,
+  "end": 146.3,
+  "text": "orinyana da qolgi alindi.",
+  "words": [
+   {
+    "w": " orinyana",
+    "s": 145.2,
+    "e": 145.56
+   },
+   {
+    "w": " da",
+    "s": 145.56,
+    "e": 145.66
+   },
+   {
+    "w": " qolgi",
+    "s": 145.66,
+    "e": 146.0
+   },
+   {
+    "w": " alindi.",
+    "s": 146.0,
+    "e": 146.3
+   }
+  ]
+ },
+ {
+  "start": 146.3,
+  "end": 148.46,
+  "text": "Xabarlargi kore u Tokyodigi",
+  "words": [
+   {
+    "w": " Xabarlargi",
+    "s": 146.3,
+    "e": 147.36
+   },
+   {
+    "w": " kore",
+    "s": 147.36,
+    "e": 147.58
+   },
+   {
+    "w": " u",
+    "s": 147.58,
+    "e": 147.78
+   },
+   {
+    "w": " Tokyodigi",
+    "s": 147.78,
+    "e": 148.46
+   }
+  ]
+ },
+ {
+  "start": 148.46,
+  "end": 150.18,
+  "text": "Disneyland kongilachar bagige barishna",
+  "words": [
+   {
+    "w": " Disneyland",
+    "s": 148.46,
+    "e": 148.82
+   },
+   {
+    "w": " kongilachar",
+    "s": 148.82,
+    "e": 149.58
+   },
+   {
+    "w": " bagige",
+    "s": 149.58,
+    "e": 149.88
+   },
+   {
+    "w": " barishna",
+    "s": 149.88,
+    "e": 150.18
+   }
+  ]
+ },
+ {
+  "start": 150.18,
+  "end": 152.32,
+  "text": "rircaraştargan. Bu vaqiya xalqara",
+  "words": [
+   {
+    "w": " rircaraştargan.",
+    "s": 150.18,
+    "e": 150.82
+   },
+   {
+    "w": " Bu",
+    "s": 150.9,
+    "e": 151.5
+   },
+   {
+    "w": " vaqiya",
+    "s": 151.5,
+    "e": 151.86
+   },
+   {
+    "w": " xalqara",
+    "s": 151.86,
+    "e": 152.32
+   }
+  ]
+ },
+ {
+  "start": 152.32,
+  "end": 154.3,
+  "text": "matbuatda katta shawshu ge sabab boldi.",
+  "words": [
+   {
+    "w": " matbuatda",
+    "s": 152.32,
+    "e": 152.9
+   },
+   {
+    "w": " katta",
+    "s": 152.9,
+    "e": 153.26
+   },
+   {
+    "w": " shawshu",
+    "s": 153.26,
+    "e": 153.6
+   },
+   {
+    "w": " ge",
+    "s": 153.6,
+    "e": 153.72
+   },
+   {
+    "w": " sabab",
+    "s": 153.72,
+    "e": 154.0
+   },
+   {
+    "w": " boldi.",
+    "s": 154.0,
+    "e": 154.3
+   }
+  ]
+ },
+ {
+  "start": 154.7,
+  "end": 156.26,
+  "text": "Kim Chen Nam yaponiye dan",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 154.7,
+    "e": 155.04
+   },
+   {
+    "w": " Chen",
+    "s": 155.04,
+    "e": 155.24
+   },
+   {
+    "w": " Nam",
+    "s": 155.24,
+    "e": 155.44
+   },
+   {
+    "w": " yaponiye",
+    "s": 155.44,
+    "e": 156.18
+   },
+   {
+    "w": " dan",
+    "s": 156.18,
+    "e": 156.26
+   }
+  ]
+ },
+ {
+  "start": 156.26,
+  "end": 157.14,
+  "text": "chikaribibarıldi.",
+  "words": [
+   {
+    "w": " chikaribibarıldi.",
+    "s": 156.26,
+    "e": 157.14
+   }
+  ]
+ },
+ {
+  "start": 157.6,
+  "end": 160.32,
+  "text": "Kengi illerde u asasan shumali kareyeden",
+  "words": [
+   {
+    "w": " Kengi",
+    "s": 157.6,
+    "e": 158.28
+   },
+   {
+    "w": " illerde",
+    "s": 158.28,
+    "e": 158.64
+   },
+   {
+    "w": " u",
+    "s": 158.64,
+    "e": 158.84
+   },
+   {
+    "w": " asasan",
+    "s": 158.84,
+    "e": 159.22
+   },
+   {
+    "w": " shumali",
+    "s": 159.22,
+    "e": 159.9
+   },
+   {
+    "w": " kareyeden",
+    "s": 159.9,
+    "e": 160.32
+   }
+  ]
+ },
+ {
+  "start": 160.32,
+  "end": 162.28,
+  "text": "tashkari da cümledan Macao",
+  "words": [
+   {
+    "w": " tashkari",
+    "s": 160.32,
+    "e": 160.76
+   },
+   {
+    "w": " da",
+    "s": 160.76,
+    "e": 160.88
+   },
+   {
+    "w": " cümledan",
+    "s": 160.88,
+    "e": 161.64
+   },
+   {
+    "w": " Macao",
+    "s": 161.64,
+    "e": 162.28
+   }
+  ]
+ },
+ {
+  "start": 162.28,
+  "end": 163.96,
+  "text": "va baska Asia hududlarida yashadi.",
+  "words": [
+   {
+    "w": " va",
+    "s": 162.28,
+    "e": 162.5
+   },
+   {
+    "w": " baska",
+    "s": 162.5,
+    "e": 162.88
+   },
+   {
+    "w": " Asia",
+    "s": 162.88,
+    "e": 163.1
+   },
+   {
+    "w": " hududlarida",
+    "s": 163.1,
+    "e": 163.68
+   },
+   {
+    "w": " yashadi.",
+    "s": 163.68,
+    "e": 163.96
+   }
+  ]
+ },
+ {
+  "start": 164.4,
+  "end": 166.48,
+  "text": "Astasikin hakimiyat varisligi masalasi da",
+  "words": [
+   {
+    "w": " Astasikin",
+    "s": 164.4,
+    "e": 165.08
+   },
+   {
+    "w": " hakimiyat",
+    "s": 165.08,
+    "e": 165.56
+   },
+   {
+    "w": " varisligi",
+    "s": 165.56,
+    "e": 165.98
+   },
+   {
+    "w": " masalasi",
+    "s": 165.98,
+    "e": 166.38
+   },
+   {
+    "w": " da",
+    "s": 166.38,
+    "e": 166.48
+   }
+  ]
+ },
+ {
+  "start": 166.48,
+  "end": 168.1,
+  "text": "unin ukasi Kim Chen In",
+  "words": [
+   {
+    "w": " unin",
+    "s": 166.48,
+    "e": 167.06
+   },
+   {
+    "w": " ukasi",
+    "s": 167.06,
+    "e": 167.32
+   },
+   {
+    "w": " Kim",
+    "s": 167.32,
+    "e": 167.6
+   },
+   {
+    "w": " Chen",
+    "s": 167.6,
+    "e": 167.88
+   },
+   {
+    "w": " In",
+    "s": 167.88,
+    "e": 168.1
+   }
+  ]
+ },
+ {
+  "start": 168.1,
+  "end": 168.82,
+  "text": "aldinge chikdi.",
+  "words": [
+   {
+    "w": " aldinge",
+    "s": 168.1,
+    "e": 168.54
+   },
+   {
+    "w": " chikdi.",
+    "s": 168.54,
+    "e": 168.82
+   }
+  ]
+ },
+ {
+  "start": 169.22,
+  "end": 172.12,
+  "text": "2011-ci ilde Kim Chen Erse vafat etdi.",
+  "words": [
+   {
+    "w": " 2011",
+    "s": 169.22,
+    "e": 169.9
+   },
+   {
+    "w": "-ci",
+    "s": 169.9,
+    "e": 170.36
+   },
+   {
+    "w": " ilde",
+    "s": 170.36,
+    "e": 170.6
+   },
+   {
+    "w": " Kim",
+    "s": 170.6,
+    "e": 171.0
+   },
+   {
+    "w": " Chen",
+    "s": 171.0,
+    "e": 171.22
+   },
+   {
+    "w": " Erse",
+    "s": 171.22,
+    "e": 171.48
+   },
+   {
+    "w": " vafat",
+    "s": 171.48,
+    "e": 171.82
+   },
+   {
+    "w": " etdi.",
+    "s": 171.82,
+    "e": 172.12
+   }
+  ]
+ },
+ {
+  "start": 172.3,
+  "end": 174.0,
+  "text": "Shumali kareyenin yangir akbari",
+  "words": [
+   {
+    "w": " Shumali",
+    "s": 172.3,
+    "e": 172.88
+   },
+   {
+    "w": " kareyenin",
+    "s": 172.88,
+    "e": 173.42
+   },
+   {
+    "w": " yangir",
+    "s": 173.42,
+    "e": 173.72
+   },
+   {
+    "w": " akbari",
+    "s": 173.72,
+    "e": 174.0
+   }
+  ]
+ },
+ {
+  "start": 174.0,
+  "end": 175.34,
+  "text": "Kim Chen In boldi.",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 174.0,
+    "e": 174.44
+   },
+   {
+    "w": " Chen",
+    "s": 174.44,
+    "e": 174.7
+   },
+   {
+    "w": " In",
+    "s": 174.7,
+    "e": 174.98
+   },
+   {
+    "w": " boldi.",
+    "s": 174.98,
+    "e": 175.34
+   }
+  ]
+ },
+ {
+  "start": 175.34,
+  "end": 177.4,
+  "text": "Amma unin yekasi Kim Chen Nam",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 175.34,
+    "e": 176.18
+   },
+   {
+    "w": " unin",
+    "s": 176.18,
+    "e": 176.44
+   },
+   {
+    "w": " yekasi",
+    "s": 176.44,
+    "e": 176.72
+   },
+   {
+    "w": " Kim",
+    "s": 176.72,
+    "e": 177.0
+   },
+   {
+    "w": " Chen",
+    "s": 177.0,
+    "e": 177.2
+   },
+   {
+    "w": " Nam",
+    "s": 177.2,
+    "e": 177.4
+   }
+  ]
+ },
+ {
+  "start": 177.4,
+  "end": 179.74,
+  "text": "mamleketke qaytib siyasi hakimiyat uchun",
+  "words": [
+   {
+    "w": " mamleketke",
+    "s": 177.4,
+    "e": 178.0
+   },
+   {
+    "w": " qaytib",
+    "s": 178.0,
+    "e": 178.36
+   },
+   {
+    "w": " siyasi",
+    "s": 178.36,
+    "e": 178.98
+   },
+   {
+    "w": " hakimiyat",
+    "s": 178.98,
+    "e": 179.54
+   },
+   {
+    "w": " uchun",
+    "s": 179.54,
+    "e": 179.74
+   }
+  ]
+ },
+ {
+  "start": 179.74,
+  "end": 180.88,
+  "text": "achik kurash baslamadi.",
+  "words": [
+   {
+    "w": " achik",
+    "s": 179.74,
+    "e": 180.12
+   },
+   {
+    "w": " kurash",
+    "s": 180.12,
+    "e": 180.4
+   },
+   {
+    "w": " baslamadi.",
+    "s": 180.4,
+    "e": 180.88
+   }
+  ]
+ },
+ {
+  "start": 180.98,
+  "end": 183.38,
+  "text": "Shungi qaramay u xalqara jurnalistlarga",
+  "words": [
+   {
+    "w": " Shungi",
+    "s": 180.98,
+    "e": 181.62
+   },
+   {
+    "w": " qaramay",
+    "s": 181.62,
+    "e": 181.98
+   },
+   {
+    "w": " u",
+    "s": 181.98,
+    "e": 182.28
+   },
+   {
+    "w": " xalqara",
+    "s": 182.28,
+    "e": 182.7
+   },
+   {
+    "w": " jurnalistlarga",
+    "s": 182.7,
+    "e": 183.38
+   }
+  ]
+ },
+ {
+  "start": 183.38,
+  "end": 185.08,
+  "text": "shumali kareyedegi hakimiyatnin",
+  "words": [
+   {
+    "w": " shumali",
+    "s": 183.38,
+    "e": 183.94
+   },
+   {
+    "w": " kareyedegi",
+    "s": 183.94,
+    "e": 184.56
+   },
+   {
+    "w": " hakimiyatnin",
+    "s": 184.56,
+    "e": 185.08
+   }
+  ]
+ },
+ {
+  "start": 185.08,
+  "end": 187.36,
+  "text": "ailavi meras fatada otishige tangidi",
+  "words": [
+   {
+    "w": " ailavi",
+    "s": 185.08,
+    "e": 185.88
+   },
+   {
+    "w": " meras",
+    "s": 185.88,
+    "e": 186.38
+   },
+   {
+    "w": " fatada",
+    "s": 186.38,
+    "e": 186.66
+   },
+   {
+    "w": " otishige",
+    "s": 186.66,
+    "e": 186.96
+   },
+   {
+    "w": " tangidi",
+    "s": 186.96,
+    "e": 187.36
+   }
+  ]
+ },
+ {
+  "start": 187.36,
+  "end": 188.38,
+  "text": "munasabat bildirganidi.",
+  "words": [
+   {
+    "w": " munasabat",
+    "s": 187.36,
+    "e": 187.94
+   },
+   {
+    "w": " bildirganidi.",
+    "s": 187.94,
+    "e": 188.38
+   }
+  ]
+ },
+ {
+  "start": 188.58,
+  "end": 190.94,
+  "text": "Bu ese unin siyasi ahimiyataka qida",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 188.58,
+    "e": 189.0
+   },
+   {
+    "w": " ese",
+    "s": 189.0,
+    "e": 189.22
+   },
+   {
+    "w": " unin",
+    "s": 189.22,
+    "e": 189.54
+   },
+   {
+    "w": " siyasi",
+    "s": 189.54,
+    "e": 190.2
+   },
+   {
+    "w": " ahimiyataka",
+    "s": 190.2,
+    "e": 190.7
+   },
+   {
+    "w": " qida",
+    "s": 190.7,
+    "e": 190.94
+   }
+  ]
+ },
+ {
+  "start": 190.94,
+  "end": 191.8,
+  "text": "savallar todurardi.",
+  "words": [
+   {
+    "w": " savallar",
+    "s": 190.94,
+    "e": 191.4
+   },
+   {
+    "w": " todurardi.",
+    "s": 191.4,
+    "e": 191.8
+   }
+  ]
+ },
+ {
+  "start": 192.36,
+  "end": 195.3,
+  "text": "Kim Chen Nam va Kim Chen In bir atadan togulgan",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 192.36,
+    "e": 193.08
+   },
+   {
+    "w": " Chen",
+    "s": 193.08,
+    "e": 193.26
+   },
+   {
+    "w": " Nam",
+    "s": 193.26,
+    "e": 193.5
+   },
+   {
+    "w": " va",
+    "s": 193.5,
+    "e": 193.72
+   },
+   {
+    "w": " Kim",
+    "s": 193.72,
+    "e": 193.98
+   },
+   {
+    "w": " Chen",
+    "s": 193.98,
+    "e": 194.2
+   },
+   {
+    "w": " In",
+    "s": 194.2,
+    "e": 194.36
+   },
+   {
+    "w": " bir",
+    "s": 194.36,
+    "e": 194.54
+   },
+   {
+    "w": " atadan",
+    "s": 194.54,
+    "e": 194.9
+   },
+   {
+    "w": " togulgan",
+    "s": 194.9,
+    "e": 195.3
+   }
+  ]
+ },
+ {
+  "start": 195.3,
+  "end": 197.62,
+  "text": "amma analari baska bolgan aki ukeydi.",
+  "words": [
+   {
+    "w": " amma",
+    "s": 195.3,
+    "e": 195.96
+   },
+   {
+    "w": " analari",
+    "s": 195.96,
+    "e": 196.42
+   },
+   {
+    "w": " baska",
+    "s": 196.42,
+    "e": 196.7
+   },
+   {
+    "w": " bolgan",
+    "s": 196.7,
+    "e": 197.04
+   },
+   {
+    "w": " aki",
+    "s": 197.04,
+    "e": 197.24
+   },
+   {
+    "w": " ukeydi.",
+    "s": 197.24,
+    "e": 197.62
+   }
+  ]
+ },
+ {
+  "start": 197.72,
+  "end": 199.36,
+  "text": "Ularinin hayatika mutlaka",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 197.72,
+    "e": 198.44
+   },
+   {
+    "w": " hayatika",
+    "s": 198.44,
+    "e": 198.9
+   },
+   {
+    "w": " mutlaka",
+    "s": 198.9,
+    "e": 199.36
+   }
+  ]
+ },
+ {
+  "start": 199.36,
+  "end": 200.84,
+  "text": "baska yonanishta davam etdi.",
+  "words": [
+   {
+    "w": " baska",
+    "s": 199.36,
+    "e": 199.9
+   },
+   {
+    "w": " yonanishta",
+    "s": 199.9,
+    "e": 200.3
+   },
+   {
+    "w": " davam",
+    "s": 200.3,
+    "e": 200.58
+   },
+   {
+    "w": " etdi.",
+    "s": 200.58,
+    "e": 200.84
+   }
+  ]
+ },
+ {
+  "start": 201.34,
+  "end": 203.38,
+  "text": "Kim Chen In shumali kareye armiyasi",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 201.34,
+    "e": 201.7
+   },
+   {
+    "w": " Chen",
+    "s": 201.7,
+    "e": 201.9
+   },
+   {
+    "w": " In",
+    "s": 201.9,
+    "e": 202.06
+   },
+   {
+    "w": " shumali",
+    "s": 202.06,
+    "e": 202.54
+   },
+   {
+    "w": " kareye",
+    "s": 202.54,
+    "e": 202.88
+   },
+   {
+    "w": " armiyasi",
+    "s": 202.88,
+    "e": 203.38
+   }
+  ]
+ },
+ {
+  "start": 203.38,
+  "end": 205.2,
+  "text": "hafsizlik tizimi va khumran",
+  "words": [
+   {
+    "w": " hafsizlik",
+    "s": 203.38,
+    "e": 204.06
+   },
+   {
+    "w": " tizimi",
+    "s": 204.06,
+    "e": 204.32
+   },
+   {
+    "w": " va",
+    "s": 204.32,
+    "e": 204.54
+   },
+   {
+    "w": " khumran",
+    "s": 204.54,
+    "e": 205.2
+   }
+  ]
+ },
+ {
+  "start": 205.34,
+  "end": 207.12,
+  "text": "parti ustadan hakimiyatni mustahkemledi.",
+  "words": [
+   {
+    "w": " parti",
+    "s": 205.34,
+    "e": 205.42
+   },
+   {
+    "w": " ustadan",
+    "s": 205.42,
+    "e": 205.8
+   },
+   {
+    "w": " hakimiyatni",
+    "s": 205.8,
+    "e": 206.4
+   },
+   {
+    "w": " mustahkemledi.",
+    "s": 206.4,
+    "e": 207.12
+   }
+  ]
+ },
+ {
+  "start": 207.18,
+  "end": 209.06,
+  "text": "Kim Chen Nam ise xarijda yashadi.",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 207.18,
+    "e": 207.66
+   },
+   {
+    "w": " Chen",
+    "s": 207.66,
+    "e": 207.86
+   },
+   {
+    "w": " Nam",
+    "s": 207.86,
+    "e": 208.02
+   },
+   {
+    "w": " ise",
+    "s": 208.02,
+    "e": 208.16
+   },
+   {
+    "w": " xarijda",
+    "s": 208.16,
+    "e": 208.72
+   },
+   {
+    "w": " yashadi.",
+    "s": 208.72,
+    "e": 209.06
+   }
+  ]
+ },
+ {
+  "start": 209.2,
+  "end": 211.3,
+  "text": "U siyasi hakimiyatka achik dava",
+  "words": [
+   {
+    "w": " U",
+    "s": 209.2,
+    "e": 209.66
+   },
+   {
+    "w": " siyasi",
+    "s": 209.66,
+    "e": 210.14
+   },
+   {
+    "w": " hakimiyatka",
+    "s": 210.14,
+    "e": 210.76
+   },
+   {
+    "w": " achik",
+    "s": 210.76,
+    "e": 211.1
+   },
+   {
+    "w": " dava",
+    "s": 211.1,
+    "e": 211.3
+   }
+  ]
+ },
+ {
+  "start": 211.3,
+  "end": 213.34,
+  "text": "qilmagan bolsakam, sabiq raqbarnin",
+  "words": [
+   {
+    "w": " qilmagan",
+    "s": 211.3,
+    "e": 211.68
+   },
+   {
+    "w": " bolsakam,",
+    "s": 211.68,
+    "e": 212.28
+   },
+   {
+    "w": " sabiq",
+    "s": 212.3,
+    "e": 212.84
+   },
+   {
+    "w": " raqbarnin",
+    "s": 212.84,
+    "e": 213.34
+   }
+  ]
+ },
+ {
+  "start": 213.34,
+  "end": 215.22,
+  "text": "Tonguch oğlaykani sababli, ayrim",
+  "words": [
+   {
+    "w": " Tonguch",
+    "s": 213.34,
+    "e": 213.7
+   },
+   {
+    "w": " oğlaykani",
+    "s": 213.7,
+    "e": 214.22
+   },
+   {
+    "w": " sababli,",
+    "s": 214.22,
+    "e": 214.62
+   },
+   {
+    "w": " ayrim",
+    "s": 214.64,
+    "e": 215.22
+   }
+  ]
+ },
+ {
+  "start": 215.22,
+  "end": 217.02,
+  "text": "kuzatuciylar unu ihtimali muqabil",
+  "words": [
+   {
+    "w": " kuzatuciylar",
+    "s": 215.22,
+    "e": 215.74
+   },
+   {
+    "w": " unu",
+    "s": 215.74,
+    "e": 215.92
+   },
+   {
+    "w": " ihtimali",
+    "s": 215.92,
+    "e": 216.52
+   },
+   {
+    "w": " muqabil",
+    "s": 216.52,
+    "e": 217.02
+   }
+  ]
+ },
+ {
+  "start": 217.02,
+  "end": 219.0,
+  "text": "raqbar sifatida korishgan. Bu isa",
+  "words": [
+   {
+    "w": " raqbar",
+    "s": 217.02,
+    "e": 217.38
+   },
+   {
+    "w": " sifatida",
+    "s": 217.38,
+    "e": 217.74
+   },
+   {
+    "w": " korishgan.",
+    "s": 217.74,
+    "e": 218.14
+   },
+   {
+    "w": " Bu",
+    "s": 218.26,
+    "e": 218.7
+   },
+   {
+    "w": " isa",
+    "s": 218.7,
+    "e": 219.0
+   }
+  ]
+ },
+ {
+  "start": 219.0,
+  "end": 220.94,
+  "text": "shumali kareyedegi hakimiyat tiziminin",
+  "words": [
+   {
+    "w": " shumali",
+    "s": 219.0,
+    "e": 219.56
+   },
+   {
+    "w": " kareyedegi",
+    "s": 219.56,
+    "e": 220.1
+   },
+   {
+    "w": " hakimiyat",
+    "s": 220.1,
+    "e": 220.58
+   },
+   {
+    "w": " tiziminin",
+    "s": 220.58,
+    "e": 220.94
+   }
+  ]
+ },
+ {
+  "start": 220.94,
+  "end": 222.54,
+  "text": "ozige has khususiyati bulan baqliqidi.",
+  "words": [
+   {
+    "w": " ozige",
+    "s": 220.94,
+    "e": 221.2
+   },
+   {
+    "w": " has",
+    "s": 221.2,
+    "e": 221.4
+   },
+   {
+    "w": " khususiyati",
+    "s": 221.4,
+    "e": 221.94
+   },
+   {
+    "w": " bulan",
+    "s": 221.94,
+    "e": 222.14
+   },
+   {
+    "w": " baqliqidi.",
+    "s": 222.14,
+    "e": 222.54
+   }
+  ]
+ },
+ {
+  "start": 222.96,
+  "end": 225.0,
+  "text": "Mamlekette siyasi hakimiyat",
+  "words": [
+   {
+    "w": " Mamlekette",
+    "s": 222.96,
+    "e": 223.8
+   },
+   {
+    "w": " siyasi",
+    "s": 223.8,
+    "e": 224.4
+   },
+   {
+    "w": " hakimiyat",
+    "s": 224.4,
+    "e": 225.0
+   }
+  ]
+ },
+ {
+  "start": 225.0,
+  "end": 227.16,
+  "text": "uzaq yiller davamidi kimler ailasi",
+  "words": [
+   {
+    "w": " uzaq",
+    "s": 225.0,
+    "e": 225.36
+   },
+   {
+    "w": " yiller",
+    "s": 225.36,
+    "e": 225.64
+   },
+   {
+    "w": " davamidi",
+    "s": 225.64,
+    "e": 226.12
+   },
+   {
+    "w": " kimler",
+    "s": 226.12,
+    "e": 226.74
+   },
+   {
+    "w": " ailasi",
+    "s": 226.74,
+    "e": 227.16
+   }
+  ]
+ },
+ {
+  "start": 227.16,
+  "end": 229.16,
+  "text": "atrafida shakillangan. Shu sababli",
+  "words": [
+   {
+    "w": " atrafida",
+    "s": 227.16,
+    "e": 227.6
+   },
+   {
+    "w": " shakillangan.",
+    "s": 227.6,
+    "e": 228.02
+   },
+   {
+    "w": " Shu",
+    "s": 228.22,
+    "e": 228.78
+   },
+   {
+    "w": " sababli",
+    "s": 228.78,
+    "e": 229.16
+   }
+  ]
+ },
+ {
+  "start": 229.16,
+  "end": 231.16,
+  "text": "aile azalarinin siyasi mavqiyi",
+  "words": [
+   {
+    "w": " aile",
+    "s": 229.16,
+    "e": 229.64
+   },
+   {
+    "w": " azalarinin",
+    "s": 229.64,
+    "e": 230.2
+   },
+   {
+    "w": " siyasi",
+    "s": 230.2,
+    "e": 230.74
+   },
+   {
+    "w": " mavqiyi",
+    "s": 230.74,
+    "e": 231.16
+   }
+  ]
+ },
+ {
+  "start": 231.16,
+  "end": 232.78,
+  "text": "addi karindashlik masalasidan",
+  "words": [
+   {
+    "w": " addi",
+    "s": 231.16,
+    "e": 231.66
+   },
+   {
+    "w": " karindashlik",
+    "s": 231.66,
+    "e": 232.28
+   },
+   {
+    "w": " masalasidan",
+    "s": 232.28,
+    "e": 232.78
+   }
+  ]
+ },
+ {
+  "start": 232.78,
+  "end": 234.06,
+  "text": "anqe muqum xisablanardi.",
+  "words": [
+   {
+    "w": " anqe",
+    "s": 232.78,
+    "e": 233.22
+   },
+   {
+    "w": " muqum",
+    "s": 233.22,
+    "e": 233.52
+   },
+   {
+    "w": " xisablanardi.",
+    "s": 233.52,
+    "e": 234.06
+   }
+  ]
+ },
+ {
+  "start": 234.58,
+  "end": 236.62,
+  "text": "2013-ci ilde yana bir keskin",
+  "words": [
+   {
+    "w": " 2013",
+    "s": 234.58,
+    "e": 234.98
+   },
+   {
+    "w": "-ci",
+    "s": 234.98,
+    "e": 235.46
+   },
+   {
+    "w": " ilde",
+    "s": 235.46,
+    "e": 235.72
+   },
+   {
+    "w": " yana",
+    "s": 235.72,
+    "e": 236.12
+   },
+   {
+    "w": " bir",
+    "s": 236.12,
+    "e": 236.24
+   },
+   {
+    "w": " keskin",
+    "s": 236.24,
+    "e": 236.62
+   }
+  ]
+ },
+ {
+  "start": 236.62,
+  "end": 238.54,
+  "text": "vaqiya yüzbirdi. Kim Chen",
+  "words": [
+   {
+    "w": " vaqiya",
+    "s": 236.62,
+    "e": 237.02
+   },
+   {
+    "w": " yüzbirdi.",
+    "s": 237.02,
+    "e": 237.56
+   },
+   {
+    "w": " Kim",
+    "s": 237.66,
+    "e": 238.26
+   },
+   {
+    "w": " Chen",
+    "s": 238.26,
+    "e": 238.54
+   }
+  ]
+ },
+ {
+  "start": 238.54,
+  "end": 240.66,
+  "text": "innin amakisi va shumali kareyenin",
+  "words": [
+   {
+    "w": " innin",
+    "s": 238.54,
+    "e": 238.96
+   },
+   {
+    "w": " amakisi",
+    "s": 238.96,
+    "e": 239.42
+   },
+   {
+    "w": " va",
+    "s": 239.42,
+    "e": 239.72
+   },
+   {
+    "w": " shumali",
+    "s": 239.72,
+    "e": 240.12
+   },
+   {
+    "w": " kareyenin",
+    "s": 240.12,
+    "e": 240.66
+   }
+  ]
+ },
+ {
+  "start": 240.66,
+  "end": 242.24,
+  "text": "nufuzli amaldarlaradan biri",
+  "words": [
+   {
+    "w": " nufuzli",
+    "s": 240.66,
+    "e": 241.26
+   },
+   {
+    "w": " amaldarlaradan",
+    "s": 241.26,
+    "e": 242.02
+   },
+   {
+    "w": " biri",
+    "s": 242.02,
+    "e": 242.24
+   }
+  ]
+ },
+ {
+  "start": 242.24,
+  "end": 244.8,
+  "text": "Chen Son Teh xipski alanib qatil edildi.",
+  "words": [
+   {
+    "w": " Chen",
+    "s": 242.24,
+    "e": 242.78
+   },
+   {
+    "w": " Son",
+    "s": 242.78,
+    "e": 243.08
+   },
+   {
+    "w": " Teh",
+    "s": 243.08,
+    "e": 243.46
+   },
+   {
+    "w": " xipski",
+    "s": 243.46,
+    "e": 243.88
+   },
+   {
+    "w": " alanib",
+    "s": 243.88,
+    "e": 244.2
+   },
+   {
+    "w": " qatil",
+    "s": 244.2,
+    "e": 244.46
+   },
+   {
+    "w": " edildi.",
+    "s": 244.46,
+    "e": 244.8
+   }
+  ]
+ },
+ {
+  "start": 244.92,
+  "end": 246.62,
+  "text": "Shumali kareya rasmiyilari",
+  "words": [
+   {
+    "w": " Shumali",
+    "s": 244.92,
+    "e": 245.72
+   },
+   {
+    "w": " kareya",
+    "s": 245.72,
+    "e": 246.06
+   },
+   {
+    "w": " rasmiyilari",
+    "s": 246.06,
+    "e": 246.62
+   }
+  ]
+ },
+ {
+  "start": 246.62,
+  "end": 248.2,
+  "text": "unu davlatka xiyanatta ayibladi.",
+  "words": [
+   {
+    "w": " unu",
+    "s": 246.62,
+    "e": 246.86
+   },
+   {
+    "w": " davlatka",
+    "s": 246.86,
+    "e": 247.32
+   },
+   {
+    "w": " xiyanatta",
+    "s": 247.32,
+    "e": 247.82
+   },
+   {
+    "w": " ayibladi.",
+    "s": 247.82,
+    "e": 248.2
+   }
+  ]
+ },
+ {
+  "start": 248.38,
+  "end": 250.64,
+  "text": "Bu vaqiya Kim Chen in davrida",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 248.38,
+    "e": 248.92
+   },
+   {
+    "w": " vaqiya",
+    "s": 248.92,
+    "e": 249.3
+   },
+   {
+    "w": " Kim",
+    "s": 249.3,
+    "e": 249.64
+   },
+   {
+    "w": " Chen",
+    "s": 249.64,
+    "e": 250.0
+   },
+   {
+    "w": " in",
+    "s": 250.0,
+    "e": 250.18
+   },
+   {
+    "w": " davrida",
+    "s": 250.18,
+    "e": 250.64
+   }
+  ]
+ },
+ {
+  "start": 250.64,
+  "end": 252.7,
+  "text": "siyasi hakimiyat kan chalik qattig",
+  "words": [
+   {
+    "w": " siyasi",
+    "s": 250.64,
+    "e": 251.22
+   },
+   {
+    "w": " hakimiyat",
+    "s": 251.22,
+    "e": 251.72
+   },
+   {
+    "w": " kan",
+    "s": 251.72,
+    "e": 251.92
+   },
+   {
+    "w": " chalik",
+    "s": 251.92,
+    "e": 252.3
+   },
+   {
+    "w": " qattig",
+    "s": 252.3,
+    "e": 252.7
+   }
+  ]
+ },
+ {
+  "start": 252.7,
+  "end": 254.26,
+  "text": "nazorat qilniyatganini korsaddi.",
+  "words": [
+   {
+    "w": " nazorat",
+    "s": 252.7,
+    "e": 253.16
+   },
+   {
+    "w": " qilniyatganini",
+    "s": 253.16,
+    "e": 253.82
+   },
+   {
+    "w": " korsaddi.",
+    "s": 253.82,
+    "e": 254.26
+   }
+  ]
+ },
+ {
+  "start": 254.84,
+  "end": 256.48,
+  "text": "Amma Kim Chen namga nispatan",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 254.84,
+    "e": 255.24
+   },
+   {
+    "w": " Kim",
+    "s": 255.24,
+    "e": 255.48
+   },
+   {
+    "w": " Chen",
+    "s": 255.48,
+    "e": 255.8
+   },
+   {
+    "w": " namga",
+    "s": 255.8,
+    "e": 256.14
+   },
+   {
+    "w": " nispatan",
+    "s": 256.14,
+    "e": 256.48
+   }
+  ]
+ },
+ {
+  "start": 256.48,
+  "end": 258.36,
+  "text": "qanday kararlar qabul qilingani haqda",
+  "words": [
+   {
+    "w": " qanday",
+    "s": 256.48,
+    "e": 256.98
+   },
+   {
+    "w": " kararlar",
+    "s": 256.98,
+    "e": 257.42
+   },
+   {
+    "w": " qabul",
+    "s": 257.42,
+    "e": 257.74
+   },
+   {
+    "w": " qilingani",
+    "s": 257.74,
+    "e": 258.1
+   },
+   {
+    "w": " haqda",
+    "s": 258.1,
+    "e": 258.36
+   }
+  ]
+ },
+ {
+  "start": 258.36,
+  "end": 260.12,
+  "text": "achiq va ishanchli malamatlar",
+  "words": [
+   {
+    "w": " achiq",
+    "s": 258.36,
+    "e": 259.04
+   },
+   {
+    "w": " va",
+    "s": 259.04,
+    "e": 259.16
+   },
+   {
+    "w": " ishanchli",
+    "s": 259.16,
+    "e": 259.56
+   },
+   {
+    "w": " malamatlar",
+    "s": 259.56,
+    "e": 260.12
+   }
+  ]
+ },
+ {
+  "start": 260.12,
+  "end": 262.16,
+  "text": "jude chekilangan. Ayrim taklilchilar",
+  "words": [
+   {
+    "w": " jude",
+    "s": 260.12,
+    "e": 260.34
+   },
+   {
+    "w": " chekilangan.",
+    "s": 260.34,
+    "e": 260.74
+   },
+   {
+    "w": " Ayrim",
+    "s": 260.98,
+    "e": 261.66
+   },
+   {
+    "w": " taklilchilar",
+    "s": 261.66,
+    "e": 262.16
+   }
+  ]
+ },
+ {
+  "start": 262.16,
+  "end": 264.4,
+  "text": "unin mavcudligi siyasi xav sfatida",
+  "words": [
+   {
+    "w": " unin",
+    "s": 262.16,
+    "e": 262.64
+   },
+   {
+    "w": " mavcudligi",
+    "s": 262.64,
+    "e": 263.24
+   },
+   {
+    "w": " siyasi",
+    "s": 263.24,
+    "e": 263.66
+   },
+   {
+    "w": " xav",
+    "s": 263.66,
+    "e": 264.02
+   },
+   {
+    "w": " sfatida",
+    "s": 264.02,
+    "e": 264.4
+   }
+  ]
+ },
+ {
+  "start": 264.4,
+  "end": 266.34,
+  "text": "korulgan bolishi munkilligini takmin qilishgan.",
+  "words": [
+   {
+    "w": " korulgan",
+    "s": 264.4,
+    "e": 264.78
+   },
+   {
+    "w": " bolishi",
+    "s": 264.78,
+    "e": 265.04
+   },
+   {
+    "w": " munkilligini",
+    "s": 265.04,
+    "e": 265.6
+   },
+   {
+    "w": " takmin",
+    "s": 265.6,
+    "e": 265.96
+   },
+   {
+    "w": " qilishgan.",
+    "s": 265.96,
+    "e": 266.34
+   }
+  ]
+ },
+ {
+  "start": 266.42,
+  "end": 268.14,
+  "text": "Lekin bu takmin unin",
+  "words": [
+   {
+    "w": " Lekin",
+    "s": 266.42,
+    "e": 266.98
+   },
+   {
+    "w": " bu",
+    "s": 266.98,
+    "e": 267.14
+   },
+   {
+    "w": " takmin",
+    "s": 267.14,
+    "e": 267.62
+   },
+   {
+    "w": " unin",
+    "s": 267.62,
+    "e": 268.14
+   }
+  ]
+ },
+ {
+  "start": 268.14,
+  "end": 270.32,
+  "text": "ulimigi kim buyuruq berganini ispatlamaydi.",
+  "words": [
+   {
+    "w": " ulimigi",
+    "s": 268.14,
+    "e": 268.54
+   },
+   {
+    "w": " kim",
+    "s": 268.54,
+    "e": 268.86
+   },
+   {
+    "w": " buyuruq",
+    "s": 268.86,
+    "e": 269.32
+   },
+   {
+    "w": " berganini",
+    "s": 269.32,
+    "e": 269.74
+   },
+   {
+    "w": " ispatlamaydi.",
+    "s": 269.74,
+    "e": 270.32
+   }
+  ]
+ },
+ {
+  "start": 270.58,
+  "end": 272.0,
+  "text": "2017-ci il",
+  "words": [
+   {
+    "w": " 2017",
+    "s": 270.58,
+    "e": 271.34
+   },
+   {
+    "w": "-ci",
+    "s": 271.34,
+    "e": 271.84
+   },
+   {
+    "w": " il",
+    "s": 271.84,
+    "e": 272.0
+   }
+  ]
+ },
+ {
+  "start": 272.0,
+  "end": 273.92,
+  "text": "13-ci fevral kuna Kim Chen nam",
+  "words": [
+   {
+    "w": " 13",
+    "s": 272.0,
+    "e": 272.34
+   },
+   {
+    "w": "-ci",
+    "s": 272.34,
+    "e": 272.64
+   },
+   {
+    "w": " fevral",
+    "s": 272.64,
+    "e": 272.98
+   },
+   {
+    "w": " kuna",
+    "s": 272.98,
+    "e": 273.2
+   },
+   {
+    "w": " Kim",
+    "s": 273.2,
+    "e": 273.5
+   },
+   {
+    "w": " Chen",
+    "s": 273.5,
+    "e": 273.7
+   },
+   {
+    "w": " nam",
+    "s": 273.7,
+    "e": 273.92
+   }
+  ]
+ },
+ {
+  "start": 273.92,
+  "end": 276.06,
+  "text": "Kuala Lumpur aeroportadan Makao",
+  "words": [
+   {
+    "w": " Kuala",
+    "s": 273.92,
+    "e": 274.54
+   },
+   {
+    "w": " Lumpur",
+    "s": 274.54,
+    "e": 274.88
+   },
+   {
+    "w": " aeroportadan",
+    "s": 274.88,
+    "e": 275.48
+   },
+   {
+    "w": " Makao",
+    "s": 275.48,
+    "e": 276.06
+   }
+  ]
+ },
+ {
+  "start": 276.06,
+  "end": 277.4,
+  "text": "ge uchisni rijalashtirgan edi.",
+  "words": [
+   {
+    "w": " ge",
+    "s": 276.06,
+    "e": 276.28
+   },
+   {
+    "w": " uchisni",
+    "s": 276.28,
+    "e": 276.56
+   },
+   {
+    "w": " rijalashtirgan",
+    "s": 276.56,
+    "e": 277.14
+   },
+   {
+    "w": " edi.",
+    "s": 277.14,
+    "e": 277.4
+   }
+  ]
+ },
+ {
+  "start": 277.44,
+  "end": 280.16,
+  "text": "U aeroportta roikattan otich hududiga yakillashgan",
+  "words": [
+   {
+    "w": " U",
+    "s": 277.44,
+    "e": 277.86
+   },
+   {
+    "w": " aeroportta",
+    "s": 277.86,
+    "e": 278.52
+   },
+   {
+    "w": " roikattan",
+    "s": 278.52,
+    "e": 278.96
+   },
+   {
+    "w": " otich",
+    "s": 278.96,
+    "e": 279.26
+   },
+   {
+    "w": " hududiga",
+    "s": 279.26,
+    "e": 279.62
+   },
+   {
+    "w": " yakillashgan",
+    "s": 279.62,
+    "e": 280.16
+   }
+  ]
+ },
+ {
+  "start": 280.16,
+  "end": 282.32,
+  "text": "paytta iki ayol unge hujum qildi.",
+  "words": [
+   {
+    "w": " paytta",
+    "s": 280.16,
+    "e": 280.52
+   },
+   {
+    "w": " iki",
+    "s": 280.52,
+    "e": 280.96
+   },
+   {
+    "w": " ayol",
+    "s": 280.96,
+    "e": 281.48
+   },
+   {
+    "w": " unge",
+    "s": 281.48,
+    "e": 281.66
+   },
+   {
+    "w": " hujum",
+    "s": 281.66,
+    "e": 282.02
+   },
+   {
+    "w": " qildi.",
+    "s": 282.02,
+    "e": 282.32
+   }
+  ]
+ },
+ {
+  "start": 282.36,
+  "end": 284.44,
+  "text": "Kuzatu kameralari bu harakatlarini",
+  "words": [
+   {
+    "w": " Kuzatu",
+    "s": 282.36,
+    "e": 283.0
+   },
+   {
+    "w": " kameralari",
+    "s": 283.0,
+    "e": 283.7
+   },
+   {
+    "w": " bu",
+    "s": 283.7,
+    "e": 283.84
+   },
+   {
+    "w": " harakatlarini",
+    "s": 283.84,
+    "e": 284.44
+   }
+  ]
+ },
+ {
+  "start": 284.44,
+  "end": 286.2,
+  "text": "qaydetgan. Ayollardan biri",
+  "words": [
+   {
+    "w": " qaydetgan.",
+    "s": 284.44,
+    "e": 284.92
+   },
+   {
+    "w": " Ayollardan",
+    "s": 285.22,
+    "e": 285.98
+   },
+   {
+    "w": " biri",
+    "s": 285.98,
+    "e": 286.2
+   }
+  ]
+ },
+ {
+  "start": 286.2,
+  "end": 288.62,
+  "text": "indanizya fukharasi Siti Aishayidi.",
+  "words": [
+   {
+    "w": " indanizya",
+    "s": 286.2,
+    "e": 286.9
+   },
+   {
+    "w": " fukharasi",
+    "s": 286.9,
+    "e": 287.38
+   },
+   {
+    "w": " Siti",
+    "s": 287.38,
+    "e": 287.92
+   },
+   {
+    "w": " Aishayidi.",
+    "s": 287.92,
+    "e": 288.62
+   }
+  ]
+ },
+ {
+  "start": 288.72,
+  "end": 290.56,
+  "text": "Ikincisi Vietnam fukharasi",
+  "words": [
+   {
+    "w": " Ikincisi",
+    "s": 288.72,
+    "e": 289.46
+   },
+   {
+    "w": " Vietnam",
+    "s": 289.46,
+    "e": 289.96
+   },
+   {
+    "w": " fukharasi",
+    "s": 289.96,
+    "e": 290.56
+   }
+  ]
+ },
+ {
+  "start": 290.56,
+  "end": 291.52,
+  "text": "Doan T. Huang.",
+  "words": [
+   {
+    "w": " Doan",
+    "s": 290.56,
+    "e": 291.08
+   },
+   {
+    "w": " T.",
+    "s": 291.08,
+    "e": 291.14
+   },
+   {
+    "w": " Huang.",
+    "s": 291.26,
+    "e": 291.52
+   }
+  ]
+ },
+ {
+  "start": 292.16,
+  "end": 293.74,
+  "text": "Palitsa ularini qisqa vaqtichida",
+  "words": [
+   {
+    "w": " Palitsa",
+    "s": 292.16,
+    "e": 292.74
+   },
+   {
+    "w": " ularini",
+    "s": 292.74,
+    "e": 293.06
+   },
+   {
+    "w": " qisqa",
+    "s": 293.06,
+    "e": 293.36
+   },
+   {
+    "w": " vaqtichida",
+    "s": 293.36,
+    "e": 293.74
+   }
+  ]
+ },
+ {
+  "start": 293.74,
+  "end": 295.34,
+  "text": "anigilab xipski aldi. Amma",
+  "words": [
+   {
+    "w": " anigilab",
+    "s": 293.74,
+    "e": 294.18
+   },
+   {
+    "w": " xipski",
+    "s": 294.18,
+    "e": 294.46
+   },
+   {
+    "w": " aldi.",
+    "s": 294.46,
+    "e": 294.82
+   },
+   {
+    "w": " Amma",
+    "s": 294.82,
+    "e": 295.34
+   }
+  ]
+ },
+ {
+  "start": 295.34,
+  "end": 297.62,
+  "text": "tergi ujarayanida kutulmagan malamot payda",
+  "words": [
+   {
+    "w": " tergi",
+    "s": 295.34,
+    "e": 295.8
+   },
+   {
+    "w": " ujarayanida",
+    "s": 295.8,
+    "e": 296.36
+   },
+   {
+    "w": " kutulmagan",
+    "s": 296.36,
+    "e": 296.84
+   },
+   {
+    "w": " malamot",
+    "s": 296.84,
+    "e": 297.38
+   },
+   {
+    "w": " payda",
+    "s": 297.38,
+    "e": 297.62
+   }
+  ]
+ },
+ {
+  "start": 297.62,
+  "end": 299.24,
+  "text": "buldi. Ikkala ayol xam",
+  "words": [
+   {
+    "w": " buldi.",
+    "s": 297.62,
+    "e": 297.98
+   },
+   {
+    "w": " Ikkala",
+    "s": 298.08,
+    "e": 298.78
+   },
+   {
+    "w": " ayol",
+    "s": 298.78,
+    "e": 299.06
+   },
+   {
+    "w": " xam",
+    "s": 299.06,
+    "e": 299.24
+   }
+  ]
+ },
+ {
+  "start": 299.24,
+  "end": 301.6,
+  "text": "ozlarini qatillikda angli ravisda ishtirak",
+  "words": [
+   {
+    "w": " ozlarini",
+    "s": 299.24,
+    "e": 299.92
+   },
+   {
+    "w": " qatillikda",
+    "s": 299.92,
+    "e": 300.5
+   },
+   {
+    "w": " angli",
+    "s": 300.5,
+    "e": 300.9
+   },
+   {
+    "w": " ravisda",
+    "s": 300.9,
+    "e": 301.28
+   },
+   {
+    "w": " ishtirak",
+    "s": 301.28,
+    "e": 301.6
+   }
+  ]
+ },
+ {
+  "start": 301.6,
+  "end": 303.18,
+  "text": "itkan shakslar imas, balki",
+  "words": [
+   {
+    "w": " itkan",
+    "s": 301.6,
+    "e": 301.84
+   },
+   {
+    "w": " shakslar",
+    "s": 301.84,
+    "e": 302.26
+   },
+   {
+    "w": " imas,",
+    "s": 302.26,
+    "e": 302.56
+   },
+   {
+    "w": " balki",
+    "s": 302.64,
+    "e": 303.18
+   }
+  ]
+ },
+ {
+  "start": 303.18,
+  "end": 305.48,
+  "text": "aldangan insanlar sfatida tasvirlashti.",
+  "words": [
+   {
+    "w": " aldangan",
+    "s": 303.18,
+    "e": 303.8
+   },
+   {
+    "w": " insanlar",
+    "s": 303.8,
+    "e": 304.5
+   },
+   {
+    "w": " sfatida",
+    "s": 304.5,
+    "e": 304.84
+   },
+   {
+    "w": " tasvirlashti.",
+    "s": 304.84,
+    "e": 305.48
+   }
+  ]
+ },
+ {
+  "start": 305.58,
+  "end": 307.46,
+  "text": "Ularinin aqishca namalum",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 305.58,
+    "e": 306.32
+   },
+   {
+    "w": " aqishca",
+    "s": 306.32,
+    "e": 306.7
+   },
+   {
+    "w": " namalum",
+    "s": 306.7,
+    "e": 307.46
+   }
+  ]
+ },
+ {
+  "start": 307.46,
+  "end": 309.54,
+  "text": "irkeklar ularga televizyon kongilachar",
+  "words": [
+   {
+    "w": " irkeklar",
+    "s": 307.46,
+    "e": 307.9
+   },
+   {
+    "w": " ularga",
+    "s": 307.9,
+    "e": 308.3
+   },
+   {
+    "w": " televizyon",
+    "s": 308.3,
+    "e": 308.92
+   },
+   {
+    "w": " kongilachar",
+    "s": 308.92,
+    "e": 309.54
+   }
+  ]
+ },
+ {
+  "start": 309.54,
+  "end": 311.3,
+  "text": "dasur uchun xazil saknalarda qatna",
+  "words": [
+   {
+    "w": " dasur",
+    "s": 309.54,
+    "e": 309.86
+   },
+   {
+    "w": " uchun",
+    "s": 309.86,
+    "e": 310.14
+   },
+   {
+    "w": " xazil",
+    "s": 310.14,
+    "e": 310.5
+   },
+   {
+    "w": " saknalarda",
+    "s": 310.5,
+    "e": 311.02
+   },
+   {
+    "w": " qatna",
+    "s": 311.02,
+    "e": 311.3
+   }
+  ]
+ },
+ {
+  "start": 311.3,
+  "end": 313.44,
+  "text": "shishni taklif qilgan. Ular avval xam",
+  "words": [
+   {
+    "w": " shishni",
+    "s": 311.3,
+    "e": 311.62
+   },
+   {
+    "w": " taklif",
+    "s": 311.62,
+    "e": 311.94
+   },
+   {
+    "w": " qilgan.",
+    "s": 311.94,
+    "e": 312.2
+   },
+   {
+    "w": " Ular",
+    "s": 312.3,
+    "e": 312.88
+   },
+   {
+    "w": " avval",
+    "s": 312.88,
+    "e": 313.24
+   },
+   {
+    "w": " xam",
+    "s": 313.24,
+    "e": 313.44
+   }
+  ]
+ },
+ {
+  "start": 313.44,
+  "end": 315.24,
+  "text": "bigana insanlarga yakillashib, yuzika",
+  "words": [
+   {
+    "w": " bigana",
+    "s": 313.44,
+    "e": 313.76
+   },
+   {
+    "w": " insanlarga",
+    "s": 313.76,
+    "e": 314.26
+   },
+   {
+    "w": " yakillashib,",
+    "s": 314.26,
+    "e": 314.82
+   },
+   {
+    "w": " yuzika",
+    "s": 314.82,
+    "e": 315.24
+   }
+  ]
+ },
+ {
+  "start": 315.24,
+  "end": 317.28,
+  "text": "zararsiz mamda surtishki uxshash harakatlarini",
+  "words": [
+   {
+    "w": " zararsiz",
+    "s": 315.24,
+    "e": 315.78
+   },
+   {
+    "w": " mamda",
+    "s": 315.78,
+    "e": 316.06
+   },
+   {
+    "w": " surtishki",
+    "s": 316.06,
+    "e": 316.48
+   },
+   {
+    "w": " uxshash",
+    "s": 316.48,
+    "e": 316.72
+   },
+   {
+    "w": " harakatlarini",
+    "s": 316.72,
+    "e": 317.28
+   }
+  ]
+ },
+ {
+  "start": 317.28,
+  "end": 319.14,
+  "text": "bacarishganan aqishdi. Ayollar",
+  "words": [
+   {
+    "w": " bacarishganan",
+    "s": 317.28,
+    "e": 317.86
+   },
+   {
+    "w": " aqishdi.",
+    "s": 317.86,
+    "e": 318.18
+   },
+   {
+    "w": " Ayollar",
+    "s": 318.38,
+    "e": 319.14
+   }
+  ]
+ },
+ {
+  "start": 319.14,
+  "end": 321.14,
+  "text": "kim chin namga qilingan harakatni xam",
+  "words": [
+   {
+    "w": " kim",
+    "s": 319.14,
+    "e": 319.46
+   },
+   {
+    "w": " chin",
+    "s": 319.46,
+    "e": 319.76
+   },
+   {
+    "w": " namga",
+    "s": 319.76,
+    "e": 320.12
+   },
+   {
+    "w": " qilingan",
+    "s": 320.12,
+    "e": 320.5
+   },
+   {
+    "w": " harakatni",
+    "s": 320.5,
+    "e": 320.96
+   },
+   {
+    "w": " xam",
+    "s": 320.96,
+    "e": 321.14
+   }
+  ]
+ },
+ {
+  "start": 321.14,
+  "end": 323.08,
+  "text": "nawbattagi televizyon xazil",
+  "words": [
+   {
+    "w": " nawbattagi",
+    "s": 321.14,
+    "e": 321.92
+   },
+   {
+    "w": " televizyon",
+    "s": 321.92,
+    "e": 322.64
+   },
+   {
+    "w": " xazil",
+    "s": 322.64,
+    "e": 323.08
+   }
+  ]
+ },
+ {
+  "start": 323.08,
+  "end": 324.54,
+  "text": "dip oyilagalliklarini bildirishti.",
+  "words": [
+   {
+    "w": " dip",
+    "s": 323.08,
+    "e": 323.22
+   },
+   {
+    "w": " oyilagalliklarini",
+    "s": 323.22,
+    "e": 324.08
+   },
+   {
+    "w": " bildirishti.",
+    "s": 324.08,
+    "e": 324.54
+   }
+  ]
+ },
+ {
+  "start": 324.64,
+  "end": 326.78,
+  "text": "Amma bu sefar islatilgan madda",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 324.64,
+    "e": 325.36
+   },
+   {
+    "w": " bu",
+    "s": 325.36,
+    "e": 325.54
+   },
+   {
+    "w": " sefar",
+    "s": 325.54,
+    "e": 325.88
+   },
+   {
+    "w": " islatilgan",
+    "s": 325.88,
+    "e": 326.34
+   },
+   {
+    "w": " madda",
+    "s": 326.34,
+    "e": 326.78
+   }
+  ]
+ },
+ {
+  "start": 326.78,
+  "end": 328.86,
+  "text": "addi suyuklik emas yada. Bu",
+  "words": [
+   {
+    "w": " addi",
+    "s": 326.78,
+    "e": 327.34
+   },
+   {
+    "w": " suyuklik",
+    "s": 327.34,
+    "e": 327.82
+   },
+   {
+    "w": " emas",
+    "s": 327.82,
+    "e": 328.1
+   },
+   {
+    "w": " yada.",
+    "s": 328.1,
+    "e": 328.28
+   },
+   {
+    "w": " Bu",
+    "s": 328.4,
+    "e": 328.86
+   }
+  ]
+ },
+ {
+  "start": 328.86,
+  "end": 330.76,
+  "text": "VX nerf agent yada.",
+  "words": [
+   {
+    "w": " VX",
+    "s": 328.86,
+    "e": 329.68
+   },
+   {
+    "w": " nerf",
+    "s": 329.68,
+    "e": 330.18
+   },
+   {
+    "w": " agent",
+    "s": 330.18,
+    "e": 330.44
+   },
+   {
+    "w": " yada.",
+    "s": 330.44,
+    "e": 330.76
+   }
+  ]
+ },
+ {
+  "start": 331.18,
+  "end": 333.12,
+  "text": "Kim chin namning yuziga madda teyikandan",
+  "words": [
+   {
+    "w": " Kim",
+    "s": 331.18,
+    "e": 331.56
+   },
+   {
+    "w": " chin",
+    "s": 331.56,
+    "e": 331.76
+   },
+   {
+    "w": " namning",
+    "s": 331.76,
+    "e": 332.12
+   },
+   {
+    "w": " yuziga",
+    "s": 332.12,
+    "e": 332.38
+   },
+   {
+    "w": " madda",
+    "s": 332.38,
+    "e": 332.76
+   },
+   {
+    "w": " teyikandan",
+    "s": 332.76,
+    "e": 333.12
+   }
+  ]
+ },
+ {
+  "start": 333.12,
+  "end": 335.0,
+  "text": "son uning aqvali tez yamanlashdi.",
+  "words": [
+   {
+    "w": " son",
+    "s": 333.12,
+    "e": 333.38
+   },
+   {
+    "w": " uning",
+    "s": 333.38,
+    "e": 333.68
+   },
+   {
+    "w": " aqvali",
+    "s": 333.68,
+    "e": 334.14
+   },
+   {
+    "w": " tez",
+    "s": 334.14,
+    "e": 334.48
+   },
+   {
+    "w": " yamanlashdi.",
+    "s": 334.48,
+    "e": 335.0
+   }
+  ]
+ },
+ {
+  "start": 335.12,
+  "end": 337.2,
+  "text": "U ayraporttagi tibi punktiga muraci",
+  "words": [
+   {
+    "w": " U",
+    "s": 335.12,
+    "e": 335.44
+   },
+   {
+    "w": " ayraporttagi",
+    "s": 335.44,
+    "e": 336.16
+   },
+   {
+    "w": " tibi",
+    "s": 336.16,
+    "e": 336.42
+   },
+   {
+    "w": " punktiga",
+    "s": 336.42,
+    "e": 336.94
+   },
+   {
+    "w": " muraci",
+    "s": 336.94,
+    "e": 337.2
+   }
+  ]
+ },
+ {
+  "start": 337.2,
+  "end": 339.06,
+  "text": "atkildi. Amma kopotmay",
+  "words": [
+   {
+    "w": " atkildi.",
+    "s": 337.2,
+    "e": 337.6
+   },
+   {
+    "w": " Amma",
+    "s": 337.68,
+    "e": 338.36
+   },
+   {
+    "w": " kopotmay",
+    "s": 338.36,
+    "e": 339.06
+   }
+  ]
+ },
+ {
+  "start": 339.06,
+  "end": 341.14,
+  "text": "kasalxanagi olib ketiliyatkanida wafat etdi.",
+  "words": [
+   {
+    "w": " kasalxanagi",
+    "s": 339.06,
+    "e": 339.66
+   },
+   {
+    "w": " olib",
+    "s": 339.66,
+    "e": 339.88
+   },
+   {
+    "w": " ketiliyatkanida",
+    "s": 339.88,
+    "e": 340.5
+   },
+   {
+    "w": " wafat",
+    "s": 340.5,
+    "e": 340.88
+   },
+   {
+    "w": " etdi.",
+    "s": 340.88,
+    "e": 341.14
+   }
+  ]
+ },
+ {
+  "start": 341.48,
+  "end": 343.0,
+  "text": "Malayzi tergova va",
+  "words": [
+   {
+    "w": " Malayzi",
+    "s": 341.48,
+    "e": 342.24
+   },
+   {
+    "w": " tergova",
+    "s": 342.24,
+    "e": 342.82
+   },
+   {
+    "w": " va",
+    "s": 342.82,
+    "e": 343.0
+   }
+  ]
+ },
+ {
+  "start": 343.0,
+  "end": 344.42,
+  "text": "sut tibi ekspertizasi",
+  "words": [
+   {
+    "w": " sut",
+    "s": 343.0,
+    "e": 343.32
+   },
+   {
+    "w": " tibi",
+    "s": 343.32,
+    "e": 343.58
+   },
+   {
+    "w": " ekspertizasi",
+    "s": 343.58,
+    "e": 344.42
+   }
+  ]
+ },
+ {
+  "start": 344.42,
+  "end": 346.82,
+  "text": "uning olamiga VX bilansa harlanish",
+  "words": [
+   {
+    "w": " uning",
+    "s": 344.42,
+    "e": 345.06
+   },
+   {
+    "w": " olamiga",
+    "s": 345.06,
+    "e": 345.52
+   },
+   {
+    "w": " VX",
+    "s": 345.52,
+    "e": 346.1
+   },
+   {
+    "w": " bilansa",
+    "s": 346.1,
+    "e": 346.36
+   },
+   {
+    "w": " harlanish",
+    "s": 346.36,
+    "e": 346.82
+   }
+  ]
+ },
+ {
+  "start": 346.82,
+  "end": 347.82,
+  "text": "sabab olganin anikladi.",
+  "words": [
+   {
+    "w": " sabab",
+    "s": 346.82,
+    "e": 347.06
+   },
+   {
+    "w": " olganin",
+    "s": 347.06,
+    "e": 347.44
+   },
+   {
+    "w": " anikladi.",
+    "s": 347.44,
+    "e": 347.82
+   }
+  ]
+ },
+ {
+  "start": 347.82,
+  "end": 350.26,
+  "text": "VX dunyadagi enin xafli",
+  "words": [
+   {
+    "w": " VX",
+    "s": 347.82,
+    "e": 348.88
+   },
+   {
+    "w": " dunyadagi",
+    "s": 348.88,
+    "e": 349.56
+   },
+   {
+    "w": " enin",
+    "s": 349.56,
+    "e": 349.94
+   },
+   {
+    "w": " xafli",
+    "s": 349.94,
+    "e": 350.26
+   }
+  ]
+ },
+ {
+  "start": 350.26,
+  "end": 351.78,
+  "text": "nerf agentlaridan birix soblanidi.",
+  "words": [
+   {
+    "w": " nerf",
+    "s": 350.26,
+    "e": 350.58
+   },
+   {
+    "w": " agentlaridan",
+    "s": 350.58,
+    "e": 351.08
+   },
+   {
+    "w": " birix",
+    "s": 351.08,
+    "e": 351.38
+   },
+   {
+    "w": " soblanidi.",
+    "s": 351.38,
+    "e": 351.78
+   }
+  ]
+ },
+ {
+  "start": 351.88,
+  "end": 354.02,
+  "text": "U asabtizminin narmal islashini izdan",
+  "words": [
+   {
+    "w": " U",
+    "s": 351.88,
+    "e": 352.2
+   },
+   {
+    "w": " asabtizminin",
+    "s": 352.2,
+    "e": 353.02
+   },
+   {
+    "w": " narmal",
+    "s": 353.02,
+    "e": 353.36
+   },
+   {
+    "w": " islashini",
+    "s": 353.36,
+    "e": 353.8
+   },
+   {
+    "w": " izdan",
+    "s": 353.8,
+    "e": 354.02
+   }
+  ]
+ },
+ {
+  "start": 354.02,
+  "end": 355.84,
+  "text": "chikaradi va agir zakarlanishke sabab",
+  "words": [
+   {
+    "w": " chikaradi",
+    "s": 354.02,
+    "e": 354.4
+   },
+   {
+    "w": " va",
+    "s": 354.4,
+    "e": 354.56
+   },
+   {
+    "w": " agir",
+    "s": 354.56,
+    "e": 354.92
+   },
+   {
+    "w": " zakarlanishke",
+    "s": 354.92,
+    "e": 355.58
+   },
+   {
+    "w": " sabab",
+    "s": 355.58,
+    "e": 355.84
+   }
+  ]
+ },
+ {
+  "start": 355.84,
+  "end": 357.98,
+  "text": "bolishi munkun. Bunda imaddanin xalqara",
+  "words": [
+   {
+    "w": " bolishi",
+    "s": 355.84,
+    "e": 356.06
+   },
+   {
+    "w": " munkun.",
+    "s": 356.06,
+    "e": 356.38
+   },
+   {
+    "w": " Bunda",
+    "s": 356.5,
+    "e": 357.14
+   },
+   {
+    "w": " imaddanin",
+    "s": 357.14,
+    "e": 357.64
+   },
+   {
+    "w": " xalqara",
+    "s": 357.64,
+    "e": 357.98
+   }
+  ]
+ },
+ {
+  "start": 357.98,
+  "end": 360.34,
+  "text": "ayraportta islatilgani ciddi xafsizlik",
+  "words": [
+   {
+    "w": " ayraportta",
+    "s": 357.98,
+    "e": 358.64
+   },
+   {
+    "w": " islatilgani",
+    "s": 358.64,
+    "e": 359.2
+   },
+   {
+    "w": " ciddi",
+    "s": 359.2,
+    "e": 359.78
+   },
+   {
+    "w": " xafsizlik",
+    "s": 359.78,
+    "e": 360.34
+   }
+  ]
+ },
+ {
+  "start": 360.34,
+  "end": 361.84,
+  "text": "savallarini toqdurdi. Cunki",
+  "words": [
+   {
+    "w": " savallarini",
+    "s": 360.34,
+    "e": 360.82
+   },
+   {
+    "w": " toqdurdi.",
+    "s": 360.82,
+    "e": 361.2
+   },
+   {
+    "w": " Cunki",
+    "s": 361.3,
+    "e": 361.84
+   }
+  ]
+ },
+ {
+  "start": 361.84,
+  "end": 363.82,
+  "text": "ayraport adi cemaat cayiyidi.",
+  "words": [
+   {
+    "w": " ayraport",
+    "s": 361.84,
+    "e": 362.46
+   },
+   {
+    "w": " adi",
+    "s": 362.46,
+    "e": 362.92
+   },
+   {
+    "w": " cemaat",
+    "s": 362.92,
+    "e": 363.38
+   },
+   {
+    "w": " cayiyidi.",
+    "s": 363.38,
+    "e": 363.82
+   }
+  ]
+ },
+ {
+  "start": 364.0,
+  "end": 365.66,
+  "text": "U yerdda minlab yolawchilar,",
+  "words": [
+   {
+    "w": " U",
+    "s": 364.0,
+    "e": 364.38
+   },
+   {
+    "w": " yerdda",
+    "s": 364.38,
+    "e": 364.76
+   },
+   {
+    "w": " minlab",
+    "s": 364.76,
+    "e": 365.14
+   },
+   {
+    "w": " yolawchilar,",
+    "s": 365.14,
+    "e": 365.66
+   }
+  ]
+ },
+ {
+  "start": 365.8,
+  "end": 367.9,
+  "text": "khadimlar va baska insallar xareketlanardi.",
+  "words": [
+   {
+    "w": " khadimlar",
+    "s": 365.8,
+    "e": 366.32
+   },
+   {
+    "w": " va",
+    "s": 366.32,
+    "e": 366.48
+   },
+   {
+    "w": " baska",
+    "s": 366.48,
+    "e": 366.78
+   },
+   {
+    "w": " insallar",
+    "s": 366.78,
+    "e": 367.32
+   },
+   {
+    "w": " xareketlanardi.",
+    "s": 367.32,
+    "e": 367.9
+   }
+  ]
+ },
+ {
+  "start": 368.14,
+  "end": 369.82,
+  "text": "Bu khadisa fakat bitti",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 368.14,
+    "e": 368.56
+   },
+   {
+    "w": " khadisa",
+    "s": 368.56,
+    "e": 368.92
+   },
+   {
+    "w": " fakat",
+    "s": 368.92,
+    "e": 369.58
+   },
+   {
+    "w": " bitti",
+    "s": 369.58,
+    "e": 369.82
+   }
+  ]
+ },
+ {
+  "start": 369.82,
+  "end": 371.86,
+  "text": "insannin olimi bilan baalik cinayat emas.",
+  "words": [
+   {
+    "w": " insannin",
+    "s": 369.82,
+    "e": 370.32
+   },
+   {
+    "w": " olimi",
+    "s": 370.32,
+    "e": 370.64
+   },
+   {
+    "w": " bilan",
+    "s": 370.64,
+    "e": 370.88
+   },
+   {
+    "w": " baalik",
+    "s": 370.88,
+    "e": 371.18
+   },
+   {
+    "w": " cinayat",
+    "s": 371.18,
+    "e": 371.62
+   },
+   {
+    "w": " emas.",
+    "s": 371.62,
+    "e": 371.86
+   }
+  ]
+ },
+ {
+  "start": 371.98,
+  "end": 374.1,
+  "text": "Balki kimyavi kuraldan faydalanish",
+  "words": [
+   {
+    "w": " Balki",
+    "s": 371.98,
+    "e": 372.52
+   },
+   {
+    "w": " kimyavi",
+    "s": 372.52,
+    "e": 373.08
+   },
+   {
+    "w": " kuraldan",
+    "s": 373.08,
+    "e": 373.5
+   },
+   {
+    "w": " faydalanish",
+    "s": 373.5,
+    "e": 374.1
+   }
+  ]
+ },
+ {
+  "start": 374.1,
+  "end": 375.66,
+  "text": "bilan baalik xalqara macara",
+  "words": [
+   {
+    "w": " bilan",
+    "s": 374.1,
+    "e": 374.26
+   },
+   {
+    "w": " baalik",
+    "s": 374.26,
+    "e": 374.56
+   },
+   {
+    "w": " xalqara",
+    "s": 374.56,
+    "e": 375.14
+   },
+   {
+    "w": " macara",
+    "s": 375.14,
+    "e": 375.66
+   }
+  ]
+ },
+ {
+  "start": 375.66,
+  "end": 377.94,
+  "text": "sfatida xan bahalandi. Malaysiya palitsasi",
+  "words": [
+   {
+    "w": " sfatida",
+    "s": 375.66,
+    "e": 376.02
+   },
+   {
+    "w": " xan",
+    "s": 376.02,
+    "e": 376.22
+   },
+   {
+    "w": " bahalandi.",
+    "s": 376.22,
+    "e": 376.74
+   },
+   {
+    "w": " Malaysiya",
+    "s": 376.78,
+    "e": 377.48
+   },
+   {
+    "w": " palitsasi",
+    "s": 377.48,
+    "e": 377.94
+   }
+  ]
+ },
+ {
+  "start": 377.94,
+  "end": 379.62,
+  "text": "khucumgi alaqadar dev xasablangan",
+  "words": [
+   {
+    "w": " khucumgi",
+    "s": 377.94,
+    "e": 378.54
+   },
+   {
+    "w": " alaqadar",
+    "s": 378.54,
+    "e": 379.04
+   },
+   {
+    "w": " dev",
+    "s": 379.04,
+    "e": 379.14
+   },
+   {
+    "w": " xasablangan",
+    "s": 379.14,
+    "e": 379.62
+   }
+  ]
+ },
+ {
+  "start": 379.62,
+  "end": 381.48,
+  "text": "birniche shimali karev qarasini qitrdi.",
+  "words": [
+   {
+    "w": " birniche",
+    "s": 379.62,
+    "e": 380.0
+   },
+   {
+    "w": " shimali",
+    "s": 380.0,
+    "e": 380.38
+   },
+   {
+    "w": " karev",
+    "s": 380.38,
+    "e": 380.74
+   },
+   {
+    "w": " qarasini",
+    "s": 380.74,
+    "e": 381.18
+   },
+   {
+    "w": " qitrdi.",
+    "s": 381.18,
+    "e": 381.48
+   }
+  ]
+ },
+ {
+  "start": 381.58,
+  "end": 383.42,
+  "text": "Terga uchilarinin malumatlarigi kore",
+  "words": [
+   {
+    "w": " Terga",
+    "s": 381.58,
+    "e": 382.16
+   },
+   {
+    "w": " uchilarinin",
+    "s": 382.16,
+    "e": 382.56
+   },
+   {
+    "w": " malumatlarigi",
+    "s": 382.56,
+    "e": 383.22
+   },
+   {
+    "w": " kore",
+    "s": 383.22,
+    "e": 383.42
+   }
+  ]
+ },
+ {
+  "start": 383.42,
+  "end": 385.6,
+  "text": "gumallawchilardan ayrimlari qatillik",
+  "words": [
+   {
+    "w": " gumallawchilardan",
+    "s": 383.42,
+    "e": 384.5
+   },
+   {
+    "w": " ayrimlari",
+    "s": 384.5,
+    "e": 385.14
+   },
+   {
+    "w": " qatillik",
+    "s": 385.14,
+    "e": 385.6
+   }
+  ]
+ },
+ {
+  "start": 385.6,
+  "end": 387.66,
+  "text": "sadir bolgan kuni Malaysiyadan chikib gitgan.",
+  "words": [
+   {
+    "w": " sadir",
+    "s": 385.6,
+    "e": 385.86
+   },
+   {
+    "w": " bolgan",
+    "s": 385.86,
+    "e": 386.1
+   },
+   {
+    "w": " kuni",
+    "s": 386.1,
+    "e": 386.42
+   },
+   {
+    "w": " Malaysiyadan",
+    "s": 386.42,
+    "e": 387.12
+   },
+   {
+    "w": " chikib",
+    "s": 387.12,
+    "e": 387.4
+   },
+   {
+    "w": " gitgan.",
+    "s": 387.4,
+    "e": 387.66
+   }
+  ]
+ },
+ {
+  "start": 388.16,
+  "end": 389.8,
+  "text": "Keynchalik, Birlashka Minlatlar",
+  "words": [
+   {
+    "w": " Keynchalik,",
+    "s": 388.16,
+    "e": 388.92
+   },
+   {
+    "w": " Birlashka",
+    "s": 388.94,
+    "e": 389.34
+   },
+   {
+    "w": " Minlatlar",
+    "s": 389.34,
+    "e": 389.8
+   }
+  ]
+ },
+ {
+  "start": 389.8,
+  "end": 391.68,
+  "text": "Tashkilata ekspertlari xan bu vaqiye",
+  "words": [
+   {
+    "w": " Tashkilata",
+    "s": 389.8,
+    "e": 390.18
+   },
+   {
+    "w": " ekspertlari",
+    "s": 390.18,
+    "e": 390.8
+   },
+   {
+    "w": " xan",
+    "s": 390.8,
+    "e": 390.92
+   },
+   {
+    "w": " bu",
+    "s": 390.92,
+    "e": 391.32
+   },
+   {
+    "w": " vaqiye",
+    "s": 391.32,
+    "e": 391.68
+   }
+  ]
+ },
+ {
+  "start": 391.68,
+  "end": 393.68,
+  "text": "yuzasitan eylan qilingan malumatlarini organdi.",
+  "words": [
+   {
+    "w": " yuzasitan",
+    "s": 391.68,
+    "e": 392.14
+   },
+   {
+    "w": " eylan",
+    "s": 392.14,
+    "e": 392.4
+   },
+   {
+    "w": " qilingan",
+    "s": 392.4,
+    "e": 392.8
+   },
+   {
+    "w": " malumatlarini",
+    "s": 392.8,
+    "e": 393.42
+   },
+   {
+    "w": " organdi.",
+    "s": 393.42,
+    "e": 393.68
+   }
+  ]
+ },
+ {
+  "start": 394.1,
+  "end": 395.58,
+  "text": "2018-ci yilda",
+  "words": [
+   {
+    "w": " 2018",
+    "s": 394.1,
+    "e": 394.86
+   },
+   {
+    "w": "-ci",
+    "s": 394.86,
+    "e": 395.38
+   },
+   {
+    "w": " yilda",
+    "s": 395.38,
+    "e": 395.58
+   }
+  ]
+ },
+ {
+  "start": 395.58,
+  "end": 397.28,
+  "text": "Ameriki Koshmesatlari Khukumati",
+  "words": [
+   {
+    "w": " Ameriki",
+    "s": 395.58,
+    "e": 396.28
+   },
+   {
+    "w": " Koshmesatlari",
+    "s": 396.28,
+    "e": 396.9
+   },
+   {
+    "w": " Khukumati",
+    "s": 396.9,
+    "e": 397.28
+   }
+  ]
+ },
+ {
+  "start": 397.28,
+  "end": 399.7,
+  "text": "shimali karevi khukumati kimche namni",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 397.28,
+    "e": 397.92
+   },
+   {
+    "w": " karevi",
+    "s": 397.92,
+    "e": 398.3
+   },
+   {
+    "w": " khukumati",
+    "s": 398.3,
+    "e": 398.74
+   },
+   {
+    "w": " kimche",
+    "s": 398.74,
+    "e": 399.3
+   },
+   {
+    "w": " namni",
+    "s": 399.3,
+    "e": 399.7
+   }
+  ]
+ },
+ {
+  "start": 399.7,
+  "end": 401.44,
+  "text": "oldurish chun VX islatgan digan",
+  "words": [
+   {
+    "w": " oldurish",
+    "s": 399.7,
+    "e": 400.04
+   },
+   {
+    "w": " chun",
+    "s": 400.04,
+    "e": 400.26
+   },
+   {
+    "w": " VX",
+    "s": 400.26,
+    "e": 400.62
+   },
+   {
+    "w": " islatgan",
+    "s": 400.62,
+    "e": 401.16
+   },
+   {
+    "w": " digan",
+    "s": 401.16,
+    "e": 401.44
+   }
+  ]
+ },
+ {
+  "start": 401.44,
+  "end": 402.8,
+  "text": "rasmin khulasani eylan qildi.",
+  "words": [
+   {
+    "w": " rasmin",
+    "s": 401.44,
+    "e": 401.82
+   },
+   {
+    "w": " khulasani",
+    "s": 401.82,
+    "e": 402.34
+   },
+   {
+    "w": " eylan",
+    "s": 402.34,
+    "e": 402.5
+   },
+   {
+    "w": " qildi.",
+    "s": 402.5,
+    "e": 402.8
+   }
+  ]
+ },
+ {
+  "start": 402.8,
+  "end": 404.92,
+  "text": "Shimali karevi isa qatillikki",
+  "words": [
+   {
+    "w": " Shimali",
+    "s": 402.8,
+    "e": 403.54
+   },
+   {
+    "w": " karevi",
+    "s": 403.54,
+    "e": 403.86
+   },
+   {
+    "w": " isa",
+    "s": 403.86,
+    "e": 404.08
+   },
+   {
+    "w": " qatillikki",
+    "s": 404.08,
+    "e": 404.92
+   }
+  ]
+ },
+ {
+  "start": 404.92,
+  "end": 406.18,
+  "text": "alaqadarligini rat etdi.",
+  "words": [
+   {
+    "w": " alaqadarligini",
+    "s": 404.92,
+    "e": 405.68
+   },
+   {
+    "w": " rat",
+    "s": 405.68,
+    "e": 405.88
+   },
+   {
+    "w": " etdi.",
+    "s": 405.88,
+    "e": 406.18
+   }
+  ]
+ },
+ {
+  "start": 406.32,
+  "end": 408.38,
+  "text": "Amma bu ishtagi en muhum saval",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 406.32,
+    "e": 406.92
+   },
+   {
+    "w": " bu",
+    "s": 406.92,
+    "e": 407.16
+   },
+   {
+    "w": " ishtagi",
+    "s": 407.16,
+    "e": 407.48
+   },
+   {
+    "w": " en",
+    "s": 407.48,
+    "e": 407.68
+   },
+   {
+    "w": " muhum",
+    "s": 407.68,
+    "e": 408.0
+   },
+   {
+    "w": " saval",
+    "s": 408.0,
+    "e": 408.38
+   }
+  ]
+ },
+ {
+  "start": 408.38,
+  "end": 410.4,
+  "text": "achiq qala verdi. Suiqasini kim",
+  "words": [
+   {
+    "w": " achiq",
+    "s": 408.38,
+    "e": 408.78
+   },
+   {
+    "w": " qala",
+    "s": 408.78,
+    "e": 408.96
+   },
+   {
+    "w": " verdi.",
+    "s": 408.96,
+    "e": 409.1
+   },
+   {
+    "w": " Suiqasini",
+    "s": 409.42,
+    "e": 410.18
+   },
+   {
+    "w": " kim",
+    "s": 410.18,
+    "e": 410.4
+   }
+  ]
+ },
+ {
+  "start": 410.4,
+  "end": 412.28,
+  "text": "ricalashtirgan? Va yakuni buyruk",
+  "words": [
+   {
+    "w": " ricalashtirgan?",
+    "s": 410.4,
+    "e": 411.04
+   },
+   {
+    "w": " Va",
+    "s": 411.18,
+    "e": 411.54
+   },
+   {
+    "w": " yakuni",
+    "s": 411.54,
+    "e": 411.94
+   },
+   {
+    "w": " buyruk",
+    "s": 411.94,
+    "e": 412.28
+   }
+  ]
+ },
+ {
+  "start": 412.28,
+  "end": 413.08,
+  "text": "qayirdan kilgan?",
+  "words": [
+   {
+    "w": " qayirdan",
+    "s": 412.28,
+    "e": 412.78
+   },
+   {
+    "w": " kilgan?",
+    "s": 412.78,
+    "e": 413.08
+   }
+  ]
+ },
+ {
+  "start": 413.68,
+  "end": 416.1,
+  "text": "2017-ci yilda iki ayalgi qatillik",
+  "words": [
+   {
+    "w": " 2017",
+    "s": 413.68,
+    "e": 414.12
+   },
+   {
+    "w": "-ci",
+    "s": 414.12,
+    "e": 414.72
+   },
+   {
+    "w": " yilda",
+    "s": 414.72,
+    "e": 414.92
+   },
+   {
+    "w": " iki",
+    "s": 414.92,
+    "e": 415.14
+   },
+   {
+    "w": " ayalgi",
+    "s": 415.14,
+    "e": 415.6
+   },
+   {
+    "w": " qatillik",
+    "s": 415.6,
+    "e": 416.1
+   }
+  ]
+ },
+ {
+  "start": 416.1,
+  "end": 418.3,
+  "text": "ayiblagu koyildi. Malaysiya qanunchilegiye",
+  "words": [
+   {
+    "w": " ayiblagu",
+    "s": 416.1,
+    "e": 416.46
+   },
+   {
+    "w": " koyildi.",
+    "s": 416.46,
+    "e": 416.9
+   },
+   {
+    "w": " Malaysiya",
+    "s": 417.02,
+    "e": 417.64
+   },
+   {
+    "w": " qanunchilegiye",
+    "s": 417.64,
+    "e": 418.3
+   }
+  ]
+ },
+ {
+  "start": 418.3,
+  "end": 420.3,
+  "text": "kore ular osha paytta olim cezasigi",
+  "words": [
+   {
+    "w": " kore",
+    "s": 418.3,
+    "e": 418.44
+   },
+   {
+    "w": " ular",
+    "s": 418.44,
+    "e": 418.88
+   },
+   {
+    "w": " osha",
+    "s": 418.88,
+    "e": 419.24
+   },
+   {
+    "w": " paytta",
+    "s": 419.24,
+    "e": 419.54
+   },
+   {
+    "w": " olim",
+    "s": 419.54,
+    "e": 419.84
+   },
+   {
+    "w": " cezasigi",
+    "s": 419.84,
+    "e": 420.3
+   }
+  ]
+ },
+ {
+  "start": 420.3,
+  "end": 422.44,
+  "text": "hukum qilinishi munkun edi. Su jaryana",
+  "words": [
+   {
+    "w": " hukum",
+    "s": 420.3,
+    "e": 420.6
+   },
+   {
+    "w": " qilinishi",
+    "s": 420.6,
+    "e": 420.88
+   },
+   {
+    "w": " munkun",
+    "s": 420.88,
+    "e": 421.2
+   },
+   {
+    "w": " edi.",
+    "s": 421.2,
+    "e": 421.32
+   },
+   {
+    "w": " Su",
+    "s": 421.52,
+    "e": 422.02
+   },
+   {
+    "w": " jaryana",
+    "s": 422.02,
+    "e": 422.44
+   }
+  ]
+ },
+ {
+  "start": 422.44,
+  "end": 424.48,
+  "text": "xalqara ammavi akhbarat vasitalari",
+  "words": [
+   {
+    "w": " xalqara",
+    "s": 422.44,
+    "e": 423.06
+   },
+   {
+    "w": " ammavi",
+    "s": 423.06,
+    "e": 423.52
+   },
+   {
+    "w": " akhbarat",
+    "s": 423.52,
+    "e": 423.96
+   },
+   {
+    "w": " vasitalari",
+    "s": 423.96,
+    "e": 424.48
+   }
+  ]
+ },
+ {
+  "start": 424.48,
+  "end": 425.72,
+  "text": "tamanudan king yaratildi.",
+  "words": [
+   {
+    "w": " tamanudan",
+    "s": 424.48,
+    "e": 424.94
+   },
+   {
+    "w": " king",
+    "s": 424.94,
+    "e": 425.16
+   },
+   {
+    "w": " yaratildi.",
+    "s": 425.16,
+    "e": 425.72
+   }
+  ]
+ },
+ {
+  "start": 425.88,
+  "end": 428.52,
+  "text": "Khumayi advakatlari ayallar aldanganini",
+  "words": [
+   {
+    "w": " Khumayi",
+    "s": 425.88,
+    "e": 426.64
+   },
+   {
+    "w": " advakatlari",
+    "s": 426.64,
+    "e": 427.22
+   },
+   {
+    "w": " ayallar",
+    "s": 427.22,
+    "e": 427.92
+   },
+   {
+    "w": " aldanganini",
+    "s": 427.92,
+    "e": 428.52
+   }
+  ]
+ },
+ {
+  "start": 428.52,
+  "end": 430.54,
+  "text": "va xakiki tashkilatchilar baska shakslar",
+  "words": [
+   {
+    "w": " va",
+    "s": 428.52,
+    "e": 428.74
+   },
+   {
+    "w": " xakiki",
+    "s": 428.74,
+    "e": 429.12
+   },
+   {
+    "w": " tashkilatchilar",
+    "s": 429.12,
+    "e": 429.8
+   },
+   {
+    "w": " baska",
+    "s": 429.8,
+    "e": 430.16
+   },
+   {
+    "w": " shakslar",
+    "s": 430.16,
+    "e": 430.54
+   }
+  ]
+ },
+ {
+  "start": 430.54,
+  "end": 431.5,
+  "text": "bolganini takitlari.",
+  "words": [
+   {
+    "w": " bolganini",
+    "s": 430.54,
+    "e": 430.96
+   },
+   {
+    "w": " takitlari.",
+    "s": 430.96,
+    "e": 431.5
+   }
+  ]
+ },
+ {
+  "start": 431.5,
+  "end": 433.86,
+  "text": "2019-ci ili mart ayide isa",
+  "words": [
+   {
+    "w": " 2019",
+    "s": 431.5,
+    "e": 432.46
+   },
+   {
+    "w": "-ci",
+    "s": 432.46,
+    "e": 433.08
+   },
+   {
+    "w": " ili",
+    "s": 433.08,
+    "e": 433.24
+   },
+   {
+    "w": " mart",
+    "s": 433.24,
+    "e": 433.38
+   },
+   {
+    "w": " ayide",
+    "s": 433.38,
+    "e": 433.66
+   },
+   {
+    "w": " isa",
+    "s": 433.66,
+    "e": 433.86
+   }
+  ]
+ },
+ {
+  "start": 433.86,
+  "end": 435.46,
+  "text": "kutunmagan karar qabul qilindi.",
+  "words": [
+   {
+    "w": " kutunmagan",
+    "s": 433.86,
+    "e": 434.5
+   },
+   {
+    "w": " karar",
+    "s": 434.5,
+    "e": 434.9
+   },
+   {
+    "w": " qabul",
+    "s": 434.9,
+    "e": 435.16
+   },
+   {
+    "w": " qilindi.",
+    "s": 435.16,
+    "e": 435.46
+   }
+  ]
+ },
+ {
+  "start": 435.87,
+  "end": 437.92,
+  "text": "Siti Asiakhe koyilgan qatillik ayiblagu",
+  "words": [
+   {
+    "w": " Siti",
+    "s": 435.87,
+    "e": 436.26
+   },
+   {
+    "w": " Asiakhe",
+    "s": 436.26,
+    "e": 436.72
+   },
+   {
+    "w": " koyilgan",
+    "s": 436.72,
+    "e": 437.12
+   },
+   {
+    "w": " qatillik",
+    "s": 437.12,
+    "e": 437.54
+   },
+   {
+    "w": " ayiblagu",
+    "s": 437.54,
+    "e": 437.92
+   }
+  ]
+ },
+ {
+  "start": 437.92,
+  "end": 440.0,
+  "text": "begar qilindi va u azat etildi.",
+  "words": [
+   {
+    "w": " begar",
+    "s": 437.92,
+    "e": 438.26
+   },
+   {
+    "w": " qilindi",
+    "s": 438.26,
+    "e": 438.58
+   },
+   {
+    "w": " va",
+    "s": 438.58,
+    "e": 438.96
+   },
+   {
+    "w": " u",
+    "s": 438.96,
+    "e": 439.14
+   },
+   {
+    "w": " azat",
+    "s": 439.14,
+    "e": 439.62
+   },
+   {
+    "w": " etildi.",
+    "s": 439.62,
+    "e": 440.0
+   }
+  ]
+ },
+ {
+  "start": 440.12,
+  "end": 441.88,
+  "text": "Haradan Kopotmay Duantih",
+  "words": [
+   {
+    "w": " Haradan",
+    "s": 440.12,
+    "e": 440.72
+   },
+   {
+    "w": " Kopotmay",
+    "s": 440.72,
+    "e": 441.32
+   },
+   {
+    "w": " Duantih",
+    "s": 441.32,
+    "e": 441.88
+   }
+  ]
+ },
+ {
+  "start": 441.88,
+  "end": 443.58,
+  "text": "huangi nisbatan xam qatillik ayiblagu",
+  "words": [
+   {
+    "w": " huangi",
+    "s": 441.88,
+    "e": 442.18
+   },
+   {
+    "w": " nisbatan",
+    "s": 442.18,
+    "e": 442.6
+   },
+   {
+    "w": " xam",
+    "s": 442.6,
+    "e": 442.78
+   },
+   {
+    "w": " qatillik",
+    "s": 442.78,
+    "e": 443.22
+   },
+   {
+    "w": " ayiblagu",
+    "s": 443.22,
+    "e": 443.58
+   }
+  ]
+ },
+ {
+  "start": 443.58,
+  "end": 445.34,
+  "text": "yengilraq ayiblagu gelmashdarildi.",
+  "words": [
+   {
+    "w": " yengilraq",
+    "s": 443.58,
+    "e": 444.36
+   },
+   {
+    "w": " ayiblagu",
+    "s": 444.36,
+    "e": 444.7
+   },
+   {
+    "w": " gelmashdarildi.",
+    "s": 444.7,
+    "e": 445.34
+   }
+  ]
+ },
+ {
+  "start": 445.46,
+  "end": 447.64,
+  "text": "U xafli vasita yardamida",
+  "words": [
+   {
+    "w": " U",
+    "s": 445.46,
+    "e": 445.94
+   },
+   {
+    "w": " xafli",
+    "s": 445.94,
+    "e": 446.6
+   },
+   {
+    "w": " vasita",
+    "s": 446.6,
+    "e": 447.08
+   },
+   {
+    "w": " yardamida",
+    "s": 447.08,
+    "e": 447.64
+   }
+  ]
+ },
+ {
+  "start": 447.64,
+  "end": 449.54,
+  "text": "zarar yetkazish ayibini tanaldi",
+  "words": [
+   {
+    "w": " zarar",
+    "s": 447.64,
+    "e": 448.08
+   },
+   {
+    "w": " yetkazish",
+    "s": 448.08,
+    "e": 448.56
+   },
+   {
+    "w": " ayibini",
+    "s": 448.56,
+    "e": 449.0
+   },
+   {
+    "w": " tanaldi",
+    "s": 449.0,
+    "e": 449.54
+   }
+  ]
+ },
+ {
+  "start": 449.54,
+  "end": 451.22,
+  "text": "va kamaq cezasigi hukum qilindi.",
+  "words": [
+   {
+    "w": " va",
+    "s": 449.54,
+    "e": 449.9
+   },
+   {
+    "w": " kamaq",
+    "s": 449.9,
+    "e": 450.26
+   },
+   {
+    "w": " cezasigi",
+    "s": 450.26,
+    "e": 450.7
+   },
+   {
+    "w": " hukum",
+    "s": 450.7,
+    "e": 450.96
+   },
+   {
+    "w": " qilindi.",
+    "s": 450.96,
+    "e": 451.22
+   }
+  ]
+ },
+ {
+  "start": 451.6,
+  "end": 453.58,
+  "text": "Kenchalik u xam azatlik geciqdi.",
+  "words": [
+   {
+    "w": " Kenchalik",
+    "s": 451.6,
+    "e": 452.38
+   },
+   {
+    "w": " u",
+    "s": 452.38,
+    "e": 452.66
+   },
+   {
+    "w": " xam",
+    "s": 452.66,
+    "e": 452.9
+   },
+   {
+    "w": " azatlik",
+    "s": 452.9,
+    "e": 453.3
+   },
+   {
+    "w": " geciqdi.",
+    "s": 453.3,
+    "e": 453.58
+   }
+  ]
+ },
+ {
+  "start": 453.84,
+  "end": 455.86,
+  "text": "Natijada kimchen namning",
+  "words": [
+   {
+    "w": " Natijada",
+    "s": 453.84,
+    "e": 454.62
+   },
+   {
+    "w": " kimchen",
+    "s": 454.62,
+    "e": 455.42
+   },
+   {
+    "w": " namning",
+    "s": 455.42,
+    "e": 455.86
+   }
+  ]
+ },
+ {
+  "start": 455.86,
+  "end": 457.82,
+  "text": "olimi boyiche iki ayaldan hechbiri",
+  "words": [
+   {
+    "w": " olimi",
+    "s": 455.86,
+    "e": 456.18
+   },
+   {
+    "w": " boyiche",
+    "s": 456.18,
+    "e": 456.5
+   },
+   {
+    "w": " iki",
+    "s": 456.5,
+    "e": 456.78
+   },
+   {
+    "w": " ayaldan",
+    "s": 456.78,
+    "e": 457.36
+   },
+   {
+    "w": " hechbiri",
+    "s": 457.36,
+    "e": 457.82
+   }
+  ]
+ },
+ {
+  "start": 457.82,
+  "end": 460.02,
+  "text": "qatillikte ayibdar deb hukum qilinmadi.",
+  "words": [
+   {
+    "w": " qatillikte",
+    "s": 457.82,
+    "e": 458.66
+   },
+   {
+    "w": " ayibdar",
+    "s": 458.66,
+    "e": 459.22
+   },
+   {
+    "w": " deb",
+    "s": 459.22,
+    "e": 459.36
+   },
+   {
+    "w": " hukum",
+    "s": 459.36,
+    "e": 459.66
+   },
+   {
+    "w": " qilinmadi.",
+    "s": 459.66,
+    "e": 460.02
+   }
+  ]
+ },
+ {
+  "start": 460.5,
+  "end": 461.28,
+  "text": "Qatillikni",
+  "words": [
+   {
+    "w": " Qatillikni",
+    "s": 460.5,
+    "e": 461.28
+   }
+  ]
+ },
+ {
+  "start": 461.28,
+  "end": 462.82,
+  "text": "rejelashdirgenlikte guman qilingan",
+  "words": [
+   {
+    "w": " rejelashdirgenlikte",
+    "s": 461.28,
+    "e": 462.18
+   },
+   {
+    "w": " guman",
+    "s": 462.18,
+    "e": 462.44
+   },
+   {
+    "w": " qilingan",
+    "s": 462.44,
+    "e": 462.82
+   }
+  ]
+ },
+ {
+  "start": 462.82,
+  "end": 464.64,
+  "text": "shimali kareye fukaralari isa",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 462.82,
+    "e": 463.44
+   },
+   {
+    "w": " kareye",
+    "s": 463.44,
+    "e": 463.82
+   },
+   {
+    "w": " fukaralari",
+    "s": 463.82,
+    "e": 464.42
+   },
+   {
+    "w": " isa",
+    "s": 464.42,
+    "e": 464.64
+   }
+  ]
+ },
+ {
+  "start": 464.64,
+  "end": 466.98,
+  "text": "malaziya sudada jawabgerlikke tartilmada.",
+  "words": [
+   {
+    "w": " malaziya",
+    "s": 464.64,
+    "e": 465.34
+   },
+   {
+    "w": " sudada",
+    "s": 465.34,
+    "e": 465.64
+   },
+   {
+    "w": " jawabgerlikke",
+    "s": 465.64,
+    "e": 466.46
+   },
+   {
+    "w": " tartilmada.",
+    "s": 466.46,
+    "e": 466.98
+   }
+  ]
+ },
+ {
+  "start": 467.52,
+  "end": 468.4,
+  "text": "Bu xalat",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 467.52,
+    "e": 467.96
+   },
+   {
+    "w": " xalat",
+    "s": 467.96,
+    "e": 468.4
+   }
+  ]
+ },
+ {
+  "start": 468.4,
+  "end": 470.62,
+  "text": "xalqara jamaatchilikte yangi sawallarini",
+  "words": [
+   {
+    "w": " xalqara",
+    "s": 468.4,
+    "e": 468.94
+   },
+   {
+    "w": " jamaatchilikte",
+    "s": 468.94,
+    "e": 469.68
+   },
+   {
+    "w": " yangi",
+    "s": 469.68,
+    "e": 470.04
+   },
+   {
+    "w": " sawallarini",
+    "s": 470.04,
+    "e": 470.62
+   }
+  ]
+ },
+ {
+  "start": 470.62,
+  "end": 472.84,
+  "text": "paydaqildi. Agar iki ayal",
+  "words": [
+   {
+    "w": " paydaqildi.",
+    "s": 470.62,
+    "e": 471.08
+   },
+   {
+    "w": " Agar",
+    "s": 471.14,
+    "e": 472.02
+   },
+   {
+    "w": " iki",
+    "s": 472.02,
+    "e": 472.4
+   },
+   {
+    "w": " ayal",
+    "s": 472.4,
+    "e": 472.84
+   }
+  ]
+ },
+ {
+  "start": 472.84,
+  "end": 474.48,
+  "text": "xaqiqattan xam aldangan bolsa",
+  "words": [
+   {
+    "w": " xaqiqattan",
+    "s": 472.84,
+    "e": 473.4
+   },
+   {
+    "w": " xam",
+    "s": 473.4,
+    "e": 473.68
+   },
+   {
+    "w": " aldangan",
+    "s": 473.68,
+    "e": 474.12
+   },
+   {
+    "w": " bolsa",
+    "s": 474.12,
+    "e": 474.48
+   }
+  ]
+ },
+ {
+  "start": 474.48,
+  "end": 475.72,
+  "text": "ularini kim boshkargan?",
+  "words": [
+   {
+    "w": " ularini",
+    "s": 474.48,
+    "e": 475.08
+   },
+   {
+    "w": " kim",
+    "s": 475.08,
+    "e": 475.28
+   },
+   {
+    "w": " boshkargan?",
+    "s": 475.28,
+    "e": 475.72
+   }
+  ]
+ },
+ {
+  "start": 476.34,
+  "end": 477.96,
+  "text": "Kimyavi madda qayirdan kilgan",
+  "words": [
+   {
+    "w": " Kimyavi",
+    "s": 476.34,
+    "e": 476.78
+   },
+   {
+    "w": " madda",
+    "s": 476.78,
+    "e": 477.22
+   },
+   {
+    "w": " qayirdan",
+    "s": 477.22,
+    "e": 477.68
+   },
+   {
+    "w": " kilgan",
+    "s": 477.68,
+    "e": 477.96
+   }
+  ]
+ },
+ {
+  "start": 477.96,
+  "end": 480.46,
+  "text": "va nege bu apiratsiya aynan Kuala Lumpur",
+  "words": [
+   {
+    "w": " va",
+    "s": 477.96,
+    "e": 478.38
+   },
+   {
+    "w": " nege",
+    "s": 478.38,
+    "e": 478.68
+   },
+   {
+    "w": " bu",
+    "s": 478.68,
+    "e": 478.88
+   },
+   {
+    "w": " apiratsiya",
+    "s": 478.88,
+    "e": 479.42
+   },
+   {
+    "w": " aynan",
+    "s": 479.42,
+    "e": 479.8
+   },
+   {
+    "w": " Kuala",
+    "s": 479.8,
+    "e": 480.12
+   },
+   {
+    "w": " Lumpur",
+    "s": 480.12,
+    "e": 480.46
+   }
+  ]
+ },
+ {
+  "start": 480.46,
+  "end": 481.7,
+  "text": "ayraportada amalgashirilgan.",
+  "words": [
+   {
+    "w": " ayraportada",
+    "s": 480.46,
+    "e": 481.06
+   },
+   {
+    "w": " amalgashirilgan.",
+    "s": 481.06,
+    "e": 481.7
+   }
+  ]
+ },
+ {
+  "start": 482.12,
+  "end": 483.8,
+  "text": "Bu sawallarining barchasiga",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 482.12,
+    "e": 482.56
+   },
+   {
+    "w": " sawallarining",
+    "s": 482.56,
+    "e": 483.22
+   },
+   {
+    "w": " barchasiga",
+    "s": 483.22,
+    "e": 483.8
+   }
+  ]
+ },
+ {
+  "start": 483.8,
+  "end": 486.4,
+  "text": "achiq sud jaryanida yakuni jawab berilmada.",
+  "words": [
+   {
+    "w": " achiq",
+    "s": 483.8,
+    "e": 484.5
+   },
+   {
+    "w": " sud",
+    "s": 484.5,
+    "e": 484.7
+   },
+   {
+    "w": " jaryanida",
+    "s": 484.7,
+    "e": 485.24
+   },
+   {
+    "w": " yakuni",
+    "s": 485.24,
+    "e": 485.64
+   },
+   {
+    "w": " jawab",
+    "s": 485.64,
+    "e": 486.06
+   },
+   {
+    "w": " berilmada.",
+    "s": 486.06,
+    "e": 486.4
+   }
+  ]
+ },
+ {
+  "start": 487.24,
+  "end": 488.44,
+  "text": "Kimchen namning olimidan",
+  "words": [
+   {
+    "w": " Kimchen",
+    "s": 487.24,
+    "e": 487.68
+   },
+   {
+    "w": " namning",
+    "s": 487.68,
+    "e": 488.08
+   },
+   {
+    "w": " olimidan",
+    "s": 488.08,
+    "e": 488.44
+   }
+  ]
+ },
+ {
+  "start": 488.44,
+  "end": 490.44,
+  "text": "kin janubi kareye va aqishtagi",
+  "words": [
+   {
+    "w": " kin",
+    "s": 488.44,
+    "e": 488.66
+   },
+   {
+    "w": " janubi",
+    "s": 488.66,
+    "e": 489.42
+   },
+   {
+    "w": " kareye",
+    "s": 489.42,
+    "e": 489.76
+   },
+   {
+    "w": " va",
+    "s": 489.76,
+    "e": 489.96
+   },
+   {
+    "w": " aqishtagi",
+    "s": 489.96,
+    "e": 490.44
+   }
+  ]
+ },
+ {
+  "start": 490.44,
+  "end": 490.88,
+  "text": "rasmilar",
+  "words": [
+   {
+    "w": " rasmilar",
+    "s": 490.44,
+    "e": 490.88
+   }
+  ]
+ },
+ {
+  "start": 490.88,
+  "end": 492.54,
+  "text": "shimali kareye blan baaluk",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 490.88,
+    "e": 491.56
+   },
+   {
+    "w": " kareye",
+    "s": 491.56,
+    "e": 491.94
+   },
+   {
+    "w": " blan",
+    "s": 491.94,
+    "e": 492.2
+   },
+   {
+    "w": " baaluk",
+    "s": 492.2,
+    "e": 492.54
+   }
+  ]
+ },
+ {
+  "start": 492.54,
+  "end": 493.76,
+  "text": "ayiblaularini ilgarisurdi.",
+  "words": [
+   {
+    "w": " ayiblaularini",
+    "s": 492.54,
+    "e": 493.2
+   },
+   {
+    "w": " ilgarisurdi.",
+    "s": 493.2,
+    "e": 493.76
+   }
+  ]
+ },
+ {
+  "start": 493.84,
+  "end": 495.94,
+  "text": "Airim takhliyichilar qatillikni",
+  "words": [
+   {
+    "w": " Airim",
+    "s": 493.84,
+    "e": 494.52
+   },
+   {
+    "w": " takhliyichilar",
+    "s": 494.52,
+    "e": 495.02
+   },
+   {
+    "w": " qatillikni",
+    "s": 495.02,
+    "e": 495.94
+   }
+  ]
+ },
+ {
+  "start": 495.94,
+  "end": 498.1,
+  "text": "xakumiyat uchun ehtimali rakibni",
+  "words": [
+   {
+    "w": " xakumiyat",
+    "s": 495.94,
+    "e": 496.78
+   },
+   {
+    "w": " uchun",
+    "s": 496.78,
+    "e": 497.0
+   },
+   {
+    "w": " ehtimali",
+    "s": 497.0,
+    "e": 497.64
+   },
+   {
+    "w": " rakibni",
+    "s": 497.64,
+    "e": 498.1
+   }
+  ]
+ },
+ {
+  "start": 498.1,
+  "end": 499.74,
+  "text": "yogqilish xarakati sifatida bahaladi.",
+  "words": [
+   {
+    "w": " yogqilish",
+    "s": 498.1,
+    "e": 498.64
+   },
+   {
+    "w": " xarakati",
+    "s": 498.64,
+    "e": 498.98
+   },
+   {
+    "w": " sifatida",
+    "s": 498.98,
+    "e": 499.36
+   },
+   {
+    "w": " bahaladi.",
+    "s": 499.36,
+    "e": 499.74
+   }
+  ]
+ },
+ {
+  "start": 499.86,
+  "end": 501.66,
+  "text": "Bashkalar isa bu vaqiya",
+  "words": [
+   {
+    "w": " Bashkalar",
+    "s": 499.86,
+    "e": 500.62
+   },
+   {
+    "w": " isa",
+    "s": 500.62,
+    "e": 500.86
+   },
+   {
+    "w": " bu",
+    "s": 500.86,
+    "e": 501.28
+   },
+   {
+    "w": " vaqiya",
+    "s": 501.28,
+    "e": 501.66
+   }
+  ]
+ },
+ {
+  "start": 501.66,
+  "end": 503.9,
+  "text": "shimali kareye rakbariyatinin harijdagi",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 501.66,
+    "e": 502.28
+   },
+   {
+    "w": " kareye",
+    "s": 502.28,
+    "e": 502.66
+   },
+   {
+    "w": " rakbariyatinin",
+    "s": 502.66,
+    "e": 503.28
+   },
+   {
+    "w": " harijdagi",
+    "s": 503.28,
+    "e": 503.9
+   }
+  ]
+ },
+ {
+  "start": 503.9,
+  "end": 505.96,
+  "text": "tangiichilargi nispatan agaxlantirishi",
+  "words": [
+   {
+    "w": " tangiichilargi",
+    "s": 503.9,
+    "e": 504.66
+   },
+   {
+    "w": " nispatan",
+    "s": 504.66,
+    "e": 505.06
+   },
+   {
+    "w": " agaxlantirishi",
+    "s": 505.06,
+    "e": 505.96
+   }
+  ]
+ },
+ {
+  "start": 505.96,
+  "end": 507.1,
+  "text": "bolish munkulligini takhmin qilda.",
+  "words": [
+   {
+    "w": " bolish",
+    "s": 505.96,
+    "e": 506.18
+   },
+   {
+    "w": " munkulligini",
+    "s": 506.18,
+    "e": 506.6
+   },
+   {
+    "w": " takhmin",
+    "s": 506.6,
+    "e": 506.86
+   },
+   {
+    "w": " qilda.",
+    "s": 506.86,
+    "e": 507.1
+   }
+  ]
+ },
+ {
+  "start": 507.74,
+  "end": 509.84,
+  "text": "Amma bu takhminlarinin barchasini",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 507.74,
+    "e": 508.2
+   },
+   {
+    "w": " bu",
+    "s": 508.2,
+    "e": 508.62
+   },
+   {
+    "w": " takhminlarinin",
+    "s": 508.62,
+    "e": 509.24
+   },
+   {
+    "w": " barchasini",
+    "s": 509.24,
+    "e": 509.84
+   }
+  ]
+ },
+ {
+  "start": 509.84,
+  "end": 511.6,
+  "text": "ispatlangan faktib bolmayda.",
+  "words": [
+   {
+    "w": " ispatlangan",
+    "s": 509.84,
+    "e": 510.66
+   },
+   {
+    "w": " faktib",
+    "s": 510.66,
+    "e": 511.2
+   },
+   {
+    "w": " bolmayda.",
+    "s": 511.2,
+    "e": 511.6
+   }
+  ]
+ },
+ {
+  "start": 512.22,
+  "end": 514.32,
+  "text": "Kimchen inning shaksan buyruk bergani",
+  "words": [
+   {
+    "w": " Kimchen",
+    "s": 512.22,
+    "e": 512.68
+   },
+   {
+    "w": " inning",
+    "s": 512.68,
+    "e": 513.08
+   },
+   {
+    "w": " shaksan",
+    "s": 513.08,
+    "e": 513.62
+   },
+   {
+    "w": " buyruk",
+    "s": 513.62,
+    "e": 513.86
+   },
+   {
+    "w": " bergani",
+    "s": 513.86,
+    "e": 514.32
+   }
+  ]
+ },
+ {
+  "start": 514.32,
+  "end": 515.94,
+  "text": "achiq sudda ispatlanmagan.",
+  "words": [
+   {
+    "w": " achiq",
+    "s": 514.32,
+    "e": 514.86
+   },
+   {
+    "w": " sudda",
+    "s": 514.86,
+    "e": 515.22
+   },
+   {
+    "w": " ispatlanmagan.",
+    "s": 515.22,
+    "e": 515.94
+   }
+  ]
+ },
+ {
+  "start": 516.24,
+  "end": 518.68,
+  "text": "Shublambirga VX islatilgani",
+  "words": [
+   {
+    "w": " Shublambirga",
+    "s": 516.24,
+    "e": 517.16
+   },
+   {
+    "w": " VX",
+    "s": 517.16,
+    "e": 517.94
+   },
+   {
+    "w": " islatilgani",
+    "s": 517.94,
+    "e": 518.68
+   }
+  ]
+ },
+ {
+  "start": 518.68,
+  "end": 520.32,
+  "text": "kimchen namning oldirilgani",
+  "words": [
+   {
+    "w": " kimchen",
+    "s": 518.68,
+    "e": 519.36
+   },
+   {
+    "w": " namning",
+    "s": 519.36,
+    "e": 519.7
+   },
+   {
+    "w": " oldirilgani",
+    "s": 519.7,
+    "e": 520.32
+   }
+  ]
+ },
+ {
+  "start": 520.32,
+  "end": 520.44,
+  "text": "va",
+  "words": [
+   {
+    "w": " va",
+    "s": 520.32,
+    "e": 520.44
+   }
+  ]
+ },
+ {
+  "start": 520.44,
+  "end": 521.74,
+  "text": "operatsiya blan baaluk",
+  "words": [
+   {
+    "w": " operatsiya",
+    "s": 520.44,
+    "e": 521.2
+   },
+   {
+    "w": " blan",
+    "s": 521.2,
+    "e": 521.42
+   },
+   {
+    "w": " baaluk",
+    "s": 521.42,
+    "e": 521.74
+   }
+  ]
+ },
+ {
+  "start": 521.74,
+  "end": 523.04,
+  "text": "shimali kareye fukaralari",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 521.74,
+    "e": 522.1
+   },
+   {
+    "w": " kareye",
+    "s": 522.1,
+    "e": 522.46
+   },
+   {
+    "w": " fukaralari",
+    "s": 522.46,
+    "e": 523.04
+   }
+  ]
+ },
+ {
+  "start": 523.04,
+  "end": 525.52,
+  "text": "tergaw markaziga tushkani khujjatlashtirilgani.",
+  "words": [
+   {
+    "w": " tergaw",
+    "s": 523.04,
+    "e": 523.6
+   },
+   {
+    "w": " markaziga",
+    "s": 523.6,
+    "e": 524.08
+   },
+   {
+    "w": " tushkani",
+    "s": 524.08,
+    "e": 524.42
+   },
+   {
+    "w": " khujjatlashtirilgani.",
+    "s": 524.42,
+    "e": 525.52
+   }
+  ]
+ },
+ {
+  "start": 525.84,
+  "end": 528.14,
+  "text": "Bu vaqiya Malaziya va shimali kareye",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 525.84,
+    "e": 526.28
+   },
+   {
+    "w": " vaqiya",
+    "s": 526.28,
+    "e": 526.62
+   },
+   {
+    "w": " Malaziya",
+    "s": 526.62,
+    "e": 527.34
+   },
+   {
+    "w": " va",
+    "s": 527.34,
+    "e": 527.48
+   },
+   {
+    "w": " shimali",
+    "s": 527.48,
+    "e": 527.82
+   },
+   {
+    "w": " kareye",
+    "s": 527.82,
+    "e": 528.14
+   }
+  ]
+ },
+ {
+  "start": 528.14,
+  "end": 529.92,
+  "text": "ortastagi diplomatik munasabatlarini",
+  "words": [
+   {
+    "w": " ortastagi",
+    "s": 528.14,
+    "e": 528.62
+   },
+   {
+    "w": " diplomatik",
+    "s": 528.62,
+    "e": 529.18
+   },
+   {
+    "w": " munasabatlarini",
+    "s": 529.18,
+    "e": 529.92
+   }
+  ]
+ },
+ {
+  "start": 529.92,
+  "end": 530.72,
+  "text": "xam keskinlashtirdi.",
+  "words": [
+   {
+    "w": " xam",
+    "s": 529.92,
+    "e": 530.08
+   },
+   {
+    "w": " keskinlashtirdi.",
+    "s": 530.08,
+    "e": 530.72
+   }
+  ]
+ },
+ {
+  "start": 531.12,
+  "end": 533.74,
+  "text": "Iki mamdakat ortasta elchikana khadumlari",
+  "words": [
+   {
+    "w": " Iki",
+    "s": 531.12,
+    "e": 531.58
+   },
+   {
+    "w": " mamdakat",
+    "s": 531.58,
+    "e": 531.92
+   },
+   {
+    "w": " ortasta",
+    "s": 531.92,
+    "e": 532.38
+   },
+   {
+    "w": " elchikana",
+    "s": 532.38,
+    "e": 533.14
+   },
+   {
+    "w": " khadumlari",
+    "s": 533.14,
+    "e": 533.74
+   }
+  ]
+ },
+ {
+  "start": 533.74,
+  "end": 536.26,
+  "text": "tergaw va jasadni qaytarish masalalari",
+  "words": [
+   {
+    "w": " tergaw",
+    "s": 533.74,
+    "e": 534.44
+   },
+   {
+    "w": " va",
+    "s": 534.44,
+    "e": 534.62
+   },
+   {
+    "w": " jasadni",
+    "s": 534.62,
+    "e": 535.22
+   },
+   {
+    "w": " qaytarish",
+    "s": 535.22,
+    "e": 535.68
+   },
+   {
+    "w": " masalalari",
+    "s": 535.68,
+    "e": 536.26
+   }
+  ]
+ },
+ {
+  "start": 536.26,
+  "end": 537.76,
+  "text": "yuzastan macera kilib chikdi.",
+  "words": [
+   {
+    "w": " yuzastan",
+    "s": 536.26,
+    "e": 536.68
+   },
+   {
+    "w": " macera",
+    "s": 536.68,
+    "e": 537.28
+   },
+   {
+    "w": " kilib",
+    "s": 537.28,
+    "e": 537.58
+   },
+   {
+    "w": " chikdi.",
+    "s": 537.58,
+    "e": 537.76
+   }
+  ]
+ },
+ {
+  "start": 538.02,
+  "end": 540.2,
+  "text": "Addi ayraportdagi bir necha",
+  "words": [
+   {
+    "w": " Addi",
+    "s": 538.02,
+    "e": 538.76
+   },
+   {
+    "w": " ayraportdagi",
+    "s": 538.76,
+    "e": 539.54
+   },
+   {
+    "w": " bir",
+    "s": 539.54,
+    "e": 539.86
+   },
+   {
+    "w": " necha",
+    "s": 539.86,
+    "e": 540.2
+   }
+  ]
+ },
+ {
+  "start": 540.2,
+  "end": 541.76,
+  "text": "saniyalik hucum xalqara",
+  "words": [
+   {
+    "w": " saniyalik",
+    "s": 540.2,
+    "e": 540.76
+   },
+   {
+    "w": " hucum",
+    "s": 540.76,
+    "e": 541.08
+   },
+   {
+    "w": " xalqara",
+    "s": 541.08,
+    "e": 541.76
+   }
+  ]
+ },
+ {
+  "start": 541.76,
+  "end": 543.36,
+  "text": "diplomatik inkirazga ilindi.",
+  "words": [
+   {
+    "w": " diplomatik",
+    "s": 541.76,
+    "e": 542.52
+   },
+   {
+    "w": " inkirazga",
+    "s": 542.52,
+    "e": 543.08
+   },
+   {
+    "w": " ilindi.",
+    "s": 543.08,
+    "e": 543.36
+   }
+  ]
+ },
+ {
+  "start": 543.98,
+  "end": 545.8,
+  "text": "Endi xkayamiz basike qaytamiz.",
+  "words": [
+   {
+    "w": " Endi",
+    "s": 543.98,
+    "e": 544.44
+   },
+   {
+    "w": " xkayamiz",
+    "s": 544.44,
+    "e": 545.1
+   },
+   {
+    "w": " basike",
+    "s": 545.1,
+    "e": 545.42
+   },
+   {
+    "w": " qaytamiz.",
+    "s": 545.42,
+    "e": 545.8
+   }
+  ]
+ },
+ {
+  "start": 545.88,
+  "end": 548.36,
+  "text": "Bir ailada tughulgan iki akyawke.",
+  "words": [
+   {
+    "w": " Bir",
+    "s": 545.88,
+    "e": 546.68
+   },
+   {
+    "w": " ailada",
+    "s": 546.68,
+    "e": 547.16
+   },
+   {
+    "w": " tughulgan",
+    "s": 547.16,
+    "e": 547.54
+   },
+   {
+    "w": " iki",
+    "s": 547.54,
+    "e": 547.78
+   },
+   {
+    "w": " akyawke.",
+    "s": 547.78,
+    "e": 548.36
+   }
+  ]
+ },
+ {
+  "start": 548.8,
+  "end": 549.5,
+  "text": "Ulardan biri",
+  "words": [
+   {
+    "w": " Ulardan",
+    "s": 548.8,
+    "e": 549.26
+   },
+   {
+    "w": " biri",
+    "s": 549.26,
+    "e": 549.5
+   }
+  ]
+ },
+ {
+  "start": 549.5,
+  "end": 550.24,
+  "text": "dunyadagi",
+  "words": [
+   {
+    "w": " dunyadagi",
+    "s": 549.5,
+    "e": 550.24
+   }
+  ]
+ },
+ {
+  "start": 550.44,
+  "end": 551.9,
+  "text": "eng yapiq siyasi tizimladan",
+  "words": [
+   {
+    "w": " eng",
+    "s": 550.44,
+    "e": 550.44
+   },
+   {
+    "w": " yapiq",
+    "s": 550.44,
+    "e": 550.92
+   },
+   {
+    "w": " siyasi",
+    "s": 550.92,
+    "e": 551.3
+   },
+   {
+    "w": " tizimladan",
+    "s": 551.3,
+    "e": 551.9
+   }
+  ]
+ },
+ {
+  "start": 551.9,
+  "end": 553.06,
+  "text": "birinin rakbari gaylandi.",
+  "words": [
+   {
+    "w": " birinin",
+    "s": 551.9,
+    "e": 552.14
+   },
+   {
+    "w": " rakbari",
+    "s": 552.14,
+    "e": 552.64
+   },
+   {
+    "w": " gaylandi.",
+    "s": 552.64,
+    "e": 553.06
+   }
+  ]
+ },
+ {
+  "start": 553.24,
+  "end": 554.26,
+  "text": "Ikinchise se,",
+  "words": [
+   {
+    "w": " Ikinchise",
+    "s": 553.24,
+    "e": 554.08
+   },
+   {
+    "w": " se,",
+    "s": 554.08,
+    "e": 554.26
+   }
+  ]
+ },
+ {
+  "start": 554.3,
+  "end": 556.34,
+  "text": "yiller davamida xarijda yashadi.",
+  "words": [
+   {
+    "w": " yiller",
+    "s": 554.3,
+    "e": 554.84
+   },
+   {
+    "w": " davamida",
+    "s": 554.84,
+    "e": 555.36
+   },
+   {
+    "w": " xarijda",
+    "s": 555.36,
+    "e": 556.06
+   },
+   {
+    "w": " yashadi.",
+    "s": 556.06,
+    "e": 556.34
+   }
+  ]
+ },
+ {
+  "start": 557.0,
+  "end": 558.26,
+  "text": "2017-ci ildi",
+  "words": [
+   {
+    "w": " 2017",
+    "s": 557.0,
+    "e": 557.42
+   },
+   {
+    "w": "-ci",
+    "s": 557.42,
+    "e": 558.0
+   },
+   {
+    "w": " ildi",
+    "s": 558.0,
+    "e": 558.26
+   }
+  ]
+ },
+ {
+  "start": 558.26,
+  "end": 560.26,
+  "text": "u Malaziyadagi ayraportda",
+  "words": [
+   {
+    "w": " u",
+    "s": 558.26,
+    "e": 558.64
+   },
+   {
+    "w": " Malaziyadagi",
+    "s": 558.64,
+    "e": 559.6
+   },
+   {
+    "w": " ayraportda",
+    "s": 559.6,
+    "e": 560.26
+   }
+  ]
+ },
+ {
+  "start": 560.26,
+  "end": 561.12,
+  "text": "oldirildi.",
+  "words": [
+   {
+    "w": " oldirildi.",
+    "s": 560.26,
+    "e": 561.12
+   }
+  ]
+ },
+ {
+  "start": 561.54,
+  "end": 563.32,
+  "text": "Unin olimi xalqara tergawlar,",
+  "words": [
+   {
+    "w": " Unin",
+    "s": 561.54,
+    "e": 561.96
+   },
+   {
+    "w": " olimi",
+    "s": 561.96,
+    "e": 562.26
+   },
+   {
+    "w": " xalqara",
+    "s": 562.26,
+    "e": 562.76
+   },
+   {
+    "w": " tergawlar,",
+    "s": 562.76,
+    "e": 563.32
+   }
+  ]
+ },
+ {
+  "start": 563.48,
+  "end": 565.36,
+  "text": "kimyawi qural haqdagi khulasalar",
+  "words": [
+   {
+    "w": " kimyawi",
+    "s": 563.48,
+    "e": 564.1
+   },
+   {
+    "w": " qural",
+    "s": 564.1,
+    "e": 564.46
+   },
+   {
+    "w": " haqdagi",
+    "s": 564.46,
+    "e": 564.86
+   },
+   {
+    "w": " khulasalar",
+    "s": 564.86,
+    "e": 565.36
+   }
+  ]
+ },
+ {
+  "start": 565.36,
+  "end": 567.14,
+  "text": "va bir necha il davam etkan",
+  "words": [
+   {
+    "w": " va",
+    "s": 565.36,
+    "e": 565.84
+   },
+   {
+    "w": " bir",
+    "s": 565.84,
+    "e": 566.04
+   },
+   {
+    "w": " necha",
+    "s": 566.04,
+    "e": 566.38
+   },
+   {
+    "w": " il",
+    "s": 566.38,
+    "e": 566.54
+   },
+   {
+    "w": " davam",
+    "s": 566.54,
+    "e": 566.94
+   },
+   {
+    "w": " etkan",
+    "s": 566.94,
+    "e": 567.14
+   }
+  ]
+ },
+ {
+  "start": 567.14,
+  "end": 568.94,
+  "text": "sud carayanagi sabab boldi.",
+  "words": [
+   {
+    "w": " sud",
+    "s": 567.14,
+    "e": 567.5
+   },
+   {
+    "w": " carayanagi",
+    "s": 567.5,
+    "e": 568.16
+   },
+   {
+    "w": " sabab",
+    "s": 568.16,
+    "e": 568.6
+   },
+   {
+    "w": " boldi.",
+    "s": 568.6,
+    "e": 568.94
+   }
+  ]
+ },
+ {
+  "start": 569.0,
+  "end": 570.52,
+  "text": "Ama sui qasnin",
+  "words": [
+   {
+    "w": " Ama",
+    "s": 569.0,
+    "e": 569.46
+   },
+   {
+    "w": " sui",
+    "s": 569.46,
+    "e": 570.14
+   },
+   {
+    "w": " qasnin",
+    "s": 570.14,
+    "e": 570.52
+   }
+  ]
+ },
+ {
+  "start": 570.52,
+  "end": 571.86,
+  "text": "barcha tashkilatchilari",
+  "words": [
+   {
+    "w": " barcha",
+    "s": 570.52,
+    "e": 571.06
+   },
+   {
+    "w": " tashkilatchilari",
+    "s": 571.06,
+    "e": 571.86
+   }
+  ]
+ },
+ {
+  "start": 571.86,
+  "end": 573.2,
+  "text": "va buyruk beruchilari",
+  "words": [
+   {
+    "w": " va",
+    "s": 571.86,
+    "e": 572.18
+   },
+   {
+    "w": " buyruk",
+    "s": 572.18,
+    "e": 572.56
+   },
+   {
+    "w": " beruchilari",
+    "s": 572.56,
+    "e": 573.2
+   }
+  ]
+ },
+ {
+  "start": 573.2,
+  "end": 574.04,
+  "text": "haqdagi savallar",
+  "words": [
+   {
+    "w": " haqdagi",
+    "s": 573.2,
+    "e": 573.46
+   },
+   {
+    "w": " savallar",
+    "s": 573.46,
+    "e": 574.04
+   }
+  ]
+ },
+ {
+  "start": 574.04,
+  "end": 575.82,
+  "text": "xanus toluq hal etilmagan.",
+  "words": [
+   {
+    "w": " xanus",
+    "s": 574.04,
+    "e": 574.72
+   },
+   {
+    "w": " toluq",
+    "s": 574.72,
+    "e": 575.18
+   },
+   {
+    "w": " hal",
+    "s": 575.18,
+    "e": 575.4
+   },
+   {
+    "w": " etilmagan.",
+    "s": 575.4,
+    "e": 575.82
+   }
+  ]
+ },
+ {
+  "start": 576.38,
+  "end": 578.56,
+  "text": "Bu vaqiya bizge bir narsani korsatadi.",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 576.38,
+    "e": 576.8
+   },
+   {
+    "w": " vaqiya",
+    "s": 576.8,
+    "e": 577.14
+   },
+   {
+    "w": " bizge",
+    "s": 577.14,
+    "e": 577.46
+   },
+   {
+    "w": " bir",
+    "s": 577.46,
+    "e": 577.7
+   },
+   {
+    "w": " narsani",
+    "s": 577.7,
+    "e": 578.12
+   },
+   {
+    "w": " korsatadi.",
+    "s": 578.12,
+    "e": 578.56
+   }
+  ]
+ },
+ {
+  "start": 578.92,
+  "end": 579.76,
+  "text": "Bazan,",
+  "words": [
+   {
+    "w": " Bazan,",
+    "s": 578.92,
+    "e": 579.76
+   }
+  ]
+ },
+ {
+  "start": 579.76,
+  "end": 580.32,
+  "text": "siyasi,",
+  "words": [
+   {
+    "w": " siyasi,",
+    "s": 579.76,
+    "e": 580.32
+   }
+  ]
+ },
+ {
+  "start": 580.44,
+  "end": 581.48,
+  "text": "xakimiyat bilanbaqliq",
+  "words": [
+   {
+    "w": " xakimiyat",
+    "s": 580.44,
+    "e": 580.84
+   },
+   {
+    "w": " bilanbaqliq",
+    "s": 580.84,
+    "e": 581.48
+   }
+  ]
+ },
+ {
+  "start": 581.48,
+  "end": 582.72,
+  "text": "eng murakkeb macaralar",
+  "words": [
+   {
+    "w": " eng",
+    "s": 581.48,
+    "e": 581.68
+   },
+   {
+    "w": " murakkeb",
+    "s": 581.68,
+    "e": 582.24
+   },
+   {
+    "w": " macaralar",
+    "s": 582.24,
+    "e": 582.72
+   }
+  ]
+ },
+ {
+  "start": 582.72,
+  "end": 584.1,
+  "text": "davlat rakbarlarning",
+  "words": [
+   {
+    "w": " davlat",
+    "s": 582.72,
+    "e": 583.44
+   },
+   {
+    "w": " rakbarlarning",
+    "s": 583.44,
+    "e": 584.1
+   }
+  ]
+ },
+ {
+  "start": 584.1,
+  "end": 585.48,
+  "text": "rasmi uchrashularda emas",
+  "words": [
+   {
+    "w": " rasmi",
+    "s": 584.1,
+    "e": 584.48
+   },
+   {
+    "w": " uchrashularda",
+    "s": 584.48,
+    "e": 585.16
+   },
+   {
+    "w": " emas",
+    "s": 585.16,
+    "e": 585.48
+   }
+  ]
+ },
+ {
+  "start": 585.48,
+  "end": 586.28,
+  "text": "dunyaning",
+  "words": [
+   {
+    "w": " dunyaning",
+    "s": 585.48,
+    "e": 586.28
+   }
+  ]
+ },
+ {
+  "start": 586.28,
+  "end": 587.38,
+  "text": "bashqa bir burchagida",
+  "words": [
+   {
+    "w": " bashqa",
+    "s": 586.28,
+    "e": 586.8
+   },
+   {
+    "w": " bir",
+    "s": 586.8,
+    "e": 586.9
+   },
+   {
+    "w": " burchagida",
+    "s": 586.9,
+    "e": 587.38
+   }
+  ]
+ },
+ {
+  "start": 587.38,
+  "end": 588.02,
+  "text": "sadr bolgan",
+  "words": [
+   {
+    "w": " sadr",
+    "s": 587.38,
+    "e": 587.72
+   },
+   {
+    "w": " bolgan",
+    "s": 587.72,
+    "e": 588.02
+   }
+  ]
+ },
+ {
+  "start": 588.02,
+  "end": 588.9,
+  "text": "cinayat arqali",
+  "words": [
+   {
+    "w": " cinayat",
+    "s": 588.02,
+    "e": 588.58
+   },
+   {
+    "w": " arqali",
+    "s": 588.58,
+    "e": 588.9
+   }
+  ]
+ },
+ {
+  "start": 588.9,
+  "end": 589.84,
+  "text": "yuzage chkada.",
+  "words": [
+   {
+    "w": " yuzage",
+    "s": 588.9,
+    "e": 589.54
+   },
+   {
+    "w": " chkada.",
+    "s": 589.54,
+    "e": 589.84
+   }
+  ]
+ },
+ {
+  "start": 590.0,
+  "end": 591.02,
+  "text": "Kimchen nam",
+  "words": [
+   {
+    "w": " Kimchen",
+    "s": 590.0,
+    "e": 590.8
+   },
+   {
+    "w": " nam",
+    "s": 590.8,
+    "e": 591.02
+   }
+  ]
+ },
+ {
+  "start": 591.02,
+  "end": 591.86,
+  "text": "hech qachan",
+  "words": [
+   {
+    "w": " hech",
+    "s": 591.02,
+    "e": 591.52
+   },
+   {
+    "w": " qachan",
+    "s": 591.52,
+    "e": 591.86
+   }
+  ]
+ },
+ {
+  "start": 591.86,
+  "end": 593.1,
+  "text": "shimali kareye prezidenti",
+  "words": [
+   {
+    "w": " shimali",
+    "s": 591.86,
+    "e": 592.22
+   },
+   {
+    "w": " kareye",
+    "s": 592.22,
+    "e": 592.54
+   },
+   {
+    "w": " prezidenti",
+    "s": 592.54,
+    "e": 593.1
+   }
+  ]
+ },
+ {
+  "start": 593.1,
+  "end": 593.42,
+  "text": "bolmagan.",
+  "words": [
+   {
+    "w": " bolmagan.",
+    "s": 593.1,
+    "e": 593.42
+   }
+  ]
+ },
+ {
+  "start": 593.58,
+  "end": 594.58,
+  "text": "U u kesige",
+  "words": [
+   {
+    "w": " U",
+    "s": 593.58,
+    "e": 594.06
+   },
+   {
+    "w": " u",
+    "s": 594.06,
+    "e": 594.24
+   },
+   {
+    "w": " kesige",
+    "s": 594.24,
+    "e": 594.58
+   }
+  ]
+ },
+ {
+  "start": 594.58,
+  "end": 595.22,
+  "text": "qarsha aciq",
+  "words": [
+   {
+    "w": " qarsha",
+    "s": 594.58,
+    "e": 594.96
+   },
+   {
+    "w": " aciq",
+    "s": 594.96,
+    "e": 595.22
+   }
+  ]
+ },
+ {
+  "start": 595.22,
+  "end": 596.08,
+  "text": "siyasi kurashkan",
+  "words": [
+   {
+    "w": " siyasi",
+    "s": 595.22,
+    "e": 595.64
+   },
+   {
+    "w": " kurashkan",
+    "s": 595.64,
+    "e": 596.08
+   }
+  ]
+ },
+ {
+  "start": 596.08,
+  "end": 596.52,
+  "text": "bashlamagan.",
+  "words": [
+   {
+    "w": " bashlamagan.",
+    "s": 596.08,
+    "e": 596.52
+   }
+  ]
+ },
+ {
+  "start": 596.66,
+  "end": 597.76,
+  "text": "Ama unin olimi",
+  "words": [
+   {
+    "w": " Ama",
+    "s": 596.66,
+    "e": 597.12
+   },
+   {
+    "w": " unin",
+    "s": 597.12,
+    "e": 597.48
+   },
+   {
+    "w": " olimi",
+    "s": 597.48,
+    "e": 597.76
+   }
+  ]
+ },
+ {
+  "start": 597.76,
+  "end": 599.26,
+  "text": "dunya siyasatidegi",
+  "words": [
+   {
+    "w": " dunya",
+    "s": 597.76,
+    "e": 598.54
+   },
+   {
+    "w": " siyasatidegi",
+    "s": 598.54,
+    "e": 599.26
+   }
+  ]
+ },
+ {
+  "start": 599.26,
+  "end": 600.16,
+  "text": "eng shawshuli",
+  "words": [
+   {
+    "w": " eng",
+    "s": 599.26,
+    "e": 599.6
+   },
+   {
+    "w": " shawshuli",
+    "s": 599.6,
+    "e": 600.16
+   }
+  ]
+ },
+ {
+  "start": 600.16,
+  "end": 600.88,
+  "text": "suiqaslardan",
+  "words": [
+   {
+    "w": " suiqaslardan",
+    "s": 600.16,
+    "e": 600.88
+   }
+  ]
+ },
+ {
+  "start": 600.88,
+  "end": 601.62,
+  "text": "bir sfatida",
+  "words": [
+   {
+    "w": " bir",
+    "s": 600.88,
+    "e": 601.2
+   },
+   {
+    "w": " sfatida",
+    "s": 601.2,
+    "e": 601.62
+   }
+  ]
+ },
+ {
+  "start": 601.62,
+  "end": 602.74,
+  "text": "tarikda kaldi.",
+  "words": [
+   {
+    "w": " tarikda",
+    "s": 601.62,
+    "e": 602.4
+   },
+   {
+    "w": " kaldi.",
+    "s": 602.4,
+    "e": 602.74
+   }
+  ]
+ },
+ {
+  "start": 603.44,
+  "end": 603.98,
+  "text": "Sizning che,",
+  "words": [
+   {
+    "w": " Sizning",
+    "s": 603.44,
+    "e": 603.84
+   },
+   {
+    "w": " che,",
+    "s": 603.84,
+    "e": 603.98
+   }
+  ]
+ },
+ {
+  "start": 604.04,
+  "end": 605.2,
+  "text": "kimchen namning",
+  "words": [
+   {
+    "w": " kimchen",
+    "s": 604.04,
+    "e": 604.78
+   },
+   {
+    "w": " namning",
+    "s": 604.78,
+    "e": 605.2
+   }
+  ]
+ },
+ {
+  "start": 605.2,
+  "end": 605.86,
+  "text": "olimi artida",
+  "words": [
+   {
+    "w": " olimi",
+    "s": 605.2,
+    "e": 605.54
+   },
+   {
+    "w": " artida",
+    "s": 605.54,
+    "e": 605.86
+   }
+  ]
+ },
+ {
+  "start": 605.86,
+  "end": 606.92,
+  "text": "siyasi xakimiyat",
+  "words": [
+   {
+    "w": " siyasi",
+    "s": 605.86,
+    "e": 606.4
+   },
+   {
+    "w": " xakimiyat",
+    "s": 606.4,
+    "e": 606.92
+   }
+  ]
+ },
+ {
+  "start": 606.92,
+  "end": 607.82,
+  "text": "chun kurash turganma?",
+  "words": [
+   {
+    "w": " chun",
+    "s": 606.92,
+    "e": 607.18
+   },
+   {
+    "w": " kurash",
+    "s": 607.18,
+    "e": 607.4
+   },
+   {
+    "w": " turganma?",
+    "s": 607.4,
+    "e": 607.82
+   }
+  ]
+ },
+ {
+  "start": 607.9,
+  "end": 608.8,
+  "text": "Yoki bu",
+  "words": [
+   {
+    "w": " Yoki",
+    "s": 607.9,
+    "e": 608.46
+   },
+   {
+    "w": " bu",
+    "s": 608.46,
+    "e": 608.8
+   }
+  ]
+ },
+ {
+  "start": 608.8,
+  "end": 609.36,
+  "text": "wakiyanin",
+  "words": [
+   {
+    "w": " wakiyanin",
+    "s": 608.8,
+    "e": 609.36
+   }
+  ]
+ },
+ {
+  "start": 609.36,
+  "end": 609.92,
+  "text": "biz bilmagan",
+  "words": [
+   {
+    "w": " biz",
+    "s": 609.36,
+    "e": 609.54
+   },
+   {
+    "w": " bilmagan",
+    "s": 609.54,
+    "e": 609.92
+   }
+  ]
+ },
+ {
+  "start": 609.92,
+  "end": 610.88,
+  "text": "bashqa sabablari",
+  "words": [
+   {
+    "w": " bashqa",
+    "s": 609.92,
+    "e": 610.42
+   },
+   {
+    "w": " sabablari",
+    "s": 610.42,
+    "e": 610.88
+   }
+  ]
+ },
+ {
+  "start": 610.88,
+  "end": 611.24,
+  "text": "xanbarma?",
+  "words": [
+   {
+    "w": " xanbarma?",
+    "s": 610.88,
+    "e": 611.24
+   }
+  ]
+ },
+ {
+  "start": 611.4,
+  "end": 612.66,
+  "text": "Fikiringizni izahalarda",
+  "words": [
+   {
+    "w": " Fikiringizni",
+    "s": 611.4,
+    "e": 612.24
+   },
+   {
+    "w": " izahalarda",
+    "s": 612.24,
+    "e": 612.66
+   }
+  ]
+ },
+ {
+  "start": 612.66,
+  "end": 613.2,
+  "text": "yazib kaldirin.",
+  "words": [
+   {
+    "w": " yazib",
+    "s": 612.66,
+    "e": 612.94
+   },
+   {
+    "w": " kaldirin.",
+    "s": 612.94,
+    "e": 613.2
+   }
+  ]
+ },
+ {
+  "start": 613.32,
+  "end": 614.18,
+  "text": "Chunki bu",
+  "words": [
+   {
+    "w": " Chunki",
+    "s": 613.32,
+    "e": 613.86
+   },
+   {
+    "w": " bu",
+    "s": 613.86,
+    "e": 614.18
+   }
+  ]
+ },
+ {
+  "start": 614.18,
+  "end": 614.82,
+  "text": "qatinlikte",
+  "words": [
+   {
+    "w": " qatinlikte",
+    "s": 614.18,
+    "e": 614.82
+   }
+  ]
+ },
+ {
+  "start": 614.82,
+  "end": 616.26,
+  "text": "eng mukhum sabal",
+  "words": [
+   {
+    "w": " eng",
+    "s": 614.82,
+    "e": 615.4
+   },
+   {
+    "w": " mukhum",
+    "s": 615.4,
+    "e": 615.84
+   },
+   {
+    "w": " sabal",
+    "s": 615.84,
+    "e": 616.26
+   }
+  ]
+ },
+ {
+  "start": 616.26,
+  "end": 616.98,
+  "text": "xanus",
+  "words": [
+   {
+    "w": " xanus",
+    "s": 616.26,
+    "e": 616.98
+   }
+  ]
+ },
+ {
+  "start": 616.98,
+  "end": 617.56,
+  "text": "aciq.",
+  "words": [
+   {
+    "w": " aciq.",
+    "s": 616.98,
+    "e": 617.56
+   }
+  ]
+ },
+ {
+  "start": 617.88,
+  "end": 618.94,
+  "text": "Kimchen nam",
+  "words": [
+   {
+    "w": " Kimchen",
+    "s": 617.88,
+    "e": 618.72
+   },
+   {
+    "w": " nam",
+    "s": 618.72,
+    "e": 618.94
+   }
+  ]
+ },
+ {
+  "start": 618.94,
+  "end": 619.34,
+  "text": "qanday",
+  "words": [
+   {
+    "w": " qanday",
+    "s": 618.94,
+    "e": 619.34
+   }
+  ]
+ },
+ {
+  "start": 619.34,
+  "end": 620.34,
+  "text": "oldirilgani malum,",
+  "words": [
+   {
+    "w": " oldirilgani",
+    "s": 619.34,
+    "e": 620.0
+   },
+   {
+    "w": " malum,",
+    "s": 620.0,
+    "e": 620.34
+   }
+  ]
+ },
+ {
+  "start": 620.36,
+  "end": 621.68,
+  "text": "ama unin olimige",
+  "words": [
+   {
+    "w": " ama",
+    "s": 620.36,
+    "e": 620.84
+   },
+   {
+    "w": " unin",
+    "s": 620.84,
+    "e": 621.28
+   },
+   {
+    "w": " olimige",
+    "s": 621.28,
+    "e": 621.68
+   }
+  ]
+ },
+ {
+  "start": 621.68,
+  "end": 622.68,
+  "text": "yakyuni buyurqni",
+  "words": [
+   {
+    "w": " yakyuni",
+    "s": 621.68,
+    "e": 622.22
+   },
+   {
+    "w": " buyurqni",
+    "s": 622.22,
+    "e": 622.68
+   }
+  ]
+ },
+ {
+  "start": 622.68,
+  "end": 623.52,
+  "text": "aynan kim",
+  "words": [
+   {
+    "w": " aynan",
+    "s": 622.68,
+    "e": 623.28
+   },
+   {
+    "w": " kim",
+    "s": 623.28,
+    "e": 623.52
+   }
+  ]
+ },
+ {
+  "start": 623.52,
+  "end": 624.06,
+  "text": "bergani",
+  "words": [
+   {
+    "w": " bergani",
+    "s": 623.52,
+    "e": 624.06
+   }
+  ]
+ },
+ {
+  "start": 624.06,
+  "end": 624.76,
+  "text": "xazirgeche",
+  "words": [
+   {
+    "w": " xazirgeche",
+    "s": 624.06,
+    "e": 624.76
+   }
+  ]
+ },
+ {
+  "start": 624.76,
+  "end": 625.44,
+  "text": "sud arqali",
+  "words": [
+   {
+    "w": " sud",
+    "s": 624.76,
+    "e": 625.0
+   },
+   {
+    "w": " arqali",
+    "s": 625.0,
+    "e": 625.44
+   }
+  ]
+ },
+ {
+  "start": 625.44,
+  "end": 626.18,
+  "text": "anqlanmagan.",
+  "words": [
+   {
+    "w": " anqlanmagan.",
+    "s": 625.44,
+    "e": 626.18
+   }
+  ]
+ }
+]

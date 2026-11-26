@@ -223,7 +223,7 @@ export const FamilyTree: React.FC<{focus: string[]; dead?: string[]}> = ({focus,
       <svg width={1920} height={1080} style={{position: 'absolute'}}>
         {TREE.filter((n) => n.parent).map((n, i) => {
           const p = byId[n.parent!];
-          const d = `M${p.x},${p.y + 95} C${p.x},${(p.y + n.y) / 2 + 40} ${n.x},${(p.y + n.y) / 2 - 20} ${n.x},${n.y - 95}`;
+          const d = `M${p.x},${p.y + 128} C${p.x},${(p.y + n.y) / 2 + 60} ${n.x},${(p.y + n.y) / 2 - 10} ${n.x},${n.y - 118}`;
           const prog = interpolate(frame, [4 + i * 4, 30 + i * 4], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           const hl = focus.includes(n.id) && focus.includes(p.id);
           return <path key={n.id} d={d} fill="none" stroke={hl ? C.red : 'rgba(255,255,255,0.25)'} strokeWidth={hl ? 4 : 2} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - prog} />;
