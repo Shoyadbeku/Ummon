@@ -63,6 +63,9 @@ to the user before searching.
 5. **Verify** — `python scripts/verify_license.py --project SLUG` → `verified.json`,
    `reports/license_report.md`. Read the report; for Yandex/Google hits confirm the original
    page. Do not lower `licensing.max_allowed_risk` silently; ask the user.
+   For strong platform videos with unknown licence run `python scripts/permission_requests.py --project SLUG`
+   → `reports/permission_requests.md` (ready letters in uz/ru/en). Third-party "YouTube downloader"
+   sites (snapyt, savefrom, y2mate …) must never be used to get around licences.
 6. **Download** — `python scripts/download_media.py --project SLUG` (approved only; long films are
    excerpted; duplicates removed by perceptual hash; shot cuts detected).
 7. **Music beats** *(if `assets/music` has a track)* — `python scripts/audio_editor.py beats --project SLUG`.
@@ -117,7 +120,7 @@ SKILL.md  README.md  config.yaml  requirements.txt  .env.example
 scripts/  analyze_script.py search_videos.py search_images.py search_core.py verify_license.py
           download_media.py scene_builder.py source_overlay.py video_editor.py motion_graphics.py
           audio_editor.py export_video.py quality_check.py run_pipeline.py check_env.py
-          make_demo_assets.py licenses.py common.py providers/ data/lexicon.json
+          make_demo_assets.py permission_requests.py package_skill.py licenses.py common.py providers/ data/lexicon.json
 references/ fair_use.md media_sources.md editing_rules.md historical_accuracy.md
 templates/  storyboard.json timeline.json source_overlay.json youtube_description.md
 tests/      pytest suite (offline)      examples/samarkand_demo/  sample project

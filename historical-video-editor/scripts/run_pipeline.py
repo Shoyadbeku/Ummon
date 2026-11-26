@@ -6,6 +6,7 @@
   5     search_videos.py    multi-platform video search
   6     search_images.py    images (Yandex/Google/Commons/museums/...)
   7-8   verify_license.py   original page, licence, link health, anachronisms
+  (opt) permission_requests.py  letters asking channel owners for permission (more YouTube/VK footage, legally)
   9-10  download_media.py   best approved assets, dedupe, shot detection
   (opt) audio_editor beats  music beat grid
   11    scene_builder.py    narration sync, ratio 80/15/5, transitions, overlays
@@ -32,7 +33,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from common import load_config, log, project_dir, setup_logging, slugify  # noqa: E402
 
-STEPS = ["analyze", "tts", "search_videos", "search_images", "verify", "download", "beats", "build",
+STEPS = ["analyze", "tts", "search_videos", "search_images", "verify", "permissions", "download", "beats", "build",
          "render", "overlay", "mix", "export", "qc"]
 
 
@@ -77,6 +78,7 @@ def main(argv=None):
         "search_videos": py("search_videos.py", *common, *(["--providers", a.video_providers] if a.video_providers else [])),
         "search_images": py("search_images.py", *common, *(["--providers", a.image_providers] if a.image_providers else [])),
         "verify": py("verify_license.py", *common),
+        "permissions": py("permission_requests.py", *common),
         "download": py("download_media.py", *common),
         "beats": py("audio_editor.py", "beats", *common),
         "build": py("scene_builder.py", *common),
@@ -87,7 +89,7 @@ def main(argv=None):
                      *(["--codec", a.codec] if a.codec else [])),
         "qc": py("quality_check.py", *common),
     }
-    optional = {"beats", "tts", "qc"}
+    optional = {"beats", "tts", "qc", "permissions"}
     i0, i1 = STEPS.index(a.start), STEPS.index(a.stop)
     if "analyze" in STEPS[i0:i1 + 1] and not a.script and "analyze" not in skip:
         ap.error("--script is required for the analyze step")

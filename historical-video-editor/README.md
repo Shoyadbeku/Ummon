@@ -193,6 +193,10 @@ texnik sinov, YouTube’ga yuklamang. Haqiqiy loyiha uchun `--from search_videos
 
 - X, Facebook, Mover.uz, Mixkit, Telegram uchun ochiq qidiruv API’si yo‘q → avtomatik qidiruv
   emas, `manual_search_links.md` + `manual_urls.txt` orqali (yt-dlp metadata va yuklash ishlaydi).
+- YouTube’dan ko‘proq material: `YOUTUBE_API_KEY` (faqat CC videolar, avtomatik yuklanadi) va
+  `python scripts/permission_requests.py --project <slug>` — kanal egalariga tayyor ruxsat xatlari;
+  ruxsat kelgach `manual_urls.txt` ga `license=permission` bilan qo‘shiladi. snapyt/savefrom kabi
+  yuklovchi saytlar litsenziyani chetlab o‘tgani uchun ishlatilmaydi.
 - Rutube, VK, Reddit, YouTube (CC bo‘lmagan) — faqat *topish*; litsenziyasi noma’lum bo‘lgani
   uchun avtomatik yuklanmaydi.
 - Yandex/Google — kalit kerak; topilgan rasm faqat asl sahifa litsenziyasi tasdiqlansa ishlatiladi.
