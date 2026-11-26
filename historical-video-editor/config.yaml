@@ -1,0 +1,123 @@
+# Historical Video Editor — global configuration
+# Every value can be overridden per project with  --config project.yaml
+# (project file is deep-merged on top of this file).
+
+project:
+  title: "Untitled historical documentary"
+  language: uz            # narration language: uz | ru | en | ...
+  search_languages: [uz, ru, en]
+  target_duration_sec: 0  # 0 = derive from narration audio or word count
+  words_per_minute: 135   # used when no narration audio is given
+  channel_monetized: true # true => NC (non-commercial) licences are treated as high risk
+
+paths:
+  workdir: output         # each project gets output/<project_slug>/
+  fonts_dir: assets/fonts
+  music_dir: assets/music
+  sfx_dir: assets/sfx
+  luts_dir: assets/luts
+
+http:
+  user_agent: "HistoricalVideoEditorSkill/1.0 (+https://github.com/; educational documentary tool)"
+  timeout_sec: 30
+  retries: 4
+  backoff_sec: 2.0
+  min_interval_sec: 1.0   # polite delay between calls to the same host
+
+search:
+  max_results_per_query: 12
+  max_queries_per_scene: 6
+  min_video_height: 360
+  min_image_width: 1000
+  # Order = priority. Providers without required API keys are skipped automatically.
+  video_providers:
+    - internet_archive
+    - wikimedia_commons
+    - library_of_congress
+    - europeana
+    - pexels
+    - pixabay
+    - youtube_cc         # YouTube Data API v3, videoLicense=creativeCommon (needs key)
+    - ytdlp_discovery    # YouTube / Dailymotion search via yt-dlp — DISCOVERY ONLY
+    - rutube
+    - vk_video           # needs VK user access token
+    - reddit             # needs Reddit OAuth app
+    - manual_urls        # X, Facebook, Mover.uz, museums … from project manual_urls.txt
+  image_providers:
+    - wikimedia_commons
+    - internet_archive
+    - library_of_congress
+    - met_museum
+    - europeana
+    - openverse
+    - smithsonian
+    - yandex_images      # Yandex Cloud Search API (needs key + folder id)
+    - google_images      # Google Programmable Search JSON API (needs key + cx)
+    - pexels
+    - pixabay
+
+licensing:
+  # risk: 0 = safe, 1 = attribution required, 2 = share-alike / caution,
+  #       3 = non-commercial / editorial only, 4 = unknown / all rights reserved
+  max_allowed_risk: 2           # assets above this are not downloaded automatically
+  allow_fair_use_clips: false   # true lets short (<= fair_use_max_clip_sec) copyrighted clips in, flagged for review
+  fair_use_max_clip_sec: 6
+  require_original_page: true   # reject images whose original page could not be found
+
+timeline:
+  visual_ratio: {video: 0.80, image: 0.15, graphic: 0.05}
+  min_shot_sec: 2.2
+  max_shot_sec: 7.0
+  default_transition: cut       # cut | dissolve | fadeblack | impact
+  transition_sec: 0.6
+  impact_flash_sec: 0.12
+  snap_cuts_to_beats: true
+  beat_snap_window_sec: 0.35
+  avoid_reuse: true
+
+render:
+  width: 1920
+  height: 1080
+  fps: 25
+  codec: libx264        # libx264 | libx265
+  crf: 18
+  preset: slow          # ultrafast for previews
+  pix_fmt: yuv420p
+  audio_codec: aac
+  audio_bitrate: 320k
+  audio_rate: 48000
+  grade: documentary_warm   # none | documentary_warm | cold_war | sepia_archive | bleach_bypass
+  film_grain: 6             # 0..20 (ffmpeg noise strength)
+  vignette: true
+  letterbox: false          # 2.39:1 bars for dramatic moments
+  ken_burns_zoom: 1.12      # final zoom factor for still images
+  parallax: true            # blurred-background pseudo-parallax for stills
+
+overlay:
+  source_position: bottom_right   # bottom_right | bottom_left
+  source_prefix: {uz: "Manba", ru: "Источник", en: "Source"}
+  font: "DejaVu Sans"
+  source_font_size: 26
+  source_opacity: 0.85
+  source_fade_sec: 0.4
+  source_margin_px: 48
+  subtitles: true
+  subtitle_font_size: 46
+  lower_third_font_size: 44
+  title_font: "DejaVu Serif"
+
+audio:
+  narration_lufs: -16
+  final_lufs: -14          # YouTube reference loudness
+  true_peak_db: -1.0
+  music_volume_db: -18
+  duck_amount_db: 10
+  ambient_volume_db: -24
+  source_clip_audio_db: -20  # original audio of archive clips under the narration
+  jl_cut_sec: 0.5            # J/L-cut lead/tail for clip audio
+
+quality:
+  max_duration_deviation: 0.08
+  max_black_sec: 1.5
+  max_silence_sec: 2.5
+  loudness_tolerance_lu: 1.5

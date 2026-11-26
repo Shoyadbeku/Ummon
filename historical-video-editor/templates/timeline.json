@@ -1,0 +1,259 @@
+{
+  "schema": "hve.timeline/1",
+  "title": "Sohibqiron yurti: Amir Temur va Samarqand",
+  "slug": "demo",
+  "language": "uz",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 25
+  },
+  "total_duration": 71.99,
+  "visual_ratio_target": {
+    "video": 0.6,
+    "image": 0.32,
+    "graphic": 0.08
+  },
+  "visual_ratio_achieved": {
+    "video": 0.527,
+    "image": 0.297,
+    "graphic": 0.176
+  },
+  "scenes_missing_visuals": [],
+  "chapters": [
+    {
+      "start": 0.0,
+      "title": "Sohibqiron yurti"
+    },
+    {
+      "start": 18.89,
+      "title": "Saltanat poytaxti"
+    },
+    {
+      "start": 38.88,
+      "title": "Ko'k gumbazlar"
+    },
+    {
+      "start": 55.83,
+      "title": "Olim hukmdor"
+    }
+  ],
+  "clips": [
+    {
+      "id": "c0001",
+      "scene_id": "s001",
+      "start": 0.0,
+      "duration": 5.247,
+      "transition_in": {
+        "type": "cut",
+        "duration": 0.0
+      },
+      "kind": "video",
+      "asset_id": "synth_v00",
+      "path": "output/demo/media/video/synth_v00.mp4",
+      "in_point": 0.5,
+      "out_point": 5.747,
+      "speed": 1.0,
+      "src_range": [
+        0.5,
+        5.75
+      ],
+      "width": 640,
+      "height": 480,
+      "effect": {
+        "type": "none"
+      },
+      "has_audio": true,
+      "credit": {
+        "text": "Source: Synthetic test asset, CC0",
+        "asset_id": "synth_v00",
+        "page_url": "local://synthetic/synth_v00.mp4"
+      }
+    },
+    {
+      "id": "c0002",
+      "scene_id": "s001",
+      "start": 5.247,
+      "duration": 4.653,
+      "transition_in": {
+        "type": "cut",
+        "duration": 0.0
+      },
+      "kind": "image",
+      "asset_id": "synth_i00",
+      "path": "output/demo/media/image/synth_i00_painting.jpg",
+      "width": 2400,
+      "height": 1600,
+      "effect": {
+        "type": "parallax",
+        "direction": "up",
+        "zoom": 1.12
+      },
+      "credit": {
+        "text": "Source: Synthetic test asset, CC0",
+        "asset_id": "synth_i00",
+        "page_url": "local://synthetic/synth_i00_painting.jpg"
+      }
+    },
+    {
+      "id": "c0003",
+      "scene_id": "s002",
+      "start": 9.9,
+      "duration": 4.101,
+      "transition_in": {
+        "type": "dissolve",
+        "duration": 0.6
+      },
+      "kind": "map",
+      "places": [
+        "Shahrisabz",
+        "Europe"
+      ],
+      "effect": {
+        "type": "map_route"
+      },
+      "credit": {
+        "text": "Sxematik xarita",
+        "asset_id": null
+      }
+    },
+    {
+      "id": "c0004",
+      "scene_id": "s002",
+      "start": 14.001,
+      "duration": 4.889,
+      "transition_in": {
+        "type": "cut",
+        "duration": 0.0
+      },
+      "kind": "video",
+      "asset_id": "synth_v01",
+      "path": "output/demo/media/video/synth_v01.mp4",
+      "in_point": 0.4,
+      "out_point": 5.289,
+      "speed": 1.0,
+      "src_range": [
+        0.4,
+        5.29
+      ],
+      "width": 1280,
+      "height": 720,
+      "effect": {
+        "type": "none"
+      },
+      "has_audio": true,
+      "credit": {
+        "text": "Source: Synthetic test asset, CC0",
+        "asset_id": "synth_v01",
+        "page_url": "local://synthetic/synth_v01.mp4"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "type": "credit",
+      "text": "Source: Synthetic test asset, CC0",
+      "start": 0.0,
+      "end": 9.9,
+      "clips": [
+        "c0001",
+        "c0002"
+      ]
+    },
+    {
+      "type": "credit",
+      "text": "Sxematik xarita",
+      "start": 9.9,
+      "end": 14.001,
+      "clips": [
+        "c0003"
+      ]
+    },
+    {
+      "type": "credit",
+      "text": "Source: Synthetic test asset, CC0",
+      "start": 14.001,
+      "end": 71.99,
+      "clips": [
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016"
+      ]
+    },
+    {
+      "type": "lower_third",
+      "start": 0.6,
+      "end": 5.6,
+      "title": "Iskandar Zulqarnayn",
+      "subtitle": "356 BC–323 BC · Macedonian king"
+    },
+    {
+      "type": "chapter_title",
+      "start": 0.1,
+      "end": 3.6,
+      "text": "Sohibqiron yurti"
+    },
+    {
+      "type": "date_card",
+      "start": 10.1,
+      "end": 13.3,
+      "text": "1336"
+    }
+  ],
+  "subtitles": [
+    {
+      "start": 0.0,
+      "end": 2.358,
+      "text": "Samarqand. Buyuk Ipak yo'lining yuragi."
+    },
+    {
+      "start": 2.398,
+      "end": 6.908,
+      "text": "Bu shahar Iskandar Zulqarnayn davridayoq\\NMarakanda nomi bilan mashhur edi."
+    },
+    {
+      "start": 6.948,
+      "end": 9.86,
+      "text": "Ammo uning eng yorqin davri XIV\\Nasrda boshlandi."
+    }
+  ],
+  "audio": {
+    "narration": "output/demo/audio/narration.wav",
+    "music": "assets/music/demo_epic_drone.wav",
+    "music_mood": "neutral",
+    "events": [
+      {
+        "type": "ambience",
+        "path": "assets/sfx/city_ambience.wav",
+        "start": 0.0,
+        "duration": 9.9,
+        "gain_db": -24
+      },
+      {
+        "type": "sfx",
+        "path": "assets/sfx/impact.wav",
+        "start": 0,
+        "duration": 2.5,
+        "gain_db": -8
+      },
+      {
+        "type": "ambience",
+        "path": "assets/sfx/city_ambience.wav",
+        "start": 9.9,
+        "duration": 8.99,
+        "gain_db": -24
+      }
+    ]
+  },
+  "_doc": "Produced by scene_builder.py, consumed by video_editor.py / source_overlay.py / audio_editor.py / export_video.py. Edit by hand to replace a shot, then re-render with video_editor.py --only <clip ids>."
+}

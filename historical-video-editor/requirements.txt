@@ -1,0 +1,16 @@
+# Core (required)
+requests>=2.31
+PyYAML>=6.0
+python-dotenv>=1.0
+Pillow>=10.0
+numpy>=1.26
+
+# Platform downloads / discovery (strongly recommended)
+yt-dlp>=2024.10.0
+
+# Optional extras — the pipeline detects them and degrades gracefully
+# edge-tts>=6.1          # narration TTS fallback (uz-UZ, ru-RU, en-* voices)
+# faster-whisper>=1.0    # word-level alignment of narration audio
+# pytest>=8.0            # tests
+
+# System requirements (not pip): ffmpeg + ffprobe >= 5.0 built with libass, libfreetype, libx264 (libx265 optional)

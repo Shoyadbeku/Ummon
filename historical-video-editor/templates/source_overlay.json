@@ -1,0 +1,30 @@
+{
+  "_doc": "Style overrides for render/overlays.ass (libass). Field names follow the ASS V4+ Style format. Colours are &HAABBGGRR. Position/size of credits also via config.yaml -> overlay.",
+  "examples": {
+    "en": "Source: Internet Archive",
+    "uz": "Manba: Wikimedia Commons",
+    "footage": "Footage: Library of Congress",
+    "social": "Source: X / @username",
+    "pd": "Archive footage: Public Domain"
+  },
+  "styles": {
+    "Credit": {
+      "Fontsize": 26,
+      "PrimaryColour": "&H26F2F2F2",
+      "Outline": 1.2,
+      "Shadow": 0.6
+    },
+    "Subtitle": {
+      "Fontsize": 46
+    },
+    "LTTitle": {
+      "Fontsize": 44
+    },
+    "DateCard": {
+      "Fontsize": 150
+    },
+    "Chapter": {
+      "Fontsize": 84
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Per-project overrides (deep-merged over config.yaml):  --config examples/samarkand_demo/project.yaml
+project:
+  title: "Sohibqiron yurti: Amir Temur va Samarqand"
+  language: uz
+  search_languages: [en, ru, uz]
+  channel_monetized: true
+render:
+  grade: documentary_warm
+  film_grain: 7
+timeline:
+  # pre-photographic topic: authentic film cannot exist -> more stills, labelled present-day footage
+  visual_ratio: {video: 0.60, image: 0.32, graphic: 0.08}

@@ -1,0 +1,1833 @@
+{
+  "_comment": "Multilingual gazetteer used by analyze_script.py. key = canonical English name; aliases are matched case-insensitively after apostrophe normalisation. Extend freely.",
+  "places": {
+    "Samarkand": {
+      "aliases": [
+        "samarqand",
+        "самарканд",
+        "samarkand",
+        "marakanda"
+      ],
+      "uz": "Samarqand",
+      "ru": "Самарканд",
+      "country": "Uzbekistan",
+      "lat": 39.65,
+      "lon": 66.96
+    },
+    "Bukhara": {
+      "aliases": [
+        "buxoro",
+        "бухара",
+        "bukhara",
+        "bokhara"
+      ],
+      "uz": "Buxoro",
+      "ru": "Бухара",
+      "country": "Uzbekistan",
+      "lat": 39.77,
+      "lon": 64.42
+    },
+    "Khiva": {
+      "aliases": [
+        "xiva",
+        "хива",
+        "khiva",
+        "xorazm",
+        "хорезм",
+        "khwarazm",
+        "khorezm"
+      ],
+      "uz": "Xiva",
+      "ru": "Хива",
+      "country": "Uzbekistan",
+      "lat": 41.38,
+      "lon": 60.36
+    },
+    "Tashkent": {
+      "aliases": [
+        "toshkent",
+        "ташкент",
+        "tashkent",
+        "choch",
+        "shosh"
+      ],
+      "uz": "Toshkent",
+      "ru": "Ташкент",
+      "country": "Uzbekistan",
+      "lat": 41.31,
+      "lon": 69.28
+    },
+    "Shahrisabz": {
+      "aliases": [
+        "shahrisabz",
+        "шахрисабз",
+        "kesh",
+        "кеш"
+      ],
+      "uz": "Shahrisabz",
+      "ru": "Шахрисабз",
+      "country": "Uzbekistan",
+      "lat": 39.05,
+      "lon": 66.83
+    },
+    "Termez": {
+      "aliases": [
+        "termiz",
+        "термез",
+        "termez"
+      ],
+      "uz": "Termiz",
+      "ru": "Термез",
+      "country": "Uzbekistan",
+      "lat": 37.22,
+      "lon": 67.28
+    },
+    "Fergana Valley": {
+      "aliases": [
+        "farg'ona",
+        "фергана",
+        "fergana",
+        "ferghana",
+        "farg'ona vodiysi"
+      ],
+      "uz": "Farg'ona vodiysi",
+      "ru": "Ферганская долина",
+      "country": "Uzbekistan",
+      "lat": 40.5,
+      "lon": 71.5
+    },
+    "Kokand": {
+      "aliases": [
+        "qo'qon",
+        "коканд",
+        "kokand",
+        "qoqon"
+      ],
+      "uz": "Qo'qon",
+      "ru": "Коканд",
+      "country": "Uzbekistan",
+      "lat": 40.53,
+      "lon": 70.94
+    },
+    "Andijan": {
+      "aliases": [
+        "andijon",
+        "андижан",
+        "andijan"
+      ],
+      "uz": "Andijon",
+      "ru": "Андижан",
+      "country": "Uzbekistan",
+      "lat": 40.78,
+      "lon": 72.34
+    },
+    "Nukus": {
+      "aliases": [
+        "nukus",
+        "нукус"
+      ],
+      "uz": "Nukus",
+      "ru": "Нукус",
+      "country": "Uzbekistan",
+      "lat": 42.46,
+      "lon": 59.6
+    },
+    "Aral Sea": {
+      "aliases": [
+        "orol",
+        "орол",
+        "аральское море",
+        "aral sea",
+        "orol dengizi",
+        "арал"
+      ],
+      "uz": "Orol dengizi",
+      "ru": "Аральское море",
+      "country": "Uzbekistan",
+      "lat": 45.0,
+      "lon": 60.0
+    },
+    "Amu Darya": {
+      "aliases": [
+        "amudaryo",
+        "амударья",
+        "amu darya",
+        "oxus",
+        "jayhun"
+      ],
+      "uz": "Amudaryo",
+      "ru": "Амударья",
+      "country": "Uzbekistan",
+      "lat": 39.0,
+      "lon": 63.6
+    },
+    "Syr Darya": {
+      "aliases": [
+        "sirdaryo",
+        "сырдарья",
+        "syr darya",
+        "jaxartes",
+        "sayhun"
+      ],
+      "uz": "Sirdaryo",
+      "ru": "Сырдарья",
+      "country": "Uzbekistan",
+      "lat": 40.8,
+      "lon": 68.7
+    },
+    "Central Asia": {
+      "aliases": [
+        "markaziy osiyo",
+        "средняя азия",
+        "центральная азия",
+        "central asia",
+        "turkiston",
+        "туркестан",
+        "turkestan",
+        "movarounnahr",
+        "мавераннахр",
+        "transoxiana"
+      ],
+      "uz": "Markaziy Osiyo",
+      "ru": "Центральная Азия",
+      "lat": 41.0,
+      "lon": 65.0
+    },
+    "Silk Road": {
+      "aliases": [
+        "buyuk ipak yo'li",
+        "ipak yo'li",
+        "шелковый путь",
+        "великий шелковый путь",
+        "silk road"
+      ],
+      "uz": "Buyuk Ipak yo'li",
+      "ru": "Великий шёлковый путь",
+      "lat": 40.0,
+      "lon": 70.0
+    },
+    "Iran": {
+      "aliases": [
+        "eron",
+        "иран",
+        "iran",
+        "persia",
+        "персия",
+        "fors"
+      ],
+      "uz": "Eron",
+      "ru": "Иран",
+      "country": "Iran",
+      "lat": 32.4,
+      "lon": 53.7
+    },
+    "Tehran": {
+      "aliases": [
+        "tehron",
+        "тегеран",
+        "tehran"
+      ],
+      "uz": "Tehron",
+      "ru": "Тегеран",
+      "country": "Iran",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    "Iraq": {
+      "aliases": [
+        "iroq",
+        "ирак",
+        "iraq",
+        "mesopotamia",
+        "месопотамия"
+      ],
+      "uz": "Iroq",
+      "ru": "Ирак",
+      "country": "Iraq",
+      "lat": 33.2,
+      "lon": 43.7
+    },
+    "Baghdad": {
+      "aliases": [
+        "bag'dod",
+        "багдад",
+        "baghdad"
+      ],
+      "uz": "Bag'dod",
+      "ru": "Багдад",
+      "country": "Iraq",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    "Afghanistan": {
+      "aliases": [
+        "afg'oniston",
+        "афганистан",
+        "afghanistan"
+      ],
+      "uz": "Afg'oniston",
+      "ru": "Афганистан",
+      "country": "Afghanistan",
+      "lat": 33.9,
+      "lon": 67.7
+    },
+    "Kabul": {
+      "aliases": [
+        "kobul",
+        "кабул",
+        "kabul"
+      ],
+      "uz": "Kobul",
+      "ru": "Кабул",
+      "country": "Afghanistan",
+      "lat": 34.53,
+      "lon": 69.17
+    },
+    "Herat": {
+      "aliases": [
+        "hirot",
+        "герат",
+        "herat"
+      ],
+      "uz": "Hirot",
+      "ru": "Герат",
+      "country": "Afghanistan",
+      "lat": 34.35,
+      "lon": 62.2
+    },
+    "India": {
+      "aliases": [
+        "hindiston",
+        "индия",
+        "india",
+        "hind"
+      ],
+      "uz": "Hindiston",
+      "ru": "Индия",
+      "country": "India",
+      "lat": 20.6,
+      "lon": 78.9
+    },
+    "Delhi": {
+      "aliases": [
+        "dehli",
+        "дели",
+        "delhi"
+      ],
+      "uz": "Dehli",
+      "ru": "Дели",
+      "country": "India",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    "Ottoman Empire": {
+      "aliases": [
+        "usmonli",
+        "usmonlilar",
+        "османская империя",
+        "ottoman",
+        "османы"
+      ],
+      "uz": "Usmonli imperiyasi",
+      "ru": "Османская империя",
+      "lat": 39.9,
+      "lon": 32.9
+    },
+    "Istanbul": {
+      "aliases": [
+        "istanbul",
+        "стамбул",
+        "constantinople",
+        "константинополь",
+        "konstantinopol"
+      ],
+      "uz": "Istanbul",
+      "ru": "Стамбул",
+      "country": "Turkey",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    "Ankara": {
+      "aliases": [
+        "anqara",
+        "анкара",
+        "ankara"
+      ],
+      "uz": "Anqara",
+      "ru": "Анкара",
+      "country": "Turkey",
+      "lat": 39.93,
+      "lon": 32.86
+    },
+    "Russia": {
+      "aliases": [
+        "rossiya",
+        "россия",
+        "russia",
+        "russian empire",
+        "российская империя",
+        "rossiya imperiyasi"
+      ],
+      "uz": "Rossiya",
+      "ru": "Россия",
+      "country": "Russia",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    "Soviet Union": {
+      "aliases": [
+        "sovet ittifoqi",
+        "ссср",
+        "советский союз",
+        "soviet union",
+        "ussr",
+        "sssr",
+        "sobiq ittifoq"
+      ],
+      "uz": "Sovet Ittifoqi",
+      "ru": "СССР",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    "Moscow": {
+      "aliases": [
+        "moskva",
+        "москва",
+        "moscow"
+      ],
+      "uz": "Moskva",
+      "ru": "Москва",
+      "country": "Russia",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    "Mongolia": {
+      "aliases": [
+        "mo'g'uliston",
+        "монголия",
+        "mongolia",
+        "mongol"
+      ],
+      "uz": "Mo'g'uliston",
+      "ru": "Монголия",
+      "country": "Mongolia",
+      "lat": 46.9,
+      "lon": 103.8
+    },
+    "China": {
+      "aliases": [
+        "xitoy",
+        "китай",
+        "china"
+      ],
+      "uz": "Xitoy",
+      "ru": "Китай",
+      "country": "China",
+      "lat": 35.9,
+      "lon": 104.2
+    },
+    "Egypt": {
+      "aliases": [
+        "misr",
+        "египет",
+        "egypt"
+      ],
+      "uz": "Misr",
+      "ru": "Египет",
+      "country": "Egypt",
+      "lat": 26.8,
+      "lon": 30.8
+    },
+    "Damascus": {
+      "aliases": [
+        "damashq",
+        "дамаск",
+        "damascus"
+      ],
+      "uz": "Damashq",
+      "ru": "Дамаск",
+      "country": "Syria",
+      "lat": 33.51,
+      "lon": 36.29
+    },
+    "Europe": {
+      "aliases": [
+        "yevropa",
+        "европа",
+        "europe"
+      ],
+      "uz": "Yevropa",
+      "ru": "Европа",
+      "lat": 50.0,
+      "lon": 10.0
+    },
+    "Germany": {
+      "aliases": [
+        "germaniya",
+        "германия",
+        "germany"
+      ],
+      "uz": "Germaniya",
+      "ru": "Германия",
+      "country": "Germany",
+      "lat": 51.2,
+      "lon": 10.4
+    },
+    "Berlin": {
+      "aliases": [
+        "berlin",
+        "берлин"
+      ],
+      "uz": "Berlin",
+      "ru": "Берлин",
+      "country": "Germany",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    "France": {
+      "aliases": [
+        "fransiya",
+        "франция",
+        "france"
+      ],
+      "uz": "Fransiya",
+      "ru": "Франция",
+      "country": "France",
+      "lat": 46.2,
+      "lon": 2.2
+    },
+    "Paris": {
+      "aliases": [
+        "parij",
+        "париж",
+        "paris"
+      ],
+      "uz": "Parij",
+      "ru": "Париж",
+      "country": "France",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    "United Kingdom": {
+      "aliases": [
+        "angliya",
+        "англия",
+        "britaniya",
+        "британия",
+        "england",
+        "britain",
+        "great britain"
+      ],
+      "uz": "Buyuk Britaniya",
+      "ru": "Великобритания",
+      "country": "UK",
+      "lat": 52.4,
+      "lon": -1.5
+    },
+    "London": {
+      "aliases": [
+        "london",
+        "лондон"
+      ],
+      "uz": "London",
+      "ru": "Лондон",
+      "country": "UK",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    "United States": {
+      "aliases": [
+        "aqsh",
+        "сша",
+        "америка",
+        "amerika",
+        "usa",
+        "united states",
+        "america"
+      ],
+      "uz": "AQSH",
+      "ru": "США",
+      "country": "USA",
+      "lat": 38.9,
+      "lon": -77.0
+    },
+    "Washington": {
+      "aliases": [
+        "vashington",
+        "вашингтон",
+        "washington"
+      ],
+      "uz": "Vashington",
+      "ru": "Вашингтон",
+      "country": "USA",
+      "lat": 38.9,
+      "lon": -77.04
+    },
+    "Japan": {
+      "aliases": [
+        "yaponiya",
+        "япония",
+        "japan"
+      ],
+      "uz": "Yaponiya",
+      "ru": "Япония",
+      "country": "Japan",
+      "lat": 36.2,
+      "lon": 138.3
+    },
+    "Israel": {
+      "aliases": [
+        "isroil",
+        "израиль",
+        "israel"
+      ],
+      "uz": "Isroil",
+      "ru": "Израиль",
+      "country": "Israel",
+      "lat": 31.0,
+      "lon": 34.9
+    },
+    "Persian Gulf": {
+      "aliases": [
+        "fors ko'rfazi",
+        "персидский залив",
+        "persian gulf"
+      ],
+      "uz": "Fors ko'rfazi",
+      "ru": "Персидский залив",
+      "lat": 26.0,
+      "lon": 52.0
+    },
+    "Stalingrad": {
+      "aliases": [
+        "stalingrad",
+        "сталинград",
+        "volgograd",
+        "волгоград"
+      ],
+      "uz": "Stalingrad",
+      "ru": "Сталинград",
+      "country": "Russia",
+      "lat": 48.71,
+      "lon": 44.51
+    },
+    "Kazakhstan": {
+      "aliases": [
+        "qozog'iston",
+        "казахстан",
+        "kazakhstan"
+      ],
+      "uz": "Qozog'iston",
+      "ru": "Казахстан",
+      "country": "Kazakhstan",
+      "lat": 48.0,
+      "lon": 66.9
+    },
+    "Kyrgyzstan": {
+      "aliases": [
+        "qirg'iziston",
+        "кыргызстан",
+        "киргизия",
+        "kyrgyzstan"
+      ],
+      "uz": "Qirg'iziston",
+      "ru": "Кыргызстан",
+      "country": "Kyrgyzstan",
+      "lat": 41.2,
+      "lon": 74.8
+    },
+    "Tajikistan": {
+      "aliases": [
+        "tojikiston",
+        "таджикистан",
+        "tajikistan"
+      ],
+      "uz": "Tojikiston",
+      "ru": "Таджикистан",
+      "country": "Tajikistan",
+      "lat": 38.9,
+      "lon": 71.3
+    },
+    "Turkmenistan": {
+      "aliases": [
+        "turkmaniston",
+        "туркменистан",
+        "turkmenistan",
+        "merv",
+        "marv",
+        "мерв"
+      ],
+      "uz": "Turkmaniston",
+      "ru": "Туркменистан",
+      "country": "Turkmenistan",
+      "lat": 38.97,
+      "lon": 59.56
+    },
+    "Uzbekistan": {
+      "aliases": [
+        "o'zbekiston",
+        "узбекистан",
+        "uzbekistan",
+        "uzbek ssr",
+        "узбекская сср"
+      ],
+      "uz": "O'zbekiston",
+      "ru": "Узбекистан",
+      "country": "Uzbekistan",
+      "lat": 41.38,
+      "lon": 64.59
+    },
+    "Turkey": {
+      "aliases": [
+        "turkiya",
+        "турция",
+        "turkey",
+        "türkiye"
+      ],
+      "uz": "Turkiya",
+      "ru": "Турция",
+      "country": "Turkey",
+      "lat": 39.0,
+      "lon": 35.2
+    },
+    "Qatar": {
+      "aliases": [
+        "qatar",
+        "катар",
+        "doha",
+        "doxa",
+        "доха"
+      ],
+      "uz": "Qatar",
+      "ru": "Катар",
+      "country": "Qatar",
+      "lat": 25.3,
+      "lon": 51.2
+    },
+    "Pakistan": {
+      "aliases": [
+        "pokiston",
+        "пакистан",
+        "pakistan"
+      ],
+      "uz": "Pokiston",
+      "ru": "Пакистан",
+      "country": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3
+    },
+    "Saudi Arabia": {
+      "aliases": [
+        "saudiya arabistoni",
+        "саудовская аравия",
+        "saudi arabia",
+        "saudiya"
+      ],
+      "uz": "Saudiya Arabistoni",
+      "ru": "Саудовская Аравия",
+      "country": "Saudi Arabia",
+      "lat": 23.9,
+      "lon": 45.1
+    },
+    "Strait of Hormuz": {
+      "aliases": [
+        "hormuz",
+        "hormuz bo'g'ozi",
+        "ормузский пролив",
+        "strait of hormuz",
+        "ормуз"
+      ],
+      "uz": "Hormuz bo'g'ozi",
+      "ru": "Ормузский пролив",
+      "lat": 26.6,
+      "lon": 56.3
+    }
+  },
+  "persons": {
+    "Timur": {
+      "aliases": [
+        "amir temur",
+        "temur",
+        "тамерлан",
+        "тимур",
+        "tamerlane",
+        "timur",
+        "sohibqiron",
+        "temurbek"
+      ],
+      "uz": "Amir Temur",
+      "ru": "Амир Тимур",
+      "born": 1336,
+      "died": 1405,
+      "role": "founder of the Timurid Empire"
+    },
+    "Ulugh Beg": {
+      "aliases": [
+        "mirzo ulug'bek",
+        "ulug'bek",
+        "улугбек",
+        "ulugh beg",
+        "ulugbek"
+      ],
+      "uz": "Mirzo Ulug'bek",
+      "ru": "Улугбек",
+      "born": 1394,
+      "died": 1449,
+      "role": "astronomer and ruler"
+    },
+    "Babur": {
+      "aliases": [
+        "zahiriddin muhammad bobur",
+        "bobur",
+        "бабур",
+        "babur"
+      ],
+      "uz": "Zahiriddin Muhammad Bobur",
+      "ru": "Бабур",
+      "born": 1483,
+      "died": 1530,
+      "role": "founder of the Mughal Empire"
+    },
+    "Alisher Navoi": {
+      "aliases": [
+        "alisher navoiy",
+        "navoiy",
+        "навои",
+        "navoi"
+      ],
+      "uz": "Alisher Navoiy",
+      "ru": "Алишер Навои",
+      "born": 1441,
+      "died": 1501,
+      "role": "poet and statesman"
+    },
+    "Avicenna": {
+      "aliases": [
+        "ibn sino",
+        "ибн сина",
+        "avicenna",
+        "abu ali ibn sino",
+        "авиценна"
+      ],
+      "uz": "Abu Ali ibn Sino",
+      "ru": "Ибн Сина",
+      "born": 980,
+      "died": 1037,
+      "role": "physician and philosopher"
+    },
+    "Al-Khwarizmi": {
+      "aliases": [
+        "al-xorazmiy",
+        "xorazmiy",
+        "аль-хорезми",
+        "хорезми",
+        "al-khwarizmi",
+        "khwarizmi"
+      ],
+      "uz": "Muhammad al-Xorazmiy",
+      "ru": "Аль-Хорезми",
+      "born": 780,
+      "died": 850,
+      "role": "mathematician"
+    },
+    "Al-Biruni": {
+      "aliases": [
+        "beruniy",
+        "abu rayhon beruniy",
+        "бируни",
+        "al-biruni",
+        "biruni"
+      ],
+      "uz": "Abu Rayhon Beruniy",
+      "ru": "Аль-Бируни",
+      "born": 973,
+      "died": 1050,
+      "role": "scholar"
+    },
+    "Imam al-Bukhari": {
+      "aliases": [
+        "imom buxoriy",
+        "имам бухари",
+        "al-bukhari",
+        "buxoriy"
+      ],
+      "uz": "Imom al-Buxoriy",
+      "ru": "Имам аль-Бухари",
+      "born": 810,
+      "died": 870,
+      "role": "hadith scholar"
+    },
+    "Genghis Khan": {
+      "aliases": [
+        "chingizxon",
+        "чингисхан",
+        "genghis khan",
+        "chinggis"
+      ],
+      "uz": "Chingizxon",
+      "ru": "Чингисхан",
+      "born": 1162,
+      "died": 1227,
+      "role": "founder of the Mongol Empire"
+    },
+    "Jalal ad-Din": {
+      "aliases": [
+        "jaloliddin manguberdi",
+        "jaloliddin",
+        "джалал ад-дин",
+        "jalal ad-din mingburnu"
+      ],
+      "uz": "Jaloliddin Manguberdi",
+      "ru": "Джалал ад-Дин",
+      "born": 1199,
+      "died": 1231,
+      "role": "last Khwarazmshah"
+    },
+    "Bayezid I": {
+      "aliases": [
+        "boyazid",
+        "баязид",
+        "bayezid",
+        "yildirim boyazid"
+      ],
+      "uz": "Boyazid I",
+      "ru": "Баязид I",
+      "born": 1360,
+      "died": 1403,
+      "role": "Ottoman sultan"
+    },
+    "Tokhtamysh": {
+      "aliases": [
+        "to'xtamish",
+        "тохтамыш",
+        "tokhtamysh"
+      ],
+      "uz": "To'xtamish",
+      "ru": "Тохтамыш",
+      "born": 1342,
+      "died": 1406,
+      "role": "khan of the Golden Horde"
+    },
+    "Alexander the Great": {
+      "aliases": [
+        "iskandar zulqarnayn",
+        "aleksandr makedonskiy",
+        "александр македонский",
+        "alexander the great",
+        "iskandar"
+      ],
+      "uz": "Iskandar Zulqarnayn",
+      "ru": "Александр Македонский",
+      "born": -356,
+      "died": -323,
+      "role": "Macedonian king"
+    },
+    "Spitamenes": {
+      "aliases": [
+        "spitamen",
+        "спитамен",
+        "spitamenes"
+      ],
+      "uz": "Spitamen",
+      "ru": "Спитамен",
+      "born": -370,
+      "died": -328,
+      "role": "Sogdian warlord"
+    },
+    "Abdulla Qodiriy": {
+      "aliases": [
+        "abdulla qodiriy",
+        "абдулла кадыри",
+        "qodiriy"
+      ],
+      "uz": "Abdulla Qodiriy",
+      "ru": "Абдулла Кадыри",
+      "born": 1894,
+      "died": 1938,
+      "role": "writer"
+    },
+    "Mahmudkhodja Behbudi": {
+      "aliases": [
+        "mahmudxo'ja behbudiy",
+        "behbudiy",
+        "бехбуди"
+      ],
+      "uz": "Mahmudxo'ja Behbudiy",
+      "ru": "Махмудходжа Бехбуди",
+      "born": 1875,
+      "died": 1919,
+      "role": "Jadid leader"
+    },
+    "Abdurauf Fitrat": {
+      "aliases": [
+        "abdurauf fitrat",
+        "fitrat",
+        "фитрат"
+      ],
+      "uz": "Abdurauf Fitrat",
+      "ru": "Абдурауф Фитрат",
+      "born": 1886,
+      "died": 1938,
+      "role": "Jadid writer"
+    },
+    "Cholpon": {
+      "aliases": [
+        "cho'lpon",
+        "чулпан",
+        "cholpon"
+      ],
+      "uz": "Cho'lpon",
+      "ru": "Чулпан",
+      "born": 1897,
+      "died": 1938,
+      "role": "poet"
+    },
+    "Sharof Rashidov": {
+      "aliases": [
+        "sharof rashidov",
+        "рашидов",
+        "rashidov"
+      ],
+      "uz": "Sharof Rashidov",
+      "ru": "Шараф Рашидов",
+      "born": 1917,
+      "died": 1983,
+      "role": "First Secretary of the Uzbek SSR"
+    },
+    "Islam Karimov": {
+      "aliases": [
+        "islom karimov",
+        "каримов",
+        "karimov"
+      ],
+      "uz": "Islom Karimov",
+      "ru": "Ислам Каримов",
+      "born": 1938,
+      "died": 2016,
+      "role": "first president of Uzbekistan"
+    },
+    "Joseph Stalin": {
+      "aliases": [
+        "stalin",
+        "сталин",
+        "iosif stalin"
+      ],
+      "uz": "Iosif Stalin",
+      "ru": "Иосиф Сталин",
+      "born": 1878,
+      "died": 1953,
+      "role": "Soviet leader"
+    },
+    "Vladimir Lenin": {
+      "aliases": [
+        "lenin",
+        "ленин"
+      ],
+      "uz": "Vladimir Lenin",
+      "ru": "Владимир Ленин",
+      "born": 1870,
+      "died": 1924,
+      "role": "Soviet leader"
+    },
+    "Adolf Hitler": {
+      "aliases": [
+        "gitler",
+        "гитлер",
+        "hitler"
+      ],
+      "uz": "Adolf Gitler",
+      "ru": "Адольф Гитлер",
+      "born": 1889,
+      "died": 1945,
+      "role": "Nazi dictator"
+    },
+    "Winston Churchill": {
+      "aliases": [
+        "cherchill",
+        "черчилль",
+        "churchill"
+      ],
+      "uz": "Uinston Cherchill",
+      "ru": "Уинстон Черчилль",
+      "born": 1874,
+      "died": 1965,
+      "role": "British prime minister"
+    },
+    "Franklin D. Roosevelt": {
+      "aliases": [
+        "ruzvelt",
+        "рузвельт",
+        "roosevelt"
+      ],
+      "uz": "Franklin Ruzvelt",
+      "ru": "Франклин Рузвельт",
+      "born": 1882,
+      "died": 1945,
+      "role": "US president"
+    },
+    "Napoleon": {
+      "aliases": [
+        "napoleon",
+        "наполеон",
+        "bonapart",
+        "бонапарт"
+      ],
+      "uz": "Napoleon Bonapart",
+      "ru": "Наполеон Бонапарт",
+      "born": 1769,
+      "died": 1821,
+      "role": "French emperor"
+    },
+    "Ruhollah Khomeini": {
+      "aliases": [
+        "xomeyni",
+        "хомейни",
+        "khomeini",
+        "oyatulloh xomeyni"
+      ],
+      "uz": "Oyatulloh Xomeyni",
+      "ru": "Рухолла Хомейни",
+      "born": 1902,
+      "died": 1989,
+      "role": "Iranian revolutionary leader"
+    },
+    "Saddam Hussein": {
+      "aliases": [
+        "saddam husayn",
+        "саддам хусейн",
+        "saddam hussein",
+        "saddam"
+      ],
+      "uz": "Saddam Husayn",
+      "ru": "Саддам Хусейн",
+      "born": 1937,
+      "died": 2006,
+      "role": "Iraqi president"
+    },
+    "Mohammad Reza Pahlavi": {
+      "aliases": [
+        "muhammad rizo pahlaviy",
+        "шах пехлеви",
+        "pahlavi",
+        "pahlaviy",
+        "eron shohi"
+      ],
+      "uz": "Muhammad Rizo Pahlaviy",
+      "ru": "Мохаммед Реза Пехлеви",
+      "born": 1919,
+      "died": 1980,
+      "role": "last Shah of Iran"
+    },
+    "Mustafa Kemal Atatürk": {
+      "aliases": [
+        "otaturk",
+        "ататюрк",
+        "ataturk",
+        "mustafo kamol"
+      ],
+      "uz": "Mustafo Kamol Otaturk",
+      "ru": "Мустафа Кемаль Ататюрк",
+      "born": 1881,
+      "died": 1938,
+      "role": "founder of modern Turkey"
+    }
+  },
+  "terms": {
+    "war": {
+      "aliases": [
+        "urush",
+        "urushi",
+        "война",
+        "войны",
+        "war",
+        "jang"
+      ],
+      "uz": "urush",
+      "ru": "война",
+      "mood": "dramatic",
+      "sfx": [
+        "battle_distant",
+        "explosion"
+      ],
+      "visual": "war footage"
+    },
+    "battle": {
+      "aliases": [
+        "jang",
+        "jangi",
+        "битва",
+        "сражение",
+        "battle",
+        "muhoraba"
+      ],
+      "uz": "jang",
+      "ru": "битва",
+      "mood": "dramatic",
+      "sfx": [
+        "battle_distant",
+        "swords"
+      ],
+      "visual": "battle"
+    },
+    "army": {
+      "aliases": [
+        "qo'shin",
+        "qo'shini",
+        "armiya",
+        "армия",
+        "войско",
+        "army",
+        "lashkar"
+      ],
+      "uz": "qo'shin",
+      "ru": "армия",
+      "mood": "tense",
+      "sfx": [
+        "marching",
+        "horses"
+      ],
+      "visual": "army soldiers"
+    },
+    "soldiers": {
+      "aliases": [
+        "askar",
+        "askarlar",
+        "солдаты",
+        "soldiers",
+        "jangchilar"
+      ],
+      "uz": "askarlar",
+      "ru": "солдаты",
+      "mood": "tense",
+      "sfx": [
+        "marching"
+      ],
+      "visual": "soldiers marching"
+    },
+    "cavalry": {
+      "aliases": [
+        "otliq",
+        "otliqlar",
+        "конница",
+        "кавалерия",
+        "cavalry"
+      ],
+      "uz": "otliqlar",
+      "ru": "конница",
+      "mood": "tense",
+      "sfx": [
+        "horses"
+      ],
+      "visual": "cavalry horses"
+    },
+    "siege": {
+      "aliases": [
+        "qamal",
+        "qamal qildi",
+        "осада",
+        "siege"
+      ],
+      "uz": "qamal",
+      "ru": "осада",
+      "mood": "dramatic",
+      "sfx": [
+        "battle_distant"
+      ],
+      "visual": "siege fortress"
+    },
+    "fortress": {
+      "aliases": [
+        "qal'a",
+        "qo'rg'on",
+        "крепость",
+        "fortress",
+        "citadel",
+        "ark"
+      ],
+      "uz": "qal'a",
+      "ru": "крепость",
+      "mood": "neutral",
+      "sfx": [
+        "wind"
+      ],
+      "visual": "fortress walls"
+    },
+    "empire": {
+      "aliases": [
+        "imperiya",
+        "imperiyasi",
+        "saltanat",
+        "империя",
+        "держава",
+        "empire"
+      ],
+      "uz": "imperiya",
+      "ru": "империя",
+      "mood": "epic",
+      "sfx": [],
+      "visual": "empire map"
+    },
+    "conquest": {
+      "aliases": [
+        "bosib oldi",
+        "zabt",
+        "fath",
+        "yurish",
+        "завоевание",
+        "поход",
+        "conquest",
+        "campaign",
+        "invasion",
+        "bosqin"
+      ],
+      "uz": "yurish",
+      "ru": "завоевание",
+      "mood": "dramatic",
+      "sfx": [
+        "horses",
+        "battle_distant"
+      ],
+      "visual": "conquest map",
+      "map": true
+    },
+    "border": {
+      "aliases": [
+        "chegara",
+        "граница",
+        "border",
+        "frontier"
+      ],
+      "uz": "chegara",
+      "ru": "граница",
+      "mood": "neutral",
+      "sfx": [],
+      "visual": "border map",
+      "map": true
+    },
+    "revolution": {
+      "aliases": [
+        "inqilob",
+        "революция",
+        "revolution",
+        "qo'zg'olon",
+        "восстание",
+        "uprising"
+      ],
+      "uz": "inqilob",
+      "ru": "революция",
+      "mood": "dramatic",
+      "sfx": [
+        "crowd_protest"
+      ],
+      "visual": "revolution crowd"
+    },
+    "protest": {
+      "aliases": [
+        "namoyish",
+        "митинг",
+        "протест",
+        "protest",
+        "demonstration"
+      ],
+      "uz": "namoyish",
+      "ru": "протест",
+      "mood": "tense",
+      "sfx": [
+        "crowd_protest"
+      ],
+      "visual": "protest crowd"
+    },
+    "independence": {
+      "aliases": [
+        "mustaqillik",
+        "независимость",
+        "independence"
+      ],
+      "uz": "mustaqillik",
+      "ru": "независимость",
+      "mood": "epic",
+      "sfx": [
+        "crowd_cheer"
+      ],
+      "visual": "independence celebration"
+    },
+    "city": {
+      "aliases": [
+        "shahar",
+        "shahri",
+        "город",
+        "city",
+        "poytaxt",
+        "столица",
+        "capital"
+      ],
+      "uz": "shahar",
+      "ru": "город",
+      "mood": "neutral",
+      "sfx": [
+        "city_ambience"
+      ],
+      "visual": "old city streets"
+    },
+    "market": {
+      "aliases": [
+        "bozor",
+        "базар",
+        "рынок",
+        "market",
+        "bazaar"
+      ],
+      "uz": "bozor",
+      "ru": "базар",
+      "mood": "calm",
+      "sfx": [
+        "crowd_market"
+      ],
+      "visual": "bazaar"
+    },
+    "caravan": {
+      "aliases": [
+        "karvon",
+        "караван",
+        "caravan",
+        "savdo",
+        "торговля",
+        "trade"
+      ],
+      "uz": "karvon",
+      "ru": "караван",
+      "mood": "calm",
+      "sfx": [
+        "camel_bells",
+        "wind"
+      ],
+      "visual": "camel caravan desert"
+    },
+    "desert": {
+      "aliases": [
+        "cho'l",
+        "sahro",
+        "пустыня",
+        "desert",
+        "qizilqum",
+        "кызылкум"
+      ],
+      "uz": "cho'l",
+      "ru": "пустыня",
+      "mood": "calm",
+      "sfx": [
+        "wind"
+      ],
+      "visual": "desert dunes"
+    },
+    "mountains": {
+      "aliases": [
+        "tog'",
+        "tog'lar",
+        "горы",
+        "mountains",
+        "pomir",
+        "памир"
+      ],
+      "uz": "tog'lar",
+      "ru": "горы",
+      "mood": "calm",
+      "sfx": [
+        "wind"
+      ],
+      "visual": "mountains"
+    },
+    "river": {
+      "aliases": [
+        "daryo",
+        "река",
+        "river"
+      ],
+      "uz": "daryo",
+      "ru": "река",
+      "mood": "calm",
+      "sfx": [
+        "river"
+      ],
+      "visual": "river"
+    },
+    "sea": {
+      "aliases": [
+        "dengiz",
+        "море",
+        "sea",
+        "ocean",
+        "okean"
+      ],
+      "uz": "dengiz",
+      "ru": "море",
+      "mood": "calm",
+      "sfx": [
+        "waves"
+      ],
+      "visual": "sea"
+    },
+    "mosque": {
+      "aliases": [
+        "masjid",
+        "мечеть",
+        "mosque",
+        "jome"
+      ],
+      "uz": "masjid",
+      "ru": "мечеть",
+      "mood": "calm",
+      "sfx": [
+        "city_ambience"
+      ],
+      "visual": "mosque architecture"
+    },
+    "madrasa": {
+      "aliases": [
+        "madrasa",
+        "madrasasi",
+        "медресе",
+        "madrasah"
+      ],
+      "uz": "madrasa",
+      "ru": "медресе",
+      "mood": "calm",
+      "sfx": [],
+      "visual": "madrasa architecture"
+    },
+    "mausoleum": {
+      "aliases": [
+        "maqbara",
+        "мавзолей",
+        "mausoleum",
+        "go'ri amir",
+        "гур-эмир",
+        "gur-e-amir"
+      ],
+      "uz": "maqbara",
+      "ru": "мавзолей",
+      "mood": "solemn",
+      "sfx": [],
+      "visual": "mausoleum dome"
+    },
+    "palace": {
+      "aliases": [
+        "saroy",
+        "дворец",
+        "palace",
+        "oqsaroy"
+      ],
+      "uz": "saroy",
+      "ru": "дворец",
+      "mood": "neutral",
+      "sfx": [],
+      "visual": "palace"
+    },
+    "observatory": {
+      "aliases": [
+        "rasadxona",
+        "обсерватория",
+        "observatory"
+      ],
+      "uz": "rasadxona",
+      "ru": "обсерватория",
+      "mood": "calm",
+      "sfx": [],
+      "visual": "observatory astronomy"
+    },
+    "manuscript": {
+      "aliases": [
+        "qo'lyozma",
+        "рукопись",
+        "manuscript",
+        "kitob",
+        "книга",
+        "book"
+      ],
+      "uz": "qo'lyozma",
+      "ru": "рукопись",
+      "mood": "calm",
+      "sfx": [
+        "page_turn"
+      ],
+      "visual": "old manuscript"
+    },
+    "miniature": {
+      "aliases": [
+        "miniatyura",
+        "миниатюра",
+        "miniature"
+      ],
+      "uz": "miniatyura",
+      "ru": "миниатюра",
+      "mood": "calm",
+      "sfx": [],
+      "visual": "persian miniature painting"
+    },
+    "science": {
+      "aliases": [
+        "ilm",
+        "fan",
+        "наука",
+        "science",
+        "astronomiya",
+        "астрономия",
+        "matematika"
+      ],
+      "uz": "ilm-fan",
+      "ru": "наука",
+      "mood": "calm",
+      "sfx": [],
+      "visual": "medieval science"
+    },
+    "king": {
+      "aliases": [
+        "podsho",
+        "shoh",
+        "xon",
+        "amir",
+        "sulton",
+        "царь",
+        "хан",
+        "король",
+        "султан",
+        "king",
+        "khan",
+        "sultan",
+        "emir"
+      ],
+      "uz": "podsho",
+      "ru": "правитель",
+      "mood": "epic",
+      "sfx": [],
+      "visual": "ruler portrait"
+    },
+    "death": {
+      "aliases": [
+        "vafot",
+        "o'ldi",
+        "o'lim",
+        "halok",
+        "смерть",
+        "умер",
+        "погиб",
+        "death",
+        "died",
+        "killed"
+      ],
+      "uz": "vafot",
+      "ru": "смерть",
+      "mood": "solemn",
+      "sfx": [],
+      "visual": "funeral"
+    },
+    "famine": {
+      "aliases": [
+        "ochlik",
+        "голод",
+        "famine",
+        "hunger"
+      ],
+      "uz": "ochlik",
+      "ru": "голод",
+      "mood": "solemn",
+      "sfx": [
+        "wind"
+      ],
+      "visual": "famine"
+    },
+    "repression": {
+      "aliases": [
+        "qatag'on",
+        "репрессии",
+        "repression",
+        "purge",
+        "gulag",
+        "surgun",
+        "ссылка",
+        "deportation"
+      ],
+      "uz": "qatag'on",
+      "ru": "репрессии",
+      "mood": "solemn",
+      "sfx": [
+        "train"
+      ],
+      "visual": "repression archive"
+    },
+    "cotton": {
+      "aliases": [
+        "paxta",
+        "хлопок",
+        "cotton"
+      ],
+      "uz": "paxta",
+      "ru": "хлопок",
+      "mood": "neutral",
+      "sfx": [],
+      "visual": "cotton fields"
+    },
+    "railway": {
+      "aliases": [
+        "temir yo'l",
+        "poyezd",
+        "железная дорога",
+        "поезд",
+        "railway",
+        "train"
+      ],
+      "uz": "temir yo'l",
+      "ru": "железная дорога",
+      "mood": "neutral",
+      "sfx": [
+        "train"
+      ],
+      "visual": "steam train"
+    },
+    "earthquake": {
+      "aliases": [
+        "zilzila",
+        "zilzilasi",
+        "землетрясение",
+        "earthquake"
+      ],
+      "uz": "zilzila",
+      "ru": "землетрясение",
+      "mood": "dramatic",
+      "sfx": [
+        "rumble"
+      ],
+      "visual": "earthquake ruins"
+    },
+    "oil": {
+      "aliases": [
+        "neft",
+        "нефть",
+        "oil",
+        "petroleum"
+      ],
+      "uz": "neft",
+      "ru": "нефть",
+      "mood": "neutral",
+      "sfx": [],
+      "visual": "oil fields"
+    },
+    "missile": {
+      "aliases": [
+        "raketa",
+        "ракета",
+        "missile",
+        "rocket"
+      ],
+      "uz": "raketa",
+      "ru": "ракета",
+      "mood": "dramatic",
+      "sfx": [
+        "explosion"
+      ],
+      "visual": "missile launch"
+    },
+    "nuclear": {
+      "aliases": [
+        "yadro",
+        "yadroviy",
+        "ядерный",
+        "atom",
+        "nuclear"
+      ],
+      "uz": "yadroviy",
+      "ru": "ядерный",
+      "mood": "dramatic",
+      "sfx": [
+        "rumble"
+      ],
+      "visual": "nuclear"
+    },
+    "aircraft": {
+      "aliases": [
+        "samolyot",
+        "самолет",
+        "самолёт",
+        "aircraft",
+        "airplane",
+        "aviatsiya"
+      ],
+      "uz": "samolyot",
+      "ru": "самолёт",
+      "mood": "tense",
+      "sfx": [
+        "aircraft"
+      ],
+      "visual": "military aircraft"
+    },
+    "tank": {
+      "aliases": [
+        "tank",
+        "танк",
+        "tanklar",
+        "танки"
+      ],
+      "uz": "tank",
+      "ru": "танк",
+      "mood": "tense",
+      "sfx": [
+        "tank"
+      ],
+      "visual": "tanks"
+    },
+    "treaty": {
+      "aliases": [
+        "shartnoma",
+        "sulh",
+        "договор",
+        "мир",
+        "treaty",
+        "peace",
+        "tinchlik"
+      ],
+      "uz": "shartnoma",
+      "ru": "договор",
+      "mood": "calm",
+      "sfx": [
+        "page_turn"
+      ],
+      "visual": "treaty signing"
+    },
+    "president": {
+      "aliases": [
+        "prezident",
+        "президент",
+        "president"
+      ],
+      "uz": "prezident",
+      "ru": "президент",
+      "mood": "neutral",
+      "sfx": [],
+      "visual": "president speech"
+    }
+  },
+  "generic_archive_words": {
+    "en": [
+      "archive footage",
+      "historical footage",
+      "newsreel",
+      "old photo",
+      "map",
+      "painting",
+      "engraving"
+    ],
+    "ru": [
+      "кинохроника",
+      "архивные кадры",
+      "старое фото",
+      "карта",
+      "гравюра"
+    ],
+    "uz": [
+      "arxiv kadrlari",
+      "tarixiy kadrlar",
+      "eski surat",
+      "xarita"
+    ]
+  }
+}

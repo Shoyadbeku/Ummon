@@ -1,0 +1,273 @@
+{
+  "schema": "hve.storyboard/1",
+  "title": "Sohibqiron yurti: Amir Temur va Samarqand",
+  "slug": "demo",
+  "language": "uz",
+  "search_languages": [
+    "en",
+    "ru",
+    "uz"
+  ],
+  "topic_period": {
+    "start": -356,
+    "end": 1405,
+    "label": "356 BC–1405",
+    "media_era": "pre_photographic"
+  },
+  "total_duration": 71.99,
+  "timing_source": "words_per_minute",
+  "narration_audio": "output/<slug>/audio/narration.wav",
+  "scenes": [
+    {
+      "id": "s001",
+      "index": 1,
+      "chapter": "Sohibqiron yurti",
+      "narration": "Samarqand. Buyuk Ipak yo'lining yuragi. Bu shahar Iskandar Zulqarnayn davridayoq Marakanda nomi bilan mashhur edi. Ammo uning eng yorqin davri XIV asrda boshlandi.",
+      "director_notes": [
+        "Vizual: Samarqand panoramasi, Registon, tong"
+      ],
+      "words": 23,
+      "period": {
+        "start": -356,
+        "end": 1400,
+        "label": "356 BC–1400",
+        "media_era": "pre_photographic"
+      },
+      "places": [
+        "Samarkand",
+        "Silk Road"
+      ],
+      "persons": [
+        "Alexander the Great"
+      ],
+      "terms": [
+        "city"
+      ],
+      "dates": {
+        "years": [],
+        "centuries": [
+          14
+        ]
+      },
+      "mood": "neutral",
+      "emphasis": [
+        "Ammo"
+      ],
+      "needs_map": true,
+      "effects": [
+        {
+          "type": "lower_third",
+          "title": "Iskandar Zulqarnayn",
+          "subtitle": "356 BC–323 BC · Macedonian king",
+          "at": 0.3
+        },
+        {
+          "type": "impact_cut",
+          "reason": "Ammo"
+        },
+        {
+          "type": "map_animation",
+          "places": [
+            "Samarkand",
+            "Silk Road"
+          ]
+        },
+        {
+          "type": "chapter_title",
+          "text": "Sohibqiron yurti"
+        }
+      ],
+      "sfx": [
+        "city_ambience"
+      ],
+      "exclude_terms": [
+        "car",
+        "automobile",
+        "машина",
+        "airplane",
+        "aircraft",
+        "самолет",
+        "tank",
+        "танк",
+        "train",
+        "railway",
+        "поезд",
+        "photo",
+        "photograph",
+        "фото",
+        "film",
+        "newsreel",
+        "кинохроника",
+        "footage",
+        "nuclear explosion",
+        "ядерный взрыв",
+        "color film"
+      ],
+      "visual_notes": "No photos/film exist. Use miniatures, manuscripts, paintings, coins, architecture (present-day footage labelled 'Present day'), maps. Never present reenactments as archive.",
+      "queries": {
+        "en": [
+          "Alexander the Great",
+          "Alexander the Great portrait",
+          "Samarkand old city streets",
+          "Samarkand historical painting",
+          "Silk Road old city streets",
+          "Silk Road historical painting",
+          "old city streets"
+        ],
+        "ru": [
+          "Александр Македонский",
+          "Александр Македонский портрет",
+          "Самарканд город",
+          "Самарканд миниатюра",
+          "Великий шёлковый путь город",
+          "Великий шёлковый путь миниатюра",
+          "город"
+        ],
+        "uz": [
+          "Iskandar Zulqarnayn",
+          "Iskandar Zulqarnayn portret",
+          "Samarqand shahar",
+          "Samarqand miniatyura",
+          "Buyuk Ipak yo'li shahar",
+          "Buyuk Ipak yo'li miniatyura",
+          "shahar"
+        ],
+        "maps": [
+          "Samarkand historical map 356 BC–1400",
+          "Самарканд историческая карта"
+        ]
+      },
+      "start": 0.0,
+      "duration": 9.9,
+      "shots": 2
+    },
+    {
+      "id": "s002",
+      "index": 2,
+      "chapter": "Sohibqiron yurti",
+      "narration": "1336-yilda Kesh yaqinida, bugungi Shahrisabz hududida bir bola tug'ildi. Uning nomi Temur edi. Tarix uni Amir Temur, Yevropa esa Tamerlan deb atadi.",
+      "director_notes": [
+        "Vizual: Samarqand panoramasi, Registon, tong"
+      ],
+      "words": 22,
+      "period": {
+        "start": 1336,
+        "end": 1405,
+        "label": "1336–1405",
+        "media_era": "pre_photographic"
+      },
+      "places": [
+        "Shahrisabz",
+        "Europe"
+      ],
+      "persons": [
+        "Timur"
+      ],
+      "terms": [
+        "city",
+        "king"
+      ],
+      "dates": {
+        "years": [
+          1336
+        ],
+        "centuries": []
+      },
+      "mood": "neutral",
+      "emphasis": [],
+      "needs_map": true,
+      "effects": [
+        {
+          "type": "date_card",
+          "text": "1336",
+          "at": 0.0
+        },
+        {
+          "type": "lower_third",
+          "title": "Amir Temur",
+          "subtitle": "1336–1405 · founder of the Timurid Empire",
+          "at": 0.3
+        },
+        {
+          "type": "map_animation",
+          "places": [
+            "Shahrisabz",
+            "Europe"
+          ]
+        }
+      ],
+      "sfx": [
+        "city_ambience"
+      ],
+      "exclude_terms": [
+        "car",
+        "automobile",
+        "машина",
+        "airplane",
+        "aircraft",
+        "самолет",
+        "tank",
+        "танк",
+        "train",
+        "railway",
+        "поезд",
+        "photo",
+        "photograph",
+        "фото",
+        "film",
+        "newsreel",
+        "кинохроника",
+        "footage",
+        "nuclear explosion",
+        "ядерный взрыв",
+        "color film"
+      ],
+      "visual_notes": "No photos/film exist. Use miniatures, manuscripts, paintings, coins, architecture (present-day footage labelled 'Present day'), maps. Never present reenactments as archive.",
+      "queries": {
+        "en": [
+          "Timur",
+          "Timur portrait",
+          "Shahrisabz old city streets",
+          "Shahrisabz historical painting",
+          "Europe old city streets",
+          "Europe historical painting",
+          "old city streets",
+          "ruler portrait"
+        ],
+        "ru": [
+          "Амир Тимур",
+          "Амир Тимур портрет",
+          "Шахрисабз город",
+          "Шахрисабз миниатюра",
+          "Европа город",
+          "Европа миниатюра",
+          "город",
+          "правитель"
+        ],
+        "uz": [
+          "Amir Temur",
+          "Amir Temur portret",
+          "Shahrisabz shahar",
+          "Shahrisabz miniatyura",
+          "Yevropa shahar",
+          "Yevropa miniatyura",
+          "shahar",
+          "podsho"
+        ],
+        "maps": [
+          "Shahrisabz historical map 1336–1405",
+          "Шахрисабз историческая карта"
+        ]
+      },
+      "start": 9.9,
+      "duration": 8.99,
+      "shots": 2
+    }
+  ],
+  "review_required": true,
+  "review_notes": [
+    "Check periods/places detected automatically; add missing entities and English keywords.",
+    "Pre-photographic periods cannot have authentic archive footage: use art, manuscripts, artefacts, present-day location footage (labelled) and animated maps."
+  ],
+  "_doc": "Produced by analyze_script.py, reviewed/enriched by the agent. Times in seconds. media_era drives what visuals are allowed (see references/historical_accuracy.md)."
+}

@@ -1,0 +1,11 @@
+# Manual sources for this project — one URL per line, optional fields after " | "
+#   license=  CC BY 4.0 | CC0 | public domain | permission | mixkit
+#   author=   @handle or name           scene=  s003 (pin to a scene)
+#   present_day=yes   (modern footage of a historic place -> labelled "present day")
+#   reconstruction=yes (AI / 3D reconstruction -> labelled, never shown as archive)
+#   note=     free text (e.g. "permission email 2026-11-01")
+#
+# Examples (uncomment after checking the licence on the original page):
+# https://x.com/SomeArchive/status/1234567890 | license=permission | author=@SomeArchive | note=DM permission 2026-11-20
+# https://mover.uz/watch/XXXXXXXX | license=CC BY 4.0 | author=Uploader | present_day=yes | scene=s005
+# https://mixkit.co/free-stock-video/desert-sand-dunes-XXXX/ | license=mixkit | archival=no
