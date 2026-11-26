@@ -8,6 +8,16 @@ import {Card, DateCard, FamilyTree, MapScene, Molecule, Question, Reconstruction
 import {FilmLook, LowerThird, SourceLabel} from './components/Overlays';
 import {Subtitles} from './components/Subtitles';
 import {Credits} from './components/Credits';
+import {condensed, sans, serif} from './theme';
+
+/** Invisible text in every face so embedded fonts decode before anything visible needs them. */
+const FontWarmup: React.FC = () => (
+  <div style={{position: 'absolute', opacity: 0, pointerEvents: 'none'}}>
+    {[sans, condensed, serif].map((f) => [400, 600, 700, 800, 900].map((w) => (
+      <span key={f + w} style={{fontFamily: f, fontWeight: w}}>Aa o‘g‘ 2017</span>
+    )))}
+  </div>
+);
 
 const FADE = 10; // frames of cross-dissolve between scenes
 
@@ -59,6 +69,7 @@ export const Documentary: React.FC = () => {
   const creditsFrom = Math.round((NARRATION_OFFSET + NARRATION_SECONDS) * FPS);
   return (
     <AbsoluteFill style={{backgroundColor: '#000'}}>
+      <FontWarmup />
       <Sequence from={off}>
         {SCENES.map((s, i) => {
           const from = Math.round(s.start * FPS);

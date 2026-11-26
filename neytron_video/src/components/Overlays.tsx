@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig, random} from 'remotion';
+import {AbsoluteFill, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, condensed, sans} from '../theme';
 import {Source} from '../data/types';
 
@@ -72,29 +72,26 @@ export const LowerThird: React.FC<{name: string; role: string}> = ({name, role})
   );
 };
 
-/** Film grain + vignette + subtle light flicker. */
+/** Film grain (pre-rendered noise tiles) + vignette + subtle light flicker. */
 export const FilmLook: React.FC = () => {
   const frame = useCurrentFrame();
   const seed = Math.floor(frame / 2);
-  const ox = Math.floor(random(`gx${seed}`) * 200);
-  const oy = Math.floor(random(`gy${seed}`) * 200);
+  const tile = seed % 6;
+  const ox = Math.floor(random(`gx${seed}`) * 512);
+  const oy = Math.floor(random(`gy${seed}`) * 512);
   const flicker = 0.03 + random(`f${seed}`) * 0.02;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 52%, rgba(0,0,0,0.62) 100%)'}} />
       <AbsoluteFill
         style={{
-          background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 52%, rgba(0,0,0,0.62) 100%)',
+          opacity: 0.07,
+          mixBlendMode: 'overlay',
+          backgroundImage: `url(${staticFile(`grain/g${tile}.png`)})`,
+          backgroundRepeat: 'repeat',
+          backgroundPosition: `${ox}px ${oy}px`,
         }}
       />
-      <AbsoluteFill style={{opacity: 0.09, mixBlendMode: 'overlay'}}>
-        <svg width="1920" height="1080" style={{transform: `translate(${-ox}px, ${-oy}px)`}}>
-          <filter id="grain">
-            <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed={seed % 50} stitchTiles="stitch" />
-            <feColorMatrix type="saturate" values="0" />
-          </filter>
-          <rect width="2200" height="1400" filter="url(#grain)" />
-        </svg>
-      </AbsoluteFill>
       <AbsoluteFill style={{background: '#fff', opacity: flicker * 0.25, mixBlendMode: 'soft-light'}} />
     </AbsoluteFill>
   );
