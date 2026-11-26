@@ -70,17 +70,18 @@ export const Documentary: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: '#000'}}>
       <FontWarmup />
+      {SCENES.map((s, i) => {
+        // scene times are narration seconds; the first scene also covers the lead-in (no black frames)
+        const from = i === 0 ? 0 : off + Math.round(s.start * FPS);
+        const next = SCENES[i + 1];
+        const end = off + Math.round((next ? next.start : s.end) * FPS);
+        return (
+          <Sequence key={i} from={from} durationInFrames={Math.max(1, end - from + FADE)} name={`${i}: ${s.note.slice(0, 40)}`}>
+            <SceneView s={s} i={i} />
+          </Sequence>
+        );
+      })}
       <Sequence from={off}>
-        {SCENES.map((s, i) => {
-          const from = Math.round(s.start * FPS);
-          const next = SCENES[i + 1];
-          const end = Math.round((next ? next.start : s.end) * FPS);
-          return (
-            <Sequence key={i} from={from} durationInFrames={Math.max(1, end - from + FADE)} name={`${i}: ${s.note.slice(0, 40)}`}>
-              <SceneView s={s} i={i} />
-            </Sequence>
-          );
-        })}
         <Subtitles />
       </Sequence>
       <Sequence from={creditsFrom} durationInFrames={Math.round(CREDITS_SECONDS * FPS)}>

@@ -7,7 +7,9 @@ import {CREDIT_SOURCES} from '../data/sources';
 export const Credits: React.FC = () => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
-  const y = interpolate(frame, [20, durationInFrames - 20], [1080, -(CREDIT_SOURCES.length * 74 + 300)], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  // content is on screen from the first to the last frame: starts low, ends with the footer still visible
+  const contentH = CREDIT_SOURCES.length * 84 + 420;
+  const y = interpolate(frame, [0, durationInFrames], [260, Math.min(160, 1080 - contentH - 120)], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const op = interpolate(frame, [0, 15, durationInFrames - 15, durationInFrames], [0, 1, 1, 0]);
   return (
     <AbsoluteFill style={{background: '#050506', opacity: op}}>

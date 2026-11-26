@@ -82,7 +82,7 @@ export const SCENES: Scene[] = [
   {start: 467.52, end: 487.24, v: {kind: 'question', lines: ['Ayollarni kim boshqargan?', 'Kimyoviy modda qayerdan kelgan?', 'Nega aynan Kuala-Lumpur?', 'Javob berilmadi.']}, note: 'Unanswered questions'},
   // ── ANALYSIS ─────────────────────────────────────────
   {start: 487.24, end: 499.86, v: {kind: 'photo', file: 'media/kumsusan.jpg', move: {s0: 1.2, s1: 1.06, x0: -3, x1: 0}}, source: SRC.kumsusan, lower: {name: 'Pxenyan', role: 'Janubiy Koreya va AQSh ayblovlari KXDRga qaratildi'}, note: 'Accusations toward the North Korean state — Pyongyang'},
-  {start: 499.86, end: 512.22, v: {kind: 'photo', file: 'media/vost_greet.jpg', move: {s0: 1.5, s1: 1.62, x0: -6, x1: -8}}, source: SRC.kremlin2023, note: 'Analyst views on the leadership — Kim Jong-un real photo'},
+  {start: 499.86, end: 512.22, v: {kind: 'photo', file: 'media/vost_car.jpg', move: {s0: 1.9, s1: 2.05, x0: 18, x1: 18, y0: 22, y1: 23}}, source: SRC.kremlin2023, note: 'Analyst views on the leadership — Kim Jong-un real photo (face crop)'},
   {start: 512.22, end: 516.24, v: {kind: 'card', kicker: 'Muhim', title: 'Shaxsan buyruq bergani sudda isbotlanmagan', tone: 'red'}, note: 'Unproven claim clearly labelled'},
   {start: 516.24, end: 525.84, v: {kind: 'question', lines: ['VX ishlatilgani — hujjatlashtirilgan', 'Kim Chen Nam o‘ldirilgani — hujjatlashtirilgan', 'KXDR fuqarolari tergov markazida — hujjatlashtirilgan']}, note: 'Documented facts'},
   {start: 525.84, end: 543.98, v: {kind: 'map', center: [114, 22], scale0: 650, scale1: 820, pins: [KLp, PY], caption: 'DIPLOMATIK INQIROZ'}, note: 'Malaysia–DPRK diplomatic crisis'},
