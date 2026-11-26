@@ -1,38 +1,25 @@
-import {continueRender, delayRender, staticFile} from 'remotion';
+import {continueRender, delayRender} from 'remotion';
 
-// Fonts are bundled in public/fonts (SIL Open Font License) so renders never depend on the network.
-const FACES = `
-@font-face { font-family: 'Inter'; font-weight: 400; font-style: normal; font-display: block; src: url('FONTDIR/Inter-400-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Inter'; font-weight: 400; font-style: normal; font-display: block; src: url('FONTDIR/Inter-400-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Inter'; font-weight: 600; font-style: normal; font-display: block; src: url('FONTDIR/Inter-600-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Inter'; font-weight: 600; font-style: normal; font-display: block; src: url('FONTDIR/Inter-600-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Inter'; font-weight: 800; font-style: normal; font-display: block; src: url('FONTDIR/Inter-800-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Inter'; font-weight: 800; font-style: normal; font-display: block; src: url('FONTDIR/Inter-800-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Oswald'; font-weight: 400; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-400-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Oswald'; font-weight: 400; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-400-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Oswald'; font-weight: 600; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-600-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Oswald'; font-weight: 600; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-600-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Oswald'; font-weight: 700; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-700-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Oswald'; font-weight: 700; font-style: normal; font-display: block; src: url('FONTDIR/Oswald-700-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Playfair Display'; font-weight: 700; font-style: normal; font-display: block; src: url('FONTDIR/PlayfairDisplay-700-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Playfair Display'; font-weight: 700; font-style: normal; font-display: block; src: url('FONTDIR/PlayfairDisplay-700-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: 'Playfair Display'; font-weight: 900; font-style: normal; font-display: block; src: url('FONTDIR/PlayfairDisplay-900-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: 'Playfair Display'; font-weight: 900; font-style: normal; font-display: block; src: url('FONTDIR/PlayfairDisplay-900-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-`;
+import {FONT_CSS} from './fonts.generated';
 
+// Fonts (SIL Open Font License) are embedded as data URIs: no fetches, so no render stalls.
 if (typeof document !== 'undefined' && !document.getElementById('doc-fonts')) {
   const style = document.createElement('style');
   style.id = 'doc-fonts';
-  style.textContent = FACES.replace(/FONTDIR\//g, staticFile('fonts/'));
+  style.textContent = FONT_CSS;
   document.head.appendChild(style);
-  const handle = delayRender('Loading fonts');
+  const handle = delayRender('Decoding embedded fonts', {timeoutInMilliseconds: 120000});
+  let released = false;
+  const release = () => {
+    if (!released) {
+      released = true;
+      continueRender(handle);
+    }
+  };
   Promise.all(
-    ['400 20px Inter', '600 20px Inter', '800 20px Inter', '400 20px Oswald', '600 20px Oswald', '700 20px Oswald', '700 20px "Playfair Display"', '900 20px "Playfair Display"'].map((f) =>
-      document.fonts.load(f, 'Aa oʻgʻ’ — 2017'),
-    ),
-  )
-    .then(() => continueRender(handle))
-    .catch(() => continueRender(handle));
+    ['400 20px Inter', '600 20px Inter', '400 20px Oswald', '700 20px Oswald', '700 20px "Playfair Display"', '900 20px "Playfair Display"'].map((f) => document.fonts.load(f, 'Aa o‘g‘ 2017')),
+  ).then(release, release);
+  setTimeout(release, 8000);
 }
 
 export const sans = 'Inter, sans-serif';

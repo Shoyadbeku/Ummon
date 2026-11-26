@@ -205,12 +205,12 @@ export const Timeline: React.FC<{items: {year: string; label: string}[]; active:
 
 /** Kim family tree. Photos are only used for people with verified, licensed portraits. */
 const TREE: {id: string; name: string; years: string; x: number; y: number; photo?: string; parent?: string}[] = [
-  {id: 'ilsung', name: 'Kim Ir Sen', years: '1912–1994', x: 960, y: 150, photo: 'media/kim_il_sung.jpg'},
-  {id: 'jongil', name: 'Kim Chen Ir', years: '1941–2011', x: 960, y: 420, photo: 'media/kim_jong_il.jpg', parent: 'ilsung'},
-  {id: 'jongnam', name: 'Kim Chen Nam', years: '1971–2017', x: 420, y: 720, parent: 'jongil'},
-  {id: 'jongchol', name: 'Kim Chen Chol', years: '1981–', x: 780, y: 720, parent: 'jongil'},
-  {id: 'jongun', name: 'Kim Chen In', years: '1984–', x: 1140, y: 720, photo: 'media/kim_jong_un_portrait.jpg', parent: 'jongil'},
-  {id: 'yojong', name: 'Kim Yo Jong', years: '1987/88–', x: 1500, y: 720, photo: 'media/kim_yo_jong.jpg', parent: 'jongil'},
+  {id: 'ilsung', name: 'Kim Ir Sen', years: '1912–1994', x: 960, y: 130, photo: 'media/kim_il_sung.jpg'},
+  {id: 'jongil', name: 'Kim Chen Ir', years: '1941–2011', x: 960, y: 390, photo: 'media/kim_jong_il.jpg', parent: 'ilsung'},
+  {id: 'jongnam', name: 'Kim Chen Nam', years: '1971–2017', x: 420, y: 665, parent: 'jongil'},
+  {id: 'jongchol', name: 'Kim Chen Chol', years: '1981–', x: 780, y: 665, parent: 'jongil'},
+  {id: 'jongun', name: 'Kim Chen In', years: '1984–', x: 1140, y: 665, photo: 'media/kim_jong_un_portrait.jpg', parent: 'jongil'},
+  {id: 'yojong', name: 'Kim Yo Jong', years: '1987/88–', x: 1500, y: 665, photo: 'media/kim_yo_jong.jpg', parent: 'jongil'},
 ];
 
 export const FamilyTree: React.FC<{focus: string[]; dead?: string[]}> = ({focus, dead = []}) => {
@@ -336,6 +336,7 @@ export const Split: React.FC<{left: {file: string; name: string; move?: any}; ri
     <div style={{position: 'absolute', top: 0, bottom: 0, [side === 'l' ? 'left' : 'right']: 0, width: 954, overflow: 'hidden', opacity: p, transform: `translateX(${(1 - p) * (side === 'l' ? -80 : 80)}px)`}}>
       <Img src={staticFile(file)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 25%', transform: tf, filter: 'contrast(1.06) saturate(0.9)'}} />
       <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: 360, background: 'linear-gradient(transparent, rgba(0,0,0,0.85))'}} />
+      <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 240, background: 'linear-gradient(rgba(0,0,0,0.75), transparent)'}} />
       <div style={{position: 'absolute', left: 50, top: 60, fontFamily: condensed, fontWeight: 700, fontSize: 56, color: C.ink, textTransform: 'uppercase', textShadow: '0 3px 16px #000'}}>{name}</div>
     </div>
   );

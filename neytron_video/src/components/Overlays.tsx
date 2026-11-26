@@ -46,6 +46,8 @@ export const LowerThird: React.FC<{name: string; role: string}> = ({name, role})
   const txt = spring({frame: frame - 12, fps, config: {damping: 200}, durationInFrames: 18});
   const out = interpolate(frame, [durationInFrames - 10, durationInFrames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
+    <>
+    <div style={{position: 'absolute', left: 0, bottom: 0, width: 1100, height: 460, opacity: out * bar, background: 'radial-gradient(ellipse at 0% 100%, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0) 70%)'}} />
     <div style={{position: 'absolute', left: 90, top: 760, opacity: out}}>
       <div style={{height: 4, width: 420 * bar, background: C.red, marginBottom: 14}} />
       <div style={{overflow: 'hidden'}}>
@@ -64,8 +66,9 @@ export const LowerThird: React.FC<{name: string; role: string}> = ({name, role})
           {name}
         </div>
       </div>
-      <div style={{fontFamily: sans, fontSize: 26, color: C.dim, marginTop: 4, opacity: txt, textShadow: '0 2px 12px rgba(0,0,0,0.9)'}}>{role}</div>
+      <div style={{fontFamily: sans, fontSize: 26, color: 'rgba(244,241,234,0.85)', marginTop: 4, opacity: txt, textShadow: '0 2px 12px rgba(0,0,0,0.9)'}}>{role}</div>
     </div>
+    </>
   );
 };
 
