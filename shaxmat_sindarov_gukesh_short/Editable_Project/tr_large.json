@@ -1,0 +1,469 @@
+[
+ {
+  "start": 0.08,
+  "end": 3.42,
+  "text": "Shakhma Tarkhidagi en yosh chakhan championati oyinda yanadurang kaydetildi.",
+  "words": [
+   [
+    0.08,
+    0.62,
+    " Shakhma"
+   ],
+   [
+    0.62,
+    1.04,
+    " Tarkhidagi"
+   ],
+   [
+    1.04,
+    1.18,
+    " en"
+   ],
+   [
+    1.18,
+    1.4,
+    " yosh"
+   ],
+   [
+    1.4,
+    1.64,
+    " chakhan"
+   ],
+   [
+    1.64,
+    2.14,
+    " championati"
+   ],
+   [
+    2.14,
+    2.38,
+    " oyinda"
+   ],
+   [
+    2.38,
+    2.76,
+    " yanadurang"
+   ],
+   [
+    2.76,
+    3.42,
+    " kaydetildi."
+   ]
+  ]
+ },
+ {
+  "start": 3.6,
+  "end": 8.52,
+  "text": "Genavada Uzbekistanik Javakhir Sindarov chakhan championu kyeshka karsi 3. partiyan aq danalar bilan oynadi.",
+  "words": [
+   [
+    3.6,
+    4.22,
+    " Genavada"
+   ],
+   [
+    4.22,
+    4.78,
+    " Uzbekistanik"
+   ],
+   [
+    4.78,
+    5.14,
+    " Javakhir"
+   ],
+   [
+    5.14,
+    5.54,
+    " Sindarov"
+   ],
+   [
+    5.54,
+    5.8,
+    " chakhan"
+   ],
+   [
+    5.8,
+    6.24,
+    " championu"
+   ],
+   [
+    6.24,
+    6.56,
+    " kyeshka"
+   ],
+   [
+    6.56,
+    6.78,
+    " karsi"
+   ],
+   [
+    6.78,
+    6.92,
+    " 3."
+   ],
+   [
+    7.08,
+    7.48,
+    " partiyan"
+   ],
+   [
+    7.48,
+    7.64,
+    " aq"
+   ],
+   [
+    7.64,
+    7.98,
+    " danalar"
+   ],
+   [
+    7.98,
+    8.22,
+    " bilan"
+   ],
+   [
+    8.22,
+    8.52,
+    " oynadi."
+   ]
+  ]
+ },
+ {
+  "start": 8.84,
+  "end": 11.88,
+  "text": "63 davam etken qatlik kurash yanadurang bilan yakunlandi.",
+  "words": [
+   [
+    8.84,
+    9.46,
+    " 63"
+   ],
+   [
+    9.46,
+    9.88,
+    " davam"
+   ],
+   [
+    9.88,
+    10.12,
+    " etken"
+   ],
+   [
+    10.12,
+    10.42,
+    " qatlik"
+   ],
+   [
+    10.42,
+    10.66,
+    " kurash"
+   ],
+   [
+    10.66,
+    11.12,
+    " yanadurang"
+   ],
+   [
+    11.12,
+    11.32,
+    " bilan"
+   ],
+   [
+    11.32,
+    11.88,
+    " yakunlandi."
+   ]
+  ]
+ },
+ {
+  "start": 12.04,
+  "end": 13.86,
+  "text": "Xisab bir yarimga bir yarim.",
+  "words": [
+   [
+    12.04,
+    12.66,
+    " Xisab"
+   ],
+   [
+    12.66,
+    12.9,
+    " bir"
+   ],
+   [
+    12.9,
+    13.28,
+    " yarimga"
+   ],
+   [
+    13.28,
+    13.46,
+    " bir"
+   ],
+   [
+    13.46,
+    13.86,
+    " yarim."
+   ]
+  ]
+ },
+ {
+  "start": 14.22,
+  "end": 18.0,
+  "text": "Sindarovni reytingi 2782 u dunya boyisda 4. orinda.",
+  "words": [
+   [
+    14.22,
+    14.84,
+    " Sindarovni"
+   ],
+   [
+    14.84,
+    15.28,
+    " reytingi"
+   ],
+   [
+    15.28,
+    16.38,
+    " 2782"
+   ],
+   [
+    16.38,
+    16.66,
+    " u"
+   ],
+   [
+    16.66,
+    16.98,
+    " dunya"
+   ],
+   [
+    16.98,
+    17.28,
+    " boyisda"
+   ],
+   [
+    17.28,
+    17.46,
+    " 4."
+   ],
+   [
+    17.66,
+    18.0,
+    " orinda."
+   ]
+  ]
+ },
+ {
+  "start": 18.4,
+  "end": 20.38,
+  "text": "Magnus Carlsen onu favoretti batayin.",
+  "words": [
+   [
+    18.4,
+    19.02,
+    " Magnus"
+   ],
+   [
+    19.02,
+    19.36,
+    " Carlsen"
+   ],
+   [
+    19.36,
+    19.46,
+    " onu"
+   ],
+   [
+    19.46,
+    19.96,
+    " favoretti"
+   ],
+   [
+    19.96,
+    20.38,
+    " batayin."
+   ]
+  ]
+ },
+ {
+  "start": 20.68,
+  "end": 22.9,
+  "text": "Ammagi kyesh hazırca basonga bardosh bermakta.",
+  "words": [
+   [
+    20.68,
+    21.3,
+    " Ammagi"
+   ],
+   [
+    21.3,
+    21.52,
+    " kyesh"
+   ],
+   [
+    21.52,
+    21.84,
+    " hazırca"
+   ],
+   [
+    21.84,
+    22.2,
+    " basonga"
+   ],
+   [
+    22.2,
+    22.48,
+    " bardosh"
+   ],
+   [
+    22.48,
+    22.9,
+    " bermakta."
+   ]
+  ]
+ },
+ {
+  "start": 23.24,
+  "end": 25.02,
+  "text": "Baldinda yanan 10 bita partiya bor.",
+  "words": [
+   [
+    23.24,
+    23.86,
+    " Baldinda"
+   ],
+   [
+    23.86,
+    24.18,
+    " yanan"
+   ],
+   [
+    24.18,
+    24.26,
+    " 10"
+   ],
+   [
+    24.26,
+    24.5,
+    " bita"
+   ],
+   [
+    24.5,
+    24.84,
+    " partiya"
+   ],
+   [
+    24.84,
+    25.02,
+    " bor."
+   ]
+  ]
+ },
+ {
+  "start": 25.14,
+  "end": 27.82,
+  "text": "Yetti yarim ochkotoblagin oyinci chakhan championu boladi.",
+  "words": [
+   [
+    25.14,
+    25.76,
+    " Yetti"
+   ],
+   [
+    25.76,
+    26.02,
+    " yarim"
+   ],
+   [
+    26.02,
+    26.62,
+    " ochkotoblagin"
+   ],
+   [
+    26.62,
+    26.84,
+    " oyinci"
+   ],
+   [
+    26.84,
+    27.1,
+    " chakhan"
+   ],
+   [
+    27.1,
+    27.6,
+    " championu"
+   ],
+   [
+    27.6,
+    27.82,
+    " boladi."
+   ]
+  ]
+ },
+ {
+  "start": 27.82,
+  "end": 30.44,
+  "text": "Sizin ince tarixi qalabaca ochirgen asbet adima.",
+  "words": [
+   [
+    27.82,
+    28.62,
+    " Sizin"
+   ],
+   [
+    28.62,
+    28.72,
+    " ince"
+   ],
+   [
+    28.72,
+    29.08,
+    " tarixi"
+   ],
+   [
+    29.08,
+    29.46,
+    " qalabaca"
+   ],
+   [
+    29.46,
+    29.84,
+    " ochirgen"
+   ],
+   [
+    29.84,
+    30.1,
+    " asbet"
+   ],
+   [
+    30.1,
+    30.44,
+    " adima."
+   ]
+  ]
+ },
+ {
+  "start": 30.73,
+  "end": 31.96,
+  "text": "Biz ochilarda yazin.",
+  "words": [
+   [
+    30.73,
+    31.1,
+    " Biz"
+   ],
+   [
+    31.1,
+    31.54,
+    " ochilarda"
+   ],
+   [
+    31.54,
+    31.96,
+    " yazin."
+   ]
+  ]
+ }
+]
