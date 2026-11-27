@@ -52,6 +52,7 @@ zack_test/tools/get_mixamo.sh                      # Megan (qiz), Kate (ona) + h
 # (Illyuminator misoli: zack_test/tools/get_samolyot.sh + get_illyuminator.sh, sahna zack_test/illyuminator/illyuminator.py)
 # (Phineas Gage misoli: zack_test/tools/get_mixamo_gage.sh, sahna zack_test/gage/gage.py, montaj zack_test/gage/montaj.sh)
 # (Ebbi/ko'z chuvalchangi misoli: zack_test/tools/get_ebbi.sh, sahna zack_test/ebbi/ebbi.py, makro ko'z/pashsha/barmoq: zack_test/ebbi/eye.py)
+# (Qitiq misoli: zack_test/tools/get_qitiq.sh, sahna zack_test/qitiq/qitiq.py — o'zini qitiqlash IK, Kate qo'llari, rentgen miya/miyacha, makro sharpa barmoq, chivin)
 python3 -I zack_test/tools/ph_get.py Sofa_01 modern_coffee_table_01 potted_plant_01 fancy_picture_frame_01 \
   kloofendal_48d_partly_cloudy_puresky laminate_floor_02 asphalt_02 concrete_pavement painted_plaster_wall
 zack_test/tools/bk_get.sh "car" c3c28d91 /tmp/claude-0/assets/bk   # Audi (BlenderKit, bepul)
@@ -260,3 +261,14 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   paydo bo'lish kadrida kamera oldiga (0.3–6 m) joylashtir, aks holda tekis taqsimlangan 300+ ob'ektdan kadrda bir nechtasi qoladi.
   Ko'k emissiya ≥ 3 AgX'da oq bo'lib ketadi: O2 uchun base (0.02,0.2,1), emissiya 1.0.
 - 40% (432x768), 8 sample: xona/rentgen ~10 s, tomir ichi (~1000 ob'ekt) ~20 s, suv osti (hajm) ~15 s/kadr.
+
+- Qitiq misoli (`qitiq/qitiq.py`): ovoz fayli nomi yana mos kelmadi ("koinotdagi ovoz, quyosh... studio_10" -> nega o'zingizni qitiqlay olmaysiz).
+- O'zini qitiqlash: o'ng qo'l IK nishoni `Spine2` fazosida qo'ltiq yonida (0.13, 0.07, 0.07), barmoq uchi (0.2, 0.12, -0.02); chap qo'l `Head`
+  fazosida (0.07, 0.12, -0.1) + DAMPED_TRACK. Ko'tarilgan qo'l tomonidan yuzga yaqin kamera qo'ysang, qo'l yuzni to'sadi: kamerani qarama-qarshi
+  tomonga qo'y yoki yaqin plan kadrlarida IK `influence` ni 0 ga tushir.
+- Ikkinchi qahramonning qo'llari (Kate -> Megan biqini): IK nishoni Megan `Spine1` ga bog'langan bo'sh ob'ekt + kichik tasodifiy titrash kalitlari.
+- Kengayuvchi "signal" sharlari (rentgen bosh) kamerani o'z ichiga olsa butun kadr qizil tumanga aylanadi: masshtab ≤ 0.17, kamera uzoqroq.
+- Nerv egri chiziqlari qo'l bilan birga yurishi uchun nuqtalari har rentgen kadrida suyak joylashuvidan kalitlanadi; impuls cho'qqisi u = phase + 0.5
+  (teskari yo'nalish uchun phase'ni kamaytir).
+- Makro terida barmoq uchi teridan ~2 mm baland bo'lsa "osilib" ko'rinadi: uchi z = teri + 0.0022.
+- 40% (432x768), 6 sample: mehmonxona/rentgen/makro ~7.5 s/kadr (756 kadr ≈ 1.6 soat).
