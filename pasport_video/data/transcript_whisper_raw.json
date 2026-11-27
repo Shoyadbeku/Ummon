@@ -1,0 +1,6056 @@
+[
+ {
+  "start": 0.0,
+  "end": 3.18,
+  "text": " Negi Uzbekistanliklar kop davlatlargi vizasiz boru almaydi?",
+  "words": [
+   {
+    "w": " Negi",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": " Uzbekistanliklar",
+    "s": 0.24,
+    "e": 1.22
+   },
+   {
+    "w": " kop",
+    "s": 1.22,
+    "e": 1.48
+   },
+   {
+    "w": " davlatlargi",
+    "s": 1.48,
+    "e": 2.12
+   },
+   {
+    "w": " vizasiz",
+    "s": 2.12,
+    "e": 2.64
+   },
+   {
+    "w": " boru",
+    "s": 2.64,
+    "e": 2.84
+   },
+   {
+    "w": " almaydi?",
+    "s": 2.84,
+    "e": 3.18
+   }
+  ]
+ },
+ {
+  "start": 3.86,
+  "end": 5.5,
+  "text": " Paspirtimizdin kucu nimagi baqliq?",
+  "words": [
+   {
+    "w": " Paspirtimizdin",
+    "s": 3.86,
+    "e": 4.56
+   },
+   {
+    "w": " kucu",
+    "s": 4.56,
+    "e": 4.76
+   },
+   {
+    "w": " nimagi",
+    "s": 4.76,
+    "e": 5.12
+   },
+   {
+    "w": " baqliq?",
+    "s": 5.12,
+    "e": 5.5
+   }
+  ]
+ },
+ {
+  "start": 5.82,
+  "end": 8.98,
+  "text": " Vırxil samalyot, vırxil aeroport, vırxil manzil.",
+  "words": [
+   {
+    "w": " Vırxil",
+    "s": 5.82,
+    "e": 6.52
+   },
+   {
+    "w": " samalyot,",
+    "s": 6.52,
+    "e": 7.02
+   },
+   {
+    "w": " vırxil",
+    "s": 7.1,
+    "e": 7.56
+   },
+   {
+    "w": " aeroport,",
+    "s": 7.56,
+    "e": 8.1
+   },
+   {
+    "w": " vırxil",
+    "s": 8.22,
+    "e": 8.66
+   },
+   {
+    "w": " manzil.",
+    "s": 8.66,
+    "e": 8.98
+   }
+  ]
+ },
+ {
+  "start": 9.14,
+  "end": 12.36,
+  "text": " Amma iki yola ucinin imkaniyati mutlaka başqa ce.",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 9.14,
+    "e": 9.84
+   },
+   {
+    "w": " iki",
+    "s": 9.84,
+    "e": 10.1
+   },
+   {
+    "w": " yola",
+    "s": 10.1,
+    "e": 10.4
+   },
+   {
+    "w": " ucinin",
+    "s": 10.4,
+    "e": 10.62
+   },
+   {
+    "w": " imkaniyati",
+    "s": 10.62,
+    "e": 11.2
+   },
+   {
+    "w": " mutlaka",
+    "s": 11.2,
+    "e": 11.82
+   },
+   {
+    "w": " başqa",
+    "s": 11.82,
+    "e": 12.26
+   },
+   {
+    "w": " ce.",
+    "s": 12.26,
+    "e": 12.36
+   }
+  ]
+ },
+ {
+  "start": 12.48,
+  "end": 15.3,
+  "text": " Biri, cipte sotu baladi, paspirtini korsatadi",
+  "words": [
+   {
+    "w": " Biri,",
+    "s": 12.48,
+    "e": 13.18
+   },
+   {
+    "w": " cipte",
+    "s": 13.18,
+    "e": 13.52
+   },
+   {
+    "w": " sotu",
+    "s": 13.52,
+    "e": 13.78
+   },
+   {
+    "w": " baladi,",
+    "s": 13.78,
+    "e": 14.08
+   },
+   {
+    "w": " paspirtini",
+    "s": 14.2,
+    "e": 14.84
+   },
+   {
+    "w": " korsatadi",
+    "s": 14.84,
+    "e": 15.3
+   }
+  ]
+ },
+ {
+  "start": 15.3,
+  "end": 16.82,
+  "text": " va biye malol safarga chqadi.",
+  "words": [
+   {
+    "w": " va",
+    "s": 15.3,
+    "e": 15.54
+   },
+   {
+    "w": " biye",
+    "s": 15.54,
+    "e": 15.82
+   },
+   {
+    "w": " malol",
+    "s": 15.82,
+    "e": 16.16
+   },
+   {
+    "w": " safarga",
+    "s": 16.16,
+    "e": 16.54
+   },
+   {
+    "w": " chqadi.",
+    "s": 16.54,
+    "e": 16.82
+   }
+  ]
+ },
+ {
+  "start": 16.96,
+  "end": 19.54,
+  "text": " Ikinsi se, avval elchiqanaga muracat qilishi,",
+  "words": [
+   {
+    "w": " Ikinsi",
+    "s": 16.96,
+    "e": 17.56
+   },
+   {
+    "w": " se,",
+    "s": 17.56,
+    "e": 17.68
+   },
+   {
+    "w": " avval",
+    "s": 17.82,
+    "e": 18.38
+   },
+   {
+    "w": " elchiqanaga",
+    "s": 18.38,
+    "e": 18.88
+   },
+   {
+    "w": " muracat",
+    "s": 18.88,
+    "e": 19.28
+   },
+   {
+    "w": " qilishi,",
+    "s": 19.28,
+    "e": 19.54
+   }
+  ]
+ },
+ {
+  "start": 19.7,
+  "end": 22.78,
+  "text": " khujjatlar toplashi, bank xisabidegi mablaqini korsatishi",
+  "words": [
+   {
+    "w": " khujjatlar",
+    "s": 19.7,
+    "e": 20.32
+   },
+   {
+    "w": " toplashi,",
+    "s": 20.32,
+    "e": 20.7
+   },
+   {
+    "w": " bank",
+    "s": 20.94,
+    "e": 21.36
+   },
+   {
+    "w": " xisabidegi",
+    "s": 21.36,
+    "e": 21.9
+   },
+   {
+    "w": " mablaqini",
+    "s": 21.9,
+    "e": 22.3
+   },
+   {
+    "w": " korsatishi",
+    "s": 22.3,
+    "e": 22.78
+   }
+  ]
+ },
+ {
+  "start": 22.78,
+  "end": 25.2,
+  "text": " va bazan xaf talab cevab kucush kerek.",
+  "words": [
+   {
+    "w": " va",
+    "s": 22.78,
+    "e": 23.24
+   },
+   {
+    "w": " bazan",
+    "s": 23.24,
+    "e": 23.7
+   },
+   {
+    "w": " xaf",
+    "s": 23.7,
+    "e": 24.04
+   },
+   {
+    "w": " talab",
+    "s": 24.04,
+    "e": 24.46
+   },
+   {
+    "w": " cevab",
+    "s": 24.46,
+    "e": 24.78
+   },
+   {
+    "w": " kucush",
+    "s": 24.78,
+    "e": 25.02
+   },
+   {
+    "w": " kerek.",
+    "s": 25.02,
+    "e": 25.2
+   }
+  ]
+ },
+ {
+  "start": 25.34,
+  "end": 25.92,
+  "text": " Negi?",
+  "words": [
+   {
+    "w": " Negi?",
+    "s": 25.34,
+    "e": 25.92
+   }
+  ]
+ },
+ {
+  "start": 26.04,
+  "end": 28.52,
+  "text": " Akhir iki lasxam oddi sayoqatka chqimakchi.",
+  "words": [
+   {
+    "w": " Akhir",
+    "s": 26.04,
+    "e": 26.72
+   },
+   {
+    "w": " iki",
+    "s": 26.72,
+    "e": 26.84
+   },
+   {
+    "w": " lasxam",
+    "s": 26.84,
+    "e": 27.22
+   },
+   {
+    "w": " oddi",
+    "s": 27.22,
+    "e": 27.62
+   },
+   {
+    "w": " sayoqatka",
+    "s": 27.62,
+    "e": 28.08
+   },
+   {
+    "w": " chqimakchi.",
+    "s": 28.08,
+    "e": 28.52
+   }
+  ]
+ },
+ {
+  "start": 28.52,
+  "end": 31.62,
+  "text": " Fark ularinin puli daxam, kaspi daxam bolmasligi mumkun.",
+  "words": [
+   {
+    "w": " Fark",
+    "s": 28.52,
+    "e": 29.2
+   },
+   {
+    "w": " ularinin",
+    "s": 29.2,
+    "e": 29.6
+   },
+   {
+    "w": " puli",
+    "s": 29.6,
+    "e": 29.96
+   },
+   {
+    "w": " daxam,",
+    "s": 29.96,
+    "e": 30.26
+   },
+   {
+    "w": " kaspi",
+    "s": 30.32,
+    "e": 30.7
+   },
+   {
+    "w": " daxam",
+    "s": 30.7,
+    "e": 30.9
+   },
+   {
+    "w": " bolmasligi",
+    "s": 30.9,
+    "e": 31.36
+   },
+   {
+    "w": " mumkun.",
+    "s": 31.36,
+    "e": 31.62
+   }
+  ]
+ },
+ {
+  "start": 31.72,
+  "end": 33.14,
+  "text": " Fark paspirtida.",
+  "words": [
+   {
+    "w": " Fark",
+    "s": 31.72,
+    "e": 32.3
+   },
+   {
+    "w": " paspirtida.",
+    "s": 32.3,
+    "e": 33.14
+   }
+  ]
+ },
+ {
+  "start": 33.68,
+  "end": 37.34,
+  "text": " Bugun Uzbekistan fqarolari ayrim davlatlargi vizasiz barishi mumkun.",
+  "words": [
+   {
+    "w": " Bugun",
+    "s": 33.68,
+    "e": 34.08
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 34.08,
+    "e": 34.58
+   },
+   {
+    "w": " fqarolari",
+    "s": 34.58,
+    "e": 35.12
+   },
+   {
+    "w": " ayrim",
+    "s": 35.12,
+    "e": 35.7
+   },
+   {
+    "w": " davlatlargi",
+    "s": 35.7,
+    "e": 36.2
+   },
+   {
+    "w": " vizasiz",
+    "s": 36.2,
+    "e": 36.7
+   },
+   {
+    "w": " barishi",
+    "s": 36.7,
+    "e": 37.0
+   },
+   {
+    "w": " mumkun.",
+    "s": 37.0,
+    "e": 37.34
+   }
+  ]
+ },
+ {
+  "start": 37.44,
+  "end": 39.44,
+  "text": " Amma Amerika koshma shtatlari,",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 37.44,
+    "e": 38.04
+   },
+   {
+    "w": " Amerika",
+    "s": 38.04,
+    "e": 38.54
+   },
+   {
+    "w": " koshma",
+    "s": 38.54,
+    "e": 38.86
+   },
+   {
+    "w": " shtatlari,",
+    "s": 38.86,
+    "e": 39.44
+   }
+  ]
+ },
+ {
+  "start": 39.44,
+  "end": 43.16,
+  "text": " Büyük Britaniya va Evropanin shengen khududige sayoqat qilish chun",
+  "words": [
+   {
+    "w": " Büyük",
+    "s": 39.44,
+    "e": 39.94
+   },
+   {
+    "w": " Britaniya",
+    "s": 39.94,
+    "e": 40.52
+   },
+   {
+    "w": " va",
+    "s": 40.52,
+    "e": 40.84
+   },
+   {
+    "w": " Evropanin",
+    "s": 40.84,
+    "e": 41.52
+   },
+   {
+    "w": " shengen",
+    "s": 41.52,
+    "e": 41.92
+   },
+   {
+    "w": " khududige",
+    "s": 41.92,
+    "e": 42.32
+   },
+   {
+    "w": " sayoqat",
+    "s": 42.32,
+    "e": 42.68
+   },
+   {
+    "w": " qilish",
+    "s": 42.68,
+    "e": 43.0
+   },
+   {
+    "w": " chun",
+    "s": 43.0,
+    "e": 43.16
+   }
+  ]
+ },
+ {
+  "start": 43.16,
+  "end": 45.44,
+  "text": " odadda aldindan viza alish talab etiladi.",
+  "words": [
+   {
+    "w": " odadda",
+    "s": 43.16,
+    "e": 43.74
+   },
+   {
+    "w": " aldindan",
+    "s": 43.74,
+    "e": 44.48
+   },
+   {
+    "w": " viza",
+    "s": 44.48,
+    "e": 44.74
+   },
+   {
+    "w": " alish",
+    "s": 44.74,
+    "e": 44.92
+   },
+   {
+    "w": " talab",
+    "s": 44.92,
+    "e": 45.16
+   },
+   {
+    "w": " etiladi.",
+    "s": 45.16,
+    "e": 45.44
+   }
+  ]
+ },
+ {
+  "start": 45.6,
+  "end": 47.84,
+  "text": " Khush, negi Uzbekistan paspirti bulan",
+  "words": [
+   {
+    "w": " Khush,",
+    "s": 45.6,
+    "e": 46.32
+   },
+   {
+    "w": " negi",
+    "s": 46.38,
+    "e": 46.74
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 46.74,
+    "e": 47.18
+   },
+   {
+    "w": " paspirti",
+    "s": 47.18,
+    "e": 47.62
+   },
+   {
+    "w": " bulan",
+    "s": 47.62,
+    "e": 47.84
+   }
+  ]
+ },
+ {
+  "start": 47.84,
+  "end": 50.76,
+  "text": " duniyanin koplab rovajlangan mamlakatlargi erkinkiri bolmaydi?",
+  "words": [
+   {
+    "w": " duniyanin",
+    "s": 47.84,
+    "e": 48.3
+   },
+   {
+    "w": " koplab",
+    "s": 48.3,
+    "e": 48.64
+   },
+   {
+    "w": " rovajlangan",
+    "s": 48.64,
+    "e": 49.18
+   },
+   {
+    "w": " mamlakatlargi",
+    "s": 49.18,
+    "e": 49.82
+   },
+   {
+    "w": " erkinkiri",
+    "s": 49.82,
+    "e": 50.32
+   },
+   {
+    "w": " bolmaydi?",
+    "s": 50.32,
+    "e": 50.76
+   }
+  ]
+ },
+ {
+  "start": 50.94,
+  "end": 53.14,
+  "text": " Nimo chun ayrim davlatlarinin fqarolari",
+  "words": [
+   {
+    "w": " Nimo",
+    "s": 50.94,
+    "e": 51.48
+   },
+   {
+    "w": " chun",
+    "s": 51.48,
+    "e": 51.78
+   },
+   {
+    "w": " ayrim",
+    "s": 51.78,
+    "e": 52.06
+   },
+   {
+    "w": " davlatlarinin",
+    "s": 52.06,
+    "e": 52.56
+   },
+   {
+    "w": " fqarolari",
+    "s": 52.56,
+    "e": 53.14
+   }
+  ]
+ },
+ {
+  "start": 53.14,
+  "end": 55.4,
+  "text": " yuzlab yonalishlargi vizasiz sayoqat qiladi?",
+  "words": [
+   {
+    "w": " yuzlab",
+    "s": 53.14,
+    "e": 53.66
+   },
+   {
+    "w": " yonalishlargi",
+    "s": 53.66,
+    "e": 54.28
+   },
+   {
+    "w": " vizasiz",
+    "s": 54.28,
+    "e": 54.8
+   },
+   {
+    "w": " sayoqat",
+    "s": 54.8,
+    "e": 55.12
+   },
+   {
+    "w": " qiladi?",
+    "s": 55.12,
+    "e": 55.4
+   }
+  ]
+ },
+ {
+  "start": 55.52,
+  "end": 57.66,
+  "text": " Bu masalada iqtisadiyat muxum mu?",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 55.52,
+    "e": 56.1
+   },
+   {
+    "w": " masalada",
+    "s": 56.1,
+    "e": 56.52
+   },
+   {
+    "w": " iqtisadiyat",
+    "s": 56.52,
+    "e": 57.3
+   },
+   {
+    "w": " muxum",
+    "s": 57.3,
+    "e": 57.5
+   },
+   {
+    "w": " mu?",
+    "s": 57.5,
+    "e": 57.66
+   }
+  ]
+ },
+ {
+  "start": 57.66,
+  "end": 60.12,
+  "text": " Migratsiya mi, yoki xalqarasi yasart mi?",
+  "words": [
+   {
+    "w": " Migratsiya",
+    "s": 57.66,
+    "e": 58.42
+   },
+   {
+    "w": " mi,",
+    "s": 58.42,
+    "e": 58.56
+   },
+   {
+    "w": " yoki",
+    "s": 58.64,
+    "e": 58.92
+   },
+   {
+    "w": " xalqarasi",
+    "s": 58.92,
+    "e": 59.66
+   },
+   {
+    "w": " yasart",
+    "s": 59.66,
+    "e": 59.96
+   },
+   {
+    "w": " mi?",
+    "s": 59.96,
+    "e": 60.12
+   }
+  ]
+ },
+ {
+  "start": 60.22,
+  "end": 63.32,
+  "text": " Yeng muxuma, Uzbekistan paspirtinin imkaniyatlari",
+  "words": [
+   {
+    "w": " Yeng",
+    "s": 60.22,
+    "e": 60.8
+   },
+   {
+    "w": " muxuma,",
+    "s": 60.8,
+    "e": 61.06
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 61.22,
+    "e": 61.9
+   },
+   {
+    "w": " paspirtinin",
+    "s": 61.9,
+    "e": 62.5
+   },
+   {
+    "w": " imkaniyatlari",
+    "s": 62.5,
+    "e": 63.32
+   }
+  ]
+ },
+ {
+  "start": 63.32,
+  "end": 64.92,
+  "text": " kelecekte kengeishi mumkum mu?",
+  "words": [
+   {
+    "w": " kelecekte",
+    "s": 63.32,
+    "e": 64.04
+   },
+   {
+    "w": " kengeishi",
+    "s": 64.04,
+    "e": 64.44
+   },
+   {
+    "w": " mumkum",
+    "s": 64.44,
+    "e": 64.76
+   },
+   {
+    "w": " mu?",
+    "s": 64.76,
+    "e": 64.92
+   }
+  ]
+ },
+ {
+  "start": 65.08,
+  "end": 68.12,
+  "text": " Keling, barchasini faktlar asosida korup chukamiz.",
+  "words": [
+   {
+    "w": " Keling,",
+    "s": 65.08,
+    "e": 65.8
+   },
+   {
+    "w": " barchasini",
+    "s": 65.88,
+    "e": 66.46
+   },
+   {
+    "w": " faktlar",
+    "s": 66.46,
+    "e": 66.98
+   },
+   {
+    "w": " asosida",
+    "s": 66.98,
+    "e": 67.44
+   },
+   {
+    "w": " korup",
+    "s": 67.44,
+    "e": 67.8
+   },
+   {
+    "w": " chukamiz.",
+    "s": 67.8,
+    "e": 68.12
+   }
+  ]
+ },
+ {
+  "start": 68.92,
+  "end": 71.32,
+  "text": " 2026-ci il aktyabroyda elankilingen",
+  "words": [
+   {
+    "w": " 2026",
+    "s": 68.92,
+    "e": 69.72
+   },
+   {
+    "w": "-ci",
+    "s": 69.72,
+    "e": 69.98
+   },
+   {
+    "w": " il",
+    "s": 69.98,
+    "e": 70.14
+   },
+   {
+    "w": " aktyabroyda",
+    "s": 70.14,
+    "e": 70.76
+   },
+   {
+    "w": " elankilingen",
+    "s": 70.76,
+    "e": 71.32
+   }
+  ]
+ },
+ {
+  "start": 71.32,
+  "end": 73.52,
+  "text": " Henley Passport Index malamatlargi kora",
+  "words": [
+   {
+    "w": " Henley",
+    "s": 71.32,
+    "e": 71.8
+   },
+   {
+    "w": " Passport",
+    "s": 71.8,
+    "e": 72.3
+   },
+   {
+    "w": " Index",
+    "s": 72.3,
+    "e": 72.54
+   },
+   {
+    "w": " malamatlargi",
+    "s": 72.54,
+    "e": 73.28
+   },
+   {
+    "w": " kora",
+    "s": 73.28,
+    "e": 73.52
+   }
+  ]
+ },
+ {
+  "start": 73.52,
+  "end": 76.64,
+  "text": " Uzbekistan paspirti 82-ci orinda qaydetildi.",
+  "words": [
+   {
+    "w": " Uzbekistan",
+    "s": 73.52,
+    "e": 74.3
+   },
+   {
+    "w": " paspirti",
+    "s": 74.3,
+    "e": 74.9
+   },
+   {
+    "w": " 82",
+    "s": 74.9,
+    "e": 75.3
+   },
+   {
+    "w": "-ci",
+    "s": 75.3,
+    "e": 75.74
+   },
+   {
+    "w": " orinda",
+    "s": 75.74,
+    "e": 76.06
+   },
+   {
+    "w": " qaydetildi.",
+    "s": 76.06,
+    "e": 76.64
+   }
+  ]
+ },
+ {
+  "start": 76.72,
+  "end": 79.9,
+  "text": " Uzbekistan fqarolari 52-ta davlat va khududke",
+  "words": [
+   {
+    "w": " Uzbekistan",
+    "s": 76.72,
+    "e": 77.52
+   },
+   {
+    "w": " fqarolari",
+    "s": 77.52,
+    "e": 78.06
+   },
+   {
+    "w": " 52",
+    "s": 78.06,
+    "e": 78.5
+   },
+   {
+    "w": "-ta",
+    "s": 78.5,
+    "e": 78.94
+   },
+   {
+    "w": " davlat",
+    "s": 78.94,
+    "e": 79.32
+   },
+   {
+    "w": " va",
+    "s": 79.32,
+    "e": 79.5
+   },
+   {
+    "w": " khududke",
+    "s": 79.5,
+    "e": 79.9
+   }
+  ]
+ },
+ {
+  "start": 79.9,
+  "end": 81.62,
+  "text": " aldindan viza almastan barishi",
+  "words": [
+   {
+    "w": " aldindan",
+    "s": 79.9,
+    "e": 80.58
+   },
+   {
+    "w": " viza",
+    "s": 80.58,
+    "e": 80.84
+   },
+   {
+    "w": " almastan",
+    "s": 80.84,
+    "e": 81.3
+   },
+   {
+    "w": " barishi",
+    "s": 81.3,
+    "e": 81.62
+   }
+  ]
+ },
+ {
+  "start": 81.62,
+  "end": 84.44,
+  "text": " yoki yetip gergende vizarasmi ilashtirishi mumkun edi.",
+  "words": [
+   {
+    "w": " yoki",
+    "s": 81.62,
+    "e": 82.08
+   },
+   {
+    "w": " yetip",
+    "s": 82.08,
+    "e": 82.68
+   },
+   {
+    "w": " gergende",
+    "s": 82.68,
+    "e": 83.0
+   },
+   {
+    "w": " vizarasmi",
+    "s": 83.0,
+    "e": 83.58
+   },
+   {
+    "w": " ilashtirishi",
+    "s": 83.58,
+    "e": 83.98
+   },
+   {
+    "w": " mumkun",
+    "s": 83.98,
+    "e": 84.28
+   },
+   {
+    "w": " edi.",
+    "s": 84.28,
+    "e": 84.44
+   }
+  ]
+ },
+ {
+  "start": 84.8,
+  "end": 87.14,
+  "text": " Takoslash uchun, Singapur paspirti bulan",
+  "words": [
+   {
+    "w": " Takoslash",
+    "s": 84.8,
+    "e": 85.6
+   },
+   {
+    "w": " uchun,",
+    "s": 85.6,
+    "e": 85.92
+   },
+   {
+    "w": " Singapur",
+    "s": 85.94,
+    "e": 86.52
+   },
+   {
+    "w": " paspirti",
+    "s": 86.52,
+    "e": 86.92
+   },
+   {
+    "w": " bulan",
+    "s": 86.92,
+    "e": 87.14
+   }
+  ]
+ },
+ {
+  "start": 87.14,
+  "end": 89.22,
+  "text": " 193-ta yonalishke aldindan",
+  "words": [
+   {
+    "w": " 193",
+    "s": 87.14,
+    "e": 87.94
+   },
+   {
+    "w": "-ta",
+    "s": 87.94,
+    "e": 88.18
+   },
+   {
+    "w": " yonalishke",
+    "s": 88.18,
+    "e": 88.58
+   },
+   {
+    "w": " aldindan",
+    "s": 88.58,
+    "e": 89.22
+   }
+  ]
+ },
+ {
+  "start": 89.22,
+  "end": 90.9,
+  "text": " vizasiz barish imkaniyati mavcud edi.",
+  "words": [
+   {
+    "w": " vizasiz",
+    "s": 89.22,
+    "e": 89.74
+   },
+   {
+    "w": " barish",
+    "s": 89.74,
+    "e": 90.02
+   },
+   {
+    "w": " imkaniyati",
+    "s": 90.02,
+    "e": 90.46
+   },
+   {
+    "w": " mavcud",
+    "s": 90.46,
+    "e": 90.76
+   },
+   {
+    "w": " edi.",
+    "s": 90.76,
+    "e": 90.9
+   }
+  ]
+ },
+ {
+  "start": 91.4,
+  "end": 93.28,
+  "text": " Qazagastan paspirti uchun bu korsatke",
+  "words": [
+   {
+    "w": " Qazagastan",
+    "s": 91.4,
+    "e": 92.08
+   },
+   {
+    "w": " paspirti",
+    "s": 92.08,
+    "e": 92.52
+   },
+   {
+    "w": " uchun",
+    "s": 92.52,
+    "e": 92.72
+   },
+   {
+    "w": " bu",
+    "s": 92.72,
+    "e": 92.84
+   },
+   {
+    "w": " korsatke",
+    "s": 92.84,
+    "e": 93.28
+   }
+  ]
+ },
+ {
+  "start": 93.28,
+  "end": 96.28,
+  "text": " ch 77-ta, Kyrgyzistan uchun 52-to qistaydi.",
+  "words": [
+   {
+    "w": " ch",
+    "s": 93.28,
+    "e": 93.38
+   },
+   {
+    "w": " 77",
+    "s": 93.38,
+    "e": 93.68
+   },
+   {
+    "w": "-ta,",
+    "s": 93.68,
+    "e": 94.08
+   },
+   {
+    "w": " Kyrgyzistan",
+    "s": 94.16,
+    "e": 94.94
+   },
+   {
+    "w": " uchun",
+    "s": 94.94,
+    "e": 95.36
+   },
+   {
+    "w": " 52",
+    "s": 95.36,
+    "e": 95.64
+   },
+   {
+    "w": "-to",
+    "s": 95.64,
+    "e": 95.92
+   },
+   {
+    "w": " qistaydi.",
+    "s": 95.92,
+    "e": 96.28
+   }
+  ]
+ },
+ {
+  "start": 96.6,
+  "end": 99.2,
+  "text": " 2026-ci il aktyabrdagi paspirt imkaniyatlari.",
+  "words": [
+   {
+    "w": " 2026",
+    "s": 96.6,
+    "e": 97.28
+   },
+   {
+    "w": "-ci",
+    "s": 97.28,
+    "e": 97.46
+   },
+   {
+    "w": " il",
+    "s": 97.46,
+    "e": 97.58
+   },
+   {
+    "w": " aktyabrdagi",
+    "s": 97.58,
+    "e": 98.18
+   },
+   {
+    "w": " paspirt",
+    "s": 98.18,
+    "e": 98.62
+   },
+   {
+    "w": " imkaniyatlari.",
+    "s": 98.62,
+    "e": 99.2
+   }
+  ]
+ },
+ {
+  "start": 99.52,
+  "end": 101.3,
+  "text": " Lekin bu yarda muxum cikat bar.",
+  "words": [
+   {
+    "w": " Lekin",
+    "s": 99.52,
+    "e": 100.2
+   },
+   {
+    "w": " bu",
+    "s": 100.2,
+    "e": 100.28
+   },
+   {
+    "w": " yarda",
+    "s": 100.28,
+    "e": 100.5
+   },
+   {
+    "w": " muxum",
+    "s": 100.5,
+    "e": 100.84
+   },
+   {
+    "w": " cikat",
+    "s": 100.84,
+    "e": 101.06
+   },
+   {
+    "w": " bar.",
+    "s": 101.06,
+    "e": 101.3
+   }
+  ]
+ },
+ {
+  "start": 101.46,
+  "end": 103.86,
+  "text": " Paspirt retingidagi 52-7-ta yonalishnin",
+  "words": [
+   {
+    "w": " Paspirt",
+    "s": 101.46,
+    "e": 102.06
+   },
+   {
+    "w": " retingidagi",
+    "s": 102.06,
+    "e": 102.58
+   },
+   {
+    "w": " 52",
+    "s": 102.58,
+    "e": 103.02
+   },
+   {
+    "w": "-7",
+    "s": 103.02,
+    "e": 103.32
+   },
+   {
+    "w": "-ta",
+    "s": 103.32,
+    "e": 103.48
+   },
+   {
+    "w": " yonalishnin",
+    "s": 103.48,
+    "e": 103.86
+   }
+  ]
+ },
+ {
+  "start": 103.86,
+  "end": 106.08,
+  "text": " barchasi mutlaka vizasiz degani emas.",
+  "words": [
+   {
+    "w": " barchasi",
+    "s": 103.86,
+    "e": 104.34
+   },
+   {
+    "w": " mutlaka",
+    "s": 104.34,
+    "e": 104.78
+   },
+   {
+    "w": " vizasiz",
+    "s": 104.78,
+    "e": 105.42
+   },
+   {
+    "w": " degani",
+    "s": 105.42,
+    "e": 105.74
+   },
+   {
+    "w": " emas.",
+    "s": 105.74,
+    "e": 106.08
+   }
+  ]
+ },
+ {
+  "start": 106.26,
+  "end": 108.2,
+  "text": " Ayri mamlakatlarda viza",
+  "words": [
+   {
+    "w": " Ayri",
+    "s": 106.26,
+    "e": 106.9
+   },
+   {
+    "w": " mamlakatlarda",
+    "s": 106.9,
+    "e": 107.48
+   },
+   {
+    "w": " viza",
+    "s": 107.48,
+    "e": 108.2
+   }
+  ]
+ },
+ {
+  "start": 108.2,
+  "end": 110.3,
+  "text": " ayraportke yetib borgandan keyin beriladi.",
+  "words": [
+   {
+    "w": " ayraportke",
+    "s": 108.2,
+    "e": 108.9
+   },
+   {
+    "w": " yetib",
+    "s": 108.9,
+    "e": 109.2
+   },
+   {
+    "w": " borgandan",
+    "s": 109.2,
+    "e": 109.5
+   },
+   {
+    "w": " keyin",
+    "s": 109.5,
+    "e": 109.94
+   },
+   {
+    "w": " beriladi.",
+    "s": 109.94,
+    "e": 110.3
+   }
+  ]
+ },
+ {
+  "start": 110.52,
+  "end": 112.88,
+  "text": " Demayk, nimi uchun davlatlar ortasta",
+  "words": [
+   {
+    "w": " Demayk,",
+    "s": 110.52,
+    "e": 111.2
+   },
+   {
+    "w": " nimi",
+    "s": 111.32,
+    "e": 111.78
+   },
+   {
+    "w": " uchun",
+    "s": 111.78,
+    "e": 112.1
+   },
+   {
+    "w": " davlatlar",
+    "s": 112.1,
+    "e": 112.58
+   },
+   {
+    "w": " ortasta",
+    "s": 112.58,
+    "e": 112.88
+   }
+  ]
+ },
+ {
+  "start": 112.88,
+  "end": 114.24,
+  "text": " bunday katta fark mavcud.",
+  "words": [
+   {
+    "w": " bunday",
+    "s": 112.88,
+    "e": 113.34
+   },
+   {
+    "w": " katta",
+    "s": 113.34,
+    "e": 113.68
+   },
+   {
+    "w": " fark",
+    "s": 113.68,
+    "e": 113.86
+   },
+   {
+    "w": " mavcud.",
+    "s": 113.86,
+    "e": 114.24
+   }
+  ]
+ },
+ {
+  "start": 114.34,
+  "end": 116.82,
+  "text": " Bunin birinchi sababi migratsiya siyasati.",
+  "words": [
+   {
+    "w": " Bunin",
+    "s": 114.34,
+    "e": 115.0
+   },
+   {
+    "w": " birinchi",
+    "s": 115.0,
+    "e": 115.32
+   },
+   {
+    "w": " sababi",
+    "s": 115.32,
+    "e": 115.66
+   },
+   {
+    "w": " migratsiya",
+    "s": 115.66,
+    "e": 116.42
+   },
+   {
+    "w": " siyasati.",
+    "s": 116.42,
+    "e": 116.82
+   }
+  ]
+ },
+ {
+  "start": 117.14,
+  "end": 118.86,
+  "text": " Masalan, Evropa itifaqib",
+  "words": [
+   {
+    "w": " Masalan,",
+    "s": 117.14,
+    "e": 117.8
+   },
+   {
+    "w": " Evropa",
+    "s": 117.9,
+    "e": 118.5
+   },
+   {
+    "w": " itifaqib",
+    "s": 118.5,
+    "e": 118.86
+   }
+  ]
+ },
+ {
+  "start": 118.86,
+  "end": 120.16,
+  "text": " basqa mamlekyat fqaralarigi",
+  "words": [
+   {
+    "w": " basqa",
+    "s": 118.86,
+    "e": 119.2
+   },
+   {
+    "w": " mamlekyat",
+    "s": 119.2,
+    "e": 119.6
+   },
+   {
+    "w": " fqaralarigi",
+    "s": 119.6,
+    "e": 120.16
+   }
+  ]
+ },
+ {
+  "start": 120.16,
+  "end": 121.62,
+  "text": " vizasiz kirish hukuni berishte",
+  "words": [
+   {
+    "w": " vizasiz",
+    "s": 120.16,
+    "e": 120.7
+   },
+   {
+    "w": " kirish",
+    "s": 120.7,
+    "e": 120.94
+   },
+   {
+    "w": " hukuni",
+    "s": 120.94,
+    "e": 121.26
+   },
+   {
+    "w": " berishte",
+    "s": 121.26,
+    "e": 121.62
+   }
+  ]
+ },
+ {
+  "start": 121.62,
+  "end": 124.14,
+  "text": " naqanuni migratsiya xafinxam xisabke oladi.",
+  "words": [
+   {
+    "w": " naqanuni",
+    "s": 121.62,
+    "e": 122.54
+   },
+   {
+    "w": " migratsiya",
+    "s": 122.54,
+    "e": 123.14
+   },
+   {
+    "w": " xafinxam",
+    "s": 123.14,
+    "e": 123.56
+   },
+   {
+    "w": " xisabke",
+    "s": 123.56,
+    "e": 123.94
+   },
+   {
+    "w": " oladi.",
+    "s": 123.94,
+    "e": 124.14
+   }
+  ]
+ },
+ {
+  "start": 124.52,
+  "end": 126.7,
+  "text": " Davlatlar, chetillik sayyog bergilengi",
+  "words": [
+   {
+    "w": " Davlatlar,",
+    "s": 124.52,
+    "e": 125.24
+   },
+   {
+    "w": " chetillik",
+    "s": 125.24,
+    "e": 125.84
+   },
+   {
+    "w": " sayyog",
+    "s": 125.84,
+    "e": 126.14
+   },
+   {
+    "w": " bergilengi",
+    "s": 126.14,
+    "e": 126.7
+   }
+  ]
+ },
+ {
+  "start": 126.7,
+  "end": 128.72,
+  "text": " mudad tugegech oz mamlekyatiga qaytadi mi,",
+  "words": [
+   {
+    "w": " mudad",
+    "s": 126.7,
+    "e": 127.02
+   },
+   {
+    "w": " tugegech",
+    "s": 127.02,
+    "e": 127.44
+   },
+   {
+    "w": " oz",
+    "s": 127.44,
+    "e": 127.68
+   },
+   {
+    "w": " mamlekyatiga",
+    "s": 127.68,
+    "e": 128.2
+   },
+   {
+    "w": " qaytadi",
+    "s": 128.2,
+    "e": 128.54
+   },
+   {
+    "w": " mi,",
+    "s": 128.54,
+    "e": 128.72
+   }
+  ]
+ },
+ {
+  "start": 128.78,
+  "end": 130.54,
+  "text": " naqanuni ishlajki orinadi mi",
+  "words": [
+   {
+    "w": " naqanuni",
+    "s": 128.78,
+    "e": 129.62
+   },
+   {
+    "w": " ishlajki",
+    "s": 129.62,
+    "e": 129.98
+   },
+   {
+    "w": " orinadi",
+    "s": 129.98,
+    "e": 130.38
+   },
+   {
+    "w": " mi",
+    "s": 130.38,
+    "e": 130.54
+   }
+  ]
+ },
+ {
+  "start": 130.54,
+  "end": 131.68,
+  "text": " ya ki baspana soraydi mi,",
+  "words": [
+   {
+    "w": " ya",
+    "s": 130.54,
+    "e": 130.62
+   },
+   {
+    "w": " ki",
+    "s": 130.62,
+    "e": 130.76
+   },
+   {
+    "w": " baspana",
+    "s": 130.76,
+    "e": 131.2
+   },
+   {
+    "w": " soraydi",
+    "s": 131.2,
+    "e": 131.54
+   },
+   {
+    "w": " mi,",
+    "s": 131.54,
+    "e": 131.68
+   }
+  ]
+ },
+ {
+  "start": 131.7,
+  "end": 133.1,
+  "text": " degi ammasallani orginadi.",
+  "words": [
+   {
+    "w": " degi",
+    "s": 131.7,
+    "e": 132.0
+   },
+   {
+    "w": " ammasallani",
+    "s": 132.0,
+    "e": 132.6
+   },
+   {
+    "w": " orginadi.",
+    "s": 132.6,
+    "e": 133.1
+   }
+  ]
+ },
+ {
+  "start": 133.3,
+  "end": 135.56,
+  "text": " Bu yarda, bittan arsani chunish muxum.",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 133.3,
+    "e": 133.88
+   },
+   {
+    "w": " yarda,",
+    "s": 133.88,
+    "e": 134.1
+   },
+   {
+    "w": " bittan",
+    "s": 134.2,
+    "e": 134.76
+   },
+   {
+    "w": " arsani",
+    "s": 134.76,
+    "e": 134.98
+   },
+   {
+    "w": " chunish",
+    "s": 134.98,
+    "e": 135.3
+   },
+   {
+    "w": " muxum.",
+    "s": 135.3,
+    "e": 135.56
+   }
+  ]
+ },
+ {
+  "start": 135.78,
+  "end": 137.86,
+  "text": " Xarijgi kanuni ishlaj uchun ketiyotkan",
+  "words": [
+   {
+    "w": " Xarijgi",
+    "s": 135.78,
+    "e": 136.5
+   },
+   {
+    "w": " kanuni",
+    "s": 136.5,
+    "e": 136.88
+   },
+   {
+    "w": " ishlaj",
+    "s": 136.88,
+    "e": 137.24
+   },
+   {
+    "w": " uchun",
+    "s": 137.24,
+    "e": 137.46
+   },
+   {
+    "w": " ketiyotkan",
+    "s": 137.46,
+    "e": 137.86
+   }
+  ]
+ },
+ {
+  "start": 137.86,
+  "end": 139.14,
+  "text": " milyon lab insanlar bar.",
+  "words": [
+   {
+    "w": " milyon",
+    "s": 137.86,
+    "e": 138.3
+   },
+   {
+    "w": " lab",
+    "s": 138.3,
+    "e": 138.46
+   },
+   {
+    "w": " insanlar",
+    "s": 138.46,
+    "e": 138.96
+   },
+   {
+    "w": " bar.",
+    "s": 138.96,
+    "e": 139.14
+   }
+  ]
+ },
+ {
+  "start": 139.3,
+  "end": 141.68,
+  "text": " Ularinin faaliyati naqanuni migratsiya",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 139.3,
+    "e": 139.86
+   },
+   {
+    "w": " faaliyati",
+    "s": 139.86,
+    "e": 140.34
+   },
+   {
+    "w": " naqanuni",
+    "s": 140.34,
+    "e": 141.22
+   },
+   {
+    "w": " migratsiya",
+    "s": 141.22,
+    "e": 141.68
+   }
+  ]
+ },
+ {
+  "start": 141.68,
+  "end": 142.32,
+  "text": " bilan berkhilemaz.",
+  "words": [
+   {
+    "w": " bilan",
+    "s": 141.68,
+    "e": 141.88
+   },
+   {
+    "w": " berkhilemaz.",
+    "s": 141.88,
+    "e": 142.32
+   }
+  ]
+ },
+ {
+  "start": 142.32,
+  "end": 144.12,
+  "text": " Amma ayrim fqaralarini",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 142.32,
+    "e": 143.06
+   },
+   {
+    "w": " ayrim",
+    "s": 143.06,
+    "e": 143.52
+   },
+   {
+    "w": " fqaralarini",
+    "s": 143.52,
+    "e": 144.12
+   }
+  ]
+ },
+ {
+  "start": 144.12,
+  "end": 145.14,
+  "text": " viza shartlarini buzishi,",
+  "words": [
+   {
+    "w": " viza",
+    "s": 144.12,
+    "e": 144.42
+   },
+   {
+    "w": " shartlarini",
+    "s": 144.42,
+    "e": 144.88
+   },
+   {
+    "w": " buzishi,",
+    "s": 144.88,
+    "e": 145.14
+   }
+  ]
+ },
+ {
+  "start": 145.26,
+  "end": 147.42,
+  "text": " mamlekyatki nisbatan umumi migratsiyon",
+  "words": [
+   {
+    "w": " mamlekyatki",
+    "s": 145.26,
+    "e": 146.02
+   },
+   {
+    "w": " nisbatan",
+    "s": 146.02,
+    "e": 146.36
+   },
+   {
+    "w": " umumi",
+    "s": 146.36,
+    "e": 146.86
+   },
+   {
+    "w": " migratsiyon",
+    "s": 146.86,
+    "e": 147.42
+   }
+  ]
+ },
+ {
+  "start": 147.42,
+  "end": 149.04,
+  "text": " xafba xasigi tasar qilishi mumkun.",
+  "words": [
+   {
+    "w": " xafba",
+    "s": 147.42,
+    "e": 147.74
+   },
+   {
+    "w": " xasigi",
+    "s": 147.74,
+    "e": 148.08
+   },
+   {
+    "w": " tasar",
+    "s": 148.08,
+    "e": 148.46
+   },
+   {
+    "w": " qilishi",
+    "s": 148.46,
+    "e": 148.7
+   },
+   {
+    "w": " mumkun.",
+    "s": 148.7,
+    "e": 149.04
+   }
+  ]
+ },
+ {
+  "start": 149.44,
+  "end": 151.82,
+  "text": " Evropa Kamisiyasini rasmi mezanlarida",
+  "words": [
+   {
+    "w": " Evropa",
+    "s": 149.44,
+    "e": 150.36
+   },
+   {
+    "w": " Kamisiyasini",
+    "s": 150.36,
+    "e": 150.9
+   },
+   {
+    "w": " rasmi",
+    "s": 150.9,
+    "e": 151.22
+   },
+   {
+    "w": " mezanlarida",
+    "s": 151.22,
+    "e": 151.82
+   }
+  ]
+ },
+ {
+  "start": 151.82,
+  "end": 153.94,
+  "text": " naqanuni migratsiya, xafsizlik,",
+  "words": [
+   {
+    "w": " naqanuni",
+    "s": 151.82,
+    "e": 152.58
+   },
+   {
+    "w": " migratsiya,",
+    "s": 152.58,
+    "e": 153.08
+   },
+   {
+    "w": " xafsizlik,",
+    "s": 153.22,
+    "e": 153.94
+   }
+  ]
+ },
+ {
+  "start": 154.06,
+  "end": 156.38,
+  "text": " iqtisadi manfaatlar, tashqi alaqalar",
+  "words": [
+   {
+    "w": " iqtisadi",
+    "s": 154.06,
+    "e": 154.58
+   },
+   {
+    "w": " manfaatlar,",
+    "s": 154.58,
+    "e": 155.22
+   },
+   {
+    "w": " tashqi",
+    "s": 155.56,
+    "e": 155.88
+   },
+   {
+    "w": " alaqalar",
+    "s": 155.88,
+    "e": 156.38
+   }
+  ]
+ },
+ {
+  "start": 156.38,
+  "end": 158.34,
+  "text": " va ozara vizasiz rejim masalilari",
+  "words": [
+   {
+    "w": " va",
+    "s": 156.38,
+    "e": 156.56
+   },
+   {
+    "w": " ozara",
+    "s": 156.56,
+    "e": 157.0
+   },
+   {
+    "w": " vizasiz",
+    "s": 157.0,
+    "e": 157.58
+   },
+   {
+    "w": " rejim",
+    "s": 157.58,
+    "e": 157.82
+   },
+   {
+    "w": " masalilari",
+    "s": 157.82,
+    "e": 158.34
+   }
+  ]
+ },
+ {
+  "start": 158.34,
+  "end": 158.84,
+  "text": " korsatilyan.",
+  "words": [
+   {
+    "w": " korsatilyan.",
+    "s": 158.34,
+    "e": 158.84
+   }
+  ]
+ },
+ {
+  "start": 158.98,
+  "end": 160.82,
+  "text": " Ikinchi sabab iqtisadyat.",
+  "words": [
+   {
+    "w": " Ikinchi",
+    "s": 158.98,
+    "e": 159.82
+   },
+   {
+    "w": " sabab",
+    "s": 159.82,
+    "e": 160.12
+   },
+   {
+    "w": " iqtisadyat.",
+    "s": 160.12,
+    "e": 160.82
+   }
+  ]
+ },
+ {
+  "start": 160.96,
+  "end": 163.38,
+  "text": " Davlatlar, basqa mamlekyat fqaralarini",
+  "words": [
+   {
+    "w": " Davlatlar,",
+    "s": 160.96,
+    "e": 161.84
+   },
+   {
+    "w": " basqa",
+    "s": 161.86,
+    "e": 162.42
+   },
+   {
+    "w": " mamlekyat",
+    "s": 162.42,
+    "e": 162.86
+   },
+   {
+    "w": " fqaralarini",
+    "s": 162.86,
+    "e": 163.38
+   }
+  ]
+ },
+ {
+  "start": 163.38,
+  "end": 165.58,
+  "text": " maliyavi akhvalini alaqida tekshirishi mumkun.",
+  "words": [
+   {
+    "w": " maliyavi",
+    "s": 163.38,
+    "e": 163.94
+   },
+   {
+    "w": " akhvalini",
+    "s": 163.94,
+    "e": 164.4
+   },
+   {
+    "w": " alaqida",
+    "s": 164.4,
+    "e": 164.86
+   },
+   {
+    "w": " tekshirishi",
+    "s": 164.86,
+    "e": 165.24
+   },
+   {
+    "w": " mumkun.",
+    "s": 165.24,
+    "e": 165.58
+   }
+  ]
+ },
+ {
+  "start": 165.72,
+  "end": 167.8,
+  "text": " Shengin vizasiga ariza tapchiriyatkan",
+  "words": [
+   {
+    "w": " Shengin",
+    "s": 165.72,
+    "e": 166.46
+   },
+   {
+    "w": " vizasiga",
+    "s": 166.46,
+    "e": 166.92
+   },
+   {
+    "w": " ariza",
+    "s": 166.92,
+    "e": 167.3
+   },
+   {
+    "w": " tapchiriyatkan",
+    "s": 167.3,
+    "e": 167.8
+   }
+  ]
+ },
+ {
+  "start": 167.8,
+  "end": 169.34,
+  "text": " insandan safar maksadi,",
+  "words": [
+   {
+    "w": " insandan",
+    "s": 167.8,
+    "e": 168.14
+   },
+   {
+    "w": " safar",
+    "s": 168.14,
+    "e": 168.92
+   },
+   {
+    "w": " maksadi,",
+    "s": 168.92,
+    "e": 169.34
+   }
+  ]
+ },
+ {
+  "start": 169.34,
+  "end": 171.64,
+  "text": " yashash jari, yetarli mablaghi",
+  "words": [
+   {
+    "w": " yashash",
+    "s": 169.34,
+    "e": 170.1
+   },
+   {
+    "w": " jari,",
+    "s": 170.1,
+    "e": 170.42
+   },
+   {
+    "w": " yetarli",
+    "s": 170.56,
+    "e": 171.16
+   },
+   {
+    "w": " mablaghi",
+    "s": 171.16,
+    "e": 171.64
+   }
+  ]
+ },
+ {
+  "start": 171.64,
+  "end": 173.06,
+  "text": " va qaytish niyatini tasdikla uchi",
+  "words": [
+   {
+    "w": " va",
+    "s": 171.64,
+    "e": 171.78
+   },
+   {
+    "w": " qaytish",
+    "s": 171.78,
+    "e": 172.16
+   },
+   {
+    "w": " niyatini",
+    "s": 172.16,
+    "e": 172.5
+   },
+   {
+    "w": " tasdikla",
+    "s": 172.5,
+    "e": 172.9
+   },
+   {
+    "w": " uchi",
+    "s": 172.9,
+    "e": 173.06
+   }
+  ]
+ },
+ {
+  "start": 173.06,
+  "end": 174.22,
+  "text": " khujjatlar soralishi mumkun.",
+  "words": [
+   {
+    "w": " khujjatlar",
+    "s": 173.06,
+    "e": 173.54
+   },
+   {
+    "w": " soralishi",
+    "s": 173.54,
+    "e": 173.94
+   },
+   {
+    "w": " mumkun.",
+    "s": 173.94,
+    "e": 174.22
+   }
+  ]
+ },
+ {
+  "start": 174.74,
+  "end": 176.68,
+  "text": " Amma bu, Uzbekistan fqaraları",
+  "words": [
+   {
+    "w": " Amma",
+    "s": 174.74,
+    "e": 175.12
+   },
+   {
+    "w": " bu,",
+    "s": 175.12,
+    "e": 175.34
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 175.44,
+    "e": 176.22
+   },
+   {
+    "w": " fqaraları",
+    "s": 176.22,
+    "e": 176.68
+   }
+  ]
+ },
+ {
+  "start": 176.68,
+  "end": 179.06,
+  "text": " kambaqal bolgani uchini ulargi viza berilmaydi",
+  "words": [
+   {
+    "w": " kambaqal",
+    "s": 176.68,
+    "e": 177.4
+   },
+   {
+    "w": " bolgani",
+    "s": 177.4,
+    "e": 177.76
+   },
+   {
+    "w": " uchini",
+    "s": 177.76,
+    "e": 177.94
+   },
+   {
+    "w": " ulargi",
+    "s": 177.94,
+    "e": 178.22
+   },
+   {
+    "w": " viza",
+    "s": 178.22,
+    "e": 178.52
+   },
+   {
+    "w": " berilmaydi",
+    "s": 178.52,
+    "e": 179.06
+   }
+  ]
+ },
+ {
+  "start": 179.06,
+  "end": 181.0,
+  "text": " degani emas. Masala bundan",
+  "words": [
+   {
+    "w": " degani",
+    "s": 179.06,
+    "e": 179.44
+   },
+   {
+    "w": " emas.",
+    "s": 179.44,
+    "e": 179.66
+   },
+   {
+    "w": " Masala",
+    "s": 179.8,
+    "e": 180.44
+   },
+   {
+    "w": " bundan",
+    "s": 180.44,
+    "e": 181.0
+   }
+  ]
+ },
+ {
+  "start": 181.0,
+  "end": 182.72,
+  "text": " murakyab raq. Viza siyasati",
+  "words": [
+   {
+    "w": " murakyab",
+    "s": 181.0,
+    "e": 181.38
+   },
+   {
+    "w": " raq.",
+    "s": 181.38,
+    "e": 181.56
+   },
+   {
+    "w": " Viza",
+    "s": 181.72,
+    "e": 182.24
+   },
+   {
+    "w": " siyasati",
+    "s": 182.24,
+    "e": 182.72
+   }
+  ]
+ },
+ {
+  "start": 182.72,
+  "end": 184.46,
+  "text": " alaqida insandini bayligi geyemas.",
+  "words": [
+   {
+    "w": " alaqida",
+    "s": 182.72,
+    "e": 183.16
+   },
+   {
+    "w": " insandini",
+    "s": 183.16,
+    "e": 183.58
+   },
+   {
+    "w": " bayligi",
+    "s": 183.58,
+    "e": 184.08
+   },
+   {
+    "w": " geyemas.",
+    "s": 184.08,
+    "e": 184.46
+   }
+  ]
+ },
+ {
+  "start": 184.56,
+  "end": 186.52,
+  "text": " Mamlekyatlar ortastagi migratsi,",
+  "words": [
+   {
+    "w": " Mamlekyatlar",
+    "s": 184.56,
+    "e": 185.32
+   },
+   {
+    "w": " ortastagi",
+    "s": 185.32,
+    "e": 185.82
+   },
+   {
+    "w": " migratsi,",
+    "s": 185.82,
+    "e": 186.52
+   }
+  ]
+ },
+ {
+  "start": 186.6,
+  "end": 188.78,
+  "text": " xafsizlik va diplomatik munasabatlargi",
+  "words": [
+   {
+    "w": " xafsizlik",
+    "s": 186.6,
+    "e": 187.42
+   },
+   {
+    "w": " va",
+    "s": 187.42,
+    "e": 187.54
+   },
+   {
+    "w": " diplomatik",
+    "s": 187.54,
+    "e": 188.1
+   },
+   {
+    "w": " munasabatlargi",
+    "s": 188.1,
+    "e": 188.78
+   }
+  ]
+ },
+ {
+  "start": 188.78,
+  "end": 190.7,
+  "text": " hambaqliq. Uchunchi sabab,",
+  "words": [
+   {
+    "w": " hambaqliq.",
+    "s": 188.78,
+    "e": 189.4
+   },
+   {
+    "w": " Uchunchi",
+    "s": 189.62,
+    "e": 190.38
+   },
+   {
+    "w": " sabab,",
+    "s": 190.38,
+    "e": 190.7
+   }
+  ]
+ },
+ {
+  "start": 190.72,
+  "end": 192.44,
+  "text": " davlatlar ortastagi kelishi ilar.",
+  "words": [
+   {
+    "w": " davlatlar",
+    "s": 190.72,
+    "e": 191.36
+   },
+   {
+    "w": " ortastagi",
+    "s": 191.36,
+    "e": 191.86
+   },
+   {
+    "w": " kelishi",
+    "s": 191.86,
+    "e": 192.16
+   },
+   {
+    "w": " ilar.",
+    "s": 192.16,
+    "e": 192.44
+   }
+  ]
+ },
+ {
+  "start": 192.78,
+  "end": 194.96,
+  "text": " Bir davlat, basqa mamlekyat fqaralarigi",
+  "words": [
+   {
+    "w": " Bir",
+    "s": 192.78,
+    "e": 193.16
+   },
+   {
+    "w": " davlat,",
+    "s": 193.16,
+    "e": 193.52
+   },
+   {
+    "w": " basqa",
+    "s": 193.54,
+    "e": 194.08
+   },
+   {
+    "w": " mamlekyat",
+    "s": 194.08,
+    "e": 194.46
+   },
+   {
+    "w": " fqaralarigi",
+    "s": 194.46,
+    "e": 194.96
+   }
+  ]
+ },
+ {
+  "start": 194.96,
+  "end": 196.72,
+  "text": " vizasiz kirish imkanini berishi uchini",
+  "words": [
+   {
+    "w": " vizasiz",
+    "s": 194.96,
+    "e": 195.5
+   },
+   {
+    "w": " kirish",
+    "s": 195.5,
+    "e": 195.72
+   },
+   {
+    "w": " imkanini",
+    "s": 195.72,
+    "e": 196.14
+   },
+   {
+    "w": " berishi",
+    "s": 196.14,
+    "e": 196.46
+   },
+   {
+    "w": " uchini",
+    "s": 196.46,
+    "e": 196.72
+   }
+  ]
+ },
+ {
+  "start": 196.72,
+  "end": 198.7,
+  "text": " ikita mallama kelishu tu zurushi mumkun.",
+  "words": [
+   {
+    "w": " ikita",
+    "s": 196.72,
+    "e": 197.32
+   },
+   {
+    "w": " mallama",
+    "s": 197.32,
+    "e": 197.66
+   },
+   {
+    "w": " kelishu",
+    "s": 197.66,
+    "e": 198.02
+   },
+   {
+    "w": " tu",
+    "s": 198.02,
+    "e": 198.12
+   },
+   {
+    "w": " zurushi",
+    "s": 198.12,
+    "e": 198.38
+   },
+   {
+    "w": " mumkun.",
+    "s": 198.38,
+    "e": 198.7
+   }
+  ]
+ },
+ {
+  "start": 198.82,
+  "end": 200.76,
+  "text": " Buraq, xar daimxam ikki mamlekyat",
+  "words": [
+   {
+    "w": " Buraq,",
+    "s": 198.82,
+    "e": 199.46
+   },
+   {
+    "w": " xar",
+    "s": 199.46,
+    "e": 199.66
+   },
+   {
+    "w": " daimxam",
+    "s": 199.66,
+    "e": 200.06
+   },
+   {
+    "w": " ikki",
+    "s": 200.06,
+    "e": 200.32
+   },
+   {
+    "w": " mamlekyat",
+    "s": 200.32,
+    "e": 200.76
+   }
+  ]
+ },
+ {
+  "start": 200.76,
+  "end": 202.84,
+  "text": " berbirgi aynan berxil shartlarini qoymaydi.",
+  "words": [
+   {
+    "w": " berbirgi",
+    "s": 200.76,
+    "e": 201.14
+   },
+   {
+    "w": " aynan",
+    "s": 201.14,
+    "e": 201.62
+   },
+   {
+    "w": " berxil",
+    "s": 201.62,
+    "e": 202.0
+   },
+   {
+    "w": " shartlarini",
+    "s": 202.0,
+    "e": 202.44
+   },
+   {
+    "w": " qoymaydi.",
+    "s": 202.44,
+    "e": 202.84
+   }
+  ]
+ },
+ {
+  "start": 202.98,
+  "end": 204.56,
+  "text": " Masalan, Uzbekistan burar",
+  "words": [
+   {
+    "w": " Masalan,",
+    "s": 202.98,
+    "e": 203.54
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 203.64,
+    "e": 204.32
+   },
+   {
+    "w": " burar",
+    "s": 204.32,
+    "e": 204.56
+   }
+  ]
+ },
+ {
+  "start": 204.56,
+  "end": 206.58,
+  "text": " davlat fqaraları uchun vizasiz tartib jari",
+  "words": [
+   {
+    "w": " davlat",
+    "s": 204.56,
+    "e": 204.88
+   },
+   {
+    "w": " fqaraları",
+    "s": 204.88,
+    "e": 205.26
+   },
+   {
+    "w": " uchun",
+    "s": 205.26,
+    "e": 205.52
+   },
+   {
+    "w": " vizasiz",
+    "s": 205.52,
+    "e": 206.02
+   },
+   {
+    "w": " tartib",
+    "s": 206.02,
+    "e": 206.34
+   },
+   {
+    "w": " jari",
+    "s": 206.34,
+    "e": 206.58
+   }
+  ]
+ },
+ {
+  "start": 206.58,
+  "end": 208.78,
+  "text": " qilishi, osha davlat isa, Uzbekistan",
+  "words": [
+   {
+    "w": " qilishi,",
+    "s": 206.58,
+    "e": 206.9
+   },
+   {
+    "w": " osha",
+    "s": 207.02,
+    "e": 207.52
+   },
+   {
+    "w": " davlat",
+    "s": 207.52,
+    "e": 207.82
+   },
+   {
+    "w": " isa,",
+    "s": 207.82,
+    "e": 207.98
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 208.08,
+    "e": 208.78
+   }
+  ]
+ },
+ {
+  "start": 208.78,
+  "end": 210.82,
+  "text": " ikdardan viza talab qilishda davam etishi mumkun.",
+  "words": [
+   {
+    "w": " ikdardan",
+    "s": 208.78,
+    "e": 209.1
+   },
+   {
+    "w": " viza",
+    "s": 209.1,
+    "e": 209.44
+   },
+   {
+    "w": " talab",
+    "s": 209.44,
+    "e": 209.72
+   },
+   {
+    "w": " qilishda",
+    "s": 209.72,
+    "e": 209.98
+   },
+   {
+    "w": " davam",
+    "s": 209.98,
+    "e": 210.38
+   },
+   {
+    "w": " etishi",
+    "s": 210.38,
+    "e": 210.54
+   },
+   {
+    "w": " mumkun.",
+    "s": 210.54,
+    "e": 210.82
+   }
+  ]
+ },
+ {
+  "start": 211.0,
+  "end": 212.64,
+  "text": " Bunday waziyatda, ozora",
+  "words": [
+   {
+    "w": " Bunday",
+    "s": 211.0,
+    "e": 211.64
+   },
+   {
+    "w": " waziyatda,",
+    "s": 211.64,
+    "e": 212.08
+   },
+   {
+    "w": " ozora",
+    "s": 212.14,
+    "e": 212.64
+   }
+  ]
+ },
+ {
+  "start": 212.64,
+  "end": 214.64,
+  "text": " muzakiralar, iqtisadi xamkarlik",
+  "words": [
+   {
+    "w": " muzakiralar,",
+    "s": 212.64,
+    "e": 213.28
+   },
+   {
+    "w": " iqtisadi",
+    "s": 213.58,
+    "e": 214.06
+   },
+   {
+    "w": " xamkarlik",
+    "s": 214.06,
+    "e": 214.64
+   }
+  ]
+ },
+ {
+  "start": 214.64,
+  "end": 216.48,
+  "text": " va migratsi masarilari muxum rolo inayda.",
+  "words": [
+   {
+    "w": " va",
+    "s": 214.64,
+    "e": 214.72
+   },
+   {
+    "w": " migratsi",
+    "s": 214.72,
+    "e": 215.14
+   },
+   {
+    "w": " masarilari",
+    "s": 215.14,
+    "e": 215.66
+   },
+   {
+    "w": " muxum",
+    "s": 215.66,
+    "e": 215.88
+   },
+   {
+    "w": " rolo",
+    "s": 215.88,
+    "e": 216.18
+   },
+   {
+    "w": " inayda.",
+    "s": 216.18,
+    "e": 216.48
+   }
+  ]
+ },
+ {
+  "start": 216.86,
+  "end": 218.58,
+  "text": " Tortin sabab, xafsizlik.",
+  "words": [
+   {
+    "w": " Tortin",
+    "s": 216.86,
+    "e": 217.5
+   },
+   {
+    "w": " sabab,",
+    "s": 217.5,
+    "e": 217.84
+   },
+   {
+    "w": " xafsizlik.",
+    "s": 217.88,
+    "e": 218.58
+   }
+  ]
+ },
+ {
+  "start": 218.96,
+  "end": 220.62,
+  "text": " Paspurtni xalqara i shanchli",
+  "words": [
+   {
+    "w": " Paspurtni",
+    "s": 218.96,
+    "e": 219.6
+   },
+   {
+    "w": " xalqara",
+    "s": 219.6,
+    "e": 220.04
+   },
+   {
+    "w": " i",
+    "s": 220.04,
+    "e": 220.24
+   },
+   {
+    "w": " shanchli",
+    "s": 220.24,
+    "e": 220.62
+   }
+  ]
+ },
+ {
+  "start": 220.62,
+  "end": 222.58,
+  "text": " ligi, xujatlarina qalba gelashtirishka",
+  "words": [
+   {
+    "w": " ligi,",
+    "s": 220.62,
+    "e": 220.86
+   },
+   {
+    "w": " xujatlarina",
+    "s": 221.0,
+    "e": 221.74
+   },
+   {
+    "w": " qalba",
+    "s": 221.74,
+    "e": 222.02
+   },
+   {
+    "w": " gelashtirishka",
+    "s": 222.02,
+    "e": 222.58
+   }
+  ]
+ },
+ {
+  "start": 222.58,
+  "end": 224.84,
+  "text": " qarshi xumaya, qegaralar nazarati",
+  "words": [
+   {
+    "w": " qarshi",
+    "s": 222.58,
+    "e": 222.88
+   },
+   {
+    "w": " xumaya,",
+    "s": 222.88,
+    "e": 223.24
+   },
+   {
+    "w": " qegaralar",
+    "s": 223.46,
+    "e": 224.12
+   },
+   {
+    "w": " nazarati",
+    "s": 224.12,
+    "e": 224.84
+   }
+  ]
+ },
+ {
+  "start": 224.84,
+  "end": 226.16,
+  "text": " va davlatlar ortastagi",
+  "words": [
+   {
+    "w": " va",
+    "s": 224.84,
+    "e": 224.96
+   },
+   {
+    "w": " davlatlar",
+    "s": 224.96,
+    "e": 225.62
+   },
+   {
+    "w": " ortastagi",
+    "s": 225.62,
+    "e": 226.16
+   }
+  ]
+ },
+ {
+  "start": 226.16,
+  "end": 228.2,
+  "text": " akhbarat almashinu xam ahamiyat geyga.",
+  "words": [
+   {
+    "w": " akhbarat",
+    "s": 226.16,
+    "e": 226.76
+   },
+   {
+    "w": " almashinu",
+    "s": 226.76,
+    "e": 227.32
+   },
+   {
+    "w": " xam",
+    "s": 227.32,
+    "e": 227.62
+   },
+   {
+    "w": " ahamiyat",
+    "s": 227.62,
+    "e": 227.92
+   },
+   {
+    "w": " geyga.",
+    "s": 227.92,
+    "e": 228.2
+   }
+  ]
+ },
+ {
+  "start": 228.7,
+  "end": 230.38,
+  "text": " 2026. ilda, Evropa",
+  "words": [
+   {
+    "w": " 2026.",
+    "s": 228.7,
+    "e": 229.46
+   },
+   {
+    "w": " ilda,",
+    "s": 229.7,
+    "e": 230.0
+   },
+   {
+    "w": " Evropa",
+    "s": 230.0,
+    "e": 230.38
+   }
+  ]
+ },
+ {
+  "start": 230.38,
+  "end": 232.34,
+  "text": " Komisiyasi vizasiz rejimni boxalishta",
+  "words": [
+   {
+    "w": " Komisiyasi",
+    "s": 230.38,
+    "e": 230.84
+   },
+   {
+    "w": " vizasiz",
+    "s": 230.84,
+    "e": 231.44
+   },
+   {
+    "w": " rejimni",
+    "s": 231.44,
+    "e": 231.82
+   },
+   {
+    "w": " boxalishta",
+    "s": 231.82,
+    "e": 232.34
+   }
+  ]
+ },
+ {
+  "start": 232.34,
+  "end": 234.46,
+  "text": " xafsizlik, naqanuni migratsi",
+  "words": [
+   {
+    "w": " xafsizlik,",
+    "s": 232.34,
+    "e": 233.1
+   },
+   {
+    "w": " naqanuni",
+    "s": 233.18,
+    "e": 233.86
+   },
+   {
+    "w": " migratsi",
+    "s": 233.86,
+    "e": 234.46
+   }
+  ]
+ },
+ {
+  "start": 234.46,
+  "end": 236.5,
+  "text": " qaytarib qabul qilish boycha xamkarlik",
+  "words": [
+   {
+    "w": " qaytarib",
+    "s": 234.46,
+    "e": 235.0
+   },
+   {
+    "w": " qabul",
+    "s": 235.0,
+    "e": 235.34
+   },
+   {
+    "w": " qilish",
+    "s": 235.34,
+    "e": 235.6
+   },
+   {
+    "w": " boycha",
+    "s": 235.6,
+    "e": 235.86
+   },
+   {
+    "w": " xamkarlik",
+    "s": 235.86,
+    "e": 236.5
+   }
+  ]
+ },
+ {
+  "start": 236.5,
+  "end": 238.34,
+  "text": " va basqi korsat kishlarini yanada",
+  "words": [
+   {
+    "w": " va",
+    "s": 236.5,
+    "e": 236.62
+   },
+   {
+    "w": " basqi",
+    "s": 236.62,
+    "e": 236.94
+   },
+   {
+    "w": " korsat",
+    "s": 236.94,
+    "e": 237.3
+   },
+   {
+    "w": " kishlarini",
+    "s": 237.3,
+    "e": 237.68
+   },
+   {
+    "w": " yanada",
+    "s": 237.68,
+    "e": 238.34
+   }
+  ]
+ },
+ {
+  "start": 238.34,
+  "end": 240.54,
+  "text": " anıqraq sopkali shrejalarini bayankildi.",
+  "words": [
+   {
+    "w": " anıqraq",
+    "s": 238.34,
+    "e": 239.1
+   },
+   {
+    "w": " sopkali",
+    "s": 239.1,
+    "e": 239.42
+   },
+   {
+    "w": " shrejalarini",
+    "s": 239.42,
+    "e": 240.06
+   },
+   {
+    "w": " bayankildi.",
+    "s": 240.06,
+    "e": 240.54
+   }
+  ]
+ },
+ {
+  "start": 241.34,
+  "end": 242.4,
+  "text": " Enda en qiziq",
+  "words": [
+   {
+    "w": " Enda",
+    "s": 241.34,
+    "e": 241.72
+   },
+   {
+    "w": " en",
+    "s": 241.72,
+    "e": 241.9
+   },
+   {
+    "w": " qiziq",
+    "s": 241.9,
+    "e": 242.4
+   }
+  ]
+ },
+ {
+  "start": 242.4,
+  "end": 244.42,
+  "text": " saval, nege Qazagstan pasporti",
+  "words": [
+   {
+    "w": " saval,",
+    "s": 242.4,
+    "e": 242.72
+   },
+   {
+    "w": " nege",
+    "s": 242.86,
+    "e": 243.36
+   },
+   {
+    "w": " Qazagstan",
+    "s": 243.36,
+    "e": 243.88
+   },
+   {
+    "w": " pasporti",
+    "s": 243.88,
+    "e": 244.42
+   }
+  ]
+ },
+ {
+  "start": 244.42,
+  "end": 246.32,
+  "text": " bulan Uzbekistan pasporti ortasta fark",
+  "words": [
+   {
+    "w": " bulan",
+    "s": 244.42,
+    "e": 244.58
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 244.58,
+    "e": 245.14
+   },
+   {
+    "w": " pasporti",
+    "s": 245.14,
+    "e": 245.7
+   },
+   {
+    "w": " ortasta",
+    "s": 245.7,
+    "e": 245.98
+   },
+   {
+    "w": " fark",
+    "s": 245.98,
+    "e": 246.32
+   }
+  ]
+ },
+ {
+  "start": 246.32,
+  "end": 248.1,
+  "text": " bor? Akhir, iki mamlekyat koshni?",
+  "words": [
+   {
+    "w": " bor?",
+    "s": 246.32,
+    "e": 246.54
+   },
+   {
+    "w": " Akhir,",
+    "s": 246.68,
+    "e": 247.08
+   },
+   {
+    "w": " iki",
+    "s": 247.1,
+    "e": 247.32
+   },
+   {
+    "w": " mamlekyat",
+    "s": 247.32,
+    "e": 247.84
+   },
+   {
+    "w": " koshni?",
+    "s": 247.84,
+    "e": 248.1
+   }
+  ]
+ },
+ {
+  "start": 248.22,
+  "end": 250.5,
+  "text": " Ularinin tarixi, iqtisadi alaqalar",
+  "words": [
+   {
+    "w": " Ularinin",
+    "s": 248.22,
+    "e": 248.84
+   },
+   {
+    "w": " tarixi,",
+    "s": 248.84,
+    "e": 249.44
+   },
+   {
+    "w": " iqtisadi",
+    "s": 249.46,
+    "e": 249.94
+   },
+   {
+    "w": " alaqalar",
+    "s": 249.94,
+    "e": 250.5
+   }
+  ]
+ },
+ {
+  "start": 250.5,
+  "end": 252.18,
+  "text": " va mintaqavi manfaatlari",
+  "words": [
+   {
+    "w": " va",
+    "s": 250.5,
+    "e": 250.64
+   },
+   {
+    "w": " mintaqavi",
+    "s": 250.64,
+    "e": 251.48
+   },
+   {
+    "w": " manfaatlari",
+    "s": 251.48,
+    "e": 252.18
+   }
+  ]
+ },
+ {
+  "start": 252.18,
+  "end": 254.26,
+  "text": " birbirge yaqin. Ama xarbir",
+  "words": [
+   {
+    "w": " birbirge",
+    "s": 252.18,
+    "e": 252.58
+   },
+   {
+    "w": " yaqin.",
+    "s": 252.58,
+    "e": 252.88
+   },
+   {
+    "w": " Ama",
+    "s": 252.96,
+    "e": 253.64
+   },
+   {
+    "w": " xarbir",
+    "s": 253.64,
+    "e": 254.26
+   }
+  ]
+ },
+ {
+  "start": 254.26,
+  "end": 256.2,
+  "text": " davlatning basqa mamlekyatlar bulan tuzgan",
+  "words": [
+   {
+    "w": " davlatning",
+    "s": 254.26,
+    "e": 254.76
+   },
+   {
+    "w": " basqa",
+    "s": 254.76,
+    "e": 255.2
+   },
+   {
+    "w": " mamlekyatlar",
+    "s": 255.2,
+    "e": 255.76
+   },
+   {
+    "w": " bulan",
+    "s": 255.76,
+    "e": 255.98
+   },
+   {
+    "w": " tuzgan",
+    "s": 255.98,
+    "e": 256.2
+   }
+  ]
+ },
+ {
+  "start": 256.2,
+  "end": 258.14,
+  "text": " kilishulari, diplomatik alaqalar",
+  "words": [
+   {
+    "w": " kilishulari,",
+    "s": 256.2,
+    "e": 256.98
+   },
+   {
+    "w": " diplomatik",
+    "s": 257.0,
+    "e": 257.66
+   },
+   {
+    "w": " alaqalar",
+    "s": 257.66,
+    "e": 258.14
+   }
+  ]
+ },
+ {
+  "start": 258.14,
+  "end": 260.28,
+  "text": " va migratson korsat kishlari birxil",
+  "words": [
+   {
+    "w": " va",
+    "s": 258.14,
+    "e": 258.36
+   },
+   {
+    "w": " migratson",
+    "s": 258.36,
+    "e": 259.24
+   },
+   {
+    "w": " korsat",
+    "s": 259.24,
+    "e": 259.54
+   },
+   {
+    "w": " kishlari",
+    "s": 259.54,
+    "e": 259.92
+   },
+   {
+    "w": " birxil",
+    "s": 259.92,
+    "e": 260.28
+   }
+  ]
+ },
+ {
+  "start": 260.28,
+  "end": 262.3,
+  "text": " emas. Masalan, ayrim yonalishlarda",
+  "words": [
+   {
+    "w": " emas.",
+    "s": 260.28,
+    "e": 260.58
+   },
+   {
+    "w": " Masalan,",
+    "s": 260.68,
+    "e": 261.28
+   },
+   {
+    "w": " ayrim",
+    "s": 261.36,
+    "e": 261.76
+   },
+   {
+    "w": " yonalishlarda",
+    "s": 261.76,
+    "e": 262.3
+   }
+  ]
+ },
+ {
+  "start": 262.3,
+  "end": 264.14,
+  "text": " Qazagstan fqaralarige vizasiz",
+  "words": [
+   {
+    "w": " Qazagstan",
+    "s": 262.3,
+    "e": 262.94
+   },
+   {
+    "w": " fqaralarige",
+    "s": 262.94,
+    "e": 263.6
+   },
+   {
+    "w": " vizasiz",
+    "s": 263.6,
+    "e": 264.14
+   }
+  ]
+ },
+ {
+  "start": 264.14,
+  "end": 265.98,
+  "text": " tartib mavcud bolsa, Uzbekistan",
+  "words": [
+   {
+    "w": " tartib",
+    "s": 264.14,
+    "e": 264.48
+   },
+   {
+    "w": " mavcud",
+    "s": 264.48,
+    "e": 264.86
+   },
+   {
+    "w": " bolsa,",
+    "s": 264.86,
+    "e": 265.16
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 265.28,
+    "e": 265.98
+   }
+  ]
+ },
+ {
+  "start": 265.98,
+  "end": 267.92,
+  "text": " fqaraları elektron ya ki addi",
+  "words": [
+   {
+    "w": " fqaraları",
+    "s": 265.98,
+    "e": 266.52
+   },
+   {
+    "w": " elektron",
+    "s": 266.52,
+    "e": 267.16
+   },
+   {
+    "w": " ya",
+    "s": 267.16,
+    "e": 267.28
+   },
+   {
+    "w": " ki",
+    "s": 267.28,
+    "e": 267.46
+   },
+   {
+    "w": " addi",
+    "s": 267.46,
+    "e": 267.92
+   }
+  ]
+ },
+ {
+  "start": 267.92,
+  "end": 270.04,
+  "text": " viza alish kerek. Basqa yonalishlardesa",
+  "words": [
+   {
+    "w": " viza",
+    "s": 267.92,
+    "e": 268.28
+   },
+   {
+    "w": " alish",
+    "s": 268.28,
+    "e": 268.44
+   },
+   {
+    "w": " kerek.",
+    "s": 268.44,
+    "e": 268.66
+   },
+   {
+    "w": " Basqa",
+    "s": 268.82,
+    "e": 269.44
+   },
+   {
+    "w": " yonalishlardesa",
+    "s": 269.44,
+    "e": 270.04
+   }
+  ]
+ },
+ {
+  "start": 270.04,
+  "end": 272.02,
+  "text": " Uzbekistan fqaraları kulay-raq",
+  "words": [
+   {
+    "w": " Uzbekistan",
+    "s": 270.04,
+    "e": 270.88
+   },
+   {
+    "w": " fqaraları",
+    "s": 270.88,
+    "e": 271.38
+   },
+   {
+    "w": " kulay",
+    "s": 271.38,
+    "e": 271.84
+   },
+   {
+    "w": "-raq",
+    "s": 271.84,
+    "e": 272.02
+   }
+  ]
+ },
+ {
+  "start": 272.02,
+  "end": 273.96,
+  "text": " shartlardan faydalanishi munkun. Shuni",
+  "words": [
+   {
+    "w": " shartlardan",
+    "s": 272.02,
+    "e": 272.42
+   },
+   {
+    "w": " faydalanishi",
+    "s": 272.42,
+    "e": 272.98
+   },
+   {
+    "w": " munkun.",
+    "s": 272.98,
+    "e": 273.26
+   },
+   {
+    "w": " Shuni",
+    "s": 273.34,
+    "e": 273.96
+   }
+  ]
+ },
+ {
+  "start": 273.96,
+  "end": 276.14,
+  "text": " uchun pasportlar ortastagi farkni, fakat",
+  "words": [
+   {
+    "w": " uchun",
+    "s": 273.96,
+    "e": 274.26
+   },
+   {
+    "w": " pasportlar",
+    "s": 274.26,
+    "e": 274.8
+   },
+   {
+    "w": " ortastagi",
+    "s": 274.8,
+    "e": 275.36
+   },
+   {
+    "w": " farkni,",
+    "s": 275.36,
+    "e": 275.78
+   },
+   {
+    "w": " fakat",
+    "s": 275.82,
+    "e": 276.14
+   }
+  ]
+ },
+ {
+  "start": 276.14,
+  "end": 278.12,
+  "text": " bitta sabab bulan tushunturish na tohra.",
+  "words": [
+   {
+    "w": " bitta",
+    "s": 276.14,
+    "e": 276.64
+   },
+   {
+    "w": " sabab",
+    "s": 276.64,
+    "e": 276.92
+   },
+   {
+    "w": " bulan",
+    "s": 276.92,
+    "e": 277.12
+   },
+   {
+    "w": " tushunturish",
+    "s": 277.12,
+    "e": 277.56
+   },
+   {
+    "w": " na",
+    "s": 277.56,
+    "e": 277.7
+   },
+   {
+    "w": " tohra.",
+    "s": 277.7,
+    "e": 278.12
+   }
+  ]
+ },
+ {
+  "start": 278.57,
+  "end": 279.62,
+  "text": " Yana bir muhum masala,",
+  "words": [
+   {
+    "w": " Yana",
+    "s": 278.57,
+    "e": 278.96
+   },
+   {
+    "w": " bir",
+    "s": 278.96,
+    "e": 279.1
+   },
+   {
+    "w": " muhum",
+    "s": 279.1,
+    "e": 279.4
+   },
+   {
+    "w": " masala,",
+    "s": 279.4,
+    "e": 279.62
+   }
+  ]
+ },
+ {
+  "start": 279.62,
+  "end": 281.72,
+  "text": " Uzbekistan pasportinin imkaniyatlari",
+  "words": [
+   {
+    "w": " Uzbekistan",
+    "s": 279.62,
+    "e": 280.4
+   },
+   {
+    "w": " pasportinin",
+    "s": 280.4,
+    "e": 280.9
+   },
+   {
+    "w": " imkaniyatlari",
+    "s": 280.9,
+    "e": 281.72
+   }
+  ]
+ },
+ {
+  "start": 281.72,
+  "end": 283.62,
+  "text": " daimi ravisda birxil qalmaydi.",
+  "words": [
+   {
+    "w": " daimi",
+    "s": 281.72,
+    "e": 282.38
+   },
+   {
+    "w": " ravisda",
+    "s": 282.38,
+    "e": 282.76
+   },
+   {
+    "w": " birxil",
+    "s": 282.76,
+    "e": 283.16
+   },
+   {
+    "w": " qalmaydi.",
+    "s": 283.16,
+    "e": 283.62
+   }
+  ]
+ },
+ {
+  "start": 283.88,
+  "end": 285.94,
+  "text": " 2026-ci il basida mamlekyat",
+  "words": [
+   {
+    "w": " 2026",
+    "s": 283.88,
+    "e": 284.76
+   },
+   {
+    "w": "-ci",
+    "s": 284.76,
+    "e": 285.0
+   },
+   {
+    "w": " il",
+    "s": 285.0,
+    "e": 285.12
+   },
+   {
+    "w": " basida",
+    "s": 285.12,
+    "e": 285.42
+   },
+   {
+    "w": " mamlekyat",
+    "s": 285.42,
+    "e": 285.94
+   }
+  ]
+ },
+ {
+  "start": 285.94,
+  "end": 287.76,
+  "text": " henli retingide 75-ci",
+  "words": [
+   {
+    "w": " henli",
+    "s": 285.94,
+    "e": 286.4
+   },
+   {
+    "w": " retingide",
+    "s": 286.4,
+    "e": 286.9
+   },
+   {
+    "w": " 75",
+    "s": 286.9,
+    "e": 287.26
+   },
+   {
+    "w": "-ci",
+    "s": 287.26,
+    "e": 287.76
+   }
+  ]
+ },
+ {
+  "start": 287.76,
+  "end": 289.9,
+  "text": " orindaydi. Aprelda 74-ci",
+  "words": [
+   {
+    "w": " orindaydi.",
+    "s": 287.76,
+    "e": 288.14
+   },
+   {
+    "w": " Aprelda",
+    "s": 288.28,
+    "e": 289.02
+   },
+   {
+    "w": " 74",
+    "s": 289.02,
+    "e": 289.52
+   },
+   {
+    "w": "-ci",
+    "s": 289.52,
+    "e": 289.9
+   }
+  ]
+ },
+ {
+  "start": 289.9,
+  "end": 291.48,
+  "text": " oringe kotarildi. Oktiab",
+  "words": [
+   {
+    "w": " oringe",
+    "s": 289.9,
+    "e": 290.14
+   },
+   {
+    "w": " kotarildi.",
+    "s": 290.14,
+    "e": 290.64
+   },
+   {
+    "w": " Oktiab",
+    "s": 290.72,
+    "e": 291.48
+   }
+  ]
+ },
+ {
+  "start": 291.48,
+  "end": 293.78,
+  "text": " raydesi 82-ci orinda qayt etildi.",
+  "words": [
+   {
+    "w": " raydesi",
+    "s": 291.48,
+    "e": 291.96
+   },
+   {
+    "w": " 82",
+    "s": 291.96,
+    "e": 292.3
+   },
+   {
+    "w": "-ci",
+    "s": 292.3,
+    "e": 292.8
+   },
+   {
+    "w": " orinda",
+    "s": 292.8,
+    "e": 293.1
+   },
+   {
+    "w": " qayt",
+    "s": 293.1,
+    "e": 293.46
+   },
+   {
+    "w": " etildi.",
+    "s": 293.46,
+    "e": 293.78
+   }
+  ]
+ },
+ {
+  "start": 294.52,
+  "end": 295.56,
+  "text": " Bu uzgarishlar",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 294.52,
+    "e": 294.96
+   },
+   {
+    "w": " uzgarishlar",
+    "s": 294.96,
+    "e": 295.56
+   }
+  ]
+ },
+ {
+  "start": 295.56,
+  "end": 297.78,
+  "text": " pasport imkaniyatlari fakat bir mamlekyatinin",
+  "words": [
+   {
+    "w": " pasport",
+    "s": 295.56,
+    "e": 295.98
+   },
+   {
+    "w": " imkaniyatlari",
+    "s": 295.98,
+    "e": 296.62
+   },
+   {
+    "w": " fakat",
+    "s": 296.62,
+    "e": 296.96
+   },
+   {
+    "w": " bir",
+    "s": 296.96,
+    "e": 297.14
+   },
+   {
+    "w": " mamlekyatinin",
+    "s": 297.14,
+    "e": 297.78
+   }
+  ]
+ },
+ {
+  "start": 297.78,
+  "end": 299.76,
+  "text": " kararlariga baliq emasligini korsatadi.",
+  "words": [
+   {
+    "w": " kararlariga",
+    "s": 297.78,
+    "e": 298.48
+   },
+   {
+    "w": " baliq",
+    "s": 298.48,
+    "e": 298.84
+   },
+   {
+    "w": " emasligini",
+    "s": 298.84,
+    "e": 299.34
+   },
+   {
+    "w": " korsatadi.",
+    "s": 299.34,
+    "e": 299.76
+   }
+  ]
+ },
+ {
+  "start": 299.92,
+  "end": 301.78,
+  "text": " Basqa davlatlar viza tartibini",
+  "words": [
+   {
+    "w": " Basqa",
+    "s": 299.92,
+    "e": 300.6
+   },
+   {
+    "w": " davlatlar",
+    "s": 300.6,
+    "e": 301.04
+   },
+   {
+    "w": " viza",
+    "s": 301.04,
+    "e": 301.36
+   },
+   {
+    "w": " tartibini",
+    "s": 301.36,
+    "e": 301.78
+   }
+  ]
+ },
+ {
+  "start": 301.78,
+  "end": 303.98,
+  "text": " uzgertirishi, ya ki yangi talablar",
+  "words": [
+   {
+    "w": " uzgertirishi,",
+    "s": 301.78,
+    "e": 302.52
+   },
+   {
+    "w": " ya",
+    "s": 302.56,
+    "e": 302.64
+   },
+   {
+    "w": " ki",
+    "s": 302.64,
+    "e": 302.78
+   },
+   {
+    "w": " yangi",
+    "s": 302.78,
+    "e": 303.54
+   },
+   {
+    "w": " talablar",
+    "s": 303.54,
+    "e": 303.98
+   }
+  ]
+ },
+ {
+  "start": 303.98,
+  "end": 305.6,
+  "text": " cariqlishi munkun. Enda",
+  "words": [
+   {
+    "w": " cariqlishi",
+    "s": 303.98,
+    "e": 304.58
+   },
+   {
+    "w": " munkun.",
+    "s": 304.58,
+    "e": 304.8
+   },
+   {
+    "w": " Enda",
+    "s": 304.92,
+    "e": 305.6
+   }
+  ]
+ },
+ {
+  "start": 305.6,
+  "end": 307.5,
+  "text": " kopchilikni qiziktiradiyan sawalgi kelamiz.",
+  "words": [
+   {
+    "w": " kopchilikni",
+    "s": 305.6,
+    "e": 306.12
+   },
+   {
+    "w": " qiziktiradiyan",
+    "s": 306.12,
+    "e": 306.7
+   },
+   {
+    "w": " sawalgi",
+    "s": 306.7,
+    "e": 307.18
+   },
+   {
+    "w": " kelamiz.",
+    "s": 307.18,
+    "e": 307.5
+   }
+  ]
+ },
+ {
+  "start": 307.66,
+  "end": 309.6,
+  "text": " Uzbekistan fqaraları kelecekini",
+  "words": [
+   {
+    "w": " Uzbekistan",
+    "s": 307.66,
+    "e": 308.54
+   },
+   {
+    "w": " fqaraları",
+    "s": 308.54,
+    "e": 309.0
+   },
+   {
+    "w": " kelecekini",
+    "s": 309.0,
+    "e": 309.6
+   }
+  ]
+ },
+ {
+  "start": 309.62,
+  "end": 311.66,
+  "text": " yevropage vizasiz bara aladi mi?",
+  "words": [
+   {
+    "w": " yevropage",
+    "s": 309.62,
+    "e": 310.26
+   },
+   {
+    "w": " vizasiz",
+    "s": 310.26,
+    "e": 310.86
+   },
+   {
+    "w": " bara",
+    "s": 310.86,
+    "e": 311.08
+   },
+   {
+    "w": " aladi",
+    "s": 311.08,
+    "e": 311.52
+   },
+   {
+    "w": " mi?",
+    "s": 311.52,
+    "e": 311.66
+   }
+  ]
+ },
+ {
+  "start": 311.74,
+  "end": 313.52,
+  "text": " Nazari cikhatdan bunda",
+  "words": [
+   {
+    "w": " Nazari",
+    "s": 311.74,
+    "e": 312.46
+   },
+   {
+    "w": " cikhatdan",
+    "s": 312.46,
+    "e": 312.92
+   },
+   {
+    "w": " bunda",
+    "s": 312.92,
+    "e": 313.52
+   }
+  ]
+ },
+ {
+  "start": 313.52,
+  "end": 315.7,
+  "text": " imkaniyat mavjud. Ama buni uchun",
+  "words": [
+   {
+    "w": " imkaniyat",
+    "s": 313.52,
+    "e": 313.94
+   },
+   {
+    "w": " mavjud.",
+    "s": 313.94,
+    "e": 314.26
+   },
+   {
+    "w": " Ama",
+    "s": 314.42,
+    "e": 314.96
+   },
+   {
+    "w": " buni",
+    "s": 314.96,
+    "e": 315.36
+   },
+   {
+    "w": " uchun",
+    "s": 315.36,
+    "e": 315.7
+   }
+  ]
+ },
+ {
+  "start": 315.7,
+  "end": 317.5,
+  "text": " yevropa itifaqi tegishli bahalash",
+  "words": [
+   {
+    "w": " yevropa",
+    "s": 315.7,
+    "e": 316.08
+   },
+   {
+    "w": " itifaqi",
+    "s": 316.08,
+    "e": 316.5
+   },
+   {
+    "w": " tegishli",
+    "s": 316.5,
+    "e": 316.94
+   },
+   {
+    "w": " bahalash",
+    "s": 316.94,
+    "e": 317.5
+   }
+  ]
+ },
+ {
+  "start": 317.5,
+  "end": 319.58,
+  "text": " va siyasi xukuki qararlarini",
+  "words": [
+   {
+    "w": " va",
+    "s": 317.5,
+    "e": 317.66
+   },
+   {
+    "w": " siyasi",
+    "s": 317.66,
+    "e": 318.38
+   },
+   {
+    "w": " xukuki",
+    "s": 318.38,
+    "e": 318.88
+   },
+   {
+    "w": " qararlarini",
+    "s": 318.88,
+    "e": 319.58
+   }
+  ]
+ },
+ {
+  "start": 319.58,
+  "end": 321.52,
+  "text": " amalga ashirish kerek. Vizasiz rejim",
+  "words": [
+   {
+    "w": " amalga",
+    "s": 319.58,
+    "e": 319.86
+   },
+   {
+    "w": " ashirish",
+    "s": 319.86,
+    "e": 320.14
+   },
+   {
+    "w": " kerek.",
+    "s": 320.14,
+    "e": 320.32
+   },
+   {
+    "w": " Vizasiz",
+    "s": 320.46,
+    "e": 321.22
+   },
+   {
+    "w": " rejim",
+    "s": 321.22,
+    "e": 321.52
+   }
+  ]
+ },
+ {
+  "start": 321.52,
+  "end": 323.64,
+  "text": " fakat bir davlatnin xakshi bilan",
+  "words": [
+   {
+    "w": " fakat",
+    "s": 321.52,
+    "e": 322.16
+   },
+   {
+    "w": " bir",
+    "s": 322.16,
+    "e": 322.38
+   },
+   {
+    "w": " davlatnin",
+    "s": 322.38,
+    "e": 322.92
+   },
+   {
+    "w": " xakshi",
+    "s": 322.92,
+    "e": 323.4
+   },
+   {
+    "w": " bilan",
+    "s": 323.4,
+    "e": 323.64
+   }
+  ]
+ },
+ {
+  "start": 323.64,
+  "end": 325.76,
+  "text": " cari itilmaydi. Yevropa itifaqi",
+  "words": [
+   {
+    "w": " cari",
+    "s": 323.64,
+    "e": 323.92
+   },
+   {
+    "w": " itilmaydi.",
+    "s": 323.92,
+    "e": 324.36
+   },
+   {
+    "w": " Yevropa",
+    "s": 324.56,
+    "e": 325.36
+   },
+   {
+    "w": " itifaqi",
+    "s": 325.36,
+    "e": 325.76
+   }
+  ]
+ },
+ {
+  "start": 325.76,
+  "end": 327.56,
+  "text": " migratsiya xafi, xafsizlik,",
+  "words": [
+   {
+    "w": " migratsiya",
+    "s": 325.76,
+    "e": 326.34
+   },
+   {
+    "w": " xafi,",
+    "s": 326.34,
+    "e": 326.7
+   },
+   {
+    "w": " xafsizlik,",
+    "s": 326.76,
+    "e": 327.56
+   }
+  ]
+ },
+ {
+  "start": 327.62,
+  "end": 329.78,
+  "text": " xtisadi alaqalar va basqa mezallarini",
+  "words": [
+   {
+    "w": " xtisadi",
+    "s": 327.62,
+    "e": 328.16
+   },
+   {
+    "w": " alaqalar",
+    "s": 328.16,
+    "e": 328.6
+   },
+   {
+    "w": " va",
+    "s": 328.6,
+    "e": 328.82
+   },
+   {
+    "w": " basqa",
+    "s": 328.82,
+    "e": 329.24
+   },
+   {
+    "w": " mezallarini",
+    "s": 329.24,
+    "e": 329.78
+   }
+  ]
+ },
+ {
+  "start": 329.78,
+  "end": 331.34,
+  "text": " xasabka aladi. Khazir che",
+  "words": [
+   {
+    "w": " xasabka",
+    "s": 329.78,
+    "e": 330.12
+   },
+   {
+    "w": " aladi.",
+    "s": 330.12,
+    "e": 330.38
+   },
+   {
+    "w": " Khazir",
+    "s": 330.52,
+    "e": 331.18
+   },
+   {
+    "w": " che",
+    "s": 331.18,
+    "e": 331.34
+   }
+  ]
+ },
+ {
+  "start": 331.34,
+  "end": 333.5,
+  "text": " Uzbekistanin adi pasportigi ege fqaralar",
+  "words": [
+   {
+    "w": " Uzbekistanin",
+    "s": 331.34,
+    "e": 331.96
+   },
+   {
+    "w": " adi",
+    "s": 331.96,
+    "e": 332.32
+   },
+   {
+    "w": " pasportigi",
+    "s": 332.32,
+    "e": 332.84
+   },
+   {
+    "w": " ege",
+    "s": 332.84,
+    "e": 333.02
+   },
+   {
+    "w": " fqaralar",
+    "s": 333.02,
+    "e": 333.5
+   }
+  ]
+ },
+ {
+  "start": 333.5,
+  "end": 335.44,
+  "text": " shengen khududigi qisqa mudatli",
+  "words": [
+   {
+    "w": " shengen",
+    "s": 333.5,
+    "e": 334.24
+   },
+   {
+    "w": " khududigi",
+    "s": 334.24,
+    "e": 334.64
+   },
+   {
+    "w": " qisqa",
+    "s": 334.64,
+    "e": 335.02
+   },
+   {
+    "w": " mudatli",
+    "s": 335.02,
+    "e": 335.44
+   }
+  ]
+ },
+ {
+  "start": 335.44,
+  "end": 337.56,
+  "text": " safar uchun adatda vizalishlari kerek.",
+  "words": [
+   {
+    "w": " safar",
+    "s": 335.44,
+    "e": 335.78
+   },
+   {
+    "w": " uchun",
+    "s": 335.78,
+    "e": 336.04
+   },
+   {
+    "w": " adatda",
+    "s": 336.04,
+    "e": 336.62
+   },
+   {
+    "w": " vizalishlari",
+    "s": 336.62,
+    "e": 337.38
+   },
+   {
+    "w": " kerek.",
+    "s": 337.38,
+    "e": 337.56
+   }
+  ]
+ },
+ {
+  "start": 337.56,
+  "end": 339.7,
+  "text": " Bundan tashkara vizasiz",
+  "words": [
+   {
+    "w": " Bundan",
+    "s": 337.56,
+    "e": 338.7
+   },
+   {
+    "w": " tashkara",
+    "s": 338.7,
+    "e": 339.0
+   },
+   {
+    "w": " vizasiz",
+    "s": 339.0,
+    "e": 339.7
+   }
+  ]
+ },
+ {
+  "start": 339.7,
+  "end": 340.88,
+  "text": " sayakhat qilish imkaniyati",
+  "words": [
+   {
+    "w": " sayakhat",
+    "s": 339.7,
+    "e": 340.14
+   },
+   {
+    "w": " qilish",
+    "s": 340.14,
+    "e": 340.34
+   },
+   {
+    "w": " imkaniyati",
+    "s": 340.34,
+    "e": 340.88
+   }
+  ]
+ },
+ {
+  "start": 340.88,
+  "end": 342.8,
+  "text": " aftamatik ravisda chetildi ishlaash",
+  "words": [
+   {
+    "w": " aftamatik",
+    "s": 340.88,
+    "e": 341.54
+   },
+   {
+    "w": " ravisda",
+    "s": 341.54,
+    "e": 341.86
+   },
+   {
+    "w": " chetildi",
+    "s": 341.86,
+    "e": 342.36
+   },
+   {
+    "w": " ishlaash",
+    "s": 342.36,
+    "e": 342.8
+   }
+  ]
+ },
+ {
+  "start": 342.8,
+  "end": 344.76,
+  "text": " ya ki daimi yashash xukuni bermaydi.",
+  "words": [
+   {
+    "w": " ya",
+    "s": 342.8,
+    "e": 342.92
+   },
+   {
+    "w": " ki",
+    "s": 342.92,
+    "e": 343.08
+   },
+   {
+    "w": " daimi",
+    "s": 343.08,
+    "e": 343.56
+   },
+   {
+    "w": " yashash",
+    "s": 343.56,
+    "e": 344.02
+   },
+   {
+    "w": " xukuni",
+    "s": 344.02,
+    "e": 344.36
+   },
+   {
+    "w": " bermaydi.",
+    "s": 344.36,
+    "e": 344.76
+   }
+  ]
+ },
+ {
+  "start": 344.86,
+  "end": 347.42,
+  "text": " Masalan shengen khududigi qisqa mudatli",
+  "words": [
+   {
+    "w": " Masalan",
+    "s": 344.86,
+    "e": 345.62
+   },
+   {
+    "w": " shengen",
+    "s": 345.62,
+    "e": 346.18
+   },
+   {
+    "w": " khududigi",
+    "s": 346.18,
+    "e": 346.6
+   },
+   {
+    "w": " qisqa",
+    "s": 346.6,
+    "e": 347.02
+   },
+   {
+    "w": " mudatli",
+    "s": 347.02,
+    "e": 347.42
+   }
+  ]
+ },
+ {
+  "start": 347.42,
+  "end": 349.8,
+  "text": " vizasiz rejimgi ege davlatlari fqaralarixam",
+  "words": [
+   {
+    "w": " vizasiz",
+    "s": 347.42,
+    "e": 348.04
+   },
+   {
+    "w": " rejimgi",
+    "s": 348.04,
+    "e": 348.46
+   },
+   {
+    "w": " ege",
+    "s": 348.46,
+    "e": 348.56
+   },
+   {
+    "w": " davlatlari",
+    "s": 348.56,
+    "e": 349.12
+   },
+   {
+    "w": " fqaralarixam",
+    "s": 349.12,
+    "e": 349.8
+   }
+  ]
+ },
+ {
+  "start": 349.8,
+  "end": 351.56,
+  "text": " adatda 180 kun",
+  "words": [
+   {
+    "w": " adatda",
+    "s": 349.8,
+    "e": 350.44
+   },
+   {
+    "w": " 180",
+    "s": 350.44,
+    "e": 350.94
+   },
+   {
+    "w": " kun",
+    "s": 350.94,
+    "e": 351.56
+   }
+  ]
+ },
+ {
+  "start": 351.56,
+  "end": 353.3,
+  "text": " ichida 90 kundan artiqal almaydi.",
+  "words": [
+   {
+    "w": " ichida",
+    "s": 351.56,
+    "e": 351.8
+   },
+   {
+    "w": " 90",
+    "s": 351.8,
+    "e": 352.12
+   },
+   {
+    "w": " kundan",
+    "s": 352.12,
+    "e": 352.54
+   },
+   {
+    "w": " artiqal",
+    "s": 352.54,
+    "e": 352.94
+   },
+   {
+    "w": " almaydi.",
+    "s": 352.94,
+    "e": 353.3
+   }
+  ]
+ },
+ {
+  "start": 353.48,
+  "end": 355.7,
+  "text": " Ishlaash va uzaq mudat yashash uchun",
+  "words": [
+   {
+    "w": " Ishlaash",
+    "s": 353.48,
+    "e": 354.28
+   },
+   {
+    "w": " va",
+    "s": 354.28,
+    "e": 354.42
+   },
+   {
+    "w": " uzaq",
+    "s": 354.42,
+    "e": 354.76
+   },
+   {
+    "w": " mudat",
+    "s": 354.76,
+    "e": 355.08
+   },
+   {
+    "w": " yashash",
+    "s": 355.08,
+    "e": 355.44
+   },
+   {
+    "w": " uchun",
+    "s": 355.44,
+    "e": 355.7
+   }
+  ]
+ },
+ {
+  "start": 355.7,
+  "end": 357.34,
+  "text": " alaqoda ruqsat talab qilinishi munkun.",
+  "words": [
+   {
+    "w": " alaqoda",
+    "s": 355.7,
+    "e": 356.2
+   },
+   {
+    "w": " ruqsat",
+    "s": 356.2,
+    "e": 356.52
+   },
+   {
+    "w": " talab",
+    "s": 356.52,
+    "e": 356.78
+   },
+   {
+    "w": " qilinishi",
+    "s": 356.78,
+    "e": 357.06
+   },
+   {
+    "w": " munkun.",
+    "s": 357.06,
+    "e": 357.34
+   }
+  ]
+ },
+ {
+  "start": 357.7,
+  "end": 359.86,
+  "text": " Shundaykan, Uzbekistan pasporti",
+  "words": [
+   {
+    "w": " Shundaykan,",
+    "s": 357.7,
+    "e": 358.5
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 358.66,
+    "e": 359.24
+   },
+   {
+    "w": " pasporti",
+    "s": 359.24,
+    "e": 359.86
+   }
+  ]
+ },
+ {
+  "start": 359.86,
+  "end": 361.46,
+  "text": " qachank cheyada. Bungi",
+  "words": [
+   {
+    "w": " qachank",
+    "s": 359.86,
+    "e": 360.26
+   },
+   {
+    "w": " cheyada.",
+    "s": 360.26,
+    "e": 360.58
+   },
+   {
+    "w": " Bungi",
+    "s": 360.68,
+    "e": 361.46
+   }
+  ]
+ },
+ {
+  "start": 361.46,
+  "end": 363.12,
+  "text": " anıq sana aytish qiyin. Ama",
+  "words": [
+   {
+    "w": " anıq",
+    "s": 361.46,
+    "e": 361.88
+   },
+   {
+    "w": " sana",
+    "s": 361.88,
+    "e": 362.08
+   },
+   {
+    "w": " aytish",
+    "s": 362.08,
+    "e": 362.34
+   },
+   {
+    "w": " qiyin.",
+    "s": 362.34,
+    "e": 362.62
+   },
+   {
+    "w": " Ama",
+    "s": 362.7,
+    "e": 363.12
+   }
+  ]
+ },
+ {
+  "start": 363.12,
+  "end": 365.24,
+  "text": " yangi xalqara kelishi ular, migratsiya",
+  "words": [
+   {
+    "w": " yangi",
+    "s": 363.12,
+    "e": 363.7
+   },
+   {
+    "w": " xalqara",
+    "s": 363.7,
+    "e": 363.98
+   },
+   {
+    "w": " kelishi",
+    "s": 363.98,
+    "e": 364.38
+   },
+   {
+    "w": " ular,",
+    "s": 364.38,
+    "e": 364.56
+   },
+   {
+    "w": " migratsiya",
+    "s": 364.66,
+    "e": 365.24
+   }
+  ]
+ },
+ {
+  "start": 365.24,
+  "end": 367.28,
+  "text": " boyche xamkarlik, xafsizlik tizimlari",
+  "words": [
+   {
+    "w": " boyche",
+    "s": 365.24,
+    "e": 365.48
+   },
+   {
+    "w": " xamkarlik,",
+    "s": 365.48,
+    "e": 366.1
+   },
+   {
+    "w": " xafsizlik",
+    "s": 366.18,
+    "e": 366.8
+   },
+   {
+    "w": " tizimlari",
+    "s": 366.8,
+    "e": 367.28
+   }
+  ]
+ },
+ {
+  "start": 367.28,
+  "end": 368.56,
+  "text": " va diplomatik munasabatlar",
+  "words": [
+   {
+    "w": " va",
+    "s": 367.28,
+    "e": 367.38
+   },
+   {
+    "w": " diplomatik",
+    "s": 367.38,
+    "e": 367.96
+   },
+   {
+    "w": " munasabatlar",
+    "s": 367.96,
+    "e": 368.56
+   }
+  ]
+ },
+ {
+  "start": 368.56,
+  "end": 370.6,
+  "text": " uning imkaniyatlarini kengetirishi munkun.",
+  "words": [
+   {
+    "w": " uning",
+    "s": 368.56,
+    "e": 369.08
+   },
+   {
+    "w": " imkaniyatlarini",
+    "s": 369.08,
+    "e": 369.8
+   },
+   {
+    "w": " kengetirishi",
+    "s": 369.8,
+    "e": 370.32
+   },
+   {
+    "w": " munkun.",
+    "s": 370.32,
+    "e": 370.6
+   }
+  ]
+ },
+ {
+  "start": 370.76,
+  "end": 373.12,
+  "text": " Bugun dunyada insanin qaysi",
+  "words": [
+   {
+    "w": " Bugun",
+    "s": 370.76,
+    "e": 371.62
+   },
+   {
+    "w": " dunyada",
+    "s": 371.62,
+    "e": 371.96
+   },
+   {
+    "w": " insanin",
+    "s": 371.96,
+    "e": 372.62
+   },
+   {
+    "w": " qaysi",
+    "s": 372.62,
+    "e": 373.12
+   }
+  ]
+ },
+ {
+  "start": 373.12,
+  "end": 374.76,
+  "text": " mamlakati toghulgani uning sayakhat",
+  "words": [
+   {
+    "w": " mamlakati",
+    "s": 373.12,
+    "e": 373.52
+   },
+   {
+    "w": " toghulgani",
+    "s": 373.52,
+    "e": 374.1
+   },
+   {
+    "w": " uning",
+    "s": 374.1,
+    "e": 374.32
+   },
+   {
+    "w": " sayakhat",
+    "s": 374.32,
+    "e": 374.76
+   }
+  ]
+ },
+ {
+  "start": 374.76,
+  "end": 376.88,
+  "text": " imkaniyatlariga sezillarili tasir korsatmakti.",
+  "words": [
+   {
+    "w": " imkaniyatlariga",
+    "s": 374.76,
+    "e": 375.4
+   },
+   {
+    "w": " sezillarili",
+    "s": 375.4,
+    "e": 376.0
+   },
+   {
+    "w": " tasir",
+    "s": 376.0,
+    "e": 376.38
+   },
+   {
+    "w": " korsatmakti.",
+    "s": 376.38,
+    "e": 376.88
+   }
+  ]
+ },
+ {
+  "start": 377.02,
+  "end": 378.92,
+  "text": " Bar insan dunyanin kattag qismiga",
+  "words": [
+   {
+    "w": " Bar",
+    "s": 377.02,
+    "e": 377.52
+   },
+   {
+    "w": " insan",
+    "s": 377.52,
+    "e": 377.72
+   },
+   {
+    "w": " dunyanin",
+    "s": 377.72,
+    "e": 378.3
+   },
+   {
+    "w": " kattag",
+    "s": 378.3,
+    "e": 378.64
+   },
+   {
+    "w": " qismiga",
+    "s": 378.64,
+    "e": 378.92
+   }
+  ]
+ },
+ {
+  "start": 378.92,
+  "end": 380.3,
+  "text": " faqat pasporti blankira aladi.",
+  "words": [
+   {
+    "w": " faqat",
+    "s": 378.92,
+    "e": 379.26
+   },
+   {
+    "w": " pasporti",
+    "s": 379.26,
+    "e": 379.74
+   },
+   {
+    "w": " blankira",
+    "s": 379.74,
+    "e": 380.06
+   },
+   {
+    "w": " aladi.",
+    "s": 380.06,
+    "e": 380.3
+   }
+  ]
+ },
+ {
+  "start": 380.4,
+  "end": 382.6,
+  "text": " Bashqa seyse, ayini manzilga barish uchun",
+  "words": [
+   {
+    "w": " Bashqa",
+    "s": 380.4,
+    "e": 380.9
+   },
+   {
+    "w": " seyse,",
+    "s": 380.9,
+    "e": 381.2
+   },
+   {
+    "w": " ayini",
+    "s": 381.24,
+    "e": 381.68
+   },
+   {
+    "w": " manzilga",
+    "s": 381.68,
+    "e": 382.06
+   },
+   {
+    "w": " barish",
+    "s": 382.06,
+    "e": 382.32
+   },
+   {
+    "w": " uchun",
+    "s": 382.32,
+    "e": 382.6
+   }
+  ]
+ },
+ {
+  "start": 382.6,
+  "end": 384.5,
+  "text": " bir neche basqishli tekshirudan otish kerek.",
+  "words": [
+   {
+    "w": " bir",
+    "s": 382.6,
+    "e": 382.84
+   },
+   {
+    "w": " neche",
+    "s": 382.84,
+    "e": 383.12
+   },
+   {
+    "w": " basqishli",
+    "s": 383.12,
+    "e": 383.6
+   },
+   {
+    "w": " tekshirudan",
+    "s": 383.6,
+    "e": 384.1
+   },
+   {
+    "w": " otish",
+    "s": 384.1,
+    "e": 384.32
+   },
+   {
+    "w": " kerek.",
+    "s": 384.32,
+    "e": 384.5
+   }
+  ]
+ },
+ {
+  "start": 384.64,
+  "end": 386.74,
+  "text": " Bu fark xar daimxam insanin",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 384.64,
+    "e": 385.12
+   },
+   {
+    "w": " fark",
+    "s": 385.12,
+    "e": 385.38
+   },
+   {
+    "w": " xar",
+    "s": 385.38,
+    "e": 385.84
+   },
+   {
+    "w": " daimxam",
+    "s": 385.84,
+    "e": 386.22
+   },
+   {
+    "w": " insanin",
+    "s": 386.22,
+    "e": 386.74
+   }
+  ]
+ },
+ {
+  "start": 386.74,
+  "end": 388.8,
+  "text": " shaksii imkaniyati ya ki qanungi",
+  "words": [
+   {
+    "w": " shaksii",
+    "s": 386.74,
+    "e": 387.22
+   },
+   {
+    "w": " imkaniyati",
+    "s": 387.22,
+    "e": 387.82
+   },
+   {
+    "w": " ya",
+    "s": 387.82,
+    "e": 387.92
+   },
+   {
+    "w": " ki",
+    "s": 387.92,
+    "e": 388.04
+   },
+   {
+    "w": " qanungi",
+    "s": 388.04,
+    "e": 388.8
+   }
+  ]
+ },
+ {
+  "start": 388.8,
+  "end": 389.88,
+  "text": " khurmatini aksittirmaydi.",
+  "words": [
+   {
+    "w": " khurmatini",
+    "s": 388.8,
+    "e": 389.26
+   },
+   {
+    "w": " aksittirmaydi.",
+    "s": 389.26,
+    "e": 389.88
+   }
+  ]
+ },
+ {
+  "start": 390.02,
+  "end": 392.08,
+  "text": " U davlatlar ortastagi siyasi,",
+  "words": [
+   {
+    "w": " U",
+    "s": 390.02,
+    "e": 390.44
+   },
+   {
+    "w": " davlatlar",
+    "s": 390.44,
+    "e": 390.94
+   },
+   {
+    "w": " ortastagi",
+    "s": 390.94,
+    "e": 391.38
+   },
+   {
+    "w": " siyasi,",
+    "s": 391.38,
+    "e": 392.08
+   }
+  ]
+ },
+ {
+  "start": 392.08,
+  "end": 394.3,
+  "text": " iqtisadi va xquqi munasabatlari",
+  "words": [
+   {
+    "w": " iqtisadi",
+    "s": 392.08,
+    "e": 392.86
+   },
+   {
+    "w": " va",
+    "s": 392.86,
+    "e": 393.08
+   },
+   {
+    "w": " xquqi",
+    "s": 393.08,
+    "e": 393.62
+   },
+   {
+    "w": " munasabatlari",
+    "s": 393.62,
+    "e": 394.3
+   }
+  ]
+ },
+ {
+  "start": 394.3,
+  "end": 394.86,
+  "text": " natijastar.",
+  "words": [
+   {
+    "w": " natijastar.",
+    "s": 394.3,
+    "e": 394.86
+   }
+  ]
+ },
+ {
+  "start": 395.18,
+  "end": 397.6,
+  "text": " Qulasashu ki, Uzbekistan fqaralarinin",
+  "words": [
+   {
+    "w": " Qulasashu",
+    "s": 395.18,
+    "e": 396.02
+   },
+   {
+    "w": " ki,",
+    "s": 396.02,
+    "e": 396.18
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 396.28,
+    "e": 396.88
+   },
+   {
+    "w": " fqaralarinin",
+    "s": 396.88,
+    "e": 397.6
+   }
+  ]
+ },
+ {
+  "start": 397.6,
+  "end": 399.64,
+  "text": " koplab mamlakatlarga vizasiz baral",
+  "words": [
+   {
+    "w": " koplab",
+    "s": 397.6,
+    "e": 398.06
+   },
+   {
+    "w": " mamlakatlarga",
+    "s": 398.06,
+    "e": 398.68
+   },
+   {
+    "w": " vizasiz",
+    "s": 398.68,
+    "e": 399.36
+   },
+   {
+    "w": " baral",
+    "s": 399.36,
+    "e": 399.64
+   }
+  ]
+ },
+ {
+  "start": 399.64,
+  "end": 400.98,
+  "text": " masliginin yagana sababi yok.",
+  "words": [
+   {
+    "w": " masliginin",
+    "s": 399.64,
+    "e": 400.06
+   },
+   {
+    "w": " yagana",
+    "s": 400.06,
+    "e": 400.46
+   },
+   {
+    "w": " sababi",
+    "s": 400.46,
+    "e": 400.8
+   },
+   {
+    "w": " yok.",
+    "s": 400.8,
+    "e": 400.98
+   }
+  ]
+ },
+ {
+  "start": 401.14,
+  "end": 403.66,
+  "text": " Bunga migratsi siyasati, xafsizlik,",
+  "words": [
+   {
+    "w": " Bunga",
+    "s": 401.14,
+    "e": 401.78
+   },
+   {
+    "w": " migratsi",
+    "s": 401.78,
+    "e": 402.36
+   },
+   {
+    "w": " siyasati,",
+    "s": 402.36,
+    "e": 402.84
+   },
+   {
+    "w": " xafsizlik,",
+    "s": 402.92,
+    "e": 403.66
+   }
+  ]
+ },
+ {
+  "start": 403.84,
+  "end": 405.64,
+  "text": " iqtisadi amillar va davlatlara",
+  "words": [
+   {
+    "w": " iqtisadi",
+    "s": 403.84,
+    "e": 404.26
+   },
+   {
+    "w": " amillar",
+    "s": 404.26,
+    "e": 404.84
+   },
+   {
+    "w": " va",
+    "s": 404.84,
+    "e": 405.0
+   },
+   {
+    "w": " davlatlara",
+    "s": 405.0,
+    "e": 405.64
+   }
+  ]
+ },
+ {
+  "start": 405.64,
+  "end": 407.28,
+  "text": " ra kelishular birgalikta tasirqilad.",
+  "words": [
+   {
+    "w": " ra",
+    "s": 405.64,
+    "e": 405.78
+   },
+   {
+    "w": " kelishular",
+    "s": 405.78,
+    "e": 406.18
+   },
+   {
+    "w": " birgalikta",
+    "s": 406.18,
+    "e": 406.78
+   },
+   {
+    "w": " tasirqilad.",
+    "s": 406.78,
+    "e": 407.28
+   }
+  ]
+ },
+ {
+  "start": 407.42,
+  "end": 409.64,
+  "text": " Eng asasi sawalisa shunday.",
+  "words": [
+   {
+    "w": " Eng",
+    "s": 407.42,
+    "e": 408.26
+   },
+   {
+    "w": " asasi",
+    "s": 408.26,
+    "e": 408.62
+   },
+   {
+    "w": " sawalisa",
+    "s": 408.62,
+    "e": 409.12
+   },
+   {
+    "w": " shunday.",
+    "s": 409.12,
+    "e": 409.64
+   }
+  ]
+ },
+ {
+  "start": 409.74,
+  "end": 411.88,
+  "text": " Kelijakta Uzbekistan pasporti blan",
+  "words": [
+   {
+    "w": " Kelijakta",
+    "s": 409.74,
+    "e": 410.58
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 410.58,
+    "e": 411.16
+   },
+   {
+    "w": " pasporti",
+    "s": 411.16,
+    "e": 411.62
+   },
+   {
+    "w": " blan",
+    "s": 411.62,
+    "e": 411.88
+   }
+  ]
+ },
+ {
+  "start": 411.88,
+  "end": 413.72,
+  "text": " Evropa, Amerika va bashqa",
+  "words": [
+   {
+    "w": " Evropa,",
+    "s": 411.88,
+    "e": 412.66
+   },
+   {
+    "w": " Amerika",
+    "s": 412.68,
+    "e": 413.06
+   },
+   {
+    "w": " va",
+    "s": 413.06,
+    "e": 413.34
+   },
+   {
+    "w": " bashqa",
+    "s": 413.34,
+    "e": 413.72
+   }
+  ]
+ },
+ {
+  "start": 413.72,
+  "end": 415.6,
+  "text": " rivajlangan davlatlarga vizasiz",
+  "words": [
+   {
+    "w": " rivajlangan",
+    "s": 413.72,
+    "e": 414.14
+   },
+   {
+    "w": " davlatlarga",
+    "s": 414.14,
+    "e": 414.7
+   },
+   {
+    "w": " vizasiz",
+    "s": 414.7,
+    "e": 415.6
+   }
+  ]
+ },
+ {
+  "start": 415.6,
+  "end": 417.58,
+  "text": " sayakhat qilish adati xalga elanishi munkum?",
+  "words": [
+   {
+    "w": " sayakhat",
+    "s": 415.6,
+    "e": 416.0
+   },
+   {
+    "w": " qilish",
+    "s": 416.0,
+    "e": 416.26
+   },
+   {
+    "w": " adati",
+    "s": 416.26,
+    "e": 416.66
+   },
+   {
+    "w": " xalga",
+    "s": 416.66,
+    "e": 416.98
+   },
+   {
+    "w": " elanishi",
+    "s": 416.98,
+    "e": 417.32
+   },
+   {
+    "w": " munkum?",
+    "s": 417.32,
+    "e": 417.58
+   }
+  ]
+ },
+ {
+  "start": 417.92,
+  "end": 419.66,
+  "text": " Bu sawalga jawab na faqat",
+  "words": [
+   {
+    "w": " Bu",
+    "s": 417.92,
+    "e": 418.34
+   },
+   {
+    "w": " sawalga",
+    "s": 418.34,
+    "e": 418.72
+   },
+   {
+    "w": " jawab",
+    "s": 418.72,
+    "e": 419.16
+   },
+   {
+    "w": " na",
+    "s": 419.16,
+    "e": 419.3
+   },
+   {
+    "w": " faqat",
+    "s": 419.3,
+    "e": 419.66
+   }
+  ]
+ },
+ {
+  "start": 419.66,
+  "end": 421.94,
+  "text": " Uzbekistanning, balki bashqa davlatlarinin",
+  "words": [
+   {
+    "w": " Uzbekistanning,",
+    "s": 419.66,
+    "e": 420.3
+   },
+   {
+    "w": " balki",
+    "s": 420.36,
+    "e": 420.74
+   },
+   {
+    "w": " bashqa",
+    "s": 420.74,
+    "e": 421.32
+   },
+   {
+    "w": " davlatlarinin",
+    "s": 421.32,
+    "e": 421.94
+   }
+  ]
+ },
+ {
+  "start": 421.94,
+  "end": 422.98,
+  "text": " xam qararlarga baliq.",
+  "words": [
+   {
+    "w": " xam",
+    "s": 421.94,
+    "e": 422.14
+   },
+   {
+    "w": " qararlarga",
+    "s": 422.14,
+    "e": 422.66
+   },
+   {
+    "w": " baliq.",
+    "s": 422.66,
+    "e": 422.98
+   }
+  ]
+ },
+ {
+  "start": 423.16,
+  "end": 425.26,
+  "text": " Siznin qe, Uzbekistan fqaraları",
+  "words": [
+   {
+    "w": " Siznin",
+    "s": 423.16,
+    "e": 423.86
+   },
+   {
+    "w": " qe,",
+    "s": 423.86,
+    "e": 424.1
+   },
+   {
+    "w": " Uzbekistan",
+    "s": 424.1,
+    "e": 424.72
+   },
+   {
+    "w": " fqaraları",
+    "s": 424.72,
+    "e": 425.26
+   }
+  ]
+ },
+ {
+  "start": 425.26,
+  "end": 427.2,
+  "text": " brinchi nababatda qaysi mamlakatlarga",
+  "words": [
+   {
+    "w": " brinchi",
+    "s": 425.26,
+    "e": 425.82
+   },
+   {
+    "w": " nababatda",
+    "s": 425.82,
+    "e": 426.2
+   },
+   {
+    "w": " qaysi",
+    "s": 426.2,
+    "e": 426.62
+   },
+   {
+    "w": " mamlakatlarga",
+    "s": 426.62,
+    "e": 427.2
+   }
+  ]
+ },
+ {
+  "start": 427.2,
+  "end": 429.14,
+  "text": " vizasiz barish imqaniyatigi ege bolish gerek.",
+  "words": [
+   {
+    "w": " vizasiz",
+    "s": 427.2,
+    "e": 427.78
+   },
+   {
+    "w": " barish",
+    "s": 427.78,
+    "e": 428.06
+   },
+   {
+    "w": " imqaniyatigi",
+    "s": 428.06,
+    "e": 428.5
+   },
+   {
+    "w": " ege",
+    "s": 428.5,
+    "e": 428.66
+   },
+   {
+    "w": " bolish",
+    "s": 428.66,
+    "e": 428.96
+   },
+   {
+    "w": " gerek.",
+    "s": 428.96,
+    "e": 429.14
+   }
+  ]
+ },
+ {
+  "start": 429.44,
+  "end": 431.26,
+  "text": " Fikringizni izoklarda yazm qaldirin.",
+  "words": [
+   {
+    "w": " Fikringizni",
+    "s": 429.44,
+    "e": 430.14
+   },
+   {
+    "w": " izoklarda",
+    "s": 430.14,
+    "e": 430.66
+   },
+   {
+    "w": " yazm",
+    "s": 430.66,
+    "e": 430.94
+   },
+   {
+    "w": " qaldirin.",
+    "s": 430.94,
+    "e": 431.26
+   }
+  ]
+ }
+]

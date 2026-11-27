@@ -1,0 +1,1057 @@
+[
+ {
+  "t": 0.0,
+  "clip": [
+   "puaAi0znpNY",
+   141.0
+  ],
+  "why": "O‘zbekiston pasportining yaqin plani — savol pasport haqida",
+  "title": "Nega o‘zbekistonliklar ko‘p davlatlarga vizasiz bora olmaydi?",
+  "end": 3.5
+ },
+ {
+  "t": 3.5,
+  "clip": [
+   "puaAi0znpNY",
+   95.5
+  ],
+  "why": "O‘zbekiston pasporti — 'pasportimizning kuchi'",
+  "end": 5.8
+ },
+ {
+  "t": 5.8,
+  "clip": [
+   "zp8l2szeyXU",
+   29.0
+  ],
+  "why": "Toshkent xalqaro aeroportiga qo‘nayotgan samolyot — 'bir xil samolyot'",
+  "end": 7.4
+ },
+ {
+  "t": 7.4,
+  "clip": [
+   "zp8l2szeyXU",
+   34.2
+  ],
+  "why": "'Tashkent International Airport' yozuvi — 'bir xil aeroport'",
+  "end": 9.1
+ },
+ {
+  "t": 9.1,
+  "clip": [
+   "krWASsWstdk",
+   61.0
+  ],
+  "why": "Toshkent aeroportidagi yo‘lovchilar — 'ikki yo‘lovchi'",
+  "end": 12.45
+ },
+ {
+  "t": 12.45,
+  "g": "split",
+  "left": [
+   "krWASsWstdk",
+   121.0
+  ],
+  "right": [
+   "xzLKLadXmMg",
+   88.0
+  ],
+  "leftLabel": "1-yo‘lovchi: chipta + pasport",
+  "rightLabel": "2-yo‘lovchi: elchixona + hujjatlar",
+  "why": "Ikki yo‘lovchi qiyosi: biri to‘g‘ridan-to‘g‘ri chiqadi, ikkinchisi hujjat topshiradi",
+  "end": 16.9
+ },
+ {
+  "t": 16.9,
+  "g": "steps",
+  "title": "Ikkinchi yo‘lovchining yo‘li",
+  "items": [
+   "Elchixonaga murojaat",
+   "Hujjatlar to‘plami",
+   "Bank hisobidagi mablag‘",
+   "Javobni kutish — haftalab"
+  ],
+  "bg": [
+   "q7m_cbfuECc",
+   104.0
+  ],
+  "why": "Audiodagi to‘rt bosqich aynan sanab o‘tiladi",
+  "end": 25.3
+ },
+ {
+  "t": 25.3,
+  "g": "typo",
+  "text": "Nega?",
+  "sub": "",
+  "bg": [
+   "83ehnbzrYhs",
+   140.0
+  ],
+  "why": "Ritorik savol",
+  "end": 26.0
+ },
+ {
+  "t": 26.0,
+  "clip": [
+   "83ehnbzrYhs",
+   140.0
+  ],
+  "why": "Toshkent aeroportidagi oddiy sayohatchilar — 'ikkalasi ham oddiy sayohatga chiqmoqchi'",
+  "end": 31.65
+ },
+ {
+  "t": 31.65,
+  "g": "typo",
+  "text": "Farq — pasportda.",
+  "sub": "",
+  "bg": [
+   "puaAi0znpNY",
+   141.0
+  ],
+  "sfx": "impact",
+  "why": "Asosiy tezis, pasport fonida",
+  "end": 33.6
+ },
+ {
+  "t": 33.6,
+  "clip": [
+   "51KWHFxcXqE",
+   66.3
+  ],
+  "why": "O‘zbekistonda xorijga chiqish pasportini rasmiylashtirish (UZREPORT arxivi) — 'O‘zbekiston fuqarolari'",
+  "end": 37.4
+ },
+ {
+  "t": 37.4,
+  "g": "visaMap",
+  "items": [
+   [
+    "AQSh",
+    "Viza talab etiladi"
+   ],
+   [
+    "Buyuk Britaniya",
+    "Viza talab etiladi"
+   ],
+   [
+    "Shengen hududi",
+    "Viza talab etiladi"
+   ]
+  ],
+  "bg": [
+   "50rDPztFjOA",
+   64.0
+  ],
+  "why": "Aytilgan uch yo‘nalish — AQSh, Buyuk Britaniya, Shengen",
+  "end": 41.3
+ },
+ {
+  "t": 41.3,
+  "clip": [
+   "50rDPztFjOA",
+   64.0
+  ],
+  "why": "Shengen zonasi xaritasi (DW) — 'Yevropaning Shengen hududi'",
+  "end": 43.2
+ },
+ {
+  "t": 43.2,
+  "clip": [
+   "81SnURRlTm8",
+   19.0
+  ],
+  "why": "Shengen chegara nazorat punkti (Council of the EU) — 'oldindan viza olish talab etiladi'",
+  "end": 45.55
+ },
+ {
+  "t": 45.55,
+  "clip": [
+   "puaAi0znpNY",
+   141.5
+  ],
+  "why": "O‘zbekiston pasporti — 'O‘zbekiston pasporti bilan'",
+  "end": 48.0
+ },
+ {
+  "t": 48.0,
+  "clip": [
+   "2zpovXYgDVw",
+   21.0
+  ],
+  "why": "Uzbekistan Airways samolyoti Toshkentda — xorijga safar",
+  "end": 50.9
+ },
+ {
+  "t": 50.9,
+  "clip": [
+   "1fUwPchZvX4",
+   110.5
+  ],
+  "why": "Singapur pasporti (The Straits Times) — 'ayrim davlatlarning fuqarolari'",
+  "end": 53.1
+ },
+ {
+  "t": 53.1,
+  "clip": [
+   "iBrQvLDCYcQ",
+   0.5
+  ],
+  "why": "Henley & Partners rasmiy videosi: dunyo pasportlari — 'yuzlab yo‘nalishlarga'",
+  "end": 55.5
+ },
+ {
+  "t": 55.5,
+  "clip": [
+   "q7m_cbfuECc",
+   104.0
+  ],
+  "overlay": "Iqtisodiyot?",
+  "why": "Dollar banknotlari (Kun.uz) — 'iqtisodiyot muhimmi?'",
+  "end": 57.6
+ },
+ {
+  "t": 57.6,
+  "clip": [
+   "57smEMRrGto",
+   13.5
+  ],
+  "overlay": "Migratsiya?",
+  "why": "O‘zbek mehnat muhojirlari (BBC O‘zbek) — 'migratsiyami'",
+  "end": 58.85
+ },
+ {
+  "t": 58.85,
+  "clip": [
+   "41u6gDFuhBM",
+   37.0
+  ],
+  "overlay": "Xalqaro siyosat?",
+  "why": "Mirziyoyev–To‘qayev muzokaralari — 'xalqaro siyosatmi'",
+  "end": 60.2
+ },
+ {
+  "t": 60.2,
+  "clip": [
+   "zp8l2szeyXU",
+   30.0
+  ],
+  "why": "Toshkentga qo‘nayotgan samolyot — 'imkoniyatlar kengayishi mumkinmi'",
+  "end": 65.0
+ },
+ {
+  "t": 65.0,
+  "g": "chapter",
+  "num": "",
+  "title": "Faktlar",
+  "sub": "Henley Passport Index · 2026",
+  "why": "Bo‘lim boshi: 'faktlar asosida ko‘rib chiqamiz'",
+  "end": 68.9
+ },
+ {
+  "t": 68.9,
+  "clip": [
+   "qB21Wl4n3cs",
+   13.5
+  ],
+  "why": "Henley Passport Index grafikasi (CNN) — indeks nomi aytiladi",
+  "end": 71.3
+ },
+ {
+  "t": 71.3,
+  "clip": [
+   "cuOnT08mFxc",
+   0.6
+  ],
+  "why": "UZREPORT TV, 23-oktabr 2026: 'O‘zbekiston pasporti xalqaro reytingda 9 pog‘ona pastladi'",
+  "end": 76.7
+ },
+ {
+  "t": 76.7,
+  "g": "rank",
+  "rank": 82,
+  "dest": 57,
+  "why": "Audiodagi raqamlar: 82-o‘rin, 57 ta yo‘nalish",
+  "end": 84.75
+ },
+ {
+  "t": 84.75,
+  "clip": [
+   "cuOnT08mFxc",
+   23.0
+  ],
+  "why": "UZREPORT: Singapur yo‘nalishi grafikasi — 'Singapur pasporti bilan'",
+  "end": 87.1
+ },
+ {
+  "t": 87.1,
+  "clip": [
+   "cuOnT08mFxc",
+   25.9
+  ],
+  "why": "UZREPORT: '193 ta yo‘nalish' va Singapur '1-o‘rin' — aynan aytilgan raqam",
+  "end": 91.3
+ },
+ {
+  "t": 91.3,
+  "clip": [
+   "KEzf82ZmLxM",
+   63.5
+  ],
+  "why": "Qozog‘iston pasporti (Jibek Joly) — 'Qozog‘iston pasporti uchun 77 ta'",
+  "end": 93.35
+ },
+ {
+  "t": 93.35,
+  "clip": [
+   "QS4NvgZMgVs",
+   140.0
+  ],
+  "why": "Qirg‘iziston pasporti (Kabar arxivi) — 'Qirg‘iziston uchun'",
+  "end": 96.5
+ },
+ {
+  "t": 96.5,
+  "g": "bars",
+  "title": "2026-yil oktabr: vizasiz va kelganda viza yo‘nalishlari",
+  "bars": [
+   [
+    "Singapur",
+    193
+   ],
+   [
+    "Qozog‘iston",
+    77
+   ],
+   [
+    "Qirg‘iziston",
+    59
+   ],
+   [
+    "O‘zbekiston",
+    57
+   ]
+  ],
+  "note": "Raqamlar audioda aytilgan Henley Passport Index ma’lumotlari",
+  "why": "Aytilgan to‘rt raqamni bitta grafikda taqqoslash",
+  "end": 101.4
+ },
+ {
+  "t": 101.4,
+  "g": "split57",
+  "title": "57 ta yo‘nalish",
+  "left": "Oldindan vizasiz kirish",
+  "right": "Yetib borganda viza",
+  "why": "'barchasi mutlaqo vizasiz degani emas' — ikki toifa (aniq soni aytilmagani uchun raqam qo‘yilmadi)",
+  "end": 106.2
+ },
+ {
+  "t": 106.2,
+  "clip": [
+   "krWASsWstdk",
+   181.0
+  ],
+  "why": "Toshkent aeroportidan Uzbekistan Airways samolyoti — 'aeroportga yetib borgandan keyin'",
+  "end": 110.45
+ },
+ {
+  "t": 110.45,
+  "g": "typo",
+  "text": "Nega bunday katta farq?",
+  "sub": "",
+  "bg": [
+   "81SnURRlTm8",
+   141.0
+  ],
+  "why": "Ritorik savol; fonda Council of the EU: viza rad etish grafikasi",
+  "end": 114.3
+ },
+ {
+  "t": 114.3,
+  "g": "chapter",
+  "num": "1",
+  "title": "Migratsiya siyosati",
+  "sub": "Birinchi sabab",
+  "why": "Bo‘lim boshi",
+  "end": 117.1
+ },
+ {
+  "t": 117.1,
+  "clip": [
+   "f78LZOBjhgM",
+   2.2
+  ],
+  "why": "Bryusseldagi Yevropa Komissiyasi binosi (Berlaymont) — 'Yevropa Ittifoqi'",
+  "end": 120.2
+ },
+ {
+  "t": 120.2,
+  "clip": [
+   "ugXsv73QMAQ",
+   6.8
+  ],
+  "why": "Yevropa Parlamenti: 'illegal immigration' — 'noqonuniy migratsiya xavfi'",
+  "end": 124.45
+ },
+ {
+  "t": 124.45,
+  "clip": [
+   "50rDPztFjOA",
+   200.0
+  ],
+  "why": "Germaniya chegarasidagi nazorat (DW) — sayyoh qaytadimi degan tekshiruv",
+  "end": 128.7
+ },
+ {
+  "t": 128.7,
+  "clip": [
+   "50rDPztFjOA",
+   21.0
+  ],
+  "why": "Shengen ichki chegarasi (DW) — 'noqonuniy ishlashga urinadimi'",
+  "end": 131.65
+ },
+ {
+  "t": 131.65,
+  "clip": [
+   "81SnURRlTm8",
+   275.5
+  ],
+  "why": "Shengen pasport nazorati (Council of the EU) — 'degan masalalarni o‘rganadi'",
+  "end": 133.2
+ },
+ {
+  "t": 133.2,
+  "clip": [
+   "57smEMRrGto",
+   66.0
+  ],
+  "why": "O‘zbek mehnat muhojirlari (BBC O‘zbek) — 'xorijga qonuniy ishlash uchun ketayotgan millionlab insonlar'",
+  "end": 137.8
+ },
+ {
+  "t": 137.8,
+  "clip": [
+   "57smEMRrGto",
+   106.0
+  ],
+  "why": "Qurilishda ishlayotgan o‘zbek muhojirlari (BBC O‘zbek)",
+  "end": 140.1
+ },
+ {
+  "t": 140.1,
+  "clip": [
+   "q7m_cbfuECc",
+   34.0
+  ],
+  "why": "Xorijda ishlayotgan muhojir (Kun.uz) — 'ularning faoliyati noqonuniy migratsiya bilan bir xil emas'",
+  "end": 142.3
+ },
+ {
+  "t": 142.3,
+  "clip": [
+   "5eaASdCxyek",
+   163.0
+  ],
+  "why": "BBC O‘zbek: 'legal and illegal migrants' — viza shartlarini buzish",
+  "end": 145.2
+ },
+ {
+  "t": 145.2,
+  "g": "risk",
+  "title": "Umumiy migratsion xavf bahosi",
+  "why": "'mamlakatga nisbatan umumiy xavf bahosi' — tushuntiruvchi grafika",
+  "end": 149.35
+ },
+ {
+  "t": 149.35,
+  "clip": [
+   "f78LZOBjhgM",
+   14.2
+  ],
+  "why": "Yevropa Komissiyasi binosi va YeI bayroqlari — 'Yevropa Komissiyasining rasmiy mezonlari'",
+  "end": 151.8
+ },
+ {
+  "t": 151.8,
+  "g": "checklist",
+  "title": "Yevropa Komissiyasi mezonlari",
+  "items": [
+   "Noqonuniy migratsiya",
+   "Xavfsizlik",
+   "Iqtisodiy manfaatlar",
+   "Tashqi aloqalar",
+   "O‘zaro vizasiz rejim"
+  ],
+  "why": "Audioda sanalgan beshta mezon",
+  "end": 158.9
+ },
+ {
+  "t": 158.9,
+  "g": "chapter",
+  "num": "2",
+  "title": "Iqtisodiyot",
+  "sub": "Ikkinchi sabab",
+  "why": "Bo‘lim boshi",
+  "end": 160.9
+ },
+ {
+  "t": 160.9,
+  "clip": [
+   "q7m_cbfuECc",
+   104.0
+  ],
+  "why": "Dollar banknotlari (Kun.uz) — 'moliyaviy ahvoli'",
+  "end": 165.6
+ },
+ {
+  "t": 165.6,
+  "g": "checklist",
+  "title": "Shengen vizasi arizasida so‘raladi",
+  "items": [
+   "Safar maqsadi",
+   "Yashash joyi",
+   "Yetarli mablag‘",
+   "Qaytish niyati"
+  ],
+  "bg": [
+   "81SnURRlTm8",
+   130.0
+  ],
+  "why": "Audioda sanalgan to‘rt hujjat turi",
+  "end": 174.6
+ },
+ {
+  "t": 174.6,
+  "clip": [
+   "51KWHFxcXqE",
+   67.5
+  ],
+  "why": "O‘zbekistonda pasport rasmiylashtirish (UZREPORT arxivi) — 'O‘zbekiston fuqarolari'",
+  "end": 179.0
+ },
+ {
+  "t": 179.0,
+  "g": "typo",
+  "text": "Masala murakkabroq",
+  "sub": "Viza siyosati faqat boylik haqida emas",
+  "bg": [
+   "51KWHFxcXqE",
+   69.0
+  ],
+  "why": "Tezis tipografiyasi",
+  "end": 184.5
+ },
+ {
+  "t": 184.5,
+  "clip": [
+   "2qXM-wWvGQQ",
+   36.0
+  ],
+  "why": "Mirziyoyev va To‘qayev qo‘l berib ko‘rishmoqda — 'diplomatik munosabatlar'",
+  "end": 188.2
+ },
+ {
+  "t": 188.2,
+  "clip": [
+   "3hGVDb4HKeY",
+   6.0
+  ],
+  "why": "AQShning O‘zbekistondagi elchisi (arxiv) — davlatlararo munosabatlar",
+  "end": 190.6
+ },
+ {
+  "t": 190.6,
+  "g": "chapter",
+  "num": "3",
+  "title": "Davlatlararo kelishuvlar",
+  "sub": "Uchinchi sabab",
+  "why": "Bo‘lim boshi",
+  "end": 192.7
+ },
+ {
+  "t": 192.7,
+  "clip": [
+   "41u6gDFuhBM",
+   18.5
+  ],
+  "why": "O‘zbekiston–Qozog‘iston muzokaralari (Silk Way) — 'kelishuv tuzishi mumkin'",
+  "end": 196.6
+ },
+ {
+  "t": 196.6,
+  "clip": [
+   "41u6gDFuhBM",
+   93.0
+  ],
+  "why": "Ittifoqchilik dasturi qabul qilinishi — ikki tomonlama kelishuv",
+  "end": 198.8
+ },
+ {
+  "t": 198.8,
+  "g": "reciprocity",
+  "a": "O‘zbekiston",
+  "b": "Boshqa davlat",
+  "ab": "Vizasiz tartib",
+  "ba": "Viza talab qilinadi",
+  "why": "'bir xil shartlarni qo‘ymaydi' misoli — nosimmetrik rejim sxemasi",
+  "end": 211.0
+ },
+ {
+  "t": 211.0,
+  "clip": [
+   "2qXM-wWvGQQ",
+   40.0
+  ],
+  "why": "Prezidentlar uchrashuvi — 'o‘zaro muzokaralar'",
+  "end": 214.6
+ },
+ {
+  "t": 214.6,
+  "clip": [
+   "41u6gDFuhBM",
+   120.0
+  ],
+  "why": "Mirziyoyev nutqi — 'iqtisodiy hamkorlik'",
+  "end": 216.8
+ },
+ {
+  "t": 216.8,
+  "g": "chapter",
+  "num": "4",
+  "title": "Xavfsizlik",
+  "sub": "To‘rtinchi sabab",
+  "why": "Bo‘lim boshi",
+  "end": 218.9
+ },
+ {
+  "t": 218.9,
+  "clip": [
+   "xzLKLadXmMg",
+   98.5
+  ],
+  "why": "Biometrik pasport uchun ma’lumot olish (Xorazm adliya) — 'pasportning ishonchliligi'",
+  "end": 222.5
+ },
+ {
+  "t": 222.5,
+  "clip": [
+   "ugXsv73QMAQ",
+   36.9
+  ],
+  "why": "Barmoq izi — biometrik himoya (Yevropa Parlamenti) — 'qalbakilashtirishga qarshi himoya'",
+  "end": 224.8
+ },
+ {
+  "t": 224.8,
+  "clip": [
+   "xLhXmCK1j-c",
+   28.7
+  ],
+  "why": "'Pasport nazorati' belgisi (Silk Way) — 'chegaralar nazorati'",
+  "end": 226.15
+ },
+ {
+  "t": 226.15,
+  "clip": [
+   "ugXsv73QMAQ",
+   13.4
+  ],
+  "why": "Shengen axborot tizimi serverlari — 'axborot almashinuvi'",
+  "end": 228.6
+ },
+ {
+  "t": 228.6,
+  "clip": [
+   "woAIuubU5DA",
+   1.0
+  ],
+  "why": "YeI ichki ishlar va migratsiya komissari Magnus Brunner — 'Yevropa Komissiyasi'",
+  "end": 232.3
+ },
+ {
+  "t": 232.3,
+  "clip": [
+   "woAIuubU5DA",
+   9.3
+  ],
+  "why": "EES biometrik kioskasi — xavfsizlik ko‘rsatkichlari",
+  "end": 234.45
+ },
+ {
+  "t": 234.45,
+  "clip": [
+   "woAIuubU5DA",
+   25.8
+  ],
+  "why": "EES ro‘yxatdan o‘tish — 'qaytarib qabul qilish bo‘yicha hamkorlik'",
+  "end": 236.5
+ },
+ {
+  "t": 236.5,
+  "clip": [
+   "woAIuubU5DA",
+   14.0
+  ],
+  "why": "Komissiya vakillari EES tizimini ko‘zdan kechirmoqda — 'baholash rejalarini bayon qildi'",
+  "end": 241.2
+ },
+ {
+  "t": 241.2,
+  "g": "vs",
+  "left": [
+   "KEzf82ZmLxM",
+   64.0
+  ],
+  "right": [
+   "puaAi0znpNY",
+   141.0
+  ],
+  "leftLabel": "Qozog‘iston",
+  "rightLabel": "O‘zbekiston",
+  "why": "'Qozog‘iston pasporti bilan O‘zbekiston pasporti o‘rtasida farq'",
+  "end": 246.3
+ },
+ {
+  "t": 246.3,
+  "clip": [
+   "1lEXH8IFa9w",
+   9.0
+  ],
+  "why": "Mirziyoyev va To‘qayev — 'ikki mamlakat qo‘shni'",
+  "end": 248.2
+ },
+ {
+  "t": 248.2,
+  "clip": [
+   "1lEXH8IFa9w",
+   19.0
+  ],
+  "why": "Tarixiy hujjatlar topshirildi — 'ularning tarixi'",
+  "end": 252.2
+ },
+ {
+  "t": 252.2,
+  "clip": [
+   "41u6gDFuhBM",
+   19.0
+  ],
+  "why": "Ikki davlat delegatsiyalari — 'iqtisodiy aloqalar, mintaqaviy manfaatlar'",
+  "end": 256.2
+ },
+ {
+  "t": 256.2,
+  "clip": [
+   "2qXM-wWvGQQ",
+   23.0
+  ],
+  "why": "Prezidentlar suhbati — 'diplomatik aloqalar'",
+  "end": 260.3
+ },
+ {
+  "t": 260.3,
+  "g": "compare",
+  "rows": [
+   [
+    "Ayrim yo‘nalishlar",
+    "Vizasiz",
+    "Elektron yoki oddiy viza"
+   ],
+   [
+    "Boshqa yo‘nalishlar",
+    "—",
+    "Qulayroq shartlar"
+   ]
+  ],
+  "cols": [
+   "",
+   "Qozog‘iston",
+   "O‘zbekiston"
+  ],
+  "why": "Audiodagi misol jadval ko‘rinishida (aniq davlatlar aytilmagan)",
+  "end": 273.9
+ },
+ {
+  "t": 273.9,
+  "g": "typo",
+  "text": "Bitta sabab bilan tushuntirib bo‘lmaydi",
+  "sub": "",
+  "why": "Xulosa tezisi",
+  "end": 278.5
+ },
+ {
+  "t": 278.5,
+  "clip": [
+   "cuOnT08mFxc",
+   6.0
+  ],
+  "why": "UZREPORT TV, 23-oktabr 2026 — reyting o‘zgarishi haqidagi xabar",
+  "end": 283.8
+ },
+ {
+  "t": 283.8,
+  "g": "timeline",
+  "points": [
+   [
+    "2026-yil boshi",
+    75
+   ],
+   [
+    "Aprel",
+    74
+   ],
+   [
+    "Oktabr",
+    82
+   ]
+  ],
+  "why": "Audiodagi o‘rinlar dinamikasi: 75 → 74 → 82",
+  "end": 294.4
+ },
+ {
+  "t": 294.4,
+  "clip": [
+   "qB21Wl4n3cs",
+   66.0
+  ],
+  "why": "Henley Passport Index muallifi Christian Kaelin (CNN) — reyting boshqa davlatlarga ham bog‘liq",
+  "end": 299.85
+ },
+ {
+  "t": 299.85,
+  "clip": [
+   "WOnJGHmqDFY",
+   104.0
+  ],
+  "why": "Firstpost: 'Restrictive visa rules may hurt reciprocity' — 'boshqa davlatlar viza tartibini o‘zgartirishi'",
+  "end": 305.5
+ },
+ {
+  "t": 305.5,
+  "g": "typo",
+  "text": "Yevropaga vizasiz?",
+  "sub": "Ko‘pchilikni qiziqtiradigan savol",
+  "bg": [
+   "f78LZOBjhgM",
+   16.0
+  ],
+  "why": "Asosiy savol",
+  "end": 311.7
+ },
+ {
+  "t": 311.7,
+  "clip": [
+   "f78LZOBjhgM",
+   19.0
+  ],
+  "why": "Yevropa Parlamenti LIBE qo‘mitasi majlisi — 'siyosiy-huquqiy qarorlar'",
+  "end": 317.4
+ },
+ {
+  "t": 317.4,
+  "g": "flow",
+  "steps": [
+   "Baholash",
+   "Komissiya taklifi",
+   "Parlament va Kengash",
+   "Qaror"
+  ],
+  "why": "'tegishli baholash va siyosiy-huquqiy qarorlar' — umumiy tartib sxemasi",
+  "end": 325.7
+ },
+ {
+  "t": 325.7,
+  "clip": [
+   "50rDPztFjOA",
+   64.0
+  ],
+  "why": "Shengen zonasi xaritasi — 'Yevropa Ittifoqi migratsiya xavfi, xavfsizlik...'",
+  "end": 331.25
+ },
+ {
+  "t": 331.25,
+  "clip": [
+   "81SnURRlTm8",
+   276.5
+  ],
+  "why": "Shengen pasport nazorati — 'Shengen hududiga viza olishlari kerak'",
+  "end": 335.4
+ },
+ {
+  "t": 335.4,
+  "clip": [
+   "puaAi0znpNY",
+   141.5
+  ],
+  "why": "O‘zbekiston oddiy pasporti",
+  "end": 337.6
+ },
+ {
+  "t": 337.6,
+  "g": "typo",
+  "text": "Vizasiz ≠ ishlash huquqi",
+  "sub": "Vizasiz sayohat chet elda ishlash yoki doimiy yashashni bermaydi",
+  "why": "Audiodagi tezis",
+  "end": 344.8
+ },
+ {
+  "t": 344.8,
+  "g": "calendar",
+  "why": "'180 kun ichida 90 kundan ortiq qola olmaydi' — vizual tushuntirish",
+  "end": 353.4
+ },
+ {
+  "t": 353.4,
+  "clip": [
+   "57smEMRrGto",
+   120.0
+  ],
+  "why": "Qurilishdagi muhojirlar — 'ishlash uchun alohida ruxsat'",
+  "end": 357.6
+ },
+ {
+  "t": 357.6,
+  "clip": [
+   "2zpovXYgDVw",
+   61.0
+  ],
+  "why": "Toshkent aeroportidagi Uzbekistan Airways samolyotlari — 'O‘zbekiston pasporti qachon kuchayadi?'",
+  "end": 361.4
+ },
+ {
+  "t": 361.4,
+  "g": "checklist",
+  "title": "Imkoniyatlarni kengaytirishi mumkin",
+  "items": [
+   "Yangi xalqaro kelishuvlar",
+   "Migratsiya bo‘yicha hamkorlik",
+   "Xavfsizlik tizimlari",
+   "Diplomatik munosabatlar"
+  ],
+  "bg": [
+   "2qXM-wWvGQQ",
+   41.0
+  ],
+  "why": "Audioda sanalgan to‘rt omil",
+  "end": 370.7
+ },
+ {
+  "t": 370.7,
+  "clip": [
+   "83ehnbzrYhs",
+   200.0
+  ],
+  "why": "Toshkent aeroportidagi yo‘lovchilar — 'qaysi mamlakatda tug‘ilgani'",
+  "end": 376.9
+ },
+ {
+  "t": 376.9,
+  "g": "split",
+  "left": [
+   "xLhXmCK1j-c",
+   37.0
+  ],
+  "right": [
+   "81SnURRlTm8",
+   210.5
+  ],
+  "leftLabel": "Faqat pasport bilan",
+  "rightLabel": "Ko‘p bosqichli tekshiruv",
+  "why": "'Bir inson... faqat pasporti bilan, boshqasi... bir necha bosqichli tekshiruv'",
+  "end": 384.5
+ },
+ {
+  "t": 384.5,
+  "g": "typo",
+  "text": "Bu farq inson qadrini o‘lchamaydi",
+  "sub": "Bu — davlatlar o‘rtasidagi siyosiy, iqtisodiy va huquqiy munosabatlar natijasi",
+  "bg": [
+   "83ehnbzrYhs",
+   202.0
+  ],
+  "why": "Tezis",
+  "end": 390.0
+ },
+ {
+  "t": 390.0,
+  "clip": [
+   "41u6gDFuhBM",
+   101.5
+  ],
+  "why": "Davlatlararo rasmiy uchrashuv — 'davlatlar o‘rtasidagi siyosiy munosabatlar'",
+  "end": 395.1
+ },
+ {
+  "t": 395.1,
+  "g": "recap",
+  "items": [
+   "Migratsiya siyosati",
+   "Iqtisodiyot",
+   "Davlatlararo kelishuvlar",
+   "Xavfsizlik"
+  ],
+  "why": "Xulosa: to‘rt omil",
+  "end": 407.4
+ },
+ {
+  "t": 407.4,
+  "clip": [
+   "Ai7wAH49V0k",
+   20.5
+  ],
+  "why": "Uzbekistan Airways Boeing 787 (Xalq so‘zi) — 'kelajakda Yevropa, Amerikaga vizasiz'",
+  "end": 411.9
+ },
+ {
+  "t": 411.9,
+  "clip": [
+   "Ai7wAH49V0k",
+   121.0
+  ],
+  "why": "Uzbekistan Airways Boeing 787",
+  "end": 415.5
+ },
+ {
+  "t": 415.5,
+  "clip": [
+   "zp8l2szeyXU",
+   31.0
+  ],
+  "why": "Toshkentga qo‘nayotgan samolyot",
+  "end": 417.8
+ },
+ {
+  "t": 417.8,
+  "clip": [
+   "f78LZOBjhgM",
+   6.0
+  ],
+  "why": "Yevropa Komissiyasi — 'boshqa davlatlarning qarorlariga ham bog‘liq'",
+  "end": 420.5
+ },
+ {
+  "t": 420.5,
+  "clip": [
+   "3hGVDb4HKeY",
+   21.0
+  ],
+  "why": "AQSh va O‘zbekiston bayroqlari, AQSh elchisi (arxiv)",
+  "end": 423.1
+ },
+ {
+  "t": 423.1,
+  "g": "cta",
+  "text": "Sizningcha, O‘zbekiston fuqarolari birinchi navbatda qaysi mamlakatlarga vizasiz borishi kerak?",
+  "bg": [
+   "puaAi0znpNY",
+   141.0
+  ],
+  "why": "Tomoshabinga savol — audiodagi CTA",
+  "end": 431.6
+ },
+ {
+  "t": 431.6,
+  "g": "credits",
+  "why": "VIDEO MANBALARI",
+  "end": 446.6
+ }
+]
