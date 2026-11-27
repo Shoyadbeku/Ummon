@@ -5,3 +5,4 @@ public/youtube_footage/
 public/shots/
 public/audio/*.wav
 public/music/*.wav
+__pycache__/
