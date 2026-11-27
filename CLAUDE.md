@@ -251,3 +251,4 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
 - G'or devoriga juda yaqin makro (devor tomirlari 10 sm lik) mavhum dog' bo'lib chiqdi: "shilliq qavat" ni kesim dunyosida ko'rsatish aniqroq.
 - `vis(room, ...)` ni unutma: unutilsa xona rentgen kadrlarida fon bo'lib qoladi.
 - 30% (324x576), 8 sample: xona/rentgen/lab/g'or/kesim ~10–15 s/kadr.
+- 40% (432x768), 8 sample: oshqozon sahnasi (xona/rentgen/lab/g'or/kesim) ~8–12 s/kadr (792 kadr ≈ 2.2 soat); uzoq renderda rentgen kadrlari buzilmadi.
