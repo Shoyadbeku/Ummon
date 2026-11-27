@@ -1,0 +1,1499 @@
+{
+ "fps": 30,
+ "duration": 339.62,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.6,
+   "src": "xef",
+   "ss": 7.0,
+   "mode": "fill",
+   "note": "Dunyodagi eng muhim dengiz yoʻlida...",
+   "file": "x_footage/EnglishFars_2124106057509208064_14.mp4",
+   "credit": "VIDEO: @EnglishFars / X  •  IRGC kadri",
+   "url": "https://x.com/EnglishFars/status/2124106094901449170"
+  },
+  {
+   "id": "s002",
+   "start": 1.6,
+   "end": 2.7,
+   "src": "xf15",
+   "ss": 8.0,
+   "mode": "blur",
+   "note": "...neft tankeri",
+   "file": "x_footage/DefendtheFieldx_2125392157330567168_15.mp4",
+   "credit": "VIDEO: @DefendtheFieldx / X  •  IRGC kadri",
+   "url": "https://x.com/DefendtheFieldx/status/2125392244689551509"
+  },
+  {
+   "id": "s003",
+   "start": 2.7,
+   "end": 4.1,
+   "src": "xp",
+   "ss": 0.3,
+   "mode": "fill",
+   "note": "...minaga urilib portladi.",
+   "file": "x_footage/PressTV_2126276138691375104_01.mp4",
+   "credit": "VIDEO: @PressTV / X  •  IRGC kadri",
+   "url": "https://x.com/PressTV/status/2126276172296139225"
+  },
+  {
+   "id": "s004",
+   "start": 4.1,
+   "end": 6.2,
+   "src": "xa",
+   "ss": 9.0,
+   "mode": "fill",
+   "note": "Bu xabarni bugun IRGCning oʻzi eʼlon qildi.",
+   "file": "x_footage/aprajitanefes_2126327071958028288_11.mp4",
+   "credit": "VIDEO: @aprajitanefes / X  •  IRGC tarqatgan kadr",
+   "url": "https://x.com/aprajitanefes/status/2126327133517885738"
+  },
+  {
+   "id": "s005",
+   "start": 6.2,
+   "end": 8.4,
+   "src": "xd2",
+   "ss": 8.0,
+   "mode": "fill",
+   "note": "(IRGC: F-16 kadri)",
+   "file": "x_footage/Danale_2126357713894383617_02.mp4",
+   "credit": "VIDEO: @Danale / X  •  IRGC kadri (F-16)",
+   "url": "https://x.com/Danale/status/2126357809659011190"
+  },
+  {
+   "id": "s006",
+   "start": 8.4,
+   "end": 10.6,
+   "src": "y18",
+   "ss": 1.0,
+   "mode": "fill",
+   "note": "Shu hafta boshida ... neft narxi",
+   "file": "youtube_footage/Y18_AlJazeera_oil_prices_surge.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=cj8yVm4RtI4"
+  },
+  {
+   "id": "s007",
+   "start": 10.6,
+   "end": 13.9,
+   "src": "y04",
+   "ss": 137.0,
+   "mode": "fill",
+   "note": "...yana tez koʻtarila boshladi.",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s008",
+   "start": 13.9,
+   "end": 17.3,
+   "src": "y09",
+   "ss": 16.5,
+   "mode": "fill",
+   "note": "Kuvaytda ikki nafar Yevropa fuqarosi halok boʻldi.",
+   "file": "youtube_footage/Y09_BBC_Kuwait_drone_italians.mp4",
+   "credit": "FOOTAGE: BBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=MpEcr0JLRTU"
+  },
+  {
+   "id": "s009",
+   "start": 17.3,
+   "end": 21.9,
+   "src": "GFX",
+   "ss": 0,
+   "mode": "map_uz",
+   "note": "Ormuzda nima boʻlyapti? Bu joy Oʻzbekistondan minglab km uzoqda."
+  },
+  {
+   "id": "s010",
+   "start": 21.9,
+   "end": 24.5,
+   "src": "y17",
+   "ss": 9.0,
+   "mode": "fill",
+   "note": "Unda nega bizning hamyonimizga taʼsir qilishi mumkin?",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s011",
+   "start": 24.5,
+   "end": 27.8,
+   "src": "xf18",
+   "ss": 12.0,
+   "mode": "fill",
+   "note": "Va eng asosiy savol: bu urush qachon tugaydi?",
+   "file": "x_footage/DefendtheFieldx_2125392157338955776_18.mp4",
+   "credit": "VIDEO: @DefendtheFieldx / X  •  IRGC kadri",
+   "url": "https://x.com/DefendtheFieldx/status/2125392244689551509"
+  },
+  {
+   "id": "s012",
+   "start": 27.8,
+   "end": 30.0,
+   "src": "y04",
+   "ss": 188.0,
+   "mode": "fill",
+   "note": "Keling, tartib bilan koʻrib chiqamiz. [SARLAVHA]",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s013",
+   "start": 30.0,
+   "end": 34.7,
+   "src": "xa",
+   "ss": 1.0,
+   "mode": "fill",
+   "note": "Bugun 27-noyabr kuni IRGC bayonot tarqatdi.",
+   "file": "x_footage/aprajitanefes_2126327071958028288_11.mp4",
+   "credit": "VIDEO: @aprajitanefes / X  •  IRGC tarqatgan kadr",
+   "url": "https://x.com/aprajitanefes/status/2126327133517885738"
+  },
+  {
+   "id": "s014",
+   "start": 34.7,
+   "end": 39.0,
+   "src": "xa",
+   "ss": 7.8,
+   "mode": "fill",
+   "note": "Ormuzda neft tankeri dengiz minasiga urilib portlagan.",
+   "file": "x_footage/aprajitanefes_2126327071958028288_11.mp4",
+   "credit": "VIDEO: @aprajitanefes / X  •  IRGC tarqatgan kadr",
+   "url": "https://x.com/aprajitanefes/status/2126327133517885738"
+  },
+  {
+   "id": "s015",
+   "start": 39.0,
+   "end": 42.6,
+   "src": "xdc",
+   "ss": 6.0,
+   "mode": "cropblur:0.5,0,0.5,1",
+   "note": "Bu maʼlumot Eron tomonidan berildi...",
+   "file": "x_footage/DC_Global_News_2126340400600215552_08.mp4",
+   "credit": "VIDEO: @DC_Global_News / X  •  IRGC kadri",
+   "url": "https://x.com/DC_Global_News/status/2126340435454906605"
+  },
+  {
+   "id": "s016",
+   "start": 42.6,
+   "end": 45.0,
+   "src": "y01",
+   "ss": 8.0,
+   "mode": "fill",
+   "note": "...mustaqil manbalar uni tasdiqlagani yoʻq.",
+   "file": "youtube_footage/Y01_AlJazeera_two_tankers_mines.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=sprwU_cYFvo"
+  },
+  {
+   "id": "s017",
+   "start": 45.0,
+   "end": 47.1,
+   "src": "xf18",
+   "ss": 67.0,
+   "mode": "fill",
+   "note": "Lekin bu yagona holat emas.",
+   "file": "x_footage/DefendtheFieldx_2125392157338955776_18.mp4",
+   "credit": "VIDEO: @DefendtheFieldx / X  •  IRGC kadri",
+   "url": "https://x.com/DefendtheFieldx/status/2125392244689551509"
+  },
+  {
+   "id": "s018",
+   "start": 47.1,
+   "end": 51.2,
+   "src": "xdt",
+   "ss": 6.0,
+   "mode": "fill",
+   "note": "Shu hafta davomida Eron bir necha marta xabar qildi.",
+   "file": "x_footage/Detektor0000_2125620145464705024_13.mp4",
+   "credit": "VIDEO: @Detektor0000 / X  •  IRGC kadri",
+   "url": "https://x.com/Detektor0000/status/2125620213873881377"
+  },
+  {
+   "id": "s019",
+   "start": 51.2,
+   "end": 55.4,
+   "src": "y02",
+   "ss": 6.0,
+   "mode": "fill",
+   "note": "Al Jazeera maʼlumotiga koʻra...",
+   "file": "youtube_footage/Y02_AlJazeera_three_tankers_mines.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=JO-rxaBlbOk"
+  },
+  {
+   "id": "s020",
+   "start": 55.4,
+   "end": 57.6,
+   "src": "xf16",
+   "ss": 0.5,
+   "mode": "blur",
+   "note": "...25 tadan ortiq tanker hujumga uchragan.",
+   "file": "x_footage/DefendtheFieldx_2125392157343137792_16.mp4",
+   "credit": "VIDEO: @DefendtheFieldx / X",
+   "url": "https://x.com/DefendtheFieldx/status/2125392244689551509"
+  },
+  {
+   "id": "s021",
+   "start": 57.6,
+   "end": 59.0,
+   "src": "y04",
+   "ss": 15.0,
+   "mode": "fill",
+   "note": "Endi raqamlarga qarang.",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s022",
+   "start": 59.0,
+   "end": 64.0,
+   "src": "y03",
+   "ss": 111.0,
+   "mode": "fill",
+   "note": "Urushdan oldin har kuni 125–140 ta kema oʻtardi.",
+   "file": "youtube_footage/Y03_NYPost_violating_tankers.mp4",
+   "credit": "FOOTAGE: New York Post / YouTube",
+   "url": "https://www.youtube.com/watch?v=NNlqFk8Vy1U"
+  },
+  {
+   "id": "s023",
+   "start": 64.0,
+   "end": 68.4,
+   "src": "y03",
+   "ss": 118.0,
+   "mode": "fill",
+   "note": "Noyabr boshidagi bir haftada 226 ta kema.",
+   "file": "youtube_footage/Y03_NYPost_violating_tankers.mp4",
+   "credit": "FOOTAGE: New York Post / YouTube",
+   "url": "https://www.youtube.com/watch?v=NNlqFk8Vy1U"
+  },
+  {
+   "id": "s024",
+   "start": 68.4,
+   "end": 72.9,
+   "src": "y21",
+   "ss": 13.0,
+   "mode": "fill",
+   "note": "17–23-noyabr: 125 ta.",
+   "file": "youtube_footage/Y21_NBC_blockade_in_effect.mp4",
+   "credit": "ARXIV: NBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=W_Kj8JOCzGM"
+  },
+  {
+   "id": "s025",
+   "start": 72.9,
+   "end": 77.3,
+   "src": "y06",
+   "ss": 59.0,
+   "mode": "fill",
+   "note": "Harakat 40 foizdan koʻproq qisqardi.",
+   "file": "youtube_footage/Y06_AlJazeera_US_blockade_explained.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=poEZJ4SOkvU"
+  },
+  {
+   "id": "s026",
+   "start": 77.3,
+   "end": 79.5,
+   "src": "y04",
+   "ss": 25.0,
+   "mode": "fill",
+   "note": "Bu vaziyat qanday paydo boʻldi?",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s027",
+   "start": 79.5,
+   "end": 86.0,
+   "src": "y05",
+   "ss": 12.0,
+   "mode": "fill",
+   "note": "2026-yil 28-fevral: AQSh va Isroil Eronga zarba berdi.",
+   "file": "youtube_footage/Y05_BBC_US_Israel_attack_Feb28.mp4",
+   "credit": "ARXIV: BBC News / YouTube  •  28.02.2026",
+   "url": "https://www.youtube.com/watch?v=Ks13eyBeW7w"
+  },
+  {
+   "id": "s028",
+   "start": 86.0,
+   "end": 89.6,
+   "src": "y07",
+   "ss": 39.5,
+   "mode": "fill",
+   "note": "Eron raketa va dronlar bilan javob qaytardi.",
+   "file": "youtube_footage/Y07_Arirang_MOU_blockade_lift.mp4",
+   "credit": "ARXIV: Arirang News / YouTube",
+   "url": "https://www.youtube.com/watch?v=nR2hTvHvFOY"
+  },
+  {
+   "id": "s029",
+   "start": 89.6,
+   "end": 93.8,
+   "src": "y05",
+   "ss": 31.0,
+   "mode": "fill",
+   "note": "AQSh bazalari joylashgan Fors koʻrfazi davlatlari ham nishonga aylandi.",
+   "file": "youtube_footage/Y05_BBC_US_Israel_attack_Feb28.mp4",
+   "credit": "ARXIV: BBC News / YouTube  •  28.02.2026",
+   "url": "https://www.youtube.com/watch?v=Ks13eyBeW7w"
+  },
+  {
+   "id": "s030",
+   "start": 93.8,
+   "end": 97.5,
+   "src": "y06",
+   "ss": 33.0,
+   "mode": "fill",
+   "note": "Aprel: AQSh dengiz blokadasi.",
+   "file": "youtube_footage/Y06_AlJazeera_US_blockade_explained.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=poEZJ4SOkvU"
+  },
+  {
+   "id": "s031",
+   "start": 97.5,
+   "end": 102.0,
+   "src": "y07",
+   "ss": 23.0,
+   "mode": "fill",
+   "note": "Iyul: anglashuv memorandumi, blokada bekor qilindi.",
+   "file": "youtube_footage/Y07_Arirang_MOU_blockade_lift.mp4",
+   "credit": "ARXIV: Arirang News / YouTube",
+   "url": "https://www.youtube.com/watch?v=nR2hTvHvFOY"
+  },
+  {
+   "id": "s032",
+   "start": 102.0,
+   "end": 104.1,
+   "src": "y07",
+   "ss": 56.0,
+   "mode": "fill",
+   "note": "Lekin bu kelishuv uzoq yashamadi.",
+   "file": "youtube_footage/Y07_Arirang_MOU_blockade_lift.mp4",
+   "credit": "ARXIV: Arirang News / YouTube",
+   "url": "https://www.youtube.com/watch?v=nR2hTvHvFOY"
+  },
+  {
+   "id": "s033",
+   "start": 104.1,
+   "end": 108.9,
+   "src": "y16",
+   "ss": 2.0,
+   "mode": "blur",
+   "note": "Bir necha hafta oʻtib u barbod boʻldi.",
+   "file": "youtube_footage/Y16_AFP_Bandar_Abbas.mp4",
+   "credit": "ARXIV: AFP News Agency / YouTube",
+   "url": "https://www.youtube.com/watch?v=-LFqajqjpRY"
+  },
+  {
+   "id": "s034",
+   "start": 108.9,
+   "end": 113.2,
+   "src": "y21",
+   "ss": 442.0,
+   "mode": "fill",
+   "note": "Blokada Eron neft eksportini deyarli toʻxtatib qoʻygan.",
+   "file": "youtube_footage/Y21_NBC_blockade_in_effect.mp4",
+   "credit": "ARXIV: NBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=W_Kj8JOCzGM"
+  },
+  {
+   "id": "s035",
+   "start": 113.2,
+   "end": 115.8,
+   "src": "y03",
+   "ss": 135.5,
+   "mode": "fill",
+   "note": "Tehron bunga Ormuz orqali javob bermoqda.",
+   "file": "youtube_footage/Y03_NYPost_violating_tankers.mp4",
+   "credit": "FOOTAGE: New York Post / YouTube",
+   "url": "https://www.youtube.com/watch?v=NNlqFk8Vy1U"
+  },
+  {
+   "id": "s036",
+   "start": 115.8,
+   "end": 118.2,
+   "src": "y08",
+   "ss": 9.0,
+   "mode": "fill",
+   "note": "Boʻgʻoz talablar bajarilmaguncha ochilmaydi.",
+   "file": "youtube_footage/Y08_CBS_Iran_end_blockade.mp4",
+   "credit": "FOOTAGE: CBS News / YouTube",
+   "url": "https://www.youtube.com/watch?v=JhrdkTUYgak"
+  },
+  {
+   "id": "s037",
+   "start": 118.2,
+   "end": 120.4,
+   "src": "y04",
+   "ss": 20.0,
+   "mode": "fill",
+   "note": "",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s038",
+   "start": 120.4,
+   "end": 126.5,
+   "src": "y07",
+   "ss": 99.0,
+   "mode": "fill",
+   "note": "Talablar uchta. [GRAFIKA]",
+   "file": "youtube_footage/Y07_Arirang_MOU_blockade_lift.mp4",
+   "credit": "ARXIV: Arirang News / YouTube",
+   "url": "https://www.youtube.com/watch?v=nR2hTvHvFOY"
+  },
+  {
+   "id": "s039",
+   "start": 126.5,
+   "end": 129.9,
+   "src": "y11",
+   "ss": 4.0,
+   "mode": "fill",
+   "note": "26-noyabr: keskinlik yangi darajaga chiqdi.",
+   "file": "youtube_footage/Y11_France24_Kuwait_italians.mp4",
+   "credit": "FOOTAGE: FRANCE 24 English / YouTube",
+   "url": "https://www.youtube.com/watch?v=Bzh3VlSkD2Y"
+  },
+  {
+   "id": "s040",
+   "start": 129.9,
+   "end": 132.6,
+   "src": "y11",
+   "ss": 64.0,
+   "mode": "fill",
+   "note": "Kuvaytdagi harbiy obyektlarga dronlar hujum qildi.",
+   "file": "youtube_footage/Y11_France24_Kuwait_italians.mp4",
+   "credit": "FOOTAGE: FRANCE 24 English / YouTube",
+   "url": "https://www.youtube.com/watch?v=Bzh3VlSkD2Y"
+  },
+  {
+   "id": "s041",
+   "start": 132.6,
+   "end": 136.2,
+   "src": "y09",
+   "ss": 90.0,
+   "mode": "fill",
+   "note": "Antonio Tayani parlamentga maʼlum qildi...",
+   "file": "youtube_footage/Y09_BBC_Kuwait_drone_italians.mp4",
+   "credit": "FOOTAGE: BBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=MpEcr0JLRTU"
+  },
+  {
+   "id": "s042",
+   "start": 136.2,
+   "end": 141.3,
+   "src": "xcl",
+   "ss": 3.0,
+   "mode": "fill",
+   "note": "...ikki italiyalik mutaxassis halok boʻldi.",
+   "file": "x_footage/clashreport_2126351505179496448_19.mp4",
+   "credit": "VIDEO: @clashreport / X  •  LaPresse",
+   "url": "https://x.com/clashreport/status/2126351558002561429"
+  },
+  {
+   "id": "s043",
+   "start": 141.3,
+   "end": 145.1,
+   "src": "xdd",
+   "ss": 1.0,
+   "mode": "fill",
+   "note": "Kuvayt armiyasi: raketa parchalaridan halok boʻlgan...",
+   "file": "x_footage/DD_Recon_2126352264344322048_12.mp4",
+   "credit": "VIDEO: @DD_Recon / X",
+   "url": "https://x.com/DD_Recon/status/2126352304387285153"
+  },
+  {
+   "id": "s044",
+   "start": 145.1,
+   "end": 147.6,
+   "src": "y22",
+   "ss": 19.0,
+   "mode": "fill",
+   "note": "...voqeani Eron agressiyasi deb atadi.",
+   "file": "youtube_footage/Y22_africanews_Iran_denies_Kuwait.mp4",
+   "credit": "FOOTAGE: africanews / YouTube",
+   "url": "https://www.youtube.com/watch?v=4Pvrg0MdLJw"
+  },
+  {
+   "id": "s045",
+   "start": 147.6,
+   "end": 152.8,
+   "src": "GFX",
+   "ss": 0,
+   "mode": "map_gulf",
+   "note": "Saudiya, Bahrayn, Qatar va BAA hujumni qoraladi."
+  },
+  {
+   "id": "s046",
+   "start": 152.8,
+   "end": 155.1,
+   "src": "y24",
+   "ss": 22.0,
+   "mode": "crop:0.08,0,0.84,0.84",
+   "note": "Eron ayblovni butunlay rad etdi.",
+   "file": "youtube_footage/Y24_AlJazeera_Araghchi_presser_archive.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=uYdVBltkZmo"
+  },
+  {
+   "id": "s047",
+   "start": 155.1,
+   "end": 159.0,
+   "src": "y24",
+   "ss": 64.0,
+   "mode": "crop:0.08,0,0.84,0.84",
+   "note": "TIV Abbos Araqchi voqeani shubhali deb atadi.",
+   "file": "youtube_footage/Y24_AlJazeera_Araghchi_presser_archive.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=uYdVBltkZmo"
+  },
+  {
+   "id": "s048",
+   "start": 159.0,
+   "end": 163.7,
+   "src": "y24",
+   "ss": 205.0,
+   "mode": "crop:0.08,0,0.84,0.84",
+   "note": "«...urush uchun oldindan tayyorlab qoʻyilgan retsept»",
+   "file": "youtube_footage/Y24_AlJazeera_Araghchi_presser_archive.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=uYdVBltkZmo"
+  },
+  {
+   "id": "s049",
+   "start": 163.7,
+   "end": 167.6,
+   "src": "xcl",
+   "ss": 23.5,
+   "mode": "fill",
+   "note": "Tehron Italiya va Kuvayt bilan birga tergov oʻtkazishni taklif qildi.",
+   "file": "x_footage/clashreport_2126351505179496448_19.mp4",
+   "credit": "VIDEO: @clashreport / X  •  LaPresse",
+   "url": "https://x.com/clashreport/status/2126351558002561429"
+  },
+  {
+   "id": "s050",
+   "start": 167.6,
+   "end": 170.2,
+   "src": "y04",
+   "ss": 189.0,
+   "mode": "fill",
+   "note": "Xoʻsh, bularning barchasi nega muhim?",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s051",
+   "start": 170.2,
+   "end": 172.8,
+   "src": "y04",
+   "ss": 31.0,
+   "mode": "fill",
+   "note": "Chunki Ormuz oddiy boʻgʻoz emas.",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s052",
+   "start": 172.8,
+   "end": 178.6,
+   "src": "y07",
+   "ss": 46.0,
+   "mode": "fill",
+   "note": "Dunyo neftining qariyb beshdan bir qismi... [GRAFIKA]",
+   "file": "youtube_footage/Y07_Arirang_MOU_blockade_lift.mp4",
+   "credit": "ARXIV: Arirang News / YouTube",
+   "url": "https://www.youtube.com/watch?v=nR2hTvHvFOY"
+  },
+  {
+   "id": "s053",
+   "start": 178.6,
+   "end": 180.4,
+   "src": "y18",
+   "ss": 5.0,
+   "mode": "fill",
+   "note": "Bozor darhol javob berdi.",
+   "file": "youtube_footage/Y18_AlJazeera_oil_prices_surge.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=cj8yVm4RtI4"
+  },
+  {
+   "id": "s054",
+   "start": 180.4,
+   "end": 192.2,
+   "src": "GFX",
+   "ss": 0,
+   "mode": "oil_chart",
+   "note": "24-noyabr: ~$88 ... Bugun: $96–97"
+  },
+  {
+   "id": "s055",
+   "start": 192.2,
+   "end": 196.9,
+   "src": "y04",
+   "ss": 137.5,
+   "mode": "fill",
+   "note": "Oktabrda neft har kuni 100 dollardan qimmat turgan.",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s056",
+   "start": 196.9,
+   "end": 199.7,
+   "src": "y04",
+   "ss": 147.0,
+   "mode": "fill",
+   "note": "Oy oxirida 114 dollarga yetgan edi.",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s057",
+   "start": 199.7,
+   "end": 202.3,
+   "src": "y17",
+   "ss": 7.0,
+   "mode": "fill",
+   "note": "Bu Oʻzbekistonga qanday aloqador?",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s058",
+   "start": 202.3,
+   "end": 204.8,
+   "src": "y17",
+   "ss": 270.0,
+   "mode": "fill",
+   "note": "Urush chegaralarimizga yetib kelgani yoʻq.",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s059",
+   "start": 204.8,
+   "end": 208.6,
+   "src": "y17",
+   "ss": 165.0,
+   "mode": "fill",
+   "note": "Lekin taʼsiri bilvosita boʻlishi aytilgan edi.",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s060",
+   "start": 208.6,
+   "end": 214.5,
+   "src": "y17",
+   "ss": 232.0,
+   "mode": "fill",
+   "note": "Kun.uz tahlili (mart). [GRAFIKA]",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s061",
+   "start": 214.5,
+   "end": 218.5,
+   "src": "y17",
+   "ss": 112.0,
+   "mode": "fill",
+   "note": "Energiya narxlari, yuk tashish, sugʻurta. [GRAFIKA]",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s062",
+   "start": 218.5,
+   "end": 224.4,
+   "src": "GFX",
+   "ss": 0,
+   "mode": "map_route",
+   "note": "Bandar Abbos porti ~90% yuklarni qabul qiladi."
+  },
+  {
+   "id": "s063",
+   "start": 224.4,
+   "end": 229.8,
+   "src": "y17",
+   "ss": 187.0,
+   "mode": "fill",
+   "note": "Dengizga chiqish yoʻli boʻlmagan Oʻzbekiston uchun...",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s064",
+   "start": 229.8,
+   "end": 233.1,
+   "src": "y04",
+   "ss": 169.0,
+   "mode": "fill",
+   "note": "Yoqilgʻi qimmatlashsa...",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s065",
+   "start": 233.1,
+   "end": 238.9,
+   "src": "y17",
+   "ss": 150.0,
+   "mode": "fill",
+   "note": "...yuk tashish va import narxi. [GRAFIKA]",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s066",
+   "start": 238.9,
+   "end": 241.4,
+   "src": "y03",
+   "ss": 44.0,
+   "mode": "fill",
+   "note": "Ormuzdagi har bir mina...",
+   "file": "youtube_footage/Y03_NYPost_violating_tankers.mp4",
+   "credit": "FOOTAGE: New York Post / YouTube",
+   "url": "https://www.youtube.com/watch?v=NNlqFk8Vy1U"
+  },
+  {
+   "id": "s067",
+   "start": 241.4,
+   "end": 245.4,
+   "src": "y17",
+   "ss": 127.0,
+   "mode": "fill",
+   "note": "...oddiy xaridor uchun ham ogohlantirish.",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s068",
+   "start": 245.4,
+   "end": 248.7,
+   "src": "y21",
+   "ss": 86.0,
+   "mode": "fill",
+   "note": "Bundan keyin nima boʻladi?",
+   "file": "youtube_footage/Y21_NBC_blockade_in_effect.mp4",
+   "credit": "ARXIV: NBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=W_Kj8JOCzGM"
+  },
+  {
+   "id": "s069",
+   "start": 248.7,
+   "end": 254.4,
+   "src": "y14",
+   "ss": 0.0,
+   "mode": "blur",
+   "note": "Tramp PBSga: gʻalaba yaqin.",
+   "file": "youtube_footage/Y14_Trump_whenever_I_want.mp4",
+   "credit": "VIDEO: YouTube / Jordan Rachel (qayta joylangan)",
+   "url": "https://www.youtube.com/watch?v=cs9RqADhfvw"
+  },
+  {
+   "id": "s070",
+   "start": 254.4,
+   "end": 260.0,
+   "src": "y14",
+   "ss": 6.0,
+   "mode": "blur",
+   "note": "«Ochigʻini aytsam, qachon xohlasam, oʻshanda.»",
+   "file": "youtube_footage/Y14_Trump_whenever_I_want.mp4",
+   "credit": "VIDEO: YouTube / Jordan Rachel (qayta joylangan)",
+   "url": "https://www.youtube.com/watch?v=cs9RqADhfvw"
+  },
+  {
+   "id": "s071",
+   "start": 260.0,
+   "end": 264.0,
+   "src": "y05",
+   "ss": 140.0,
+   "mode": "fill",
+   "note": "Vashington Eronga har qanday imkoniyat bermoqda...",
+   "file": "youtube_footage/Y05_BBC_US_Israel_attack_Feb28.mp4",
+   "credit": "ARXIV: BBC News / YouTube  •  28.02.2026",
+   "url": "https://www.youtube.com/watch?v=Ks13eyBeW7w"
+  },
+  {
+   "id": "s072",
+   "start": 264.0,
+   "end": 268.3,
+   "src": "y14",
+   "ss": 14.0,
+   "mode": "blur",
+   "note": "...lekin Tehron rozi boʻlishiga ishonchi komil emas.",
+   "file": "youtube_footage/Y14_Trump_whenever_I_want.mp4",
+   "credit": "VIDEO: YouTube / Jordan Rachel (qayta joylangan)",
+   "url": "https://www.youtube.com/watch?v=cs9RqADhfvw"
+  },
+  {
+   "id": "s073",
+   "start": 268.3,
+   "end": 273.4,
+   "src": "y15",
+   "ss": 0.3,
+   "mode": "blur",
+   "note": "Effi Defrin: Isroil istalgan daqiqada...",
+   "file": "youtube_footage/Y15_Israel_ready_strike_without_US.mp4",
+   "credit": "VIDEO: YouTube / Viral Desk",
+   "url": "https://www.youtube.com/watch?v=qwSE-0ZIfC8"
+  },
+  {
+   "id": "s074",
+   "start": 273.4,
+   "end": 277.0,
+   "src": "y15",
+   "ss": 13.5,
+   "mode": "blur",
+   "note": "...hatto AQShsiz ham zarba berishga tayyor.",
+   "file": "youtube_footage/Y15_Israel_ready_strike_without_US.mp4",
+   "credit": "VIDEO: YouTube / Viral Desk",
+   "url": "https://www.youtube.com/watch?v=qwSE-0ZIfC8"
+  },
+  {
+   "id": "s075",
+   "start": 277.0,
+   "end": 280.4,
+   "src": "y13",
+   "ss": 12.0,
+   "mode": "blur",
+   "note": "Diplomatiya toʻxtagani yoʻq.",
+   "file": "youtube_footage/Y13_AlJazeera_Qatar_mediation.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=49kTbCXVT6g"
+  },
+  {
+   "id": "s076",
+   "start": 280.4,
+   "end": 284.5,
+   "src": "y13",
+   "ss": 29.0,
+   "mode": "blur",
+   "note": "Qatar tinchlik muzokaralarini tiklashga harakat qilmoqda.",
+   "file": "youtube_footage/Y13_AlJazeera_Qatar_mediation.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=49kTbCXVT6g"
+  },
+  {
+   "id": "s077",
+   "start": 284.5,
+   "end": 290.6,
+   "src": "y08",
+   "ss": 108.0,
+   "mode": "crop:0,0.03,0.66,0.74",
+   "note": "Doha: Kuvaytga hujumlar diplomatiyaga zarar yetkazishi mumkin.",
+   "file": "youtube_footage/Y08_CBS_Iran_end_blockade.mp4",
+   "credit": "FOOTAGE: CBS News / YouTube",
+   "url": "https://www.youtube.com/watch?v=JhrdkTUYgak"
+  },
+  {
+   "id": "s078",
+   "start": 290.6,
+   "end": 302.5,
+   "src": "y21",
+   "ss": 319.0,
+   "mode": "fill",
+   "note": "Oldinda bir necha yoʻl bor. [GRAFIKA]",
+   "file": "youtube_footage/Y21_NBC_blockade_in_effect.mp4",
+   "credit": "ARXIV: NBC News / YouTube",
+   "url": "https://www.youtube.com/watch?v=W_Kj8JOCzGM"
+  },
+  {
+   "id": "s079",
+   "start": 302.5,
+   "end": 305.0,
+   "src": "y18",
+   "ss": 11.0,
+   "mode": "fill",
+   "note": "Aniq boʻlgan bitta narsa bor:",
+   "file": "youtube_footage/Y18_AlJazeera_oil_prices_surge.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=cj8yVm4RtI4"
+  },
+  {
+   "id": "s080",
+   "start": 305.0,
+   "end": 308.5,
+   "src": "xad",
+   "ss": 0.0,
+   "mode": "fill",
+   "note": "bozorlar har bir yangi xabarga keskin javob bermoqda.",
+   "file": "x_footage/AdriansCryptoo_2126343699554562048_22.mp4",
+   "credit": "VIDEO: @AdriansCryptoo / X",
+   "url": "https://x.com/AdriansCryptoo/status/2126343744974660031"
+  },
+  {
+   "id": "s081",
+   "start": 308.5,
+   "end": 312.3,
+   "src": "xf18",
+   "ss": 72.0,
+   "mode": "cropblur:0.28,0,0.44,1",
+   "note": "Urush yana Ormuz boʻgʻoziga qaytdi.",
+   "file": "x_footage/DefendtheFieldx_2125392157338955776_18.mp4",
+   "credit": "VIDEO: @DefendtheFieldx / X  •  IRGC kadri",
+   "url": "https://x.com/DefendtheFieldx/status/2125392244689551509"
+  },
+  {
+   "id": "s082",
+   "start": 312.3,
+   "end": 314.1,
+   "src": "xef",
+   "ss": 18.0,
+   "mode": "fill",
+   "note": "Tankerlar minaga urilmoqda.",
+   "file": "x_footage/EnglishFars_2124106057509208064_14.mp4",
+   "credit": "VIDEO: @EnglishFars / X  •  IRGC kadri",
+   "url": "https://x.com/EnglishFars/status/2124106094901449170"
+  },
+  {
+   "id": "s083",
+   "start": 314.1,
+   "end": 317.7,
+   "src": "y03",
+   "ss": 122.0,
+   "mode": "fill",
+   "note": "Kemalar soni keskin kamaydi.",
+   "file": "youtube_footage/Y03_NYPost_violating_tankers.mp4",
+   "credit": "FOOTAGE: New York Post / YouTube",
+   "url": "https://www.youtube.com/watch?v=NNlqFk8Vy1U"
+  },
+  {
+   "id": "s084",
+   "start": 317.7,
+   "end": 319.5,
+   "src": "y18",
+   "ss": 0.0,
+   "mode": "fill",
+   "note": "Neft narxi yana koʻtarildi.",
+   "file": "youtube_footage/Y18_AlJazeera_oil_prices_surge.mp4",
+   "credit": "ARXIV: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=cj8yVm4RtI4"
+  },
+  {
+   "id": "s085",
+   "start": 319.5,
+   "end": 323.6,
+   "src": "y17",
+   "ss": 190.0,
+   "mode": "fill",
+   "note": "Bu voqealar bizdan minglab km uzoqda...",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s086",
+   "start": 323.6,
+   "end": 326.9,
+   "src": "y17",
+   "ss": 2.0,
+   "mode": "fill",
+   "note": "...lekin taʼsiri har bir mamlakat iqtisodiyotiga yetib boradi.",
+   "file": "youtube_footage/Y17_euronews_Uzbekistan_transport.mp4",
+   "credit": "FOOTAGE: euronews / YouTube",
+   "url": "https://www.youtube.com/watch?v=A3KHabrBvXI"
+  },
+  {
+   "id": "s087",
+   "start": 326.9,
+   "end": 333.0,
+   "src": "y04",
+   "ss": 190.0,
+   "mode": "fill",
+   "note": "Savol: Ormuzdagi inqiroz Oʻzbekistondagi narxlarga taʼsir qiladimi? [GRAFIKA]",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  },
+  {
+   "id": "s088",
+   "start": 333.0,
+   "end": 339.62,
+   "src": "y04",
+   "ss": 15.5,
+   "mode": "fill",
+   "note": "Fikringizni izohlarda yozing. [YAKUNIY KARTA]",
+   "file": "youtube_footage/Y04_AlJazeera_how_hormuz_works.mp4",
+   "credit": "FOOTAGE: Al Jazeera English / YouTube",
+   "url": "https://www.youtube.com/watch?v=tW3degbCJBA"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "hook_title",
+   "start": 0.25,
+   "end": 4.0,
+   "props": {
+    "kicker": "SHOSHILINCH",
+    "title": "ORMUZ BOʻGʻOZI",
+    "sub": "Neft tankeri minaga urilib portladi"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 4.3,
+   "end": 8.3,
+   "props": {
+    "name": "IRGC bayonoti",
+    "role": "Eron Islom inqilobi qoʻriqchilari korpusi  •  27-noyabr 2026"
+   }
+  },
+  {
+   "type": "price_tag",
+   "start": 10.8,
+   "end": 13.9,
+   "props": {
+    "label": "BRENT",
+    "from": "$88",
+    "to": "$96–97",
+    "note": "24–27-noyabr"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 14.1,
+   "end": 17.2,
+   "props": {
+    "name": "Kuvayt",
+    "role": "Dron hujumi: 2 nafar Italiya fuqarosi halok boʻldi"
+   }
+  },
+  {
+   "type": "title_card",
+   "start": 27.9,
+   "end": 30.0,
+   "props": {
+    "title": "ORMUZ INQIROZI",
+    "sub": "Minalar, neft va bizning hamyonimiz"
+   }
+  },
+  {
+   "type": "date_stamp",
+   "start": 30.2,
+   "end": 34.6,
+   "props": {
+    "date": "27-NOYABR 2026",
+    "text": "IRGC bayonoti"
+   }
+  },
+  {
+   "type": "location",
+   "start": 34.8,
+   "end": 38.9,
+   "props": {
+    "place": "Gʻanam oroli shimoli",
+    "region": "Ormuz boʻgʻozi"
+   }
+  },
+  {
+   "type": "warning",
+   "start": 39.1,
+   "end": 45.0,
+   "props": {
+    "title": "TASDIQLANMAGAN",
+    "text": "Maʼlumot manbasi — IRGC. Mustaqil tasdiq hozircha yoʻq."
+   }
+  },
+  {
+   "type": "big_number",
+   "start": 51.4,
+   "end": 57.5,
+   "props": {
+    "value": 25,
+    "suffix": "+",
+    "label": "tanker hujumga uchragan",
+    "note": "24-noyabrgacha bir hafta  •  Manba: Al Jazeera"
+   }
+  },
+  {
+   "type": "traffic_chart",
+   "start": 59.0,
+   "end": 77.3,
+   "props": {}
+  },
+  {
+   "type": "timeline",
+   "start": 79.6,
+   "end": 120.3,
+   "props": {}
+  },
+  {
+   "type": "demands",
+   "start": 120.4,
+   "end": 126.5,
+   "props": {}
+  },
+  {
+   "type": "date_stamp",
+   "start": 126.6,
+   "end": 129.8,
+   "props": {
+    "date": "26-NOYABR 2026",
+    "text": "Kuvayt"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 132.8,
+   "end": 136.1,
+   "props": {
+    "name": "Antonio Tayani",
+    "role": "Italiya Tashqi ishlar vaziri"
+   }
+  },
+  {
+   "type": "stat_line",
+   "start": 136.4,
+   "end": 141.2,
+   "props": {
+    "value": "2",
+    "text": "italiyalik mutaxassis halok boʻldi",
+    "note": "Havo hujumidan mudofaa radar markazi"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 155.3,
+   "end": 158.9,
+   "props": {
+    "name": "Abbos Araqchi",
+    "role": "Eron Tashqi ishlar vaziri  •  ARXIV KADR"
+   }
+  },
+  {
+   "type": "quote",
+   "start": 159.0,
+   "end": 163.6,
+   "props": {
+    "text": "Bu urush uchun oldindan tayyorlab qoʻyilgan retseptga oʻxshaydi.",
+    "who": "Abbos Araqchi, Eron TIV"
+   }
+  },
+  {
+   "type": "share_fifth",
+   "start": 172.9,
+   "end": 178.5,
+   "props": {}
+  },
+  {
+   "type": "oil_chart",
+   "start": 180.4,
+   "end": 192.2,
+   "props": {}
+  },
+  {
+   "type": "price_tag",
+   "start": 192.4,
+   "end": 196.8,
+   "props": {
+    "label": "OKTABR",
+    "from": "",
+    "to": "> $100",
+    "note": "har kuni"
+   }
+  },
+  {
+   "type": "price_tag",
+   "start": 197.0,
+   "end": 199.6,
+   "props": {
+    "label": "OKTABR OXIRI",
+    "from": "",
+    "to": "$114",
+    "note": "barrel"
+   }
+  },
+  {
+   "type": "source_card",
+   "start": 208.8,
+   "end": 214.4,
+   "props": {
+    "kicker": "TAHLIL",
+    "title": "Mutaxassislar uch yoʻnalishni koʻrsatgan",
+    "source": "Manba: Kun.uz, mart 2026"
+   }
+  },
+  {
+   "type": "three_dirs",
+   "start": 214.5,
+   "end": 218.4,
+   "props": {}
+  },
+  {
+   "type": "chain",
+   "start": 233.2,
+   "end": 238.8,
+   "props": {}
+  },
+  {
+   "type": "kinetic",
+   "start": 245.6,
+   "end": 248.6,
+   "props": {
+    "text": "BUNDAN KEYIN NIMA BOʻLADI?"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 248.9,
+   "end": 254.2,
+   "props": {
+    "name": "Donald Tramp",
+    "role": "AQSh prezidenti  •  PBS intervyusidan"
+   }
+  },
+  {
+   "type": "quote",
+   "start": 254.5,
+   "end": 259.9,
+   "props": {
+    "text": "Ochigʻini aytsam — qachon xohlasam, oʻshanda.",
+    "who": "Donald Tramp, PBS"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 268.5,
+   "end": 273.3,
+   "props": {
+    "name": "Effi Defrin",
+    "role": "Isroil armiyasi matbuot kotibi"
+   }
+  },
+  {
+   "type": "quote",
+   "start": 273.5,
+   "end": 276.9,
+   "props": {
+    "text": "Isroil Eronga istalgan daqiqada, hatto AQSh kuchlarisiz ham zarba berishga tayyor.",
+    "who": "Effi Defrin"
+   }
+  },
+  {
+   "type": "lower_third",
+   "start": 280.6,
+   "end": 284.4,
+   "props": {
+    "name": "Shayx Muhammad bin Abdurahmon Ol Soniy",
+    "role": "Qatar Bosh vaziri va TIV"
+   }
+  },
+  {
+   "type": "scenarios",
+   "start": 290.7,
+   "end": 302.4,
+   "props": {}
+  },
+  {
+   "type": "recap",
+   "start": 308.6,
+   "end": 319.4,
+   "props": {}
+  },
+  {
+   "type": "question",
+   "start": 327.0,
+   "end": 333.0,
+   "props": {
+    "text": "Ormuzdagi inqiroz Oʻzbekistondagi narxlarga taʼsir qiladimi?"
+   }
+  },
+  {
+   "type": "end_card",
+   "start": 333.0,
+   "end": 339.62,
+   "props": {}
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "name": "impact",
+   "db": -4
+  },
+  {
+   "t": 1.58,
+   "name": "whoosh",
+   "db": -12
+  },
+  {
+   "t": 2.68,
+   "name": "hit",
+   "db": -10
+  },
+  {
+   "t": 4.05,
+   "name": "whoosh",
+   "db": -14
+  },
+  {
+   "t": 8.38,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 13.85,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 17.25,
+   "name": "riser",
+   "db": -18
+  },
+  {
+   "t": 21.85,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 26.0,
+   "name": "riser",
+   "db": -16
+  },
+  {
+   "t": 27.9,
+   "name": "impact",
+   "db": -8
+  },
+  {
+   "t": 30.0,
+   "name": "whoosh",
+   "db": -14
+  },
+  {
+   "t": 39.05,
+   "name": "glitch",
+   "db": -14
+  },
+  {
+   "t": 51.4,
+   "name": "tick",
+   "db": -12
+  },
+  {
+   "t": 59.0,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 77.3,
+   "name": "glitch",
+   "db": -14
+  },
+  {
+   "t": 79.6,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 93.8,
+   "name": "tick",
+   "db": -14
+  },
+  {
+   "t": 97.5,
+   "name": "tick",
+   "db": -14
+  },
+  {
+   "t": 104.1,
+   "name": "tick",
+   "db": -14
+  },
+  {
+   "t": 126.5,
+   "name": "impact",
+   "db": -12
+  },
+  {
+   "t": 152.8,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 159.0,
+   "name": "hit",
+   "db": -14
+  },
+  {
+   "t": 167.6,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 178.6,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 199.7,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 224.4,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 245.4,
+   "name": "riser",
+   "db": -20
+  },
+  {
+   "t": 248.6,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 290.6,
+   "name": "whoosh",
+   "db": -15
+  },
+  {
+   "t": 308.5,
+   "name": "impact",
+   "db": -12
+  },
+  {
+   "t": 327.0,
+   "name": "hit",
+   "db": -14
+  },
+  {
+   "t": 333.0,
+   "name": "whoosh",
+   "db": -14
+  }
+ ]
+}
