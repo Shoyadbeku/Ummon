@@ -362,13 +362,13 @@ for i in range(6):
 
 SOFA = Vector((-0.6, 1.95, 0.0))
 R_(import_gltf(PH + "Sofa_01/Sofa_01.gltf", tuple(SOFA), 0, 1.0))
-R_(import_gltf(PH + "modern_coffee_table_01/modern_coffee_table_01.gltf", (-0.6, 1.05, 0), 0, 1.0))
+TABLE = R_(import_gltf(PH + "modern_coffee_table_01/modern_coffee_table_01.gltf", (-0.6, 1.05, 0), 0, 1.0))
 R_(import_gltf(PH + "potted_plant_01/potted_plant_01.gltf", (-1.75, 2.2, 0), 20, 1.25))
 R_(import_gltf(PH + "potted_plant_01/potted_plant_01.gltf", (0.6, 2.25, 0), 70, 1.0))
 R_(import_gltf(PH + "fancy_picture_frame_01/fancy_picture_frame_01.gltf", (-0.6, Y1 - 0.03, 1.5), 0, 1.4))
 R_(import_gltf(PH + "Shelf_01/Shelf_01.gltf", (X1 - 0.2, 1.6, 0), -90, 1.0))
 R_(import_gltf(PH + "book_encyclopedia_set_01/book_encyclopedia_set_01.gltf", (X1 - 0.3, 1.6, 1.03), -90, 1.0))
-R_(import_gltf(PH + "modern_arm_chair_01/modern_arm_chair_01.gltf", (1.1, 0.6, 0), 120, 1.0))
+CHAIR = R_(import_gltf(PH + "modern_arm_chair_01/modern_arm_chair_01.gltf", (1.1, 0.6, 0), 120, 1.0))
 R_(plane("rug", (2.4, 1.7), (-0.6, 1.15, 0.004), mat("rug", (0.6, 0.36, 0.26), 0.95)))
 cer = [mat("cer_w", (0.9, 0.9, 0.88), 0.25, coat=0.6), mat("cer_r", (0.7, 0.2, 0.08), 0.3, coat=0.6)]
 for i, (x, y) in enumerate(((-0.75, 1.0), (-0.45, 1.12))):
@@ -746,6 +746,11 @@ vis(mq["root"], [S["bug"]])
 vis(skin, MACR)
 
 for o in room_objs: vis(o, ROOM)
+# "touch" past burchakli kamerasi stol ichidan o'tadi: shu kadrda stol va krujkalarni yashir
+for o in [TABLE] + [x for x in bpy.data.objects if x.name.startswith("cup")]:
+    vis(o, [r for r in ROOM if r != S["touch"]])
+# "other" aylanma kamerasi kreslo ichidan boshlanadi
+vis(CHAIR, [r for r in ROOM if r != S["other"]])
 
 # ======================================================================
 # 5) KAMERALAR

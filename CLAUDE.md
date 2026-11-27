@@ -272,3 +272,6 @@ Render: `OUT=/tmp/claude-0/frames/ SAMPLES=14 /tmp/claude-0/bvenv/bin/python -I 
   (teskari yo'nalish uchun phase'ni kamaytir).
 - Makro terida barmoq uchi teridan ~2 mm baland bo'lsa "osilib" ko'rinadi: uchi z = teri + 0.0022.
 - 40% (432x768), 6 sample: mehmonxona/rentgen/makro ~7.5 s/kadr (756 kadr ≈ 1.6 soat).
+- Past burchakli/aylanma kamera mebel (kofe stoli, krujka, kreslo) ichidan o'tsa kadr qop-qora yoki oldida xira dog' chiqadi: renderdan
+  oldin har kadrda kameradan 9 ta nur ot (`scene.ray_cast`, `hide_render` li ob'ektlarni o'tkazib yubor, chegara 0.3 m) va to'sgan
+  mebelni shu kadrda `vis` bilan yashir (`qitiq.py: TABLE, CHAIR`). Montajdan oldin kadrlar o'rtacha yorqinligini ham tekshir (qora kadr ≈ 0).
